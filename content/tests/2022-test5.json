@@ -1052,7 +1052,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "đối tác; thường chỉ người/tổ chức, không phải mối quan hệ"
+       "meaning": "đối tác"
       },
       {
        "term": "reserve",
@@ -1202,10 +1202,9 @@
       {
        "term": "potential",
        "pos": [
-        "adj",
-        "n"
+        "adj"
        ],
-       "meaning": "tiềm năng"
+       "meaning": "tiềm năng; tiềm năng, có khả năng"
       },
       {
        "term": "increase",
@@ -1597,7 +1596,7 @@
        "pos": [
         "adv"
        ],
-       "meaning": "đặc biệt; một cách đặc biệt"
+       "meaning": "đặc biệt"
       },
       {
        "term": "data",
@@ -2314,12 +2313,13 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "limited",
        "pos": [
-        "adj"
+        "adj",
+        "v"
        ],
        "meaning": "giới hạn; có hạn"
       },
@@ -2770,7 +2770,7 @@
       {
        "term": "partnering",
        "pos": [],
-       "meaning": "v-ing , không phải danh từ; hợp tác"
+       "meaning": "v-ing , không phải danh từ"
       },
       {
        "term": "initial",
@@ -3166,13 +3166,6 @@
        "meaning": "bộ"
       },
       {
-       "term": "designer",
-       "pos": [
-        "n"
-       ],
-       "meaning": "các nhà thiết kế; nhà thiết kế"
-      },
-      {
        "term": "last",
        "pos": [
         "adj",
@@ -3220,6 +3213,13 @@
         "adj"
        ],
        "meaning": "linh hoạt"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       },
       {
        "term": "create",
@@ -3937,7 +3937,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "order",
@@ -3989,10 +3989,34 @@
         "D": "about"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) so. Liên từ \"so\" (vì vậy) phù hợp nhất để kết nối hai mệnh đề độc lập và chỉ ra mối quan hệ nguyên nhân-kết quả. Cấu trúc \"..., so + clause\" được sử dụng để đưa ra một kết luận hoặc kết quả. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: Cô Abe sẽ đặt hàng vào ngày mai, --- hãy nói ngay với cô ấy nếu bạn cần bất cứ thứ gì.\nA. hơn (so sánh)\nB. đợi (động từ)\nC. vì vậy (liên từ)\nD. về (giới từ)",
+       "explanation": "Đáp án đúng là (C) so. Liên từ \"so\" (vì vậy) phù hợp nhất để kết nối hai mệnh đề độc lập và chỉ ra mối quan hệ nguyên nhân-kết quả. Cấu trúc \"..., so + clause\" được sử dụng để đưa ra một kết luận hoặc kết quả. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: Cô Abe sẽ đặt hàng vào ngày mai, --- hãy nói ngay với cô ấy nếu bạn cần bất cứ thứ gì.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "hơn"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đợi"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "vì vậy"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "về"
+        }
+       }
       }
      ]
     },
@@ -4017,10 +4041,36 @@
         "D": "before"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) before. Liên từ \"before\" (trước khi) phù hợp nhất để chỉ ra thời điểm cần tắt thiết bị điện tử. Cấu trúc \"before + clause\" được sử dụng để chỉ ra một hành động xảy ra trước một hành động khác. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Nhà hát Knysya yêu cầu tất cả các thiết bị điện tử phải được tắt âm -- vở kịch bắt đầu.\nA. cũng (trạng từ)\nB. nhưng (liên từ)\nC. trừ khi (liên từ)\nD. trước khi (liên từ)",
+       "explanation": "Đáp án đúng là (D) before. Liên từ \"before\" (trước khi) phù hợp nhất để chỉ ra thời điểm cần tắt thiết bị điện tử. Cấu trúc \"before + clause\" được sử dụng để chỉ ra một hành động xảy ra trước một hành động khác. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Nhà hát Knysya yêu cầu tất cả các thiết bị điện tử phải được tắt âm -- vở kịch bắt đầu.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cũng"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "nhưng"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trừ khi"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trước khi"
+        }
+       }
       }
      ]
     },
@@ -4045,10 +4095,36 @@
         "D": "Contact"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) Contact. Động từ mệnh lệnh \"Contact\" (Hãy liên hệ) phù hợp nhất để bắt đầu một câu chỉ dẫn. Cấu trúc mệnh lệnh thường bắt đầu bằng một động từ nguyên mẫu. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: --- Phòng Nhân sự nếu bạn có câu hỏi về việc xin nghỉ phép.\nA. Đang liên hệ (động từ -ing)\nB. Đã liên hệ (động từ quá khứ)\nC. Liên hệ (động từ ngôi thứ 3 số ít)\nD. Hãy liên hệ (động từ mệnh lệnh)",
+       "explanation": "Đáp án đúng là (D) Contact. Động từ mệnh lệnh \"Contact\" (Hãy liên hệ) phù hợp nhất để bắt đầu một câu chỉ dẫn. Cấu trúc mệnh lệnh thường bắt đầu bằng một động từ nguyên mẫu. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: --- Phòng Nhân sự nếu bạn có câu hỏi về việc xin nghỉ phép.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang liên hệ"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã liên hệ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "liên hệ"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hãy liên hệ"
+        }
+       }
       }
      ]
     },
@@ -4073,10 +4149,28 @@
         "D": "Enough"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) Almost. Phó từ \"Almost\" (Gần) phù hợp nhất để chỉ ra một số lượng xấp xỉ. Cấu trúc \"Almost + number\" được sử dụng để chỉ ra một số lượng gần đúng. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: -- tám mươi nghìn người đã tham dự trận bóng đá hôm qua.\nA. Gần (phó từ)\nB. Nhiều hơn (phó từ so sánh)\nC. Thường xuyên (phó từ)\nD. Đủ (phó từ)",
+       "explanation": "Đáp án đúng là (A) Almost. Phó từ \"Almost\" (Gần) phù hợp nhất để chỉ ra một số lượng xấp xỉ. Cấu trúc \"Almost + number\" được sử dụng để chỉ ra một số lượng gần đúng. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: -- tám mươi nghìn người đã tham dự trận bóng đá hôm qua.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "gần"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "nhiều hơn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "thường xuyên"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đủ"
+        }
+       }
       }
      ]
     },
@@ -4101,10 +4195,36 @@
         "D": "confusion"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) confusing. Tính từ \"confusing\" (gây nhầm lẫn) phù hợp nhất để mô tả trạng thái của trang web. Cấu trúc \"is + adjective\" được sử dụng để mô tả một đặc điểm. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Khách truy cập trực tuyến báo cáo rằng trang web của công ty chúng ta hơi --.\nA. nhầm lẫn (động từ)\nB. làm nhầm lẫn (động từ ngôi thứ 3 số ít)\nC. gây nhầm lẫn (tính từ)\nD. sự nhầm lẫn (danh từ)",
+       "explanation": "Đáp án đúng là (C) confusing. Tính từ \"confusing\" (gây nhầm lẫn) phù hợp nhất để mô tả trạng thái của trang web. Cấu trúc \"is + adjective\" được sử dụng để mô tả một đặc điểm. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Khách truy cập trực tuyến báo cáo rằng trang web của công ty chúng ta hơi --.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "nhầm lẫn"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "làm nhầm lẫn"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "gây nhầm lẫn"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự nhầm lẫn"
+        }
+       }
       }
      ]
     },
@@ -4129,10 +4249,36 @@
         "D": "needs"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) delays. Danh từ \"delays\" (sự chậm trễ) phù hợp nhất trong ngữ cảnh về tình trạng giao thông. Cấu trúc \"noun + are expected\" được sử dụng để dự đoán một tình huống. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: -- giao thông dự kiến sẽ xảy ra vào tuần tới dọc theo đường Reimers.\nA. tài xế (danh từ)\nB. đám đông (danh từ)\nC. sự chậm trễ (danh từ)\nD. nhu cầu (danh từ)",
+       "explanation": "Đáp án đúng là (C) delays. Danh từ \"delays\" (sự chậm trễ) phù hợp nhất trong ngữ cảnh về tình trạng giao thông. Cấu trúc \"noun + are expected\" được sử dụng để dự đoán một tình huống. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: -- giao thông dự kiến sẽ xảy ra vào tuần tới dọc theo đường Reimers.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tài xế"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "đám đông"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự chậm trễ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhu cầu"
+        }
+       }
       }
      ]
     },
@@ -4157,10 +4303,30 @@
         "D": "highly"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) highly. Trạng từ \"highly\" (có trình độ cao) phù hợp nhất để bổ nghĩa cho tính từ \"qualified\". Cấu trúc \"adverb + adjective\" được sử dụng để mô tả mức độ của một tính chất. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Bệnh viện Shaloub muốn thuê thêm một số nhân viên phòng thí nghiệm -- có trình độ.\nA. cao hơn (tính từ so sánh)\nB. cao nhất (tính từ so sánh nhất)\nC. cao (tính từ)\nD. có trình độ cao (trạng từ)",
+       "explanation": "Đáp án đúng là (D) highly. Trạng từ \"highly\" (có trình độ cao) phù hợp nhất để bổ nghĩa cho tính từ \"qualified\". Cấu trúc \"adverb + adjective\" được sử dụng để mô tả mức độ của một tính chất. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Bệnh viện Shaloub muốn thuê thêm một số nhân viên phòng thí nghiệm -- có trình độ.\nC. cao (tính từ)",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cao hơn"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cao nhất"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "có trình độ cao"
+        }
+       }
       }
      ]
     },
@@ -4185,10 +4351,38 @@
         "D": "near"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) last. Tính từ \"last\" (cuối cùng) phù hợp nhất để chỉ ra người rời phòng sau cùng. Cấu trúc \"the + adjective + noun\" được sử dụng để chỉ ra một đối tượng cụ thể. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Bất cứ khi nào bạn là người -- rời khỏi phòng, hãy tắt đèn.\nA. cuối cùng (tính từ)\nB. bên trong (giới từ/tính từ)\nC. kết thúc (động từ)\nD. gần (tính từ/giới từ)",
+       "explanation": "Đáp án đúng là (A) last. Tính từ \"last\" (cuối cùng) phù hợp nhất để chỉ ra người rời phòng sau cùng. Cấu trúc \"the + adjective + noun\" được sử dụng để chỉ ra một đối tượng cụ thể. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Bất cứ khi nào bạn là người -- rời khỏi phòng, hãy tắt đèn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cuối cùng"
+        },
+        "B": {
+         "pos": [
+          "adj",
+          "prep"
+         ],
+         "meaning": "bên trong"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "kết thúc"
+        },
+        "D": {
+         "pos": [
+          "adj",
+          "prep"
+         ],
+         "meaning": "gần"
+        }
+       }
       }
      ]
     },
@@ -4213,10 +4407,36 @@
         "D": "conversationally"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) conversation. Danh từ \"conversation\" (cuộc trò chuyện) phù hợp nhất để chỉ cuộc trao đổi ngắn. Cấu trúc \"a + adjective + noun\" được sử dụng để mô tả một sự việc cụ thể. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Sau một cuộc —-- ngắn với kỹ thuật viên trưởng, ông Moore đồng ý cập nhật sổ tay vận hành.\nA. trò chuyện (động từ ngôi thứ 3 số ít)\nB. cuộc trò chuyện (danh từ)\nC. mang tính trò chuyện (tính từ)\nD. một cách trò chuyện (trạng từ)",
+       "explanation": "Đáp án đúng là (B) conversation. Danh từ \"conversation\" (cuộc trò chuyện) phù hợp nhất để chỉ cuộc trao đổi ngắn. Cấu trúc \"a + adjective + noun\" được sử dụng để mô tả một sự việc cụ thể. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Sau một cuộc —-- ngắn với kỹ thuật viên trưởng, ông Moore đồng ý cập nhật sổ tay vận hành.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "trò chuyện"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cuộc trò chuyện"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "mang tính trò chuyện"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách trò chuyện"
+        }
+       }
       }
      ]
     },
@@ -4241,10 +4461,36 @@
         "D": "between"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) beyond. Giới từ \"beyond\" (vượt quá) phù hợp nhất để chỉ ra mức độ vượt quá kỳ vọng. Cấu trúc \"verb + beyond + noun\" được sử dụng để diễn tả việc vượt qua một giới hạn hoặc mức độ. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sau lợi nhuận kỷ lục, giá cổ phiếu của Golden Shamrock Jewelry đã tăng ----- kỳ vọng của chúng tôi.\nA. bên cạnh (giới từ)\nB. vượt quá (giới từ)\nC. phía sau (giới từ)\nD. giữa (giới từ)",
+       "explanation": "Đáp án đúng là (B) beyond. Giới từ \"beyond\" (vượt quá) phù hợp nhất để chỉ ra mức độ vượt quá kỳ vọng. Cấu trúc \"verb + beyond + noun\" được sử dụng để diễn tả việc vượt qua một giới hạn hoặc mức độ. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sau lợi nhuận kỷ lục, giá cổ phiếu của Golden Shamrock Jewelry đã tăng ----- kỳ vọng của chúng tôi.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên cạnh"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vượt quá"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "phía sau"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        }
+       }
       }
      ]
     },
@@ -4269,10 +4515,36 @@
         "D": "completing"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) complete. Động từ \"complete\" (hoàn thành) phù hợp nhất để chỉ việc kết thúc quá trình quay phim. Cấu trúc \"cannot + verb\" được sử dụng để diễn tả không có khả năng thực hiện một hành động. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Chúng tôi không thể -- việc quay phim tài liệu \"Morning after Night\" mà không có đủ kinh phí.\nA. hoàn toàn (trạng từ)\nB. sự hoàn thành (danh từ)\nC. hoàn thành (động từ)\nD. đang hoàn thành (động từ -ing)",
+       "explanation": "Đáp án đúng là (C) complete. Động từ \"complete\" (hoàn thành) phù hợp nhất để chỉ việc kết thúc quá trình quay phim. Cấu trúc \"cannot + verb\" được sử dụng để diễn tả không có khả năng thực hiện một hành động. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Chúng tôi không thể -- việc quay phim tài liệu \"Morning after Night\" mà không có đủ kinh phí.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hoàn toàn"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự hoàn thành"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hoàn thành"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang hoàn thành"
+        }
+       }
       }
      ]
     },
@@ -4297,10 +4569,36 @@
         "D": "clearly"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) promptly. Trạng từ \"promptly\" (đúng giờ) phù hợp nhất để mô tả thời gian đến của tàu. Cấu trúc \"will + verb + adverb\" được sử dụng để mô tả cách thức một hành động sẽ diễn ra trong tương lai. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Hãy đến ga sớm vài phút vì tàu của ông Xu sẽ đến ---- lúc 7 giờ tối.\nA. cẩn thận (trạng từ)\nB. bất ngờ (trạng từ)\nC. đúng giờ (trạng từ)\nD. rõ ràng (trạng từ)",
+       "explanation": "Đáp án đúng là (C) promptly. Trạng từ \"promptly\" (đúng giờ) phù hợp nhất để mô tả thời gian đến của tàu. Cấu trúc \"will + verb + adverb\" được sử dụng để mô tả cách thức một hành động sẽ diễn ra trong tương lai. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Hãy đến ga sớm vài phút vì tàu của ông Xu sẽ đến ---- lúc 7 giờ tối.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cẩn thận"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "bất ngờ"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đúng giờ"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "rõ ràng"
+        }
+       }
       }
      ]
     },
@@ -4325,10 +4623,24 @@
         "D": "Nothing"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) Nothing. Đại từ phủ định \"Nothing\" (Không có gì) phù hợp nhất để chỉ ra rằng không thể thay đổi đơn hàng. Cấu trúc \"Nothing + can be done\" được sử dụng để diễn tả không có khả năng thực hiện một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: -- có thể được thực hiện để sửa đổi đơn hàng của bạn, vì hàng hóa đã được gửi đi.\nA. Của chúng tôi (đại từ sở hữu)\nB. Không ai (đại từ)\nC. Những người khác (đại từ)\nD. Không có gì (đại từ phủ định)",
+       "explanation": "Đáp án đúng là (D) Nothing. Đại từ phủ định \"Nothing\" (Không có gì) phù hợp nhất để chỉ ra rằng không thể thay đổi đơn hàng. Cấu trúc \"Nothing + can be done\" được sử dụng để diễn tả không có khả năng thực hiện một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: -- có thể được thực hiện để sửa đổi đơn hàng của bạn, vì hàng hóa đã được gửi đi.\nB. Không ai (đại từ)\nD. Không có gì (đại từ phủ định)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của chúng tôi"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "những người khác"
+        }
+       }
       }
      ]
     },
@@ -4353,10 +4665,36 @@
         "D": "prefer"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) prefer. Động từ \"prefer\" (thích) phù hợp nhất để diễn tả sự ưa thích của sinh viên mới tốt nghiệp đối với môi trường làm việc. Cấu trúc \"tend to + verb\" được sử dụng để diễn tả một xu hướng. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Những người mới tốt nghiệp có xu hướng —--- nơi làm việc khuyến khích làm việc nhóm và hợp tác.\nA. nghĩ (động từ)\nB. ứng tuyển (động từ)\nC. mở rộng (động từ)\nD. thích (động từ)",
+       "explanation": "Đáp án đúng là (D) prefer. Động từ \"prefer\" (thích) phù hợp nhất để diễn tả sự ưa thích của sinh viên mới tốt nghiệp đối với môi trường làm việc. Cấu trúc \"tend to + verb\" được sử dụng để diễn tả một xu hướng. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Những người mới tốt nghiệp có xu hướng —--- nơi làm việc khuyến khích làm việc nhóm và hợp tác.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "nghĩ"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "ứng tuyển"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "mở rộng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "thích"
+        }
+       }
       }
      ]
     },
@@ -4381,10 +4719,36 @@
         "D": "proceeding"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) procedures. Danh từ số nhiều \"procedures\" (quy trình) phù hợp nhất để chỉ các bước cụ thể trong quá trình làm sạch. Cấu trúc \"follow + noun\" được sử dụng để diễn tả việc tuân thủ một quy trình. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Zhang Cleaning rất cẩn thận để đảm bảo rằng tất cả nhân viên của họ tuân theo các —--- vệ sinh cụ thể.\nA. tiến hành (động từ)\nB. quy trình (danh từ số nhiều)\nC. theo thủ tục (tính từ)\nD. đang tiến hành (động từ -ing)",
+       "explanation": "Đáp án đúng là (B) procedures. Danh từ số nhiều \"procedures\" (quy trình) phù hợp nhất để chỉ các bước cụ thể trong quá trình làm sạch. Cấu trúc \"follow + noun\" được sử dụng để diễn tả việc tuân thủ một quy trình. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Zhang Cleaning rất cẩn thận để đảm bảo rằng tất cả nhân viên của họ tuân theo các —--- vệ sinh cụ thể.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tiến hành"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "quy trình"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "theo thủ tục"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang tiến hành"
+        }
+       }
       }
      ]
     },
@@ -4409,10 +4773,24 @@
         "D": "together with"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) because of. Cụm từ \"because of\" (bởi vì) phù hợp nhất để chỉ ra lý do nhà hàng được đánh giá cao. Cấu trúc \"mainly + because of + noun phrase\" được sử dụng để chỉ ra nguyên nhân chính. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Mumbai Jewel là một nhà hàng được đánh giá cao rộng rãi, chủ yếu — các bữa tối buffet ngon lành của nó.\nA. chẳng hạn như (cụm từ)\nB. không chỉ (cụm từ)\nC. bởi vì (cụm từ)\nD. cùng với (cụm từ)",
+       "explanation": "Đáp án đúng là (C) because of. Cụm từ \"because of\" (bởi vì) phù hợp nhất để chỉ ra lý do nhà hàng được đánh giá cao. Cấu trúc \"mainly + because of + noun phrase\" được sử dụng để chỉ ra nguyên nhân chính. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Mumbai Jewel là một nhà hàng được đánh giá cao rộng rãi, chủ yếu — các bữa tối buffet ngon lành của nó.\nB. không chỉ (cụm từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chẳng hạn như"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "bởi vì"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "cùng với"
+        }
+       }
       }
      ]
     },
@@ -4437,10 +4815,36 @@
         "D": "oneself"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) oneself. Đại từ phản thân \"oneself\" (bản thân mình) phù hợp nhất để nhấn mạnh việc chuẩn bị cá nhân. Cấu trúc \"prepare + reflexive pronoun\" được sử dụng để chỉ ra hành động tự chuẩn bị. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Trước một cuộc phỏng vấn việc làm, điều quan trọng là chuẩn bị ------ để trả lời những câu hỏi thường gặp nhất.\nA. của ai (đại từ nghi vấn)\nB. bất kỳ cái nào (đại từ)\nC. của họ (đại từ sở hữu)\nD. bản thân mình (đại từ phản thân)",
+       "explanation": "Đáp án đúng là (D) oneself. Đại từ phản thân \"oneself\" (bản thân mình) phù hợp nhất để nhấn mạnh việc chuẩn bị cá nhân. Cấu trúc \"prepare + reflexive pronoun\" được sử dụng để chỉ ra hành động tự chuẩn bị. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Trước một cuộc phỏng vấn việc làm, điều quan trọng là chuẩn bị ------ để trả lời những câu hỏi thường gặp nhất.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của ai"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bất kỳ cái nào"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của họ"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bản thân mình"
+        }
+       }
       }
      ]
     },
@@ -4465,10 +4869,36 @@
         "D": "guaranteed"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) required. Tính từ \"required\" (bắt buộc) phù hợp nhất để diễn tả việc đọc sách không phải là yêu cầu bắt buộc. Cấu trúc \"it is not + adjective\" được sử dụng để phủ định một trạng thái. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Mặc dù nó không --，nhân viên được khuyến khích đọc cuốn sách \"Cân bằng Công việc và Cuộc sống\" của Joan Frantz.\nA. bắt buộc (tính từ)\nB. xuất bản (động từ quá khứ)\nC. giới hạn (tính từ)\nD. đảm bảo (tính từ)",
+       "explanation": "Đáp án đúng là (A) required. Tính từ \"required\" (bắt buộc) phù hợp nhất để diễn tả việc đọc sách không phải là yêu cầu bắt buộc. Cấu trúc \"it is not + adjective\" được sử dụng để phủ định một trạng thái. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Mặc dù nó không --，nhân viên được khuyến khích đọc cuốn sách \"Cân bằng Công việc và Cuộc sống\" của Joan Frantz.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bắt buộc"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "xuất bản"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "giới hạn"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đảm bảo"
+        }
+       }
       }
      ]
     },
@@ -4493,10 +4923,36 @@
         "D": "advises"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) advisable. Tính từ \"advisable\" (đáng khuyên) phù hợp nhất để diễn tả một lời khuyên. Cấu trúc \"It is + adjective + to + verb\" được sử dụng để đưa ra một lời khuyên chung. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: —-- nên mang giày boots chắc chắn để đi bộ đường dài.\nA. khuyên (động từ)\nB. cố vấn (danh từ)\nC. đáng khuyên (tính từ)\nD. khuyên (động từ ngôi thứ 3 số ít)",
+       "explanation": "Đáp án đúng là (C) advisable. Tính từ \"advisable\" (đáng khuyên) phù hợp nhất để diễn tả một lời khuyên. Cấu trúc \"It is + adjective + to + verb\" được sử dụng để đưa ra một lời khuyên chung. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: —-- nên mang giày boots chắc chắn để đi bộ đường dài.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "khuyên"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cố vấn"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng khuyên"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "khuyên"
+        }
+       }
       }
      ]
     },
@@ -4521,10 +4977,28 @@
         "D": "ahead of"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) at least. Cụm từ \"at least\" (ít nhất) phù hợp nhất để chỉ ra mức nhiệt độ tối thiểu. Cấu trúc \"at least + number\" được sử dụng để chỉ ra một giá trị tối thiểu. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Công viên Nordel sẽ mở cửa cho mùa này khi nhiệt độ trung bình ban ngày đạt ----- 15 độ.\nA. ít nhất (cụm từ)\nB. kể từ (cụm từ)\nC. cùng với (cụm từ)\nD. trước (cụm từ)",
+       "explanation": "Đáp án đúng là (A) at least. Cụm từ \"at least\" (ít nhất) phù hợp nhất để chỉ ra mức nhiệt độ tối thiểu. Cấu trúc \"at least + number\" được sử dụng để chỉ ra một giá trị tối thiểu. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Công viên Nordel sẽ mở cửa cho mùa này khi nhiệt độ trung bình ban ngày đạt ----- 15 độ.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "ít nhất"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "kể từ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cùng với"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trước"
+        }
+       }
       }
      ]
     },
@@ -4549,10 +5023,36 @@
         "D": "assurance"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) assurance. Danh từ \"assurance\" (sự đảm bảo) phù hợp nhất để chỉ sự cam kết của công ty. Cấu trúc \"wait for + noun\" được sử dụng để diễn tả việc chờ đợi một điều gì đó. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Trước khi đầu tư, ông Hwang sẽ chờ đợi sự ----- lớn hơn rằng Briomer Tech hoàn toàn cam kết với dự án.\nA. đảm bảo (động từ)\nB. được đảm bảo (tính từ)\nC. chắc chắn (trạng từ)\nD. sự đảm bảo (danh từ)",
+       "explanation": "Đáp án đúng là (D) assurance. Danh từ \"assurance\" (sự đảm bảo) phù hợp nhất để chỉ sự cam kết của công ty. Cấu trúc \"wait for + noun\" được sử dụng để diễn tả việc chờ đợi một điều gì đó. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Trước khi đầu tư, ông Hwang sẽ chờ đợi sự ----- lớn hơn rằng Briomer Tech hoàn toàn cam kết với dự án.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đảm bảo"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "được đảm bảo"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "chắc chắn"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự đảm bảo"
+        }
+       }
       }
      ]
     },
@@ -4577,10 +5077,30 @@
         "D": "evenly"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) eventually. Trạng từ \"eventually\" (cuối cùng) phù hợp nhất để chỉ ra kết quả dự kiến trong tương lai. Cấu trúc \"are expected to + adverb + verb\" được sử dụng để diễn tả một dự đoán. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Lợi nhuận hàng năm của Tralim Consulting dự kiến sẽ --.. vượt quá 5 triệu euro.\nA. chính xác (trạng từ)\nB. cực kỳ (trạng từ)\nC. cuối cùng (trạng từ)\nD. đều đặn (trạng từ)",
+       "explanation": "Đáp án đúng là (C) eventually. Trạng từ \"eventually\" (cuối cùng) phù hợp nhất để chỉ ra kết quả dự kiến trong tương lai. Cấu trúc \"are expected to + adverb + verb\" được sử dụng để diễn tả một dự đoán. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Lợi nhuận hàng năm của Tralim Consulting dự kiến sẽ --.. vượt quá 5 triệu euro.\nA. chính xác (trạng từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cực kỳ"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cuối cùng"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đều đặn"
+        }
+       }
       }
      ]
     },
@@ -4605,10 +5125,34 @@
         "D": "more essentially"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) most essential. Cụm từ \"most essential\" (quan trọng nhất) phù hợp nhất để diễn tả mức độ cao nhất của tầm quan trọng. Cấu trúc \"the + superlative adjective\" được sử dụng để chỉ ra mức độ cao nhất của một tính chất. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Mặc dù nhiều yếu tố góp phần vào sự thành công của một doanh nghiệp, ông Lee cho rằng giữ cho khách hàng hài lòng là điều ------.\nA. thiết yếu (tính từ)\nB. quan trọng nhất (tính từ so sánh nhất)\nC. về cơ bản (trạng từ)\nD. thiết yếu hơn (cụm từ so sánh)",
+       "explanation": "Đáp án đúng là (B) most essential. Cụm từ \"most essential\" (quan trọng nhất) phù hợp nhất để diễn tả mức độ cao nhất của tầm quan trọng. Cấu trúc \"the + superlative adjective\" được sử dụng để chỉ ra mức độ cao nhất của một tính chất. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Mặc dù nhiều yếu tố góp phần vào sự thành công của một doanh nghiệp, ông Lee cho rằng giữ cho khách hàng hài lòng là điều ------.",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thiết yếu"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "quan trọng nhất"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "về cơ bản"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thiết yếu hơn"
+        }
+       }
       }
      ]
     },
@@ -4633,10 +5177,36 @@
         "D": "comply"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) detail. Động từ \"detail\" (giải thích chi tiết) phù hợp nhất để mô tả việc trình bày các thay đổi ngân sách. Cấu trúc \"to + verb\" được sử dụng để chỉ mục đích của một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Cô Alshammari đã mất một giờ đồng hồ để - từng thay đổi trong ngân sách trong cuộc họp nhân viên.\nA. giải thích chi tiết (động từ)\nB. tham dự (động từ)\nC. phản hồi (động từ)\nD. tuân thủ (động từ)",
+       "explanation": "Đáp án đúng là (A) detail. Động từ \"detail\" (giải thích chi tiết) phù hợp nhất để mô tả việc trình bày các thay đổi ngân sách. Cấu trúc \"to + verb\" được sử dụng để chỉ mục đích của một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Cô Alshammari đã mất một giờ đồng hồ để - từng thay đổi trong ngân sách trong cuộc họp nhân viên.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "giải thích chi tiết"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tham dự"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phản hồi"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tuân thủ"
+        }
+       }
       }
      ]
     },
@@ -4661,10 +5231,28 @@
         "D": "far ahead"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) in advance. Cụm từ \"in advance\" (trước) phù hợp nhất để chỉ thời gian đặt phòng trước sự kiện. Cấu trúc \"more than + time period + in advance\" được sử dụng để chỉ ra một khoảng thời gian tối thiểu trước một sự kiện. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Khách hàng được khuyến nghị đặt phòng Desert Rose Ballroom cho sự kiện của họ hơn bốn tháng -------.\nA. theo thời gian (cụm từ)\nB. trước (cụm từ)\nC. cho đến nay (cụm từ)\nD. xa trước (cụm từ)",
+       "explanation": "Đáp án đúng là (B) in advance. Cụm từ \"in advance\" (trước) phù hợp nhất để chỉ thời gian đặt phòng trước sự kiện. Cấu trúc \"more than + time period + in advance\" được sử dụng để chỉ ra một khoảng thời gian tối thiểu trước một sự kiện. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Khách hàng được khuyến nghị đặt phòng Desert Rose Ballroom cho sự kiện của họ hơn bốn tháng -------.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "theo thời gian"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "trước"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cho đến nay"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "xa trước"
+        }
+       }
       }
      ]
     },
@@ -4689,10 +5277,30 @@
         "D": "competitive"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) accurate. Tính từ \"accurate\" (chính xác) phù hợp nhất để mô tả chất lượng dữ liệu cần thiết. Cấu trúc \"as + adjective + as possible\" được sử dụng để chỉ ra mức độ cao nhất có thể của một tính chất. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Để hiểu đúng về mức sản xuất của chúng ta, dữ liệu từ các địa điểm khoan dầu phải ---- nhất có thể.\nA. chính xác (tính từ)\nB. lạc quan (tính từ)\nC. độc quyền (tính từ)\nD. cạnh tranh (tính từ)",
+       "explanation": "Đáp án đúng là (A) accurate. Tính từ \"accurate\" (chính xác) phù hợp nhất để mô tả chất lượng dữ liệu cần thiết. Cấu trúc \"as + adjective + as possible\" được sử dụng để chỉ ra mức độ cao nhất có thể của một tính chất. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Để hiểu đúng về mức sản xuất của chúng ta, dữ liệu từ các địa điểm khoan dầu phải ---- nhất có thể.\nA. chính xác (tính từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "lạc quan"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "độc quyền"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cạnh tranh"
+        }
+       }
       }
      ]
     },
@@ -4717,10 +5325,34 @@
         "D": "substances"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) substantially. Trạng từ \"substantially\" (đáng kể) phù hợp nhất để mô tả mức độ cải thiện. Cấu trúc \"would + verb + adverb\" được sử dụng để diễn tả kết quả có thể xảy ra. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Việc áp dụng phần mềm lập hóa đơn tiên tiến sẽ cải thiện quy trình quản lý tài chính của Tập đoàn Narrin một cách ----.\nA. đáng kể (tính từ)\nB. đáng kể (trạng từ)\nC. đáng kể hơn (cụm từ so sánh)\nD. các chất (danh từ số nhiều)",
+       "explanation": "Đáp án đúng là (B) substantially. Trạng từ \"substantially\" (đáng kể) phù hợp nhất để mô tả mức độ cải thiện. Cấu trúc \"would + verb + adverb\" được sử dụng để diễn tả kết quả có thể xảy ra. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Việc áp dụng phần mềm lập hóa đơn tiên tiến sẽ cải thiện quy trình quản lý tài chính của Tập đoàn Narrin một cách ----.",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng kể"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đáng kể"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "đáng kể hơn"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "các chất"
+        }
+       }
       }
      ]
     },
@@ -4745,10 +5377,36 @@
         "D": "information"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) promotion. Danh từ \"promotion\" (quảng bá) phù hợp nhất để giải thích sự thành công của việc ra mắt sản phẩm. Cấu trúc \"thanks to + noun phrase\" được sử dụng để chỉ ra nguyên nhân của một kết quả tích cực. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Nhờ sự --- hiệu quả của đồ uống đầu tiên của Drinkever, việc ra mắt sản phẩm tháng trước đã thành công.\nA. dịch vụ (danh từ)\nB. quảng bá (danh từ)\nC. phản hồi (danh từ)\nD. thông tin (danh từ)",
+       "explanation": "Đáp án đúng là (B) promotion. Danh từ \"promotion\" (quảng bá) phù hợp nhất để giải thích sự thành công của việc ra mắt sản phẩm. Cấu trúc \"thanks to + noun phrase\" được sử dụng để chỉ ra nguyên nhân của một kết quả tích cực. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Nhờ sự --- hiệu quả của đồ uống đầu tiên của Drinkever, việc ra mắt sản phẩm tháng trước đã thành công.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "dịch vụ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "quảng bá"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phản hồi"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "thông tin"
+        }
+       }
       }
      ]
     },
@@ -4773,10 +5431,36 @@
         "D": "had opened"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) will have opened. Cấu trúc thì tương lai hoàn thành \"will have + past participle\" phù hợp nhất để diễn tả một hành động sẽ hoàn thành tại một thời điểm cụ thể trong tương lai. Các đáp án khác không phù hợp về mặt thời gian trong ngữ cảnh này.\nDịch: Vào thời điểm này năm sau, Grasswell Industries -- hai nhà máy mới ở Đông Âu.\nA. mở (động từ hiện tại đơn)\nB. sẽ đã mở (động từ tương lai hoàn thành)\nC. đang mở (động từ hiện tại tiếp diễn)\nD. đã mở (động từ quá khứ hoàn thành)",
+       "explanation": "Đáp án đúng là (B) will have opened. Cấu trúc thì tương lai hoàn thành \"will have + past participle\" phù hợp nhất để diễn tả một hành động sẽ hoàn thành tại một thời điểm cụ thể trong tương lai. Các đáp án khác không phù hợp về mặt thời gian trong ngữ cảnh này.\nDịch: Vào thời điểm này năm sau, Grasswell Industries -- hai nhà máy mới ở Đông Âu.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "mở"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sẽ đã mở"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang mở"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã mở"
+        }
+       }
       }
      ]
     },
@@ -4801,10 +5485,36 @@
         "D": "energetic"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) adequate. Tính từ \"adequate\" (đủ) phù hợp nhất để mô tả số lượng đồ ăn nhẹ cần thiết. Cấu trúc \"an + adjective + supply of\" được sử dụng để mô tả một lượng cung cấp. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Vui lòng đặt một lượng -- các món ăn nhẹ cao cấp lên xe đẩy cho chuyến bay tiếp theo.\nA. tuyệt đối (tính từ)\nB. đã kiếm được (tính từ)\nC. đủ (tính từ)\nD. đầy năng lượng (tính từ)",
+       "explanation": "Đáp án đúng là (C) adequate. Tính từ \"adequate\" (đủ) phù hợp nhất để mô tả số lượng đồ ăn nhẹ cần thiết. Cấu trúc \"an + adjective + supply of\" được sử dụng để mô tả một lượng cung cấp. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Vui lòng đặt một lượng -- các món ăn nhẹ cao cấp lên xe đẩy cho chuyến bay tiếp theo.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tuyệt đối"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã kiếm được"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đủ"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đầy năng lượng"
+        }
+       }
       }
      ]
     }

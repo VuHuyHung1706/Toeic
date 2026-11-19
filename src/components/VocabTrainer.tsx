@@ -355,15 +355,13 @@ function Highlight({ text, words }: { text: string; words: string[] }) {
   );
 }
 
+/** Loại từ viết tắt: (n, v, adj…) — rê chuột để xem tên đầy đủ */
 function PosChips({ pos }: { pos: string[] }) {
+  if (!pos.length) return null;
   return (
-    <>
-      {pos.map((p) => (
-        <span key={p} className="rounded bg-surface-2 px-1.5 py-0.5 text-xs text-muted">
-          {POS_LABEL[p] ?? p}
-        </span>
-      ))}
-    </>
+    <span className="text-xs font-semibold text-muted" title={pos.map((p) => POS_LABEL[p] ?? p).join(", ")}>
+      ({pos.join(", ")})
+    </span>
   );
 }
 
@@ -584,7 +582,7 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
             onClick={() => setPos(p)}
             className={`rounded-full border px-3 py-1 text-sm ${pos === p ? "border-primary bg-primary-soft text-primary" : "border-line bg-surface"}`}
           >
-            {p === "all" ? "Tất cả" : POS_LABEL[p]}
+            {p === "all" ? "Tất cả" : <span title={POS_LABEL[p]}>{p}</span>}
           </button>
         ))}
       </div>

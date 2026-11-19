@@ -285,6 +285,7 @@ def _clean_meaning(m: str) -> str:
     m = re.split(r"\s+[-–—]\s+|\s*\.\s+|;\s*(?:không|sai)", m)[0]
     m = GRAMMAR_PREFIX_RE.sub("", m.strip())
     m = re.sub(r"^có nghĩa(?: là)?\s*", "", m, flags=re.I)
+    m = re.sub(r"^(?:cụm (?:từ|động từ|danh từ|giới từ|liên từ)|thành ngữ)\s*:\s*", "", m, flags=re.I)
     m = re.sub(r"^(?:danh từ|động từ|tính từ|trạng từ|giới từ|liên từ|đại từ)[^,:]{0,15}[,:]\s*", "", m, flags=re.I)
     m = re.sub(r"\s*\([^)]*$", "", m)  # ngoặc mở không đóng ở cuối
     m = m.strip(" .,:;\"'“”(")
@@ -295,7 +296,12 @@ def _valid_meaning(m: str) -> bool:
     return bool(m) and len(m) <= 60 and bool(VI_CHARS_RE.search(m)) and not NOT_MEANING_RE.search(m)
 
 
-def parse_option_line(line: str, options: dict) -> tuple[str, list[str], str] | None:
+def _valid_loose(m: str, word: str) -> bool:
+    """Nghĩa ngắn không dấu ("qua", "sau", "trong") vẫn hợp lệ khi nằm trên dòng dịch phương án."""
+    return bool(m) and len(m) <= 60 and not NOT_MEANING_RE.search(m) and m.lower() != word.lower()
+
+
+def parse_option_line(line: str, options: dict, relaxed: bool = False) -> tuple[str, list[str], str] | None:
     """Trả về (chữ cái, loại từ, nghĩa tiếng Việt) nếu dòng là phần giải nghĩa một phương án."""
     m = OPTION_LINE_RE.match(line)
     if not m:
@@ -327,8 +333,11 @@ def parse_option_line(line: str, options: dict) -> tuple[str, list[str], str] | 
                 elif not meaning:
                     meaning = inner
         elif re.match(r"^(?:danh từ|động từ|tính từ|trạng từ|giới từ|liên từ|đại từ)", after0, re.I):
-            # "- tính từ có nghĩa …": loại từ đứng đầu phần mô tả
+            # "- tính từ có nghĩa …" / "trạng từ (xa, rất)": loại từ đứng đầu phần mô tả
             pos = _pos_of(after0[:12])
+            inner = [x for x in PAREN_RE.findall(after0) if not _pos_of(x)]
+            if inner:
+                meaning = inner[0]
         if not meaning and quoted:
             meaning = quoted.group(1)
         if not meaning:
@@ -341,9 +350,76 @@ def parse_option_line(line: str, options: dict) -> tuple[str, list[str], str] | 
         for inner in PAREN_RE.findall(rest):
             pos += _pos_of(inner)
         meaning = _clean_meaning(PAREN_RE.sub("", rest))
-    if not _valid_meaning(meaning):
+    if not (_valid_meaning(meaning) or (relaxed and _valid_loose(meaning, word))):
         return None
     return letter, sorted(set(pos)), meaning
+
+
+def gloss_of_line(line: str, options: dict, relaxed: bool = False) -> tuple[str, list[str], str] | None:
+    """Nếu dòng là phần dịch một phương án → (chữ cái, loại từ, nghĩa)."""
+    m = VOCAB_LINE_RE.match(line)
+    if m:
+        letter, word, raw = m.groups()
+        word = re.sub(r"\s+", " ", word.strip())
+        if _norm(options.get(letter, "")) != word.lower():
+            return None
+        pos, meaning = _parse_meaning(raw)
+        meaning = _clean_meaning(meaning)
+        ok = _valid_meaning(meaning) or (relaxed and _valid_loose(meaning, word))
+        return letter, pos, meaning if ok else ""
+    return parse_option_line(line, options, relaxed=relaxed)
+
+
+# dấu hiệu dòng có kèm lập luận (giữ lại trong giải thích), không chỉ là bản dịch phương án
+COMMENT_RE = re.compile(r"\s[-–—]\s+\S|phù hợp|\bvì\b|\bkhông\b|nhưng|cấu trúc|dùng để|là đúng|chính xác|ngữ cảnh", re.I)
+OPTION_HEADER_RE = re.compile(r"^\s*(?:dịch\s+)?(?:các\s+)?(?:đáp án|phương án|lựa chọn)[^:\n]{0,25}:\s*$", re.I)
+
+
+def apply_option_notes(q: dict) -> None:
+    """Part 5: nghĩa + loại từ của từng phương án → q["optionNotes"]; bỏ các dòng chỉ để dịch phương án."""
+    lines = q["explanation"].split("\n")
+    notes: dict[str, dict] = {}
+    drop: set[int] = set()
+    for i, line in enumerate(lines):
+        g = gloss_of_line(line, q["options"], relaxed=True)
+        if not g:
+            continue
+        letter, pos, meaning = g
+        if meaning and letter not in notes:
+            notes[letter] = {"pos": pos, "meaning": meaning}
+        elif letter in notes and not notes[letter]["pos"] and pos:
+            notes[letter]["pos"] = pos  # dòng sau có ghi loại từ ("Đáp án A: qua (giới từ)")
+        rest = re.sub(r"\((?:đúng|sai|đáp án đúng)\)", "", line, flags=re.I).replace(meaning, "")
+        if meaning and not COMMENT_RE.search(rest):
+            drop.add(i)
+    # tiêu đề "Dịch đáp án:" / "Đáp án:" mà cả mục bên dưới đã bị bỏ
+    for i, line in enumerate(lines):
+        if i in drop or not OPTION_HEADER_RE.match(line):
+            continue
+        j = i + 1
+        body = []
+        while j < len(lines) and lines[j].strip():
+            body.append(j)
+            j += 1
+        if body and all(k in drop for k in body):
+            drop.add(i)
+    kept = [l for i, l in enumerate(lines) if i not in drop]
+    q["explanation"] = re.sub(r"\n{3,}", "\n\n", "\n".join(kept)).strip()
+    q["optionNotes"] = notes
+
+
+def _option_glosses(q: dict, part: int):
+    """(chữ cái, từ, loại từ, nghĩa) của các phương án: Part 5 lấy từ optionNotes, Part 6 đọc dòng giải thích."""
+    if part == 5 and "optionNotes" in q:
+        for letter, n in q["optionNotes"].items():
+            word = re.sub(r"\s+", " ", (q["options"].get(letter) or "").strip())
+            if word:
+                yield letter, word, n["pos"], n["meaning"]
+        return
+    for line in q.get("explanation", "").split("\n"):
+        g = gloss_of_line(line, q["options"])
+        if g and g[2]:
+            yield g[0], re.sub(r"\s+", " ", q["options"][g[0]].strip()), g[1], g[2]
 
 
 def _collect_forms(tests: list[dict]) -> list[dict]:
@@ -355,20 +431,9 @@ def _collect_forms(tests: list[dict]) -> list[dict]:
                 continue
             for g in p["groups"]:
                 for q in g["questions"]:
-                    for line in q.get("explanation", "").split("\n"):
-                        m = VOCAB_LINE_RE.match(line)
-                        if m:
-                            letter, word, raw = m.groups()
-                            word = re.sub(r"\s+", " ", word.strip())
-                            if _norm(q["options"].get(letter, "")) != word.lower() or len(word.split()) > 3:
-                                continue
-                            pos, meaning = _parse_meaning(raw)
-                        else:
-                            parsed = parse_option_line(line, q["options"])
-                            if not parsed:
-                                continue
-                            letter, pos, meaning = parsed
-                            word = re.sub(r"\s+", " ", q["options"][letter].strip())
+                    for letter, word, pos, meaning in _option_glosses(q, p["part"]):
+                        if len(word.split()) > 3:
+                            continue
                         key = word.lower().replace("’", "'")
                         if key in SKIP_WORDS or len(key) < 2:
                             continue

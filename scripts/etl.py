@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from enrich import apply_group_vocab, tag_question, write_extras
+from enrich import apply_group_vocab, apply_option_notes, tag_question, write_extras
 
 # ---------------------------------------------------------------------------
 # Hằng số định dạng đề TOEIC
@@ -469,6 +469,8 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                     "explanation": r["explanation"],
                 }
                 q["tags"] = tag_question(q)
+                if part == 5:
+                    apply_option_notes(q)
                 if part not in GROUPED_PARTS and r["transcript"]:
                     q["transcript"] = r["transcript"]
                 group["questions"].append(q)

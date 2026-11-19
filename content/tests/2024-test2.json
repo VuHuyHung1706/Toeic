@@ -1254,7 +1254,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "quá khứ phân từ, không phải danh từ; đã mua lại"
+       "meaning": "quá khứ phân từ, không phải danh từ"
       },
       {
        "term": "condition",
@@ -1753,10 +1753,9 @@
       {
        "term": "produce",
        "pos": [
-        "n",
         "v"
        ],
-       "meaning": "sản xuất, nông sản; sản xuất"
+       "meaning": "sản xuất/nông sản; sản xuất"
       },
       {
        "term": "forward",
@@ -1915,7 +1914,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "đối tác; thường chỉ người/tổ chức, không phải mối quan hệ"
+       "meaning": "đối tác"
       },
       {
        "term": "draft",
@@ -2015,8 +2014,7 @@
       {
        "term": "support",
        "pos": [
-        "n",
-        "v"
+        "n"
        ],
        "meaning": "hỗ trợ"
       },
@@ -3340,7 +3338,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "người tổ chức"
+       "meaning": "người tổ chức; người tổ chức, nhà tổ chức"
       },
       {
        "term": "wide",
@@ -3363,6 +3361,13 @@
         "v"
        ],
        "meaning": "giảm giá"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       },
       {
        "term": "adjust",
@@ -3517,11 +3522,11 @@
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
       },
       {
-       "term": "launch",
+       "term": "far",
        "pos": [
-        "v"
+        "adv"
        ],
-       "meaning": "ra mắt; khởi động"
+       "meaning": "xa, rất"
       }
      ],
      "vocabAuto": true
@@ -3855,10 +3860,36 @@
         "D": "finish"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Trước khi vận hành thiết bị cầm tay của bạn, vui lòng ------- dây cáp kèm theo để sạc nó.\nĐáp án:\n(A) plan (động từ): lên kế hoạch\n(B) remain (động từ): vẫn còn\n(C) use (động từ): sử dụng (đúng)\n(D) finish (động từ): hoàn thành\nGiải thích: 'Use' là động từ phù hợp, chỉ hành động sử dụng dây cáp để sạc thiết bị.",
+       "explanation": "Câu hỏi: Trước khi vận hành thiết bị cầm tay của bạn, vui lòng ------- dây cáp kèm theo để sạc nó.\nĐáp án:\nGiải thích: 'Use' là động từ phù hợp, chỉ hành động sử dụng dây cáp để sạc thiết bị.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "lên kế hoạch"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "vẫn còn"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sử dụng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hoàn thành"
+        }
+       }
       }
      ]
     },
@@ -3883,10 +3914,36 @@
         "D": "secured"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Ổ cứng ngoài mới của Safile có thể ------- lưu trữ lên đến một terabyte dữ liệu.\nĐáp án:\n(A) secure (động từ): đảm bảo an toàn\n(B) security (danh từ): bảo mật\n(C) securely (trạng từ): an toàn (đúng)\n(D) secured (tính từ): được bảo đảm\nGiải thích: 'Securely' là trạng từ bổ nghĩa cho động từ, chỉ cách lưu trữ an toàn.",
+       "explanation": "Câu hỏi: Ổ cứng ngoài mới của Safile có thể ------- lưu trữ lên đến một terabyte dữ liệu.\nĐáp án:\nGiải thích: 'Securely' là trạng từ bổ nghĩa cho động từ, chỉ cách lưu trữ an toàn.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đảm bảo an toàn"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "bảo mật"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "an toàn"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "được bảo đảm"
+        }
+       }
       }
      ]
     },
@@ -3911,10 +3968,36 @@
         "D": "over"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Ông Peterson sẽ đi ------- văn phòng Tokyo để tham dự cuộc họp thường niên.\nĐáp án:\n(A) to (giới từ): đến (đúng)\n(B) through (giới từ): qua\n(C) in (giới từ): trong\n(D) over (giới từ): trên\nGiải thích: 'To' là giới từ chỉ hướng, phù hợp với ngữ cảnh di chuyển đến một địa điểm.",
+       "explanation": "Câu hỏi: Ông Peterson sẽ đi ------- văn phòng Tokyo để tham dự cuộc họp thường niên.\nĐáp án:\nGiải thích: 'To' là giới từ chỉ hướng, phù hợp với ngữ cảnh di chuyển đến một địa điểm.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "đến"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "qua"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trên"
+        }
+       }
       }
      ]
     },
@@ -3939,10 +4022,36 @@
         "D": "their"
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Yong-Soo Cosmetics sẽ không tính phí cho các mặt hàng đã đặt trước cho đến khi ------- rời khỏi kho của chúng tôi.\nĐáp án:\n(A) them (đại từ): họ\n(B) they (đại từ): chúng (đúng)\n(C) themselves (đại từ phản thân): tự họ\n(D) their (tính từ sở hữu): của họ\nGiải thích: 'They' là đại từ chỉ đồ vật hoặc đối tượng được nhắc đến trong câu.",
+       "explanation": "Câu hỏi: Yong-Soo Cosmetics sẽ không tính phí cho các mặt hàng đã đặt trước cho đến khi ------- rời khỏi kho của chúng tôi.\nĐáp án:\nGiải thích: 'They' là đại từ chỉ đồ vật hoặc đối tượng được nhắc đến trong câu.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "chúng"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "tự họ"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của họ"
+        }
+       }
       }
      ]
     },
@@ -3967,10 +4076,36 @@
         "D": "along"
        },
        "answer": "D",
-       "explanation": "Câu hỏi: Chuyến tham quan cao cấp của chúng tôi đưa du khách đến các di tích lịch sử ------- sông Aprico.\nĐáp án:\n(A) onto (giới từ): lên trên\n(B) since (liên từ): từ khi\n(C) inside (giới từ): bên trong\n(D) along (giới từ): dọc theo (đúng)\nGiải thích: 'Along' là giới từ chỉ hướng đi dọc theo dòng sông.",
+       "explanation": "Câu hỏi: Chuyến tham quan cao cấp của chúng tôi đưa du khách đến các di tích lịch sử ------- sông Aprico.\nĐáp án:\nGiải thích: 'Along' là giới từ chỉ hướng đi dọc theo dòng sông.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "lên trên"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "từ khi"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên trong"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "dọc theo"
+        }
+       }
       }
      ]
     },
@@ -3995,10 +4130,36 @@
         "D": "electrify"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Tám mươi phần trăm tài xế được khảo sát cho biết họ sẽ cân nhắc mua một chiếc xe chạy bằng ———.\nĐáp án:\n(A) electricity (danh từ): điện (đúng)\n(B) electrically (trạng từ): một cách điện\n(C) electricians (danh từ): thợ điện\n(D) electrify (động từ): điện khí hóa\nGiải thích: 'Electricity' là danh từ chỉ nguồn năng lượng phù hợp với ngữ cảnh.",
+       "explanation": "Câu hỏi: Tám mươi phần trăm tài xế được khảo sát cho biết họ sẽ cân nhắc mua một chiếc xe chạy bằng ———.\nĐáp án:\nGiải thích: 'Electricity' là danh từ chỉ nguồn năng lượng phù hợp với ngữ cảnh.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "điện"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách điện"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "thợ điện"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "điện khí hóa"
+        }
+       }
       }
      ]
     },
@@ -4023,10 +4184,36 @@
         "D": "combined"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Xinzhe Zu đã ------- Petrin Engineering với vai trò phó chủ tịch điều hành.\nĐáp án:\n(A) attached (động từ): đính kèm\n(B) resigned (động từ): từ chức\n(C) joined (động từ): gia nhập (đúng)\n(D) combined (động từ): kết hợp\nGiải thích: 'Joined' là động từ phù hợp với ngữ cảnh tham gia vào một công ty.",
+       "explanation": "Câu hỏi: Xinzhe Zu đã ------- Petrin Engineering với vai trò phó chủ tịch điều hành.\nĐáp án:\nGiải thích: 'Joined' là động từ phù hợp với ngữ cảnh tham gia vào một công ty.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đính kèm"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "từ chức"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "gia nhập"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "kết hợp"
+        }
+       }
       }
      ]
     },
@@ -4051,10 +4238,36 @@
         "D": "its"
        },
        "answer": "D",
-       "explanation": "Câu hỏi: Tháng tới, Barder House Books sẽ tổ chức giờ tác giả thứ ba của ------- ở Cleveland.\nĐáp án:\n(A) it (đại từ): nó\n(B) itself (đại từ phản thân): tự nó\n(C) its own (tính từ sở hữu): của chính nó\n(D) its (tính từ sở hữu): của nó (đúng)\nGiải thích: 'Its' là tính từ sở hữu chỉ quyền sở hữu của công ty đối với sự kiện.",
+       "explanation": "Câu hỏi: Tháng tới, Barder House Books sẽ tổ chức giờ tác giả thứ ba của ------- ở Cleveland.\nĐáp án:\nGiải thích: 'Its' là tính từ sở hữu chỉ quyền sở hữu của công ty đối với sự kiện.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "nó"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "tự nó"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của chính nó"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của nó"
+        }
+       }
       }
      ]
     },
@@ -4082,7 +4295,27 @@
        "explanation": "Đáp án là 'recently' vì từ này chỉ hành động vừa mới xảy ra trong quá khứ, phù hợp với việc mở rộng gần đây của cửa hàng.\nDịch: Cửa hàng Chester's vừa mở thêm một chi nhánh tại Turnington.\nA: severely (trạng từ) - nghiêm trọng,\nB: usually (trạng từ) - thông thường,\nC: recently (trạng từ) - gần đây,\nD: exactly (trạng từ) - chính xác.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nghiêm trọng"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thông thường"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần đây"
+        }
+       }
       }
      ]
     },
@@ -4110,7 +4343,33 @@
        "explanation": "Đáp án là 'significantly' vì đây là trạng từ bổ nghĩa cho động từ ‘increased'.\nDịch: Tabrino's đã tăng số lượng hạnh nhân trong gói Nut Medley một cách đáng kể.\nA: significant (tính từ) - quan trọng,\nB: significance (danh từ) - sự quan trọng,\nC: signifies (động từ) - biểu thị,\nD: significantly (trạng từ) - đáng kể.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "quan trọng"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự quan trọng"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "biểu thị"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đáng kể"
+        }
+       }
       }
      ]
     },
@@ -4138,7 +4397,21 @@
        "explanation": "Đáp án là 'Wherever' vì từ này là liên từ chỉ bất cứ nơi nào, phù hợp với ngữ cảnh về việc thu thập mẫu khi đi du lịch.\nDịch: Bất cứ nơi nào cô ấy đi, Jacintha Flores thu thập các mẫu vải và mẫu hoa văn địa phương.\nA: Wherever (liên từ) - bất cứ nơi nào,\nB: In addition to (cụm từ) - ngoài ra,\nC: Either (liên từ) - một trong hai,\nD: In contrast to (cụm từ) - ngược lại.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "bất cứ nơi nào"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "một trong hai"
+        }
+       }
       }
      ]
     },
@@ -4166,7 +4439,15 @@
        "explanation": "Đáp án là 'frames' vì trong câu này 'most picture' đóng vai trò là chủ ngữ số nhiều, cần một danh từ số nhiều. 'Frames' là danh từ số nhiều phù hợp.\nDịch: Hầu hết các bức ảnh tại Glowing Photo Lab đều được bán vào lúc 3:00 chiều hôm nay.\nA: framer (danh từ) - người đóng khung,\nB: framing (động từ thêm -ing),\nC: framed (động từ Ved hoặc tính từ),\nD: frames (danh từ số nhiều).",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người đóng khung"
+        }
+       }
       }
      ]
     },
@@ -4194,7 +4475,33 @@
        "explanation": "Đáp án là 'advanced' vì từ này chỉ trình độ học vấn cao hơn, phù hợp với ngữ cảnh về bằng cấp quản lý kinh doanh.\nDịch: Tất cả sinh viên trong lớp quản lý kinh doanh đều có bằng cấp nâng cao.\nA: late (tính từ) - muộn,\nB: developed (tính từ) - phát triển,\nC: advanced (tính từ) - nâng cao,\nD: elated (tính từ) - phấn khởi.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "muộn"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phát triển"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nâng cao"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phấn khởi"
+        }
+       }
       }
      ]
     },
@@ -4222,7 +4529,25 @@
        "explanation": "Đáp án là 'to evaluate' vì đây là dạng nguyên mẫu của động từ, phù hợp với ngữ cảnh về mục đích thuê.\nDịch: Chúng tôi đã thuê Noah Wan từ Công ty Kế toán Shengyao để đánh giá tài sản tài chính của công ty chúng tôi.\nA: to evaluate (động từ nguyên mẫu) - đánh giá,\nB: to be evaluated (dạng bị động) - được đánh giá,\nC: will be evaluated (thì tương lai) - sẽ được đánh giá,\nD: evaluate (động từ) - đánh giá.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đánh giá"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "thì tương lai"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đánh giá"
+        }
+       }
       }
      ]
     },
@@ -4250,7 +4575,33 @@
        "explanation": "Đáp án là 'after' vì từ này chỉ một hành động xảy ra sau một hành động khác, phù hợp với ngữ cảnh về việc hoàn thành dự án trước khi bắt đầu công việc mới.\nDịch: Cô Charisse sẽ nhận một tài khoản mới sau khi hoàn thành dự án Morrison.\nA: with (giới từ) - với,\nB: going (động từ) - đi,\nC: after (liên từ) - sau khi,\nD: between (giới từ) - giữa.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "với"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đi"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "sau khi"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        }
+       }
       }
      ]
     },
@@ -4278,7 +4629,33 @@
        "explanation": "Đáp án là 'higher' vì đây là dạng so sánh hơn của 'high', phù hợp với ngữ cảnh so sánh lợi nhuận năm nay và năm ngoái.\nDịch: Lợi nhuận của Cormet Motors năm nay cao hơn năm ngoái.\nA: higher (tính từ so sánh hơn) - cao hơn,\nB: high (tính từ) - cao,\nC: highly (trạng từ) - rất,\nD: highest (tính từ so sánh nhất) - cao nhất.",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cao hơn"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cao"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "rất"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cao nhất"
+        }
+       }
       }
      ]
     },
@@ -4306,7 +4683,33 @@
        "explanation": "Đáp án là 'current' vì từ này chỉ chiến dịch hiện tại, phù hợp với ngữ cảnh về tính thời sự của chiến dịch quảng cáo.\nDịch: Trong chiến dịch quảng cáo hiện tại của mình, Jaymor Tools cho thấy sự đáng tin cậy của sản phẩm.\nA: current (tính từ) - hiện tại,\nB: relative (tính từ) - tương đối,\nC: spacious (tính từ) - rộng rãi,\nD: collected (tính từ) - được thu thập.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "hiện tại"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tương đối"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "rộng rãi"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "được thu thập"
+        }
+       }
       }
      ]
     },
@@ -4334,7 +4737,27 @@
        "explanation": "Đáp án là 'when' vì đây là liên từ chỉ thời điểm, phù hợp với ngữ cảnh về việc nộp biên lai khi trở về từ chuyến công tác.\nDịch: Hãy nhớ nộp biên lai để được hoàn trả khi trở về từ chuyến công tác.\nA: such as (cụm từ) - chẳng hạn như,\nB: when (liên từ) - khi,\nC: then (trạng từ) - sau đó,\nD: within (giới từ) - trong.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "khi"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sau đó"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        }
+       }
       }
      ]
     },
@@ -4362,7 +4785,33 @@
        "explanation": "Đáp án là 'newly' vì cần một trạng từ bổ nghĩa cho động từ bị động 'acquired'. 'Newly acquired' là cụm phổ biến mang nghĩa 'vừa mới thu được'.\nDịch: Khách hàng quen sẽ có thể truy cập bộ sưu tập sách mới mua của Thư viện Westside vào thứ Ba.\nA: instantly (trạng từ) - ngay lập tức,\nB: newly (trạng từ) - mới,\nC: early (trạng từ) - sớm,\nD: naturally (trạng từ) - một cách tự nhiên.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ngay lập tức"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "mới"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sớm"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách tự nhiên"
+        }
+       }
       }
      ]
     },
@@ -4390,7 +4839,33 @@
        "explanation": "Đáp án là 'direct' vì đây là dạng động từ phù hợp với yêu cầu gửi câu hỏi.\nDịch: Vui lòng gửi bất kỳ câu hỏi nào về bảng chấm công cho Tabitha Jones trong bộ phận trả lương.\nA: direction (danh từ) - hướng dẫn,\nB: directive (danh từ) - chỉ thị,\nC: directed (động từ Ved) - đã chỉ đạo,\nD: direct (động từ) - chỉ đạo.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hướng dẫn"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chỉ thị"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã chỉ đạo"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chỉ đạo"
+        }
+       }
       }
      ]
     },
@@ -4418,7 +4893,27 @@
        "explanation": "Đáp án là 'receipt' vì đây là từ phù hợp với ngữ cảnh về việc ký biên nhận cho một giao hàng.\nDịch: Trước khi ký biên nhận giao hàng, hãy chắc chắn rằng tất cả các mặt hàng đã được đặt có trong kiện hàng.n\\A: decision (danh từ) - quyết định,\nB: announcement (danh từ) - thông báo,\nC: receipt (danh từ) - biên nhận,\nD: limit (danh từ) - giới hạn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "thông báo"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "biên nhận"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "giới hạn"
+        }
+       }
       }
      ]
     },
@@ -4446,7 +4941,33 @@
        "explanation": "Đáp án là 'associated' vì đây là dạng phân từ quá khứ bổ nghĩa cho danh từ ‘expenses'.\nDịch: Ngân sách đã được bổ sung cho các chi phí liên quan đến tòa nhà mới.\nA: associated (phân từ quá khứ) - liên quan,\nB: association (danh từ) - sự liên kết,\nC: associate (động từ) - liên kết,\nD: associates (danh từ) - cộng sự.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "liên quan"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự liên kết"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "liên kết"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cộng sự"
+        }
+       }
       }
      ]
     },
@@ -4474,7 +4995,33 @@
        "explanation": "Đáp án là 'noticed' vì đây là động từ phù hợp với ngữ cảnh về việc nhận thấy một thời hạn sắp đến.\nDịch: Cô Bernard nhận thấy rằng thời hạn sắp đến, vì vậy cô đã yêu cầu sự giúp đỡ.\nA: noticed (động từ) - nhận thấy,\nB: obscured (động từ) - che khuất,\nC: withdrew (động từ) - rút lui,\nD: appeared (động từ) - xuất hiện.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "nhận thấy"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "che khuất"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "rút lui"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "xuất hiện"
+        }
+       }
       }
      ]
     },
@@ -4502,7 +5049,27 @@
        "explanation": "Đáp án là 'hopeful' vì đây là tính từ phù hợp với ngữ cảnh về việc hy vọng điều gì đó xảy ra.\nDịch: Ông Moscowitz hy vọng rằng Dr. Tanaka sẽ đồng ý phát biểu chính tại hội nghị năm nay.\nA: hopes (động từ) - hy vọng,\nB: hoped (động từ) - đã hy vọng,n\\C: hopeful (tính từ) - hy vọng,\nD: hopefully (trạng từ) - một cách hy vọng.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hy vọng"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã hy vọng,n\\C: hopeful"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách hy vọng"
+        }
+       }
       }
      ]
     },
@@ -4530,7 +5097,33 @@
        "explanation": "Đáp án là 'which' vì đây là từ dùng để hỏi chỉ sự lựa chọn giữa các vật.\nDịch: Hai công ty Úc đang phát triển điện thoại thông minh mới, nhưng vẫn chưa rõ cái nào sẽ ra mắt trước.\nA: if (liên từ) - nếu,\nB: which (đại từ) - cái nào,\nC: before (liên từ) - trước,\nD: because (liên từ) - bởi vì.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "nếu"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cái nào"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trước"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "bởi vì"
+        }
+       }
       }
      ]
     },
@@ -4558,7 +5151,33 @@
        "explanation": "Đáp án là 'weights' vì từ này chỉ tạ trong bối cảnh phòng gym.\nDịch: Corners Gym cung cấp cho các thành viên một buổi học miễn phí về cách sử dụng tạ đúng cách.\nA: weighs (động từ) - cân,\nB: weights (danh từ) - tạ,\nC: weighty (tính từ) - nặng,\nD: weighed (động từ) - đã cân.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cân"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tạ"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nặng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã cân"
+        }
+       }
       }
      ]
     },
@@ -4586,7 +5205,8 @@
        "explanation": "Đáp án là 'According to' vì cụm từ này chỉ sự tuân theo quy định hoặc thông tin.\nDịch: Theo quy định, không được phép đậu xe qua đêm tại khu vực câu lạc bộ.\nA: Prior to (cụm từ) - trước khi,\nB: Except for (cụm từ) - ngoại trừ,\nC: Instead of (cụm từ) - thay vì,\nD: According to (cụm từ) - theo.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4614,7 +5234,29 @@
        "explanation": "Đáp án là 'has arrived' vì đây là thì hoàn thành phù hợp với việc mọi người đã đến.\nDịch: Khi mọi người đã đến, chúng ta có thể bắt đầu cuộc gọi hội nghị.\nA: arrived (động từ quá khứ) - đã đến,\nB: is arriving (thì hiện tại tiếp diễn) - đang đến,\nC: to arrive (động từ nguyên mẫu) - để đến,\nD: has arrived (thì hiện tại hoàn thành) - đã đến.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã đến"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "thì hiện tại tiếp diễn"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để đến"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thì hiện tại hoàn thành"
+        }
+       }
       }
      ]
     },
@@ -4642,7 +5284,33 @@
        "explanation": "Đáp án là 'accomplishments' vì từ này chỉ các thành tựu, phù hợp với ngữ cảnh của một video tạo động lực.\nDịch: Mỗi mùa hè, một video tạo động lực nêu bật các thành tựu của năm trước được chiếu cho tất cả nhân viên công ty.\nA: preferences (danh từ) - sở thích,\nB: accomplishments (danh từ) - thành tựu,\nC: communications (danh từ) - sự giao tiếp,\nD: uncertainties (danh từ) - sự không chắc chắn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sở thích"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "thành tựu"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự giao tiếp"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự không chắc chắn"
+        }
+       }
       }
      ]
     },
@@ -4670,7 +5338,25 @@
        "explanation": "Đáp án là 'to honor' vì cần dùng động từ nguyên mẫu có 'to' để chỉ mục đích tham dự bữa tiệc nghỉ hưu.\nDịch: Nhân viên nào muốn tham dự bữa tiệc về hưu để vinh danh 30 năm phục vụ của bà Howell nên liên hệ với ông Lee.\nA: honor (động từ) - vinh danh,\nB: to honor (động từ nguyên mẫu có 'to') - để vinh danh,\nC: will honor (động từ thì tương lai) - sẽ vinh danh,\nD: will be honored (thì tương lai bị động) - sẽ được vinh danh.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "vinh danh"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sẽ vinh danh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thì tương lai bị động"
+        }
+       }
       }
      ]
     }

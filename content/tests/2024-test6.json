@@ -1541,6 +1541,13 @@
      ],
      "vocab": [
       {
+       "term": "far",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "xa, rất"
+      },
+      {
        "term": "merger",
        "pos": [
         "n"
@@ -2494,6 +2501,13 @@
        "meaning": "cấp, cho phép"
       },
       {
+       "term": "paint",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sơn, màu sắc"
+      },
+      {
        "term": "protect",
        "pos": [
         "v"
@@ -3376,6 +3390,13 @@
        "meaning": "đơn đặt hàng; đặt hàng"
       },
       {
+       "term": "delivery",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc giao hàng; các chuyến giao hàng"
+      },
+      {
        "term": "however",
        "pos": [
         "adv",
@@ -3394,14 +3415,6 @@
         "n"
        ],
        "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
-      },
-      {
-       "term": "discount",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "giảm giá"
       }
      ],
      "vocabAuto": true
@@ -3845,7 +3858,21 @@
        "explanation": "Đáp án đúng: (B) their.\nGiải thích: 'their own' là cụm từ hợp lý để chỉ 'giờ làm việc của họ'.\nDịch: Chính sách mới cho phép nhân viên tự đặt giờ làm việc của riêng họ trong một số điều kiện nhất định.\nCác đáp án khác:\n(A) they - họ (đại từ),\n(C) theirs - của họ (đại từ sở hữu),\n(D) themselves - chính họ (đại từ phản thân)",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "họ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "của họ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "chính họ"
+        }
+       }
       }
      ]
     },
@@ -3873,7 +3900,21 @@
        "explanation": "Đáp án đúng: (B) for.\nGiải thích: 'for the current year' là cụm từ chỉ thời gian hợp lý.\nDịch: Dựa trên dữ liệu năm ngoái, Công ty Paik đã tăng dự báo doanh số bán hàng cho năm hiện tại.\nCác đáp án khác:\n(A) when - khi nào (liên từ),\n(C) if - nếu (liên từ),\n(D) or - hoặc (liên từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "khi nào"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nếu"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "hoặc"
+        }
+       }
       }
      ]
     },
@@ -3901,7 +3942,21 @@
        "explanation": "Đáp án đúng: (C) during.\nGiải thích: 'during business hours' là cụm từ chỉ thời gian hợp lý.\nDịch: Cửa hàng bách hóa Harbison phỏng vấn các ứng viên trong giờ làm việc chuẩn.\nCác đáp án khác:\n(A) among - giữa (giới từ),\n(B) beside - bên cạnh (giới từ),\n(D) onto - lên trên (giới từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "giữa"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "bên cạnh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "lên trên"
+        }
+       }
       }
      ]
     },
@@ -3929,7 +3984,21 @@
        "explanation": "Đáp án đúng: (C) wider.\nGiải thích: 'wider areas' là cụm từ chỉ phạm vi rộng hơn.\nDịch: Máy sưởi propane thương mại của Takealong Industries cung cấp nhiều nhiệt hơn cho các khu vực rộng hơn.\nCác đáp án khác:\n(A) wideness - sự rộng rãi (danh từ),\n(B) widen - mở rộng (động từ),\n(D) widely - rộng rãi (trạng từ)",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "sự rộng rãi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "mở rộng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "rộng rãi"
+        }
+       }
       }
      ]
     },
@@ -3957,7 +4026,21 @@
        "explanation": "Đáp án đúng: (B) greatly\nGiải thích: 'greatly improved' là cụm từ hợp lý để chỉ sự cải thiện lớn.\nDịch: Bằng cách chuyển sang phần mềm quản lý dự án mới, nhóm biên tập đã cải thiện đáng kể quy trình xuất bản của hơn\\Các đáp án khác:\n(A) great - tuyệt vời (tính từ),\n(C) greater - lớn hơn (tính từ so sánh hơn),\n(D) greatest - lớn nhất (tính từ so sánh nhất)",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tuyệt vời"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "lớn hơn"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "lớn nhất"
+        }
+       }
       }
      ]
     },
@@ -3985,7 +4068,21 @@
        "explanation": "Đáp án đúng: (C) has nominated.\nGiải thích: 'has nominated' là dạng hoàn thành hợp lý để chỉ việc đề cử.\nDịch: Ủy ban tìm kiếm đã đề cử ba ứng viên cho vị trí giám đốc điều hành.\nCác đáp án khác:\n(A) nominating - đề cử (V-ing),\n(B) nomination - sự đề cử (danh từ),\n(D) has been nominated - đã được đề cử (bị động)",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "đề cử"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "sự đề cử"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đã được đề cử"
+        }
+       }
       }
      ]
     },
@@ -4013,7 +4110,21 @@
        "explanation": "Đáp án đúng: (C) After.\nGiải thích: 'After a two-month delay' là cụm từ chỉ thời gian hợp lý.\nDịch: Sau hai tháng trì hoãn, thảm mới đã được lắp đặt trong phòng họp phía đông.\nCác đáp án khác:\n(A) Additionally - ngoài ra (trạng từ),\n(B) Although - mặc dù (liên từ),\n(D) Furthermore - hơn nữa (trạng từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "ngoài ra"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "mặc dù"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "hơn nữa"
+        }
+       }
       }
      ]
     },
@@ -4041,7 +4152,17 @@
        "explanation": "Đáp án đúng: (D) enrollment.\nGiải thích: 'boost enrollment' là cụm từ hợp lý để chỉ việc tăng số lượng ghi danh.\nDịch: Để tăng số lượng ghi danh, Học viện Trang điểm đang cung cấp bộ khởi đầu miễn phí cho sinh viên mới.\nCác đáp án khác:\n(A) enroll - ghi danh (động từ),\n(B) enrolled - đã ghi danh (tính từ),\n(C) enrolling - ghi danh (V-ing)",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "ghi danh"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đã ghi danh"
+        }
+       }
       }
      ]
     },
@@ -4066,10 +4187,24 @@
         "D": "delays"
        },
        "answer": "A",
-       "explanation": "A. guarantees (động từ): Động từ 'guarantees' (bảo đảm) là từ chính xác vì câu cần một động từ mô tả hành động đảm bảo thời gian giao hàng. Cấu trúc ngữ pháp của câu yêu cầu động từ ở thì hiện tại đơn để diễn tả một sự kiện hiện tại. Các từ khác như 'advises', 'requires', và 'delays' không phù hợp về nghĩa trong ngữ cảnh này.\nCâu hỏi: Vì Công ty Nội thất Lectula đảm bảo thời gian giao hàng, chúng tôi đã có thể ấn định ngày khai trương chắc chắn cho khách sạn mới.\nB. advises: khuyên\nC. requires: yêu cầu\nD. delays: trì hoãn",
+       "explanation": "A. guarantees (động từ): Động từ 'guarantees' (bảo đảm) là từ chính xác vì câu cần một động từ mô tả hành động đảm bảo thời gian giao hàng. Cấu trúc ngữ pháp của câu yêu cầu động từ ở thì hiện tại đơn để diễn tả một sự kiện hiện tại. Các từ khác như 'advises', 'requires', và 'delays' không phù hợp về nghĩa trong ngữ cảnh này.\nCâu hỏi: Vì Công ty Nội thất Lectula đảm bảo thời gian giao hàng, chúng tôi đã có thể ấn định ngày khai trương chắc chắn cho khách sạn mới.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "khuyên"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "yêu cầu"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trì hoãn"
+        }
+       }
       }
      ]
     },
@@ -4094,10 +4229,30 @@
         "D": "frequent"
        },
        "answer": "A",
-       "explanation": "A. friendly (tính từ): 'Friendly' (thân thiện) là tính từ mô tả tính cách của kỹ thuật viên. Câu này dùng tính từ để bổ sung ý nghĩa cho danh từ 'technician'. Các lựa chọn khác như 'neutral' hay 'frequent' không phù hợp về mặt ngữ nghĩa để mô tả thái độ.\nCâu hỏi: Kỹ thuật viên máy tính rất thân thiện nhưng không thể giải quyết vấn đề của tôi.\nB. neutral: trung lập\nC. possible: có thể\nD. frequent: thường xuyên",
+       "explanation": "A. friendly (tính từ): 'Friendly' (thân thiện) là tính từ mô tả tính cách của kỹ thuật viên. Câu này dùng tính từ để bổ sung ý nghĩa cho danh từ 'technician'. Các lựa chọn khác như 'neutral' hay 'frequent' không phù hợp về mặt ngữ nghĩa để mô tả thái độ.\nCâu hỏi: Kỹ thuật viên máy tính rất thân thiện nhưng không thể giải quyết vấn đề của tôi.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "friendly'  là tính từ mô tả tính cách của kỹ thuật viên"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "trung lập"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "có thể"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thường xuyên"
+        }
+       }
       }
      ]
     },
@@ -4125,7 +4280,15 @@
        "explanation": "A. regular (tính từ): 'Regular' (thường xuyên) là tính từ bổ sung nghĩa cho danh từ 'visitors'. Câu cần một tính từ để mô tả nhóm khách thăm viếng, vì vậy các từ khác như 'regularly' (trạng từ), 'regularize' (động từ) không đúng về ngữ pháp.\nCâu hỏi: Để tạo chỗ cho người tham dự hội nghị, khách thăm viếng thường xuyên tại tòa nhà văn phòng nên sử dụng khu vực đỗ xe phía sau vào ngày mai.\nB. regularly: trạng từ\nC. regularize: động từ\nD. regularity: danh từ",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "regular'  là tính từ bổ sung nghĩa cho danh từ 'visitors"
+        }
+       }
       }
      ]
     },
@@ -4150,10 +4313,30 @@
         "D": "secretly"
        },
        "answer": "A",
-       "explanation": "A. clearly (trạng từ): 'Clearly' (rõ ràng) là trạng từ mô tả cách đeo thẻ phải được thực hiện. Trạng từ này bổ nghĩa cho động từ 'wear'. Các lựa chọn khác như 'recently' (gần đây) hay 'secretly' (bí mật) không phù hợp về nghĩa.\nCâu hỏi: Nhân viên phải đeo thẻ bảo mật của họ một cách rõ ràng khi ở trong tòa nhà.\nB. recently: gần đây\nC. evenly: đồng đều\nD. secretly: bí mật",
+       "explanation": "A. clearly (trạng từ): 'Clearly' (rõ ràng) là trạng từ mô tả cách đeo thẻ phải được thực hiện. Trạng từ này bổ nghĩa cho động từ 'wear'. Các lựa chọn khác như 'recently' (gần đây) hay 'secretly' (bí mật) không phù hợp về nghĩa.\nCâu hỏi: Nhân viên phải đeo thẻ bảo mật của họ một cách rõ ràng khi ở trong tòa nhà.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "clearly'  là trạng từ mô tả cách đeo thẻ phải được thực hiện"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "gần đây"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "đồng đều"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "bí mật"
+        }
+       }
       }
      ]
     },
@@ -4178,10 +4361,24 @@
         "D": "for example"
        },
        "answer": "C",
-       "explanation": "C. however (trạng từ): 'However' (tuy nhiên) phù hợp vì câu này chỉ ra sự đối lập giữa mong muốn và thực tế. Nó giúp nối hai mệnh đề có nghĩa trái ngược. Các từ khác như 'therefore' hay 'for example' không phù hợp vì chúng không chỉ sự đối lập.\nCâu hỏi: Bà Phon muốn tham dự buổi khai mạc phòng trưng bày; tuy nhiên, thời tiết xấu đã khiến điều đó không thể.\nA. therefore: vì thế\nB. following: theo sau\nD. for example: ví dụ",
+       "explanation": "C. however (trạng từ): 'However' (tuy nhiên) phù hợp vì câu này chỉ ra sự đối lập giữa mong muốn và thực tế. Nó giúp nối hai mệnh đề có nghĩa trái ngược. Các từ khác như 'therefore' hay 'for example' không phù hợp vì chúng không chỉ sự đối lập.\nCâu hỏi: Bà Phon muốn tham dự buổi khai mạc phòng trưng bày; tuy nhiên, thời tiết xấu đã khiến điều đó không thể.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "vì thế"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "theo sau"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "ví dụ"
+        }
+       }
       }
      ]
     },
@@ -4206,10 +4403,24 @@
         "D": "attracts"
        },
        "answer": "C",
-       "explanation": "C. motivates (động từ): 'Motivates' (thúc đẩy) là từ phù hợp vì câu mô tả hành động khuyến khích năng suất làm việc. Cấu trúc câu này yêu cầu động từ diễn tả tác động lên 'them'. Các từ khác như 'adopts' (chấp nhận) hay 'attracts' (thu hút) không phù hợp về ngữ nghĩa.\nCâu hỏi: Giao nhiệm vụ lãnh đạo cho các nhân viên đóng gói hàng hóa thường thúc đẩy họ làm việc hiệu quả hơn.\nA. adopts: chấp nhận\nB. reinforces: củng cố\nD. attracts: thu hút",
+       "explanation": "C. motivates (động từ): 'Motivates' (thúc đẩy) là từ phù hợp vì câu mô tả hành động khuyến khích năng suất làm việc. Cấu trúc câu này yêu cầu động từ diễn tả tác động lên 'them'. Các từ khác như 'adopts' (chấp nhận) hay 'attracts' (thu hút) không phù hợp về ngữ nghĩa.\nCâu hỏi: Giao nhiệm vụ lãnh đạo cho các nhân viên đóng gói hàng hóa thường thúc đẩy họ làm việc hiệu quả hơn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chấp nhận"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "củng cố"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thu hút"
+        }
+       }
       }
      ]
     },
@@ -4234,10 +4445,24 @@
         "D": "exclusives"
        },
        "answer": "A",
-       "explanation": "A. exclusively (trạng từ): 'Exclusively' (chỉ duy nhất) là trạng từ bổ nghĩa cho động từ 'works', mô tả rằng công ty chỉ làm các dự án thương mại lớn. Câu yêu cầu trạng từ, vì vậy các lựa chọn khác như 'exclusive' (tính từ) hoặc 'exclusivity' (danh từ) không đúng ngữ pháp.\nCâu hỏi: Công ty Kaybing Construction chỉ làm các dự án thương mại lớn trong khu vực Newfoundland.\nB. exclusive: độc quyền\nC. exclusivity: tính độc quyền\nD. exclusives: sản phẩm độc quyền",
+       "explanation": "A. exclusively (trạng từ): 'Exclusively' (chỉ duy nhất) là trạng từ bổ nghĩa cho động từ 'works', mô tả rằng công ty chỉ làm các dự án thương mại lớn. Câu yêu cầu trạng từ, vì vậy các lựa chọn khác như 'exclusive' (tính từ) hoặc 'exclusivity' (danh từ) không đúng ngữ pháp.\nCâu hỏi: Công ty Kaybing Construction chỉ làm các dự án thương mại lớn trong khu vực Newfoundland.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "độc quyền"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tính độc quyền"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "sản phẩm độc quyền"
+        }
+       }
       }
      ]
     },
@@ -4262,10 +4487,20 @@
         "D": "to have resigned"
        },
        "answer": "B",
-       "explanation": "B. to resign (động từ): 'To resign' (dự định từ chức) là cấu trúc hợp lý vì 'plans' đi với động từ nguyên mẫu để diễn tả dự định. Các dạng khác như 'resigning' (danh động từ) hay 'to have resigned' (quá khứ phân từ) không phù hợp với cấu trúc ngữ pháp này.\nCâu hỏi: Carly Logan dự định từ chức, vì vậy Alan Zill đã tình nguyện làm thủ quỹ tiếp theo của câu lạc bộ tem.\nA. resigning: danh động từ\nC. resigns: động từ\nD. to have resigned: quá khứ phân từ",
+       "explanation": "B. to resign (động từ): 'To resign' (dự định từ chức) là cấu trúc hợp lý vì 'plans' đi với động từ nguyên mẫu để diễn tả dự định. Các dạng khác như 'resigning' (danh động từ) hay 'to have resigned' (quá khứ phân từ) không phù hợp với cấu trúc ngữ pháp này.\nCâu hỏi: Carly Logan dự định từ chức, vì vậy Alan Zill đã tình nguyện làm thủ quỹ tiếp theo của câu lạc bộ tem.\nC. resigns: động từ",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "danh động từ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "quá khứ phân từ"
+        }
+       }
       }
      ]
     },
@@ -4290,10 +4525,24 @@
         "D": "over"
        },
        "answer": "D",
-       "explanation": "D. over (giới từ): 'Over' (trong suốt) là giới từ phù hợp với nghĩa của câu khi mô tả thời gian (during the summer months). Các từ khác như 'apart' (riêng biệt) hay 'only' (chỉ) không hợp với nghĩa của câu.\nCâu hỏi: Mặc dù thị trường nhà ở chậm lại trong suốt những tháng hè, doanh số bán hàng đã bắt đầu tăng trở lại vào mùa thu.\nA. apart: riêng biệt\nB. even: ngay cả\nC. only: chỉ",
+       "explanation": "D. over (giới từ): 'Over' (trong suốt) là giới từ phù hợp với nghĩa của câu khi mô tả thời gian (during the summer months). Các từ khác như 'apart' (riêng biệt) hay 'only' (chỉ) không hợp với nghĩa của câu.\nCâu hỏi: Mặc dù thị trường nhà ở chậm lại trong suốt những tháng hè, doanh số bán hàng đã bắt đầu tăng trở lại vào mùa thu.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "riêng biệt"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "ngay cả"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "chỉ"
+        }
+       }
       }
      ]
     },
@@ -4318,10 +4567,24 @@
         "D": "openly"
        },
        "answer": "C",
-       "explanation": "C. routinely (trạng từ): 'Routinely' (thường xuyên) bổ nghĩa cho động từ 'cleaned', diễn tả việc bảo dưỡng định kỳ. Trạng từ là từ loại cần thiết trong cấu trúc câu này.\nCâu hỏi: Để duy trì hoạt động đầy đủ, các máy tập cần được vệ sinh thường xuyên.\nA. rather: đúng hơn\nB. almost: hầu như\nD. openly: công khai",
+       "explanation": "C. routinely (trạng từ): 'Routinely' (thường xuyên) bổ nghĩa cho động từ 'cleaned', diễn tả việc bảo dưỡng định kỳ. Trạng từ là từ loại cần thiết trong cấu trúc câu này.\nCâu hỏi: Để duy trì hoạt động đầy đủ, các máy tập cần được vệ sinh thường xuyên.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "đúng hơn"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "hầu như"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "công khai"
+        }
+       }
       }
      ]
     },
@@ -4346,10 +4609,24 @@
         "D": "another"
        },
        "answer": "C",
-       "explanation": "C. whichever (đại từ): 'Whichever' (bất kỳ cái nào) là từ chỉ sự lựa chọn giữa hai khả năng và phù hợp với cấu trúc câu. 'Whichever comes first' là cách diễn đạt chuẩn trong trường hợp này. Các lựa chọn khác không đúng về mặt ngữ nghĩa.\nCâu hỏi: Bảo hành mở rộng có giá trị trong mười năm hoặc 100.000 dặm, tùy theo điều kiện nào đến trước.\nA. whoever: bất kỳ ai\nB. either: hoặc\nD. another: một cái khác",
+       "explanation": "C. whichever (đại từ): 'Whichever' (bất kỳ cái nào) là từ chỉ sự lựa chọn giữa hai khả năng và phù hợp với cấu trúc câu. 'Whichever comes first' là cách diễn đạt chuẩn trong trường hợp này. Các lựa chọn khác không đúng về mặt ngữ nghĩa.\nCâu hỏi: Bảo hành mở rộng có giá trị trong mười năm hoặc 100.000 dặm, tùy theo điều kiện nào đến trước.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "bất kỳ ai"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "hoặc"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một cái khác"
+        }
+       }
       }
      ]
     },
@@ -4374,10 +4651,24 @@
         "D": "hold"
        },
        "answer": "A",
-       "explanation": "A. risk (động từ): 'Risk' (có nguy cơ) là động từ đúng vì nó diễn tả hành động gặp rủi ro nếu không cung cấp tùy chọn mua sắm trực tuyến. Các động từ khác như 'protect' (bảo vệ) hay 'cancel' (hủy) không phù hợp trong ngữ cảnh này.\nCâu hỏi: Atlantic Grocers phải cung cấp các tùy chọn mua sắm trực tuyến nếu không muốn có nguy cơ mất khách hàng vào tay siêu thị khác.\nB. protect: bảo vệ\nC. cancel: hủy\nD. hold: giữ",
+       "explanation": "A. risk (động từ): 'Risk' (có nguy cơ) là động từ đúng vì nó diễn tả hành động gặp rủi ro nếu không cung cấp tùy chọn mua sắm trực tuyến. Các động từ khác như 'protect' (bảo vệ) hay 'cancel' (hủy) không phù hợp trong ngữ cảnh này.\nCâu hỏi: Atlantic Grocers phải cung cấp các tùy chọn mua sắm trực tuyến nếu không muốn có nguy cơ mất khách hàng vào tay siêu thị khác.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "bảo vệ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "hủy"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "giữ"
+        }
+       }
       }
      ]
     },
@@ -4402,10 +4693,24 @@
         "D": "Most"
        },
        "answer": "A",
-       "explanation": "A. Each (đại từ): 'Each' (mỗi) được sử dụng để chỉ rõ rằng mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân. Câu hỏi yêu cầu một từ chỉ sự phân bổ cá nhân.\nCâu hỏi: Mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân mà mọi thắc mắc cần được chuyển đến.\nB. All: tất cả\nC. Some: một vài\nD. Most: hầu hết",
+       "explanation": "A. Each (đại từ): 'Each' (mỗi) được sử dụng để chỉ rõ rằng mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân. Câu hỏi yêu cầu một từ chỉ sự phân bổ cá nhân.\nCâu hỏi: Mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân mà mọi thắc mắc cần được chuyển đến.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "tất cả"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một vài"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "hầu hết"
+        }
+       }
       }
      ]
     },
@@ -4430,10 +4735,24 @@
         "D": "committee"
        },
        "answer": "D",
-       "explanation": "D. committee (danh từ): 'Committee' (ủy ban) là danh từ chính xác, vì câu hỏi yêu cầu một danh từ chỉ nhóm người tham gia khám phá các chương trình khen thưởng.\nCâu hỏi: Ông Singh muốn thành lập một ủy ban để khám phá các chương trình khen thưởng cho nhân viên\nA. supervisor: người giám sát\nB. suggestion: gợi ý\nC. notification: thông báo",
+       "explanation": "D. committee (danh từ): 'Committee' (ủy ban) là danh từ chính xác, vì câu hỏi yêu cầu một danh từ chỉ nhóm người tham gia khám phá các chương trình khen thưởng.\nCâu hỏi: Ông Singh muốn thành lập một ủy ban để khám phá các chương trình khen thưởng cho nhân viên",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "người giám sát"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "gợi ý"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "thông báo"
+        }
+       }
       }
      ]
     },
@@ -4458,10 +4777,24 @@
         "D": "in case"
        },
        "answer": "D",
-       "explanation": "D. in case (cụm từ): 'In case' (phòng trường hợp) là cụm từ phù hợp để diễn tả tình huống người lái xe có thể cần liên hệ với bạn.\nCâu hỏi: Vui lòng cung cấp số điện thoại của bạn phòng trường hợp người giao hàng cần liên hệ với bạn\nA. whereas: trong khi\nB. despite: mặc dù\nC. if not: nếu không",
+       "explanation": "D. in case (cụm từ): 'In case' (phòng trường hợp) là cụm từ phù hợp để diễn tả tình huống người lái xe có thể cần liên hệ với bạn.\nCâu hỏi: Vui lòng cung cấp số điện thoại của bạn phòng trường hợp người giao hàng cần liên hệ với bạn",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "trong khi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "mặc dù"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nếu không"
+        }
+       }
       }
      ]
     },
@@ -4486,10 +4819,24 @@
         "D": "Tenants"
        },
        "answer": "D",
-       "explanation": "D. Tenants (danh từ): 'Tenants' (người thuê nhà) là danh từ chỉ những người cần thanh toán tiền thuê nhà. Các lựa chọn khác không phù hợp vì họ không phải là đối tượng thuê nhà\nCâu hỏi: Người thuê nhà ở Pondview Tower phải thanh toán tiền thuê nhà vào hoặc trước ngày đầu tiên của mỗi tháng\nA. Owners: chủ sở hữu\nB. Buyers: người mua\nC. Tourists: du khách",
+       "explanation": "D. Tenants (danh từ): 'Tenants' (người thuê nhà) là danh từ chỉ những người cần thanh toán tiền thuê nhà. Các lựa chọn khác không phù hợp vì họ không phải là đối tượng thuê nhà\nCâu hỏi: Người thuê nhà ở Pondview Tower phải thanh toán tiền thuê nhà vào hoặc trước ngày đầu tiên của mỗi tháng",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chủ sở hữu"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "người mua"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "du khách"
+        }
+       }
       }
      ]
     },
@@ -4514,10 +4861,16 @@
         "D": "consideration"
        },
        "answer": "B",
-       "explanation": "B. considerable (tính từ): 'Considerable' (đáng kể) là tính từ phù hợp vì câu yêu cầu một từ mô tả tác động đáng kể lên nền kinh tế.\nCâu hỏi: Tập đoàn Likoni Hospitality, một trong những nhà tuyển dụng lớn nhất của Mombasa, có tác động đáng kể đến nền kinh tế địa phương\nA. considerably: trạng từ\nC. considering: hiện tại phân từ\nD. consideration: danh từ",
+       "explanation": "B. considerable (tính từ): 'Considerable' (đáng kể) là tính từ phù hợp vì câu yêu cầu một từ mô tả tác động đáng kể lên nền kinh tế.\nCâu hỏi: Tập đoàn Likoni Hospitality, một trong những nhà tuyển dụng lớn nhất của Mombasa, có tác động đáng kể đến nền kinh tế địa phương\nA. considerably: trạng từ\nD. consideration: danh từ",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [],
+         "meaning": "hiện tại phân từ"
+        }
+       }
       }
      ]
     },
@@ -4542,10 +4895,24 @@
         "D": "Becoming"
        },
        "answer": "A",
-       "explanation": "A. Besides (giới từ): 'Besides' (bên cạnh) là giới từ phù hợp vì nó bổ sung ý nghĩa cho cụm từ chỉ các loại sách khác nhau.\nCâu hỏi: Ngoài những sách bán chạy, Booksters còn cung cấp nhiều loại sách kinh điển và tiểu sử\nB. Somewhat: phần nào\nC. Whose: của ai\nD. Becoming: trở thành",
+       "explanation": "A. Besides (giới từ): 'Besides' (bên cạnh) là giới từ phù hợp vì nó bổ sung ý nghĩa cho cụm từ chỉ các loại sách khác nhau.\nCâu hỏi: Ngoài những sách bán chạy, Booksters còn cung cấp nhiều loại sách kinh điển và tiểu sử",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "phần nào"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "của ai"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trở thành"
+        }
+       }
       }
      ]
     },
@@ -4570,10 +4937,24 @@
         "D": "consuming"
        },
        "answer": "D",
-       "explanation": "D. consuming (danh động từ): 'Consuming' (việc tiêu thụ) là danh động từ phù hợp vì nó kết hợp với cụm danh từ 'undercooked meat' để tạo thành chủ ngữ cho mệnh đề. Câu yêu cầu một danh động từ để diễn tả hành động tiêu thụ thịt sống\nCâu hỏi: Các quy định thực phẩm mới yêu cầu tất cả bao bì của Dean's Burgers phải có thông báo rằng việc tiêu thụ thịt chưa nấu chín có thể gây hại\nA. consumer: người tiêu dùng\nB. consumption: sự tiêu thụ\nC. consumes: tiêu thụ",
+       "explanation": "D. consuming (danh động từ): 'Consuming' (việc tiêu thụ) là danh động từ phù hợp vì nó kết hợp với cụm danh từ 'undercooked meat' để tạo thành chủ ngữ cho mệnh đề. Câu yêu cầu một danh động từ để diễn tả hành động tiêu thụ thịt sống\nCâu hỏi: Các quy định thực phẩm mới yêu cầu tất cả bao bì của Dean's Burgers phải có thông báo rằng việc tiêu thụ thịt chưa nấu chín có thể gây hại",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "người tiêu dùng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "sự tiêu thụ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tiêu thụ"
+        }
+       }
       }
      ]
     },
@@ -4598,10 +4979,24 @@
         "D": "minus"
        },
        "answer": "A",
-       "explanation": "A. of (giới từ): 'Of' (của) là từ phù hợp về mặt ngữ pháp để chỉ sự thiếu vắng chất béo và cholesterol\nCâu hỏi: Mỗi thanh Genutria chứa lượng protein tương đương hai quả trứng mà không có chất béo và cholesterol\nB. by: bởi\nC. out: ra ngoài\nD. minus: trừ",
+       "explanation": "A. of (giới từ): 'Of' (của) là từ phù hợp về mặt ngữ pháp để chỉ sự thiếu vắng chất béo và cholesterol\nCâu hỏi: Mỗi thanh Genutria chứa lượng protein tương đương hai quả trứng mà không có chất béo và cholesterol",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "bởi"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "ra ngoài"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trừ"
+        }
+       }
       }
      ]
     },
@@ -4626,10 +5021,30 @@
         "D": "materials"
        },
        "answer": "C",
-       "explanation": "C. shapes (danh từ): 'Shapes' (hình dạng) là từ mô tả các hình dạng khác nhau của gọng kính\nCâu hỏi: Gọng kính Fisko có nhiều hình dạng khác nhau, bao gồm hình tròn, vuông và oval\nA. sights: tầm nhìn\nB. methods: phương pháp\nD. materials: vật liệu",
+       "explanation": "Câu hỏi: Gọng kính Fisko có nhiều hình dạng khác nhau, bao gồm hình tròn, vuông và oval",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "shapes'  là từ mô tả các hình dạng khác nhau của gọng kính"
+        },
+        "A": {
+         "pos": [],
+         "meaning": "tầm nhìn"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "phương pháp"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "vật liệu"
+        }
+       }
       }
      ]
     },
@@ -4654,10 +5069,24 @@
         "D": "rationalized"
        },
        "answer": "A",
-       "explanation": "A. allocated (động từ): 'Allocated' (phân bổ) là động từ đúng để diễn tả hành động phân bổ ngân sách cho nghiên cứu và phát triển.\nCâu hỏi: Giám đốc điều hành muốn phân bổ một phần lớn hơn trong ngân sách năm sau cho nghiên cứu và phát triển\nB. imprinted: in dấu\nC. economized: tiết kiệm\nD. rationalized: hợp lý hóa",
+       "explanation": "A. allocated (động từ): 'Allocated' (phân bổ) là động từ đúng để diễn tả hành động phân bổ ngân sách cho nghiên cứu và phát triển.\nCâu hỏi: Giám đốc điều hành muốn phân bổ một phần lớn hơn trong ngân sách năm sau cho nghiên cứu và phát triển",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "in dấu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tiết kiệm"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "hợp lý hóa"
+        }
+       }
       }
      ]
     }

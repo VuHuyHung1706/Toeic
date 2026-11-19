@@ -1425,13 +1425,6 @@
        "meaning": "xây dựng; việc xây dựng"
       },
       {
-       "term": "designer",
-       "pos": [
-        "n"
-       ],
-       "meaning": "các nhà thiết kế; nhà thiết kế"
-      },
-      {
        "term": "wood",
        "pos": [],
        "meaning": "gỗ"
@@ -1449,6 +1442,13 @@
         "n"
        ],
        "meaning": "quy trình"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       }
      ],
      "vocabAuto": true
@@ -1694,6 +1694,13 @@
         "adv"
        ],
        "meaning": "đáng kể; một cách đáng kể"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       }
      ],
      "vocabAuto": true
@@ -1825,6 +1832,13 @@
         "v"
        ],
        "meaning": "mở rộng; được mở rộng"
+      },
+      {
+       "term": "connect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kết nối"
       }
      ],
      "vocabAuto": true
@@ -2087,7 +2101,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "mô tả; được mô tả"
+       "meaning": "mô tả"
       },
       {
        "term": "while",
@@ -2720,6 +2734,13 @@
        "meaning": "tình nguyện; người tình nguyện"
       },
       {
+       "term": "far",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "xa, rất"
+      },
+      {
        "term": "order",
        "pos": [
         "n"
@@ -2855,7 +2876,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "sự nhiệt tình"
+       "meaning": "sự nhiệt tình, hăng hái; sự nhiệt tình"
       },
       {
        "term": "familiar",
@@ -2965,6 +2986,13 @@
         "n"
        ],
        "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
+       "term": "connectivity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự kết nối"
       },
       {
        "term": "realize",
@@ -3749,7 +3777,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "major",
@@ -3834,10 +3862,36 @@
         "D": "calmness"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. calmly (một cách bình tĩnh). Giải thích: \"Calmly\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Ông Liu nổi tiếng về việc đàm phán các tranh chấp nhân viên một cách -------.\nA. calm (tính từ): bình tĩnh\nB. calmly (trạng từ): một cách bình tĩnh\nC. calmest (tính từ so sánh nhất): bình tĩnh nhất\nD. calmness (danh từ): sự bình tĩnh\n\"Calmly\" là trạng từ bổ nghĩa cho động từ \"negotiating\", mô tả cách thức ông Liu đàm phán. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là B. calmly (một cách bình tĩnh). Giải thích: \"Calmly\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Ông Liu nổi tiếng về việc đàm phán các tranh chấp nhân viên một cách -------.\n\"Calmly\" là trạng từ bổ nghĩa cho động từ \"negotiating\", mô tả cách thức ông Liu đàm phán. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bình tĩnh"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách bình tĩnh"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bình tĩnh nhất"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự bình tĩnh"
+        }
+       }
       }
      ]
     },
@@ -3862,10 +3916,34 @@
         "D": "whether"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. until (cho đến). Giải thích: \"Until\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Thành phố đang chấp nhận các đề xuất cho việc thiết kế lại Công viên Công cộng Oshida -_. ngày 25 tháng 1.\nA. when (trạng từ): khi nào\nB. until (giới từ): cho đến\nC. a few (cụm từ chỉ số lượng): một vài\nD. whether (liên từ): liệu rằng\n\"Until\" chỉ ra thời hạn cuối cùng để nộp đề xuất, phù hợp với ngữ cảnh của câu. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là B. until (cho đến). Giải thích: \"Until\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Thành phố đang chấp nhận các đề xuất cho việc thiết kế lại Công viên Công cộng Oshida -_. ngày 25 tháng 1.\n\"Until\" chỉ ra thời hạn cuối cùng để nộp đề xuất, phù hợp với ngữ cảnh của câu. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "khi nào"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cho đến"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cụm từ chỉ số lượng"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "liệu rằng"
+        }
+       }
       }
      ]
     },
@@ -3890,10 +3968,36 @@
         "D": "assistants"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. assistants (trợ lý). Giải thích: \"Assistants\" là danh từ số nhiều phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: ---- bán hàng duy trì hồ sơ khách hàng và cung cấp hỗ trợ hậu cần.\nA. assists (động từ): hỗ trợ\nB. assisted (động từ quá khứ): đã hỗ trợ\nC. assisting (động từ hiện tại phân từ): đang hỗ trợ\nD. assistants (danh từ số nhiều): các trợ lý\n\"Assistants\" là chủ ngữ của câu, chỉ các trợ lý bán hàng thực hiện các nhiệm vụ được mô tả. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là D. assistants (trợ lý). Giải thích: \"Assistants\" là danh từ số nhiều phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: ---- bán hàng duy trì hồ sơ khách hàng và cung cấp hỗ trợ hậu cần.\n\"Assistants\" là chủ ngữ của câu, chỉ các trợ lý bán hàng thực hiện các nhiệm vụ được mô tả. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hỗ trợ"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã hỗ trợ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang hỗ trợ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "các trợ lý"
+        }
+       }
       }
      ]
     },
@@ -3918,10 +4022,36 @@
         "D": "awarding"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. sharing (chia sẻ). Giải thích: \"Sharing\" là động từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Tối nay tại Thư viện Harbor Falls, nhà văn Delroy Greene sẽ ----- những câu chuyện về thời thơ ấu của ông ở Jamaica.\nA. dividing (động từ): chia\nB. sharing (động từ): chia sẻ\nC. using (động từ): sử dụng\nD. awarding (động từ): trao giải\n\"Sharing\" phù hợp nhất với ngữ cảnh một nhà văn kể chuyện về cuộc đời mình cho công chúng. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
+       "explanation": "Đáp án đúng là B. sharing (chia sẻ). Giải thích: \"Sharing\" là động từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Tối nay tại Thư viện Harbor Falls, nhà văn Delroy Greene sẽ ----- những câu chuyện về thời thơ ấu của ông ở Jamaica.\n\"Sharing\" phù hợp nhất với ngữ cảnh một nhà văn kể chuyện về cuộc đời mình cho công chúng. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chia"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chia sẻ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sử dụng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "trao giải"
+        }
+       }
       }
      ]
     },
@@ -3946,10 +4076,36 @@
         "D": "himself"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. his (của anh ấy). Giải thích: \"His\" là tính từ sở hữu phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Ông Kam đã mời tất cả các nhân viên tham dự bữa tiệc nghỉ hưu ...--- của ông ấy.\nA. he (đại từ nhân xưng): anh ấy\nB. his (tính từ sở hữu): của anh ấy\nC. him (đại từ nhân xưng): anh ấy (tân ngữ)\nD. himself (đại từ phản thân): chính anh ấy\n\"His\" là tính từ sở hữu chỉ rõ bữa tiệc nghỉ hưu thuộc về ông Kam. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là B. his (của anh ấy). Giải thích: \"His\" là tính từ sở hữu phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Ông Kam đã mời tất cả các nhân viên tham dự bữa tiệc nghỉ hưu ...--- của ông ấy.\n\"His\" là tính từ sở hữu chỉ rõ bữa tiệc nghỉ hưu thuộc về ông Kam. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "anh ấy"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của anh ấy"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "anh ấy"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "chính anh ấy"
+        }
+       }
       }
      ]
     },
@@ -3974,10 +4130,36 @@
         "D": "musicals"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. musicals (nhạc kịch). Giải thích: \"Musicals\" là danh từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Nhà hát Stanley Point ở trung tâm Detroit sẽ sản xuất bốn vở kịch và ba -- vào mùa tới.\nA. actors (danh từ): diễn viên\nB. audiences (danh từ): khán giả\nC. tickets (danh từ): vé\nD. musicals (danh từ): nhạc kịch\n\"Musicals\" phù hợp nhất với ngữ cảnh về các loại hình biểu diễn sân khấu, tương đồng với \"plays\" (vở kịch) đã được đề cập. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
+       "explanation": "Đáp án đúng là D. musicals (nhạc kịch). Giải thích: \"Musicals\" là danh từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Nhà hát Stanley Point ở trung tâm Detroit sẽ sản xuất bốn vở kịch và ba -- vào mùa tới.\n\"Musicals\" phù hợp nhất với ngữ cảnh về các loại hình biểu diễn sân khấu, tương đồng với \"plays\" (vở kịch) đã được đề cập. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "diễn viên"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khán giả"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "vé"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhạc kịch"
+        }
+       }
       }
      ]
     },
@@ -4002,10 +4184,36 @@
         "D": "remaining"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. remaining (còn lại). Giải thích: \"Remaining\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Có đủ tiền ---- trong ngân sách để chi trả chi phí đi lại.\nA. remains (động từ): còn lại\nB. remainder (danh từ): phần còn lại\nC. remained (động từ quá khứ): đã còn lại\nD. remaining (tính từ): còn lại\n\"Remaining\" là tính từ mô tả \"money\" (tiền), chỉ số tiền còn lại trong ngân sách. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là D. remaining (còn lại). Giải thích: \"Remaining\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Có đủ tiền ---- trong ngân sách để chi trả chi phí đi lại.\n\"Remaining\" là tính từ mô tả \"money\" (tiền), chỉ số tiền còn lại trong ngân sách. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "còn lại"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phần còn lại"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã còn lại"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "còn lại"
+        }
+       }
       }
      ]
     },
@@ -4030,10 +4238,36 @@
         "D": "once"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. on (vào). Giải thích: \"On\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Nhân viên Romm Industries đã đào tạo chín cộng sự mới được tuyển dụng ------- cùng một ngày.\nA. as (liên từ): như\nB. into (giới từ): vào trong\nC. on (giới từ): vào\nD. once (trạng từ): một khi\n\"On\" là giới từ thường được sử dụng để chỉ một ngày cụ thể, phù hợp với ngữ cảnh nói về ngày tuyển dụng. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là C. on (vào). Giải thích: \"On\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Nhân viên Romm Industries đã đào tạo chín cộng sự mới được tuyển dụng ------- cùng một ngày.\n\"On\" là giới từ thường được sử dụng để chỉ một ngày cụ thể, phù hợp với ngữ cảnh nói về ngày tuyển dụng. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "như"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vào trong"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vào"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một khi"
+        }
+       }
       }
      ]
     },
@@ -4058,10 +4292,36 @@
         "D": "during"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. during (trong). Giải thích: \"During\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Taylor Kanagawa đã viết một số cuốn sách về quản lý nhóm hiệu quả -- sự nghiệp 40 năm của ông tại Sapp Publishers Ltd.\nA. between (giới từ): giữa\nB. while (liên từ): trong khi\nC. beside (giới từ): bên cạnh\nD. during (giới từ): trong\n\"During\" chỉ khoảng thời gian diễn ra hành động viết sách, phù hợp với ngữ cảnh nói về toàn bộ sự nghiệp của Taylor Kanagawa. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là D. during (trong). Giải thích: \"During\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Taylor Kanagawa đã viết một số cuốn sách về quản lý nhóm hiệu quả -- sự nghiệp 40 năm của ông tại Sapp Publishers Ltd.\n\"During\" chỉ khoảng thời gian diễn ra hành động viết sách, phù hợp với ngữ cảnh nói về toàn bộ sự nghiệp của Taylor Kanagawa. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trong khi"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên cạnh"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        }
+       }
       }
      ]
     },
@@ -4086,10 +4346,30 @@
         "D": "grades"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. outcomes (kết quả). Giải thích: \"Outcomes\" là danh từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Dự án phòng khám cộng đồng được thiết kế để cải thiện ----- sức khỏe ở các khu vực biệt lập.\nA. outcomes (danh từ): kết quả\nB. reasons (danh từ): lý do\nC. corrections (danh từ): sự sửa chữa\nD. grades (danh từ): điểm số\n\"Outcomes\" phù hợp nhất với ngữ cảnh về cải thiện tình trạng sức khỏe, chỉ kết quả hoặc tác động của dự án đến sức khỏe cộng đồng. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
+       "explanation": "Đáp án đúng là A. outcomes (kết quả). Giải thích: \"Outcomes\" là danh từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Dự án phòng khám cộng đồng được thiết kế để cải thiện ----- sức khỏe ở các khu vực biệt lập.\nB. reasons (danh từ): lý do\n\"Outcomes\" phù hợp nhất với ngữ cảnh về cải thiện tình trạng sức khỏe, chỉ kết quả hoặc tác động của dự án đến sức khỏe cộng đồng. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "kết quả"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự sửa chữa"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "điểm số"
+        }
+       }
       }
      ]
     },
@@ -4114,10 +4394,36 @@
         "D": "additionally"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. additional (thêm). Giải thích: \"Additional\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hãng hàng không Jingshen thông báo rằng họ sẽ tuyển dụng 200 nhân viên ------ vào năm tới.\nA. add (động từ): thêm vào\nB. adding (động từ hiện tại phân từ): đang thêm vào\nC. additional (tính từ): thêm, bổ sung\nD. additionally (trạng từ): thêm vào đó\n\"Additional\" là tính từ bổ nghĩa cho danh từ \"employees\", chỉ số nhân viên bổ sung sẽ được tuyển dụng. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là C. additional (thêm). Giải thích: \"Additional\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hãng hàng không Jingshen thông báo rằng họ sẽ tuyển dụng 200 nhân viên ------ vào năm tới.\n\"Additional\" là tính từ bổ nghĩa cho danh từ \"employees\", chỉ số nhân viên bổ sung sẽ được tuyển dụng. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "thêm vào"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang thêm vào"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thêm, bổ sung"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thêm vào đó"
+        }
+       }
       }
      ]
     },
@@ -4142,10 +4448,36 @@
         "D": "richly"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. skillfully (khéo léo). Giải thích: \"Skillfully\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Khách hàng đã ấn tượng bởi cách ông Schmid vận hành máy móc phức tạp một cách ------.\nA. skillfully (trạng từ): khéo léo\nB. primarily (trạng từ): chủ yếu\nC. obviously (trạng từ): rõ ràng\nD. richly (trạng từ): phong phú\n\"Skillfully\" là trạng từ bổ nghĩa cho động từ \"operated\", mô tả cách thức ông Schmid vận hành máy móc. Các lựa chọn khác không phù hợp về nghĩa trong ngữ cảnh này.",
+       "explanation": "Đáp án đúng là A. skillfully (khéo léo). Giải thích: \"Skillfully\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Khách hàng đã ấn tượng bởi cách ông Schmid vận hành máy móc phức tạp một cách ------.\n\"Skillfully\" là trạng từ bổ nghĩa cho động từ \"operated\", mô tả cách thức ông Schmid vận hành máy móc. Các lựa chọn khác không phù hợp về nghĩa trong ngữ cảnh này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "khéo léo"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "chủ yếu"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "rõ ràng"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "phong phú"
+        }
+       }
       }
      ]
     },
@@ -4170,10 +4502,36 @@
         "D": "guest"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. series (chuỗi). Giải thích: \"Series\" là danh từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Nhân viên được mời tham gia vào một ------ các sự kiện xã hội trong tuần đầu tiên của tháng Năm.\nA. series (danh từ): chuỗi, loạt\nB. status (danh từ): trạng thái\nC. theory (danh từ): lý thuyết\nD. guest (danh từ): khách\n\"Series\" phù hợp nhất với ngữ cảnh nói về một loạt các sự kiện xã hội. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
+       "explanation": "Đáp án đúng là A. series (chuỗi). Giải thích: \"Series\" là danh từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Nhân viên được mời tham gia vào một ------ các sự kiện xã hội trong tuần đầu tiên của tháng Năm.\n\"Series\" phù hợp nhất với ngữ cảnh nói về một loạt các sự kiện xã hội. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chuỗi, loạt"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "trạng thái"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "lý thuyết"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khách"
+        }
+       }
       }
      ]
     },
@@ -4198,10 +4556,36 @@
         "D": "flexible"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. accountable (chịu trách nhiệm). Giải thích: \"Accountable\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hợp đồng quy định rằng Công ty Solcus sẽ ------ đối với bất kỳ chi phí nào phát sinh từ việc trì hoãn công việc.\nA. accountable (tính từ): chịu trách nhiệm\nB. manageable (tính từ): có thể quản lý được\nC. knowledgeable (tính từ): có kiến thức\nD. flexible (tính từ): linh hoạt\n\"Accountable\" phù hợp nhất với ngữ cảnh pháp lý, chỉ trách nhiệm của công ty đối với các chi phí phát sinh. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
+       "explanation": "Đáp án đúng là A. accountable (chịu trách nhiệm). Giải thích: \"Accountable\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hợp đồng quy định rằng Công ty Solcus sẽ ------ đối với bất kỳ chi phí nào phát sinh từ việc trì hoãn công việc.\n\"Accountable\" phù hợp nhất với ngữ cảnh pháp lý, chỉ trách nhiệm của công ty đối với các chi phí phát sinh. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chịu trách nhiệm"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể quản lý được"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có kiến thức"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "linh hoạt"
+        }
+       }
       }
      ]
     },
@@ -4226,10 +4610,36 @@
         "D": "heavier"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. heavily (nhiều). Giải thích: \"Heavily\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Cuốn tiểu thuyết mới nhất của tác giả Minh Phan đã bị ảnh hưởng ------- bởi các câu chuyện dân gian Việt Nam.\nA. heavy (tính từ): nặng\nB. heavily (trạng từ): nhiều, mạnh mẽ\nC. heaviest (tính từ so sánh nhất): nặng nhất\nD. heavier (tính từ so sánh hơn): nặng hơn\n\"Heavily\" là trạng từ bổ nghĩa cho động từ \"influenced\", mô tả mức độ ảnh hưởng của các câu chuyện dân gian. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là B. heavily (nhiều). Giải thích: \"Heavily\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Cuốn tiểu thuyết mới nhất của tác giả Minh Phan đã bị ảnh hưởng ------- bởi các câu chuyện dân gian Việt Nam.\n\"Heavily\" là trạng từ bổ nghĩa cho động từ \"influenced\", mô tả mức độ ảnh hưởng của các câu chuyện dân gian. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nặng"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nhiều, mạnh mẽ"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nặng nhất"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nặng hơn"
+        }
+       }
       }
      ]
     },
@@ -4254,10 +4664,36 @@
         "D": "initial"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. soon (sớm). Giải thích: \"Soon\" là trạng từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Du khách được kỳ vọng sẽ đổ xô đến Bảo tàng Khám phá Sorachi khi nó mở cửa ----- ở Mikasa, Hokkaido.\nA. soon (trạng từ): sớm\nB. as (liên từ): như\nC. almost (trạng từ): gần như\nD. initial (tính từ): ban đầu\n\"Soon\" phù hợp nhất với ngữ cảnh nói về thời điểm sắp tới khi bảo tàng mở cửa. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là A. soon (sớm). Giải thích: \"Soon\" là trạng từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Du khách được kỳ vọng sẽ đổ xô đến Bảo tàng Khám phá Sorachi khi nó mở cửa ----- ở Mikasa, Hokkaido.\n\"Soon\" phù hợp nhất với ngữ cảnh nói về thời điểm sắp tới khi bảo tàng mở cửa. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sớm"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "như"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "ban đầu"
+        }
+       }
       }
      ]
     },
@@ -4282,10 +4718,36 @@
         "D": "installed"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. distinct (riêng biệt). Giải thích: \"Distinct\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Sàn nhà máy được chia thành bốn khu vực ----: mỗi khu vực cho một giai đoạn lắp ráp sản phẩm.\nA. previous (tính từ): trước đó\nB. eligible (tính từ): đủ điều kiện\nC. distinct (tính từ): riêng biệt, khác biệt\nD. installed (tính từ): đã lắp đặt\n\"Distinct\" phù hợp nhất với ngữ cảnh mô tả các khu vực riêng biệt trong nhà máy. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
+       "explanation": "Đáp án đúng là C. distinct (riêng biệt). Giải thích: \"Distinct\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Sàn nhà máy được chia thành bốn khu vực ----: mỗi khu vực cho một giai đoạn lắp ráp sản phẩm.\n\"Distinct\" phù hợp nhất với ngữ cảnh mô tả các khu vực riêng biệt trong nhà máy. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "trước đó"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đủ điều kiện"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "riêng biệt, khác biệt"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã lắp đặt"
+        }
+       }
       }
      ]
     },
@@ -4310,10 +4772,36 @@
         "D": "off"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. before (trước). Giải thích: \"Before\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Tài liệu phát tay cho buổi hội thảo buổi chiều phải được chuẩn bị --- giờ nghỉ trưa.\nA. down (trạng từ): xuống\nB. beside (giới từ): bên cạnh\nC. before (giới từ): trước\nD. off (trạng từ): tắt\n\"Before\" chỉ rõ thời điểm tài liệu cần được chuẩn bị xong, phù hợp với ngữ cảnh của câu. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
+       "explanation": "Đáp án đúng là C. before (trước). Giải thích: \"Before\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Tài liệu phát tay cho buổi hội thảo buổi chiều phải được chuẩn bị --- giờ nghỉ trưa.\n\"Before\" chỉ rõ thời điểm tài liệu cần được chuẩn bị xong, phù hợp với ngữ cảnh của câu. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "xuống"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên cạnh"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trước"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "tắt"
+        }
+       }
       }
      ]
     },
@@ -4338,10 +4826,36 @@
         "D": "that"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. whether (liệu). Giải thích: \"Whether\" là liên từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Chat Mobile sẽ quyết định, dựa trên số liệu bán hàng cuối năm, ----- công ty có mở thêm cửa hàng nào không.\nA. whether (liên từ): liệu rằng\nB. who (đại từ nghi vấn): ai\nC. since (liên từ): vì\nD. that (liên từ): rằng\n\"Whether\" được sử dụng để giới thiệu một câu hỏi gián tiếp về khả năng mở thêm cửa hàng, phù hợp với ngữ cảnh của câu. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là A. whether (liệu). Giải thích: \"Whether\" là liên từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Chat Mobile sẽ quyết định, dựa trên số liệu bán hàng cuối năm, ----- công ty có mở thêm cửa hàng nào không.\n\"Whether\" được sử dụng để giới thiệu một câu hỏi gián tiếp về khả năng mở thêm cửa hàng, phù hợp với ngữ cảnh của câu. Các lựa chọn khác không phù hợp về nghĩa hoặc ngữ pháp trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "liệu rằng"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "ai"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "vì"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "rằng"
+        }
+       }
       }
      ]
     },
@@ -4366,10 +4880,34 @@
         "D": "making"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. make (dừng). Giải thích: \"Make\" là động từ nguyên mẫu phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Tuyến đường màu đỏ sẽ ---- chỉ dừng ở các trạm nhanh từ Phố Finn đến Phố Boone vào các ngày cuối tuần.\nA. made (động từ quá khứ): đã làm\nB. makes (động từ hiện tại, ngôi thứ 3 số ít): làm\nC. make (động từ nguyên mẫu): làm\nD. making (động từ hiện tại phân từ): đang làm\n\"Make\" là động từ nguyên mẫu đi sau trợ động từ \"will\", diễn tả hành động trong tương lai. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là C. make (dừng). Giải thích: \"Make\" là động từ nguyên mẫu phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Tuyến đường màu đỏ sẽ ---- chỉ dừng ở các trạm nhanh từ Phố Finn đến Phố Boone vào các ngày cuối tuần.\n\"Make\" là động từ nguyên mẫu đi sau trợ động từ \"will\", diễn tả hành động trong tương lai. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã làm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "ngôi thứ 3 số ít"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "làm"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang làm"
+        }
+       }
       }
      ]
     },
@@ -4394,10 +4932,36 @@
         "D": "enthusiast"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. enthusiastically (một cách nhiệt tình). Giải thích: \"Enthusiastically\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Trò chơi điện tử mới nhất của công ty, Hunting for Treasure, đã được các nhà phê bình khen ngợi ---- .\nA. enthusiastically (trạng từ): một cách nhiệt tình\nB. enthusiastic (tính từ): nhiệt tình\nC. enthusiasm (danh từ): sự nhiệt tình\nD. enthusiast (danh từ): người đam mê\n\"Enthusiastically\" là trạng từ bổ nghĩa cho động từ \"praised\", mô tả cách thức các nhà phê bình khen ngợi trò chơi. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là A. enthusiastically (một cách nhiệt tình). Giải thích: \"Enthusiastically\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Trò chơi điện tử mới nhất của công ty, Hunting for Treasure, đã được các nhà phê bình khen ngợi ---- .\n\"Enthusiastically\" là trạng từ bổ nghĩa cho động từ \"praised\", mô tả cách thức các nhà phê bình khen ngợi trò chơi. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách nhiệt tình"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhiệt tình"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự nhiệt tình"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người đam mê"
+        }
+       }
       }
      ]
     },
@@ -4422,10 +4986,36 @@
         "D": "busy"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. reduced (giảm). Giải thích: \"Reduced\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Trong mùa vắng khách, Công viên Giải trí Great Mountain hoạt động theo giờ -----.\nA. reduced (tính từ): giảm\nB. employed (tính từ): được thuê\nC. slow (tính từ): chậm\nD. busy (tính từ): bận rộn\n\"Reduced\" phù hợp nhất với ngữ cảnh mùa vắng khách, chỉ giờ hoạt động bị cắt giảm. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
+       "explanation": "Đáp án đúng là A. reduced (giảm). Giải thích: \"Reduced\" là tính từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Trong mùa vắng khách, Công viên Giải trí Great Mountain hoạt động theo giờ -----.\n\"Reduced\" phù hợp nhất với ngữ cảnh mùa vắng khách, chỉ giờ hoạt động bị cắt giảm. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "giảm"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "được thuê"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chậm"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bận rộn"
+        }
+       }
       }
      ]
     },
@@ -4450,10 +5040,37 @@
         "D": "include"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. include (bao gồm). Giải thích: \"Include\" là động từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Dự án xây dựng sẽ -_ 30 đơn vị nhà ở và 10 không gian thương mại.\nA. overall (trạng từ): nhìn chung\nB. first (tính từ/trạng từ): đầu tiên\nC. about (giới từ): khoảng\nD. include (động từ): bao gồm\n\"Include\" là động từ chỉ rõ các thành phần được bao gồm trong dự án xây dựng. Các lựa chọn khác không phù hợp về ngữ pháp hoặc nghĩa trong câu này.",
+       "explanation": "Đáp án đúng là D. include (bao gồm). Giải thích: \"Include\" là động từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Dự án xây dựng sẽ -_ 30 đơn vị nhà ở và 10 không gian thương mại.\n\"Include\" là động từ chỉ rõ các thành phần được bao gồm trong dự án xây dựng. Các lựa chọn khác không phù hợp về ngữ pháp hoặc nghĩa trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nhìn chung"
+        },
+        "B": {
+         "pos": [
+          "adj",
+          "adv"
+         ],
+         "meaning": "đầu tiên"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "khoảng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bao gồm"
+        }
+       }
       }
      ]
     },
@@ -4478,10 +5095,38 @@
         "D": "until"
        },
        "answer": "B",
-       "explanation": "Giải thích: \"Because\" là liên từ chỉ nguyên nhân phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hợp đồng làm việc của cô Phạm không thể được hoàn tất ---- mức lương khởi điểm của cô ấy vẫn đang được thương lượng.\nA. once (liên từ): một khi\nB. because (liên từ): bởi vì\nC. after (giới từ/liên từ): sau\nD. until (giới từ/liên từ): cho đến khi\n\"Because\" chỉ rõ lý do tại sao hợp đồng không thể được hoàn tất. Việc lương vẫn đang được thương lượng là nguyên nhân trực tiếp của việc không thể hoàn tất hợp đồng. Các lựa chọn khác không phù hợp về nghĩa trong ngữ cảnh này.",
+       "explanation": "Giải thích: \"Because\" là liên từ chỉ nguyên nhân phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hợp đồng làm việc của cô Phạm không thể được hoàn tất ---- mức lương khởi điểm của cô ấy vẫn đang được thương lượng.\n\"Because\" chỉ rõ lý do tại sao hợp đồng không thể được hoàn tất. Việc lương vẫn đang được thương lượng là nguyên nhân trực tiếp của việc không thể hoàn tất hợp đồng. Các lựa chọn khác không phù hợp về nghĩa trong ngữ cảnh này.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "một khi"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "bởi vì"
+        },
+        "C": {
+         "pos": [
+          "conj",
+          "prep"
+         ],
+         "meaning": "sau"
+        },
+        "D": {
+         "pos": [
+          "conj",
+          "prep"
+         ],
+         "meaning": "cho đến khi"
+        }
+       }
       }
      ]
     },
@@ -4506,10 +5151,38 @@
         "D": "more"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. anyone (bất kỳ ai). Giải thích: \"Anyone\" là đại từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Văn phòng phẩm có sẵn trong tủ tài nguyên của chúng tôi cho ----- cần chúng.\nA. anyone (đại từ): bất kỳ ai\nB. whichever (đại từ): bất kỳ cái nào\nC. such (tính từ/đại từ): như vậy\nD. more (tính từ so sánh/đại từ): nhiều hơn\n\"Anyone\" là đại từ chỉ bất kỳ người nào, phù hợp với ngữ cảnh nói về việc cung cấp văn phòng phẩm cho tất cả nhân viên. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
+       "explanation": "Đáp án đúng là A. anyone (bất kỳ ai). Giải thích: \"Anyone\" là đại từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Văn phòng phẩm có sẵn trong tủ tài nguyên của chúng tôi cho ----- cần chúng.\n\"Anyone\" là đại từ chỉ bất kỳ người nào, phù hợp với ngữ cảnh nói về việc cung cấp văn phòng phẩm cho tất cả nhân viên. Các lựa chọn khác không phù hợp về nghĩa trong câu này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bất kỳ ai"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bất kỳ cái nào"
+        },
+        "C": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "như vậy"
+        },
+        "D": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "nhiều hơn"
+        }
+       }
       }
      ]
     },
@@ -4534,10 +5207,36 @@
         "D": "revolutionize"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. revolutionize (cách mạng hóa). Giải thích: \"Revolutionize\" là động từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Thông qua mạng lưới các đại lý địa phương, công ty khởi nghiệp nhà ở mới Philocenia có ý định --...- lĩnh vực cho thuê.\nA. exercise (động từ): thực hiện\nB. indicate (động từ): chỉ ra\nC. participate (động từ): tham gia\nD. revolutionize (động từ): cách mạng hóa\n\"Revolutionize\" phù hợp nhất với ngữ cảnh một công ty khởi nghiệp muốn tạo ra sự thay đổi lớn trong lĩnh vực cho thuê nhà. Các lựa chọn khác không đủ mạnh mẽ hoặc phù hợp về nghĩa trong tình huống này.",
+       "explanation": "Đáp án đúng là D. revolutionize (cách mạng hóa). Giải thích: \"Revolutionize\" là động từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Thông qua mạng lưới các đại lý địa phương, công ty khởi nghiệp nhà ở mới Philocenia có ý định --...- lĩnh vực cho thuê.\n\"Revolutionize\" phù hợp nhất với ngữ cảnh một công ty khởi nghiệp muốn tạo ra sự thay đổi lớn trong lĩnh vực cho thuê nhà. Các lựa chọn khác không đủ mạnh mẽ hoặc phù hợp về nghĩa trong tình huống này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "thực hiện"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chỉ ra"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tham gia"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cách mạng hóa"
+        }
+       }
       }
      ]
     },
@@ -4562,10 +5261,30 @@
         "D": "to send"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. to send (gửi). Giải thích: \"To send\" là động từ nguyên mẫu phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Rapid Books có các giải pháp tính lương mà mọi công ty cần, cho phép người dùng ------ hóa đơn trong ba bước đơn giản.\nA. sent (động từ quá khứ): đã gửi\nB. have sent (động từ hiện tại hoàn thành): đã gửi\nC. sending (động từ hiện tại phân từ): đang gửi\nD. to send (động từ nguyên mẫu): gửi\n\"To send\" là động từ nguyên mẫu đi sau \"allowing users\", diễn tả mục đích hoặc khả năng. Các lựa chọn khác không phù hợp về ngữ pháp trong cấu trúc này.",
+       "explanation": "Đáp án đúng là D. to send (gửi). Giải thích: \"To send\" là động từ nguyên mẫu phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Rapid Books có các giải pháp tính lương mà mọi công ty cần, cho phép người dùng ------ hóa đơn trong ba bước đơn giản.\nB. have sent (động từ hiện tại hoàn thành): đã gửi\n\"To send\" là động từ nguyên mẫu đi sau \"allowing users\", diễn tả mục đích hoặc khả năng. Các lựa chọn khác không phù hợp về ngữ pháp trong cấu trúc này.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã gửi"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang gửi"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "gửi"
+        }
+       }
       }
      ]
     },
@@ -4590,10 +5309,36 @@
         "D": "within"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. within (trong vòng). Giải thích: \"Within\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Epky Electronics sẽ mở thêm tám cửa hàng bán lẻ ----- hai năm tới.\nA. above (giới từ): trên\nB. behind (giới từ): phía sau\nC. about (giới từ): khoảng\nD. within (giới từ): trong vòng\n\"Within\" chỉ rõ khoảng thời gian cụ thể cho việc mở cửa hàng mới. Các lựa chọn khác không phù hợp về nghĩa trong ngữ cảnh chỉ thời gian này.",
+       "explanation": "Đáp án đúng là D. within (trong vòng). Giải thích: \"Within\" là giới từ chỉ thời gian phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Epky Electronics sẽ mở thêm tám cửa hàng bán lẻ ----- hai năm tới.\n\"Within\" chỉ rõ khoảng thời gian cụ thể cho việc mở cửa hàng mới. Các lựa chọn khác không phù hợp về nghĩa trong ngữ cảnh chỉ thời gian này.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trên"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "phía sau"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "khoảng"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong vòng"
+        }
+       }
       }
      ]
     },
@@ -4618,10 +5363,36 @@
         "D": "strategic"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. strategies (chiến lược). Giải thích: \"Strategies\" là danh từ số nhiều phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hội thảo ba ngày tập trung vào các - nói trước công chúng là trọng tâm để thuyết trình ấn tượng.\nA. strategies (danh từ số nhiều): chiến lược\nB. strategized (động từ quá khứ): đã lập chiến lược\nC. strategically (trạng từ): một cách chiến lược\nD. strategic (tính từ): chiến lược\n\"Strategies\" là danh từ số nhiều, phù hợp với cấu trúc câu và ngữ cảnh nói về nhiều phương pháp nói trước công chúng. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
+       "explanation": "Đáp án đúng là A. strategies (chiến lược). Giải thích: \"Strategies\" là danh từ số nhiều phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Hội thảo ba ngày tập trung vào các - nói trước công chúng là trọng tâm để thuyết trình ấn tượng.\n\"Strategies\" là danh từ số nhiều, phù hợp với cấu trúc câu và ngữ cảnh nói về nhiều phương pháp nói trước công chúng. Các lựa chọn khác không phù hợp về ngữ pháp trong câu này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chiến lược"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã lập chiến lược"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách chiến lược"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chiến lược"
+        }
+       }
       }
      ]
     },
@@ -4646,10 +5417,36 @@
         "D": "distantly"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. seamlessly (mượt mà). Giải thích: \"Seamlessly\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Các nhà phê bình đồng ý rằng bộ phim An Unusual Introduction ------ kết hợp hình ảnh tạo bởi máy tính và hành động thực.\nA. seamlessly (trạng từ): mượt mà, liền mạch\nB. collectively (trạng từ): một cách tập thể\nC. factually (trạng từ): một cách thực tế\nD. distantly (trạng từ): một cách xa xôi\n\"Seamlessly\" phù hợp nhất với ngữ cảnh mô tả sự kết hợp mượt mà giữa hình ảnh máy tính và hành động thực trong phim. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
+       "explanation": "Đáp án đúng là A. seamlessly (mượt mà). Giải thích: \"Seamlessly\" là trạng từ phù hợp nhất trong ngữ cảnh này.\nDịch câu hỏi: Các nhà phê bình đồng ý rằng bộ phim An Unusual Introduction ------ kết hợp hình ảnh tạo bởi máy tính và hành động thực.\n\"Seamlessly\" phù hợp nhất với ngữ cảnh mô tả sự kết hợp mượt mà giữa hình ảnh máy tính và hành động thực trong phim. Các lựa chọn khác không phù hợp về nghĩa trong tình huống này.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "mượt mà, liền mạch"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách tập thể"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách thực tế"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách xa xôi"
+        }
+       }
       }
      ]
     }

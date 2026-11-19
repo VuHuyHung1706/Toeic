@@ -1212,9 +1212,7 @@
       },
       {
        "term": "supervisor",
-       "pos": [
-        "n"
-       ],
+       "pos": [],
        "meaning": "người giám sát"
       },
       {
@@ -1309,6 +1307,13 @@
         "v"
        ],
        "meaning": "cải thiện"
+      },
+      {
+       "term": "far",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "xa, rất"
       },
       {
        "term": "schedule",
@@ -1502,7 +1507,8 @@
       {
        "term": "limited",
        "pos": [
-        "adj"
+        "adj",
+        "v"
        ],
        "meaning": "giới hạn; có hạn"
       },
@@ -1511,7 +1517,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "đối tác; thường chỉ người/tổ chức, không phải mối quan hệ"
+       "meaning": "đối tác"
       },
       {
        "term": "setting",
@@ -1856,7 +1862,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "set",
@@ -2303,7 +2309,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "bản ghi âm, đang ghi; bản ghi âm"
+       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       },
       {
        "term": "modern",
@@ -2982,11 +2988,8 @@
        "meaning": "lợi ích"
       },
       {
-       "term": "support",
-       "pos": [
-        "n",
-        "v"
-       ],
+       "term": "supporting",
+       "pos": [],
        "meaning": "hỗ trợ"
       },
       {
@@ -2995,6 +2998,13 @@
         "conj"
        ],
        "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "far",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "xa, rất"
       },
       {
        "term": "rais",
@@ -3285,12 +3295,19 @@
        "meaning": "thị trường"
       },
       {
+       "term": "tile",
+       "pos": [
+        "n"
+       ],
+       "meaning": "gạch, ngói"
+      },
+      {
        "term": "notice",
        "pos": [
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "detail",
@@ -3826,10 +3843,18 @@
         "D": "himself"
        },
        "answer": "B",
-       "explanation": "Ken Nakata, cựu CEO của Công ty Sendai, đã nói về ------- kinh nghiệm sự nghiệp.\n(A) he: đại từ chủ ngữ\n(B) his: tính từ sở hữu\n(C) him: đại từ tân ngữ\n(D) himself: đại từ phản thân\nĐáp án đúng là 'his', vì đại từ sở hữu 'his' phù hợp với danh từ 'career experiences'. Các lựa chọn khác không phù hợp với ngữ pháp và ngữ cảnh.",
+       "explanation": "Ken Nakata, cựu CEO của Công ty Sendai, đã nói về ------- kinh nghiệm sự nghiệp.\n(A) he: đại từ chủ ngữ\n(B) his: tính từ sở hữu\n(C) him: đại từ tân ngữ\nĐáp án đúng là 'his', vì đại từ sở hữu 'his' phù hợp với danh từ 'career experiences'. Các lựa chọn khác không phù hợp với ngữ pháp và ngữ cảnh.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "đại từ phản thân"
+        }
+       }
       }
      ]
     },
@@ -3854,10 +3879,36 @@
         "D": "connecting"
        },
        "answer": "D",
-       "explanation": "Hành khách sẽ bay chuyến bay ------- nội địa nên đi đến nhà ga A.\n(A) connectivity: danh từ (sự kết nối)\n(B) connects: động từ (kết nối)\n(C) connect: động từ (kết nối)\n(D) connecting: tính từ (kết nối, nối tiếp)\nĐáp án đúng là 'connecting', vì tính từ 'connecting' phù hợp với danh từ 'flight'. Các lựa chọn khác không phù hợp với ngữ pháp.",
+       "explanation": "Hành khách sẽ bay chuyến bay ------- nội địa nên đi đến nhà ga A.\nĐáp án đúng là 'connecting', vì tính từ 'connecting' phù hợp với danh từ 'flight'. Các lựa chọn khác không phù hợp với ngữ pháp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự kết nối"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "kết nối"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "kết nối"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "kết nối, nối tiếp"
+        }
+       }
       }
      ]
     },
@@ -3882,10 +3933,36 @@
         "D": "free"
        },
        "answer": "C",
-       "explanation": "Những chiếc bánh donut táo tươi và ------- có sẵn tại cửa hàng bán lẻ của Oakcrest Orchard với giá £6 mỗi tá.\n(A) eaten: tính từ (có thể ăn được)\n(B) open: tính từ (mở, không bị đóng)\n(C) tasty: tính từ (ngon, hấp dẫn)\n(D) free: tính từ (miễn phí, tự do)\nĐáp án đúng là 'tasty', vì tính từ 'tasty' mô tả chính xác về chiếc bánh. Các lựa chọn khác không phù hợp với ngữ cảnh.",
+       "explanation": "Những chiếc bánh donut táo tươi và ------- có sẵn tại cửa hàng bán lẻ của Oakcrest Orchard với giá £6 mỗi tá.\nĐáp án đúng là 'tasty', vì tính từ 'tasty' mô tả chính xác về chiếc bánh. Các lựa chọn khác không phù hợp với ngữ cảnh.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể ăn được"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "mở, không bị đóng"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "ngon, hấp dẫn"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "miễn phí, tự do"
+        }
+       }
       }
      ]
     },
@@ -3910,10 +3987,36 @@
         "D": "curtains"
        },
        "answer": "B",
-       "explanation": "Zahn Flooring có sự lựa chọn ------- lớn nhất ở Vương quốc Anh.\n(A) paints: danh từ (sơn, màu sắc)\n(B) tiles: danh từ (gạch, ngói)\n(C) furniture: danh từ (đồ nội thất)\n(D) curtains: danh từ (rèm cửa, màn)\nĐáp án đúng là 'tiles', vì danh từ 'tiles' phù hợp với ngữ cảnh cụ thể là phải liên quan đến “Zahn Flooring” - một công ty chuyên về sàn nhà. Các lựa chọn khác không phù hợp.",
+       "explanation": "Zahn Flooring có sự lựa chọn ------- lớn nhất ở Vương quốc Anh.\nĐáp án đúng là 'tiles', vì danh từ 'tiles' phù hợp với ngữ cảnh cụ thể là phải liên quan đến “Zahn Flooring” - một công ty chuyên về sàn nhà. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sơn, màu sắc"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "gạch, ngói"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "đồ nội thất"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "rèm cửa, màn"
+        }
+       }
       }
      ]
     },
@@ -3938,10 +4041,36 @@
         "D": "updated"
        },
        "answer": "D",
-       "explanation": "Một trong những trách nhiệm của bộ phận IT là đảm bảo rằng công ty đang sử dụng phần mềm ———.\n(A) update: động từ (cập nhật)\n(B) updating: động từ tiếp diễn (đang cập nhật)\n(C) updates: danh từ (bản cập nhật)\n(D) updated: tính từ (đã được cập nhật)\nĐáp án đúng là 'updated', vì tính từ 'updated' mô tả phần mềm đã được cập nhật. Các lựa chọn khác không phù hợp với ngữ pháp và ngữ cảnh.",
+       "explanation": "Một trong những trách nhiệm của bộ phận IT là đảm bảo rằng công ty đang sử dụng phần mềm ———.\nĐáp án đúng là 'updated', vì tính từ 'updated' mô tả phần mềm đã được cập nhật. Các lựa chọn khác không phù hợp với ngữ pháp và ngữ cảnh.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cập nhật"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang cập nhật"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "bản cập nhật"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã được cập nhật"
+        }
+       }
       }
      ]
     },
@@ -3966,10 +4095,28 @@
         "D": "before"
        },
        "answer": "D",
-       "explanation": "Nên kiểm tra quy định về trang phục của công ty ------- khi đến thăm văn phòng chính của họ.\n(A) so: vì thế, cho nên\n(B) how: như thế nào, bằng cách nào\n(C) like: giống như\n(D) before: trước khi\nĐáp án đúng là 'before', vì giới từ 'before' phù hợp với ngữ cảnh chỉ thời gian. Các lựa chọn khác không phù hợp với ngữ pháp.",
+       "explanation": "Nên kiểm tra quy định về trang phục của công ty ------- khi đến thăm văn phòng chính của họ.\nĐáp án đúng là 'before', vì giới từ 'before' phù hợp với ngữ cảnh chỉ thời gian. Các lựa chọn khác không phù hợp với ngữ pháp.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "vì thế, cho nên"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "như thế nào, bằng cách nào"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "giống như"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trước khi"
+        }
+       }
       }
      ]
     },
@@ -3994,10 +4141,36 @@
         "D": "enthused"
        },
        "answer": "A",
-       "explanation": "Ban quản lý của Wexler Store mong rằng nhân viên sẽ ------- hỗ trợ bất kỳ nhân viên mới nào.\n(A) enthusiastically: trạng từ (một cách nhiệt tình)\n(B) enthusiasm: danh từ (sự nhiệt tình, hăng hái)\n(C) enthusiastic: tính từ (nhiệt tình, hăng hái)\n(D) enthused: động từ quá khứ (làm cho nhiệt tình, hăng hái)\nĐáp án đúng là 'enthusiastically', vì trạng từ 'enthusiastically' mô tả cách thức hỗ trợ. Các lựa chọn khác không phù hợp.",
+       "explanation": "Ban quản lý của Wexler Store mong rằng nhân viên sẽ ------- hỗ trợ bất kỳ nhân viên mới nào.\nĐáp án đúng là 'enthusiastically', vì trạng từ 'enthusiastically' mô tả cách thức hỗ trợ. Các lựa chọn khác không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách nhiệt tình"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự nhiệt tình, hăng hái"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhiệt tình, hăng hái"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "làm cho nhiệt tình, hăng hái"
+        }
+       }
       }
      ]
     },
@@ -4022,10 +4195,36 @@
         "D": "inspections"
        },
        "answer": "D",
-       "explanation": "Cân chỉnh bánh xe và hệ thống phanh ------- là một phần của kế hoạch dịch vụ xe của chúng tôi.\n(A) inspects: động từ chia theo thì hiện tại đơn (kiểm tra)\n(B) inspector: danh từ (người kiểm tra, thanh tra viên)\n(C) inspected: động từ quá khứ hoặc phân từ quá khứ (đã kiểm tra, được kiểm tra)\n(D) inspections: danh từ số nhiều (việc kiểm tra, sự thanh tra)\nĐáp án đúng là 'inspections', vì danh từ số nhiều 'inspections' phù hợp với ngữ cảnh. Các lựa chọn khác không phù hợp.",
+       "explanation": "Cân chỉnh bánh xe và hệ thống phanh ------- là một phần của kế hoạch dịch vụ xe của chúng tôi.\nĐáp án đúng là 'inspections', vì danh từ số nhiều 'inspections' phù hợp với ngữ cảnh. Các lựa chọn khác không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "kiểm tra"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người kiểm tra, thanh tra viên"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã kiểm tra, được kiểm tra"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "việc kiểm tra, sự thanh tra"
+        }
+       }
       }
      ]
     },
@@ -4050,10 +4249,30 @@
         "D": "while"
        },
        "answer": "A",
-       "explanation": "Đăng ký cho Hội nghị Marketing Coalition hiện đang mở ------- ngày 30 tháng 9.\n(A) until: giới từ mang nghĩa “đến khi”\n(B) into: giới từ mang nghĩa “vào trong”\n(C) yet: trạng từ mang nghĩa “chưa”\n(D) while: liên từ mang nghĩa “trong khi”\nĐáp án đúng là 'until', vì giới từ 'until' phù hợp với ngữ cảnh chỉ thời gian kết thúc. Các lựa chọn khác không phù hợp.",
+       "explanation": "Đăng ký cho Hội nghị Marketing Coalition hiện đang mở ------- ngày 30 tháng 9.\n(C) yet: trạng từ mang nghĩa “chưa”\nĐáp án đúng là 'until', vì giới từ 'until' phù hợp với ngữ cảnh chỉ thời gian kết thúc. Các lựa chọn khác không phù hợp.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giới từ mang nghĩa “đến khi"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giới từ mang nghĩa “vào trong"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "liên từ mang nghĩa “trong khi"
+        }
+       }
       }
      ]
     },
@@ -4078,10 +4297,36 @@
         "D": "assorted"
        },
        "answer": "B",
-       "explanation": "Sự tăng trưởng trong ngành giải trí gia đình đã bị ------- trong quý này.\n(A) separate: tính từ (riêng biệt, tách rời)\n(B) limited: động từ ở thể quá khứ phân từ.(hạn chế, có giới hạn)\n(C) willing: tính từ (sẵn sàng, tự nguyện)\n(D) assorted: tính từ (đa dạng, phong phú)\nĐáp án đúng là 'limited', vì tính từ 'limited' mô tả sự tăng trưởng bị hạn chế. Các lựa chọn khác không phù hợp.",
+       "explanation": "Sự tăng trưởng trong ngành giải trí gia đình đã bị ------- trong quý này.\nĐáp án đúng là 'limited', vì tính từ 'limited' mô tả sự tăng trưởng bị hạn chế. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "riêng biệt, tách rời"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hạn chế, có giới hạn"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "sẵn sàng, tự nguyện"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đa dạng, phong phú"
+        }
+       }
       }
      ]
     },
@@ -4106,10 +4351,36 @@
         "D": "deliverable"
        },
        "answer": "A",
-       "explanation": "Hawson Furniture sẽ thực hiện ------- ở phía đông thị trấn vào thứ Năm.\n(A) deliveries: danh từ số nhiều (việc giao hàng, sự phân phát)\n(B) delivered: động từ quá khứ hoặc phân từ quá khứ (đã giao hàng, được giao hàng)\n(C) deliver: động từ (giao hàng, phân phát)\n(D) deliverable: tính từ (có thể giao hàng, có thể phân phát)\nĐáp án đúng là 'deliveries', vì danh từ số nhiều 'deliveries' mô tả hành động giao hàng. Các lựa chọn khác không phù hợp với ngữ pháp.",
+       "explanation": "Hawson Furniture sẽ thực hiện ------- ở phía đông thị trấn vào thứ Năm.\nĐáp án đúng là 'deliveries', vì danh từ số nhiều 'deliveries' mô tả hành động giao hàng. Các lựa chọn khác không phù hợp với ngữ pháp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "việc giao hàng, sự phân phát"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã giao hàng, được giao hàng"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "giao hàng, phân phát"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể giao hàng, có thể phân phát"
+        }
+       }
       }
      ]
     },
@@ -4134,10 +4405,28 @@
         "D": "travel"
        },
        "answer": "B",
-       "explanation": "Hội đồng Thành phố Marlton không có quyền ------- việc đỗ xe trên các đường phố thành phố.\n(A) drive: lái xe\n(B) prohibit: cấm\n(C) bother: làm phiền\n(D) travel: du lịch\nĐáp án đúng là 'prohibit', vì động từ 'prohibit' có nghĩa là cấm, phù hợp với ngữ cảnh. Các lựa chọn khác không phù hợp.",
+       "explanation": "Hội đồng Thành phố Marlton không có quyền ------- việc đỗ xe trên các đường phố thành phố.\nĐáp án đúng là 'prohibit', vì động từ 'prohibit' có nghĩa là cấm, phù hợp với ngữ cảnh. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "lái xe"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "cấm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "làm phiền"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "du lịch"
+        }
+       }
       }
      ]
     },
@@ -4162,10 +4451,28 @@
         "D": "leaning"
        },
        "answer": "A",
-       "explanation": "Dự án Earth Group đang ------- tìm kiếm các cách giảm phát thải khí nhà kính liên quan đến vận tải.\n(A) looking: tìm kiếm\n(B) seeing: nhìn thấy\n(C) driving: lái xe\n(D) leaning: nghiêng\nĐáp án đúng là 'looking', vì động từ 'looking' phù hợp với ngữ cảnh tìm kiếm. Các lựa chọn khác không phù hợp.",
+       "explanation": "Dự án Earth Group đang ------- tìm kiếm các cách giảm phát thải khí nhà kính liên quan đến vận tải.\nĐáp án đúng là 'looking', vì động từ 'looking' phù hợp với ngữ cảnh tìm kiếm. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tìm kiếm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "nhìn thấy"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "lái xe"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "nghiêng"
+        }
+       }
       }
      ]
     },
@@ -4190,10 +4497,36 @@
         "D": "perfection"
        },
        "answer": "C",
-       "explanation": "Thợ may lành nghề của chúng tôi rất vui khi thiết kế một bộ đồ may đo phù hợp với phong cách và ngân sách của bạn ———.\n\t(A) perfect: tính từ (hoàn hảo, tuyệt vời)\n(B) perfects: động từ chia theo thì hiện tại đơn (hoàn thiện, làm cho hoàn hảo)\n(C) perfectly: trạng từ (một cách hoàn hảo, tuyệt vời)\n(D) perfection: danh từ (sự hoàn hảo)\nĐáp án đúng là 'perfectly', vì trạng từ 'perfectly' bổ nghĩa cho động từ 'fits'. Các lựa chọn khác không phù hợp.",
+       "explanation": "Thợ may lành nghề của chúng tôi rất vui khi thiết kế một bộ đồ may đo phù hợp với phong cách và ngân sách của bạn ———.\nĐáp án đúng là 'perfectly', vì trạng từ 'perfectly' bổ nghĩa cho động từ 'fits'. Các lựa chọn khác không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "hoàn hảo, tuyệt vời"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hoàn thiện, làm cho hoàn hảo"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách hoàn hảo, tuyệt vời"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự hoàn hảo"
+        }
+       }
       }
      ]
     },
@@ -4218,10 +4551,36 @@
         "D": "helpful"
        },
        "answer": "D",
-       "explanation": "Quản lý dự án Hannah Chung đã chứng tỏ rất ------- trong việc hoàn thành các dự án của công ty.\n(A) helpfulness: danh từ (sự hữu ích, sự giúp đỡ)\n(B) help: danh từ hoặc động từ (sự giúp đỡ, giúp đỡ)\n(C) helpfully: trạng từ (một cách hữu ích, giúp đỡ)\n(D) helpful: tính từ (hữu ích, giúp đỡ)\nĐáp án đúng là 'helpful', vì tính từ 'helpful' mô tả đúng bản chất của người quản lý. Các lựa chọn khác không phù hợp.",
+       "explanation": "Quản lý dự án Hannah Chung đã chứng tỏ rất ------- trong việc hoàn thành các dự án của công ty.\nĐáp án đúng là 'helpful', vì tính từ 'helpful' mô tả đúng bản chất của người quản lý. Các lựa chọn khác không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự hữu ích, sự giúp đỡ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự giúp đỡ, giúp đỡ"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách hữu ích, giúp đỡ"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "hữu ích, giúp đỡ"
+        }
+       }
       }
      ]
     },
@@ -4246,10 +4605,36 @@
         "D": "between"
        },
        "answer": "C",
-       "explanation": "Các thành viên của Lehua Vacation Club sẽ nhận được gấp đôi điểm ------- tháng 8 tại các khách sạn tham gia.\n(A) onto: giới từ mang nghĩa “lên trên”\n(B) above: giới từ mang nghĩa “ở trên”\n(C) during: giới từ mang nghĩa “trong suốt”\n(D) between: giới từ mang nghĩa “giữa”\nĐáp án đúng là 'during', vì giới từ 'during' phù hợp với ngữ cảnh thời gian. Các lựa chọn khác không phù hợp với ngữ pháp.",
+       "explanation": "Các thành viên của Lehua Vacation Club sẽ nhận được gấp đôi điểm ------- tháng 8 tại các khách sạn tham gia.\nĐáp án đúng là 'during', vì giới từ 'during' phù hợp với ngữ cảnh thời gian. Các lựa chọn khác không phù hợp với ngữ pháp.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giới từ mang nghĩa “lên trên"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giới từ mang nghĩa “ở trên"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giới từ mang nghĩa “trong suốt"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giới từ mang nghĩa “giữa"
+        }
+       }
       }
      ]
     },
@@ -4274,10 +4659,36 @@
         "D": "soon"
        },
        "answer": "D",
-       "explanation": "Những bộ trang phục đã không được nhận ------- đủ để sử dụng trong buổi diễn tập đầu tiên.\n(A) far: trạng từ (xa, rất)\n(B) very: trạng từ (rất, lắm)\n(C) almost: trạng từ (gần như, suýt)\n(D) soon: trạng từ (sớm, chẳng bao lâu)\nĐáp án đúng là 'soon', vì từ 'soon' mô tả thời gian cần thiết trước buổi diễn tập. Các lựa chọn khác không phù hợp.",
+       "explanation": "Những bộ trang phục đã không được nhận ------- đủ để sử dụng trong buổi diễn tập đầu tiên.\nĐáp án đúng là 'soon', vì từ 'soon' mô tả thời gian cần thiết trước buổi diễn tập. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "xa, rất"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "rất, lắm"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như, suýt"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sớm, chẳng bao lâu"
+        }
+       }
       }
      ]
     },
@@ -4302,10 +4713,36 @@
         "D": "organizational"
        },
        "answer": "B",
-       "explanation": "Là một cựu nhân viên công chúng cho một số dàn nhạc nổi tiếng, ông Wu sẽ xuất sắc trong vai trò của một người tổ chức sự kiện.\n(A) organized: động từ quá khứ hoặc phân từ quá khứ (đã tổ chức, được tổ chức)\n(B) organizer: danh từ (người tổ chức, nhà tổ chức)\n(C) organizes: động từ chia theo thì hiện tại đơn (tổ chức)\n(D) organizational: tính từ (thuộc về tổ chức)\nĐáp án đúng là 'organizer', vì danh từ 'organizer' phù hợp với ngữ cảnh nghề nghiệp. Các lựa chọn khác không phù hợp.",
+       "explanation": "Là một cựu nhân viên công chúng cho một số dàn nhạc nổi tiếng, ông Wu sẽ xuất sắc trong vai trò của một người tổ chức sự kiện.\nĐáp án đúng là 'organizer', vì danh từ 'organizer' phù hợp với ngữ cảnh nghề nghiệp. Các lựa chọn khác không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tổ chức, được tổ chức"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người tổ chức, nhà tổ chức"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tổ chức"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thuộc về tổ chức"
+        }
+       }
       }
      ]
     },
@@ -4330,10 +4767,28 @@
         "D": "collectively"
        },
        "answer": "A",
-       "explanation": "Làn đường hướng Bắc trên đường Davis sẽ được đóng cửa tạm thời do dự án củng cố cầu của thành phố.\n(A) temporarily: tạm thời, nhất thời\n(B) competitively: cạnh tranh, đua tranh\n(C) recently: gần đây, mới đây\n(D) collectively: tập thể, chung\nĐáp án đúng là 'temporarily', vì trạng từ 'temporarily' mô tả chính xác việc đóng cửa tạm thời. Các lựa chọn khác không phù hợp.",
+       "explanation": "Làn đường hướng Bắc trên đường Davis sẽ được đóng cửa tạm thời do dự án củng cố cầu của thành phố.\nĐáp án đúng là 'temporarily', vì trạng từ 'temporarily' mô tả chính xác việc đóng cửa tạm thời. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tạm thời, nhất thời"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "cạnh tranh, đua tranh"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "gần đây, mới đây"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "tập thể, chung"
+        }
+       }
       }
      ]
     },
@@ -4358,10 +4813,36 @@
         "D": "against"
        },
        "answer": "A",
-       "explanation": "Các đại diện hãng hàng không phải xử lý một loạt các vấn đề của hành khách, từ các kết nối bị mất đến hành lý bị mất.\n(A) from: giới từ mang nghĩa “từ” (đi kèm (cụm) danh từ)\n(B) under: giới từ mang nghĩa “dưới” (đi kèm (cụm) danh từ)\n(C) on: giới từ mang nghĩa “trên” (đi kèm (cụm) danh từ)\n(D) against: giới từ mang nghĩa “chống lại” (đi kèm (cụm) danh từ)\nĐáp án đúng là 'from', vì giới từ 'from' phù hợp với ngữ cảnh chỉ nguồn gốc của các vấn đề. Phía sau chỗ trống là hai cụm danh từ “missed connections” và “lost luggage”, kết hợp với nhau bởi “to”. Các lựa chọn khác không phù hợp.",
+       "explanation": "Các đại diện hãng hàng không phải xử lý một loạt các vấn đề của hành khách, từ các kết nối bị mất đến hành lý bị mất.\nĐáp án đúng là 'from', vì giới từ 'from' phù hợp với ngữ cảnh chỉ nguồn gốc của các vấn đề. Phía sau chỗ trống là hai cụm danh từ “missed connections” và “lost luggage”, kết hợp với nhau bởi “to”. Các lựa chọn khác không phù hợp.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cụm"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cụm"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cụm"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cụm"
+        }
+       }
       }
      ]
     },
@@ -4386,10 +4867,36 @@
         "D": "accidentally"
        },
        "answer": "D",
-       "explanation": "Ghi chú cuộc họp đã bị xóa -------, nhưng ông Hahm đã có thể tái tạo chúng từ trí nhớ.\n(A) accident: danh từ (tai nạn, sự cố)\n(B) accidental: tính từ (tình cờ, vô ý)\n(C) accidents: danh từ số nhiều (tai nạn, sự cố)\n(D) accidentally: trạng từ (tình cờ, vô ý\n)Đáp án đúng là 'accidentally', vì trạng từ 'accidentally' mô tả hành động xóa nhầm. Các lựa chọn khác không phù hợp.",
+       "explanation": "Ghi chú cuộc họp đã bị xóa -------, nhưng ông Hahm đã có thể tái tạo chúng từ trí nhớ.\n)Đáp án đúng là 'accidentally', vì trạng từ 'accidentally' mô tả hành động xóa nhầm. Các lựa chọn khác không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tai nạn, sự cố"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tình cờ, vô ý"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tai nạn, sự cố"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "vô ý"
+        }
+       }
       }
      ]
     },
@@ -4414,10 +4921,36 @@
         "D": "now"
        },
        "answer": "A",
-       "explanation": "Số báo hiện tại của tạp chí Farming Scene dự đoán rằng giá ngô sẽ tăng 5% trong năm tới.\n(A) next: tính từ (tiếp theo, kế tiếp)\n(B) with: giới từ (với, cùng)\n(C) which: đại từ quan hệ (mà, cái mà)\n(D) now: trạng từ (bây giờ, hiện tại)\nĐáp án đúng là 'next', vì tính từ 'next' phù hợp với ngữ cảnh chỉ năm sau. Các lựa chọn khác không phù hợp.",
+       "explanation": "Số báo hiện tại của tạp chí Farming Scene dự đoán rằng giá ngô sẽ tăng 5% trong năm tới.\nĐáp án đúng là 'next', vì tính từ 'next' phù hợp với ngữ cảnh chỉ năm sau. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tiếp theo, kế tiếp"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "với, cùng"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "mà, cái mà"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "bây giờ, hiện tại"
+        }
+       }
       }
      ]
     },
@@ -4445,7 +4978,8 @@
        "explanation": "Bất kỳ ai vẫn còn cần tham gia đào tạo an toàn cháy nổ nên làm điều đó trước khi hết tháng.\n(A) needing: động từ nguyên thể thêm “_ing”\n(B) needs: động từ chia theo thì hiện tại đơn\n(C) has needed: động từ chia theo thì hiện tại hoàn thành\n(D) were needing: động từ chia theo thì quá khứ tiếp diễn\nĐáp án đúng là ‘needs'. Từ cần điền đóng vai trò là động từ chính trong mệnh đề quan hệ “who still … to take the fire safety training”. Từ này phải đi chung với đại từ quan hệ “who” và động từ “to take”. Nghĩa câu miêu tả một yêu cầu hay lời khuyên trong hiện tại.\n→ Đáp án là động từ chia theo thì hiện tại đơn chỉ nhu cầu hay yêu cầu.\nCác lựa chọn khác không phù hợp.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4470,10 +5004,30 @@
         "D": "closely"
        },
        "answer": "A",
-       "explanation": "Các công nghệ mới nổi đã bắt đầu chuyển đổi ngành vận tải theo những cách không thể tưởng tượng được trước đây.\n(A) already: trạng từ (đã, rồi)\n(B) exactly: trạng từ (chính xác, đúng)\n(C) hardly: trạng từ (hầu như không, khó khăn)\n(D) closely: trạng từ (gần, chặt chẽ)\nĐáp án đúng là 'already', vì trạng từ 'already' mô tả hành động đã bắt đầu. Từ cần điền đứng trước động từ “begun”, đóng vai trò là bổ nghĩa cho động từ đó. Các lựa chọn khác không phù hợp.",
+       "explanation": "Các công nghệ mới nổi đã bắt đầu chuyển đổi ngành vận tải theo những cách không thể tưởng tượng được trước đây.\n(B) exactly: trạng từ (chính xác, đúng)\nĐáp án đúng là 'already', vì trạng từ 'already' mô tả hành động đã bắt đầu. Từ cần điền đứng trước động từ “begun”, đóng vai trò là bổ nghĩa cho động từ đó. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đã, rồi"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hầu như không, khó khăn"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần, chặt chẽ"
+        }
+       }
       }
      ]
     },
@@ -4498,10 +5052,28 @@
         "D": "standards"
        },
        "answer": "D",
-       "explanation": "Sổ tay công ty nêu rõ các tiêu chuẩn cao mà nhân viên phải đạt được mỗi ngày.\n(A) experts: chuyên gia\n(B) accounts: tài khoản\n(C) recommendations: khuyến nghị\n(D) standards: tiêu chuẩn\nĐáp án đúng là 'standards', vì danh từ 'standards' phù hợp với ngữ cảnh chỉ các tiêu chuẩn. Các lựa chọn khác không phù hợp.",
+       "explanation": "Sổ tay công ty nêu rõ các tiêu chuẩn cao mà nhân viên phải đạt được mỗi ngày.\nĐáp án đúng là 'standards', vì danh từ 'standards' phù hợp với ngữ cảnh chỉ các tiêu chuẩn. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chuyên gia"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "tài khoản"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "khuyến nghị"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "tiêu chuẩn"
+        }
+       }
       }
      ]
     },
@@ -4526,10 +5098,36 @@
         "D": "some"
        },
        "answer": "D",
-       "explanation": "Vì một số thành viên hội đồng quản trị có xung đột lịch trình, cuộc họp hội đồng sẽ được dời lại vào một ngày khi tất cả có thể tham dự.\n(A) any: đại từ chỉ bất kỳ\n(B) everybody: đại từ chỉ mọi người\n(C) those: đại từ chỉ những người đang đứng ở phía xa\n(D) some: đại từ chỉ một số\nĐáp án đúng là ‘some’- đại từ chỉ số lượng. Từ cần điền đứng trước giới từ “of”, đóng vai trò là chủ ngữ của mệnh đề “_______ of the board members have scheduling conflicts”.Các lựa chọn khác không phù hợp.",
+       "explanation": "Vì một số thành viên hội đồng quản trị có xung đột lịch trình, cuộc họp hội đồng sẽ được dời lại vào một ngày khi tất cả có thể tham dự.\nĐáp án đúng là ‘some’- đại từ chỉ số lượng. Từ cần điền đứng trước giới từ “of”, đóng vai trò là chủ ngữ của mệnh đề “_______ of the board members have scheduling conflicts”.Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "đại từ chỉ bất kỳ"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "đại từ chỉ mọi người"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "đại từ chỉ những người đang đứng ở phía xa"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "đại từ chỉ một số"
+        }
+       }
       }
      ]
     },
@@ -4554,10 +5152,28 @@
         "D": "performed"
        },
        "answer": "C",
-       "explanation": "Dự án này yêu cầu sự hợp tác của một số nhóm trong toàn công ty.\n(A) passed: vượt qua\n(B) decided: quyết định\n(C) required: yêu cầu\n(D) performed: thực hiện\nĐáp án đúng là 'required', vì động từ 'required' mô tả chính xác nhu cầu hợp tác. Các lựa chọn khác không phù hợp.",
+       "explanation": "Dự án này yêu cầu sự hợp tác của một số nhóm trong toàn công ty.\nĐáp án đúng là 'required', vì động từ 'required' mô tả chính xác nhu cầu hợp tác. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "vượt qua"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "quyết định"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "yêu cầu"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thực hiện"
+        }
+       }
       }
      ]
     },
@@ -4585,7 +5201,8 @@
        "explanation": "Chúng tôi không thể gửi tập sách phiếu giảm giá của cửa hàng đến nhà in cho đến khi nó được phê duyệt bởi bà Jeon.\n(A) is approving: động từ chia theo thì hiện tại tiếp diễn ở thể chủ động\n(B) approves: động từ chia theo thì hiện tại đơn ở thể chủ động\n(C) has been approved: động từ chia theo thì hiện tại hoàn thành ở thể bị động\n(D) will be approved: động từ chia theo thì tương lai đơn ở thể bị động\nĐáp án đúng là 'has been approved', vì thì hiện tại hoàn thành phù hợp với ngữ cảnh, là động từ chia theo thì hiện tại hoàn thành ở thể bị động.Lựa. Các lựa chọn khác không phù hợp.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4610,10 +5227,28 @@
         "D": "According to"
        },
        "answer": "C",
-       "explanation": "Do việc đóng cửa của Verdigold Transport Services, chúng tôi đang tìm kiếm một công ty vận chuyển mới.\n(A) In spite of: cụm giới từ (mặc dù)\n(B) Just as: cụm liên từ (ngay khi)\n(C) In light of: cụm giới từ (vì, xét theo)\n(D) According to: cụm giới từ (theo)\nĐáp án đúng là 'In light of', vì cụm từ này phù hợp với ngữ cảnh chỉ nguyên nhân. Các lựa chọn khác không phù hợp.",
+       "explanation": "Do việc đóng cửa của Verdigold Transport Services, chúng tôi đang tìm kiếm một công ty vận chuyển mới.\n(C) In light of: cụm giới từ (vì, xét theo)\nĐáp án đúng là 'In light of', vì cụm từ này phù hợp với ngữ cảnh chỉ nguyên nhân. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "cụm giới từ"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "cụm liên từ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cụm giới từ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "cụm giới từ"
+        }
+       }
       }
      ]
     },
@@ -4638,10 +5273,36 @@
         "D": "potential"
        },
        "answer": "B",
-       "explanation": "Thông tin bổ sung được cung cấp bởi tài liệu quảng cáo của Ngân hàng Uniss giúp người nộp đơn hiểu các điều khoản của khoản vay của họ.\n(A) arbitrary: tính từ (tùy ý, tùy tiện)\n(B) supplemental: tính từ (bổ sung, thêm vào)\n(C) superfluous: tính từ (dư thừa, thừa thãi)\n(D) potential: tính từ (tiềm năng, có khả năng)\nĐáp án đúng là 'supplemental', vì tính từ 'supplemental' phù hợp với ngữ cảnh chỉ thông tin bổ sung. Các lựa chọn khác không phù hợp.",
+       "explanation": "Thông tin bổ sung được cung cấp bởi tài liệu quảng cáo của Ngân hàng Uniss giúp người nộp đơn hiểu các điều khoản của khoản vay của họ.\nĐáp án đúng là 'supplemental', vì tính từ 'supplemental' phù hợp với ngữ cảnh chỉ thông tin bổ sung. Các lựa chọn khác không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tùy ý, tùy tiện"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bổ sung, thêm vào"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "dư thừa, thừa thãi"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tiềm năng, có khả năng"
+        }
+       }
       }
      ]
     }

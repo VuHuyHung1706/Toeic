@@ -1281,6 +1281,13 @@
         "adv"
        ],
        "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "far",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "xa, rất"
       }
      ],
      "vocabAuto": true
@@ -1613,7 +1620,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "bản ghi âm, đang ghi; bản ghi âm"
+       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       }
      ],
      "vocabAuto": true
@@ -1688,7 +1695,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "construction",
@@ -1838,7 +1845,7 @@
        "pos": [
         "adj"
        ],
-       "meaning": "riêng biệt"
+       "meaning": "riêng biệt, tách rời; riêng biệt"
       },
       {
        "term": "interrupt",
@@ -2527,10 +2534,9 @@
       {
        "term": "produce",
        "pos": [
-        "n",
         "v"
        ],
-       "meaning": "sản xuất, nông sản; sản xuất"
+       "meaning": "sản xuất/nông sản; sản xuất"
       },
       {
        "term": "provide",
@@ -3182,6 +3188,13 @@
        "meaning": "đơn xin việc; ứng dụng"
       },
       {
+       "term": "far",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "xa, rất"
+      },
+      {
        "term": "however",
        "pos": [
         "adv",
@@ -3245,13 +3258,6 @@
         "n"
        ],
        "meaning": "phần mềm"
-      },
-      {
-       "term": "developer",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà phát triển"
       }
      ],
      "vocabAuto": true
@@ -3770,6 +3776,13 @@
         "v"
        ],
        "meaning": "làm săn chắc"
+      },
+      {
+       "term": "connect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kết nối"
       }
      ],
      "vocabAuto": true
@@ -3800,10 +3813,36 @@
         "D": "with"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (at - giới từ). Giải thích: \"At\" được sử dụng với thời gian cụ thể. Cụm \"at 6:00 A.M.\" là cách diễn đạt thời gian chính xác.\nDịch: Các xe tải của Edison Delivery rời khỏi kho đúng 6:00 sáng mỗi ngày.\nA. at (giới từ): vào lúc\nB. on (giới từ): vào (ngày)\nC. for (giới từ): cho\nD. with (giới từ): với.",
+       "explanation": "Đáp án đúng là A (at - giới từ). Giải thích: \"At\" được sử dụng với thời gian cụ thể. Cụm \"at 6:00 A.M.\" là cách diễn đạt thời gian chính xác.\nDịch: Các xe tải của Edison Delivery rời khỏi kho đúng 6:00 sáng mỗi ngày.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vào lúc"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vào"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cho"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "với"
+        }
+       }
       }
      ]
     },
@@ -3828,10 +3867,38 @@
         "D": "signed"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (signed - tính từ). Giải thích: Câu này cần một tính từ mô tả bản sao hợp đồng. \"Signed copy\" (bản sao đã ký) là cụm từ phổ biến chỉ tài liệu đã được ký kết.\nDịch: Một bản sao đã ký của hợp đồng thuê căn hộ đã được gửi đến văn phòng chính.\nA. signature (danh từ): chữ ký\nB. sign (động từ/danh từ): ký biển hiệu\nC. signs (động từ/danh từ số nhiều): ký các biển hiệu\nD. signed (tính từ): đã ký",
+       "explanation": "Đáp án đúng là D (signed - tính từ). Giải thích: Câu này cần một tính từ mô tả bản sao hợp đồng. \"Signed copy\" (bản sao đã ký) là cụm từ phổ biến chỉ tài liệu đã được ký kết.\nDịch: Một bản sao đã ký của hợp đồng thuê căn hộ đã được gửi đến văn phòng chính.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chữ ký"
+        },
+        "B": {
+         "pos": [
+          "n",
+          "v"
+         ],
+         "meaning": "ký biển hiệu"
+        },
+        "C": {
+         "pos": [
+          "n",
+          "v"
+         ],
+         "meaning": "ký các biển hiệu"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã ký"
+        }
+       }
       }
      ]
     },
@@ -3856,10 +3923,36 @@
         "D": "Reservable"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Reservations - danh từ số nhiều). Giải thích: Câu này cần một danh từ làm chủ ngữ. \"Reservations\" (việc đặt chỗ) phù hợp nhất trong ngữ cảnh này.\nDịch: Việc đặt chỗ có thể được thực hiện trực tuyến hoặc bằng cách gọi điện cho dịch vụ khách hàng từ 6:30 sáng đến 5:30 chiều.\nA. Reserve (động từ): đặt chỗ\nB. Reserved (tính từ): đã đặt\nC. Reservations (danh từ số nhiều): việc đặt chỗ\nD. Reservable (tính từ): có thể đặt trước",
+       "explanation": "Đáp án đúng là C (Reservations - danh từ số nhiều). Giải thích: Câu này cần một danh từ làm chủ ngữ. \"Reservations\" (việc đặt chỗ) phù hợp nhất trong ngữ cảnh này.\nDịch: Việc đặt chỗ có thể được thực hiện trực tuyến hoặc bằng cách gọi điện cho dịch vụ khách hàng từ 6:30 sáng đến 5:30 chiều.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đặt chỗ"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã đặt"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "việc đặt chỗ"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể đặt trước"
+        }
+       }
       }
      ]
     },
@@ -3884,10 +3977,37 @@
         "D": "quickening"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (quickly - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức thăng tiến. \"Quickly\" (nhanh chóng) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Shimabukuro đã nhanh chóng thăng tiến qua các cấp bậc và trở thành quản lý trong chưa đầy hai năm.\nA. quick (tính từ): nhanh\nB. quicken (động từ): đẩy nhanh\nC. quickly (trạng từ): nhanh chóng\nD. quickening (động từ/danh từ): đang đẩy nhanh sự đẩy nhanh",
+       "explanation": "Đáp án đúng là C (quickly - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức thăng tiến. \"Quickly\" (nhanh chóng) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Shimabukuro đã nhanh chóng thăng tiến qua các cấp bậc và trở thành quản lý trong chưa đầy hai năm.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhanh"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đẩy nhanh"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nhanh chóng"
+        },
+        "D": {
+         "pos": [
+          "n",
+          "v"
+         ],
+         "meaning": "đang đẩy nhanh sự đẩy nhanh"
+        }
+       }
       }
      ]
     },
@@ -3912,10 +4032,30 @@
         "D": "held"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (closed - tính từ/động từ quá khứ phân từ). Giải thích: Câu này cần một từ chỉ trạng thái đóng cửa. \"Closed for renovations\" (đóng cửa để cải tạo) là cụm từ phổ biến.\nDịch: Bảo tàng Robotics Highland sẽ đóng cửa để cải tạo cho đến khi có thông báo mới.\nA. bought (động từ quá khứ): đã mua\nB. closed (tính từ/động từ quá khứ phân từ): đóng cửa\nC. stopped (động từ quá khứ): đã dừng\nD. held (động từ quá khứ): đã giữ",
+       "explanation": "Đáp án đúng là B (closed - tính từ/động từ quá khứ phân từ). Giải thích: Câu này cần một từ chỉ trạng thái đóng cửa. \"Closed for renovations\" (đóng cửa để cải tạo) là cụm từ phổ biến.\nDịch: Bảo tàng Robotics Highland sẽ đóng cửa để cải tạo cho đến khi có thông báo mới.\nB. closed (tính từ/động từ quá khứ phân từ): đóng cửa",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã mua"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã dừng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã giữ"
+        }
+       }
       }
      ]
     },
@@ -3940,10 +4080,36 @@
         "D": "favoring"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (favorite- tính từ). Giải thích:\nAdj + N.\nCâu này cần một tính từ để bổ nghĩa cho danh từ các vận động viên (athletes). \"Favorite\" phù hợp nhất trong ngữ cảnh này.\nDịch: Sân vận động Hollytown chỉ định một khu vực nơi người hâm mộ có thể gặp gỡ các vận động viên yêu thích của họ sau mỗi trận đấu.\nA. favorite (tính từ): yêu thích\nB. favoritism (danh từ): sự thiên vị\nC. favorites (danh từ số nhiều): những người/vật yêu thích\nD. favoring (động từ hiện tại phân từ): đang ưu ái",
+       "explanation": "Đáp án đúng là A (favorite- tính từ). Giải thích:\nAdj + N.\nCâu này cần một tính từ để bổ nghĩa cho danh từ các vận động viên (athletes). \"Favorite\" phù hợp nhất trong ngữ cảnh này.\nDịch: Sân vận động Hollytown chỉ định một khu vực nơi người hâm mộ có thể gặp gỡ các vận động viên yêu thích của họ sau mỗi trận đấu.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "yêu thích"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự thiên vị"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "những người/vật yêu thích"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang ưu ái"
+        }
+       }
       }
      ]
     },
@@ -3968,10 +4134,37 @@
         "D": "in"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (in - giới từ). Giải thích: \"In business districts\" (trong các khu vực kinh doanh) là cụm từ phổ biến chỉ vị trí.\nDịch: Các biển quảng cáo quảng cáo dịch vụ pháp lý hiệu quả nhất khi được đặt trong các khu vực kinh doanh.\nA. from (giới từ): từ\nB. down (giới từ/trạng từ): xuống\nC. of (giới từ): của\nD. in (giới từ): trong",
+       "explanation": "Đáp án đúng là D (in - giới từ). Giải thích: \"In business districts\" (trong các khu vực kinh doanh) là cụm từ phổ biến chỉ vị trí.\nDịch: Các biển quảng cáo quảng cáo dịch vụ pháp lý hiệu quả nhất khi được đặt trong các khu vực kinh doanh.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "từ"
+        },
+        "B": {
+         "pos": [
+          "adv",
+          "prep"
+         ],
+         "meaning": "xuống"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "của"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        }
+       }
       }
      ]
     },
@@ -3996,10 +4189,30 @@
         "D": "strong"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (pleased - tính từ). Giải thích: Câu này cần một tính từ chỉ sự hài lòng. \"Pleased with\" (hài lòng với) là cụm từ phổ biến trong ngữ cảnh này.\nDịch: Bà Ueda khá hài lòng với giá bán sỉ được đề nghị bởi Nhà cung cấp Nhà hàng Quốc tế Rea.\nA. advised (động từ quá khứ): đã tư vấn\nB. true (tính từ): đúng\nC. pleased (tính từ): hài lòng\nD. strong (tính từ): mạnh mẽ",
+       "explanation": "Đáp án đúng là C (pleased - tính từ). Giải thích: Câu này cần một tính từ chỉ sự hài lòng. \"Pleased with\" (hài lòng với) là cụm từ phổ biến trong ngữ cảnh này.\nDịch: Bà Ueda khá hài lòng với giá bán sỉ được đề nghị bởi Nhà cung cấp Nhà hàng Quốc tế Rea.\nB. true (tính từ): đúng",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tư vấn"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "hài lòng"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "mạnh mẽ"
+        }
+       }
       }
      ]
     },
@@ -4024,10 +4237,30 @@
         "D": "specifically"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (specifically - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách viết các bài báo. \"Specifically\" (đặc biệt, cụ thể) phù hợp nhất trong ngữ cảnh này.\nDịch: Geology Monthly là một tạp chí chuyên ngành với các bài viết được viết đặc biệt cho các chuyên gia trong lĩnh vực.\nA. specify (động từ): chỉ định\nB. had specified (động từ quá khứ hoàn thành): đã chỉ định\nC. specifics (danh từ số nhiều): chi tiết cụ thể\nD. specifically (trạng từ): đặc biệt, cụ thể",
+       "explanation": "Đáp án đúng là D (specifically - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách viết các bài báo. \"Specifically\" (đặc biệt, cụ thể) phù hợp nhất trong ngữ cảnh này.\nDịch: Geology Monthly là một tạp chí chuyên ngành với các bài viết được viết đặc biệt cho các chuyên gia trong lĩnh vực.\nB. had specified (động từ quá khứ hoàn thành): đã chỉ định",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chỉ định"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chi tiết cụ thể"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đặc biệt, cụ thể"
+        }
+       }
       }
      ]
     },
@@ -4052,10 +4285,30 @@
         "D": "In addition"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (During - giới từ). Giải thích: Câu này cần một giới từ chỉ thời gian. \"During\" (trong suốt) phù hợp nhất để chỉ ra khoảng thời gian của đợt giảm giá.\nDịch: Trong suốt đợt giảm giá cuối năm tại Cửa hàng Cắm trại Arthur, tất cả các mặt hàng mùa đông được giảm giá 25%.\nA. During (giới từ): trong suốt\nB. Although (liên từ): mặc dù\nC. As long as (cụm liên từ): miễn là\nD. In addition (cụm từ): ngoài ra",
+       "explanation": "Đáp án đúng là A (During - giới từ). Giải thích: Câu này cần một giới từ chỉ thời gian. \"During\" (trong suốt) phù hợp nhất để chỉ ra khoảng thời gian của đợt giảm giá.\nDịch: Trong suốt đợt giảm giá cuối năm tại Cửa hàng Cắm trại Arthur, tất cả các mặt hàng mùa đông được giảm giá 25%.\nD. In addition (cụm từ): ngoài ra",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong suốt"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "mặc dù"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "miễn là"
+        }
+       }
       }
      ]
     },
@@ -4080,10 +4333,36 @@
         "D": "near"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (near - tính từ). Giải thích: Cụm từ \"in the near future\" (trong tương lai gần) là một cách diễn đạt phổ biến để chỉ thời gian sắp tới.\nDịch: Trong tương lai gần, một cửa hàng phần cứng sẽ mở tại góc Đại lộ Oak và Đại lộ Primrose.\nA. nears (động từ, ngôi thứ 3 số ít): đến gần\nB. nearly (trạng từ): gần như\nC. nearness (danh từ): sự gần gũi\nD. near (tính từ): gần",
+       "explanation": "Đáp án đúng là D (near - tính từ). Giải thích: Cụm từ \"in the near future\" (trong tương lai gần) là một cách diễn đạt phổ biến để chỉ thời gian sắp tới.\nDịch: Trong tương lai gần, một cửa hàng phần cứng sẽ mở tại góc Đại lộ Oak và Đại lộ Primrose.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đến gần"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự gần gũi"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "gần"
+        }
+       }
       }
      ]
     },
@@ -4108,10 +4387,36 @@
         "D": "themselves"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (someone - đại từ). Giải thích: Câu này cần một đại từ không xác định chỉ một người từ đội hỗ trợ kỹ thuật. \"Someone\" (ai đó) phù hợp nhất trong ngữ cảnh này.\nDịch: Ông Careni yêu cầu ai đó từ đội hỗ trợ kỹ thuật đến ngay lập tức văn phòng Harrisburg.\nA. who (đại từ quan hệ): người mà\nB. someone (đại từ): ai đó\nC. which (đại từ quan hệ): cái mà\nD. themselves (đại từ phản thân): bản thân họ",
+       "explanation": "Đáp án đúng là B (someone - đại từ). Giải thích: Câu này cần một đại từ không xác định chỉ một người từ đội hỗ trợ kỹ thuật. \"Someone\" (ai đó) phù hợp nhất trong ngữ cảnh này.\nDịch: Ông Careni yêu cầu ai đó từ đội hỗ trợ kỹ thuật đến ngay lập tức văn phòng Harrisburg.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "người mà"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "ai đó"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cái mà"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bản thân họ"
+        }
+       }
       }
      ]
     },
@@ -4136,10 +4441,30 @@
         "D": "briefly"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (briefly - trạng từ). Giải thích: Câu này cần một trạng từ chỉ thời gian ngắn. \"Briefly\" (trong thời gian ngắn) phù hợp nhất để mô tả sự gián đoạn tạm thời.\nDịch: Hệ thống nhập thời gian đã không khả dụng trong thời gian ngắn chiều nay, nhưng hiện đã hoạt động bình thường.\nA. directly (trạng từ): trực tiếp\nB. urgently (trạng từ): khẩn cấp\nC. precisely (trạng từ): chính xác\nD. briefly (trạng từ): trong thời gian ngắn",
+       "explanation": "Đáp án đúng là D (briefly - trạng từ). Giải thích: Câu này cần một trạng từ chỉ thời gian ngắn. \"Briefly\" (trong thời gian ngắn) phù hợp nhất để mô tả sự gián đoạn tạm thời.\nDịch: Hệ thống nhập thời gian đã không khả dụng trong thời gian ngắn chiều nay, nhưng hiện đã hoạt động bình thường.\nC. precisely (trạng từ): chính xác",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "trực tiếp"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "khẩn cấp"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "trong thời gian ngắn"
+        }
+       }
       }
      ]
     },
@@ -4164,10 +4489,36 @@
         "D": "will be attended"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (will be attended - động từ tương lai bị động). Giải thích: Câu này cần một động từ ở thì tương lai bị động để chỉ ra sự tham gia của các nhà tuyển dụng trong tương lai.\nDịch: Hội chợ việc làm sắp tới sẽ có sự tham gia của hơn 100 nhà tuyển dụng và cơ quan tuyển dụng.\nA. attend (động từ): tham dự\nB. were attended (động từ quá khứ bị động): đã được tham dự\nC. was attending (động từ quá khứ tiếp diễn): đã đang tham dự\nD. will be attended (động từ tương lai bị động): sẽ được tham dự",
+       "explanation": "Đáp án đúng là D (will be attended - động từ tương lai bị động). Giải thích: Câu này cần một động từ ở thì tương lai bị động để chỉ ra sự tham gia của các nhà tuyển dụng trong tương lai.\nDịch: Hội chợ việc làm sắp tới sẽ có sự tham gia của hơn 100 nhà tuyển dụng và cơ quan tuyển dụng.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tham dự"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã được tham dự"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã đang tham dự"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sẽ được tham dự"
+        }
+       }
       }
      ]
     },
@@ -4192,10 +4543,30 @@
         "D": "All"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Each - từ xác định). Giải thích: Câu này cần một từ xác định chỉ từng rạp chiếu phim riêng lẻ. \"Each\" (mỗi) phù hợp nhất trong ngữ cảnh này.\nDịch: Mỗi rạp chiếu phim tại Landon Cinema được trang trí với một chủ đề khác nhau.\nA. Even (trạng từ): thậm chí\nB. Much (từ xác định): nhiều\nC. Each (từ xác định): mỗi\nD. All (từ xác định): tất cả",
+       "explanation": "Đáp án đúng là C (Each - từ xác định). Giải thích: Câu này cần một từ xác định chỉ từng rạp chiếu phim riêng lẻ. \"Each\" (mỗi) phù hợp nhất trong ngữ cảnh này.\nDịch: Mỗi rạp chiếu phim tại Landon Cinema được trang trí với một chủ đề khác nhau.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thậm chí"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "từ xác định"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "từ xác định"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "từ xác định"
+        }
+       }
       }
      ]
     },
@@ -4220,10 +4591,28 @@
         "D": "whether"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (while - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian đồng thời. \"While\" (trong khi) phù hợp nhất để chỉ ra hai hành động xảy ra cùng lúc.\nDịch:Những thay đổi đối với nội dung khóa học đã bị tạm dừng ..... Học viện Salinas chuyển sang một nền tảng trực tuyến mới.\n(A) trong khi\n(B) mặc dù\nC) liên quan đến\n(D) liệu",
+       "explanation": "Đáp án đúng là A (while - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian đồng thời. \"While\" (trong khi) phù hợp nhất để chỉ ra hai hành động xảy ra cùng lúc.\nDịch:Những thay đổi đối với nội dung khóa học đã bị tạm dừng ..... Học viện Salinas chuyển sang một nền tảng trực tuyến mới.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "trong khi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "mặc dù"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "liên quan đến"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "liệu"
+        }
+       }
       }
      ]
     },
@@ -4248,10 +4637,36 @@
         "D": "personality"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (personally - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức Thị trưởng Trent tham gia. \"Personally\" (đích thân) phù hợp nhất trong ngữ cảnh này.\nDịch: Thị trưởng Julian Trent của Bricktown sẽ đích thân giúp trồng hoa ở Công viên Evans vào cuối tuần này.\nA. personal (tính từ): cá nhân\nB. personalize (động từ): cá nhân hóa\nC. personally (trạng từ): đích thân\nD. personality (danh từ): tính cách",
+       "explanation": "Đáp án đúng là C (personally - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức Thị trưởng Trent tham gia. \"Personally\" (đích thân) phù hợp nhất trong ngữ cảnh này.\nDịch: Thị trưởng Julian Trent của Bricktown sẽ đích thân giúp trồng hoa ở Công viên Evans vào cuối tuần này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cá nhân"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cá nhân hóa"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đích thân"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tính cách"
+        }
+       }
       }
      ]
     },
@@ -4276,10 +4691,36 @@
         "D": "sizable"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (updated - tính từ). Giải thích: Câu này cần một tính từ mô tả các trang mới. \"Updated\" (đã cập nhật) phù hợp nhất trong ngữ cảnh thay thế tài liệu cũ bằng phiên bản mới.\nDịch: Vui lòng thay thế các trang 28 đến 35 trong sổ tay nhân viên bằng các trang đã được cập nhật.\nA. careful (tính từ): cẩn thận\nB. updated (tính từ): đã cập nhật\nC. consistent (tính từ): nhất quán\nD. sizable (tính từ): đáng kể",
+       "explanation": "Đáp án đúng là B (updated - tính từ). Giải thích: Câu này cần một tính từ mô tả các trang mới. \"Updated\" (đã cập nhật) phù hợp nhất trong ngữ cảnh thay thế tài liệu cũ bằng phiên bản mới.\nDịch: Vui lòng thay thế các trang 28 đến 35 trong sổ tay nhân viên bằng các trang đã được cập nhật.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cẩn thận"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã cập nhật"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhất quán"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng kể"
+        }
+       }
       }
      ]
     },
@@ -4304,10 +4745,36 @@
         "D": "Instead"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Since - liên từ). Giải thích: Câu này cần một liên từ chỉ nguyên nhân. \"Since\" (kể từ khi) phù hợp nhất để nối kết quả với hành động trước đó.\nDịch: Kể từ khi chúng tôi tăng tốc độ Internet, chúng tôi có thể tải xuống các tài liệu lớn nhanh hơn nhiều.\nA. Since (liên từ): kể từ khi\nB. Provided (liên từ): miễn là\nC. Yet (liên từ): tuy nhiên\nD. Instead (trạng từ): thay vào đó",
+       "explanation": "Đáp án đúng là A (Since - liên từ). Giải thích: Câu này cần một liên từ chỉ nguyên nhân. \"Since\" (kể từ khi) phù hợp nhất để nối kết quả với hành động trước đó.\nDịch: Kể từ khi chúng tôi tăng tốc độ Internet, chúng tôi có thể tải xuống các tài liệu lớn nhanh hơn nhiều.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "kể từ khi"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "miễn là"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "tuy nhiên"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thay vào đó"
+        }
+       }
       }
      ]
     },
@@ -4332,10 +4799,24 @@
         "D": "send"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (should be sent - động từ khuyết thiếu bị động). Giải thích: Câu này cần một động từ ở dạng bị động để chỉ ra quyết định về việc gửi ảnh. \"Should be sent\" (nên được gửi) phù hợp nhất trong ngữ cảnh này.\nDịch: Nghệ sĩ đồ họa chính quyết định những bức ảnh nào được gửi bởi các cộng tác viên tự do nên được gửi cho giám đốc sáng tạo.\nA. are sending (động từ hiện tại tiếp diễn): đang gửi\nB. sender (danh từ): người gửi\nC. should be sent (động từ khuyết thiếu bị động): nên được gửi\nD. send (động từ): gửi",
+       "explanation": "Đáp án đúng là C (should be sent - động từ khuyết thiếu bị động). Giải thích: Câu này cần một động từ ở dạng bị động để chỉ ra quyết định về việc gửi ảnh. \"Should be sent\" (nên được gửi) phù hợp nhất trong ngữ cảnh này.\nDịch: Nghệ sĩ đồ họa chính quyết định những bức ảnh nào được gửi bởi các cộng tác viên tự do nên được gửi cho giám đốc sáng tạo.\nA. are sending (động từ hiện tại tiếp diễn): đang gửi\nC. should be sent (động từ khuyết thiếu bị động): nên được gửi",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người gửi"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "gửi"
+        }
+       }
       }
      ]
     },
@@ -4360,10 +4841,36 @@
         "D": "Altogether"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Whenever - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian lặp lại. \"Whenever\" (bất cứ khi nào) phù hợp nhất để chỉ ra một hành động xảy ra mỗi lần bạn đến khách sạn.\nDịch: Bất cứ khi nào bạn đến Khách sạn Star, đội ngũ nhân viên vui vẻ khiến bạn cảm thấy được chào đón.\nA. Whenever (liên từ): bất cứ khi nào\nB. Whichever (đại từ quan hệ): bất kỳ cái nào\nC. Nevertheless (trạng từ): tuy nhiên\nD. Altogether (trạng từ): hoàn toàn",
+       "explanation": "Đáp án đúng là A (Whenever - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian lặp lại. \"Whenever\" (bất cứ khi nào) phù hợp nhất để chỉ ra một hành động xảy ra mỗi lần bạn đến khách sạn.\nDịch: Bất cứ khi nào bạn đến Khách sạn Star, đội ngũ nhân viên vui vẻ khiến bạn cảm thấy được chào đón.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "bất cứ khi nào"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bất kỳ cái nào"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "tuy nhiên"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hoàn toàn"
+        }
+       }
       }
      ]
     },
@@ -4388,10 +4895,36 @@
         "D": "slightly"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (ultimately - trạng từ). Giải thích: Câu này cần một trạng từ chỉ quyết định cuối cùng. \"Ultimately\" (cuối cùng) phù hợp nhất để chỉ ra quyết định sau cùng của Ms. Matlou.\nDịch: Bà Matlou đã cân nhắc sự nghiệp pháp lý trước khi cuối cùng quyết định theo học trường kinh doanh.\nA. strictly (trạng từ): nghiêm ngặt\nB. politely (trạng từ): lịch sự\nC. ultimately (trạng từ): cuối cùng\nD. slightly (trạng từ): hơi",
+       "explanation": "Đáp án đúng là C (ultimately - trạng từ). Giải thích: Câu này cần một trạng từ chỉ quyết định cuối cùng. \"Ultimately\" (cuối cùng) phù hợp nhất để chỉ ra quyết định sau cùng của Ms. Matlou.\nDịch: Bà Matlou đã cân nhắc sự nghiệp pháp lý trước khi cuối cùng quyết định theo học trường kinh doanh.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nghiêm ngặt"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "lịch sự"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cuối cùng"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hơi"
+        }
+       }
       }
      ]
     },
@@ -4416,10 +4949,36 @@
         "D": "traditions"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (tradition - danh từ). Giải thích: Câu này cần một danh từ chỉ tập quán lâu đời. \"Tradition\" (truyền thống) phù hợp nhất trong ngữ cảnh này.\nDịch: Việc khách tham dự lễ hội thưởng thức bữa trưa dã ngoại trên bãi cỏ của nhà hát hòa nhạc là một truyền thống có từ gần một thế kỷ trước.\nA. traditional (tính từ): truyền thống\nB. tradition (danh từ): truyền thống\nC. traditionalist (danh từ): người theo truyền thống\nD. traditions (danh từ số nhiều): các truyền thống",
+       "explanation": "Đáp án đúng là B (tradition - danh từ). Giải thích: Câu này cần một danh từ chỉ tập quán lâu đời. \"Tradition\" (truyền thống) phù hợp nhất trong ngữ cảnh này.\nDịch: Việc khách tham dự lễ hội thưởng thức bữa trưa dã ngoại trên bãi cỏ của nhà hát hòa nhạc là một truyền thống có từ gần một thế kỷ trước.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "truyền thống"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "truyền thống"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người theo truyền thống"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "các truyền thống"
+        }
+       }
       }
      ]
     },
@@ -4444,10 +5003,36 @@
         "D": "discourage"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (abandon - động từ). Giải thích: Câu này cần một động từ chỉ hành động từ bỏ. \"Abandon\" (bỏ lại) phù hợp nhất trong ngữ cảnh từ bỏ giỏ hàng trực tuyến.\nDịch: Nhiều người bỏ lại giỏ hàng trực tuyến của họ khi họ phát hiện ra phí vận chuyển sẽ là bao nhiêu.\nA. eject (động từ): đẩy ra\nB. abandon (động từ): bỏ lại\nC. resign (động từ): từ chức\nD. discourage (động từ): làm nản lòng",
+       "explanation": "Đáp án đúng là B (abandon - động từ). Giải thích: Câu này cần một động từ chỉ hành động từ bỏ. \"Abandon\" (bỏ lại) phù hợp nhất trong ngữ cảnh từ bỏ giỏ hàng trực tuyến.\nDịch: Nhiều người bỏ lại giỏ hàng trực tuyến của họ khi họ phát hiện ra phí vận chuyển sẽ là bao nhiêu.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đẩy ra"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bỏ lại"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "từ chức"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "làm nản lòng"
+        }
+       }
       }
      ]
     },
@@ -4472,10 +5057,36 @@
         "D": "attractions"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (attractions - danh từ). Giải thích: Câu này cần một danh từ chỉ điểm du lịch. \"Attractions\" (điểm thu hút) phù hợp nhất trong ngữ cảnh du lịch.\nDịch: Trang web du lịch của tiểu bang cung cấp thông tin về nhiều điểm thu hút nổi tiếng của khu vực.\nA. situations (danh từ): tình huống\nB. appeals (danh từ): sự hấp dẫn\nC. demands (danh từ): yêu cầu\nD. attractions (danh từ): điểm thu hút",
+       "explanation": "Đáp án đúng là D (attractions - danh từ). Giải thích: Câu này cần một danh từ chỉ điểm du lịch. \"Attractions\" (điểm thu hút) phù hợp nhất trong ngữ cảnh du lịch.\nDịch: Trang web du lịch của tiểu bang cung cấp thông tin về nhiều điểm thu hút nổi tiếng của khu vực.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tình huống"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự hấp dẫn"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "yêu cầu"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "điểm thu hút"
+        }
+       }
       }
      ]
     },
@@ -4500,10 +5111,34 @@
         "D": "Those"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Those - đại từ chỉ định). Giải thích: Câu này cần một đại từ chỉ định số nhiều để chỉ nhóm người quan tâm. \"Those\" (những người) phù hợp nhất trong ngữ cảnh này.\nDịch: Những người quan tâm đến việc tìm hiểu thêm về các tác phẩm điêu khắc của Shana Fabian nên tham dự buổi nói chuyện của cô ấy tại Phòng trưng bày Deana vào ngày 2 tháng 5.\nA. Enough (từ xác định): đủ\nB. Whoever (đại từ quan hệ): bất cứ ai\nC. Each other (đại từ): lẫn nhau\nD. Those (đại từ chỉ định): những người",
+       "explanation": "Đáp án đúng là D (Those - đại từ chỉ định). Giải thích: Câu này cần một đại từ chỉ định số nhiều để chỉ nhóm người quan tâm. \"Those\" (những người) phù hợp nhất trong ngữ cảnh này.\nDịch: Những người quan tâm đến việc tìm hiểu thêm về các tác phẩm điêu khắc của Shana Fabian nên tham dự buổi nói chuyện của cô ấy tại Phòng trưng bày Deana vào ngày 2 tháng 5.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "từ xác định"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bất cứ ai"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "lẫn nhau"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "những người"
+        }
+       }
       }
      ]
     },
@@ -4528,10 +5163,30 @@
         "D": "easily"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (finally - trạng từ). Giải thích: Câu này cần một trạng từ chỉ sự kết thúc sau một thời gian dài. \"Finally\" (cuối cùng) phù hợp nhất trong ngữ cảnh đàm phán kéo dài.\nDịch: Việc sáp nhập giữa các công ty Oznaze và Tellurisq cuối cùng đã được giải quyết sau nhiều tháng đàm phán khó khăn.\nA. exactly (trạng từ): chính xác\nB. instantly (trạng từ): ngay lập tức\nC. finally (trạng từ): cuối cùng\nD. easily (trạng từ): dễ dàng",
+       "explanation": "Đáp án đúng là C (finally - trạng từ). Giải thích: Câu này cần một trạng từ chỉ sự kết thúc sau một thời gian dài. \"Finally\" (cuối cùng) phù hợp nhất trong ngữ cảnh đàm phán kéo dài.\nDịch: Việc sáp nhập giữa các công ty Oznaze và Tellurisq cuối cùng đã được giải quyết sau nhiều tháng đàm phán khó khăn.\nA. exactly (trạng từ): chính xác",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ngay lập tức"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cuối cùng"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "dễ dàng"
+        }
+       }
       }
      ]
     },
@@ -4556,10 +5211,36 @@
         "D": "perhaps"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (within - giới từ). Giải thích: Câu này cần một giới từ chỉ khoảng thời gian. \"Within\" (trong vòng) phù hợp nhất để chỉ ra thời gian giao hàng.\nDịch: Các phụ tùng ô tô được vận chuyển trong vòng hai đến ba ngày trừ khi khách hàng yêu cầu giao hàng nhanh.\nA. within (giới từ): trong vòng\nB. here (trạng từ): ở đây\nC. afterward (trạng từ): sau đó\nD. perhaps (trạng từ): có lẽ",
+       "explanation": "Đáp án đúng là A (within - giới từ). Giải thích: Câu này cần một giới từ chỉ khoảng thời gian. \"Within\" (trong vòng) phù hợp nhất để chỉ ra thời gian giao hàng.\nDịch: Các phụ tùng ô tô được vận chuyển trong vòng hai đến ba ngày trừ khi khách hàng yêu cầu giao hàng nhanh.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong vòng"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ở đây"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sau đó"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "có lẽ"
+        }
+       }
       }
      ]
     },
@@ -4584,10 +5265,30 @@
         "D": "sudden"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (intense - tính từ). Giải thích: Câu này cần một tính từ mô tả màu sắc. \"Intense\" (mạnh mẽ, sống động) phù hợp nhất để mô tả màu sắc nổi bật trong thiết kế nội thất.\nDịch: Nhà thiết kế nội thất đã chọn một số màu sắc rất mạnh mẽ cho tường sảnh.\nA. massive (tính từ): to lớn\nB. intense (tính từ): mạnh mẽ, sống động\nC. direct (tính từ): trực tiếp\nD. sudden (tính từ): đột ngột",
+       "explanation": "Đáp án đúng là B (intense - tính từ). Giải thích: Câu này cần một tính từ mô tả màu sắc. \"Intense\" (mạnh mẽ, sống động) phù hợp nhất để mô tả màu sắc nổi bật trong thiết kế nội thất.\nDịch: Nhà thiết kế nội thất đã chọn một số màu sắc rất mạnh mẽ cho tường sảnh.\nA. massive (tính từ): to lớn",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "mạnh mẽ, sống động"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "trực tiếp"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đột ngột"
+        }
+       }
       }
      ]
     },
@@ -4612,10 +5313,36 @@
         "D": "detachments"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (intervals - danh từ). Giải thích: Câu này cần một danh từ chỉ khoảng thời gian đều đặn. \"Intervals\" (khoảng thời gian) phù hợp nhất trong ngữ cảnh bảo trì định kỳ.\nDịch: Các chuyên gia khuyến nghị hệ thống làm mát nên được kiểm tra bởi kỹ thuật viên dịch vụ theo các khoảng thời gian đều đặn.\nA. expanses (danh từ): khoảng rộng\nB. intervals (danh từ): khoảng thời gian\nC. classifications (danh từ): phân loại\nD. detachments (danh từ): sự tách rời",
+       "explanation": "Đáp án đúng là B (intervals - danh từ). Giải thích: Câu này cần một danh từ chỉ khoảng thời gian đều đặn. \"Intervals\" (khoảng thời gian) phù hợp nhất trong ngữ cảnh bảo trì định kỳ.\nDịch: Các chuyên gia khuyến nghị hệ thống làm mát nên được kiểm tra bởi kỹ thuật viên dịch vụ theo các khoảng thời gian đều đặn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khoảng rộng"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khoảng thời gian"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phân loại"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự tách rời"
+        }
+       }
       }
      ]
     }

@@ -3650,10 +3650,9 @@
       {
        "term": "produce",
        "pos": [
-        "n",
         "v"
        ],
-       "meaning": "sản xuất, nông sản; sản xuất"
+       "meaning": "sản xuất/nông sản; sản xuất"
       },
       {
        "term": "forward",
@@ -3663,16 +3662,18 @@
        "meaning": "về phía trước; chuyển tiếp (email)"
       },
       {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
        "term": "assignment",
        "pos": [
         "n"
        ],
        "meaning": "nhiệm vụ được giao"
-      },
-      {
-       "term": "communicate",
-       "pos": [],
-       "meaning": "giao tiếp"
       }
      ],
      "vocabAuto": true
@@ -3847,9 +3848,7 @@
      "vocab": [
       {
        "term": "supervisor",
-       "pos": [
-        "n"
-       ],
+       "pos": [],
        "meaning": "người giám sát"
       },
       {
@@ -4065,9 +4064,7 @@
       },
       {
        "term": "supervisor",
-       "pos": [
-        "n"
-       ],
+       "pos": [],
        "meaning": "người giám sát"
       },
       {
@@ -4362,8 +4359,7 @@
       {
        "term": "expert",
        "pos": [
-        "adj",
-        "n"
+        "adj"
        ],
        "meaning": "chuyên gia; thành thạo"
       },
@@ -4589,7 +4585,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "có thể dùng nhưng số nhiều tự nhiên hơn; buổi thử vai"
+       "meaning": "có thể dùng nhưng số nhiều tự nhiên hơn"
       },
       {
        "term": "drama",
@@ -4672,10 +4668,36 @@
         "D": "herself"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) her\n- Vị trí cần điền: Tính từ sở hữu đứng trước danh từ \"youth\" (tuổi trẻ).\n- \"Despite her youth\" (mặc dù còn trẻ).\n- Cấu trúc: \"Despite + possessive adjective + noun\" (giới từ + tính từ sở hữu + danh từ).\n- (A) she - đại từ chủ ngữ, không đứng sau giới từ\n- (C) hers - đại từ sở hữu, dùng khi không có danh từ theo sau\n- (D) herself - đại từ phản thân, không phù hợp\n- Mẹo: Sau giới từ (despite/in spite of) + trước danh từ cần tính từ sở hữu.\nDịch: Mặc dù còn trẻ, bà Cho đã khá nổi tiếng trên mạng xã hội.\nĐáp án A: cô ấy (đại từ chủ ngữ)\nĐáp án B: của cô ấy (tính từ sở hữu)\nĐáp án C: của cô ấy (đại từ sở hữu)\nĐáp án D: bản thân cô ấy (đại từ phản thân)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) her\n- Vị trí cần điền: Tính từ sở hữu đứng trước danh từ \"youth\" (tuổi trẻ).\n- \"Despite her youth\" (mặc dù còn trẻ).\n- Cấu trúc: \"Despite + possessive adjective + noun\" (giới từ + tính từ sở hữu + danh từ).\n- (A) she - đại từ chủ ngữ, không đứng sau giới từ\n- (C) hers - đại từ sở hữu, dùng khi không có danh từ theo sau\n- (D) herself - đại từ phản thân, không phù hợp\n- Mẹo: Sau giới từ (despite/in spite of) + trước danh từ cần tính từ sở hữu.\nDịch: Mặc dù còn trẻ, bà Cho đã khá nổi tiếng trên mạng xã hội.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "dùng khi không có danh từ theo sau"
+        },
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cô ấy"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của cô ấy"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bản thân cô ấy"
+        }
+       }
       }
      ]
     },
@@ -4700,10 +4722,36 @@
         "D": "decisive"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) available\n- Cấu trúc: \"be available\" (có sẵn, sẵn có) là collocation phổ biến.\n- Vị trí: Tính từ làm bổ ngữ sau động từ \"are\".\n- \"Available online\" (có sẵn trực tuyến) là cụm từ tự nhiên.\n- (B) intended (dự định) - thường đi với \"for\" hoặc \"to\", không phù hợp ngữ cảnh\n- (C) comparable (có thể so sánh) - không hợp lý về nghĩa\n- (D) decisive (quyết đoán) - không phù hợp với \"materials\"\n- Mẹo: \"Available\" thường đi với online, now, soon để chỉ khả năng truy cập.\nDịch: Hầu hết các tài liệu được phát tại hội nghị kế toán tháng trước hiện đã có sẵn trực tuyến.\nĐáp án A: có sẵn (tính từ)\nĐáp án B: dự định (tính từ)\nĐáp án C: có thể so sánh (tính từ)\nĐáp án D: quyết đoán (tính từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) available\n- Cấu trúc: \"be available\" (có sẵn, sẵn có) là collocation phổ biến.\n- Vị trí: Tính từ làm bổ ngữ sau động từ \"are\".\n- \"Available online\" (có sẵn trực tuyến) là cụm từ tự nhiên.\n- (B) intended (dự định) - thường đi với \"for\" hoặc \"to\", không phù hợp ngữ cảnh\n- (C) comparable (có thể so sánh) - không hợp lý về nghĩa\n- (D) decisive (quyết đoán) - không phù hợp với \"materials\"\n- Mẹo: \"Available\" thường đi với online, now, soon để chỉ khả năng truy cập.\nDịch: Hầu hết các tài liệu được phát tại hội nghị kế toán tháng trước hiện đã có sẵn trực tuyến.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "dự định"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể so sánh"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "quyết đoán"
+        },
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có sẵn"
+        }
+       }
       }
      ]
     },
@@ -4728,10 +4776,36 @@
         "D": "reviews"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) review\n- Vị trí cần điền: Danh từ số ít làm chủ ngữ của câu bị động, đứng sau tính từ \"full-scale\".\n- \"A full-scale review\" (một cuộc đánh giá toàn diện) là collocation phổ biến.\n- (A) reviewer - danh từ chỉ người (người đánh giá), không phù hợp ngữ cảnh\n- (C) reviewed - quá khứ phân từ, không phải danh từ\n- (D) reviews - danh từ số nhiều, không đi với \"A\"\n- Mẹo: Sau \"a/an + tính từ\" cần danh từ số ít đếm được.\nDịch: Một cuộc đánh giá toàn diện sẽ được tiến hành bởi phòng kế toán.\nĐáp án A: người đánh giá (danh từ)\nĐáp án B: cuộc đánh giá (danh từ số ít)\nĐáp án C: được đánh giá (quá khứ phân từ)\nĐáp án D: các cuộc đánh giá (danh từ số nhiều)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) review\n- Vị trí cần điền: Danh từ số ít làm chủ ngữ của câu bị động, đứng sau tính từ \"full-scale\".\n- \"A full-scale review\" (một cuộc đánh giá toàn diện) là collocation phổ biến.\n- (A) reviewer - danh từ chỉ người (người đánh giá), không phù hợp ngữ cảnh\n- (D) reviews - danh từ số nhiều, không đi với \"A\"\n- Mẹo: Sau \"a/an + tính từ\" cần danh từ số ít đếm được.\nDịch: Một cuộc đánh giá toàn diện sẽ được tiến hành bởi phòng kế toán.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người đánh giá"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quá khứ phân từ, không phải danh từ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cuộc đánh giá"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "các cuộc đánh giá"
+        }
+       }
       }
      ]
     },
@@ -4756,10 +4830,36 @@
         "D": "responded"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) promoted\n- Cấu trúc: \"be promoted to + position\" (được thăng chức lên vị trí nào) là cụm động từ cố định.\n- Nghĩa: Phó chủ tịch Lucille Jeris đã được thăng chức lên chủ tịch công ty.\n- (A) provided (cung cấp) - không đi với \"to president\"\n- (B) decorated (trang trí, trao huân chương) - không phù hợp ngữ cảnh thăng chức\n- (D) responded (phản hồi) - không kết hợp với \"to president\"\n- Mẹo: \"Be promoted to\" là cấu trúc quan trọng về thăng chức trong TOEIC.\nDịch: Phó chủ tịch Công ty Giày Poshy Lucille Jeris đã được thăng chức lên chủ tịch công ty.\nĐáp án A: được cung cấp (quá khứ phân từ)\nĐáp án B: được trang trí, được trao huân chương (quá khứ phân từ)\nĐáp án C: được thăng chức (quá khứ phân từ)\nĐáp án D: đã phản hồi (quá khứ phân từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) promoted\n- Cấu trúc: \"be promoted to + position\" (được thăng chức lên vị trí nào) là cụm động từ cố định.\n- Nghĩa: Phó chủ tịch Lucille Jeris đã được thăng chức lên chủ tịch công ty.\n- (A) provided (cung cấp) - không đi với \"to president\"\n- (B) decorated (trang trí, trao huân chương) - không phù hợp ngữ cảnh thăng chức\n- (D) responded (phản hồi) - không kết hợp với \"to president\"\n- Mẹo: \"Be promoted to\" là cấu trúc quan trọng về thăng chức trong TOEIC.\nDịch: Phó chủ tịch Công ty Giày Poshy Lucille Jeris đã được thăng chức lên chủ tịch công ty.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cung cấp"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "trang trí, trao huân chương"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phản hồi"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được thăng chức"
+        }
+       }
       }
      ]
     },
@@ -4784,10 +4884,36 @@
         "D": "productive"
        },
        "answer": "D",
-       "explanation": "Giải thích:\n- Đáp án đúng: (D) productive\n- Cấu trúc: So sánh hơn \"more + adjective + than\" (tính từ nhiều âm tiết).\n- \"More productive than\" (năng suất hơn).\n- Vị trí: Tính từ làm bổ ngữ sau động từ \"are\".\n- (A) production - danh từ (sự sản xuất), không dùng trong so sánh\n- (B) productively - trạng từ, không làm bổ ngữ sau \"are\"\n- (C) productivity - danh từ (năng suất), không dùng với \"more...than\"\n- Mẹo: \"More + adj + than\" dùng cho tính từ dài (2+ âm tiết).\nDịch: Báo cáo phát hiện rằng nhân viên nghỉ giải lao thường xuyên năng suất hơn những người không nghỉ.\nĐáp án A: sự sản xuất (danh từ)\nĐáp án B: một cách năng suất (trạng từ)\nĐáp án C: năng suất (danh từ)\nĐáp án D: năng suất, hiệu quả (tính từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (D) productive\n- Cấu trúc: So sánh hơn \"more + adjective + than\" (tính từ nhiều âm tiết).\n- \"More productive than\" (năng suất hơn).\n- Vị trí: Tính từ làm bổ ngữ sau động từ \"are\".\n- (A) production - danh từ (sự sản xuất), không dùng trong so sánh\n- (B) productively - trạng từ, không làm bổ ngữ sau \"are\"\n- (C) productivity - danh từ (năng suất), không dùng với \"more...than\"\n- Mẹo: \"More + adj + than\" dùng cho tính từ dài (2+ âm tiết).\nDịch: Báo cáo phát hiện rằng nhân viên nghỉ giải lao thường xuyên năng suất hơn những người không nghỉ.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự sản xuất"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "năng suất"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách năng suất"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "năng suất, hiệu quả"
+        }
+       }
       }
      ]
     },
@@ -4812,10 +4938,30 @@
         "D": "structure"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) technician\n- Nghĩa: \"Contact a technician\" (liên hệ với kỹ thuật viên) là cụm từ logic.\n- Vị trí: Danh từ chỉ người sau mạo từ \"a\" và làm tân ngữ của \"contact\".\n- (A) replacement (sự thay thế) - không phải người có thể liên hệ\n- (C) renewal (sự gia hạn) - không phải người\n- (D) structure (cấu trúc) - không liên quan đến sửa chữa máy móc\n- Mẹo: Khi cần sửa chữa, liên hệ với \"technician\" (kỹ thuật viên).\nDịch: Khách hàng của Twins Photocopiers được khuyến khích liên hệ với kỹ thuật viên nếu máy của họ cần sửa chữa.\nĐáp án A: sự thay thế (danh từ)\nĐáp án B: kỹ thuật viên (danh từ)\nĐáp án C: sự gia hạn (danh từ)\nĐáp án D: cấu trúc (danh từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) technician\n- Nghĩa: \"Contact a technician\" (liên hệ với kỹ thuật viên) là cụm từ logic.\n- Vị trí: Danh từ chỉ người sau mạo từ \"a\" và làm tân ngữ của \"contact\".\n- (A) replacement (sự thay thế) - không phải người có thể liên hệ\n- (C) renewal (sự gia hạn) - không phải người\n- (D) structure (cấu trúc) - không liên quan đến sửa chữa máy móc\n- Mẹo: Khi cần sửa chữa, liên hệ với \"technician\" (kỹ thuật viên).\nDịch: Khách hàng của Twins Photocopiers được khuyến khích liên hệ với kỹ thuật viên nếu máy của họ cần sửa chữa.\nĐáp án D: cấu trúc (danh từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự thay thế"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự gia hạn"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "kỹ thuật viên"
+        }
+       }
       }
      ]
     },
@@ -4840,10 +4986,36 @@
         "D": "nearness"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) nearly\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ \"caused\" (gây ra).\n- \"Nearly caused\" (suýt gây ra, gần như gây ra).\n- (B) near - giới từ/tính từ (gần), không bổ nghĩa cho động từ\n- (C) nears - động từ số ít (tiến gần), không bổ nghĩa cho động từ khác\n- (D) nearness - danh từ (sự gần gũi), không bổ nghĩa cho động từ\n- Mẹo: \"Nearly\" (gần như, suýt nữa) thường đi với caused, missed, lost.\nDịch: Giao thông đông đúc trên đường đến sân bay suýt khiến bà Ikeda lỡ chuyến bay.\nĐáp án A: gần như, suýt nữa (trạng từ)\nĐáp án B: gần (giới từ/tính từ)\nĐáp án C: tiến gần (động từ số ít)\nĐáp án D: sự gần gũi (danh từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) nearly\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ \"caused\" (gây ra).\n- \"Nearly caused\" (suýt gây ra, gần như gây ra).\n- (B) near - giới từ/tính từ (gần), không bổ nghĩa cho động từ\n- (C) nears - động từ số ít (tiến gần), không bổ nghĩa cho động từ khác\n- (D) nearness - danh từ (sự gần gũi), không bổ nghĩa cho động từ\n- Mẹo: \"Nearly\" (gần như, suýt nữa) thường đi với caused, missed, lost.\nDịch: Giao thông đông đúc trên đường đến sân bay suýt khiến bà Ikeda lỡ chuyến bay.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "gần"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tiến gần"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự gần gũi"
+        },
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như, suýt nữa"
+        }
+       }
       }
      ]
     },
@@ -4868,10 +5040,36 @@
         "D": "thoughtfully"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) probably\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ \"will take place\" (sẽ diễn ra).\n- \"Will probably take place\" (có thể sẽ diễn ra) diễn tả khả năng xảy ra.\n- (A) originally (ban đầu) - không phù hợp với \"next year\" (thời điểm tương lai)\n- (C) regularly (thường xuyên) - không hợp lý với sự kiện sáp nhập (chỉ xảy ra một lần)\n- (D) thoughtfully (một cách suy nghĩ kỹ) - không kết hợp tự nhiên với \"take place\"\n- Mẹo: \"Probably\" (có thể, có lẽ) thể hiện sự dự đoán không chắc chắn.\nDịch: Một nguồn tin cho biết vụ sáp nhập có thể sẽ diễn ra vào năm tới.\nĐáp án A: ban đầu (trạng từ)\nĐáp án B: có thể, có lẽ (trạng từ)\nĐáp án C: thường xuyên (trạng từ)\nĐáp án D: một cách chu đáo (trạng từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) probably\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ \"will take place\" (sẽ diễn ra).\n- \"Will probably take place\" (có thể sẽ diễn ra) diễn tả khả năng xảy ra.\n- (A) originally (ban đầu) - không phù hợp với \"next year\" (thời điểm tương lai)\n- (C) regularly (thường xuyên) - không hợp lý với sự kiện sáp nhập (chỉ xảy ra một lần)\n- (D) thoughtfully (một cách suy nghĩ kỹ) - không kết hợp tự nhiên với \"take place\"\n- Mẹo: \"Probably\" (có thể, có lẽ) thể hiện sự dự đoán không chắc chắn.\nDịch: Một nguồn tin cho biết vụ sáp nhập có thể sẽ diễn ra vào năm tới.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ban đầu"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thường xuyên"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách suy nghĩ kỹ"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "có thể, có lẽ"
+        }
+       }
       }
      ]
     },
@@ -4896,10 +5094,36 @@
         "D": "itself"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) various\n- Vị trí cần điền: Tính từ đứng trước cụm danh từ \"beautiful guest rooms\" để bổ nghĩa.\n- \"Various beautiful guest rooms\" (nhiều phòng khách đẹp khác nhau).\n- (B) among (giữa, trong số) - giới từ, không bổ nghĩa cho danh từ\n- (C) throughout (khắp, suốt) - giới từ, không bổ nghĩa cho danh từ\n- (D) itself (chính nó) - đại từ phản thân, không bổ nghĩa cho danh từ\n- Mẹo: \"Various\" (nhiều loại khác nhau) thường đi với danh từ số nhiều.\nDịch: Khách sạn Seaborne Inn có nhiều phòng khách đẹp khác nhau có thể đặt theo tháng.\nĐáp án A: nhiều loại khác nhau (tính từ)\nĐáp án B: giữa, trong số (giới từ)\nĐáp án C: khắp, suốt (giới từ)\nĐáp án D: chính nó (đại từ phản thân)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) various\n- Vị trí cần điền: Tính từ đứng trước cụm danh từ \"beautiful guest rooms\" để bổ nghĩa.\n- \"Various beautiful guest rooms\" (nhiều phòng khách đẹp khác nhau).\n- (B) among (giữa, trong số) - giới từ, không bổ nghĩa cho danh từ\n- (C) throughout (khắp, suốt) - giới từ, không bổ nghĩa cho danh từ\n- (D) itself (chính nó) - đại từ phản thân, không bổ nghĩa cho danh từ\n- Mẹo: \"Various\" (nhiều loại khác nhau) thường đi với danh từ số nhiều.\nDịch: Khách sạn Seaborne Inn có nhiều phòng khách đẹp khác nhau có thể đặt theo tháng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa, trong số"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "khắp, suốt"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "chính nó"
+        },
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhiều loại khác nhau"
+        }
+       }
       }
      ]
     },
@@ -4924,10 +5148,37 @@
         "D": "aside from"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) at\n- Cấu trúc: \"be located at + địa chỉ cụ thể\" (tọa lạc tại).\n- \"Located at the corner of Gordon Avenue and Hutch Street\" (nằm ở góc đường Gordon và Hutch).\n- Khi nói về giao điểm của hai đường, dùng \"at\".\n- (A) until (cho đến) - giới từ chỉ thời gian, không chỉ địa điểm\n- (B) against (chống lại, dựa vào) - không diễn tả vị trí giao nhau\n- (D) aside from (ngoài ra) - không chỉ vị trí cụ thể\n- Mẹo: \"At\" dùng cho địa chỉ cụ thể, giao điểm đường.\nDịch: Cửa hàng bán lẻ của Ahearn Accessories tọa lạc tại góc Đại lộ Gordon và Phố Hutch.\nĐáp án A: cho đến (giới từ/liên từ)\nĐáp án B: chống lại, dựa vào (giới từ)\nĐáp án C: tại (giới từ)\nĐáp án D: ngoài ra (cụm giới từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) at\n- Cấu trúc: \"be located at + địa chỉ cụ thể\" (tọa lạc tại).\n- \"Located at the corner of Gordon Avenue and Hutch Street\" (nằm ở góc đường Gordon và Hutch).\n- Khi nói về giao điểm của hai đường, dùng \"at\".\n- (A) until (cho đến) - giới từ chỉ thời gian, không chỉ địa điểm\n- (B) against (chống lại, dựa vào) - không diễn tả vị trí giao nhau\n- (D) aside from (ngoài ra) - không chỉ vị trí cụ thể\n- Mẹo: \"At\" dùng cho địa chỉ cụ thể, giao điểm đường.\nDịch: Cửa hàng bán lẻ của Ahearn Accessories tọa lạc tại góc Đại lộ Gordon và Phố Hutch.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj",
+          "prep"
+         ],
+         "meaning": "cho đến"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "chống lại, dựa vào"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "ngoài ra"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "tại"
+        }
+       }
       }
      ]
     },
@@ -4952,10 +5203,34 @@
         "D": "accepting"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) acceptable\n- Cấu trúc: \"rate something as + adjective\" (đánh giá cái gì là như thế nào).\n- Vị trí: Tính từ làm bổ ngữ sau \"as\".\n- \"Rate as acceptable\" (đánh giá là chấp nhận được).\n- (A) acceptability - danh từ (khả năng chấp nhận), không đứng sau \"as\"\n- (C) acceptance - danh từ (sự chấp nhận), không phù hợp cấu trúc\n- (D) accepting - v-ing, không làm bổ ngữ sau \"as\"\n- Mẹo: Sau \"as\" trong cấu trúc \"rate/describe/consider as\" cần tính từ.\nDịch: Đa số cư dân thành phố đánh giá ứng dụng giao thông của thành phố là chấp nhận được.\nĐáp án A: khả năng chấp nhận (danh từ)\nĐáp án B: có thể chấp nhận (tính từ)\nĐáp án C: sự chấp nhận (danh từ)\nĐáp án D: chấp nhận (v-ing)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) acceptable\n- Cấu trúc: \"rate something as + adjective\" (đánh giá cái gì là như thế nào).\n- Vị trí: Tính từ làm bổ ngữ sau \"as\".\n- \"Rate as acceptable\" (đánh giá là chấp nhận được).\n- (A) acceptability - danh từ (khả năng chấp nhận), không đứng sau \"as\"\n- (C) acceptance - danh từ (sự chấp nhận), không phù hợp cấu trúc\n- (D) accepting - v-ing, không làm bổ ngữ sau \"as\"\n- Mẹo: Sau \"as\" trong cấu trúc \"rate/describe/consider as\" cần tính từ.\nDịch: Đa số cư dân thành phố đánh giá ứng dụng giao thông của thành phố là chấp nhận được.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khả năng chấp nhận"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự chấp nhận"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "v-ing, không làm bổ ngữ sau \"as"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể chấp nhận"
+        }
+       }
       }
      ]
     },
@@ -4980,10 +5255,30 @@
         "D": "had represented"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) is representing\n- Thời điểm: \"next weekend\" (cuối tuần tới) → thì hiện tại tiếp diễn diễn tả kế hoạch tương lai đã được sắp xếp.\n- Cấu trúc: \"is/are + V-ing\" (Present Continuous cho tương lai gần đã lên lịch).\n- (A) represent - hiện tại đơn, ít dùng cho sự kiện đã lên lịch cụ thể\n- (B) did represent - quá khứ đơn nhấn mạnh, không phù hợp với \"next weekend\"\n- (D) had represented - quá khứ hoàn thành, không phù hợp với tương lai\n- Mẹo: Present Continuous + thời gian tương lai cụ thể = kế hoạch đã sắp xếp.\nDịch: Bác sĩ Cheung sẽ đại diện cho Bệnh viện Silk Valley tại hội chợ y tế cuối tuần tới.\nĐáp án A: đại diện (động từ hiện tại đơn)\nĐáp án B: đã đại diện (quá khứ đơn nhấn mạnh)\nĐáp án C: đang/sẽ đại diện (hiện tại tiếp diễn)\nĐáp án D: đã từng đại diện (quá khứ hoàn thành)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) is representing\n- Thời điểm: \"next weekend\" (cuối tuần tới) → thì hiện tại tiếp diễn diễn tả kế hoạch tương lai đã được sắp xếp.\n- Cấu trúc: \"is/are + V-ing\" (Present Continuous cho tương lai gần đã lên lịch).\n- (B) did represent - quá khứ đơn nhấn mạnh, không phù hợp với \"next weekend\"\n- (D) had represented - quá khứ hoàn thành, không phù hợp với tương lai\n- Mẹo: Present Continuous + thời gian tương lai cụ thể = kế hoạch đã sắp xếp.\nDịch: Bác sĩ Cheung sẽ đại diện cho Bệnh viện Silk Valley tại hội chợ y tế cuối tuần tới.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hiện tại đơn, ít dùng cho sự kiện đã lên lịch cụ thể"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đã đại diện"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "đang/sẽ đại diện"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đã từng đại diện"
+        }
+       }
       }
      ]
     },
@@ -5008,10 +5303,36 @@
         "D": "additional"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) profitable\n- Collocation: \"financially profitable\" (có lãi về mặt tài chính) là cụm từ hợp lý.\n- Vị trí: Tính từ đứng sau trạng từ \"financially\" và trước danh từ \"quarter\".\n- Nghĩa: Sau khi thực hiện các biện pháp giảm chi phí, cửa hàng có quý có lãi.\n- (A) plain (đơn giản, rõ ràng) - không phù hợp với \"financially\"\n- (C) full (đầy, đầy đủ) - không kết hợp với \"financially\"\n- (D) additional (bổ sung) - không hợp lý về nghĩa\n- Mẹo: \"Profitable\" (có lãi) thường đi với financially, highly, very.\nDịch: Frankie's Boutique đã có một quý có lãi về mặt tài chính sau khi thực hiện các biện pháp giảm chi phí.\nĐáp án A: đơn giản, rõ ràng (tính từ)\nĐáp án B: có lãi, sinh lời (tính từ)\nĐáp án C: đầy, đầy đủ (tính từ)\nĐáp án D: bổ sung (tính từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) profitable\n- Collocation: \"financially profitable\" (có lãi về mặt tài chính) là cụm từ hợp lý.\n- Vị trí: Tính từ đứng sau trạng từ \"financially\" và trước danh từ \"quarter\".\n- Nghĩa: Sau khi thực hiện các biện pháp giảm chi phí, cửa hàng có quý có lãi.\n- (A) plain (đơn giản, rõ ràng) - không phù hợp với \"financially\"\n- (C) full (đầy, đầy đủ) - không kết hợp với \"financially\"\n- (D) additional (bổ sung) - không hợp lý về nghĩa\n- Mẹo: \"Profitable\" (có lãi) thường đi với financially, highly, very.\nDịch: Frankie's Boutique đã có một quý có lãi về mặt tài chính sau khi thực hiện các biện pháp giảm chi phí.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đơn giản, rõ ràng"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đầy, đầy đủ"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bổ sung"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có lãi, sinh lời"
+        }
+       }
       }
      ]
     },
@@ -5036,10 +5357,34 @@
         "D": "supplying"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) supplier\n- Vị trí cần điền: Danh từ chỉ người/tổ chức sau mạo từ \"the\" và làm bổ ngữ sau \"as\".\n- \"The supplier of\" (nhà cung cấp của) là cụm từ tự nhiên.\n- (A) supply - danh từ (nguồn cung), không chỉ người/tổ chức cung cấp\n- (C) supplies - danh từ số nhiều (đồ dùng), không phù hợp vai trò được chọn\n- (D) supplying - v-ing, không phải danh từ chính xác\n- Mẹo: Danh từ chỉ nghề nghiệp thường có đuôi -er/-or (supplier, provider).\nDịch: Vì nộp giá thầu thấp nhất, Deb's Gifting đã được chọn làm nhà cung cấp thiệp chúc mừng năm nay.\nĐáp án A: nguồn cung (danh từ)\nĐáp án B: nhà cung cấp (danh từ)\nĐáp án C: đồ dùng, nguồn cung (danh từ số nhiều)\nĐáp án D: cung cấp (v-ing)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) supplier\n- Vị trí cần điền: Danh từ chỉ người/tổ chức sau mạo từ \"the\" và làm bổ ngữ sau \"as\".\n- \"The supplier of\" (nhà cung cấp của) là cụm từ tự nhiên.\n- (A) supply - danh từ (nguồn cung), không chỉ người/tổ chức cung cấp\n- (C) supplies - danh từ số nhiều (đồ dùng), không phù hợp vai trò được chọn\n- (D) supplying - v-ing, không phải danh từ chính xác\n- Mẹo: Danh từ chỉ nghề nghiệp thường có đuôi -er/-or (supplier, provider).\nDịch: Vì nộp giá thầu thấp nhất, Deb's Gifting đã được chọn làm nhà cung cấp thiệp chúc mừng năm nay.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nguồn cung"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "đồ dùng"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhà cung cấp"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "cung cấp"
+        }
+       }
       }
      ]
     },
@@ -5064,10 +5409,36 @@
         "D": "organization"
        },
        "answer": "D",
-       "explanation": "Giải thích:\n- Đáp án đúng: (D) organization\n- Nghĩa: \"The only organization that...\" (tổ chức duy nhất mà...) phù hợp với \"Institute\".\n- Vị trí: Danh từ sau \"the only\" và trước mệnh đề quan hệ \"that\".\n- (A) leadership (sự lãnh đạo) - không phải thực thể có thể theo dõi quần thể\n- (B) neighborhood (khu phố) - không thể \"tracks deer populations\"\n- (C) official (quan chức) - danh từ chỉ người, nhưng chủ ngữ là \"Institute\" (tổ chức)\n- Mẹo: Institute, foundation, company đều là \"organization\" (tổ chức).\nDịch: Viện Whitetail là tổ chức duy nhất theo dõi quần thể hươu ở các khu vực ngoại ô mở rộng nhanh chóng.\nĐáp án A: sự lãnh đạo (danh từ)\nĐáp án B: khu phố (danh từ)\nĐáp án C: quan chức (danh từ)\nĐáp án D: tổ chức (danh từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (D) organization\n- Nghĩa: \"The only organization that...\" (tổ chức duy nhất mà...) phù hợp với \"Institute\".\n- Vị trí: Danh từ sau \"the only\" và trước mệnh đề quan hệ \"that\".\n- (A) leadership (sự lãnh đạo) - không phải thực thể có thể theo dõi quần thể\n- (B) neighborhood (khu phố) - không thể \"tracks deer populations\"\n- (C) official (quan chức) - danh từ chỉ người, nhưng chủ ngữ là \"Institute\" (tổ chức)\n- Mẹo: Institute, foundation, company đều là \"organization\" (tổ chức).\nDịch: Viện Whitetail là tổ chức duy nhất theo dõi quần thể hươu ở các khu vực ngoại ô mở rộng nhanh chóng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự lãnh đạo"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khu phố"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "quan chức"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tổ chức"
+        }
+       }
       }
      ]
     },
@@ -5092,10 +5463,37 @@
         "D": "some"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) who\n- Cấu trúc: Đại từ quan hệ \"who\" thay thế cho \"committee members\" (người) và làm chủ ngữ của mệnh đề quan hệ.\n- \"Members who attended...\" (các thành viên đã tham dự...).\n- (B) they - đại từ nhân xưng, không nối mệnh đề quan hệ\n- (C) when - đại từ quan hệ chỉ thời gian, không thay thế cho người\n- (D) some - tính từ/đại từ, không nối mệnh đề quan hệ\n- Mẹo: \"Who\" thay thế cho danh từ chỉ người trong mệnh đề quan hệ.\nDịch: Các thành viên ủy ban đã tham dự cuộc họp được liệt kê trong phụ lục.\nĐáp án A: người mà (đại từ quan hệ)\nĐáp án B: họ (đại từ nhân xưng)\nĐáp án C: khi (đại từ quan hệ chỉ thời gian)\nĐáp án D: một số (tính từ/đại từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) who\n- Cấu trúc: Đại từ quan hệ \"who\" thay thế cho \"committee members\" (người) và làm chủ ngữ của mệnh đề quan hệ.\n- \"Members who attended...\" (các thành viên đã tham dự...).\n- (B) they - đại từ nhân xưng, không nối mệnh đề quan hệ\n- (D) some - tính từ/đại từ, không nối mệnh đề quan hệ\n- Mẹo: \"Who\" thay thế cho danh từ chỉ người trong mệnh đề quan hệ.\nDịch: Các thành viên ủy ban đã tham dự cuộc họp được liệt kê trong phụ lục.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "đại từ quan hệ chỉ thời gian, không thay thế cho người"
+        },
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "người mà"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        },
+        "D": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "một số"
+        }
+       }
       }
      ]
     },
@@ -5120,10 +5518,36 @@
         "D": "specifically"
        },
        "answer": "D",
-       "explanation": "Giải thích:\n- Đáp án đúng: (D) specifically\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ bị động \"is designed\" (được thiết kế).\n- \"Specifically designed\" (được thiết kế đặc biệt/cụ thể) là collocation phổ biến.\n- (A) specify - động từ (chỉ rõ), không bổ nghĩa cho động từ khác\n- (B) specific - tính từ (cụ thể), không bổ nghĩa cho động từ\n- (C) specificity - danh từ (tính cụ thể), không bổ nghĩa cho động từ\n- Mẹo: \"Specifically designed/intended/created for\" là cấu trúc quan trọng.\nDịch: Ứng dụng mới của chúng tôi được thiết kế đặc biệt để cung cấp thông tin chi tiết dựa trên dữ liệu cho các chuyên gia đầu tư.\nĐáp án A: chỉ rõ (động từ)\nĐáp án B: cụ thể (tính từ)\nĐáp án C: tính cụ thể (danh từ)\nĐáp án D: một cách cụ thể, đặc biệt (trạng từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (D) specifically\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ bị động \"is designed\" (được thiết kế).\n- \"Specifically designed\" (được thiết kế đặc biệt/cụ thể) là collocation phổ biến.\n- (A) specify - động từ (chỉ rõ), không bổ nghĩa cho động từ khác\n- (B) specific - tính từ (cụ thể), không bổ nghĩa cho động từ\n- (C) specificity - danh từ (tính cụ thể), không bổ nghĩa cho động từ\n- Mẹo: \"Specifically designed/intended/created for\" là cấu trúc quan trọng.\nDịch: Ứng dụng mới của chúng tôi được thiết kế đặc biệt để cung cấp thông tin chi tiết dựa trên dữ liệu cho các chuyên gia đầu tư.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chỉ rõ"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cụ thể"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tính cụ thể"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách cụ thể, đặc biệt"
+        }
+       }
       }
      ]
     },
@@ -5148,10 +5572,32 @@
         "D": "struggle"
        },
        "answer": "D",
-       "explanation": "Giải thích:\n- Đáp án đúng: (D) struggle\n- Vị trí cần điền: Động từ chính trong mệnh đề danh từ \"that + S + V\".\n- Chủ ngữ \"more people\" (số nhiều) → động từ nguyên mẫu \"struggle\".\n- Cấu trúc: \"suggest that + S + V\" (gợi ý rằng...).\n- (A) struggles - động từ số ít, không phù hợp với chủ ngữ số nhiều\n- (B) struggling - v-ing, không làm động từ chính\n- (C) to struggle - to-infinitive, không làm động từ chính trong mệnh đề that\n- Mẹo: Sau \"suggest/recommend/require that\" + S + V(nguyên mẫu) hoặc thì hiện tại.\nDịch: Kết quả nghiên cứu cho thấy nhiều người gặp khó khăn với việc lái xe ban đêm hơn so với những gì được tin trước đây.\nĐáp án A: gặp khó khăn (động từ số ít)\nĐáp án B: gặp khó khăn (v-ing)\nĐáp án C: để gặp khó khăn (to-infinitive)\nĐáp án D: gặp khó khăn (động từ nguyên mẫu)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (D) struggle\n- Vị trí cần điền: Động từ chính trong mệnh đề danh từ \"that + S + V\".\n- Chủ ngữ \"more people\" (số nhiều) → động từ nguyên mẫu \"struggle\".\n- Cấu trúc: \"suggest that + S + V\" (gợi ý rằng...).\n- (A) struggles - động từ số ít, không phù hợp với chủ ngữ số nhiều\n- (C) to struggle - to-infinitive, không làm động từ chính trong mệnh đề that\n- Mẹo: Sau \"suggest/recommend/require that\" + S + V(nguyên mẫu) hoặc thì hiện tại.\nDịch: Kết quả nghiên cứu cho thấy nhiều người gặp khó khăn với việc lái xe ban đêm hơn so với những gì được tin trước đây.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "v-ing, không làm động từ chính"
+        },
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "gặp khó khăn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "để gặp khó khăn"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "gặp khó khăn"
+        }
+       }
       }
      ]
     },
@@ -5176,10 +5622,36 @@
         "D": "confirmation"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) response\n- Cấu trúc: \"in response to\" (để đáp ứng với, phản ứng lại) là cụm giới từ cố định.\n- Nghĩa: Mỗi bộ phận được yêu cầu phát triển kế hoạch hành động để đáp ứng với việc cắt giảm ngân sách.\n- (B) effect - \"in effect\" có nghĩa \"trên thực tế\", không đi với \"to\"\n- (C) apology - \"apology to\" (lời xin lỗi với) không phù hợp ngữ cảnh\n- (D) confirmation - không tạo thành cụm \"in confirmation to\"\n- Mẹo: \"In response to\" = as a reaction to (để đáp lại).\nDịch: Mỗi bộ phận đã được yêu cầu phát triển một kế hoạch hành động để đáp ứng với việc cắt giảm ngân sách được công bố tuần trước.\nĐáp án A: sự đáp ứng, phản hồi (danh từ)\nĐáp án B: ảnh hưởng, hiệu lực (danh từ)\nĐáp án C: lời xin lỗi (danh từ)\nĐáp án D: sự xác nhận (danh từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) response\n- Cấu trúc: \"in response to\" (để đáp ứng với, phản ứng lại) là cụm giới từ cố định.\n- Nghĩa: Mỗi bộ phận được yêu cầu phát triển kế hoạch hành động để đáp ứng với việc cắt giảm ngân sách.\n- (B) effect - \"in effect\" có nghĩa \"trên thực tế\", không đi với \"to\"\n- (C) apology - \"apology to\" (lời xin lỗi với) không phù hợp ngữ cảnh\n- (D) confirmation - không tạo thành cụm \"in confirmation to\"\n- Mẹo: \"In response to\" = as a reaction to (để đáp lại).\nDịch: Mỗi bộ phận đã được yêu cầu phát triển một kế hoạch hành động để đáp ứng với việc cắt giảm ngân sách được công bố tuần trước.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "trên thực tế"
+        },
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự đáp ứng, phản hồi"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "lời xin lỗi"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự xác nhận"
+        }
+       }
       }
      ]
     },
@@ -5204,10 +5676,36 @@
         "D": "randomly"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) consistently\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ bị động \"have been shown\" (đã được chứng minh).\n- \"Consistently shown\" (liên tục được chứng minh) diễn tả tính nhất quán qua thời gian.\n- (B) emotionally (về mặt cảm xúc) - không phù hợp với \"improve skills\"\n- (C) spaciously (rộng rãi) - không bổ nghĩa hợp lý cho \"been shown\"\n- (D) randomly (ngẫu nhiên) - không phù hợp với nghĩa tích cực của câu\n- Mẹo: \"Consistently\" (nhất quán, liên tục) thường đi với proven, shown, demonstrated.\nDịch: Các tài liệu đào tạo trực tuyến phổ biến của chúng tôi đã được chứng minh liên tục là cải thiện kỹ năng của người tìm việc.\nĐáp án A: một cách nhất quán, liên tục (trạng từ)\nĐáp án B: về mặt cảm xúc (trạng từ)\nĐáp án C: một cách rộng rãi (trạng từ)\nĐáp án D: một cách ngẫu nhiên (trạng từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) consistently\n- Vị trí cần điền: Trạng từ bổ nghĩa cho động từ bị động \"have been shown\" (đã được chứng minh).\n- \"Consistently shown\" (liên tục được chứng minh) diễn tả tính nhất quán qua thời gian.\n- (B) emotionally (về mặt cảm xúc) - không phù hợp với \"improve skills\"\n- (C) spaciously (rộng rãi) - không bổ nghĩa hợp lý cho \"been shown\"\n- (D) randomly (ngẫu nhiên) - không phù hợp với nghĩa tích cực của câu\n- Mẹo: \"Consistently\" (nhất quán, liên tục) thường đi với proven, shown, demonstrated.\nDịch: Các tài liệu đào tạo trực tuyến phổ biến của chúng tôi đã được chứng minh liên tục là cải thiện kỹ năng của người tìm việc.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "về mặt cảm xúc"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "rộng rãi"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ngẫu nhiên"
+        },
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách nhất quán, liên tục"
+        }
+       }
       }
      ]
     },
@@ -5232,10 +5730,36 @@
         "D": "formality"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) former\n- Vị trí cần điền: Tính từ đứng trước danh từ \"director\" để bổ nghĩa.\n- \"Former director\" (cựu giám đốc) diễn tả vị trí trước đây.\n- (A) formed - quá khứ phân từ (được thành lập), không bổ nghĩa cho người\n- (C) formalize - động từ (chính thức hóa), không phải tính từ\n- (D) formality - danh từ (thủ tục), không bổ nghĩa cho danh từ khác\n- Mẹo: \"Former\" (cựu, trước đây) thường đi với chức danh: former CEO, former president.\nDịch: Bà Yamada, cựu giám đốc Phòng Thương mại Midlands, gần đây đã được bổ nhiệm vào ủy ban thương mại tiểu bang.\nĐáp án A: được thành lập (quá khứ phân từ)\nĐáp án B: cựu, trước đây (tính từ)\nĐáp án C: chính thức hóa (động từ)\nĐáp án D: thủ tục, tính chính thức (danh từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) former\n- Vị trí cần điền: Tính từ đứng trước danh từ \"director\" để bổ nghĩa.\n- \"Former director\" (cựu giám đốc) diễn tả vị trí trước đây.\n- (A) formed - quá khứ phân từ (được thành lập), không bổ nghĩa cho người\n- (C) formalize - động từ (chính thức hóa), không phải tính từ\n- (D) formality - danh từ (thủ tục), không bổ nghĩa cho danh từ khác\n- Mẹo: \"Former\" (cựu, trước đây) thường đi với chức danh: former CEO, former president.\nDịch: Bà Yamada, cựu giám đốc Phòng Thương mại Midlands, gần đây đã được bổ nhiệm vào ủy ban thương mại tiểu bang.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chính thức hóa"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "thủ tục"
+        },
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được thành lập"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cựu, trước đây"
+        }
+       }
       }
      ]
     },
@@ -5260,10 +5784,36 @@
         "D": "out of"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) up to\n- Cấu trúc: \"up to + number\" (lên đến, tối đa) chỉ số lượng giới hạn tối đa.\n- \"Open up to five files\" (mở tối đa năm tệp).\n- (A) far from (xa cách, không phải) - không diễn tả số lượng\n- (B) as for (về vấn đề, còn về) - không dùng với số lượng\n- (D) out of (trong số) - thường chỉ tỷ lệ, không phù hợp ngữ cảnh này\n- Mẹo: \"Up to\" = maximum of (tối đa).\nDịch: Phần mềm sử dụng bộ nhớ máy tính hiệu quả, cho phép người dùng mở tối đa năm tệp cùng lúc.\nĐáp án A: xa cách, không phải (cụm giới từ)\nĐáp án B: về vấn đề, còn về (cụm giới từ)\nĐáp án C: lên đến, tối đa (cụm giới từ)\nĐáp án D: trong số, ra khỏi (cụm giới từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) up to\n- Cấu trúc: \"up to + number\" (lên đến, tối đa) chỉ số lượng giới hạn tối đa.\n- \"Open up to five files\" (mở tối đa năm tệp).\n- (A) far from (xa cách, không phải) - không diễn tả số lượng\n- (B) as for (về vấn đề, còn về) - không dùng với số lượng\n- (D) out of (trong số) - thường chỉ tỷ lệ, không phù hợp ngữ cảnh này\n- Mẹo: \"Up to\" = maximum of (tối đa).\nDịch: Phần mềm sử dụng bộ nhớ máy tính hiệu quả, cho phép người dùng mở tối đa năm tệp cùng lúc.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "xa cách, không phải"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "về vấn đề, còn về"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong số"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "lên đến, tối đa"
+        }
+       }
       }
      ]
     },
@@ -5288,10 +5838,36 @@
         "D": "promote"
        },
        "answer": "D",
-       "explanation": "Giải thích:\n- Đáp án đúng: (D) promote\n- Collocation: \"promote activities/events\" (quảng bá hoạt động/sự kiện) là cụm động từ tự nhiên.\n- Nghĩa: Bản tin hàng tháng là cách tuyệt vời để quảng bá hoạt động và sự kiện của nhóm bạn.\n- (A) realize (nhận ra, hiện thực hóa) - không phù hợp với \"newsletter\"\n- (B) propose (đề xuất) - không hợp lý về nghĩa\n- (C) observe (quan sát) - không phải mục đích của newsletter\n- Mẹo: \"Promote\" (quảng bá, thúc đẩy) thường dùng trong marketing và truyền thông.\nDịch: Bản tin hàng tháng là một cách tuyệt vời để quảng bá các hoạt động và sự kiện của nhóm bạn.\nĐáp án A: nhận ra, hiện thực hóa (động từ)\nĐáp án B: đề xuất (động từ)\nĐáp án C: quan sát (động từ)\nĐáp án D: quảng bá, thúc đẩy (động từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (D) promote\n- Collocation: \"promote activities/events\" (quảng bá hoạt động/sự kiện) là cụm động từ tự nhiên.\n- Nghĩa: Bản tin hàng tháng là cách tuyệt vời để quảng bá hoạt động và sự kiện của nhóm bạn.\n- (A) realize (nhận ra, hiện thực hóa) - không phù hợp với \"newsletter\"\n- (B) propose (đề xuất) - không hợp lý về nghĩa\n- (C) observe (quan sát) - không phải mục đích của newsletter\n- Mẹo: \"Promote\" (quảng bá, thúc đẩy) thường dùng trong marketing và truyền thông.\nDịch: Bản tin hàng tháng là một cách tuyệt vời để quảng bá các hoạt động và sự kiện của nhóm bạn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "nhận ra, hiện thực hóa"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đề xuất"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quan sát"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quảng bá, thúc đẩy"
+        }
+       }
       }
      ]
     },
@@ -5316,10 +5892,30 @@
         "D": "Without"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) While\n- Cấu trúc: \"While + clause, main clause\" (trong khi..., mặc dù...) diễn tả sự tương phản.\n- Nghĩa: Mặc dù khách sạn không có nhà hàng tại chỗ, có nhiều lựa chọn ăn uống gần đó.\n- (B) Such as (chẳng hạn như) - dùng để liệt kê ví dụ, không nối mệnh đề\n- (C) Unless (trừ khi) - không phù hợp về nghĩa\n- (D) Without (không có) - giới từ, cần danh từ/v-ing sau, không nối mệnh đề\n- Mẹo: \"While\" = although (mặc dù) khi diễn tả sự đối lập.\nDịch: Mặc dù khách sạn không có nhà hàng tại chỗ, nhưng có nhiều lựa chọn ăn uống gần đó.\nĐáp án A: trong khi, mặc dù (liên từ)\nĐáp án B: chẳng hạn như (cụm giới từ)\nĐáp án C: trừ khi (liên từ)\nĐáp án D: không có (giới từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) While\n- Cấu trúc: \"While + clause, main clause\" (trong khi..., mặc dù...) diễn tả sự tương phản.\n- Nghĩa: Mặc dù khách sạn không có nhà hàng tại chỗ, có nhiều lựa chọn ăn uống gần đó.\n- (B) Such as (chẳng hạn như) - dùng để liệt kê ví dụ, không nối mệnh đề\n- (C) Unless (trừ khi) - không phù hợp về nghĩa\n- (D) Without (không có) - giới từ, cần danh từ/v-ing sau, không nối mệnh đề\n- Mẹo: \"While\" = although (mặc dù) khi diễn tả sự đối lập.\nDịch: Mặc dù khách sạn không có nhà hàng tại chỗ, nhưng có nhiều lựa chọn ăn uống gần đó.\nĐáp án D: không có (giới từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "chẳng hạn như"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trừ khi"
+        },
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trong khi, mặc dù"
+        }
+       }
       }
      ]
     },
@@ -5344,10 +5940,35 @@
         "D": "Often"
        },
        "answer": "B",
-       "explanation": "Giải thích:\n- Đáp án đúng: (B) Despite\n- Cấu trúc: \"Despite + N/V-ing\" (mặc dù) - giới từ + danh từ/cụm danh từ.\n- \"Despite a slight decline\" (mặc dù có sự sụt giảm nhẹ).\n- (A) Aside - không đúng, cần \"Aside from\" (ngoài ra)\n- (C) Becoming (trở thành) - v-ing, không phải giới từ\n- (D) Often (thường xuyên) - trạng từ, không nối cụm danh từ với mệnh đề chính\n- Mẹo: \"Despite + N\" vs \"Although + S + V\".\nDịch: Mặc dù doanh thu giảm nhẹ so với quý trước, Blakely Components vẫn tiến hành kế hoạch mở rộng.\nĐáp án A: sang một bên, ngoài (trạng từ/giới từ - cần \\from\\\")\nĐáp án B: mặc dù (giới từ)\nĐáp án C: trở thành (v-ing)\nĐáp án D: thường xuyên (trạng từ)\"",
+       "explanation": "Giải thích:\n- Đáp án đúng: (B) Despite\n- Cấu trúc: \"Despite + N/V-ing\" (mặc dù) - giới từ + danh từ/cụm danh từ.\n- \"Despite a slight decline\" (mặc dù có sự sụt giảm nhẹ).\n- (A) Aside - không đúng, cần \"Aside from\" (ngoài ra)\n- (C) Becoming (trở thành) - v-ing, không phải giới từ\n- (D) Often (thường xuyên) - trạng từ, không nối cụm danh từ với mệnh đề chính\n- Mẹo: \"Despite + N\" vs \"Although + S + V\".\nDịch: Mặc dù doanh thu giảm nhẹ so với quý trước, Blakely Components vẫn tiến hành kế hoạch mở rộng.\nĐáp án A: sang một bên, ngoài (trạng từ/giới từ - cần \\from\\\")",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [],
+         "meaning": "trở thành"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thường xuyên"
+        },
+        "A": {
+         "pos": [
+          "adv",
+          "prep"
+         ],
+         "meaning": "sang một bên, ngoài"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "mặc dù"
+        }
+       }
       }
      ]
     },
@@ -5372,10 +5993,37 @@
         "D": "beside"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) over\n- Cấu trúc: \"over + khoảng thời gian\" (trong suốt khoảng thời gian) diễn tả thời gian kéo dài.\n- \"Over the past ten years\" (trong mười năm qua).\n- (B) into (vào trong) - giới từ chỉ hướng, không dùng với khoảng thời gian\n- (C) since (kể từ) - dùng với mốc thời gian cụ thể (since 2015), không dùng với \"the past ten years\"\n- (D) beside (bên cạnh) - giới từ chỉ vị trí, không chỉ thời gian\n- Mẹo: \"Over + the past/last + time period\" là cấu trúc thường gặp.\nDịch: Công ty Sữa Abelia đã trải qua nhiều thay đổi về lãnh đạo trong mười năm qua.\nĐáp án A: trong suốt, qua (giới từ)\nĐáp án B: vào trong (giới từ)\nĐáp án C: kể từ (giới từ/liên từ)\nĐáp án D: bên cạnh (giới từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) over\n- Cấu trúc: \"over + khoảng thời gian\" (trong suốt khoảng thời gian) diễn tả thời gian kéo dài.\n- \"Over the past ten years\" (trong mười năm qua).\n- (B) into (vào trong) - giới từ chỉ hướng, không dùng với khoảng thời gian\n- (C) since (kể từ) - dùng với mốc thời gian cụ thể (since 2015), không dùng với \"the past ten years\"\n- (D) beside (bên cạnh) - giới từ chỉ vị trí, không chỉ thời gian\n- Mẹo: \"Over + the past/last + time period\" là cấu trúc thường gặp.\nDịch: Công ty Sữa Abelia đã trải qua nhiều thay đổi về lãnh đạo trong mười năm qua.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vào trong"
+        },
+        "C": {
+         "pos": [
+          "conj",
+          "prep"
+         ],
+         "meaning": "kể từ"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên cạnh"
+        },
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong suốt, qua"
+        }
+       }
       }
      ]
     },
@@ -5400,10 +6048,34 @@
         "D": "audition"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) auditions\n- Vị trí cần điền: Danh từ làm tân ngữ của động từ \"is holding\" (đang tổ chức).\n- \"Hold auditions\" (tổ chức buổi thử vai) là collocation phổ biến.\n- Dùng số nhiều \"auditions\" vì thường có nhiều buổi thử vai.\n- (A) to audition - to-infinitive, không làm tân ngữ của \"holding\"\n- (B) auditioned - quá khứ phân từ, không phải danh từ\n- (D) audition - danh từ số ít, có thể dùng nhưng số nhiều tự nhiên hơn\n- Mẹo: \"Hold/conduct auditions/interviews/meetings\" thường dùng số nhiều.\nDịch: Nhà hát Cộng đồng Thành phố Opal đang tổ chức thử vai cho vở kịch mùa xuân trong tuần đầu tiên của tháng Mười Hai.\nĐáp án A: để thử vai (to-infinitive)\nĐáp án B: đã thử vai (quá khứ phân từ)\nĐáp án C: các buổi thử vai (danh từ số nhiều)\nĐáp án D: buổi thử vai (danh từ số ít)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) auditions\n- Vị trí cần điền: Danh từ làm tân ngữ của động từ \"is holding\" (đang tổ chức).\n- \"Hold auditions\" (tổ chức buổi thử vai) là collocation phổ biến.\n- Dùng số nhiều \"auditions\" vì thường có nhiều buổi thử vai.\n- (A) to audition - to-infinitive, không làm tân ngữ của \"holding\"\n- (D) audition - danh từ số ít, có thể dùng nhưng số nhiều tự nhiên hơn\n- Mẹo: \"Hold/conduct auditions/interviews/meetings\" thường dùng số nhiều.\nDịch: Nhà hát Cộng đồng Thành phố Opal đang tổ chức thử vai cho vở kịch mùa xuân trong tuần đầu tiên của tháng Mười Hai.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quá khứ phân từ, không phải danh từ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "có thể dùng nhưng số nhiều tự nhiên hơn"
+        },
+        "A": {
+         "pos": [],
+         "meaning": "để thử vai"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "các buổi thử vai"
+        }
+       }
       }
      ]
     },
@@ -5428,10 +6100,30 @@
         "D": "mysteriously"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) hastily\n- Cấu trúc: \"so + adverb + that\" (quá... đến nỗi).\n- \"Packed so hastily\" (đóng gói vội vàng) giải thích lý do quên đồ.\n- (A) enormously (một cách to lớn) - không mô tả cách đóng gói\n- (B) briefly (một cách ngắn gọn) - không diễn tả sự vội vàng\n- (D) mysteriously (một cách bí ẩn) - không hợp lý về nghĩa\n- Mẹo: \"Hastily\" (vội vàng, hấp tấp) thường đi với pack, leave, decide.\nDịch: Ông Kane nói rằng sáng nay ông đóng gói quá vội vàng đến nỗi quên mang theo vest và cà vạt cho bữa tối ngày mai.\nĐáp án A: một cách to lớn (trạng từ)\nĐáp án B: một cách ngắn gọn (trạng từ)\nĐáp án C: một cách vội vàng (trạng từ)\nĐáp án D: một cách bí ẩn (trạng từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) hastily\n- Cấu trúc: \"so + adverb + that\" (quá... đến nỗi).\n- \"Packed so hastily\" (đóng gói vội vàng) giải thích lý do quên đồ.\n- (A) enormously (một cách to lớn) - không mô tả cách đóng gói\n- (B) briefly (một cách ngắn gọn) - không diễn tả sự vội vàng\n- (D) mysteriously (một cách bí ẩn) - không hợp lý về nghĩa\n- Mẹo: \"Hastily\" (vội vàng, hấp tấp) thường đi với pack, leave, decide.\nDịch: Ông Kane nói rằng sáng nay ông đóng gói quá vội vàng đến nỗi quên mang theo vest và cà vạt cho bữa tối ngày mai.\nĐáp án A: một cách to lớn (trạng từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách ngắn gọn"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách bí ẩn"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách vội vàng"
+        }
+       }
       }
      ]
     },
@@ -5456,10 +6148,28 @@
         "D": "has to revise"
        },
        "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) had revised\n- Cấu trúc: Thì quá khứ hoàn thành \"had + V3/V-ed\" diễn tả hành động xảy ra trước một hành động khác trong quá khứ.\n- \"Long before the program began\" (lâu trước khi chương trình bắt đầu) → cần quá khứ hoàn thành.\n- (A) was revised - bị động, không phù hợp (Ms. Morris là người thực hiện)\n- (B) is revising - hiện tại tiếp diễn, không phù hợp với \"before...began\"\n- (D) has to revise - hiện tại, diễn tả nghĩa vụ, không phù hợp\n- Mẹo: \"Before + quá khứ đơn\" thường dùng quá khứ hoàn thành ở mệnh đề chính.\nDịch: Lâu trước khi chương trình đào tạo bắt đầu, bà Morris đã điều chỉnh lịch trình để cho phép nhóm của cô tham dự.\nĐáp án A: được sửa đổi (quá khứ đơn bị động)\nĐáp án B: đang sửa đổi (hiện tại tiếp diễn)\nĐáp án C: đã sửa đổi (quá khứ hoàn thành)\nĐáp án D: phải sửa đổi (hiện tại)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (C) had revised\n- Cấu trúc: Thì quá khứ hoàn thành \"had + V3/V-ed\" diễn tả hành động xảy ra trước một hành động khác trong quá khứ.\n- \"Long before the program began\" (lâu trước khi chương trình bắt đầu) → cần quá khứ hoàn thành.\n- (A) was revised - bị động, không phù hợp (Ms. Morris là người thực hiện)\n- (B) is revising - hiện tại tiếp diễn, không phù hợp với \"before...began\"\n- (D) has to revise - hiện tại, diễn tả nghĩa vụ, không phù hợp\n- Mẹo: \"Before + quá khứ đơn\" thường dùng quá khứ hoàn thành ở mệnh đề chính.\nDịch: Lâu trước khi chương trình đào tạo bắt đầu, bà Morris đã điều chỉnh lịch trình để cho phép nhóm của cô tham dự.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "được sửa đổi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đang sửa đổi"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "đã sửa đổi"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "phải sửa đổi"
+        }
+       }
       }
      ]
     },
@@ -5484,10 +6194,30 @@
         "D": "regarding"
        },
        "answer": "A",
-       "explanation": "Giải thích:\n- Đáp án đúng: (A) once\n- Cấu trúc: \"once + clause\" (một khi..., ngay khi...) diễn tả điều kiện thời gian.\n- Nghĩa: Ông Swan sẽ quay lại cuộc họp kế hoạch một khi các thực tập sinh đến.\n- (B) unlike (không giống) - giới từ so sánh, không nối mệnh đề thời gian\n- (C) whereas (trong khi đó) - liên từ chỉ tương phản, không phải thời gian\n- (D) regarding (về, liên quan đến) - giới từ, không nối mệnh đề\n- Mẹo: \"Once\" = as soon as (ngay khi) diễn tả hành động xảy ra sau điều kiện được đáp ứng.\nDịch: Ông Swan sẽ quay lại cuộc họp kế hoạch một khi các thực tập sinh đến.\nĐáp án A: một khi, ngay khi (liên từ)\nĐáp án B: không giống (giới từ)\nĐáp án C: trong khi đó (liên từ)\nĐáp án D: về, liên quan đến (giới từ)",
+       "explanation": "Giải thích:\n- Đáp án đúng: (A) once\n- Cấu trúc: \"once + clause\" (một khi..., ngay khi...) diễn tả điều kiện thời gian.\n- Nghĩa: Ông Swan sẽ quay lại cuộc họp kế hoạch một khi các thực tập sinh đến.\n- (B) unlike (không giống) - giới từ so sánh, không nối mệnh đề thời gian\n- (C) whereas (trong khi đó) - liên từ chỉ tương phản, không phải thời gian\n- (D) regarding (về, liên quan đến) - giới từ, không nối mệnh đề\n- Mẹo: \"Once\" = as soon as (ngay khi) diễn tả hành động xảy ra sau điều kiện được đáp ứng.\nDịch: Ông Swan sẽ quay lại cuộc họp kế hoạch một khi các thực tập sinh đến.\nĐáp án B: không giống (giới từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trong khi đó"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "về, liên quan đến"
+        },
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "một khi, ngay khi"
+        }
+       }
       }
      ]
     }

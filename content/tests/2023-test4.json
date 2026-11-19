@@ -1053,7 +1053,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "mark",
@@ -1061,6 +1061,13 @@
         "n"
        ],
        "meaning": "đánh dấu; dấu, vết"
+      },
+      {
+       "term": "tile",
+       "pos": [
+        "n"
+       ],
+       "meaning": "gạch, ngói"
       },
       {
        "term": "agent",
@@ -1462,8 +1469,7 @@
       {
        "term": "support",
        "pos": [
-        "n",
-        "v"
+        "n"
        ],
        "meaning": "hỗ trợ"
       },
@@ -2117,9 +2123,7 @@
      "vocab": [
       {
        "term": "supervisor",
-       "pos": [
-        "n"
-       ],
+       "pos": [],
        "meaning": "người giám sát"
       },
       {
@@ -2297,14 +2301,14 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "deliver",
        "pos": [
         "v"
        ],
-       "meaning": "giao hàng; giao, chuyển giao"
+       "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
        "term": "within",
@@ -2555,7 +2559,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "giao hàng; giao, chuyển giao"
+       "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
        "term": "entrance",
@@ -3168,7 +3172,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "giao hàng; giao, chuyển giao"
+       "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
        "term": "material",
@@ -3204,7 +3208,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "đối tác; thường chỉ người/tổ chức, không phải mối quan hệ"
+       "meaning": "đối tác"
       },
       {
        "term": "recently",
@@ -3567,6 +3571,13 @@
        "meaning": "giới thiệu; đặc điểm, tính năng"
       },
       {
+       "term": "tasty",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "ngon, hấp dẫn"
+      },
+      {
        "term": "superb",
        "pos": [
         "adj"
@@ -3796,6 +3807,13 @@
        "meaning": "trì hoãn; sự trì hoãn trì hoãn"
       },
       {
+       "term": "paint",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sơn, màu sắc"
+      },
+      {
        "term": "recommend",
        "pos": [
         "v"
@@ -3829,13 +3847,6 @@
         "n"
        ],
        "meaning": "vấn đề; vấn đề, số báo"
-      },
-      {
-       "term": "specialize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "chuyên môn hóa"
       }
      ],
      "vocabAuto": true
@@ -3866,10 +3877,36 @@
         "D": "improved"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (improvements - danh từ). Giải thích: Câu này cần một danh từ chỉ sự cải thiện. \"Improvements\" (những cải tiến) phù hợp nhất trong ngữ cảnh này.\nDịch: Sau các bản cập nhật phần mềm, khách hàng của chúng tôi báo cáo những cải tiến đáng kể về cả tốc độ và độ tin cậy.\nA. improvable (tính từ): có thể cải thiện\nB. improvements (danh từ): những cải tiến\nC. improves (động từ): cải thiện\nD. improved (tính từ): đã được cải thiện",
+       "explanation": "Đáp án đúng là B (improvements - danh từ). Giải thích: Câu này cần một danh từ chỉ sự cải thiện. \"Improvements\" (những cải tiến) phù hợp nhất trong ngữ cảnh này.\nDịch: Sau các bản cập nhật phần mềm, khách hàng của chúng tôi báo cáo những cải tiến đáng kể về cả tốc độ và độ tin cậy.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể cải thiện"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "những cải tiến"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cải thiện"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã được cải thiện"
+        }
+       }
       }
      ]
     },
@@ -3894,10 +3931,36 @@
         "D": "along"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (in - giới từ). Giải thích: \"Listed in\" là cụm từ phổ biến để chỉ thông tin được liệt kê trong một tài liệu.\nDịch: Hồ sơ thị trường của McNeal Unlimited đã được hoàn thành trước ngày đến hạn được liệt kê trong kế hoạch dự án.\nA. in (giới từ): trong\nB. about (giới từ): về\nC. until (giới từ): cho đến\nD. along (giới từ): dọc theo",
+       "explanation": "Đáp án đúng là A (in - giới từ). Giải thích: \"Listed in\" là cụm từ phổ biến để chỉ thông tin được liệt kê trong một tài liệu.\nDịch: Hồ sơ thị trường của McNeal Unlimited đã được hoàn thành trước ngày đến hạn được liệt kê trong kế hoạch dự án.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "về"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cho đến"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "dọc theo"
+        }
+       }
       }
      ]
     },
@@ -3922,10 +3985,36 @@
         "D": "them"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (their - tính từ sở hữu). Giải thích: Câu này cần một tính từ sở hữu để chỉ yêu cầu của nhân viên. \"Their requests\" (yêu cầu của họ) là cách diễn đạt đúng.\nDịch: Nhân viên có thể nghỉ tối đa hai tuần mỗi lần miễn là yêu cầu của họ được phê duyệt trước.\nA. they (đại từ chủ ngữ): họ\nB. their (tính từ sở hữu): của họ\nC. themselves (đại từ phản thân): bản thân họ\nD. them (đại từ tân ngữ): họ",
+       "explanation": "Đáp án đúng là B (their - tính từ sở hữu). Giải thích: Câu này cần một tính từ sở hữu để chỉ yêu cầu của nhân viên. \"Their requests\" (yêu cầu của họ) là cách diễn đạt đúng.\nDịch: Nhân viên có thể nghỉ tối đa hai tuần mỗi lần miễn là yêu cầu của họ được phê duyệt trước.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của họ"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bản thân họ"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        }
+       }
       }
      ]
     },
@@ -3950,10 +4039,36 @@
         "D": "primary"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (primary - tính từ). Giải thích: Câu này cần một tính từ chỉ sự quan trọng hoặc chính yếu. \"Primary contact\" (liên hệ chính) là cụm từ phổ biến trong ngữ cảnh kinh doanh.\nDịch: Các đại diện dịch vụ có trách nhiệm làm người liên hệ chính cho mỗi khách hàng của chúng tôi.\nA. small (tính từ): nhỏ\nB. most (tính từ): nhất\nC. abundant (tính từ): phong phú\nD. primary (tính từ): chính, chủ yếu",
+       "explanation": "Đáp án đúng là D (primary - tính từ). Giải thích: Câu này cần một tính từ chỉ sự quan trọng hoặc chính yếu. \"Primary contact\" (liên hệ chính) là cụm từ phổ biến trong ngữ cảnh kinh doanh.\nDịch: Các đại diện dịch vụ có trách nhiệm làm người liên hệ chính cho mỗi khách hàng của chúng tôi.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhỏ"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhất"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phong phú"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chính, chủ yếu"
+        }
+       }
       }
      ]
     },
@@ -3978,10 +4093,37 @@
         "D": "canceler"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (cancellation - danh từ). Giải thích: Câu này cần một danh từ chỉ hành động hủy bỏ. \"Cancellation\" (sự hủy bỏ) phù hợp nhất trong ngữ cảnh này.\nDịch: Việc hủy bỏ buổi gây quỹ là do thời tiết xấu, vì vậy sự kiện sẽ được lên lịch lại vào cuối tuần tới.\nA. cancellation (danh từ): sự hủy bỏ\nB. cancel (động từ): hủy bỏ\nC. canceled (động từ quá khứ/tính từ): đã hủy bỏ\nD. canceler (danh từ): người hủy bỏ",
+       "explanation": "Đáp án đúng là A (cancellation - danh từ). Giải thích: Câu này cần một danh từ chỉ hành động hủy bỏ. \"Cancellation\" (sự hủy bỏ) phù hợp nhất trong ngữ cảnh này.\nDịch: Việc hủy bỏ buổi gây quỹ là do thời tiết xấu, vì vậy sự kiện sẽ được lên lịch lại vào cuối tuần tới.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự hủy bỏ"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hủy bỏ"
+        },
+        "C": {
+         "pos": [
+          "adj",
+          "v"
+         ],
+         "meaning": "đã hủy bỏ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người hủy bỏ"
+        }
+       }
       }
      ]
     },
@@ -4006,10 +4148,36 @@
         "D": "effectively"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (effectively - trạng từ). Giải thích: Câu này cần một trạng từ so sánh hiệu quả của phương pháp học. \"Effectively\" (hiệu quả) phù hợp nhất trong ngữ cảnh này.\nDịch: Các khóa học trực tuyến của AVB Education giúp người dùng thành thạo nhiều kỹ năng máy tính hiệu quả hơn so với các phương pháp học khác.\nA. nearly (trạng từ): gần như\nB. lightly (trạng từ): nhẹ nhàng\nC. previously (trạng từ): trước đây\nD. effectively (trạng từ): hiệu quả",
+       "explanation": "Đáp án đúng là D (effectively - trạng từ). Giải thích: Câu này cần một trạng từ so sánh hiệu quả của phương pháp học. \"Effectively\" (hiệu quả) phù hợp nhất trong ngữ cảnh này.\nDịch: Các khóa học trực tuyến của AVB Education giúp người dùng thành thạo nhiều kỹ năng máy tính hiệu quả hơn so với các phương pháp học khác.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nhẹ nhàng"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "trước đây"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hiệu quả"
+        }
+       }
       }
      ]
     },
@@ -4034,10 +4202,37 @@
         "D": "presentable"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (presence - danh từ). Giải thích: Câu này cần một danh từ chỉ sự hiện diện. \"Presence\" (sự hiện diện) phù hợp nhất trong ngữ cảnh này.\nDịch: Sự hiện diện của một số người nổi tiếng tại Bảo tàng Sasaki đã thu hút cư dân địa phương tìm kiếm cơ hội chụp ảnh.\nA. presenter (danh từ): người dẫn chương trình\nB. presented (động từ quá khứ/tính từ): đã trình bày\nC. presence (danh từ): sự hiện diện\nD. presentable (tính từ): có thể trình bày được",
+       "explanation": "Đáp án đúng là C (presence - danh từ). Giải thích: Câu này cần một danh từ chỉ sự hiện diện. \"Presence\" (sự hiện diện) phù hợp nhất trong ngữ cảnh này.\nDịch: Sự hiện diện của một số người nổi tiếng tại Bảo tàng Sasaki đã thu hút cư dân địa phương tìm kiếm cơ hội chụp ảnh.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người dẫn chương trình"
+        },
+        "B": {
+         "pos": [
+          "adj",
+          "v"
+         ],
+         "meaning": "đã trình bày"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự hiện diện"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể trình bày được"
+        }
+       }
       }
      ]
     },
@@ -4062,10 +4257,36 @@
         "D": "practiced"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (approved - động từ). Giải thích: Câu này cần một động từ chỉ hành động chấp thuận. \"Approved\" (đã chấp thuận) phù hợp nhất trong ngữ cảnh này.\nDịch: Ủy ban đã nhiệt tình chấp thuận đơn xin tài trợ của công ty kịch vì nó khuyến khích sự tham gia của cộng đồng.\nA. approved (động từ): đã chấp thuận\nB. caused (động từ): đã gây ra\nC. affected (động từ): đã ảnh hưởng\nD. practiced (động từ): đã thực hành",
+       "explanation": "Đáp án đúng là A (approved - động từ). Giải thích: Câu này cần một động từ chỉ hành động chấp thuận. \"Approved\" (đã chấp thuận) phù hợp nhất trong ngữ cảnh này.\nDịch: Ủy ban đã nhiệt tình chấp thuận đơn xin tài trợ của công ty kịch vì nó khuyến khích sự tham gia của cộng đồng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã chấp thuận"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã gây ra"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã ảnh hưởng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã thực hành"
+        }
+       }
       }
      ]
     },
@@ -4093,7 +4314,8 @@
        "explanation": "Đáp án đúng là D (precisely - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức diễn ra của việc chuẩn bị. \"Precisely\" (chính xác) phù hợp nhất để mô tả việc chuẩn bị đang diễn ra đúng như kế hoạch.\nDịch: Ông Ibrahim đã nói với đội quản lý rằng việc chuẩn bị cho cuộc họp cổ đông thường niên đang diễn ra chính xác như đã lên kế hoạch.\nA. preciseness (danh từ): sự chính xác\nB. precise (tính từ): chính xác\nC. precision (danh từ): độ chính xác\nD. precisely (trạng từ): một cách chính xác",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4118,10 +4340,37 @@
         "D": "of"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (of - giới từ). Giải thích: Cấu trúc \"the weight of something\" là cách diễn đạt chuẩn để chỉ trọng lượng của một vật.\nDịch: Chi phí vận chuyển của Aryxco thay đổi dựa trên điểm đến và trọng lượng của gói hàng.\nA. as (liên từ/giới từ): như\nB. along (giới từ): dọc theo\nC. between (giới từ): giữa\nD. of (giới từ): của",
+       "explanation": "Đáp án đúng là D (of - giới từ). Giải thích: Cấu trúc \"the weight of something\" là cách diễn đạt chuẩn để chỉ trọng lượng của một vật.\nDịch: Chi phí vận chuyển của Aryxco thay đổi dựa trên điểm đến và trọng lượng của gói hàng.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj",
+          "prep"
+         ],
+         "meaning": "như"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "dọc theo"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "của"
+        }
+       }
       }
      ]
     },
@@ -4146,10 +4395,36 @@
         "D": "secureness"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (secure - tính từ). Giải thích: Câu này cần một tính từ mô tả loại máy chủ. \"Secure server\" (máy chủ an toàn) là cụm từ phổ biến trong ngữ cảnh bảo mật thông tin.\nDịch: Hồ sơ sức khỏe của khách hàng chúng tôi được lưu trữ trên một máy chủ an toàn chỉ có thể truy cập bởi những người dùng được ủy quyền.\nA. secure (tính từ): an toàn\nB. securing (động từ): đang bảo đảm\nC. securely (trạng từ): một cách an toàn\nD. secureness (danh từ): sự an toàn",
+       "explanation": "Đáp án đúng là A (secure - tính từ). Giải thích: Câu này cần một tính từ mô tả loại máy chủ. \"Secure server\" (máy chủ an toàn) là cụm từ phổ biến trong ngữ cảnh bảo mật thông tin.\nDịch: Hồ sơ sức khỏe của khách hàng chúng tôi được lưu trữ trên một máy chủ an toàn chỉ có thể truy cập bởi những người dùng được ủy quyền.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "an toàn"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang bảo đảm"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách an toàn"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự an toàn"
+        }
+       }
       }
      ]
     },
@@ -4174,10 +4449,36 @@
         "D": "volunteers"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (requirements - danh từ). Giải thích: Câu này cần một danh từ chỉ những yêu cầu cụ thể cho việc lắp đặt. \"Requirements\" (yêu cầu) phù hợp nhất trong ngữ cảnh này.\nDịch: Trước khi ký hợp đồng với công ty sưởi, chúng ta phải xác nhận rằng đề xuất của họ đáp ứng các yêu cầu lắp đặt của chúng ta.\nA. customers (danh từ): khách hàng\nB. businesses (danh từ): doanh nghiệp\nC. requirements (danh từ): yêu cầu\nD. volunteers (danh từ): tình nguyện viên",
+       "explanation": "Đáp án đúng là C (requirements - danh từ). Giải thích: Câu này cần một danh từ chỉ những yêu cầu cụ thể cho việc lắp đặt. \"Requirements\" (yêu cầu) phù hợp nhất trong ngữ cảnh này.\nDịch: Trước khi ký hợp đồng với công ty sưởi, chúng ta phải xác nhận rằng đề xuất của họ đáp ứng các yêu cầu lắp đặt của chúng ta.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "khách hàng"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "doanh nghiệp"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "yêu cầu"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tình nguyện viên"
+        }
+       }
       }
      ]
     },
@@ -4202,10 +4503,37 @@
         "D": "surrounding"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (surrounding - động từ/tính từ). Giải thích: Câu này cần một từ chỉ vị trí xung quanh trụ sở. \"Surrounding\" (xung quanh) phù hợp nhất trong ngữ cảnh này.\nDịch: Khu vực xung quanh trụ sở mới của Furniture Vine được bao phủ bởi rừng rậm.\nA. among (giới từ): giữa\nB. happening (động từ): đang xảy ra\nC. foreseeable (tính từ): có thể dự đoán\nD. surrounding (động từ/tính từ): xung quanh",
+       "explanation": "Đáp án đúng là D (surrounding - động từ/tính từ). Giải thích: Câu này cần một từ chỉ vị trí xung quanh trụ sở. \"Surrounding\" (xung quanh) phù hợp nhất trong ngữ cảnh này.\nDịch: Khu vực xung quanh trụ sở mới của Furniture Vine được bao phủ bởi rừng rậm.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang xảy ra"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có thể dự đoán"
+        },
+        "D": {
+         "pos": [
+          "adj",
+          "v"
+         ],
+         "meaning": "xung quanh"
+        }
+       }
       }
      ]
     },
@@ -4230,10 +4558,36 @@
         "D": "calculating"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (prosperous - tính từ). Giải thích: Câu này cần một tính từ mô tả tương lai tích cực cho cổ đông. \"Prosperous\" (thịnh vượng) phù hợp nhất trong ngữ cảnh này.\nDịch: Các nhà phân tích hàng đầu của công ty kỳ vọng rằng việc mua lại Valuwest, Inc. sẽ dẫn đến một tương lai thịnh vượng cho các cổ đông.\nA. prosperous (tính từ): thịnh vượng\nB. voluntary (tính từ): tự nguyện\nC. sizable (tính từ): đáng kể\nD. calculating (tính từ): tính toán",
+       "explanation": "Đáp án đúng là A (prosperous - tính từ). Giải thích: Câu này cần một tính từ mô tả tương lai tích cực cho cổ đông. \"Prosperous\" (thịnh vượng) phù hợp nhất trong ngữ cảnh này.\nDịch: Các nhà phân tích hàng đầu của công ty kỳ vọng rằng việc mua lại Valuwest, Inc. sẽ dẫn đến một tương lai thịnh vượng cho các cổ đông.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thịnh vượng"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tự nguyện"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng kể"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tính toán"
+        }
+       }
       }
      ]
     },
@@ -4258,10 +4612,36 @@
         "D": "as soon as"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (regarding - giới từ). Giải thích: Câu này cần một giới từ để kết nối hành động thông báo với nội dung thông báo. \"Regarding\" (về, liên quan đến) phù hợp nhất trong ngữ cảnh này.\nDịch: Sau khi xem xét bản thảo của thỏa thuận, luật sư trưởng sẽ thông báo cho nhóm của bà Gwan về bất kỳ mối quan ngại nào.\nA. regarding (giới từ): về, liên quan đến\nB. afterward (trạng từ): sau đó\nC. toward (giới từ): hướng tới\nD. as soon as (cụm liên từ): ngay khi",
+       "explanation": "Đáp án đúng là A (regarding - giới từ). Giải thích: Câu này cần một giới từ để kết nối hành động thông báo với nội dung thông báo. \"Regarding\" (về, liên quan đến) phù hợp nhất trong ngữ cảnh này.\nDịch: Sau khi xem xét bản thảo của thỏa thuận, luật sư trưởng sẽ thông báo cho nhóm của bà Gwan về bất kỳ mối quan ngại nào.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "về, liên quan đến"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sau đó"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "hướng tới"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "ngay khi"
+        }
+       }
       }
      ]
     },
@@ -4286,10 +4666,36 @@
         "D": "deciding"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (providing - động từ). Giải thích: Câu này cần một động từ chỉ hành động cung cấp hoặc tổ chức. \"Providing\" (cung cấp) phù hợp nhất trong ngữ cảnh tổ chức hội thảo.\nDịch: Sau kỳ nghỉ hai năm, Viện Grear một lần nữa đang cung cấp các hội thảo xây dựng sự nghiệp cho nhân viên y tế.\nA. informing (động từ): thông báo\nB. providing (động từ): cung cấp\nC. passing (động từ): thông qua\nD. deciding (động từ): quyết định",
+       "explanation": "Đáp án đúng là B (providing - động từ). Giải thích: Câu này cần một động từ chỉ hành động cung cấp hoặc tổ chức. \"Providing\" (cung cấp) phù hợp nhất trong ngữ cảnh tổ chức hội thảo.\nDịch: Sau kỳ nghỉ hai năm, Viện Grear một lần nữa đang cung cấp các hội thảo xây dựng sự nghiệp cho nhân viên y tế.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "thông báo"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cung cấp"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "thông qua"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quyết định"
+        }
+       }
       }
      ]
     },
@@ -4314,10 +4720,36 @@
         "D": "competitive"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (competitive - tính từ). Giải thích: Câu này cần một tính từ mô tả giá cả. \"Competitive prices\" (giá cạnh tranh) là cụm từ phổ biến trong kinh doanh.\nDịch: Khách sạn Cedar Lake đã điều chỉnh giá cạnh tranh của mình trong nỗ lực tăng thị phần trong thị trường đang phát triển.\nA. competed (động từ quá khứ): đã cạnh tranh\nB. competition (danh từ): cuộc cạnh tranh\nC. competitor (danh từ): đối thủ cạnh tranh\nD. competitive (tính từ): cạnh tranh",
+       "explanation": "Đáp án đúng là D (competitive - tính từ). Giải thích: Câu này cần một tính từ mô tả giá cả. \"Competitive prices\" (giá cạnh tranh) là cụm từ phổ biến trong kinh doanh.\nDịch: Khách sạn Cedar Lake đã điều chỉnh giá cạnh tranh của mình trong nỗ lực tăng thị phần trong thị trường đang phát triển.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã cạnh tranh"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cuộc cạnh tranh"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "đối thủ cạnh tranh"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cạnh tranh"
+        }
+       }
       }
      ]
     },
@@ -4342,10 +4774,36 @@
         "D": "categories"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (regulations - danh từ). Giải thích: Câu này cần một danh từ chỉ các quy định hoặc luật lệ. \"Regulations\" (quy định) phù hợp nhất trong ngữ cảnh này.\nDịch: Giờ hoạt động của Big Midwest Cafés phải tuân theo các quy định địa phương được thực thi bởi thành phố nơi quán cà phê đặt trụ sở.\nA. fragments (danh từ): mảnh vỡ\nB. equalities (danh từ): sự bình đẳng\nC. regulations (danh từ): quy định\nD. categories (danh từ): danh mục",
+       "explanation": "Đáp án đúng là C (regulations - danh từ). Giải thích: Câu này cần một danh từ chỉ các quy định hoặc luật lệ. \"Regulations\" (quy định) phù hợp nhất trong ngữ cảnh này.\nDịch: Giờ hoạt động của Big Midwest Cafés phải tuân theo các quy định địa phương được thực thi bởi thành phố nơi quán cà phê đặt trụ sở.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "mảnh vỡ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự bình đẳng"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "quy định"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "danh mục"
+        }
+       }
       }
      ]
     },
@@ -4370,10 +4828,30 @@
         "D": "is completing"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (completed - động từ quá khứ). Giải thích: Câu này cần một động từ ở thì quá khứ đơn để phù hợp với ngữ cảnh \"last week\" (tuần trước).\nDịch: Bộ phận pháp lý đã hoàn thành các sửa đổi cho bản điều chỉnh vào tuần trước, và bà Koehler đã gửi nó đến nhóm doanh nghiệp để xem xét.\nA. completed (động từ quá khứ): đã hoàn thành\nB. completes (động từ hiện tại): hoàn thành\nC. will complete (động từ tương lai): sẽ hoàn thành\nD. is completing (động từ hiện tại tiếp diễn): đang hoàn thành",
+       "explanation": "Đáp án đúng là A (completed - động từ quá khứ). Giải thích: Câu này cần một động từ ở thì quá khứ đơn để phù hợp với ngữ cảnh \"last week\" (tuần trước).\nDịch: Bộ phận pháp lý đã hoàn thành các sửa đổi cho bản điều chỉnh vào tuần trước, và bà Koehler đã gửi nó đến nhóm doanh nghiệp để xem xét.\nD. is completing (động từ hiện tại tiếp diễn): đang hoàn thành",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã hoàn thành"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "hoàn thành"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sẽ hoàn thành"
+        }
+       }
       }
      ]
     },
@@ -4398,10 +4876,36 @@
         "D": "schedules"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (participants - danh từ). Giải thích: Câu này cần một danh từ chỉ người tham gia hội thảo. \"Participants\" (người tham gia) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Arriata yêu cầu tất cả những người tham gia hội thảo Năng suất và Công nghệ hôm qua gửi bảng câu hỏi của họ.\nA. activities (danh từ): hoạt động\nB. objectives (danh từ): mục tiêu\nC. participants (danh từ): người tham gia\nD. schedules (danh từ): lịch trình",
+       "explanation": "Đáp án đúng là C (participants - danh từ). Giải thích: Câu này cần một danh từ chỉ người tham gia hội thảo. \"Participants\" (người tham gia) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Arriata yêu cầu tất cả những người tham gia hội thảo Năng suất và Công nghệ hôm qua gửi bảng câu hỏi của họ.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hoạt động"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "mục tiêu"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người tham gia"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "lịch trình"
+        }
+       }
       }
      ]
     },
@@ -4426,10 +4930,36 @@
         "D": "distinguishing"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (distinguishably - trạng từ). Giải thích: Câu này cần một trạng từ để mô tả cách chocolates có vị khác biệt. \"Distinguishably\" (một cách dễ nhận biết) phù hợp nhất trong ngữ cảnh này.\nDịch: Người tiêu dùng nhận thấy rằng Sunnyside Chocolates có vị khác biệt một cách dễ nhận biết so với tất cả các loại sô cô la khác.\nA. distinguish (động từ): phân biệt\nB. distinguishably (trạng từ): một cách dễ nhận biết\nC. to distinguish (động từ nguyên mẫu): để phân biệt\nD. distinguishing (tính từ): đặc trưng",
+       "explanation": "Đáp án đúng là B (distinguishably - trạng từ). Giải thích: Câu này cần một trạng từ để mô tả cách chocolates có vị khác biệt. \"Distinguishably\" (một cách dễ nhận biết) phù hợp nhất trong ngữ cảnh này.\nDịch: Người tiêu dùng nhận thấy rằng Sunnyside Chocolates có vị khác biệt một cách dễ nhận biết so với tất cả các loại sô cô la khác.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phân biệt"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách dễ nhận biết"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để phân biệt"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đặc trưng"
+        }
+       }
       }
      ]
     },
@@ -4454,10 +4984,36 @@
         "D": "organize"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (expand - động từ). Giải thích: Câu này cần một động từ chỉ sự gia tăng hoặc mở rộng. \"Expand\" (mở rộng) phù hợp nhất trong ngữ cảnh tăng số lượng làn đường dành cho xe đạp.\nDịch: Với việc đi xe đạp trở nên phổ biến hơn bao giờ hết, hội đồng thành phố có kế hoạch mở rộng số lượng làn đường dành cho xe đạp trên các đường phố.\nA. generate (động từ): tạo ra\nB. invent (động từ): phát minh\nC. expand (động từ): mở rộng\nD. organize (động từ): tổ chức",
+       "explanation": "Đáp án đúng là C (expand - động từ). Giải thích: Câu này cần một động từ chỉ sự gia tăng hoặc mở rộng. \"Expand\" (mở rộng) phù hợp nhất trong ngữ cảnh tăng số lượng làn đường dành cho xe đạp.\nDịch: Với việc đi xe đạp trở nên phổ biến hơn bao giờ hết, hội đồng thành phố có kế hoạch mở rộng số lượng làn đường dành cho xe đạp trên các đường phố.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tạo ra"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phát minh"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "mở rộng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tổ chức"
+        }
+       }
       }
      ]
     },
@@ -4482,10 +5038,36 @@
         "D": "was met"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (meets - động từ). Giải thích: Câu này cần một động từ ở thì hiện tại đơn, số ít để phù hợp với chủ ngữ \"equipment\". \"Meets\" (đáp ứng) phù hợp nhất trong ngữ cảnh này.\nDịch: Hướng dẫn của Claston Industry giúp đảm bảo rằng thiết bị đặt hàng từ tất cả các nhà cung cấp đáp ứng các tiêu chuẩn an toàn.\nA. meets (động từ hiện tại): đáp ứng\nB. meeting (động từ hiện tại phân từ): đang đáp ứng\nC. to meet (động từ nguyên mẫu): để đáp ứng\nD. was met (động từ quá khứ bị động): đã được đáp ứng",
+       "explanation": "Đáp án đúng là A (meets - động từ). Giải thích: Câu này cần một động từ ở thì hiện tại đơn, số ít để phù hợp với chủ ngữ \"equipment\". \"Meets\" (đáp ứng) phù hợp nhất trong ngữ cảnh này.\nDịch: Hướng dẫn của Claston Industry giúp đảm bảo rằng thiết bị đặt hàng từ tất cả các nhà cung cấp đáp ứng các tiêu chuẩn an toàn.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đáp ứng"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang đáp ứng"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để đáp ứng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã được đáp ứng"
+        }
+       }
       }
      ]
     },
@@ -4510,10 +5092,30 @@
         "D": "usually"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (usually - trạng từ). Giải thích: Câu này cần một trạng từ chỉ tần suất. \"Usually\" (thường xuyên) phù hợp nhất để mô tả công việc thông thường của Ms. Daiyu.\nDịch: Mặc dù cô Daiyu thường xuyên xử lý các câu hỏi của khách hàng, ông Mei tiếp quản khi cô ấy nhận được một nhiệm vụ đặc biệt từ quản lý của mình.\nA. never (trạng từ): không bao giờ\nB. almost (trạng từ): gần như\nC. deeply (trạng từ): sâu sắc\nD. usually (trạng từ): thường xuyên",
+       "explanation": "Đáp án đúng là D (usually - trạng từ). Giải thích: Câu này cần một trạng từ chỉ tần suất. \"Usually\" (thường xuyên) phù hợp nhất để mô tả công việc thông thường của Ms. Daiyu.\nDịch: Mặc dù cô Daiyu thường xuyên xử lý các câu hỏi của khách hàng, ông Mei tiếp quản khi cô ấy nhận được một nhiệm vụ đặc biệt từ quản lý của mình.\nA. never (trạng từ): không bao giờ",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sâu sắc"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thường xuyên"
+        }
+       }
       }
      ]
     },
@@ -4538,10 +5140,36 @@
         "D": "to pursue"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (be pursued - động từ bị động). Giải thích: Câu này cần một động từ ở dạng bị động để phù hợp với cấu trúc \"cannot ... by Aksika Medical\". \"Be pursued\" (được theo đuổi) là dạng bị động đúng.\nDịch: Cơ hội tăng trưởng không thể được theo đuổi bởi Aksika Medical mà không có sự phân tích cẩn thận về chi phí và lợi ích.\nA. pursue (động từ): theo đuổi\nB. be pursued (động từ bị động): được theo đuổi\nC. pursuing (động từ hiện tại phân từ): đang theo đuổi\nD. to pursue (động từ nguyên mẫu): để theo đuổi",
+       "explanation": "Đáp án đúng là B (be pursued - động từ bị động). Giải thích: Câu này cần một động từ ở dạng bị động để phù hợp với cấu trúc \"cannot ... by Aksika Medical\". \"Be pursued\" (được theo đuổi) là dạng bị động đúng.\nDịch: Cơ hội tăng trưởng không thể được theo đuổi bởi Aksika Medical mà không có sự phân tích cẩn thận về chi phí và lợi ích.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "theo đuổi"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được theo đuổi"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang theo đuổi"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để theo đuổi"
+        }
+       }
       }
      ]
     },
@@ -4566,10 +5194,36 @@
         "D": "yet"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (but also - cụm liên từ). Giải thích: Cấu trúc \"not only ... but also\" được sử dụng để liên kết hai ý tưởng tương đương. Đây là cách dùng đúng trong câu này.\nDịch: Mayson Technology không chỉ dẫn đầu các đối thủ cạnh tranh về doanh thu mà còn về các sáng kiến đoạt giải thưởng.\nA. but also (cụm liên từ): mà còn\nB. so that (cụm liên từ): để mà\nC. and (liên từ): và\nD. yet (liên từ): tuy nhiên",
+       "explanation": "Đáp án đúng là A (but also - cụm liên từ). Giải thích: Cấu trúc \"not only ... but also\" được sử dụng để liên kết hai ý tưởng tương đương. Đây là cách dùng đúng trong câu này.\nDịch: Mayson Technology không chỉ dẫn đầu các đối thủ cạnh tranh về doanh thu mà còn về các sáng kiến đoạt giải thưởng.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "mà còn"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "để mà"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "và"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "tuy nhiên"
+        }
+       }
       }
      ]
     },
@@ -4594,10 +5248,40 @@
         "D": "both"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (both - tính từ/đại từ). Giải thích: Câu này cần một từ chỉ cả hai khía cạnh được đề cập. \"Both\" (cả hai) phù hợp nhất trong ngữ cảnh này.\nDịch: Bài thuyết trình của chúng tôi sẽ cung cấp một cái nhìn tổng quan về cả khía cạnh lý thuyết và thực tiễn của học máy.\nA. each (tính từ/đại từ): mỗi\nB. any (tính từ/đại từ): bất kỳ\nC. such (tính từ/đại từ): như vậy\nD. both (tính từ/đại từ): cả hai",
+       "explanation": "Đáp án đúng là D (both - tính từ/đại từ). Giải thích: Câu này cần một từ chỉ cả hai khía cạnh được đề cập. \"Both\" (cả hai) phù hợp nhất trong ngữ cảnh này.\nDịch: Bài thuyết trình của chúng tôi sẽ cung cấp một cái nhìn tổng quan về cả khía cạnh lý thuyết và thực tiễn của học máy.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "mỗi"
+        },
+        "B": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "bất kỳ"
+        },
+        "C": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "như vậy"
+        },
+        "D": {
+         "pos": [
+          "adj",
+          "pron"
+         ],
+         "meaning": "cả hai"
+        }
+       }
       }
      ]
     },
@@ -4622,10 +5306,36 @@
         "D": "cooperatively"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (progressively - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức tăng trách nhiệm theo thời gian. \"Progressively\" (dần dần) phù hợp nhất trong ngữ cảnh này.\nDịch: Trách nhiệm của các giám sát viên dây chuyền lắp ráp mới tại Nhà máy Ô tô Streamline tăng dần khi họ tích lũy được nhiều kinh nghiệm hơn.\nA. diligently (trạng từ): cần mẫn\nB. completely (trạng từ): hoàn toàn\nC. progressively (trạng từ): dần dần\nD. cooperatively (trạng từ): hợp tác",
+       "explanation": "Đáp án đúng là C (progressively - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức tăng trách nhiệm theo thời gian. \"Progressively\" (dần dần) phù hợp nhất trong ngữ cảnh này.\nDịch: Trách nhiệm của các giám sát viên dây chuyền lắp ráp mới tại Nhà máy Ô tô Streamline tăng dần khi họ tích lũy được nhiều kinh nghiệm hơn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cần mẫn"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hoàn toàn"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "dần dần"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hợp tác"
+        }
+       }
       }
      ]
     },
@@ -4650,10 +5360,30 @@
         "D": "be complicated"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (complicated - động từ quá khứ). Giải thích: Câu này cần một động từ ở thì quá khứ đơn để phù hợp với ngữ cảnh \"initially\" (ban đầu) và \"opened on schedule\" (đã mở cửa đúng lịch trình).\nDịch: Mặc dù các yếu tố không lường trước ban đầu đã làm phức tạp hóa việc xây dựng trang trại điện gió, nó đã khai trương đúng lịch trình.\nA. complicate (động từ): làm phức tạp\nB. complicated (động từ quá khứ): đã làm phức tạp\nC. are complicating (động từ hiện tại tiếp diễn): đang làm phức tạp\nD. be complicated (động từ bị động): bị làm phức tạp",
+       "explanation": "Đáp án đúng là B (complicated - động từ quá khứ). Giải thích: Câu này cần một động từ ở thì quá khứ đơn để phù hợp với ngữ cảnh \"initially\" (ban đầu) và \"opened on schedule\" (đã mở cửa đúng lịch trình).\nDịch: Mặc dù các yếu tố không lường trước ban đầu đã làm phức tạp hóa việc xây dựng trang trại điện gió, nó đã khai trương đúng lịch trình.\nC. are complicating (động từ hiện tại tiếp diễn): đang làm phức tạp",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "làm phức tạp"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã làm phức tạp"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bị làm phức tạp"
+        }
+       }
       }
      ]
     },
@@ -4678,10 +5408,28 @@
         "D": "Whereas"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Whenever - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian hoặc tần suất. \"Whenever\" (bất cứ khi nào) phù hợp nhất để mô tả hành động lặp đi lặp lại của Haruto.\nDịch: - - Haruto nhìn thấy cơ hội phát triển chuyên môn, anh ấy chắc chắn sẽ tận dụng .\nA) Mặc dù\nB) Do\n(C) Bất cứ khi nào\n(D) Trong khi",
+       "explanation": "Đáp án đúng là C (Whenever - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian hoặc tần suất. \"Whenever\" (bất cứ khi nào) phù hợp nhất để mô tả hành động lặp đi lặp lại của Haruto.\nDịch: - - Haruto nhìn thấy cơ hội phát triển chuyên môn, anh ấy chắc chắn sẽ tận dụng .",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "mặc dù"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "do"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "bất cứ khi nào"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trong khi"
+        }
+       }
       }
      ]
     }

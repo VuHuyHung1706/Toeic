@@ -1671,7 +1671,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       },
       {
        "term": "entrance",
@@ -2707,7 +2707,7 @@
        "pos": [
         "adj"
        ],
-       "meaning": "sẵn lòng"
+       "meaning": "sẵn lòng; sẵn sàng, tự nguyện"
       },
       {
        "term": "rent",
@@ -2891,7 +2891,7 @@
         "adj",
         "v"
        ],
-       "meaning": "quá khứ phân từ/tính từ, không phải danh từ; bị hạn chế"
+       "meaning": "quá khứ phân từ/tính từ, không phải danh từ"
       },
       {
        "term": "topic",
@@ -3110,7 +3110,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "mô tả; được mô tả"
+       "meaning": "mô tả"
       },
       {
        "term": "specification",
@@ -3765,10 +3765,36 @@
         "D": "tackled"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (raised - động từ quá khứ). Giải thích: Câu này cần một động từ chỉ hành động gây quỹ. \"Raised\" (đã gây quỹ) phù hợp nhất trong ngữ cảnh xây dựng thư viện mới.\nDịch: Pering Township đã gây quỹ đủ tiền để xây dựng một thư viện mới vào năm tới.\nA. raised (động từ quá khứ): đã gây quỹ\nB. convinced (động từ quá khứ): đã thuyết phục\nC. observed (động từ quá khứ): đã quan sát\nD. tackled (động từ quá khứ): đã giải quyết",
+       "explanation": "Đáp án đúng là A (raised - động từ quá khứ). Giải thích: Câu này cần một động từ chỉ hành động gây quỹ. \"Raised\" (đã gây quỹ) phù hợp nhất trong ngữ cảnh xây dựng thư viện mới.\nDịch: Pering Township đã gây quỹ đủ tiền để xây dựng một thư viện mới vào năm tới.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã gây quỹ"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã thuyết phục"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã quan sát"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã giải quyết"
+        }
+       }
       }
      ]
     },
@@ -3793,10 +3819,36 @@
         "D": "Us"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Our - tính từ sở hữu). Giải thích: Câu này cần một tính từ sở hữu để xác định quán cà phê. \"Our\" (của chúng tôi) phù hợp nhất trong ngữ cảnh này.\nDịch: Quán cà phê tầng trệt của chúng tôi rất được cư dân trong tòa nhà ưa chuộng.\nA. Our (tính từ sở hữu): của chúng tôi\nB. Ourselves (đại từ phản thân): chính chúng tôi\nC. Ours (đại từ sở hữu): của chúng tôi\nD. Us (đại từ tân ngữ): chúng tôi",
+       "explanation": "Đáp án đúng là A (Our - tính từ sở hữu). Giải thích: Câu này cần một tính từ sở hữu để xác định quán cà phê. \"Our\" (của chúng tôi) phù hợp nhất trong ngữ cảnh này.\nDịch: Quán cà phê tầng trệt của chúng tôi rất được cư dân trong tòa nhà ưa chuộng.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của chúng tôi"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "chính chúng tôi"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của chúng tôi"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "chúng tôi"
+        }
+       }
       }
      ]
     },
@@ -3821,10 +3873,36 @@
         "D": "deep"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (familiar - tính từ). Giải thích: Câu này cần một tính từ chỉ sự quen thuộc. \"Familiar\" (quen thuộc) phù hợp nhất trong ngữ cảnh hiểu biết về quy trình.\nDịch: Khóa đào tạo bổ sung sẽ giúp bạn trở nên quen thuộc hơn với các quy trình của Phòng thí nghiệm RNV.\nA. primary (tính từ): chính, chủ yếu\nB. brief (tính từ): ngắn gọn\nC. familiar (tính từ): quen thuộc\nD. deep (tính từ): sâu sắc",
+       "explanation": "Đáp án đúng là C (familiar - tính từ). Giải thích: Câu này cần một tính từ chỉ sự quen thuộc. \"Familiar\" (quen thuộc) phù hợp nhất trong ngữ cảnh hiểu biết về quy trình.\nDịch: Khóa đào tạo bổ sung sẽ giúp bạn trở nên quen thuộc hơn với các quy trình của Phòng thí nghiệm RNV.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chính, chủ yếu"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "ngắn gọn"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "quen thuộc"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "sâu sắc"
+        }
+       }
       }
      ]
     },
@@ -3849,10 +3927,36 @@
         "D": "with"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (on - giới từ). Giải thích: \"On a ... basis\" là cụm từ phổ biến chỉ tần suất. \"On a quarterly basis\" nghĩa là \"hàng quý\".\nDịch: Đánh giá hiệu suất của nhân viên được thực hiện trên cơ sở hàng quý.\nA. to (giới từ): đến\nB. against (giới từ): chống lại\nC. on (giới từ): trên\nD. with (giới từ): với",
+       "explanation": "Đáp án đúng là C (on - giới từ). Giải thích: \"On a ... basis\" là cụm từ phổ biến chỉ tần suất. \"On a quarterly basis\" nghĩa là \"hàng quý\".\nDịch: Đánh giá hiệu suất của nhân viên được thực hiện trên cơ sở hàng quý.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "đến"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "chống lại"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trên"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "với"
+        }
+       }
       }
      ]
     },
@@ -3877,10 +3981,36 @@
         "D": "attending"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (attendance - danh từ). Giải thích: Câu này cần một danh từ chỉ số lượng người tham dự. \"Attendance\" (số lượng người tham dự) phù hợp nhất trong ngữ cảnh này.\nDịch: Các địa điểm tổ chức hòa nhạc thường xuyên ghi lại số lượng người tham dự để đánh giá sự thành công của các chiến dịch tiếp thị của họ.\nA. attendance (danh từ): số lượng người tham dự\nB. attendant (danh từ): người phục vụ\nC. attended (động từ quá khứ): đã tham dự\nD. attending (động từ hiện tại phân từ): đang tham dự",
+       "explanation": "Đáp án đúng là A (attendance - danh từ). Giải thích: Câu này cần một danh từ chỉ số lượng người tham dự. \"Attendance\" (số lượng người tham dự) phù hợp nhất trong ngữ cảnh này.\nDịch: Các địa điểm tổ chức hòa nhạc thường xuyên ghi lại số lượng người tham dự để đánh giá sự thành công của các chiến dịch tiếp thị của họ.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "số lượng người tham dự"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người phục vụ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tham dự"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang tham dự"
+        }
+       }
       }
      ]
     },
@@ -3905,10 +4035,36 @@
         "D": "unless"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (before - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian. \"Before\" (trước khi) phù hợp nhất để chỉ ra rằng hợp đồng phải được ký trước khi công việc bắt đầu.\nDịch: Hợp đồng mới phải được ký và gửi lại trước khi bất kỳ công việc nào có thể bắt đầu.\nA. before (liên từ): trước khi\nB. provided that (cụm liên từ): với điều kiện là\nC. as far as (cụm liên từ): trong chừng mực\nD. unless (liên từ): trừ phi",
+       "explanation": "Đáp án đúng là A (before - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian. \"Before\" (trước khi) phù hợp nhất để chỉ ra rằng hợp đồng phải được ký trước khi công việc bắt đầu.\nDịch: Hợp đồng mới phải được ký và gửi lại trước khi bất kỳ công việc nào có thể bắt đầu.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trước khi"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "với điều kiện là"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trong chừng mực"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trừ phi"
+        }
+       }
       }
      ]
     },
@@ -3933,10 +4089,36 @@
         "D": "to explain"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (explain - động từ). Giải thích: Câu này cần một động từ ở thì hiện tại đơn, số nhiều để phù hợp với chủ ngữ \"maps\". \"Explain\" (giải thích) phù hợp nhất trong ngữ cảnh này.\nDịch: Các bản đồ của công viên giải thích mức độ khó của mỗi đường mòn đi bộ.\nA. explaining (động từ hiện tại phân từ): đang giải thích\nB. explain (động từ): giải thích\nC. to be explained (động từ bị động): được giải thích\nD. to explain (động từ nguyên mẫu): để giải thích",
+       "explanation": "Đáp án đúng là B (explain - động từ). Giải thích: Câu này cần một động từ ở thì hiện tại đơn, số nhiều để phù hợp với chủ ngữ \"maps\". \"Explain\" (giải thích) phù hợp nhất trong ngữ cảnh này.\nDịch: Các bản đồ của công viên giải thích mức độ khó của mỗi đường mòn đi bộ.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang giải thích"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "giải thích"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được giải thích"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để giải thích"
+        }
+       }
       }
      ]
     },
@@ -3961,10 +4143,36 @@
         "D": "proposed"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (rapid - tính từ). Giải thích: Câu này cần một tính từ mô tả dịch vụ khách hàng tích cực. \"Rapid\" (nhanh chóng) phù hợp nhất trong ngữ cảnh này và thường đi kèm với \"fresh ingredients\" để mô tả một dịch vụ tốt.\nDịch: Braley's Deli tự hào về nguyên liệu tươi ngon và dịch vụ khách hàng nhanh chóng của mình.\nA. rapid (tính từ): nhanh chóng\nB. occasional (tính từ): thỉnh thoảng\nC. expected (tính từ): mong đợi\nD. proposed (tính từ): đề xuất",
+       "explanation": "Đáp án đúng là A (rapid - tính từ). Giải thích: Câu này cần một tính từ mô tả dịch vụ khách hàng tích cực. \"Rapid\" (nhanh chóng) phù hợp nhất trong ngữ cảnh này và thường đi kèm với \"fresh ingredients\" để mô tả một dịch vụ tốt.\nDịch: Braley's Deli tự hào về nguyên liệu tươi ngon và dịch vụ khách hàng nhanh chóng của mình.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhanh chóng"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thỉnh thoảng"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "mong đợi"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đề xuất"
+        }
+       }
       }
      ]
     },
@@ -3989,10 +4197,36 @@
         "D": "for"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (by - giới từ). Giải thích: \"By teleconference\" là cụm từ phổ biến để chỉ phương thức tổ chức cuộc họp qua điện thoại hoặc video.\nDịch: Cuộc họp điều phối công nghệ tiếp theo sẽ được tổ chức qua hội nghị truyền hình vào lúc 3:00 chiều ngày mai.\nA. by (giới từ): bằng, qua\nB. of (giới từ): của\nC. in (giới từ): trong\nD. for (giới từ): cho",
+       "explanation": "Đáp án đúng là A (by - giới từ). Giải thích: \"By teleconference\" là cụm từ phổ biến để chỉ phương thức tổ chức cuộc họp qua điện thoại hoặc video.\nDịch: Cuộc họp điều phối công nghệ tiếp theo sẽ được tổ chức qua hội nghị truyền hình vào lúc 3:00 chiều ngày mai.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bằng, qua"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "của"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "cho"
+        }
+       }
       }
      ]
     },
@@ -4017,10 +4251,36 @@
         "D": "firming"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (firm - tính từ). Giải thích: Câu này cần một tính từ mô tả sự nắm bắt khách hàng. \"Firm grasp\" (sự nắm bắt chắc chắn) là cụm từ phổ biến trong ngữ cảnh kinh doanh.\nDịch: Weiss Landscaping có sự nắm bắt chắc chắn về cơ sở khách hàng của mình nhờ dịch vụ khách hàng xuất sắc.\nA. firm (tính từ): chắc chắn\nB. firmest (tính từ so sánh nhất): chắc chắn nhất\nC. firmly (trạng từ): một cách chắc chắn\nD. firming (động từ hiện tại phân từ): đang làm chắc chắn",
+       "explanation": "Đáp án đúng là A (firm - tính từ). Giải thích: Câu này cần một tính từ mô tả sự nắm bắt khách hàng. \"Firm grasp\" (sự nắm bắt chắc chắn) là cụm từ phổ biến trong ngữ cảnh kinh doanh.\nDịch: Weiss Landscaping có sự nắm bắt chắc chắn về cơ sở khách hàng của mình nhờ dịch vụ khách hàng xuất sắc.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chắc chắn"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chắc chắn nhất"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách chắc chắn"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang làm chắc chắn"
+        }
+       }
       }
      ]
     },
@@ -4045,10 +4305,36 @@
         "D": "whereas"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (whenever - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian hoặc tần suất. \"Whenever\" (bất cứ khi nào) phù hợp nhất để mô tả hành động thêm tiền vào tài khoản tiết kiệm khi có thể.\nDịch: Chúng tôi thêm tiền vào tài khoản tiết kiệm bất cứ khi nào có thể để đảm bảo chúng tôi có sẵn tiền cho những chi phí bất ngờ.\nA. either (liên từ): hoặc là\nB. even so (cụm liên từ): mặc dù vậy\nC. whenever (liên từ): bất cứ khi nào\nD. whereas (liên từ): trong khi",
+       "explanation": "Đáp án đúng là C (whenever - liên từ). Giải thích: Câu này cần một liên từ chỉ thời gian hoặc tần suất. \"Whenever\" (bất cứ khi nào) phù hợp nhất để mô tả hành động thêm tiền vào tài khoản tiết kiệm khi có thể.\nDịch: Chúng tôi thêm tiền vào tài khoản tiết kiệm bất cứ khi nào có thể để đảm bảo chúng tôi có sẵn tiền cho những chi phí bất ngờ.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "hoặc là"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "mặc dù vậy"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "bất cứ khi nào"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trong khi"
+        }
+       }
       }
      ]
     },
@@ -4073,10 +4359,30 @@
         "D": "is being offered"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (is being offered - động từ bị động hiện tại tiếp diễn). Giải thích: Câu này cần một động từ ở thì hiện tại bị động để chỉ ra rằng việc giảm giá đang diễn ra. \"Is being offered\" (đang được chào bán) phù hợp nhất trong ngữ cảnh này.\nDịch: Mẫu xe điện của Rulster năm ngoái đang được chào bán với mức giảm giá đáng kể.\nA. offers (động từ hiện tại): chào bán\nB. offered (động từ quá khứ): đã chào bán\nC. was offering (động từ quá khứ tiếp diễn): đã đang chào bán\nD. is being offered (động từ bị động hiện tại tiếp diễn): đang được chào bán",
+       "explanation": "Đáp án đúng là D (is being offered - động từ bị động hiện tại tiếp diễn). Giải thích: Câu này cần một động từ ở thì hiện tại bị động để chỉ ra rằng việc giảm giá đang diễn ra. \"Is being offered\" (đang được chào bán) phù hợp nhất trong ngữ cảnh này.\nDịch: Mẫu xe điện của Rulster năm ngoái đang được chào bán với mức giảm giá đáng kể.\nD. is being offered (động từ bị động hiện tại tiếp diễn): đang được chào bán",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chào bán"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã chào bán"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã đang chào bán"
+        }
+       }
       }
      ]
     },
@@ -4101,10 +4407,36 @@
         "D": "plain"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (preferred - tính từ). Giải thích: Câu này cần một tính từ chỉ sự ưa thích. \"Preferred method\" (phương pháp ưa thích) là cụm từ phổ biến trong ngữ cảnh kinh doanh.\nDịch: Tàu hỏa chở hàng là phương thức vận chuyển vật liệu ưa thích của Choman Transport nếu thời gian không phải là yếu tố quan trọng.\nA. valuable (tính từ): có giá trị\nB. taken (động từ quá khứ phân từ): được lấy\nC. preferred (tính từ): ưa thích\nD. plain (tính từ): đơn giản",
+       "explanation": "Đáp án đúng là C (preferred - tính từ). Giải thích: Câu này cần một tính từ chỉ sự ưa thích. \"Preferred method\" (phương pháp ưa thích) là cụm từ phổ biến trong ngữ cảnh kinh doanh.\nDịch: Tàu hỏa chở hàng là phương thức vận chuyển vật liệu ưa thích của Choman Transport nếu thời gian không phải là yếu tố quan trọng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có giá trị"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được lấy"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "ưa thích"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đơn giản"
+        }
+       }
       }
      ]
     },
@@ -4129,10 +4461,36 @@
         "D": "correspondence"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (correspondence - danh từ). Giải thích: Câu này cần một danh từ chỉ thư từ hoặc liên lạc. \"Correspondence\" (thư từ, liên lạc) phù hợp nhất trong ngữ cảnh này.\nDịch: Để đáp ứng các mối quan tâm của khách hàng, bộ phận bán hàng đã thu thập tất cả các thư từ đã được gửi đi.\nA. correspond (động từ): tương ứng\nB. corresponded (động từ quá khứ): đã tương ứng\nC. corresponding (tính từ): tương ứng\nD. correspondence (danh từ): thư từ, liên lạc",
+       "explanation": "Đáp án đúng là D (correspondence - danh từ). Giải thích: Câu này cần một danh từ chỉ thư từ hoặc liên lạc. \"Correspondence\" (thư từ, liên lạc) phù hợp nhất trong ngữ cảnh này.\nDịch: Để đáp ứng các mối quan tâm của khách hàng, bộ phận bán hàng đã thu thập tất cả các thư từ đã được gửi đi.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tương ứng"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tương ứng"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tương ứng"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "thư từ, liên lạc"
+        }
+       }
       }
      ]
     },
@@ -4157,10 +4515,36 @@
         "D": "that"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (who - đại từ quan hệ). Giải thích: Câu này cần một đại từ quan hệ để giới thiệu mệnh đề phụ chỉ chủ sở hữu. \"Who\" (ai) phù hợp nhất trong ngữ cảnh này.\nDịch: Các quan chức lễ hội đã lưu trữ những vật dụng bị bỏ lại sau sự kiện cho đến khi họ có thể xác định ai là chủ sở hữu của chúng.\nA. who (đại từ quan hệ): ai\nB. theirs (đại từ sở hữu): của họ\nC. whose (đại từ quan hệ sở hữu): của ai\nD. that (đại từ quan hệ): mà",
+       "explanation": "Đáp án đúng là A (who - đại từ quan hệ). Giải thích: Câu này cần một đại từ quan hệ để giới thiệu mệnh đề phụ chỉ chủ sở hữu. \"Who\" (ai) phù hợp nhất trong ngữ cảnh này.\nDịch: Các quan chức lễ hội đã lưu trữ những vật dụng bị bỏ lại sau sự kiện cho đến khi họ có thể xác định ai là chủ sở hữu của chúng.",
        "tags": [
         "relative"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "ai"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của họ"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của ai"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "mà"
+        }
+       }
       }
      ]
     },
@@ -4185,10 +4569,36 @@
         "D": "advanced"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (decided - động từ quá khứ). Giải thích: Câu này cần một động từ chỉ sự quyết định. \"Decided\" (đã quyết định) phù hợp nhất trong ngữ cảnh này.\nDịch: Mặc dù năm ngoái đã có vấn đề về giao thông, các quan chức lại một lần nữa quyết định tổ chức cuộc diễu hành ở trung tâm thành phố.\nA. updated (động từ quá khứ): đã cập nhật\nB. controlled (động từ quá khứ): đã kiểm soát\nC. decided (động từ quá khứ): đã quyết định\nD. advanced (động từ quá khứ): đã tiến hành",
+       "explanation": "Đáp án đúng là C (decided - động từ quá khứ). Giải thích: Câu này cần một động từ chỉ sự quyết định. \"Decided\" (đã quyết định) phù hợp nhất trong ngữ cảnh này.\nDịch: Mặc dù năm ngoái đã có vấn đề về giao thông, các quan chức lại một lần nữa quyết định tổ chức cuộc diễu hành ở trung tâm thành phố.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã cập nhật"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã kiểm soát"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã quyết định"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tiến hành"
+        }
+       }
       }
      ]
     },
@@ -4213,10 +4623,34 @@
         "D": "arrived"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (arrival - danh từ). Giải thích: Câu này cần một danh từ chỉ sự đến nơi. \"Arrival\" (sự đến) phù hợp nhất trong ngữ cảnh này.\nDịch: Chúng tôi sẽ sắp xếp cho sự đến của bà Tanaka một khi chúng tôi hoàn tất lịch trình cho chuyến tham quan trụ sở công ty của chúng tôi.\nA. arrive (động từ): đến\nB. arrives (động từ hiện tại, ngôi thứ 3 số ít): đến\nC. arrival (danh từ): sự đến\nD. arrived (động từ quá khứ): đã đến",
+       "explanation": "Đáp án đúng là C (arrival - danh từ). Giải thích: Câu này cần một danh từ chỉ sự đến nơi. \"Arrival\" (sự đến) phù hợp nhất trong ngữ cảnh này.\nDịch: Chúng tôi sẽ sắp xếp cho sự đến của bà Tanaka một khi chúng tôi hoàn tất lịch trình cho chuyến tham quan trụ sở công ty của chúng tôi.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đến"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "ngôi thứ 3 số ít"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự đến"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã đến"
+        }
+       }
       }
      ]
     },
@@ -4241,10 +4675,36 @@
         "D": "understandably"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (understandably - trạng từ). Giải thích: Câu này cần một trạng từ mô tả sự phấn khích của cộng đồng. \"Understandably\" (một cách dễ hiểu) phù hợp nhất trong ngữ cảnh này.\nDịch: Với những lợi ích mà nó sẽ mang lại, các thành viên của cộng đồng một cách dễ hiểu đã rất phấn khích về đề xuất xây dựng trung tâm mua sắm mới.\nA. responsibly (trạng từ): một cách có trách nhiệm\nB. popularly (trạng từ): một cách phổ biến\nC. mistakenly (trạng từ): một cách sai lầm\nD. understandably (trạng từ): một cách dễ hiểu",
+       "explanation": "Đáp án đúng là D (understandably - trạng từ). Giải thích: Câu này cần một trạng từ mô tả sự phấn khích của cộng đồng. \"Understandably\" (một cách dễ hiểu) phù hợp nhất trong ngữ cảnh này.\nDịch: Với những lợi ích mà nó sẽ mang lại, các thành viên của cộng đồng một cách dễ hiểu đã rất phấn khích về đề xuất xây dựng trung tâm mua sắm mới.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách có trách nhiệm"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách phổ biến"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách sai lầm"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách dễ hiểu"
+        }
+       }
       }
      ]
     },
@@ -4269,10 +4729,36 @@
         "D": "substantially"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (substantial - tính từ). Giải thích: Câu này cần một tính từ mô tả mức độ tiết kiệm. \"Substantial\" (đáng kể) phù hợp nhất trong ngữ cảnh này.\nDịch: Ultra Star Construction đã đạt được khoản tiết kiệm đáng kể bằng cách mua vật liệu từ các nhà cung cấp khác nhau.\nA. substance (danh từ): chất liệu\nB. substantial (tính từ): đáng kể\nC. substantiate (động từ): chứng minh\nD. substantially (trạng từ): đáng kể",
+       "explanation": "Đáp án đúng là B (substantial - tính từ). Giải thích: Câu này cần một tính từ mô tả mức độ tiết kiệm. \"Substantial\" (đáng kể) phù hợp nhất trong ngữ cảnh này.\nDịch: Ultra Star Construction đã đạt được khoản tiết kiệm đáng kể bằng cách mua vật liệu từ các nhà cung cấp khác nhau.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chất liệu"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng kể"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chứng minh"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đáng kể"
+        }
+       }
       }
      ]
     },
@@ -4297,10 +4783,36 @@
         "D": "consultants"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (consultants - danh từ). Giải thích: Câu này cần một danh từ chỉ người được thuê từ bên ngoài. \"Consultants\" (chuyên gia tư vấn) phù hợp nhất trong ngữ cảnh này.\nDịch: Các quản lý dự án nghiên cứu tại Bệnh viện Envira thường thuê các chuyên gia tư vấn bên ngoài có kinh nghiệm sâu rộng trong lĩnh vực của họ.\nA. patients (danh từ): bệnh nhân\nB. contenders (danh từ): người tranh giải\nC. characters (danh từ): nhân vật\nD. consultants (danh từ): chuyên gia tư vấn",
+       "explanation": "Đáp án đúng là D (consultants - danh từ). Giải thích: Câu này cần một danh từ chỉ người được thuê từ bên ngoài. \"Consultants\" (chuyên gia tư vấn) phù hợp nhất trong ngữ cảnh này.\nDịch: Các quản lý dự án nghiên cứu tại Bệnh viện Envira thường thuê các chuyên gia tư vấn bên ngoài có kinh nghiệm sâu rộng trong lĩnh vực của họ.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "bệnh nhân"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người tranh giải"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhân vật"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chuyên gia tư vấn"
+        }
+       }
       }
      ]
     },
@@ -4325,10 +4837,37 @@
         "D": "often"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (almost - trạng từ). Giải thích: Câu này cần một trạng từ chỉ mức độ hoàn thành gần như đầy đủ. \"Almost\" (gần như) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Kwan báo cáo rằng cô ấy gần như đã hoàn thành báo cáo của mình, chỉ còn chờ nhận được đánh giá cuối cùng từ khách hàng.\nA. too (trạng từ): quá\nB. more (tính từ/trạng từ so sánh): hơn\nC. almost (trạng từ): gần như\nD. often (trạng từ): thường xuyên",
+       "explanation": "Đáp án đúng là C (almost - trạng từ). Giải thích: Câu này cần một trạng từ chỉ mức độ hoàn thành gần như đầy đủ. \"Almost\" (gần như) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Kwan báo cáo rằng cô ấy gần như đã hoàn thành báo cáo của mình, chỉ còn chờ nhận được đánh giá cuối cùng từ khách hàng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "quá"
+        },
+        "B": {
+         "pos": [
+          "adj",
+          "adv"
+         ],
+         "meaning": "hơn"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thường xuyên"
+        }
+       }
       }
      ]
     },
@@ -4353,10 +4892,37 @@
         "D": "style"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (trend - danh từ). Giải thích: Câu này cần một danh từ chỉ xu hướng hoặc khuynh hướng. \"Trend\" (xu hướng) phù hợp nhất trong ngữ cảnh phân tích báo cáo bán hàng.\nDịch: Dựa trên báo cáo bán hàng từ ba tháng qua, xu hướng dường như là sản phẩm mới nhất của chúng tôi đang ngày càng được ưa chuộng.\nA. aim (danh từ): mục tiêu\nB. trend (danh từ): xu hướng\nC. offer (danh từ/động từ): đề nghị; đề xuất\nD. style (danh từ): phong cách",
+       "explanation": "Đáp án đúng là B (trend - danh từ). Giải thích: Câu này cần một danh từ chỉ xu hướng hoặc khuynh hướng. \"Trend\" (xu hướng) phù hợp nhất trong ngữ cảnh phân tích báo cáo bán hàng.\nDịch: Dựa trên báo cáo bán hàng từ ba tháng qua, xu hướng dường như là sản phẩm mới nhất của chúng tôi đang ngày càng được ưa chuộng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "mục tiêu"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "xu hướng"
+        },
+        "C": {
+         "pos": [
+          "n",
+          "v"
+         ],
+         "meaning": "đề nghị; đề xuất"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phong cách"
+        }
+       }
       }
      ]
     },
@@ -4381,10 +4947,34 @@
         "D": "qualifies"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (qualified - tính từ). Giải thích: Câu này cần một tính từ mô tả các nhà thầu. \"Qualified\" (có đủ năng lực) phù hợp nhất trong ngữ cảnh tuyển dụng nhà thầu.\nDịch: Newport Hills Property Developers đang thuê các nhà thầu có đủ năng lực để xây dựng hệ thống lọc nước tiên tiến.\nA. qualified (tính từ): có đủ năng lực\nB. qualification (danh từ): bằng cấp, chứng chỉ\nC. qualify (động từ): đủ điều kiện\nD. qualifies (động từ hiện tại, ngôi thứ 3 số ít): đủ điều kiện",
+       "explanation": "Đáp án đúng là A (qualified - tính từ). Giải thích: Câu này cần một tính từ mô tả các nhà thầu. \"Qualified\" (có đủ năng lực) phù hợp nhất trong ngữ cảnh tuyển dụng nhà thầu.\nDịch: Newport Hills Property Developers đang thuê các nhà thầu có đủ năng lực để xây dựng hệ thống lọc nước tiên tiến.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có đủ năng lực"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "bằng cấp, chứng chỉ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đủ điều kiện"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "ngôi thứ 3 số ít"
+        }
+       }
       }
      ]
     },
@@ -4409,10 +4999,36 @@
         "D": "Contributors"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Contributors - danh từ). Giải thích: Câu này cần một danh từ chỉ người đóng góp cho tạp chí. \"Contributors\" (những người đóng góp) phù hợp nhất trong ngữ cảnh này.\nDịch: Những người đóng góp cho tạp chí Alpine Climber bao gồm Karl Saenz và Holli Bergits, hai trong số những nhiếp ảnh gia giỏi nhất châu Âu.\nA. Buyers (danh từ): người mua\nB. Novelists (danh từ): tiểu thuyết gia\nC. Passengers (danh từ): hành khách\nD. Contributors (danh từ): những người đóng góp",
+       "explanation": "Đáp án đúng là D (Contributors - danh từ). Giải thích: Câu này cần một danh từ chỉ người đóng góp cho tạp chí. \"Contributors\" (những người đóng góp) phù hợp nhất trong ngữ cảnh này.\nDịch: Những người đóng góp cho tạp chí Alpine Climber bao gồm Karl Saenz và Holli Bergits, hai trong số những nhiếp ảnh gia giỏi nhất châu Âu.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người mua"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tiểu thuyết gia"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hành khách"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "những người đóng góp"
+        }
+       }
       }
      ]
     },
@@ -4437,10 +5053,36 @@
         "D": "financed"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (financing - danh từ). Giải thích: Câu này cần 1 danh từ. Cấu trúc The + N. \"Financing\" (tài chính) phù hợp nhất trong ngữ cảnh này.\nDịch: Ghi chú về khía cạnh tài chính của việc sáp nhập LN Bank và East Way Bank sẽ được đưa vào biên bản cuộc họp.\nA. financially (trạng từ): về mặt tài chính\nB. financing (danh từ): việc tài trợ; đang tài trợ\nC. financial (tính từ): tài chính\nD. financed (động từ quá khứ): đã tài trợ",
+       "explanation": "Đáp án đúng là B (financing - danh từ). Giải thích: Câu này cần 1 danh từ. Cấu trúc The + N. \"Financing\" (tài chính) phù hợp nhất trong ngữ cảnh này.\nDịch: Ghi chú về khía cạnh tài chính của việc sáp nhập LN Bank và East Way Bank sẽ được đưa vào biên bản cuộc họp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "về mặt tài chính"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "việc tài trợ; đang tài trợ"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tài chính"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tài trợ"
+        }
+       }
       }
      ]
     },
@@ -4465,10 +5107,37 @@
         "D": "prompting"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (promptly - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức hoàn thành nhiệm vụ. \"Promptly\" (nhanh chóng) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Ahmad yêu cầu chúng tôi hoàn thành nhiệm vụ nhanh chóng để cô ấy có thể đưa chúng vào báo cáo ngân sách hàng tháng của mình hôm nay.\nA. prompt (tính từ/động từ): nhanh chóng; nhắc nhở\nB. prompted (động từ quá khứ): đã nhắc nhở\nC. promptly (trạng từ): nhanh chóng\nD. prompting (động từ hiện tại phân từ): đang nhắc nhở",
+       "explanation": "Đáp án đúng là C (promptly - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức hoàn thành nhiệm vụ. \"Promptly\" (nhanh chóng) phù hợp nhất trong ngữ cảnh này.\nDịch: Bà Ahmad yêu cầu chúng tôi hoàn thành nhiệm vụ nhanh chóng để cô ấy có thể đưa chúng vào báo cáo ngân sách hàng tháng của mình hôm nay.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj",
+          "v"
+         ],
+         "meaning": "nhanh chóng; nhắc nhở"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã nhắc nhở"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nhanh chóng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang nhắc nhở"
+        }
+       }
       }
      ]
     },
@@ -4493,10 +5162,19 @@
         "D": "such as"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (such as - cụm từ). Giải thích: Câu này cần một cụm từ để giới thiệu một ví dụ. \"Such as\" (chẳng hạn như) phù hợp nhất trong ngữ cảnh này.\nDịch: Người quản lý hoạt động mới ngạc nhiên khi các giám đốc muốn ước tính chi phí ngay cả cho những nhiệm vụ nhỏ chẳng hạn như gắn nhãn.\nA. apart (trạng từ/giới từ): riêng biệt\nB. at least (cụm từ): ít nhất\nC. in full (cụm từ): đầy đủ\nD. such as (cụm từ): chẳng hạn như",
+       "explanation": "Đáp án đúng là D (such as - cụm từ). Giải thích: Câu này cần một cụm từ để giới thiệu một ví dụ. \"Such as\" (chẳng hạn như) phù hợp nhất trong ngữ cảnh này.\nDịch: Người quản lý hoạt động mới ngạc nhiên khi các giám đốc muốn ước tính chi phí ngay cả cho những nhiệm vụ nhỏ chẳng hạn như gắn nhãn.\nB. at least (cụm từ): ít nhất\nC. in full (cụm từ): đầy đủ\nD. such as (cụm từ): chẳng hạn như",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv",
+          "prep"
+         ],
+         "meaning": "riêng biệt"
+        }
+       }
       }
      ]
     },
@@ -4521,10 +5199,36 @@
         "D": "advised"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (revised - động từ quá khứ phân từ). Giải thích: Câu này cần một động từ chỉ hành động sửa đổi hoặc cập nhật. \"Revised\" (đã sửa đổi) phù hợp nhất trong ngữ cảnh này.\nDịch: Sau khi nghiên cứu thêm, ông Haines đã sửa đổi báo cáo của mình về sự phổ biến của các loài chim di cư trong khu vực.\nA. estimated (động từ quá khứ): đã ước tính\nB. revised (động từ quá khứ): đã sửa đổi\nC. inflicted (động từ quá khứ): đã gây ra\nD. advised (động từ quá khứ): đã tư vấn",
+       "explanation": "Đáp án đúng là B (revised - động từ quá khứ phân từ). Giải thích: Câu này cần một động từ chỉ hành động sửa đổi hoặc cập nhật. \"Revised\" (đã sửa đổi) phù hợp nhất trong ngữ cảnh này.\nDịch: Sau khi nghiên cứu thêm, ông Haines đã sửa đổi báo cáo của mình về sự phổ biến của các loài chim di cư trong khu vực.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã ước tính"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã sửa đổi"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã gây ra"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã tư vấn"
+        }
+       }
       }
      ]
     },
@@ -4549,10 +5253,36 @@
         "D": "as soon as"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (despite - giới từ). Giải thích: Câu này cần một giới từ chỉ sự đối lập. \"Despite\" (mặc dù) phù hợp nhất để diễn đạt ý rằng sách bán chạy bất chấp những đánh giá tiêu cực.\nDịch: Theo nhà xuất bản, sách của Clark Lee đang bán chạy mặc dù có một vài đánh giá tiêu cực gần đây.\nA. except (giới từ): ngoại trừ\nB. despite (giới từ): mặc dù\nC. even if (cụm liên từ): ngay cả khi\nD. as soon as (cụm liên từ): ngay khi",
+       "explanation": "Đáp án đúng là B (despite - giới từ). Giải thích: Câu này cần một giới từ chỉ sự đối lập. \"Despite\" (mặc dù) phù hợp nhất để diễn đạt ý rằng sách bán chạy bất chấp những đánh giá tiêu cực.\nDịch: Theo nhà xuất bản, sách của Clark Lee đang bán chạy mặc dù có một vài đánh giá tiêu cực gần đây.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "ngoại trừ"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "mặc dù"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "ngay cả khi"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "ngay khi"
+        }
+       }
       }
      ]
     },
@@ -4577,10 +5307,28 @@
         "D": "objectively"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (objectively - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức phân tích đơn xin việc. \"Objectively\" (một cách khách quan) phù hợp nhất trong ngữ cảnh này.\nDịch:Nhân viên của bộ phận nhân sự Bảo hiểm Kano phải có khả năng phân tích mọi đơn đăng ký - - -\n(A) đối tượng\n(B) mục tiêu\n(C) phản đối\n(D) khách quan",
+       "explanation": "Đáp án đúng là D (objectively - trạng từ). Giải thích: Câu này cần một trạng từ mô tả cách thức phân tích đơn xin việc. \"Objectively\" (một cách khách quan) phù hợp nhất trong ngữ cảnh này.\nDịch:Nhân viên của bộ phận nhân sự Bảo hiểm Kano phải có khả năng phân tích mọi đơn đăng ký - - -",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "đối tượng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "mục tiêu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "phản đối"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "khách quan"
+        }
+       }
       }
      ]
     }

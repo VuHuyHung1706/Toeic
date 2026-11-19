@@ -209,7 +209,20 @@ function QuestionCard({
               >
                 {L}
               </span>
-              {showText && <span className="pt-0.5">{q.options[L]}</span>}
+              {showText && (
+                <span className="pt-0.5">
+                  {q.options[L]}
+                  {/* song ngữ: nghĩa + loại từ của phương án (Part 5), chỉ hiện khi đã có đáp án */}
+                  {revealed && q.optionNotes?.[L] && (
+                    <span className="mt-0.5 block text-sm text-primary">
+                      {q.optionNotes[L]!.pos.length > 0 && (
+                        <span className="mr-1.5 text-xs font-semibold">({q.optionNotes[L]!.pos.join(", ")})</span>
+                      )}
+                      {q.optionNotes[L]!.meaning}
+                    </span>
+                  )}
+                </span>
+              )}
             </button>
           );
         })}
@@ -243,7 +256,6 @@ function QuestionCard({
   );
 }
 
-const POS_SHORT: Record<string, string> = { n: "n", v: "v", adj: "adj", adv: "adv", prep: "prep", conj: "conj", pron: "pron" };
 
 function speak(text: string) {
   try {
@@ -271,7 +283,7 @@ function GroupVocab({ items, auto }: { items: NonNullable<QuestionGroup["vocab"]
             <button onClick={() => speak(v.term)} className="font-semibold hover:text-primary" title="Nghe phát âm">
               {v.term}
             </button>
-            {v.pos.length > 0 && <span className="text-xs text-muted">({v.pos.map((p) => POS_SHORT[p] ?? p).join(", ")})</span>}
+            {v.pos.length > 0 && <span className="text-xs text-muted">({v.pos.join(", ")})</span>}
             <span className="text-muted">{v.meaning}</span>
           </li>
         ))}

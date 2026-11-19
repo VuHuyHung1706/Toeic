@@ -1203,7 +1203,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "bản ghi âm, đang ghi; bản ghi âm"
+       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       }
      ],
      "vocabAuto": true
@@ -1512,7 +1512,7 @@
        "pos": [
         "adj"
        ],
-       "meaning": "riêng biệt"
+       "meaning": "riêng biệt, tách rời; riêng biệt"
       },
       {
        "term": "candidate",
@@ -1827,7 +1827,7 @@
         "adj",
         "v"
        ],
-       "meaning": "quá khứ phân từ/tính từ, không phải danh từ; bị hạn chế"
+       "meaning": "quá khứ phân từ/tính từ, không phải danh từ"
       },
       {
        "term": "assistant",
@@ -1959,7 +1959,7 @@
         "n",
         "v"
        ],
-       "meaning": "thông báo; thông báo, chú ý"
+       "meaning": "thông báo; thông báo/chú ý"
       }
      ],
      "vocabAuto": true
@@ -2426,7 +2426,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "giao hàng; giao, chuyển giao"
+       "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
        "term": "location",
@@ -3419,8 +3419,7 @@
       {
        "term": "support",
        "pos": [
-        "n",
-        "v"
+        "n"
        ],
        "meaning": "hỗ trợ"
       },
@@ -3536,7 +3535,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "trải qua, chịu đựng; trải qua"
+       "meaning": "trải qua, chịu đựng; đang trải qua"
       },
       {
        "term": "major",
@@ -3801,6 +3800,13 @@
        "meaning": "thu thập; đang lấy"
       },
       {
+       "term": "paint",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sơn, màu sắc"
+      },
+      {
        "term": "remind",
        "pos": [
         "v"
@@ -3857,10 +3863,34 @@
         "D": "they"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) it. Đại từ \"it\" (nó) phù hợp nhất để chỉ đến buổi hòa nhạc. Cấu trúc \"because + subject + verb\" được sử dụng để đưa ra lý do. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Ông Akagi không thể mua vé cho buổi hòa nhạc vì ----- đã bán hết.\nA. nó (đại từ)\nB. những cái khác (đại từ số nhiều)\nC. bất kỳ (từ hạn định)\nD. chúng (đại từ số nhiều)",
+       "explanation": "Đáp án đúng là (A) it. Đại từ \"it\" (nó) phù hợp nhất để chỉ đến buổi hòa nhạc. Cấu trúc \"because + subject + verb\" được sử dụng để đưa ra lý do. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Ông Akagi không thể mua vé cho buổi hòa nhạc vì ----- đã bán hết.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "nó"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "những cái khác"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "bất kỳ"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "chúng"
+        }
+       }
       }
      ]
     },
@@ -3885,10 +3915,36 @@
         "D": "on"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) on. Giới từ \"on\" (về) phù hợp nhất để chỉ chủ đề của các lớp học. Cấu trúc \"classes on + subject\" được sử dụng để mô tả nội dung của một khóa học. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Các lớp học ——-- sử dụng phần mềm lập lịch nhân viên mới sẽ bắt đầu vào tháng 12.\nA. tại (giới từ)\nB. đến (giới từ)\nC. bởi (giới từ)\nD. về (giới từ)",
+       "explanation": "Đáp án đúng là (D) on. Giới từ \"on\" (về) phù hợp nhất để chỉ chủ đề của các lớp học. Cấu trúc \"classes on + subject\" được sử dụng để mô tả nội dung của một khóa học. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Các lớp học ——-- sử dụng phần mềm lập lịch nhân viên mới sẽ bắt đầu vào tháng 12.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "tại"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "đến"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bởi"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "về"
+        }
+       }
       }
      ]
     },
@@ -3913,10 +3969,36 @@
         "D": "diverse"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) diverse. Tính từ \"diverse\" (đa dạng) phù hợp nhất để mô tả bộ sưu tập da. Cấu trúc \"adjective + noun\" được sử dụng để mô tả một đặc điểm của danh từ. Các đáp án khác không phù hợp về mặt ngữ pháp trong ngữ cảnh này.\nDịch: Bộ sưu tập da ------ của Hillsdale Fabrics được nhập khẩu từ Ý.\nA. sự đa dạng (danh từ)\nB. một cách đa dạng (trạng từ)\nC. đa dạng hóa (động từ)\nD. đa dạng (tính từ)",
+       "explanation": "Đáp án đúng là (D) diverse. Tính từ \"diverse\" (đa dạng) phù hợp nhất để mô tả bộ sưu tập da. Cấu trúc \"adjective + noun\" được sử dụng để mô tả một đặc điểm của danh từ. Các đáp án khác không phù hợp về mặt ngữ pháp trong ngữ cảnh này.\nDịch: Bộ sưu tập da ------ của Hillsdale Fabrics được nhập khẩu từ Ý.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự đa dạng"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách đa dạng"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đa dạng hóa"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đa dạng"
+        }
+       }
       }
      ]
     },
@@ -3941,10 +4023,36 @@
         "D": "version"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) panel. Danh từ \"panel\" (hội đồng) phù hợp nhất để chỉ một nhóm chuyên gia nói về nghề nghiệp của họ. Cấu trúc \"a + noun + of + number + noun\" được sử dụng để mô tả một nhóm người. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Một -- gồm bốn chuyên viên vệ sinh răng miệng đã nói về sự nghiệp trong lĩnh vực của họ.\nA. kế hoạch (danh từ)\nB. hội đồng (danh từ)\nC. hỗ trợ (danh từ)\nD. phiên bản (danh từ)",
+       "explanation": "Đáp án đúng là (B) panel. Danh từ \"panel\" (hội đồng) phù hợp nhất để chỉ một nhóm chuyên gia nói về nghề nghiệp của họ. Cấu trúc \"a + noun + of + number + noun\" được sử dụng để mô tả một nhóm người. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Một -- gồm bốn chuyên viên vệ sinh răng miệng đã nói về sự nghiệp trong lĩnh vực của họ.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "kế hoạch"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hội đồng"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hỗ trợ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phiên bản"
+        }
+       }
       }
      ]
     },
@@ -3969,10 +4077,36 @@
         "D": "active"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) actively. Trạng từ \"actively\" (tích cực) phù hợp nhất để mô tả cách thức tìm kiếm của công ty bất động sản. Cấu trúc \"be + adverb + verb-ing\" được sử dụng để mô tả cách thức một hành động đang diễn ra. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Ardentine Realty đang -- - tìm kiếm các bất động sản cho thuê mới cho danh mục đầu tư của mình.\nA. tích cực (trạng từ)\nB. kích hoạt (động từ)\nC. hoạt động (danh từ)\nD. chủ động (tính từ)",
+       "explanation": "Đáp án đúng là (A) actively. Trạng từ \"actively\" (tích cực) phù hợp nhất để mô tả cách thức tìm kiếm của công ty bất động sản. Cấu trúc \"be + adverb + verb-ing\" được sử dụng để mô tả cách thức một hành động đang diễn ra. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Ardentine Realty đang -- - tìm kiếm các bất động sản cho thuê mới cho danh mục đầu tư của mình.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "tích cực"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "kích hoạt"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hoạt động"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chủ động"
+        }
+       }
       }
      ]
     },
@@ -3997,10 +4131,36 @@
         "D": "workshop"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) workshop. Danh từ \"workshop\" (hội thảo) phù hợp nhất trong ngữ cảnh về một sự kiện công cộng miễn phí về nhiếp ảnh trên không. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Thứ Sáu này, Zone Fly Cameras mời công chúng tham dự một -- nhiếp ảnh trên không miễn phí.\nA. bức ảnh (danh từ)\nB. vé (danh từ)\nC. hành động (danh từ)\nD. hội thảo (danh từ)",
+       "explanation": "Đáp án đúng là (D) workshop. Danh từ \"workshop\" (hội thảo) phù hợp nhất trong ngữ cảnh về một sự kiện công cộng miễn phí về nhiếp ảnh trên không. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Thứ Sáu này, Zone Fly Cameras mời công chúng tham dự một -- nhiếp ảnh trên không miễn phí.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "bức ảnh"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "vé"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hành động"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "hội thảo"
+        }
+       }
       }
      ]
     },
@@ -4025,10 +4185,36 @@
         "D": "creates"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) creativity. Danh từ \"creativity\" (sự sáng tạo) phù hợp nhất để chỉ đặc điểm của nghiên cứu được công nhận. Cấu trúc \"noun + and + noun\" được sử dụng để liệt kê các đặc điểm. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Giải thưởng Ambury công nhận nghiên cứu nổi bật về ---- và sự đổi mới của nó.\nA. sáng tạo (tính từ)\nB. một cách sáng tạo (trạng từ)\nC. sự sáng tạo (danh từ)\nD. sáng tạo (động từ)",
+       "explanation": "Đáp án đúng là (C) creativity. Danh từ \"creativity\" (sự sáng tạo) phù hợp nhất để chỉ đặc điểm của nghiên cứu được công nhận. Cấu trúc \"noun + and + noun\" được sử dụng để liệt kê các đặc điểm. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Giải thưởng Ambury công nhận nghiên cứu nổi bật về ---- và sự đổi mới của nó.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "sáng tạo"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách sáng tạo"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự sáng tạo"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sáng tạo"
+        }
+       }
       }
      ]
     },
@@ -4053,10 +4239,30 @@
         "D": "loosen"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) circle. Động từ \"circle\" (đi vòng quanh) phù hợp nhất để mô tả hành trình của cuộc diễu hành. Cấu trúc \"will + verb\" được sử dụng để diễn tả một hành động trong tương lai. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Năm nay cuộc diễu hành mùa gặt sẽ - - ngôi làng, bắt đầu và kết thúc tại quảng trường thị trấn.\nA. quay (động từ)\nB. đi vòng quanh (động từ)\nC. lăn (động từ)\nD. nới lỏng (động từ)",
+       "explanation": "Đáp án đúng là (B) circle. Động từ \"circle\" (đi vòng quanh) phù hợp nhất để mô tả hành trình của cuộc diễu hành. Cấu trúc \"will + verb\" được sử dụng để diễn tả một hành động trong tương lai. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Năm nay cuộc diễu hành mùa gặt sẽ - - ngôi làng, bắt đầu và kết thúc tại quảng trường thị trấn.\nA. quay (động từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đi vòng quanh"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "lăn"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "nới lỏng"
+        }
+       }
       }
      ]
     },
@@ -4081,10 +4287,30 @@
         "D": "containing"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) contains. Động từ \"contains\" (chứa) phù hợp nhất để mô tả nội dung của cơ sở dữ liệu. Cấu trúc \"subject + verb\" được sử dụng để diễn tả một thực tế. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Questwiz, cơ sở dữ liệu mới nhất của thư viện, - một loạt các tài liệu tham khảo rộng rãi.\nA. để chứa (động từ nguyên mẫu)\nB. chứa (động từ)\nC. container (danh từ)\nD. chứa đựng (động từ hiện tại phân từ)",
+       "explanation": "Đáp án đúng là (B) contains. Động từ \"contains\" (chứa) phù hợp nhất để mô tả nội dung của cơ sở dữ liệu. Cấu trúc \"subject + verb\" được sử dụng để diễn tả một thực tế. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Questwiz, cơ sở dữ liệu mới nhất của thư viện, - một loạt các tài liệu tham khảo rộng rãi.\nC. container (danh từ)",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để chứa"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chứa"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chứa đựng"
+        }
+       }
       }
      ]
     },
@@ -4109,10 +4335,30 @@
         "D": "exactly"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) finally. Trạng từ \"finally\" (cuối cùng) phù hợp nhất để diễn tả sự chờ đợi lâu dài trước khi được phê duyệt. Cấu trúc \"was + adverb + past participle\" được sử dụng để mô tả cách thức một hành động đã hoàn thành. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sau hơn ba năm, đơn xin cấp bằng sáng chế mới --- được phê duyệt.\nA. đã (trạng từ)\nB. cuối cùng (trạng từ)\nC. liên tục (trạng từ)\nD. chính xác (trạng từ)",
+       "explanation": "Đáp án đúng là (B) finally. Trạng từ \"finally\" (cuối cùng) phù hợp nhất để diễn tả sự chờ đợi lâu dài trước khi được phê duyệt. Cấu trúc \"was + adverb + past participle\" được sử dụng để mô tả cách thức một hành động đã hoàn thành. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sau hơn ba năm, đơn xin cấp bằng sáng chế mới --- được phê duyệt.\nD. chính xác (trạng từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đã"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cuối cùng"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "liên tục"
+        }
+       }
       }
      ]
     },
@@ -4137,10 +4383,28 @@
         "D": "was renovated"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) was renovated. Cấu trúc bị động \"was renovated\" (được cải tạo) phù hợp nhất để diễn tả việc khách sạn được cải tạo. Cấu trúc \"since + subject + was + past participle\" được sử dụng để chỉ ra một điểm bắt đầu trong quá khứ. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc thời gian trong ngữ cảnh này.\nDịch: Khách sạn First Street gần như luôn được đặt kín chỗ kể từ khi nó -- -- vào năm ngoái.\nA. đã cải tạo (quá khứ hoàn thành)\nB. cải tạo (quá khứ đơn)\nC. đang cải tạo (quá khứ tiếp diễn)\nD. được cải tạo (quá khứ bị động)",
+       "explanation": "Đáp án đúng là (D) was renovated. Cấu trúc bị động \"was renovated\" (được cải tạo) phù hợp nhất để diễn tả việc khách sạn được cải tạo. Cấu trúc \"since + subject + was + past participle\" được sử dụng để chỉ ra một điểm bắt đầu trong quá khứ. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc thời gian trong ngữ cảnh này.\nDịch: Khách sạn First Street gần như luôn được đặt kín chỗ kể từ khi nó -- -- vào năm ngoái.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "đã cải tạo"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "cải tạo"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "đang cải tạo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "được cải tạo"
+        }
+       }
       }
      ]
     },
@@ -4165,10 +4429,30 @@
         "D": "unknown"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) excessive. Tính từ \"excessive\" (quá mức) phù hợp nhất để mô tả số tiền không nên chi tiêu cho văn phòng phẩm. Cấu trúc \"an + adjective + amount\" được sử dụng để mô tả một lượng cụ thể. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Các phòng ban không nên chi tiêu một lượng ----- ngân sách của họ cho văn phòng phẩm.\nA. bằng nhau (tính từ)\nB. thú vị (tính từ)\nC. quá mức (tính từ)\nD. không xác định (tính từ)",
+       "explanation": "Đáp án đúng là (C) excessive. Tính từ \"excessive\" (quá mức) phù hợp nhất để mô tả số tiền không nên chi tiêu cho văn phòng phẩm. Cấu trúc \"an + adjective + amount\" được sử dụng để mô tả một lượng cụ thể. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Các phòng ban không nên chi tiêu một lượng ----- ngân sách của họ cho văn phòng phẩm.\nD. không xác định (tính từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bằng nhau"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thú vị"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "quá mức"
+        }
+       }
       }
      ]
     },
@@ -4193,10 +4477,36 @@
         "D": "cares"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) carefully. Trạng từ \"carefully\" (cẩn thận) phù hợp nhất để mô tả cách thức lựa chọn giấy. Cấu trúc \"was + adverb + past participle\" được sử dụng để mô tả cách thức một hành động đã được thực hiện. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Maxwell Copies in các tờ rơi trên giấy dày, bóng được lựa chọn ---- vì chất lượng và độ bền của nó.\nA. quan tâm (động từ -ing)\nB. cẩn thận (tính từ)\nC. cẩn thận (trạng từ)\nD. quan tâm (động từ)",
+       "explanation": "Đáp án đúng là (C) carefully. Trạng từ \"carefully\" (cẩn thận) phù hợp nhất để mô tả cách thức lựa chọn giấy. Cấu trúc \"was + adverb + past participle\" được sử dụng để mô tả cách thức một hành động đã được thực hiện. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Maxwell Copies in các tờ rơi trên giấy dày, bóng được lựa chọn ---- vì chất lượng và độ bền của nó.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quan tâm"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cẩn thận"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cẩn thận"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quan tâm"
+        }
+       }
       }
      ]
     },
@@ -4221,10 +4531,30 @@
         "D": "Yet"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) Although. Liên từ \"Although\" (Mặc dù) phù hợp nhất để diễn tả sự tương phản giữa thời gian làm việc và việc không nghỉ phép. Cấu trúc \"Although + clause, main clause\" được sử dụng để diễn tả sự đối lập. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: ------ Ông Kamau đã làm việc cho Mombasa Communications trong hai năm, ông ấy chưa bao giờ nghỉ phép.\nA. Mặc dù (liên từ)\nB. Nhưng (liên từ)\nC. Không (liên từ)\nD. Tuy nhiên (liên từ)",
+       "explanation": "Đáp án đúng là (A) Although. Liên từ \"Although\" (Mặc dù) phù hợp nhất để diễn tả sự tương phản giữa thời gian làm việc và việc không nghỉ phép. Cấu trúc \"Although + clause, main clause\" được sử dụng để diễn tả sự đối lập. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: ------ Ông Kamau đã làm việc cho Mombasa Communications trong hai năm, ông ấy chưa bao giờ nghỉ phép.\nB. Nhưng (liên từ)\nC. Không (liên từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "mặc dù"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "nhưng"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "tuy nhiên"
+        }
+       }
       }
      ]
     },
@@ -4249,10 +4579,36 @@
         "D": "critical"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) critical. Tính từ \"critical\" (quan trọng) phù hợp nhất để mô tả tầm quan trọng của việc giải quyết phản hồi của khách hàng. Cấu trúc \"of + adjective + importance\" được sử dụng để nhấn mạnh mức độ quan trọng. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Tại Khách sạn Morrighan, việc giải quyết phản hồi của khách hàng có tầm quan trọng —-.\nA. phê bình (danh từ)\nB. nhà phê bình (danh từ)\nC. một cách quan trọng (trạng từ)\nD. quan trọng (tính từ)",
+       "explanation": "Đáp án đúng là (D) critical. Tính từ \"critical\" (quan trọng) phù hợp nhất để mô tả tầm quan trọng của việc giải quyết phản hồi của khách hàng. Cấu trúc \"of + adjective + importance\" được sử dụng để nhấn mạnh mức độ quan trọng. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Tại Khách sạn Morrighan, việc giải quyết phản hồi của khách hàng có tầm quan trọng —-.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phê bình"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhà phê bình"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách quan trọng"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "quan trọng"
+        }
+       }
       }
      ]
     },
@@ -4277,10 +4633,30 @@
         "D": "especially"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) efficiently. Trạng từ \"efficiently\" (hiệu quả) phù hợp nhất để mô tả cách thức tổ chức và truy xuất dữ liệu. Cấu trúc \"to + adverb + verb\" được sử dụng để mô tả cách thức thực hiện một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Chương trình máy tính mới của Axofare cho phép người dùng ---- tổ chức và truy xuất dữ liệu.\nA. hiệu quả (trạng từ)\nB. không thể đảo ngược (trạng từ)\nC. mơ hồ (trạng từ)\nD. đặc biệt (trạng từ)",
+       "explanation": "Đáp án đúng là (A) efficiently. Trạng từ \"efficiently\" (hiệu quả) phù hợp nhất để mô tả cách thức tổ chức và truy xuất dữ liệu. Cấu trúc \"to + adverb + verb\" được sử dụng để mô tả cách thức thực hiện một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Chương trình máy tính mới của Axofare cho phép người dùng ---- tổ chức và truy xuất dữ liệu.\nB. không thể đảo ngược (trạng từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hiệu quả"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "mơ hồ"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đặc biệt"
+        }
+       }
       }
      ]
     },
@@ -4305,10 +4681,36 @@
         "D": "analyzed"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) analysis. Danh từ \"analysis\" (phân tích) phù hợp nhất để chỉ kết quả nghiên cứu về thị trường chứng khoán toàn cầu. Cấu trúc \"its + noun\" được sử dụng để chỉ sự sở hữu. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Tập đoàn Tremoni vừa công bố --- của họ về thị trường chứng khoán toàn cầu.\nA. phân tích (danh từ)\nB. phân tích (tính từ)\nC. phân tích (động từ)\nD. đã phân tích (động từ quá khứ)",
+       "explanation": "Đáp án đúng là (A) analysis. Danh từ \"analysis\" (phân tích) phù hợp nhất để chỉ kết quả nghiên cứu về thị trường chứng khoán toàn cầu. Cấu trúc \"its + noun\" được sử dụng để chỉ sự sở hữu. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Tập đoàn Tremoni vừa công bố --- của họ về thị trường chứng khoán toàn cầu.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phân tích"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phân tích"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phân tích"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã phân tích"
+        }
+       }
       }
      ]
     },
@@ -4333,10 +4735,32 @@
         "D": "popular than"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) most popular. Cụm từ \"most popular\" (phổ biến nhất) phù hợp nhất để mô tả sản phẩm mới trong dòng súp nổi tiếng. Cấu trúc \"the + superlative adjective + noun\" được sử dụng để chỉ ra mức độ cao nhất của một đặc điểm. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Liu's Foods hân hạnh tiết lộ sản phẩm ------ trong dòng súp nổi tiếng của họ: súp bí đỏ.\nA. độ phổ biến của (cụm danh từ)\nB. phổ biến như (cụm so sánh)\nC. phổ biến nhất (tính từ so sánh nhất)\nD. phổ biến hơn (cụm so sánh)",
+       "explanation": "Đáp án đúng là (C) most popular. Cụm từ \"most popular\" (phổ biến nhất) phù hợp nhất để mô tả sản phẩm mới trong dòng súp nổi tiếng. Cấu trúc \"the + superlative adjective + noun\" được sử dụng để chỉ ra mức độ cao nhất của một đặc điểm. Các đáp án khác không phù hợp về mặt ngữ pháp hoặc nghĩa trong ngữ cảnh này.\nDịch: Liu's Foods hân hạnh tiết lộ sản phẩm ------ trong dòng súp nổi tiếng của họ: súp bí đỏ.",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "độ phổ biến của"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "phổ biến như"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phổ biến nhất"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "phổ biến hơn"
+        }
+       }
       }
      ]
     },
@@ -4361,10 +4785,34 @@
         "D": "always"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) including. Giới từ \"including\" (bao gồm) phù hợp nhất để giới thiệu một ví dụ cụ thể trong danh sách các dự án. Cấu trúc \"noun + , including + noun phrase\" được sử dụng để liệt kê một phần tử cụ thể trong một danh sách. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: Ngân sách đề xuất của thành phố phác thảo nhiều dự án khác nhau, - - việc cải tạo trạm cứu hỏa đường Fessler.\nA. những cái này (đại từ chỉ định)\nB. bao gồm (giới từ)\nC. mặc dù (cụm từ nối)\nD. luôn luôn (trạng từ)",
+       "explanation": "Đáp án đúng là (B) including. Giới từ \"including\" (bao gồm) phù hợp nhất để giới thiệu một ví dụ cụ thể trong danh sách các dự án. Cấu trúc \"noun + , including + noun phrase\" được sử dụng để liệt kê một phần tử cụ thể trong một danh sách. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: Ngân sách đề xuất của thành phố phác thảo nhiều dự án khác nhau, - - việc cải tạo trạm cứu hỏa đường Fessler.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "những cái này"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bao gồm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "mặc dù"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "luôn luôn"
+        }
+       }
       }
      ]
     },
@@ -4389,10 +4837,36 @@
         "D": "experienced"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) scheduled. Tính từ \"scheduled\" (đã lên lịch) phù hợp nhất để mô tả việc khai trương đã được lên kế hoạch trước. Cấu trúc \"adjective + noun\" được sử dụng để mô tả một đặc điểm của sự kiện. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Việc khai trương —--- của tiệm bánh mới đã phải hoãn lại khi một ống nước bị vỡ trong nhà bếp.\nA. đã lên lịch (tính từ)\nB. được duy trì (tính từ)\nC. có động lực (tính từ)\nD. có kinh nghiệm (tính từ)",
+       "explanation": "Đáp án đúng là (A) scheduled. Tính từ \"scheduled\" (đã lên lịch) phù hợp nhất để mô tả việc khai trương đã được lên kế hoạch trước. Cấu trúc \"adjective + noun\" được sử dụng để mô tả một đặc điểm của sự kiện. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Việc khai trương —--- của tiệm bánh mới đã phải hoãn lại khi một ống nước bị vỡ trong nhà bếp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đã lên lịch"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "được duy trì"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có động lực"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có kinh nghiệm"
+        }
+       }
       }
      ]
     },
@@ -4417,10 +4891,36 @@
         "D": "consideration"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) considered. Động từ bị động \"considered\" (được xem xét) phù hợp nhất để mô tả quá trình đánh giá cho việc thăng chức. Cấu trúc \"be being + past participle\" được sử dụng để diễn tả một hành động đang diễn ra ở thể bị động. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Hai cộng sự trong phòng kế toán đang được ------ để thăng chức.\nA. xem xét (động từ nguyên mẫu)\nB. đáng kể (tính từ)\nC. được xem xét (động từ quá khứ phân từ)\nD. sự xem xét (danh từ)",
+       "explanation": "Đáp án đúng là (C) considered. Động từ bị động \"considered\" (được xem xét) phù hợp nhất để mô tả quá trình đánh giá cho việc thăng chức. Cấu trúc \"be being + past participle\" được sử dụng để diễn tả một hành động đang diễn ra ở thể bị động. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Hai cộng sự trong phòng kế toán đang được ------ để thăng chức.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "xem xét"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng kể"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được xem xét"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự xem xét"
+        }
+       }
       }
      ]
     },
@@ -4445,10 +4945,28 @@
         "D": "Not only"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) Since. Liên từ \"Since\" (Kể từ khi) phù hợp nhất để chỉ ra mối quan hệ nhân quả giữa hai sự kiện. Cấu trúc \"Since + clause, main clause\" được sử dụng để giải thích lý do cho một kết quả. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: --- ban nhạc rock Captain Zino quyết định tặng vé miễn phí cho buổi hòa nhạc của họ, doanh số bán album của họ đã đạt kỷ lục.\nA. Kể từ khi (liên từ)\nB. Bên cạnh đó (giới từ)\nC. Nhiều như (cụm từ so sánh)\nD. Không chỉ (cụm từ nhấn mạnh)",
+       "explanation": "Đáp án đúng là (A) Since. Liên từ \"Since\" (Kể từ khi) phù hợp nhất để chỉ ra mối quan hệ nhân quả giữa hai sự kiện. Cấu trúc \"Since + clause, main clause\" được sử dụng để giải thích lý do cho một kết quả. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: --- ban nhạc rock Captain Zino quyết định tặng vé miễn phí cho buổi hòa nhạc của họ, doanh số bán album của họ đã đạt kỷ lục.\nD. Không chỉ (cụm từ nhấn mạnh)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "kể từ khi"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên cạnh đó"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nhiều như"
+        }
+       }
       }
      ]
     },
@@ -4473,10 +4991,26 @@
         "D": "After"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) After. Giới từ \"After\" (Sau) phù hợp nhất để chỉ ra thời điểm quyết định được đưa ra sau cuộc phỏng vấn. Cấu trúc \"After + noun phrase, main clause\" được sử dụng để chỉ ra một chuỗi sự kiện theo thời gian. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: ---- cuộc phỏng vấn của cô ấy, ủy ban đồng ý rằng cô Han là ứng viên tốt nhất cho vị trí giám sát.\nA. Như trong (cụm từ)\nB. Giống như (cụm từ so sánh)\nC. Gần như (trạng từ)\nD. Sau (giới từ)",
+       "explanation": "Đáp án đúng là (D) After. Giới từ \"After\" (Sau) phù hợp nhất để chỉ ra thời điểm quyết định được đưa ra sau cuộc phỏng vấn. Cấu trúc \"After + noun phrase, main clause\" được sử dụng để chỉ ra một chuỗi sự kiện theo thời gian. Các đáp án khác không phù hợp về nghĩa hoặc cấu trúc trong ngữ cảnh này.\nDịch: ---- cuộc phỏng vấn của cô ấy, ủy ban đồng ý rằng cô Han là ứng viên tốt nhất cho vị trí giám sát.\nD. Sau (giới từ)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "như trong"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "giống như"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        }
+       }
       }
      ]
     },
@@ -4501,10 +5035,30 @@
         "D": "for"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) for. Giới từ \"for\" (trong) phù hợp nhất để chỉ ra khoảng thời gian. Cấu trúc \"for + time period\" được sử dụng để chỉ ra thời gian kéo dài của một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sau khi theo dõi quy trình kiểm soát hàng tồn kho của Công ty Hasher —-- vài ngày, nhà tư vấn đã xác định được vấn đề.\nA. giữa (giới từ)\nB. ngoại trừ (giới từ)\nC. tắt (trạng từ)\nD. trong (giới từ)",
+       "explanation": "Đáp án đúng là (D) for. Giới từ \"for\" (trong) phù hợp nhất để chỉ ra khoảng thời gian. Cấu trúc \"for + time period\" được sử dụng để chỉ ra thời gian kéo dài của một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sau khi theo dõi quy trình kiểm soát hàng tồn kho của Công ty Hasher —-- vài ngày, nhà tư vấn đã xác định được vấn đề.\nD. trong (giới từ)",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "ngoại trừ"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "tắt"
+        }
+       }
       }
      ]
     },
@@ -4529,10 +5083,30 @@
         "D": "securing"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) securely. Trạng từ \"securely\" (chắc chắn) phù hợp nhất để mô tả cách thức các bộ phận được cố định. Cấu trúc \"are + past participle + adverb\" được sử dụng để mô tả trạng thái của một hành động hoàn thành. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Người vận hành cần cẩu phải kiểm tra xem tất cả các bộ phận chuyển động của máy có được cố định ---- trước khi sử dụng.\nA. an ninh (danh từ)\nB. chắc chắn (trạng từ)\nC. bảo đảm (động từ)\nD. đang bảo đảm (động từ -ing)",
+       "explanation": "Đáp án đúng là (B) securely. Trạng từ \"securely\" (chắc chắn) phù hợp nhất để mô tả cách thức các bộ phận được cố định. Cấu trúc \"are + past participle + adverb\" được sử dụng để mô tả trạng thái của một hành động hoàn thành. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Người vận hành cần cẩu phải kiểm tra xem tất cả các bộ phận chuyển động của máy có được cố định ---- trước khi sử dụng.\nA. an ninh (danh từ)",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "chắc chắn"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bảo đảm"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang bảo đảm"
+        }
+       }
       }
      ]
     },
@@ -4557,10 +5131,36 @@
         "D": "obtain"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là (D) obtain. Động từ \"obtain\" (nhận được) phù hợp nhất trong ngữ cảnh về việc sử dụng phiếu giảm giá để nhận báo giá miễn phí. Cấu trúc \"to + verb\" được sử dụng để chỉ mục đích của một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sử dụng phiếu giảm giá này để —- báo giá miễn phí cho dịch vụ lưu trữ đám mây.\nA. quảng cáo (động từ)\nB. giảm giá (động từ)\nC. phát triển (động từ)\nD. nhận được (động từ)",
+       "explanation": "Đáp án đúng là (D) obtain. Động từ \"obtain\" (nhận được) phù hợp nhất trong ngữ cảnh về việc sử dụng phiếu giảm giá để nhận báo giá miễn phí. Cấu trúc \"to + verb\" được sử dụng để chỉ mục đích của một hành động. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Sử dụng phiếu giảm giá này để —- báo giá miễn phí cho dịch vụ lưu trữ đám mây.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "quảng cáo"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "giảm giá"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phát triển"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "nhận được"
+        }
+       }
       }
      ]
     },
@@ -4585,10 +5185,36 @@
         "D": "endure"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) endurance. Danh từ \"endurance\" (sức chịu đựng) phù hợp nhất để chỉ khả năng chịu đựng của phương tiện trong điều kiện khắc nghiệt. Cấu trúc \"the + noun + of\" được sử dụng để chỉ một đặc tính cụ thể của một vật. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Bằng cách kiểm tra - của phương tiện trên địa hình sa mạc, các nhà thiết kế đã chứng minh rằng nó hoạt động hoàn hảo trong điều kiện khắc nghiệt.\nA. bền bỉ (tính từ)\nB. sức chịu đựng (danh từ)\nC. chịu đựng (động từ)\nD. chịu đựng (động từ nguyên mẫu)",
+       "explanation": "Đáp án đúng là (B) endurance. Danh từ \"endurance\" (sức chịu đựng) phù hợp nhất để chỉ khả năng chịu đựng của phương tiện trong điều kiện khắc nghiệt. Cấu trúc \"the + noun + of\" được sử dụng để chỉ một đặc tính cụ thể của một vật. Các đáp án khác không phù hợp về mặt ngữ pháp trong cấu trúc này.\nDịch: Bằng cách kiểm tra - của phương tiện trên địa hình sa mạc, các nhà thiết kế đã chứng minh rằng nó hoạt động hoàn hảo trong điều kiện khắc nghiệt.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "bền bỉ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sức chịu đựng"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chịu đựng"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chịu đựng"
+        }
+       }
       }
      ]
     },
@@ -4613,10 +5239,36 @@
         "D": "administration"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là (C) alert. Danh từ \"alert\" (cảnh báo) phù hợp nhất để mô tả tín hiệu từ đèn nhấp nháy màu vàng. Cấu trúc \"serves as an + noun\" được sử dụng để chỉ ra chức năng của một vật. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Đèn vàng nhấp nháy đóng vai trò như một - rằng pin của máy ảnh cần được sạc.\nA. ví dụ (danh từ)\nB. phép (danh từ)\nC. cảnh báo (danh từ)\nD. quản lý (danh từ)",
+       "explanation": "Đáp án đúng là (C) alert. Danh từ \"alert\" (cảnh báo) phù hợp nhất để mô tả tín hiệu từ đèn nhấp nháy màu vàng. Cấu trúc \"serves as an + noun\" được sử dụng để chỉ ra chức năng của một vật. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Đèn vàng nhấp nháy đóng vai trò như một - rằng pin của máy ảnh cần được sạc.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "ví dụ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phép"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cảnh báo"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "quản lý"
+        }
+       }
       }
      ]
     },
@@ -4641,10 +5293,32 @@
         "D": "someone"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là (B) anything. Đại từ phủ định \"anything\" (bất cứ điều gì) phù hợp nhất trong câu phủ định này. Cấu trúc \"did not say + anything\" được sử dụng để diễn tả việc không nói gì cả. Các đáp án khác không phù hợp về nghĩa hoặc ngữ pháp trong ngữ cảnh này.\nDịch: Cô Rosen đã không nói - về các kế hoạch cho phòng nghỉ giải lao mới của nhân viên.\nA. vài (từ hạn định)\nB. bất cứ điều gì (đại từ)\nC. mỗi (từ hạn định)\nD. ai đó (đại từ)",
+       "explanation": "Đáp án đúng là (B) anything. Đại từ phủ định \"anything\" (bất cứ điều gì) phù hợp nhất trong câu phủ định này. Cấu trúc \"did not say + anything\" được sử dụng để diễn tả việc không nói gì cả. Các đáp án khác không phù hợp về nghĩa hoặc ngữ pháp trong ngữ cảnh này.\nDịch: Cô Rosen đã không nói - về các kế hoạch cho phòng nghỉ giải lao mới của nhân viên.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "vài"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bất cứ điều gì"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "mỗi"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "ai đó"
+        }
+       }
       }
      ]
     },
@@ -4669,10 +5343,36 @@
         "D": "above"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là (A) across. Giới từ \"across\" (trên khắp) phù hợp nhất để chỉ ra sự phân bố rộng rãi của tăng trưởng doanh thu trong tất cả các phân khúc kinh doanh. Cấu trúc \"was seen + preposition\" được sử dụng để mô tả phạm vi của một hiện tượng. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Tăng trưởng doanh thu vượt quá 2 phần trăm đã được nhìn thấy --- tất cả các phân khúc kinh doanh trong quý này.\nA. trên khắp (giới từ)\nB. vào (giới từ)\nC. trước (cụm giới từ)\nD. trên (giới từ)",
+       "explanation": "Đáp án đúng là (A) across. Giới từ \"across\" (trên khắp) phù hợp nhất để chỉ ra sự phân bố rộng rãi của tăng trưởng doanh thu trong tất cả các phân khúc kinh doanh. Cấu trúc \"was seen + preposition\" được sử dụng để mô tả phạm vi của một hiện tượng. Các đáp án khác không phù hợp về nghĩa trong ngữ cảnh này.\nDịch: Tăng trưởng doanh thu vượt quá 2 phần trăm đã được nhìn thấy --- tất cả các phân khúc kinh doanh trong quý này.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trên khắp"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "vào"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trước"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trên"
+        }
+       }
       }
      ]
     }

@@ -1195,7 +1195,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "người tổ chức"
+       "meaning": "người tổ chức; người tổ chức, nhà tổ chức"
       },
       {
        "term": "expect",
@@ -1856,7 +1856,8 @@
       {
        "term": "limited",
        "pos": [
-        "adj"
+        "adj",
+        "v"
        ],
        "meaning": "giới hạn; có hạn"
       },
@@ -2147,7 +2148,7 @@
       {
        "term": "became",
        "pos": [],
-       "meaning": "quá khứ đơn, không đi sau \"promised; đã trở thành"
+       "meaning": "quá khứ đơn, không đi sau \"promised"
       },
       {
        "term": "software",
@@ -2887,7 +2888,7 @@
        "pos": [
         "v"
        ],
-       "meaning": "giao hàng; giao, chuyển giao"
+       "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
        "term": "common",
@@ -3358,7 +3359,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "đối tác; thường chỉ người/tổ chức, không phải mối quan hệ"
+       "meaning": "đối tác"
       },
       {
        "term": "improvement",
@@ -3802,7 +3803,7 @@
        "pos": [
         "adv"
        ],
-       "meaning": "kỹ lưỡng; chặt chẽ"
+       "meaning": "kỹ lưỡng; gần, chặt chẽ"
       },
       {
        "term": "benefit",
@@ -3907,7 +3908,8 @@
        "explanation": "Đáp án đúng là C:\n’While'. 'While' là liên từ, dùng để diễn tả hai hành động xảy ra đồng thời hoặc để tạo sự đối lập.\nCâu này có nghĩa: 'Trong khi đơn đặt hàng của bạn đang được xử lý, vui lòng gọi dịch vụ khách hàng nếu có bất kỳ câu hỏi nào.’\nCác đáp án khác không phù hợp vì\n’Still' có nghĩa là ‘vẫn',\n'Either' thể hiện sự lựa chọn giữa hai đối tượng,\n’Also' mang nghĩa 'cũng'.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -3935,7 +3937,8 @@
        "explanation": "Đáp án đúng là B: ‘widest’.\n'Widest' là tính từ so sánh nhất của 'wide' (rộng), được dùng để chỉ sự lựa chọn lớn nhất về kích thước.\nCâu này có nghĩa: 'ABC Truck Supplies có lựa chọn ống xả lớn nhất trong bang.’\nCác lựa chọn khác:\n’natural' (tự nhiên),\n’overall' (tổng thể),\n’positive' (tích cực) đều không phù hợp với ngữ cảnh nói về sự lựa chọn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -3963,7 +3966,8 @@
        "explanation": "Đáp án đúng là A: ‘reviews’.\n'Reviews' là danh từ số nhiều, nghĩa là 'đánh giá’.\nCâu này có nghĩa: 'Sharswood Landscaping đã nhận được hàng tá đánh giá 5 sao cho công việc của họ.’\nCác đáp án khác:\n’reviewer' (người đánh giá),\n’reviewed' (đã được đánh giá),\n’reviewing' (đang đánh giá) đều không đúng về ngữ pháp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -3991,7 +3995,8 @@
        "explanation": "Đáp án đúng là B: ‘she’.\n'She' là đại từ nhân xưng chủ ngữ, dùng để thay thế cho người nói đến.\nCâu này có nghĩa: 'Tiến sĩ Cho sẽ thăm phòng thí nghiệm Teledarr trong buổi mở cửa hàng năm, vì cô ấy có thể không có cơ hội khác để thấy nó.’\n'Hers' (của cô ấy),\n’her' (tân ngữ hoặc sở hữu),\n’herself' (chính cô ấy) đều không phù hợp trong vị trí chủ ngữ.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4019,7 +4024,8 @@
        "explanation": "Đáp án đúng là D: ‘expand’.\n'Expand' là động từ có nghĩa là 'mở rộng', rất phù hợp trong ngữ cảnh này.\nCâu này có nghĩa: 'Cửa hàng Dorn Department quyết định mở rộng lựa chọn đồ gia dụng đã lớn của mình.’\nCác lựa chọn khác:\n’create' (tạo ra),\n’enforce' (thi hành),\n’apply’ (áp dụng) không phù hợp với ý nghĩa của câu.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4047,7 +4053,8 @@
        "explanation": "Đáp án đúng là C: ‘ask’.\n'Ask' là động từ ở dạng nguyên mẫu, phù hợp trong câu mệnh lệnh gián tiếp.\nCâu này có nghĩa: 'Chúng tôi yêu cầu bạn mang theo một bộ sưu tập mẫu công việc đến buổi phỏng vấn.’\nCác lựa chọn khác:\n’was asking' (đã yêu cầu),\n’having asked' (đã hỏi),\n’asks' (hỏi) không đúng về ngữ pháp.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4075,7 +4082,8 @@
        "explanation": "Đáp án đúng là C: ‘deep’.\n'Deep' là tính từ, phù hợp để mô tả mức độ giảm giá.\nCâu này có nghĩa: 'Các thành viên của cửa hàng Bold Stone Farm nhận được mức giảm giá sâu cho tất cả các lần mua hàng.’\nCác lựa chọn khác:\n’depth' (chiều sâu),\n’deepen' (làm sâu),\n’deeply' (một cách sâu sắc) không phù hợp với cấu trúc câu.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4103,7 +4111,8 @@
        "explanation": "Đáp án đúng là B: ‘reservation’.\n'Reservation' là danh từ, nghĩa là 'đặt chỗ', phù hợp với ngữ cảnh thông báo thay đổi kế hoạch.\nCâu này có nghĩa: 'Nếu kế hoạch của bạn thay đổi, vui lòng liên hệ với chúng tôi ít nhất 24 giờ trước thời gian đặt chỗ của bạn.’\nCác lựa chọn khác:\n’reserved' (đã đặt trước),\n’reservable' (có thể đặt),\n’reserve' (dành riêng) không phù hợp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4131,7 +4140,8 @@
        "explanation": "Đáp án đúng là A: ‘its’.\n'Its' là đại từ sở hữu, thay thế cho danh từ chỉ cây con (seedling) trong câu.\nCâu này có nghĩa: 'Giữ cây giống cà chua nhẹ nhàng bằng thân để tránh làm tổn hại rễ của nó.’\n'At', 'that', và 'in' đều không phù hợp về ngữ pháp và ngữ cảnh.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4159,7 +4169,8 @@
        "explanation": "Đáp án đúng là D: ‘before’.\n'Before' là giới từ, phù hợp trong ngữ cảnh chỉ thời gian trước một hành động\nCâu này có nghĩa: 'Tại bàn đăng ký, hãy chắc chắn lấy thẻ tên của bạn trước khi vào hội nghị.’\nCác lựa chọn khác không phù hợp về nghĩa:\n’very' (rất),\n’often' (thường xuyên),\n’always' (luôn luôn).",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4187,7 +4198,8 @@
        "explanation": "Đáp án đúng là D: ‘warranty’.\n'Warranty' là danh từ, có nghĩa là 'bảo hành', rất phù hợp trong ngữ cảnh bảo hiểm cho việc sửa chữa động cơ.\nCâu này có nghĩa: 'Các xe của Maihama bao gồm một bảo hành mở rộng để bao gồm sửa chữa động cơ.’\nCác lựa chọn khác:\nrecord' (hồ sơ),\n’operation' (hoạt động),\n’budget' (ngân sách) đều không đúng.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4215,7 +4227,8 @@
        "explanation": "Đáp án đúng là C: 'impressive'.\nImpressive’ là tính từ, dùng để mô tả sự thu hút, ấn tượng về các hình ảnh.\nCâu này có nghĩa: 'Trang web mới của khách sạn có bộ sưu tập hình ảnh chất lượng cao đầy ấn tượng.’\nCác lựa chọn khác:\n’absolute' (tuyệt đối),\n’efficient' (hiệu quả),\n’undefeated' (bất bại) không phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4243,7 +4256,8 @@
        "explanation": "Đáp án đúng là C: ‘sincerely’.\n'Sincerely' là trạng từ, diễn tả lòng biết ơn chân thành.\nCâu này có nghĩa: 'Thay mặt tất cả mọi người tại Ngân hàng Uniontown, chúng tôi chân thành cảm ơn bạn vì sự bảo trợ liên tục của bạn.’\nCác lựa chọn khác:\n’deservedly' (xứng đáng),\n’commonly' (thông thường),\n’perfectly' (hoàn hảo) không đúng ngữ cảnh.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4271,7 +4285,8 @@
        "explanation": "Đáp án đúng là D: ‘accidentally’.\n‘Accidentally’ là trạng từ, mô tả một hành động xảy ra ngoài ý muốn.\nCâu này có nghĩa: 'Thiết bị dễ vỡ phải được cất giữ ở nơi an toàn để không bị hư hại một cách tình cờ.’\n'Accident' (tai nạn),\n’accidents' (các tai nạn),\n’accidental' (tình cờ) không đúng ngữ pháp.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4299,7 +4314,8 @@
        "explanation": "Đáp án đúng là A (until).\n’Until’ có nghĩa là 'cho đến khi', chỉ mốc thời gian kết thúc của một sự kiện\n’Lately' có nghĩa là 'gần đây', 'from' có nghĩa là 'từ', và 'when' có nghĩa là 'khi nào’.\nCả ba từ này đều không phù hợp với ngữ cảnh.\nDịch: 'Bà Sampson sẽ không đến hội nghị cho đến sau khi nhóm chúng tôi thuyết trình xong.'",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4327,7 +4343,8 @@
        "explanation": "Đáp án đúng là A (in). 'In' được dùng để chỉ vị trí bên trong, phù hợp với việc tổ chức sự kiện 'trong công viên’.\n’All', 'for', và 'here' không phù hợp ngữ cảnh.\nDịch: 'Buổi dã ngoại cộng đồng sẽ được tổ chức trong công viên phía sau thư viện công cộng Seltzer.'",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4352,10 +4369,28 @@
         "D": "to gather"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (will gather).\nCấu trúc thì tương lai đơn (will + động từ nguyên mẫu) được dùng để chỉ hành động sẽ xảy ra trong tương lai.\nDịch: 'Những nhân viên mới sẽ tập trung vào lúc 9:00 sáng ngày 10 tháng 5 cho buổi định hướng.’\n(A) to be gathering: để tụ họp (động từ dạng to-infinitive có kết hợp tiếp diễn)\n(B) will gather: sẽ tụ họp (động từ nguyên mẫu được kết hợp với động từ khuyết thiếu “will” chỉ về tương lai)\n(C) gathering: sự tụ họp (động từ dạng gerund - V-ing)\n(D) to gather: để tụ họp (động từ dạng to-infinitive)",
+       "explanation": "Đáp án đúng là B (will gather).\nCấu trúc thì tương lai đơn (will + động từ nguyên mẫu) được dùng để chỉ hành động sẽ xảy ra trong tương lai.\nDịch: 'Những nhân viên mới sẽ tập trung vào lúc 9:00 sáng ngày 10 tháng 5 cho buổi định hướng.’\n(C) gathering: sự tụ họp (động từ dạng gerund - V-ing)",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "để tụ họp"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "sẽ tụ họp"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "sự tụ họp"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "để tụ họp"
+        }
+       }
       }
      ]
     },
@@ -4383,7 +4418,8 @@
        "explanation": "Đáp án đúng là A (politely).\n’Politely’ là trạng từ, bổ sung ý nghĩa cho động từ 'offered', mô tả cách mà lễ tân đã mời ông Young ngồi.\n'Polite' là tính từ, 'politeness' là danh từ, và 'politest' không phù hợp với ngữ pháp câu.\nDịch: 'Khi ông Young tiến đến bàn, nhân viên lễ tân đã lịch sự mời ông một chỗ ngồi trong phòng chờ.'",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4411,7 +4447,8 @@
        "explanation": "Đáp án đúng là C (theirs).\n’Theirs’ là đại từ sở hữu, thay thế cho cụm 'their design', phù hợp với ngữ pháp và ý nghĩa của câu.\nDịch: 'Các thành viên của đội marketing Marvale khẳng định rằng thiết kế của họ là thiết kế tốt nhất cho logo mới của công ty.’\n(A) they: đại từ đóng vai trò chủ ngữ, thường được sử dụng để đề cập đến một nhóm người hoặc vật.\n(B) them: đại từ đóng vai trò tân ngữ, thường được sử dụng khi đại từ đó đứng sau một động từ hoặc giới từ.\n(C) theirs: đại từ chỉ sự sở hữu của “they”, thường được sử dụng khi muốn nhấn mạnh sự sở hữu của một người hoặc nhóm người.\n(D) their: \"their\" là tính từ sở hữu, thường được sử dụng khi liên kết với một danh từ để chỉ sự sở hữu của một nhóm người hoặc vật.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4436,10 +4473,28 @@
         "D": "including"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (including).\n’Including’ có nghĩa là 'bao gồm', phù hợp với ngữ cảnh nói về giá chưa bao gồm thuế.\nDịch: 'Máy quay video Kitsuna mới hiện đang được bán với giá $375, không bao gồm thuế.’\n(A) excepting: trừ ra\n(B) alongside: cùng với\n(C) within: trong vòng\n(D) including: bao gồm",
+       "explanation": "Đáp án đúng là D (including).\n’Including’ có nghĩa là 'bao gồm', phù hợp với ngữ cảnh nói về giá chưa bao gồm thuế.\nDịch: 'Máy quay video Kitsuna mới hiện đang được bán với giá $375, không bao gồm thuế.’",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "trừ ra"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "cùng với"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "trong vòng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "bao gồm"
+        }
+       }
       }
      ]
     },
@@ -4464,10 +4519,28 @@
         "D": "expected"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (expected).\n’Expected’ có nghĩa là 'được mong đợi', phù hợp với ngữ cảnh nói về việc các nhân viên được yêu cầu tuân theo quy trình hoạt động tiêu chuẩn.\nDịch: 'Tất cả các cộng sự đều được mong đợi tuân theo các quy trình hoạt động tiêu chuẩn được nêu trong sổ tay.’\n(A) concerned: quan tâm\n(B) tended: chăm sóc\n(C) maintained: duy trì\n(D) expected: dự kiến",
+       "explanation": "Đáp án đúng là D (expected).\n’Expected’ có nghĩa là 'được mong đợi', phù hợp với ngữ cảnh nói về việc các nhân viên được yêu cầu tuân theo quy trình hoạt động tiêu chuẩn.\nDịch: 'Tất cả các cộng sự đều được mong đợi tuân theo các quy trình hoạt động tiêu chuẩn được nêu trong sổ tay.’",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "quan tâm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "chăm sóc"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "duy trì"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "dự kiến"
+        }
+       }
       }
      ]
     },
@@ -4495,7 +4568,8 @@
        "explanation": "Đáp án đúng là D (most ambitious).\n’Most ambitious' là tính từ so sánh bậc nhất, mô tả mức độ mở rộng lớn nhất từ trước đến nay của công ty.\n’Ambitiously' là trạng từ, 'ambition' là danh từ, không phù hợp ngữ pháp\nDịch: 'Tháng này Nhà xuất bản Framley đang bắt đầu kế hoạch mở rộng tham vọng nhất từ trước đến nay.'",
        "tags": [
         "comparison"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4520,10 +4594,28 @@
         "D": "intensely"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (finally).\n’Finally’ có nghĩa là 'cuối cùng', thể hiện rằng sau nhiều tháng hợp tác, sản phẩm chất lượng cao đã được ra mắt.\nDịch: 'Sau nhiều tháng hợp tác, các nhà phát triển phần mềm của Matricks Technology cuối cùng đã phát hành một sản phẩm chất lượng cao.’\n(A) profoundly: sâu sắc\n(B) overly: quá mức\n(C) finally: cuối cùng\n(D) intensely: một cách mãnh liệt",
+       "explanation": "Đáp án đúng là C (finally).\n’Finally’ có nghĩa là 'cuối cùng', thể hiện rằng sau nhiều tháng hợp tác, sản phẩm chất lượng cao đã được ra mắt.\nDịch: 'Sau nhiều tháng hợp tác, các nhà phát triển phần mềm của Matricks Technology cuối cùng đã phát hành một sản phẩm chất lượng cao.’",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "sâu sắc"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "quá mức"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cuối cùng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một cách mãnh liệt"
+        }
+       }
       }
      ]
     },
@@ -4548,10 +4640,28 @@
         "D": "turnover"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (reentry).\n’Reentry’ có nghĩa là 'quay lại', phù hợp với ngữ cảnh nói về vé không cho phép vào lại địa điểm sau khi ra ngoài.\nDịch: 'Vé chỉ có giá trị cho một lần vào và không cho phép quay lại địa điểm.’\n(A) duplication: sự sao chép, sao lại\n(B) reentry: sự tái nhập, tham gia lại\n(C) permission: sự cho phép\n(D) turnover: doanh số",
+       "explanation": "Đáp án đúng là B (reentry).\n’Reentry’ có nghĩa là 'quay lại', phù hợp với ngữ cảnh nói về vé không cho phép vào lại địa điểm sau khi ra ngoài.\nDịch: 'Vé chỉ có giá trị cho một lần vào và không cho phép quay lại địa điểm.’",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "sự sao chép, sao lại"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "sự tái nhập, tham gia lại"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "sự cho phép"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "doanh số"
+        }
+       }
       }
      ]
     },
@@ -4579,7 +4689,8 @@
        "explanation": "Đáp án đúng là D (even though).\n’Even though' có nghĩa là 'mặc dù', phù hợp với ngữ cảnh nói về việc thuê công ty Okafor dù không phải là nhà thầu có giá thấp nhất.\nDịch: 'Chúng tôi đã thuê công ty Okafor Construction thực hiện việc cải tạo mặc dù họ không phải là nhà thầu đưa ra giá thấp nhất cho dự án.’\n(A) if only: được sử dụng khi muốn diễn đạt một mong muốn mạnh mẽ hoặc một điều kiện mà hiện tại không thể đạt được.\n(B) alternatively: được sử dụng để đề xuất một lựa chọn khác, hoặc một phương pháp hoặc ý kiến tương phản với cái trước đó.\n(C) whereas: được sử dụng để so sánh hai phần, chỉ ra sự tương phản hoặc sự khác biệt giữa chúng.\n(D) even though: được sử dụng để biểu thị một mâu thuẫn hoặc một điều không ngờ đến, thường đi kèm với một mệnh đề phản đối.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -4604,10 +4715,24 @@
         "D": "partial"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (part).\n’Part’ là danh từ, phù hợp với ngữ cảnh nói về phần đầu tiên của buổi đào tạo. Các đáp án khác không phù hợp về nghĩa và ngữ pháp.’\n(A) part: từ này là danh từ chỉ một phần của một tổ chức hoặc một toàn thể.\n(B) parted: là động từ quá khứ của \"part\" có nghĩa là \"chia tay\" hoặc \"rời bỏ”.\n(C) parting: là danh từ chỉ sự chia tay hoặc sự chia rẽ.\n(D) partial: là tính từ có nghĩa là \"một phần\", \"không hoàn chỉnh”.\nTạm dịch: Phần đầu tiên của khóa đào tạo sẽ giới thiệu nhân viên với một số trách nhiệm nơi làm việc cụ thể",
+       "explanation": "Đáp án đúng là A (part).\n’Part’ là danh từ, phù hợp với ngữ cảnh nói về phần đầu tiên của buổi đào tạo. Các đáp án khác không phù hợp về nghĩa và ngữ pháp.’\n(A) part: từ này là danh từ chỉ một phần của một tổ chức hoặc một toàn thể.\n(D) partial: là tính từ có nghĩa là \"một phần\", \"không hoàn chỉnh”.\nTạm dịch: Phần đầu tiên của khóa đào tạo sẽ giới thiệu nhân viên với một số trách nhiệm nơi làm việc cụ thể",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "chia tay"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "là danh từ chỉ sự chia tay hoặc sự chia rẽ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một phần"
+        }
+       }
       }
      ]
     },
@@ -4632,10 +4757,20 @@
         "D": "reports"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (reports).\n’Reports’ là danh từ, chỉ những báo cáo từ ngành công nghiệp. Các đáp án khác không phù hợp với cấu trúc câu và nghĩa.\nDịch: 'Theo các báo cáo trong ngành, công ty Ghira có kế hoạch chuyển trụ sở chính sang Úc.’\n(A) reported: là động từ quá khứ của \"report\", có nghĩa là \"được báo cáo”.\n(B) reportedly: là một trạng từ được sử dụng để chỉ một sự kiện được cho là đã xảy ra, thường dựa trên thông tin không chắc chắn hoặc không chính xác.\n(C) reporter: là danh từ chỉ một người làm nghề phóng viên, người phỏng vấn\n (D) reports: là danh từ ở dạng số nhiều, có nghĩa là \"các báo cáo\".",
+       "explanation": "Đáp án đúng là D (reports).\n’Reports’ là danh từ, chỉ những báo cáo từ ngành công nghiệp. Các đáp án khác không phù hợp với cấu trúc câu và nghĩa.\nDịch: 'Theo các báo cáo trong ngành, công ty Ghira có kế hoạch chuyển trụ sở chính sang Úc.’\n(B) reportedly: là một trạng từ được sử dụng để chỉ một sự kiện được cho là đã xảy ra, thường dựa trên thông tin không chắc chắn hoặc không chính xác.\n(C) reporter: là danh từ chỉ một người làm nghề phóng viên, người phỏng vấn",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "được báo cáo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "các báo cáo"
+        }
+       }
       }
      ]
     },
@@ -4660,10 +4795,28 @@
         "D": "authenticity"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (authentic).\n’Authentic’ là tính từ, mô tả đồ nội thất và quần áo từ thế kỷ 18 là hàng thật, không phải bản sao.\nCác đáp án khác không phù hợp.’\n(A) authentic: là tính từ có nghĩa là \"thật, đích thực”.\n(B) authentically: là trạng từ của \"authentic\", có nghĩa là \"một cách thật, một cách đích thực”.\n(C) authenticate: là động từ có nghĩa là \"xác thực, chứng thực”.\n(D) authenticity: là danh từ chỉ tính chân thật, tính đích thực.\nTạm dịch: Tháng sau, Nhà Kneath sẽ tổ chức một cuộc triển lãm về đồ đạc và quần áo đích thực từ thế kỷ XVIII.",
+       "explanation": "Đáp án đúng là A (authentic).\n’Authentic’ là tính từ, mô tả đồ nội thất và quần áo từ thế kỷ 18 là hàng thật, không phải bản sao.\nCác đáp án khác không phù hợp.’\nTạm dịch: Tháng sau, Nhà Kneath sẽ tổ chức một cuộc triển lãm về đồ đạc và quần áo đích thực từ thế kỷ XVIII.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "thật, đích thực"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một cách thật, một cách đích thực"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "xác thực, chứng thực"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "là danh từ chỉ tính chân thật, tính đích thực"
+        }
+       }
       }
      ]
     },
@@ -4688,10 +4841,28 @@
         "D": "opposite"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (under).\n’Under’ có nghĩa là 'dưới quyền', phù hợp với ngữ cảnh nói về các quản lý khu vực làm việc dưới quyền phó chủ tịch. Các đáp án khác không đúng về nghĩa.\nDịch: 'Các quản lý khu vực của PKTM làm việc dưới sự chỉ đạo của phó chủ tịch.’\n(A) among: trong số, giữa(\nB) under: dưới, dưới sự kiểm soát hoặc hướng dẫn của ai đó\n(C) behind: sau, đằng sau\n(D) opposite: đối diện",
+       "explanation": "Đáp án đúng là B (under).\n’Under’ có nghĩa là 'dưới quyền', phù hợp với ngữ cảnh nói về các quản lý khu vực làm việc dưới quyền phó chủ tịch. Các đáp án khác không đúng về nghĩa.\nDịch: 'Các quản lý khu vực của PKTM làm việc dưới sự chỉ đạo của phó chủ tịch.’",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "trong số, giữa"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "dưới, dưới sự kiểm soát hoặc hướng dẫn của ai đó"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "sau, đằng sau"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đối diện"
+        }
+       }
       }
      ]
     },
@@ -4716,10 +4887,28 @@
         "D": "Owing to"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Owing to).\n’Owing to' có nghĩa là 'do, bởi vì', phù hợp với ngữ cảnh nói về việc tăng nhu cầu dẫn đến việc thuê thêm nhân viên.\nDịch: 'Do nhu cầu tăng gần đây, Vanita's Catering đang thuê thêm bốn nhân viên phục vụ.’\n(A) Everywhere: khắp nơi\n(B) Possibly: có thể, có khả năng\n(C) In total: tổng cộng\n(D) Owing to: bởi vì, do, nhờ vào",
+       "explanation": "Đáp án đúng là D (Owing to).\n’Owing to' có nghĩa là 'do, bởi vì', phù hợp với ngữ cảnh nói về việc tăng nhu cầu dẫn đến việc thuê thêm nhân viên.\nDịch: 'Do nhu cầu tăng gần đây, Vanita's Catering đang thuê thêm bốn nhân viên phục vụ.’",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "khắp nơi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "có thể, có khả năng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tổng cộng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "bởi vì, do, nhờ vào"
+        }
+       }
       }
      ]
     }

@@ -1055,6 +1055,13 @@
        "meaning": "lựa chọn"
       },
       {
+       "term": "paint",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sơn, màu sắc"
+      },
+      {
        "term": "recommend",
        "pos": [
         "v"
@@ -1445,6 +1452,11 @@
        "meaning": "sự an toàn; an toàn"
       },
       {
+       "term": "inspection",
+       "pos": [],
+       "meaning": "kiểm tra"
+      },
+      {
        "term": "routine",
        "pos": [],
        "meaning": "thói quen, quy trình"
@@ -1463,11 +1475,6 @@
         "n"
        ],
        "meaning": "bảo hiểm"
-      },
-      {
-       "term": "inspection",
-       "pos": [],
-       "meaning": "kiểm tra"
       },
       {
        "term": "include",
@@ -2548,7 +2555,7 @@
        "pos": [
         "n"
        ],
-       "meaning": "người tổ chức"
+       "meaning": "người tổ chức; người tổ chức, nhà tổ chức"
       },
       {
        "term": "experience",
@@ -3831,10 +3838,36 @@
         "D": "attraction"
        },
        "answer": "D",
-       "explanation": "Đáp án D (attraction) là đúng vì các lý do sau:\n1. Cần một danh từ làm bổ ngữ sau \"major\".\n2. \"Attraction\" là danh từ chỉ điểm thu hút khách du lịch.\n3. \"A major attraction\" là cụm từ phổ biến trong ngữ cảnh du lịch.\n4. Các đáp án khác không phù hợp: \"attracted\" (bị thu hút), \"attractive\" (hấp dẫn - tính từ), \"attractively\" (một cách hấp dẫn).\nDịch câu hỏi: Vườn hoa tulip Palumbo đã trở thành một điểm thu hút chính đối với du khách.\nDịch đáp án:\nA. attracted (quá khứ phân từ: bị thu hút)\nB. attractive (tính từ: hấp dẫn)\nC. attractively (trạng từ: một cách hấp dẫn)\nD. attraction (danh từ: điểm thu hút)",
+       "explanation": "Đáp án D (attraction) là đúng vì các lý do sau:\n1. Cần một danh từ làm bổ ngữ sau \"major\".\n2. \"Attraction\" là danh từ chỉ điểm thu hút khách du lịch.\n3. \"A major attraction\" là cụm từ phổ biến trong ngữ cảnh du lịch.\n4. Các đáp án khác không phù hợp: \"attracted\" (bị thu hút), \"attractive\" (hấp dẫn - tính từ), \"attractively\" (một cách hấp dẫn).\nDịch câu hỏi: Vườn hoa tulip Palumbo đã trở thành một điểm thu hút chính đối với du khách.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bị thu hút"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "hấp dẫn"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "một cách hấp dẫn"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "điểm thu hút"
+        }
+       }
       }
      ]
     },
@@ -3859,10 +3892,36 @@
         "D": "they"
        },
        "answer": "B",
-       "explanation": "Đáp án B (theirs) là đúng vì các lý do sau:\n1. Cần một đại từ sở hữu làm chủ ngữ.\n2. \"Theirs\" là đại từ sở hữu thay thế cho \"their break room\".\n3. Cấu trúc này tránh lặp lại từ \"break room\".\n4. Các đáp án khác không phù hợp: \"their\" (tính từ sở hữu), \"them\" (đại từ tân ngữ), \"they\" (đại từ chủ ngữ).\nDịch câu hỏi: Nhân viên làm việc ở tầng bốn có thể sử dụng phòng nghỉ tầng ba trong khi phòng nghỉ của họ đang được sửa chữa.\nDịch đáp án:\nA. their (tính từ sở hữu: của họ)\nB. theirs (đại từ sở hữu: cái của họ)\nC. them (đại từ tân ngữ: họ)\nD. they (đại từ chủ ngữ: họ)",
+       "explanation": "Đáp án B (theirs) là đúng vì các lý do sau:\n1. Cần một đại từ sở hữu làm chủ ngữ.\n2. \"Theirs\" là đại từ sở hữu thay thế cho \"their break room\".\n3. Cấu trúc này tránh lặp lại từ \"break room\".\n4. Các đáp án khác không phù hợp: \"their\" (tính từ sở hữu), \"them\" (đại từ tân ngữ), \"they\" (đại từ chủ ngữ).\nDịch câu hỏi: Nhân viên làm việc ở tầng bốn có thể sử dụng phòng nghỉ tầng ba trong khi phòng nghỉ của họ đang được sửa chữa.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của họ"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cái của họ"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        }
+       }
       }
      ]
     },
@@ -3887,10 +3946,36 @@
         "D": "evenly"
        },
        "answer": "C",
-       "explanation": "Đáp án C (almost) là đúng vì các lý do sau:\n1. Cần một trạng từ chỉ mức độ gần như hoàn thành.\n2. \"Almost\" có nghĩa là \"gần như\".\n3. \"Almost sold out\" là cụm từ phổ biến chỉ tình trạng gần hết vé.\n4. Các đáp án khác không phù hợp: \"enough\" (đủ), \"ever\" (từng), \"evenly\" (đồng đều).\nDịch câu hỏi: Ban nhạc rock Symbolix thông báo rằng vé cho buổi hòa nhạc tại Sân vận động Sorrell gần như đã bán hết.\nDịch đáp án:\nA. enough (trạng từ: đủ)\nB. ever (trạng từ: từng)\nC. almost (trạng từ: gần như)\nD. evenly (trạng từ: đồng đều)",
+       "explanation": "Đáp án C (almost) là đúng vì các lý do sau:\n1. Cần một trạng từ chỉ mức độ gần như hoàn thành.\n2. \"Almost\" có nghĩa là \"gần như\".\n3. \"Almost sold out\" là cụm từ phổ biến chỉ tình trạng gần hết vé.\n4. Các đáp án khác không phù hợp: \"enough\" (đủ), \"ever\" (từng), \"evenly\" (đồng đều).\nDịch câu hỏi: Ban nhạc rock Symbolix thông báo rằng vé cho buổi hòa nhạc tại Sân vận động Sorrell gần như đã bán hết.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đủ"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "từng"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "gần như"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đồng đều"
+        }
+       }
       }
      ]
     },
@@ -3915,10 +4000,36 @@
         "D": "advising"
        },
        "answer": "C",
-       "explanation": "Đáp án C (advise) là đúng vì các lý do sau:\n1. Cần một động từ chính ở thì hiện tại đơn.\n2. Chủ ngữ \"organizers\" cần động từ số nhiều.\n3. \"Advise bringing\" là cụm động từ chỉ sự khuyến nghị.\n4. Các đáp án khác không phù hợp: \"to advise\" (động từ nguyên mẫu), \"advice\" (danh từ), \"advising\" (động từ ing).\nDịch câu hỏi: Một số phần của buổi biểu diễn hàng không sẽ rất ồn, vì vậy ban tổ chức khuyên mang theo thiết bị bảo vệ thính giác.\nDịch đáp án:\nA. to advise (động từ nguyên mẫu: để khuyên)\nB. advice (danh từ: lời khuyên)\nC. advise (động từ: khuyên)\nD. advising (động từ ing: đang khuyên)",
+       "explanation": "Đáp án C (advise) là đúng vì các lý do sau:\n1. Cần một động từ chính ở thì hiện tại đơn.\n2. Chủ ngữ \"organizers\" cần động từ số nhiều.\n3. \"Advise bringing\" là cụm động từ chỉ sự khuyến nghị.\n4. Các đáp án khác không phù hợp: \"to advise\" (động từ nguyên mẫu), \"advice\" (danh từ), \"advising\" (động từ ing).\nDịch câu hỏi: Một số phần của buổi biểu diễn hàng không sẽ rất ồn, vì vậy ban tổ chức khuyên mang theo thiết bị bảo vệ thính giác.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "để khuyên"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "lời khuyên"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "khuyên"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang khuyên"
+        }
+       }
       }
      ]
     },
@@ -3943,10 +4054,36 @@
         "D": "lightness"
        },
        "answer": "B",
-       "explanation": "Đáp án B (light) là đúng vì các lý do sau:\n1. Cần một tính từ để bổ nghĩa cho danh từ \"snacks\".\n2. \"Light snacks\" là cụm từ chỉ đồ ăn nhẹ.\n3. Tính từ phải đứng trước danh từ trong cụm danh từ.\n4. Các đáp án khác không phù hợp: \"lightly\" (nhẹ nhàng - trạng từ), \"lighten\" (làm sáng - động từ), \"lightness\" (sự nhẹ nhàng).\nDịch câu hỏi: Các nhà cung cấp dịch vụ ăn uống sẽ phục vụ nhiều loại đồ ăn nhẹ khi khách mới đến tiệc.\nDịch đáp án:\nA. lightly (trạng từ: nhẹ nhàng)\nB. light (tính từ: nhẹ)\nC. lighten (động từ: làm sáng)\nD. lightness (danh từ: sự nhẹ nhàng)",
+       "explanation": "Đáp án B (light) là đúng vì các lý do sau:\n1. Cần một tính từ để bổ nghĩa cho danh từ \"snacks\".\n2. \"Light snacks\" là cụm từ chỉ đồ ăn nhẹ.\n3. Tính từ phải đứng trước danh từ trong cụm danh từ.\n4. Các đáp án khác không phù hợp: \"lightly\" (nhẹ nhàng - trạng từ), \"lighten\" (làm sáng - động từ), \"lightness\" (sự nhẹ nhàng).\nDịch câu hỏi: Các nhà cung cấp dịch vụ ăn uống sẽ phục vụ nhiều loại đồ ăn nhẹ khi khách mới đến tiệc.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "nhẹ nhàng"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhẹ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "làm sáng"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự nhẹ nhàng"
+        }
+       }
       }
      ]
     },
@@ -3971,10 +4108,36 @@
         "D": "remainders"
        },
        "answer": "A",
-       "explanation": "Đáp án A (garments) là đúng vì các lý do sau:\n1. Cần một danh từ chỉ sản phẩm may mặc.\n2. \"Garments\" là danh từ chỉ quần áo, trang phục.\n3. Phù hợp với ngữ cảnh về công ty may mặc mua vải.\n4. Các đáp án khác không phù hợp: \"studios\" (xưởng), \"models\" (người mẫu), \"remainders\" (phần còn lại).\nDịch câu hỏi: Elin Apparel mua vải cho quần áo của họ từ các công ty dệt may địa phương.\nDịch đáp án:\nA. garments (danh từ: quần áo)\nB. studios (danh từ: xưởng)\nC. models (danh từ: người mẫu)\nD. remainders (danh từ: phần còn lại)",
+       "explanation": "Đáp án A (garments) là đúng vì các lý do sau:\n1. Cần một danh từ chỉ sản phẩm may mặc.\n2. \"Garments\" là danh từ chỉ quần áo, trang phục.\n3. Phù hợp với ngữ cảnh về công ty may mặc mua vải.\n4. Các đáp án khác không phù hợp: \"studios\" (xưởng), \"models\" (người mẫu), \"remainders\" (phần còn lại).\nDịch câu hỏi: Elin Apparel mua vải cho quần áo của họ từ các công ty dệt may địa phương.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "quần áo"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "xưởng"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người mẫu"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phần còn lại"
+        }
+       }
       }
      ]
     },
@@ -3999,10 +4162,36 @@
         "D": "given"
        },
        "answer": "A",
-       "explanation": "Đáp án A (when) là đúng vì các lý do sau:\n1. Cần một liên từ chỉ thời gian.\n2. \"When\" dùng để nối hai sự việc có mối quan hệ thời gian.\n3. Diễn tả mối quan hệ giữa việc học sinh vui vẻ và khả năng ghi nhớ bài.\n4. Các đáp án khác không phù hợp: \"yet\" (tuy nhiên), \"so\" (vì vậy), \"given\" (được cho).\nDịch câu hỏi: Nhà giáo Sandy Guillen tin rằng khi học sinh vui vẻ trong giờ học, họ có nhiều khả năng ghi nhớ nội dung bài học hơn.\nDịch đáp án:\nA. when (liên từ: khi)\nB. yet (liên từ: tuy nhiên)\nC. so (liên từ: vì vậy)\nD. given (quá khứ phân từ: được cho)",
+       "explanation": "Đáp án A (when) là đúng vì các lý do sau:\n1. Cần một liên từ chỉ thời gian.\n2. \"When\" dùng để nối hai sự việc có mối quan hệ thời gian.\n3. Diễn tả mối quan hệ giữa việc học sinh vui vẻ và khả năng ghi nhớ bài.\n4. Các đáp án khác không phù hợp: \"yet\" (tuy nhiên), \"so\" (vì vậy), \"given\" (được cho).\nDịch câu hỏi: Nhà giáo Sandy Guillen tin rằng khi học sinh vui vẻ trong giờ học, họ có nhiều khả năng ghi nhớ nội dung bài học hơn.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "khi"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "tuy nhiên"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "vì vậy"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được cho"
+        }
+       }
       }
      ]
     },
@@ -4027,10 +4216,36 @@
         "D": "in"
        },
        "answer": "B",
-       "explanation": "Đáp án B (between) là đúng vì các lý do sau:\n1. Cần một giới từ chỉ mối liên hệ giữa hai yếu tố.\n2. \"Connection between\" là cụm từ cố định chỉ mối liên hệ.\n3. Kết nối hai yếu tố: lương nhân viên và hiệu suất kinh doanh.\n4. Các đáp án khác không phù hợp: \"of\" (của), \"around\" (xung quanh), \"in\" (trong).\nDịch câu hỏi: Một nghiên cứu của Tạp chí Kinh doanh Stanton đã tìm thấy mối liên hệ rõ ràng giữa lương nhân viên và hiệu suất kinh doanh.\nDịch đáp án:\nA. of (giới từ: của)\nB. between (giới từ: giữa)\nC. around (giới từ: xung quanh)\nD. in (giới từ: trong)",
+       "explanation": "Đáp án B (between) là đúng vì các lý do sau:\n1. Cần một giới từ chỉ mối liên hệ giữa hai yếu tố.\n2. \"Connection between\" là cụm từ cố định chỉ mối liên hệ.\n3. Kết nối hai yếu tố: lương nhân viên và hiệu suất kinh doanh.\n4. Các đáp án khác không phù hợp: \"of\" (của), \"around\" (xung quanh), \"in\" (trong).\nDịch câu hỏi: Một nghiên cứu của Tạp chí Kinh doanh Stanton đã tìm thấy mối liên hệ rõ ràng giữa lương nhân viên và hiệu suất kinh doanh.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "của"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "giữa"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "xung quanh"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "trong"
+        }
+       }
       }
      ]
     },
@@ -4055,10 +4270,36 @@
         "D": "herself"
        },
        "answer": "D",
-       "explanation": "Đáp án D (herself) là đúng vì các lý do sau:\n1. Cần một đại từ phản thân nhấn mạnh chủ thể hành động.\n2. \"Herself\" nhấn mạnh việc chủ nhà hàng tự làm việc đó.\n3. Được dùng sau chủ ngữ để nhấn mạnh.\n4. Các đáp án khác không phù hợp: \"her\" (cô ấy - tân ngữ), \"she\" (cô ấy - chủ ngữ), \"hers\" (của cô ấy).\nDịch câu hỏi: Vào những buổi tối đặc biệt bận rộn, chủ nhà hàng tự mình giúp chuẩn bị nguyên liệu và phục vụ thực khách.\nDịch đáp án:\nA. her (đại từ tân ngữ: cô ấy)\nB. she (đại từ chủ ngữ: cô ấy)\nC. hers (đại từ sở hữu: của cô ấy)\nD. herself (đại từ phản thân: tự mình)",
+       "explanation": "Đáp án D (herself) là đúng vì các lý do sau:\n1. Cần một đại từ phản thân nhấn mạnh chủ thể hành động.\n2. \"Herself\" nhấn mạnh việc chủ nhà hàng tự làm việc đó.\n3. Được dùng sau chủ ngữ để nhấn mạnh.\n4. Các đáp án khác không phù hợp: \"her\" (cô ấy - tân ngữ), \"she\" (cô ấy - chủ ngữ), \"hers\" (của cô ấy).\nDịch câu hỏi: Vào những buổi tối đặc biệt bận rộn, chủ nhà hàng tự mình giúp chuẩn bị nguyên liệu và phục vụ thực khách.",
        "tags": [
         "pronoun"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cô ấy"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cô ấy"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "của cô ấy"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "tự mình"
+        }
+       }
       }
      ]
     },
@@ -4083,10 +4324,32 @@
         "D": "having left"
        },
        "answer": "C",
-       "explanation": "Đáp án C (will be leaving) là đúng vì các lý do sau:\n1. Cần một động từ ở thì tương lai để chỉ kế hoạch đã định.\n2. \"Will be leaving\" là thì tương lai tiếp diễn.\n3. Phù hợp với ngữ cảnh về thời gian cụ thể trong tương lai.\n4. Các đáp án khác không phù hợp: \"leaving\" (hiện tại phân từ), \"have left\" (hiện tại hoàn thành), \"having left\" (phân từ hoàn thành).\nDịch câu hỏi: Xe đưa đón sẽ khởi hành lúc 8 giờ sáng, vì vậy hãy đóng gói hành lý của bạn nhanh chóng vào buổi sáng.\nDịch đáp án:\nA. leaving (động từ ing: đang rời đi)\nB. have left (hiện tại hoàn thành: đã rời đi)\nC. will be leaving (tương lai tiếp diễn: sẽ rời đi)\nD. having left (phân từ hoàn thành: đã rời đi)",
+       "explanation": "Đáp án C (will be leaving) là đúng vì các lý do sau:\n1. Cần một động từ ở thì tương lai để chỉ kế hoạch đã định.\n2. \"Will be leaving\" là thì tương lai tiếp diễn.\n3. Phù hợp với ngữ cảnh về thời gian cụ thể trong tương lai.\n4. Các đáp án khác không phù hợp: \"leaving\" (hiện tại phân từ), \"have left\" (hiện tại hoàn thành), \"having left\" (phân từ hoàn thành).\nDịch câu hỏi: Xe đưa đón sẽ khởi hành lúc 8 giờ sáng, vì vậy hãy đóng gói hành lý của bạn nhanh chóng vào buổi sáng.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang rời đi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đã rời đi"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "sẽ rời đi"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã rời đi"
+        }
+       }
       }
      ]
     },
@@ -4111,10 +4374,36 @@
         "D": "depending on"
        },
        "answer": "B",
-       "explanation": "Đáp án B (whereas) là đúng vì các lý do sau:\n1. Cần một liên từ chỉ sự tương phản.\n2. \"Whereas\" có nghĩa là \"trong khi đó\".\n3. Diễn tả sự khác biệt giữa cửa hàng mới và cửa hàng hiện có.\n4. Các đáp án khác không phù hợp: \"despite\" (mặc dù), \"apart from\" (ngoài ra), \"depending on\" (phụ thuộc vào).\nDịch câu hỏi: Cửa hàng tiện lợi Rhodes mới nhất sẽ hoàn toàn không có nhân viên, trong khi các cửa hàng hiện tại của họ chỉ cung cấp tùy chọn tự thanh toán.\nDịch đáp án:\nA. despite (giới từ: mặc dù)\nB. whereas (liên từ: trong khi đó)\nC. apart from (cụm giới từ: ngoài ra)\nD. depending on (cụm động từ: phụ thuộc vào)",
+       "explanation": "Đáp án B (whereas) là đúng vì các lý do sau:\n1. Cần một liên từ chỉ sự tương phản.\n2. \"Whereas\" có nghĩa là \"trong khi đó\".\n3. Diễn tả sự khác biệt giữa cửa hàng mới và cửa hàng hiện có.\n4. Các đáp án khác không phù hợp: \"despite\" (mặc dù), \"apart from\" (ngoài ra), \"depending on\" (phụ thuộc vào).\nDịch câu hỏi: Cửa hàng tiện lợi Rhodes mới nhất sẽ hoàn toàn không có nhân viên, trong khi các cửa hàng hiện tại của họ chỉ cung cấp tùy chọn tự thanh toán.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "mặc dù"
+        },
+        "B": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "trong khi đó"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "ngoài ra"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "phụ thuộc vào"
+        }
+       }
       }
      ]
     },
@@ -4139,10 +4428,36 @@
         "D": "surrounds"
        },
        "answer": "C",
-       "explanation": "Đáp án C (surrounding) là đúng vì các lý do sau:\n1. Cần một tính từ mô tả văn bản xung quanh.\n2. \"Surrounding\" là hiện tại phân từ dùng làm tính từ.\n3. Bổ nghĩa cho danh từ \"text\".\n4. Các đáp án khác không phù hợp: \"surround\" (động từ nguyên thể), \"surrounded\" (quá khứ phân từ), \"surrounds\" (động từ số ít).\nDịch câu hỏi: Màu sắc sặc sỡ có thể được sử dụng để làm cho các liên kết web nổi bật so với văn bản xung quanh.\nDịch đáp án:\nA. surround (động từ: bao quanh)\nB. surrounded (quá khứ phân từ: bị bao quanh)\nC. surrounding (hiện tại phân từ: xung quanh)\nD. surrounds (động từ số ít: bao quanh)",
+       "explanation": "Đáp án C (surrounding) là đúng vì các lý do sau:\n1. Cần một tính từ mô tả văn bản xung quanh.\n2. \"Surrounding\" là hiện tại phân từ dùng làm tính từ.\n3. Bổ nghĩa cho danh từ \"text\".\n4. Các đáp án khác không phù hợp: \"surround\" (động từ nguyên thể), \"surrounded\" (quá khứ phân từ), \"surrounds\" (động từ số ít).\nDịch câu hỏi: Màu sắc sặc sỡ có thể được sử dụng để làm cho các liên kết web nổi bật so với văn bản xung quanh.",
        "tags": [
         "verb"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bao quanh"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bị bao quanh"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "xung quanh"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bao quanh"
+        }
+       }
       }
      ]
     },
@@ -4167,10 +4482,36 @@
         "D": "broadened"
        },
        "answer": "A",
-       "explanation": "Đáp án A (elected) là đúng vì các lý do sau:\n1. Cần một quá khứ phân từ chỉ trạng thái được bầu chọn.\n2. \"Recently elected\" là cụm từ chỉ người mới được bầu.\n3. Phù hợp với ngữ cảnh về thành viên hội đồng thành phố.\n4. Các đáp án khác không phù hợp: \"formed\" (hình thành), \"enacted\" (ban hành), \"broadened\" (mở rộng).\nDịch câu hỏi: Thành viên Hội đồng thành phố mới được bầu của Burnett, Joon-Ha Min, đang gây chú ý với đề xuất gây tranh cãi về việc cấm xe hơi trên Đường First.\nDịch đáp án:\nA. elected (quá khứ phân từ: được bầu)\nB. formed (quá khứ phân từ: được hình thành)\nC. enacted (quá khứ phân từ: được ban hành)\nD. broadened (quá khứ phân từ: được mở rộng)",
+       "explanation": "Đáp án A (elected) là đúng vì các lý do sau:\n1. Cần một quá khứ phân từ chỉ trạng thái được bầu chọn.\n2. \"Recently elected\" là cụm từ chỉ người mới được bầu.\n3. Phù hợp với ngữ cảnh về thành viên hội đồng thành phố.\n4. Các đáp án khác không phù hợp: \"formed\" (hình thành), \"enacted\" (ban hành), \"broadened\" (mở rộng).\nDịch câu hỏi: Thành viên Hội đồng thành phố mới được bầu của Burnett, Joon-Ha Min, đang gây chú ý với đề xuất gây tranh cãi về việc cấm xe hơi trên Đường First.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được bầu"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được hình thành"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được ban hành"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được mở rộng"
+        }
+       }
       }
      ]
     },
@@ -4195,10 +4536,36 @@
         "D": "concentrate"
        },
        "answer": "D",
-       "explanation": "Đáp án D (concentrate) là đúng vì các lý do sau:\n1. Cần một động từ chỉ sự tập trung.\n2. \"Concentrate on\" là cụm động từ có nghĩa \"tập trung vào\".\n3. Phù hợp với ngữ cảnh về chiến lược kinh doanh.\n4. Các đáp án khác không phù hợp: \"maintain\" (duy trì), \"insist\" (khăng khăng), \"embrace\" (chấp nhận).\nDịch câu hỏi: Saito Mobility đã bán công ty con sản xuất xe đạp để tập trung vào sản xuất xe đạp điện và xe máy.\nDịch đáp án:\nA. maintain (động từ: duy trì)\nB. insist (động từ: khăng khăng)\nC. embrace (động từ: chấp nhận)\nD. concentrate (động từ: tập trung)",
+       "explanation": "Đáp án D (concentrate) là đúng vì các lý do sau:\n1. Cần một động từ chỉ sự tập trung.\n2. \"Concentrate on\" là cụm động từ có nghĩa \"tập trung vào\".\n3. Phù hợp với ngữ cảnh về chiến lược kinh doanh.\n4. Các đáp án khác không phù hợp: \"maintain\" (duy trì), \"insist\" (khăng khăng), \"embrace\" (chấp nhận).\nDịch câu hỏi: Saito Mobility đã bán công ty con sản xuất xe đạp để tập trung vào sản xuất xe đạp điện và xe máy.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "duy trì"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "khăng khăng"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chấp nhận"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tập trung"
+        }
+       }
       }
      ]
     },
@@ -4223,10 +4590,30 @@
         "D": "accurate"
        },
        "answer": "A",
-       "explanation": "Đáp án A (complex) là đúng vì các lý do sau:\n1. Cần một tính từ mô tả các thủ thuật phẫu thuật.\n2. \"Complex procedures\" là cụm từ chỉ thủ thuật phức tạp.\n3. Phù hợp với ngữ cảnh về khả năng của trung tâm y tế.\n4. Các đáp án khác không phù hợp: \"distant\" (xa xôi), \"cautious\" (thận trọng), \"accurate\" (chính xác).\nDịch câu hỏi: Trung tâm Y tế Montoyo được trang bị để xử lý các thủ thuật phẫu thuật phức tạp.\nDịch đáp án:\nA. complex (tính từ: phức tạp)\nB. distant (tính từ: xa xôi)\nC. cautious (tính từ: thận trọng)\nD. accurate (tính từ: chính xác)",
+       "explanation": "Đáp án A (complex) là đúng vì các lý do sau:\n1. Cần một tính từ mô tả các thủ thuật phẫu thuật.\n2. \"Complex procedures\" là cụm từ chỉ thủ thuật phức tạp.\n3. Phù hợp với ngữ cảnh về khả năng của trung tâm y tế.\n4. Các đáp án khác không phù hợp: \"distant\" (xa xôi), \"cautious\" (thận trọng), \"accurate\" (chính xác).\nDịch câu hỏi: Trung tâm Y tế Montoyo được trang bị để xử lý các thủ thuật phẫu thuật phức tạp.\nDịch đáp án:\nD. accurate (tính từ: chính xác)",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phức tạp"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "xa xôi"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "thận trọng"
+        }
+       }
       }
      ]
     },
@@ -4251,10 +4638,36 @@
         "D": "originating"
        },
        "answer": "B",
-       "explanation": "Đáp án B (originally) là đúng vì các lý do sau:\n1. Cần một trạng từ để bổ nghĩa cho động từ \"appeared\".\n2. \"Originally\" có nghĩa là \"ban đầu, nguyên bản\".\n3. Diễn tả trạng thái ban đầu của bức tranh tường.\n4. Các đáp án khác không phù hợp: \"original\" (tính từ), \"originate\" (động từ), \"originating\" (hiện tại phân từ).\nDịch câu hỏi: Những bức ảnh chụp trước khi bức tường bị hư hại cho thấy bức tranh tường ban đầu trông như thế nào.\nDịch đáp án:\nA. original (tính từ: nguyên bản)\nB. originally (trạng từ: ban đầu)\nC. originate (động từ: bắt nguồn)\nD. originating (động từ ing: đang bắt nguồn)",
+       "explanation": "Đáp án B (originally) là đúng vì các lý do sau:\n1. Cần một trạng từ để bổ nghĩa cho động từ \"appeared\".\n2. \"Originally\" có nghĩa là \"ban đầu, nguyên bản\".\n3. Diễn tả trạng thái ban đầu của bức tranh tường.\n4. Các đáp án khác không phù hợp: \"original\" (tính từ), \"originate\" (động từ), \"originating\" (hiện tại phân từ).\nDịch câu hỏi: Những bức ảnh chụp trước khi bức tường bị hư hại cho thấy bức tranh tường ban đầu trông như thế nào.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nguyên bản"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ban đầu"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "bắt nguồn"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang bắt nguồn"
+        }
+       }
       }
      ]
     },
@@ -4279,10 +4692,36 @@
         "D": "signifying"
        },
        "answer": "B",
-       "explanation": "Đáp án B (significantly) là đúng vì các lý do sau:\n1. Cần một trạng từ bổ nghĩa cho tính từ so sánh \"more expensive\".\n2. \"Significantly more\" là cấu trúc chỉ mức độ đáng kể.\n3. Trạng từ phải đứng trước cụm từ so sánh.\n4. Các đáp án khác không phù hợp: \"significant\" (tính từ), \"significance\" (danh từ), \"signifying\" (động từ ing).\nDịch câu hỏi: Thông thường, sản phẩm hữu cơ đắt hơn đáng kể so với các sản phẩm thông thường tương đương.\nDịch đáp án:\nA. significant (tính từ: đáng kể)\nB. significantly (trạng từ: đáng kể)\nC. significance (danh từ: ý nghĩa)\nD. signifying (động từ ing: đang biểu thị)",
+       "explanation": "Đáp án B (significantly) là đúng vì các lý do sau:\n1. Cần một trạng từ bổ nghĩa cho tính từ so sánh \"more expensive\".\n2. \"Significantly more\" là cấu trúc chỉ mức độ đáng kể.\n3. Trạng từ phải đứng trước cụm từ so sánh.\n4. Các đáp án khác không phù hợp: \"significant\" (tính từ), \"significance\" (danh từ), \"signifying\" (động từ ing).\nDịch câu hỏi: Thông thường, sản phẩm hữu cơ đắt hơn đáng kể so với các sản phẩm thông thường tương đương.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đáng kể"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đáng kể"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "ý nghĩa"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang biểu thị"
+        }
+       }
       }
      ]
     },
@@ -4307,10 +4746,36 @@
         "D": "Beside"
        },
        "answer": "C",
-       "explanation": "Đáp án C (Following) là đúng vì các lý do sau:\n1. Cần một giới từ chỉ thời gian sau sự kiện.\n2. \"Following\" có nghĩa là \"sau\".\n3. Diễn tả việc chuẩn bị báo cáo sau mỗi cuộc họp.\n4. Các đáp án khác không phù hợp: \"Except\" (ngoại trừ), \"Across\" (qua), \"Beside\" (bên cạnh).\nDịch câu hỏi: Sau mỗi cuộc họp của ủy ban kiểm toán, chủ tịch nên chuẩn bị một báo cáo về các hoạt động của ủy ban cho phần còn lại của hội đồng.\nDịch đáp án:\nA. Except (giới từ: ngoại trừ)\nB. Across (giới từ: qua)\nC. Following (giới từ: sau)\nD. Beside (giới từ: bên cạnh)",
+       "explanation": "Đáp án C (Following) là đúng vì các lý do sau:\n1. Cần một giới từ chỉ thời gian sau sự kiện.\n2. \"Following\" có nghĩa là \"sau\".\n3. Diễn tả việc chuẩn bị báo cáo sau mỗi cuộc họp.\n4. Các đáp án khác không phù hợp: \"Except\" (ngoại trừ), \"Across\" (qua), \"Beside\" (bên cạnh).\nDịch câu hỏi: Sau mỗi cuộc họp của ủy ban kiểm toán, chủ tịch nên chuẩn bị một báo cáo về các hoạt động của ủy ban cho phần còn lại của hội đồng.",
        "tags": [
         "prep-conj"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "ngoại trừ"
+        },
+        "B": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "qua"
+        },
+        "C": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "sau"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": "bên cạnh"
+        }
+       }
       }
      ]
     },
@@ -4335,10 +4800,36 @@
         "D": "capacity"
        },
        "answer": "D",
-       "explanation": "Đáp án D (capacity) là đúng vì các lý do sau:\n1. Cần một danh từ chỉ công suất, sức chứa.\n2. \"Maximum capacity\" là cụm từ chỉ công suất tối đa.\n3. Phù hợp với ngữ cảnh về nhà ga sân bay.\n4. Các đáp án khác không phù hợp: \"allowance\" (phụ cấp), \"function\" (chức năng), \"proportion\" (tỷ lệ).\nDịch câu hỏi: Một khi nhà ga mới đi vào hoạt động, công suất tối đa của Sân bay Devore sẽ tăng 30%.\nDịch đáp án:\nA. allowance (danh từ: phụ cấp)\nB. function (danh từ: chức năng)\nC. proportion (danh từ: tỷ lệ)\nD. capacity (danh từ: công suất)",
+       "explanation": "Đáp án D (capacity) là đúng vì các lý do sau:\n1. Cần một danh từ chỉ công suất, sức chứa.\n2. \"Maximum capacity\" là cụm từ chỉ công suất tối đa.\n3. Phù hợp với ngữ cảnh về nhà ga sân bay.\n4. Các đáp án khác không phù hợp: \"allowance\" (phụ cấp), \"function\" (chức năng), \"proportion\" (tỷ lệ).\nDịch câu hỏi: Một khi nhà ga mới đi vào hoạt động, công suất tối đa của Sân bay Devore sẽ tăng 30%.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phụ cấp"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "chức năng"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "tỷ lệ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "công suất"
+        }
+       }
       }
      ]
     },
@@ -4363,10 +4854,36 @@
         "D": "delectable"
        },
        "answer": "A",
-       "explanation": "Đáp án A (fragile) là đúng vì các lý do sau:\n1. Cần một tính từ mô tả đồ vật dễ vỡ.\n2. \"Fragile items\" là cụm từ chỉ vật dễ vỡ cần được bảo vệ.\n3. Phù hợp với ngữ cảnh về việc đóng gói an toàn.\n4. Các đáp án khác không phù hợp: \"adequate\" (đầy đủ), \"pending\" (đang chờ), \"delectable\" (ngon miệng).\nDịch câu hỏi: Bất kỳ vật phẩm dễ vỡ nào trong lô hàng của bạn nên được bọc chặt bằng vật liệu đệm.\nDịch đáp án:\nA. fragile (tính từ: dễ vỡ)\nB. adequate (tính từ: đầy đủ)\nC. pending (tính từ: đang chờ)\nD. delectable (tính từ: ngon miệng)",
+       "explanation": "Đáp án A (fragile) là đúng vì các lý do sau:\n1. Cần một tính từ mô tả đồ vật dễ vỡ.\n2. \"Fragile items\" là cụm từ chỉ vật dễ vỡ cần được bảo vệ.\n3. Phù hợp với ngữ cảnh về việc đóng gói an toàn.\n4. Các đáp án khác không phù hợp: \"adequate\" (đầy đủ), \"pending\" (đang chờ), \"delectable\" (ngon miệng).\nDịch câu hỏi: Bất kỳ vật phẩm dễ vỡ nào trong lô hàng của bạn nên được bọc chặt bằng vật liệu đệm.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "dễ vỡ"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đầy đủ"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "đang chờ"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "ngon miệng"
+        }
+       }
       }
      ]
     },
@@ -4391,10 +4908,36 @@
         "D": "sponsors"
        },
        "answer": "D",
-       "explanation": "Đáp án D (sponsors) là đúng vì các lý do sau:\n1. Cần một danh từ số nhiều chỉ người/tổ chức tài trợ.\n2. \"Program sponsors\" là cụm từ chỉ nhà tài trợ chương trình.\n3. Số nhiều phù hợp với ngữ cảnh về danh sách đầy đủ.\n4. Các đáp án khác không phù hợp: \"sponsor\" (danh từ số ít), \"sponsorship\" (sự tài trợ), \"sponsoring\" (đang tài trợ).\nDịch câu hỏi: Danh sách đầy đủ các nhà tài trợ chương trình có thể được tìm thấy trên trang web của tổ chức chúng tôi.\nDịch đáp án:\nA. sponsor (danh từ: nhà tài trợ)\nB. sponsorship (danh từ: sự tài trợ)\nC. sponsoring (động từ ing: đang tài trợ)\nD. sponsors (danh từ số nhiều: các nhà tài trợ)",
+       "explanation": "Đáp án D (sponsors) là đúng vì các lý do sau:\n1. Cần một danh từ số nhiều chỉ người/tổ chức tài trợ.\n2. \"Program sponsors\" là cụm từ chỉ nhà tài trợ chương trình.\n3. Số nhiều phù hợp với ngữ cảnh về danh sách đầy đủ.\n4. Các đáp án khác không phù hợp: \"sponsor\" (danh từ số ít), \"sponsorship\" (sự tài trợ), \"sponsoring\" (đang tài trợ).\nDịch câu hỏi: Danh sách đầy đủ các nhà tài trợ chương trình có thể được tìm thấy trên trang web của tổ chức chúng tôi.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhà tài trợ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự tài trợ"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang tài trợ"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "các nhà tài trợ"
+        }
+       }
       }
      ]
     },
@@ -4419,10 +4962,36 @@
         "D": "presentation"
        },
        "answer": "C",
-       "explanation": "Đáp án C (presenters) là đúng vì các lý do sau:\n1. Cần một danh từ chỉ người thuyết trình.\n2. \"Presenters\" là danh từ số nhiều chỉ người trình bày.\n3. Phù hợp với ngữ cảnh về hội nghị.\n4. Các đáp án khác không phù hợp: \"presenting\" (đang trình bày), \"presented\" (đã trình bày), \"presentation\" (bài thuyết trình).\nDịch câu hỏi: Chúng ta phải nhắc nhở các diễn giả tại hội nghị năm nay để dành đủ thời gian cho câu hỏi từ khán giả.\nDịch đáp án:\nA. presenting (động từ ing: đang trình bày)\nB. presented (quá khứ phân từ: đã trình bày)\nC. presenters (danh từ: người thuyết trình)\nD. presentation (danh từ: bài thuyết trình)",
+       "explanation": "Đáp án C (presenters) là đúng vì các lý do sau:\n1. Cần một danh từ chỉ người thuyết trình.\n2. \"Presenters\" là danh từ số nhiều chỉ người trình bày.\n3. Phù hợp với ngữ cảnh về hội nghị.\n4. Các đáp án khác không phù hợp: \"presenting\" (đang trình bày), \"presented\" (đã trình bày), \"presentation\" (bài thuyết trình).\nDịch câu hỏi: Chúng ta phải nhắc nhở các diễn giả tại hội nghị năm nay để dành đủ thời gian cho câu hỏi từ khán giả.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang trình bày"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã trình bày"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người thuyết trình"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "bài thuyết trình"
+        }
+       }
       }
      ]
     },
@@ -4447,10 +5016,36 @@
         "D": "whether"
        },
        "answer": "B",
-       "explanation": "Đáp án B (what) là đúng vì các lý do sau:\n1. Cần một đại từ nghi vấn để mở đầu mệnh đề danh từ.\n2. \"What is causing\" là cấu trúc để hỏi về nguyên nhân.\n3. Phù hợp với ngữ cảnh về việc tìm hiểu nguyên nhân.\n4. Các đáp án khác không phù hợp: \"nor\" (cũng không), \"that\" (rằng), \"whether\" (liệu có).\nDịch câu hỏi: Các nhà phân tích của chúng tôi không thể xác định chính xác điều gì đang gây ra sự sụt giảm trong doanh số.\nDịch đáp án:\nA. nor (liên từ: cũng không)\nB. what (đại từ nghi vấn: cái gì)\nC. that (liên từ: rằng)\nD. whether (liên từ: liệu có)",
+       "explanation": "Đáp án B (what) là đúng vì các lý do sau:\n1. Cần một đại từ nghi vấn để mở đầu mệnh đề danh từ.\n2. \"What is causing\" là cấu trúc để hỏi về nguyên nhân.\n3. Phù hợp với ngữ cảnh về việc tìm hiểu nguyên nhân.\n4. Các đáp án khác không phù hợp: \"nor\" (cũng không), \"that\" (rằng), \"whether\" (liệu có).\nDịch câu hỏi: Các nhà phân tích của chúng tôi không thể xác định chính xác điều gì đang gây ra sự sụt giảm trong doanh số.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "cũng không"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "cái gì"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "rằng"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "liệu có"
+        }
+       }
       }
      ]
     },
@@ -4475,10 +5070,36 @@
         "D": "detailed"
        },
        "answer": "A",
-       "explanation": "Đáp án A (willing) là đúng vì các lý do sau:\n1. Cần một tính từ chỉ sự sẵn lòng.\n2. \"Be willing to do something\" là cấu trúc chỉ sự sẵn sàng làm gì.\n3. Phù hợp với ngữ cảnh về việc điền khảo sát.\n4. Các đáp án khác không phù hợp: \"capable\" (có khả năng), \"fortunate\" (may mắn), \"detailed\" (chi tiết).\nDịch câu hỏi: Ít khách hàng sẵn lòng điền vào toàn bộ bảng khảo sát phản hồi.\nDịch đáp án:\nA. willing (tính từ: sẵn lòng)\nB. capable (tính từ: có khả năng)\nC. fortunate (tính từ: may mắn)\nD. detailed (tính từ: chi tiết)",
+       "explanation": "Đáp án A (willing) là đúng vì các lý do sau:\n1. Cần một tính từ chỉ sự sẵn lòng.\n2. \"Be willing to do something\" là cấu trúc chỉ sự sẵn sàng làm gì.\n3. Phù hợp với ngữ cảnh về việc điền khảo sát.\n4. Các đáp án khác không phù hợp: \"capable\" (có khả năng), \"fortunate\" (may mắn), \"detailed\" (chi tiết).\nDịch câu hỏi: Ít khách hàng sẵn lòng điền vào toàn bộ bảng khảo sát phản hồi.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "sẵn lòng"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "có khả năng"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "may mắn"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "chi tiết"
+        }
+       }
       }
      ]
     },
@@ -4503,10 +5124,36 @@
         "D": "accordingly"
        },
        "answer": "D",
-       "explanation": "Đáp án D (accordingly) là đúng vì các lý do sau:\n1. Cần một trạng từ chỉ sự phù hợp với tình huống.\n2. \"Accordingly\" có nghĩa là \"theo đó, phù hợp\".\n3. Diễn tả việc sắp xếp kỳ nghỉ phù hợp với mùa bận rộn.\n4. Các đáp án khác không phù hợp: \"formerly\" (trước đây), \"considerably\" (đáng kể), \"consecutively\" (liên tiếp).\nDịch câu hỏi: Mùa cao điểm của chúng tôi là vào đầu mùa xuân, vì vậy nhân viên nên sắp xếp thời gian nghỉ phép của họ cho phù hợp.\nDịch đáp án:\nA. formerly (trạng từ: trước đây)\nB. considerably (trạng từ: đáng kể)\nC. consecutively (trạng từ: liên tiếp)\nD. accordingly (trạng từ: theo đó)",
+       "explanation": "Đáp án D (accordingly) là đúng vì các lý do sau:\n1. Cần một trạng từ chỉ sự phù hợp với tình huống.\n2. \"Accordingly\" có nghĩa là \"theo đó, phù hợp\".\n3. Diễn tả việc sắp xếp kỳ nghỉ phù hợp với mùa bận rộn.\n4. Các đáp án khác không phù hợp: \"formerly\" (trước đây), \"considerably\" (đáng kể), \"consecutively\" (liên tiếp).\nDịch câu hỏi: Mùa cao điểm của chúng tôi là vào đầu mùa xuân, vì vậy nhân viên nên sắp xếp thời gian nghỉ phép của họ cho phù hợp.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "trước đây"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "đáng kể"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "liên tiếp"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "theo đó"
+        }
+       }
       }
      ]
     },
@@ -4531,10 +5178,30 @@
         "D": "Because"
        },
        "answer": "D",
-       "explanation": "Đáp án D (Because) là đúng vì các lý do sau:\n1. Cần một liên từ chỉ nguyên nhân.\n2. \"Because of\" là cụm giới từ chỉ nguyên nhân.\n3. Diễn tả lý do cuốn sách đứng đầu danh sách bán chạy.\n4. Các đáp án khác không phù hợp: \"In place\" (thay thế), \"In the event\" (trong trường hợp), \"Regardless\" (bất kể).\nDịch câu hỏi: Vì có nhiều đánh giá xuất sắc trên các ấn phẩm lớn, cuốn sách đã ra mắt ở vị trí đầu danh sách bán chạy nhất.\nDịch đáp án:\nA. In place (cụm từ: thay thế)\nB. In the event (cụm từ: trong trường hợp)\nC. Regardless (phó từ: bất kể)\nD. Because (liên từ: bởi vì)",
+       "explanation": "Đáp án D (Because) là đúng vì các lý do sau:\n1. Cần một liên từ chỉ nguyên nhân.\n2. \"Because of\" là cụm giới từ chỉ nguyên nhân.\n3. Diễn tả lý do cuốn sách đứng đầu danh sách bán chạy.\n4. Các đáp án khác không phù hợp: \"In place\" (thay thế), \"In the event\" (trong trường hợp), \"Regardless\" (bất kể).\nDịch câu hỏi: Vì có nhiều đánh giá xuất sắc trên các ấn phẩm lớn, cuốn sách đã ra mắt ở vị trí đầu danh sách bán chạy nhất.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "thay thế"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "trong trường hợp"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "phó từ: bất kể"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "bởi vì"
+        }
+       }
       }
      ]
     },
@@ -4559,10 +5226,36 @@
         "D": "nominate"
        },
        "answer": "B",
-       "explanation": "Đáp án B (nominated) là đúng vì các lý do sau:\n1. Cần một quá khứ phân từ để tạo thành thể bị động.\n2. \"Be nominated for\" là cấu trúc bị động chỉ việc được đề cử.\n3. Phù hợp với ngữ cảnh về việc được đề cử nhận giải thưởng.\n4. Các đáp án khác không phù hợp: \"nominee\" (người được đề cử), \"nomination\" (sự đề cử), \"nominate\" (đề cử).\nDịch câu hỏi: Bất kỳ nhân viên nào đã làm việc tại Boone, Inc. hơn sáu tháng đều có thể được đề cử cho sự ghi nhận này.\nDịch đáp án:\nA. nominee (danh từ: người được đề cử)\nB. nominated (quá khứ phân từ: được đề cử)\nC. nomination (danh từ: sự đề cử)\nD. nominate (động từ: đề cử)",
+       "explanation": "Đáp án B (nominated) là đúng vì các lý do sau:\n1. Cần một quá khứ phân từ để tạo thành thể bị động.\n2. \"Be nominated for\" là cấu trúc bị động chỉ việc được đề cử.\n3. Phù hợp với ngữ cảnh về việc được đề cử nhận giải thưởng.\n4. Các đáp án khác không phù hợp: \"nominee\" (người được đề cử), \"nomination\" (sự đề cử), \"nominate\" (đề cử).\nDịch câu hỏi: Bất kỳ nhân viên nào đã làm việc tại Boone, Inc. hơn sáu tháng đều có thể được đề cử cho sự ghi nhận này.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "người được đề cử"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được đề cử"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự đề cử"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đề cử"
+        }
+       }
       }
      ]
     },
@@ -4587,10 +5280,36 @@
         "D": "criticizing"
        },
        "answer": "C",
-       "explanation": "Đáp án C (critical) là đúng vì các lý do sau:\n1. Cần một tính từ để bổ nghĩa cho danh từ \"need\".\n2. \"Critical need\" là cụm từ chỉ nhu cầu cấp thiết.\n3. Phù hợp với ngữ cảnh về sự thiếu hụt bác sĩ thú y.\n4. Các đáp án khác không phù hợp: \"critically\" (trạng từ), \"critic\" (nhà phê bình), \"criticizing\" (đang phê bình).\nDịch câu hỏi: Với sự phát triển gần đây của ngành chăn nuôi gia súc, Quận Pell hiện đang có nhu cầu cấp thiết về thêm các bác sĩ thú y cho động vật lớn.\nDịch đáp án:\nA. critically (trạng từ: cấp thiết)\nB. critic (danh từ: nhà phê bình)\nC. critical (tính từ: cấp thiết)\nD. criticizing (động từ ing: đang phê bình)",
+       "explanation": "Đáp án C (critical) là đúng vì các lý do sau:\n1. Cần một tính từ để bổ nghĩa cho danh từ \"need\".\n2. \"Critical need\" là cụm từ chỉ nhu cầu cấp thiết.\n3. Phù hợp với ngữ cảnh về sự thiếu hụt bác sĩ thú y.\n4. Các đáp án khác không phù hợp: \"critically\" (trạng từ), \"critic\" (nhà phê bình), \"criticizing\" (đang phê bình).\nDịch câu hỏi: Với sự phát triển gần đây của ngành chăn nuôi gia súc, Quận Pell hiện đang có nhu cầu cấp thiết về thêm các bác sĩ thú y cho động vật lớn.",
        "tags": [
         "word-form"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "cấp thiết"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhà phê bình"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "cấp thiết"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang phê bình"
+        }
+       }
       }
      ]
     },
@@ -4615,10 +5334,36 @@
         "D": "continuity"
        },
        "answer": "A",
-       "explanation": "Đáp án A (pace) là đúng vì các lý do sau:\n1. Cần một danh từ để tạo thành cụm từ cố định.\n2. \"Keep pace with\" là cụm động từ có nghĩa \"theo kịp\".\n3. Phù hợp với ngữ cảnh về việc đáp ứng nhu cầu của khách hàng.\n4. Các đáp án khác không phù hợp: \"output\" (đầu ra), \"balance\" (cân bằng), \"continuity\" (sự liên tục).\nDịch câu hỏi: Dịch vụ phát trực tuyến Vizzia đang phải vật lộn để theo kịp nhu cầu về nội dung mới của người xem.\nDịch đáp án:\nA. pace (danh từ: nhịp độ)\nB. output (danh từ: đầu ra)\nC. balance (danh từ: cân bằng)\nD. continuity (danh từ: sự liên tục)",
+       "explanation": "Đáp án A (pace) là đúng vì các lý do sau:\n1. Cần một danh từ để tạo thành cụm từ cố định.\n2. \"Keep pace with\" là cụm động từ có nghĩa \"theo kịp\".\n3. Phù hợp với ngữ cảnh về việc đáp ứng nhu cầu của khách hàng.\n4. Các đáp án khác không phù hợp: \"output\" (đầu ra), \"balance\" (cân bằng), \"continuity\" (sự liên tục).\nDịch câu hỏi: Dịch vụ phát trực tuyến Vizzia đang phải vật lộn để theo kịp nhu cầu về nội dung mới của người xem.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "nhịp độ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "đầu ra"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "cân bằng"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "sự liên tục"
+        }
+       }
       }
      ]
     },
@@ -4643,10 +5388,36 @@
         "D": "permit"
        },
        "answer": "C",
-       "explanation": "Đáp án C (document) là đúng vì các lý do sau:\n1. Cần một động từ chỉ việc ghi chép, lưu trữ thông tin.\n2. \"Document processes\" là cụm từ chỉ việc lập tài liệu về quy trình.\n3. Phù hợp với mục đích cho người khác tiếp quản công việc.\n4. Các đáp án khác không phù hợp: \"access\" (truy cập), \"impact\" (tác động), \"permit\" (cho phép).\nDịch câu hỏi: Công ty yêu cầu nhân viên cấp cao lập tài liệu về quy trình làm việc của họ để những người khác có thể đảm nhận vai trò của họ khi họ vắng mặt.\nDịch đáp án:\nA. access (động từ: truy cập)\nB. impact (động từ: tác động)\nC. document (động từ: lập tài liệu)\nD. permit (động từ: cho phép)",
+       "explanation": "Đáp án C (document) là đúng vì các lý do sau:\n1. Cần một động từ chỉ việc ghi chép, lưu trữ thông tin.\n2. \"Document processes\" là cụm từ chỉ việc lập tài liệu về quy trình.\n3. Phù hợp với mục đích cho người khác tiếp quản công việc.\n4. Các đáp án khác không phù hợp: \"access\" (truy cập), \"impact\" (tác động), \"permit\" (cho phép).\nDịch câu hỏi: Công ty yêu cầu nhân viên cấp cao lập tài liệu về quy trình làm việc của họ để những người khác có thể đảm nhận vai trò của họ khi họ vắng mặt.",
        "tags": [
         "vocabulary"
-       ]
+       ],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "truy cập"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "tác động"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "lập tài liệu"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "cho phép"
+        }
+       }
       }
      ]
     }
