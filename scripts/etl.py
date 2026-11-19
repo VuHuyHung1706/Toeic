@@ -469,8 +469,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                     "explanation": r["explanation"],
                 }
                 q["tags"] = tag_question(q)
-                if part == 5:
-                    apply_option_notes(q)
+                apply_option_notes(q)
                 if part not in GROUPED_PARTS and r["transcript"]:
                     q["transcript"] = r["transcript"]
                 group["questions"].append(q)

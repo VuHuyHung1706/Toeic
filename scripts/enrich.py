@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import re
+from difflib import SequenceMatcher
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -330,7 +331,7 @@ def parse_option_line(line: str, options: dict, relaxed: bool = False) -> tuple[
                     pos += p
                     if sep and tail.strip():
                         meaning = meaning or tail.strip()
-                elif not meaning:
+                elif not meaning and not POS_ONLY_RE.fullmatch(inner.strip()):  # "(cụm từ chỉ sự sở hữu)" chỉ là nhãn
                     meaning = inner
         elif re.match(r"^(?:danh từ|động từ|tính từ|trạng từ|giới từ|liên từ|đại từ)", after0, re.I):
             # "- tính từ có nghĩa …" / "trạng từ (xa, rất)": loại từ đứng đầu phần mô tả
@@ -372,25 +373,146 @@ def gloss_of_line(line: str, options: dict, relaxed: bool = False) -> tuple[str,
 
 # dấu hiệu dòng có kèm lập luận (giữ lại trong giải thích), không chỉ là bản dịch phương án
 COMMENT_RE = re.compile(r"\s[-–—]\s+\S|phù hợp|\bvì\b|\bkhông\b|nhưng|cấu trúc|dùng để|là đúng|chính xác|ngữ cảnh", re.I)
-OPTION_HEADER_RE = re.compile(r"^\s*(?:dịch\s+)?(?:các\s+)?(?:đáp án|phương án|lựa chọn)[^:\n]{0,25}:\s*$", re.I)
+OPTION_HEADER_RE = re.compile(r"^\s*(?:dịch\s+)?(?:các\s+)?(?:đáp án|phương án|lựa chọn)[^:\n]{0,40}:\s*$", re.I)
+
+
+# --- dịch phương án dạng câu (Part 1–4, 6, 7): "A. Anh ấy đang …", "A: To repair (Để sửa …)" ---
+SENT_OPTION_RE = re.compile(r"^\s*(?:[-•*]\s*)?(Đáp án\s*)?\(?([A-D])\)?([.:)\-]\s*|\s+)(.+?)\s*$")
+# nhận xét dính sau bản dịch: "… là mô tả đúng nhất.", "… không phù hợp.", "… không phải là hình ảnh đúng."
+VERDICT_TAIL_RE = re.compile(r"\s*[,;-]?\s*(?:là\s+)?(?:mô tả|câu trả lời|đáp án|lựa chọn)?\s*(?:đúng nhất|chính xác nhất|chính xác|"
+                             r"không phù hợp|không đúng|không chính xác|không phải là (?:hình ảnh|mô tả|đáp án) đúng|sai)\.?$", re.I)
+NOT_SENT_MEANING_RE = re.compile(
+    r"^(?:sai|đúng|không đúng|đáp án|là\b|chính xác)|(?:đúng|sai|là) vì\b|là đúng|là chính xác|phù hợp|được nhắc|không được|"
+    r"đề cập đến trong|giải thích|lý do|^đây\b|không phải|nghĩa là|tức là|ngụ ý|gián tiếp|trả lời câu hỏi|người hỏi|"
+    r"người nói(?! chuyện)|câu hỏi|được đề cập|xác nhận rằng|^[\"“]", re.I)
+RESIDUAL_OK_RE = re.compile(r"^(?:câu|cụm từ|cụm|đúng|sai|correct|incorrect|đáp án đúng)?$", re.I)
+
+
+def _simplify(t: str) -> str:
+    return re.sub(r"[^\w\s]", "", t.lower().replace("’", "'")).strip()
+
+
+def _similar(a: str, b: str) -> bool:
+    a, b = _simplify(a), _simplify(b)
+    return bool(a) and bool(b) and (a == b or SequenceMatcher(None, a, b).ratio() >= 0.85)
+
+
+def sentence_gloss(line: str, options: dict) -> tuple[str, str, bool] | None:
+    """Dòng dịch một phương án dạng câu → (chữ cái, bản dịch, dòng chỉ có bản dịch hay không)."""
+    m = SENT_OPTION_RE.match(line)
+    if not m:
+        return None
+    prefix, letter, sep, content = m.groups()
+    opt = (options.get(letter) or "").replace("\ufeff", "").strip()
+    if not opt:
+        return None
+    c = content.strip()
+    lead = re.match(r"^\(([^()]{1,120})\)\s*[:\-–]\s*\S", c)
+    if prefix and not sep.strip() and not lead:
+        return None  # "Đáp án C gián tiếp trả lời…": câu nhận xét, không phải bản dịch
+    pure = not c.endswith(":")  # "D. has evolved (đã tiến hóa):" → lập luận ở các dòng sau
+    tail = VERDICT_TAIL_RE.search(c)
+    if tail and not lead and len(c) - len(tail.group(0)) > 3:
+        c = c[: tail.start()].rstrip(" ,;-")
+        pure = False  # dòng có kèm nhận xét đúng/sai → giữ lại trong giải thích
+    if lead:  # "Đáp án A (Kẹo): Sai - Không được nhắc đến." → bản dịch trong ngoặc, giữ dòng (có lập luận)
+        meaning, pure = lead.group(1), False
+    else:
+        cq = c.strip("\"“”'")
+        pos = _simplify(cq).find(_simplify(opt)) if _simplify(opt) else -1
+        idx = cq.lower().find(opt.lower().rstrip(".?!"))
+        if idx >= 0:  # bản gốc nằm trong dòng → phần còn lại (thường trong ngoặc) là bản dịch
+            rest = (cq[:idx] + " " + cq[idx + len(opt.rstrip(".?!")):]).strip()
+            rest = re.sub(r"^[\"“”'.?!]+|[\"“”']+$", "", rest).strip()
+            inner = [x for x in PAREN_RE.findall(rest) if VI_CHARS_RE.search(x)]
+            meaning = inner[0] if inner else re.sub(r"^[:\-–=]\s*", "", PAREN_RE.sub("", rest)).strip()
+        else:
+            parens = PAREN_RE.findall(cq)
+            same = [x for x in parens if _similar(x, opt)]
+            meaning = PAREN_RE.sub("", cq).strip() if same else cq
+        del pos
+    meaning = re.sub(r"\((?:đúng|sai|đáp án đúng)\)", "", meaning, flags=re.I).strip().strip("\"“”'").strip()
+    meaning = re.sub(r"\s*[-–]\s*(?:câu|cụm từ)$", "", meaning).strip()
+    # "Nó mở cửa mỗi ngày: Không đúng, …" → bản dịch là phần trước nhận xét
+    parts = re.split(r"\s*:\s*(?=(?:Không|Đúng|Sai|Đây|Chính xác)\b)", meaning, maxsplit=1)
+    if len(parts) > 1:
+        meaning, pure = parts[0].strip(), False
+    if (not meaning or len(meaning) > 220 or not VI_CHARS_RE.search(meaning)
+            or NOT_SENT_MEANING_RE.search(meaning) or _similar(meaning, opt)):
+        return None
+    if pure:  # còn lại gì ngoài chữ cái, bản gốc, bản dịch?
+        residual = _simplify(line.replace(meaning, " ").replace(opt.rstrip(".?!"), " "))
+        residual = re.sub(r"^\s*(?:đáp án\s*)?[a-d]\b", "", residual).strip()
+        pure = bool(RESIDUAL_OK_RE.match(residual))
+    return letter, meaning, pure
+
+
+POS_ONLY_RE = re.compile(r"(?:(?:danh|động|tính|trạng|giới|liên|đại) từ|cụm từ|danh động từ|phân từ)[^,;:]{0,30}", re.I)
+WORD_BAD_RE = re.compile(r"không phải|^đây là|đề cập|được nhắc|câu hỏi|người nói(?! chuyện)|người gửi|^là\b", re.I)
+
+
+def option_line_note(line: str, options: dict) -> tuple[str, list[str], str, bool] | None:
+    """Nếu dòng là phần dịch một phương án → (chữ cái, loại từ, nghĩa, dòng chỉ có bản dịch)."""
+    m = SENT_OPTION_RE.match(line)
+    if m and re.fullmatch(r"\[\d\]", (options.get(m.group(2)) or "").strip()):
+        return None  # Part 7 chèn câu: phương án là vị trí [1]–[4], dòng đi kèm là lập luận
+    g = gloss_of_line(line, options, relaxed=True)
+    if g and g[2] and len((options.get(g[0]) or "").split()) <= 3:
+        letter, pos, meaning = g
+        # "vào ngày 28 tháng 9: Không phải ngày …" → chỉ lấy phần trước nhận xét
+        parts = re.split(r"\s*:\s*(?=(?:Không|Đúng|Sai|Đây)\b)", meaning, maxsplit=1)
+        verdict = len(parts) > 1
+        meaning = parts[0].strip()
+        # "tính từ: không hoạt động" → loại từ + nghĩa
+        mp = re.match(r"^((?:danh|động|tính|trạng|giới|liên|đại) từ[^:]{0,15}|cụm từ)\s*:\s*(.+)$", meaning, re.I)
+        if mp:
+            pos = sorted(set(pos) | set(_pos_of(mp.group(1))))
+            meaning = mp.group(2).strip()
+        if not meaning or WORD_BAD_RE.search(meaning):
+            return None  # thực chất là lập luận ("đây là sức chứa …, không phải …")
+        if POS_ONLY_RE.fullmatch(meaning):  # "động từ quá khứ đơn": chỉ có loại từ, không có nghĩa
+            pos = sorted(set(pos) | set(_pos_of(meaning)))
+            meaning = ""
+        rest = re.sub(r"\((?:đúng|sai|đáp án đúng)\)", "", line, flags=re.I)
+        rest = rest.replace(meaning, "") if meaning else rest
+        rest = PAREN_RE.sub("", rest)  # ghi chú loại từ trong ngoặc: "(đại từ không xác định)"
+        pure = not verdict and not COMMENT_RE.search(rest) and not line.rstrip().endswith(":")
+        return letter, pos, meaning, pure
+    sg = sentence_gloss(line, options)
+    if sg:
+        letter, meaning, pure = sg
+        pos = g[1] if g else []
+        if POS_ONLY_RE.fullmatch(meaning):  # "modify (động từ nguyên thể)" → chỉ có loại từ
+            pos, meaning = sorted(set(pos) | set(_pos_of(meaning))), ""
+        tail = re.search(r"\s*\(([^()]*\b(?:danh|động|tính|trạng|giới|liên|đại) từ[^()]*)\)\s*$", meaning)
+        if tail:  # "Một món đồ quần áo (danh từ chỉ vật dụng)" → nhãn loại từ tách ra
+            pos = sorted(set(pos) | set(_pos_of(tail.group(1))))
+            meaning = meaning[: tail.start()].strip()
+        return letter, pos, meaning, pure
+    return None
 
 
 def apply_option_notes(q: dict) -> None:
-    """Part 5: nghĩa + loại từ của từng phương án → q["optionNotes"]; bỏ các dòng chỉ để dịch phương án."""
+    """Nghĩa (+ loại từ nếu là từ/cụm ngắn) của từng phương án → q["optionNotes"];
+    bỏ khỏi giải thích các dòng chỉ để dịch phương án."""
     lines = q["explanation"].split("\n")
     notes: dict[str, dict] = {}
     drop: set[int] = set()
     for i, line in enumerate(lines):
-        g = gloss_of_line(line, q["options"], relaxed=True)
-        if not g:
+        n = option_line_note(line, q["options"])
+        if not n:
             continue
-        letter, pos, meaning = g
-        if meaning and letter not in notes:
+        letter, pos, meaning, pure = n
+        if not meaning and not pos:
+            continue
+        if letter not in notes:
             notes[letter] = {"pos": pos, "meaning": meaning}
-        elif letter in notes and not notes[letter]["pos"] and pos:
-            notes[letter]["pos"] = pos  # dòng sau có ghi loại từ ("Đáp án A: qua (giới từ)")
-        rest = re.sub(r"\((?:đúng|sai|đáp án đúng)\)", "", line, flags=re.I).replace(meaning, "")
-        if meaning and not COMMENT_RE.search(rest):
+        else:  # bổ sung phần còn thiếu từ dòng sau ("Đáp án A: qua (giới từ)")
+            if not notes[letter]["pos"] and pos:
+                notes[letter]["pos"] = pos
+            if not notes[letter]["meaning"] and meaning:
+                notes[letter]["meaning"] = meaning
+        if pure:
             drop.add(i)
     # tiêu đề "Dịch đáp án:" / "Đáp án:" mà cả mục bên dưới đã bị bỏ
     for i, line in enumerate(lines):
@@ -410,10 +532,10 @@ def apply_option_notes(q: dict) -> None:
 
 def _option_glosses(q: dict, part: int):
     """(chữ cái, từ, loại từ, nghĩa) của các phương án: Part 5 lấy từ optionNotes, Part 6 đọc dòng giải thích."""
-    if part == 5 and "optionNotes" in q:
+    if part in (5, 6) and "optionNotes" in q:
         for letter, n in q["optionNotes"].items():
             word = re.sub(r"\s+", " ", (q["options"].get(letter) or "").strip())
-            if word:
+            if word and n["meaning"]:
                 yield letter, word, n["pos"], n["meaning"]
         return
     for line in q.get("explanation", "").split("\n"):

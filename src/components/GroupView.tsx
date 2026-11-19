@@ -212,7 +212,7 @@ function QuestionCard({
               {showText && (
                 <span className="pt-0.5">
                   {q.options[L]}
-                  {/* song ngữ: nghĩa + loại từ của phương án (Part 5), chỉ hiện khi đã có đáp án */}
+                  {/* song ngữ: nghĩa (+ loại từ) của phương án, chỉ hiện khi đã có đáp án */}
                   {revealed && q.optionNotes?.[L] && (
                     <span className="mt-0.5 block text-sm text-primary">
                       {q.optionNotes[L]!.pos.length > 0 && (

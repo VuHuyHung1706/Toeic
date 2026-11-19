@@ -48,8 +48,26 @@
         "D": "The man is picking up a rock."
        },
        "answer": "B",
-       "explanation": "A: Người đàn ông đang trèo lên một cái thang.\nB: Người đàn ông đang đeo một chiếc ba lô.\nC: Người đàn ông đang thư giãn trong khu vực có bóng râm.\nD: Người đàn ông đang nhặt một viên đá.",
-       "tags": []
+       "explanation": "",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Người đàn ông đang trèo lên một cái thang."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Người đàn ông đang đeo một chiếc ba lô."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Người đàn ông đang thư giãn trong khu vực có bóng râm."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Người đàn ông đang nhặt một viên đá."
+        }
+       }
       }
      ]
     },
@@ -82,8 +100,26 @@
         "D": "The man is raking some leaves."
        },
        "answer": "C",
-       "explanation": "A: Người đàn ông đang chặt cây.\nB: Người đàn ông đang sửa chữa một cỗ máy.\nC: Người đàn ông đang đo kích thước một tấm ván.\nD: Người đàn ông đang liếc lá.",
-       "tags": []
+       "explanation": "",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Người đàn ông đang chặt cây."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Người đàn ông đang sửa chữa một cỗ máy."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Người đàn ông đang đo kích thước một tấm ván."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Người đàn ông đang liếc lá."
+        }
+       }
       }
      ]
     },
@@ -116,8 +152,26 @@
         "D": "They're seated across from one another."
        },
        "answer": "D",
-       "explanation": "A: Một trong những phụ nữ đang viết trên giấy.\nB: Một trong những phụ nữ đang đóng một cuốn hồ sơ.\nC: Họ đang nhìn vào một số bức ảnh.\nD: Họ đang ngồi đối diện nhau.",
-       "tags": []
+       "explanation": "",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một trong những phụ nữ đang viết trên giấy."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một trong những phụ nữ đang đóng một cuốn hồ sơ."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Họ đang nhìn vào một số bức ảnh."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Họ đang ngồi đối diện nhau."
+        }
+       }
       }
      ]
     },
@@ -150,8 +204,26 @@
         "D": "Some people are seated outdoors."
        },
        "answer": "D",
-       "explanation": "A: Công nhân đang ra khỏi phía sau một chiếc xe van.\nB: Một số cây đã đổ ngang qua đường.\nC: Một người đàn ông đang tưới cây trong chậu.\nD: Một số người đang ngồi ngoài trời.",
-       "tags": []
+       "explanation": "",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Công nhân đang ra khỏi phía sau một chiếc xe van."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một số cây đã đổ ngang qua đường."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một người đàn ông đang tưới cây trong chậu."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một số người đang ngồi ngoài trời."
+        }
+       }
       }
      ]
     },
@@ -184,8 +256,26 @@
         "D": "Some chairs are facing a television screen."
        },
        "answer": "D",
-       "explanation": "A: Người phụ nữ đang điều chỉnh dây đeo đồng hồ.\nB: Người phụ nữ đang thiết lập một trưng bày tranh.\nC: Một bức tường gạch đang được đo.\nD: Một số ghế đang hướng về màn hình truyền hình.",
-       "tags": []
+       "explanation": "",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Người phụ nữ đang điều chỉnh dây đeo đồng hồ."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Người phụ nữ đang thiết lập một trưng bày tranh."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một bức tường gạch đang được đo."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một số ghế đang hướng về màn hình truyền hình."
+        }
+       }
       }
      ]
     },
@@ -218,8 +308,26 @@
         "D": "Some branches are piled beside a truck."
        },
        "answer": "B",
-       "explanation": "A: Một số phương tiện đang xếp hàng tại một ngã tư.\nB: Một số phương tiện đang đậu trước hàng rào.\nC: Một số viên đá lớn đang chặn đường vào công viên.\nD: Một số cành cây đang được xếp bên cạnh một chiếc xe tải.",
-       "tags": []
+       "explanation": "",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một số phương tiện đang xếp hàng tại một ngã tư."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một số phương tiện đang đậu trước hàng rào."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một số viên đá lớn đang chặn đường vào công viên."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một số cành cây đang được xếp bên cạnh một chiếc xe tải."
+        }
+       }
       }
      ]
     }
@@ -254,7 +362,8 @@
        "explanation": "Bạn đã đi xem nhà hát nào?\nKhông, nó không phải.\nNhà hát ở đường Oak Ridge.\nVào lúc sáu giờ.",
        "tags": [
         "what"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -284,7 +393,8 @@
        "explanation": "Ngày cuối cùng để hoàn thành khảo sát là khi nào?\nSố dịch vụ khách hàng.\nChúng tôi có nhà cung cấp mới.\nThứ Tư.",
        "tags": [
         "what"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -314,7 +424,8 @@
        "explanation": "Khi nào bạn dự định chuyển ra khỏi căn hộ của mình?\nDi chuyển nó sang phải, làm ơn.\nVào cuối tháng tới.\nĐây là bản kế hoạch tầng.",
        "tags": [
         "when"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -344,7 +455,8 @@
        "explanation": "Buổi diễn bắt đầu khi nào?\nVâng, tôi đã cho cô ấy xem rồi.\nTrong hàng thứ ba.\nNó bắt đầu trong một giờ.",
        "tags": [
         "when"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -374,7 +486,8 @@
        "explanation": "Ai sẽ dẫn dắt đội mới?\nThomas đã được chọn.\nThông cáo báo chí.\nMột màn hình hoàn toàn mới.",
        "tags": [
         "who"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -404,7 +517,8 @@
        "explanation": "Tại sao chuyến bay của bạn bị hoãn?\nBởi vì thời tiết xấu.\nChúng tôi có thể lên lịch lại chuyến thăm của thợ điện.\nTại sân bay thành phố.",
        "tags": [
         "why"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -434,7 +548,8 @@
        "explanation": "Bạn dự định mở cửa hàng tiếp theo ở đâu?\nTháng Giêng tới.\nVâng, trong bản kế hoạch tầng.\nGần trung tâm thành phố.",
        "tags": [
         "where"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -464,7 +579,8 @@
        "explanation": "Ai đã thiết kế đồng phục?\nBạn có thể đăng nhập ở đây.\nVâng, chúng tôi mặc chúng để làm việc.\nMột công ty ở Chicago.",
        "tags": [
         "who"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -494,7 +610,8 @@
        "explanation": "Tôi đề xuất món đặc biệt bữa tối chay.\nĐược rồi, tôi sẽ lấy món đó.\nHai túi chanh xanh.\nNgay cạnh thang máy.",
        "tags": [
         "statement"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -524,7 +641,8 @@
        "explanation": "Chúng ta sẽ làm sao để đơn hàng này được hoàn thành đúng hạn?\nBạn muốn súp hay salad?\nMaria cũng đi đó.\nChúng ta sẽ phải làm thêm giờ.",
        "tags": [
         "how"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -554,7 +672,8 @@
        "explanation": "Bạn có mã cổng không, hay tôi nên tra cứu?\nNó vừa được sơn mới.\nTôi có số đó.\nMột hợp đồng thuê hai năm.",
        "tags": [
         "choice"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -584,7 +703,8 @@
        "explanation": "Chúng ta nên thăm kho hàng tuần này hay tuần sau?\nSẽ có mặt tại trụ sở công ty tuần sau.\nWow, đó là rất nhiều không gian!\nMột thẻ khách tham quan.",
        "tags": [
         "request"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -614,7 +734,8 @@
        "explanation": "Bạn không muốn đến buổi trưa của nhân viên sao?\nVâng, tôi đang mong đợi điều đó.\nPhòng họp lớn nhất.\nMột loạt các loại sandwich.",
        "tags": [
         "negative-tag"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -644,7 +765,8 @@
        "explanation": "Bạn có thể giới thiệu một tiệm tóc địa phương không?\nTôi sẽ cần biên lai của bạn để xử lý hoàn tiền.\nVâng, thời tiết dự kiến sẽ đẹp cả tuần.\nCó một thợ tạo mẫu tốt trên đường Fourteenth.",
        "tags": [
         "request"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -674,7 +796,8 @@
        "explanation": "Tôi có một số tài liệu ở đây để bạn ký.\nNó vào lúc bốn giờ ngày mai.\nTôi cũng thích thiết kế đó.\nĐược rồi, để tôi xem qua.",
        "tags": [
         "statement"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -704,7 +827,8 @@
        "explanation": "Bạn dự định ăn tại chỗ hay mang thức ăn đi với bạn?\nVâng, nó ngon đấy.\nChỉ hơi trễ một chút.\nTôi có lẽ nên trở lại văn phòng.",
        "tags": [
         "choice"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -734,7 +858,8 @@
        "explanation": "Thảm này có kích thước phù hợp với phòng không?\nTôi sẽ tắt nó khi tôi hoàn thành.\nTôi đã đo nó ba lần.\nKho hàng ở đường River.",
        "tags": [
         "yes-no"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -764,7 +889,8 @@
        "explanation": "Bạn biết rằng đã sáu tháng kể từ khi chúng ta kiểm kê hàng hóa chưa?\nBạn có thể giới thiệu tôi với Victoria không?\nChai đó đặt trên kệ trên cùng.\nVâng, bây giờ chúng tôi làm điều đó một lần mỗi năm.",
        "tags": [
         "negative-tag"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -794,7 +920,8 @@
        "explanation": "Tôi cần biết ai đang tham dự triển lãm.\nThử xoay van sang trái.\nViệc đăng ký chưa đến hạn đến thứ Sáu.\nCó các mẫu ở gian 215.",
        "tags": [
         "statement"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -824,7 +951,8 @@
        "explanation": "Máy tính này đang trở nên khá chậm.\nLàm ơn chậm lại.\nMột công ty máy tính.\nĐây, bạn có thể sử dụng máy của tôi.",
        "tags": [
         "statement"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -854,7 +982,8 @@
        "explanation": "Bạn có biết những chiếc khăn này có 100% cotton không?\nNhững chiếc áo thun này nên được gấp lại để trưng bày.\nSản xuất tăng 80%.\nPhải có nhãn được may trên mép.",
        "tags": [
         "yes-no"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -884,7 +1013,8 @@
        "explanation": "Bạn không nên gửi những bản thảo này cho biên tập viên của bạn sao?\nBốn trăm trang.\nTôi đã gửi email chúng cho cô ấy rồi.\nTôi đã nên mang theo ô của mình.",
        "tags": [
         "negative-tag"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -914,7 +1044,8 @@
        "explanation": "Tôi không nghĩ ông Chen đã trở về từ chuyến công tác của mình chưa.\nVâng, phòng chờ ở tầng trên.\nTôi nghĩ thời gian trả phòng là vào buổi trưa.\nTôi đã thấy ông ấy chỉ hôm qua ở siêu thị.",
        "tags": [
         "statement"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -944,7 +1075,8 @@
        "explanation": "Văn phòng của Barbara ở đâu?\nMột số vật tư văn phòng, làm ơn.\nOh, đội bán hàng đã chuyển xuống tầng dưới.\nMột cuộc bầu cử thành phố gần đây.",
        "tags": [
         "where"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     },
@@ -974,7 +1106,8 @@
        "explanation": "Lối vào sân khấu của nhà hát đã được chuyển đến đường Fourteenth, phải không?\nOh, tôi thực sự thích công việc của đạo diễn đó.\nChắc chắn, tôi có thể phát các chương trình.\nTôi biết họ đã làm một số cải tạo gần đây.",
        "tags": [
         "negative-tag"
-       ]
+       ],
+       "optionNotes": {}
       }
      ]
     }
@@ -1014,8 +1147,26 @@
         "D": "Fashion designers"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Florists - Những người bán hoa).\nGiải thích:\nCuộc đối thoại đề cập đến việc làm các bó hoa (floral arrangements) và nguồn cung cấp hoa, điều này cho thấy những người nói chuyện có khả năng là những người bán hoa.\nDịch câu hỏi: Những người nói chuyện có khả năng là ai nhất?\nA. Đầu bếp\nB. Những người bán hoa\nC. Nhân viên ngân hàng\nD. Nhà thiết kế thời trang",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Florists - Những người bán hoa).\nGiải thích:\nCuộc đối thoại đề cập đến việc làm các bó hoa (floral arrangements) và nguồn cung cấp hoa, điều này cho thấy những người nói chuyện có khả năng là những người bán hoa.\nDịch câu hỏi: Những người nói chuyện có khả năng là ai nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "đầu bếp"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "những người bán hoa"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nhân viên ngân hàng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "nhà thiết kế thời trang"
+        }
+       }
       },
       {
        "number": 33,
@@ -1028,8 +1179,26 @@
         "D": "Review a checklist"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Find another supplier - Tìm một nhà cung cấp khác).\nGiải thích:\nNgười đàn ông nói: 'I'll find another source for the flowers.' (Tôi sẽ tìm một nguồn cung cấp hoa khác.)\nDịch câu hỏi: Người đàn ông nói anh ta sẽ làm gì?\nA. Gửi một khoản thanh toán\nB. Sắp xếp một cuộc họp\nC. Tìm một nhà cung cấp khác\nD. Xem xét lại một danh sách kiểm tra",
-       "tags": []
+       "explanation": "Đáp án đúng là C (Find another supplier - Tìm một nhà cung cấp khác).\nGiải thích:\nNgười đàn ông nói: 'I'll find another source for the flowers.' (Tôi sẽ tìm một nguồn cung cấp hoa khác.)\nDịch câu hỏi: Người đàn ông nói anh ta sẽ làm gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "gửi một khoản thanh toán"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "sắp xếp một cuộc họp"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tìm một nhà cung cấp khác"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "xem xét lại một danh sách kiểm tra"
+        }
+       }
       },
       {
        "number": 34,
@@ -1042,8 +1211,26 @@
         "D": "She has a medical appointment."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (She has a medical appointment - Cô ấy có một cuộc hẹn khám bệnh).\nGiải thích:\nNgười phụ nữ nói: 'I will need to leave early today to go to the doctor.' (Tôi sẽ cần phải rời đi sớm hôm nay để đi gặp bác sĩ.)\nDịch câu hỏi: Tại sao người phụ nữ nói cô ấy sẽ cần phải rời đi sớm?\nA. Cô ấy đang đi nghỉ.\nB. Cô ấy đang sửa xe của mình.\nC. Cô ấy có một sự kiện gia đình.\nD. Cô ấy có một cuộc hẹn khám bệnh.",
-       "tags": []
+       "explanation": "Đáp án đúng là D (She has a medical appointment - Cô ấy có một cuộc hẹn khám bệnh).\nGiải thích:\nNgười phụ nữ nói: 'I will need to leave early today to go to the doctor.' (Tôi sẽ cần phải rời đi sớm hôm nay để đi gặp bác sĩ.)\nDịch câu hỏi: Tại sao người phụ nữ nói cô ấy sẽ cần phải rời đi sớm?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Cô ấy đang đi nghỉ."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy đang sửa xe của mình."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy có một sự kiện gia đình."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Cô ấy có một cuộc hẹn khám bệnh."
+        }
+       }
       }
      ],
      "vocab": [
@@ -1110,8 +1297,26 @@
         "D": "A cashier"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (A receptionist - Một lễ tân).\nGiải thích:\nNgười phụ nữ xác nhận cuộc hẹn, thông báo cho bác sĩ về việc bệnh nhân đến muộn, và nhắc nhở về vị trí văn phòng mới. Đây là những nhiệm vụ điển hình của một lễ tân tại phòng khám.\nDịch câu hỏi: Người phụ nữ có khả năng là ai nhất?\nA. Một lễ tân\nB. Một nhân viên bảo vệ\nC. Một trợ lý phòng thí nghiệm\nD. Một thu ngân",
-       "tags": []
+       "explanation": "Đáp án đúng là A (A receptionist - Một lễ tân).\nGiải thích:\nNgười phụ nữ xác nhận cuộc hẹn, thông báo cho bác sĩ về việc bệnh nhân đến muộn, và nhắc nhở về vị trí văn phòng mới. Đây là những nhiệm vụ điển hình của một lễ tân tại phòng khám.\nDịch câu hỏi: Người phụ nữ có khả năng là ai nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một lễ tân"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một nhân viên bảo vệ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một trợ lý phòng thí nghiệm"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một thu ngân"
+        }
+       }
       },
       {
        "number": 36,
@@ -1124,8 +1329,22 @@
         "D": "Some equipment is broken."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (He is going to arrive late - Anh ta sẽ đến muộn).\nGiải thích:\nNgười đàn ông nói: 'it looks like I'm going to be about twenty minutes late. I'm stuck in some slow traffic' (có vẻ như tôi sẽ đến muộn khoảng 20 phút. Tôi đang bị kẹt trong giao thông chậm chạp)\nDịch câu hỏi: Người đàn ông báo cáo vấn đề gì?\nA. Anh ta đã mất thẻ căn cước của mình.\nB. Một số thư không được giao.\nC. Anh ta sẽ đến muộn.\nD. Một số thiết bị bị hỏng.",
-       "tags": []
+       "explanation": "Đáp án đúng là C (He is going to arrive late - Anh ta sẽ đến muộn).\nGiải thích:\nNgười đàn ông nói: 'it looks like I'm going to be about twenty minutes late. I'm stuck in some slow traffic' (có vẻ như tôi sẽ đến muộn khoảng 20 phút. Tôi đang bị kẹt trong giao thông chậm chạp)\nDịch câu hỏi: Người đàn ông báo cáo vấn đề gì?\nB. Một số thư không được giao.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Anh ta đã mất thẻ căn cước của mình."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Anh ta sẽ đến muộn."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một số thiết bị bị hỏng."
+        }
+       }
       },
       {
        "number": 37,
@@ -1138,8 +1357,26 @@
         "D": "An online directory"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (A change in location - Một sự thay đổi về địa điểm).\nGiải thích:\nNgười phụ nữ nhắc nhở: 'we've moved to a larger office in the medical building. We're on the second floor now.' (chúng tôi đã chuyển đến một văn phòng lớn hơn trong tòa nhà y tế. Chúng tôi hiện ở tầng hai.)\nDịch câu hỏi: Người phụ nữ nhắc nhở người đàn ông về điều gì?\nA. Một phương thức thanh toán\nB. Một sự thay đổi về địa điểm\nC. Một số giấy tờ cần thiết\nD. Một thư mục trực tuyến",
-       "tags": []
+       "explanation": "Đáp án đúng là B (A change in location - Một sự thay đổi về địa điểm).\nGiải thích:\nNgười phụ nữ nhắc nhở: 'we've moved to a larger office in the medical building. We're on the second floor now.' (chúng tôi đã chuyển đến một văn phòng lớn hơn trong tòa nhà y tế. Chúng tôi hiện ở tầng hai.)\nDịch câu hỏi: Người phụ nữ nhắc nhở người đàn ông về điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một phương thức thanh toán"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một sự thay đổi về địa điểm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một số giấy tờ cần thiết"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một thư mục trực tuyến"
+        }
+       }
       }
      ],
      "vocab": [
@@ -1191,8 +1428,26 @@
         "D": "Purchasing some costumes"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Hiring an actor - Thuê một diễn viên).\nGiải thích:\nCuộc đối thoại xoay quanh việc một diễn viên đã được chọn cho vai chính nhưng có thể từ chối, và người đàn ông muốn thương lượng để giữ cô ấy.\nDịch câu hỏi: Những người nói chuyện chủ yếu đang thảo luận về điều gì?\nA. Thuê một diễn viên\nB. Tái hiện một cảnh quay\nC. Thay thế một số máy quay\nD. Mua một số trang phục",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Hiring an actor - Thuê một diễn viên).\nGiải thích:\nCuộc đối thoại xoay quanh việc một diễn viên đã được chọn cho vai chính nhưng có thể từ chối, và người đàn ông muốn thương lượng để giữ cô ấy.\nDịch câu hỏi: Những người nói chuyện chủ yếu đang thảo luận về điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "thuê một diễn viên"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "tái hiện một cảnh quay"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "thay thế một số máy quay"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "mua một số trang phục"
+        }
+       }
       },
       {
        "number": 39,
@@ -1205,8 +1460,26 @@
         "D": "By negotiating a salary"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (By negotiating a salary - Bằng cách thương lượng mức lương).\nGiải thích:\nNgười đàn ông nói: 'Maybe I can offer her more money for the role.' (Có lẽ tôi có thể đề nghị cô ấy nhiều tiền hơn cho vai diễn.)\nDịch câu hỏi: Người đàn ông dự định giải quyết vấn đề bằng cách nào?\nA. Bằng cách thay đổi ngày bắt đầu\nB. Bằng cách thực hiện một số nghiên cứu\nC. Bằng cách sửa đổi kịch bản phim\nD. Bằng cách thương lượng mức lương",
-       "tags": []
+       "explanation": "Đáp án đúng là D (By negotiating a salary - Bằng cách thương lượng mức lương).\nGiải thích:\nNgười đàn ông nói: 'Maybe I can offer her more money for the role.' (Có lẽ tôi có thể đề nghị cô ấy nhiều tiền hơn cho vai diễn.)\nDịch câu hỏi: Người đàn ông dự định giải quyết vấn đề bằng cách nào?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Bằng cách thay đổi ngày bắt đầu"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Bằng cách thực hiện một số nghiên cứu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Bằng cách sửa đổi kịch bản phim"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Bằng cách thương lượng mức lương"
+        }
+       }
       },
       {
        "number": 40,
@@ -1219,8 +1492,26 @@
         "D": "Some lodging possibilities"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Some lodging possibilities - Một số khả năng về chỗ ở).\nGiải thích:\nNgười phụ nữ nói: 'don't forget to look over the hotel options that have been selected for our filming dates.' (đừng quên xem xét các lựa chọn khách sạn đã được chọn cho những ngày quay phim của chúng ta.)\nDịch câu hỏi: Người phụ nữ yêu cầu người đàn ông xem xét điều gì?\nA. Một hợp đồng cung cấp thực phẩm\nB. Một số sắp xếp chuyến bay\nC. Một luật lao động\nD. Một số khả năng về chỗ ở",
-       "tags": []
+       "explanation": "Đáp án đúng là D (Some lodging possibilities - Một số khả năng về chỗ ở).\nGiải thích:\nNgười phụ nữ nói: 'don't forget to look over the hotel options that have been selected for our filming dates.' (đừng quên xem xét các lựa chọn khách sạn đã được chọn cho những ngày quay phim của chúng ta.)\nDịch câu hỏi: Người phụ nữ yêu cầu người đàn ông xem xét điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một hợp đồng cung cấp thực phẩm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một số sắp xếp chuyến bay"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một luật lao động"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một số khả năng về chỗ ở"
+        }
+       }
       }
      ],
      "vocab": [
@@ -1232,11 +1523,25 @@
        "meaning": "diễn viên"
       },
       {
+       "term": "interested",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quan tâm"
+      },
+      {
        "term": "leading",
        "pos": [
         "adj"
        ],
        "meaning": "hàng đầu"
+      },
+      {
+       "term": "role",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vai trò"
       },
       {
        "term": "audition",
@@ -1328,8 +1633,26 @@
         "D": "A city official"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (A city official - Một quan chức thành phố).\nGiải thích:\nNgười đàn ông giới thiệu mình là 'the director of the city's Environmental Department' (giám đốc Sở Môi trường của thành phố).\nDịch câu hỏi: Người đàn ông là ai?\nA. Một nông dân\nB. Một nhân viên ngân hàng\nC. Một chủ nhà hàng\nD. Một quan chức thành phố",
-       "tags": []
+       "explanation": "Đáp án đúng là D (A city official - Một quan chức thành phố).\nGiải thích:\nNgười đàn ông giới thiệu mình là 'the director of the city's Environmental Department' (giám đốc Sở Môi trường của thành phố).\nDịch câu hỏi: Người đàn ông là ai?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một nông dân"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một nhân viên ngân hàng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một chủ nhà hàng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một quan chức thành phố"
+        }
+       }
       },
       {
        "number": 42,
@@ -1342,8 +1665,26 @@
         "D": "To collect some data"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (To inform her about an award - Để thông báo cho cô ấy về một giải thưởng).\nGiải thích:\nNgười đàn ông nói: 'I'm pleased to inform you that your firm is being given the annual environmental sustainability award.' (Tôi rất vui được thông báo rằng công ty của bạn đang được trao giải thưởng bền vững môi trường hàng năm.)\nDịch câu hỏi: Tại sao người đàn ông gọi cho người phụ nữ?\nA. Để yêu cầu cô ấy tình nguyện\nB. Để thuê cô ấy làm tư vấn\nC. Để thông báo cho cô ấy về một giải thưởng\nD. Để thu thập một số dữ liệu",
-       "tags": []
+       "explanation": "Đáp án đúng là C (To inform her about an award - Để thông báo cho cô ấy về một giải thưởng).\nGiải thích:\nNgười đàn ông nói: 'I'm pleased to inform you that your firm is being given the annual environmental sustainability award.' (Tôi rất vui được thông báo rằng công ty của bạn đang được trao giải thưởng bền vững môi trường hàng năm.)\nDịch câu hỏi: Tại sao người đàn ông gọi cho người phụ nữ?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để yêu cầu cô ấy tình nguyện"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để thuê cô ấy làm tư vấn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để thông báo cho cô ấy về một giải thưởng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để thu thập một số dữ liệu"
+        }
+       }
       },
       {
        "number": 43,
@@ -1356,8 +1697,26 @@
         "D": "It maintains strong customer relations."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (It plants native species - Nó trồng các loài cây bản địa).\nGiải thích:\nNgười phụ nữ nói: 'In all our projects we're careful to use only native plants that don't require much watering.' (Trong tất cả các dự án của chúng tôi, chúng tôi cẩn thận chỉ sử dụng các loài cây bản địa không cần nhiều nước.)\nDịch câu hỏi: Công ty của người phụ nữ sử dụng chiến lược gì?\nA. Nó giữ hàng tồn kho ở mức thấp.\nB. Nó trồng các loài cây bản địa.\nC. Nó giảm lãng phí giấy.\nD. Nó duy trì quan hệ khách hàng mạnh mẽ.",
-       "tags": []
+       "explanation": "Đáp án đúng là B (It plants native species - Nó trồng các loài cây bản địa).\nGiải thích:\nNgười phụ nữ nói: 'In all our projects we're careful to use only native plants that don't require much watering.' (Trong tất cả các dự án của chúng tôi, chúng tôi cẩn thận chỉ sử dụng các loài cây bản địa không cần nhiều nước.)\nDịch câu hỏi: Công ty của người phụ nữ sử dụng chiến lược gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó giữ hàng tồn kho ở mức thấp."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó trồng các loài cây bản địa."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó giảm lãng phí giấy."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó duy trì quan hệ khách hàng mạnh mẽ."
+        }
+       }
       }
      ],
      "vocab": [
@@ -1385,9 +1744,9 @@
       {
        "term": "award",
        "pos": [
-        "v"
+        "n"
        ],
-       "meaning": "trao giải; giải thưởng"
+       "meaning": "giải thưởng"
       },
       {
        "term": "require",
@@ -1424,6 +1783,13 @@
         "n"
        ],
        "meaning": "khu vực"
+      },
+      {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
       }
      ],
      "vocabAuto": true
@@ -1459,8 +1825,26 @@
         "D": "Upcoming weather conditions"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Upcoming weather conditions - Điều kiện thời tiết sắp tới).\nGiải thích:\nNgười phụ nữ nói: 'there's going to be continuous heavy rain throughout the week.' (sẽ có mưa lớn liên tục trong suốt tuần.) Điều này đang gây ra thay đổi trong kế hoạch của họ.\nDịch câu hỏi: Điều gì đang gây ra sự thay đổi trong kế hoạch của những người nói chuyện?\nA. Một xung đột lịch trình\nB. Một chuyến công tác vào phút chót\nC. Cắt giảm ngân sách\nD. Điều kiện thời tiết sắp tới",
-       "tags": []
+       "explanation": "Đáp án đúng là D (Upcoming weather conditions - Điều kiện thời tiết sắp tới).\nGiải thích:\nNgười phụ nữ nói: 'there's going to be continuous heavy rain throughout the week.' (sẽ có mưa lớn liên tục trong suốt tuần.) Điều này đang gây ra thay đổi trong kế hoạch của họ.\nDịch câu hỏi: Điều gì đang gây ra sự thay đổi trong kế hoạch của những người nói chuyện?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một xung đột lịch trình"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một chuyến công tác vào phút chót"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cắt giảm ngân sách"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "điều kiện thời tiết sắp tới"
+        }
+       }
       },
       {
        "number": 45,
@@ -1473,8 +1857,26 @@
         "D": "Company employees"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Company employees - Nhân viên công ty).\nGiải thích:\nTrong đoạn hội thoại, họ đề cập đến 'employee picnic' (buổi dã ngoại của nhân viên) và 'team-building games we planned for the staff' (các trò chơi xây dựng đội ngũ mà chúng ta đã lên kế hoạch cho nhân viên).\nDịch câu hỏi: Sự kiện này dành cho nhóm nào?\nA. Các quan chức thành phố\nB. Khách hàng có giá trị\nC. Các nhà đầu tư tiềm năng\nD. Nhân viên công ty",
-       "tags": []
+       "explanation": "Đáp án đúng là D (Company employees - Nhân viên công ty).\nGiải thích:\nTrong đoạn hội thoại, họ đề cập đến 'employee picnic' (buổi dã ngoại của nhân viên) và 'team-building games we planned for the staff' (các trò chơi xây dựng đội ngũ mà chúng ta đã lên kế hoạch cho nhân viên).\nDịch câu hỏi: Sự kiện này dành cho nhóm nào?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "các quan chức thành phố"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "khách hàng có giá trị"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "các nhà đầu tư tiềm năng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "nhân viên công ty"
+        }
+       }
       },
       {
        "number": 46,
@@ -1487,8 +1889,26 @@
         "D": "Request a refund"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Make a room reservation - Đặt phòng).\nGiải thích:\nNgười phụ nữ nói: 'OK, so I guess booking the largest conference room is my next step.' (OK, vậy tôi đoán việc đặt phòng hội nghị lớn nhất là bước tiếp theo của tôi.)\nDịch câu hỏi: Người phụ nữ sẽ làm gì tiếp theo?\nA. Đặt phòng\nB. Soạn một email\nC. Đặt một nhóm nhạc\nD. Yêu cầu hoàn tiền",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Make a room reservation - Đặt phòng).\nGiải thích:\nNgười phụ nữ nói: 'OK, so I guess booking the largest conference room is my next step.' (OK, vậy tôi đoán việc đặt phòng hội nghị lớn nhất là bước tiếp theo của tôi.)\nDịch câu hỏi: Người phụ nữ sẽ làm gì tiếp theo?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Đặt phòng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "soạn một email"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Đặt một nhóm nhạc"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "yêu cầu hoàn tiền"
+        }
+       }
       }
      ],
      "vocab": [
@@ -1568,8 +1988,26 @@
         "D": "Transportation"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Health care - Chăm sóc sức khỏe).\nGiải thích:\nNgười phụ nữ được gọi là 'Dr. Smith' và đang đánh giá tình trạng chấn thương của bệnh nhân, cho thấy cô ấy làm việc trong lĩnh vực chăm sóc sức khỏe.\nDịch câu hỏi: Người phụ nữ có khả năng làm việc trong lĩnh vực nào nhất?\nA. Chăm sóc sức khỏe\nB. Tài chính\nC. Khách sạn\nD. Vận tải",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Health care - Chăm sóc sức khỏe).\nGiải thích:\nNgười phụ nữ được gọi là 'Dr. Smith' và đang đánh giá tình trạng chấn thương của bệnh nhân, cho thấy cô ấy làm việc trong lĩnh vực chăm sóc sức khỏe.\nDịch câu hỏi: Người phụ nữ có khả năng làm việc trong lĩnh vực nào nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chăm sóc sức khỏe"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "tài chính"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "khách sạn"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "vận tải"
+        }
+       }
       },
       {
        "number": 48,
@@ -1582,8 +2020,26 @@
         "D": "Delivery driver"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Athlete - Vận động viên).\nGiải thích:\nNgười đàn ông đề cập đến việc chấn thương khi chơi bóng rổ và hỏi về khả năng tham gia trận đấu vô địch, cho thấy anh ta có khả năng là một vận động viên.\nDịch câu hỏi: Công việc của người đàn ông có khả năng là gì nhất?\nA. Nhà phân tích dữ liệu\nB. Vận động viên\nC. Nhà báo\nD. Tài xế giao hàng",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Athlete - Vận động viên).\nGiải thích:\nNgười đàn ông đề cập đến việc chấn thương khi chơi bóng rổ và hỏi về khả năng tham gia trận đấu vô địch, cho thấy anh ta có khả năng là một vận động viên.\nDịch câu hỏi: Công việc của người đàn ông có khả năng là gì nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "nhà phân tích dữ liệu"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "vận động viên"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nhà báo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "tài xế giao hàng"
+        }
+       }
       },
       {
        "number": 49,
@@ -1596,8 +2052,26 @@
         "D": "A confidentiality agreement"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (A return visit - Một cuộc tái khám).\nGiải thích:\nNgười phụ nữ nói: 'you'll need to be evaluated again before game time. Could you come back some time next week?' (bạn sẽ cần được đánh giá lại trước khi trận đấu diễn ra. Bạn có thể quay lại vào tuần tới được không?)\nDịch câu hỏi: Người phụ nữ nói điều gì là cần thiết?\nA. Một báo cáo được sửa đổi\nB. Một khoản thanh toán hóa đơn\nC. Một cuộc tái khám\nD. Một thỏa thuận bảo mật",
-       "tags": []
+       "explanation": "Đáp án đúng là C (A return visit - Một cuộc tái khám).\nGiải thích:\nNgười phụ nữ nói: 'you'll need to be evaluated again before game time. Could you come back some time next week?' (bạn sẽ cần được đánh giá lại trước khi trận đấu diễn ra. Bạn có thể quay lại vào tuần tới được không?)\nDịch câu hỏi: Người phụ nữ nói điều gì là cần thiết?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một báo cáo được sửa đổi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một khoản thanh toán hóa đơn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một cuộc tái khám"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một thỏa thuận bảo mật"
+        }
+       }
       }
      ],
      "vocab": [
@@ -1649,8 +2123,26 @@
         "D": "A grand opening"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (A birthday - Một sinh nhật).\nGiải thích:\nNgười đàn ông nói: 'My manager is turning 40 years old!' (Quản lý của tôi đang tròn 40 tuổi!)\nDịch câu hỏi: Điều gì đang được kỷ niệm vào thứ Ba tới?\nA. Một sinh nhật\nB. Một sự nghỉ hưu\nC. Một sự thăng chức\nD. Một buổi khai trương",
-       "tags": []
+       "explanation": "Đáp án đúng là A (A birthday - Một sinh nhật).\nGiải thích:\nNgười đàn ông nói: 'My manager is turning 40 years old!' (Quản lý của tôi đang tròn 40 tuổi!)\nDịch câu hỏi: Điều gì đang được kỷ niệm vào thứ Ba tới?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một sinh nhật"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một sự nghỉ hưu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một sự thăng chức"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một buổi khai trương"
+        }
+       }
       },
       {
        "number": 51,
@@ -1663,8 +2155,22 @@
         "D": "To decline an offer"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (To decline an offer - Để từ chối một đề nghị).\nGiải thích:\nKhi người phụ nữ đề nghị dịch vụ giao hàng với giá thêm 5 đô la, người đàn ông nói 'our budget is limited' (ngân sách của chúng tôi có hạn) để từ chối một cách lịch sự đề nghị đó.\nDịch câu hỏi: Tại sao người đàn ông nói 'ngân sách của chúng tôi có hạn'?\nA. Để yêu cầu thêm tài trợ\nB. Để đặt câu hỏi về một quyết định\nC. Để phàn nàn về một giá cả\nD. Để từ chối một đề nghị",
-       "tags": []
+       "explanation": "Đáp án đúng là D (To decline an offer - Để từ chối một đề nghị).\nGiải thích:\nKhi người phụ nữ đề nghị dịch vụ giao hàng với giá thêm 5 đô la, người đàn ông nói 'our budget is limited' (ngân sách của chúng tôi có hạn) để từ chối một cách lịch sự đề nghị đó.\nDịch câu hỏi: Tại sao người đàn ông nói 'ngân sách của chúng tôi có hạn'?\nB. Để đặt câu hỏi về một quyết định",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để yêu cầu thêm tài trợ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để phàn nàn về một giá cả"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để từ chối một đề nghị"
+        }
+       }
       },
       {
        "number": 52,
@@ -1677,8 +2183,26 @@
         "D": "The time a store opens"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Some ingredients - Một số thành phần).\nGiải thích:\nNgười đàn ông hỏi: 'I have a colleague who is allergic to nuts. That won't be a problem, will it?' (Tôi có một đồng nghiệp bị dị ứng với các loại hạt. Điều đó sẽ không phải là vấn đề, đúng không?) Đây là câu hỏi về thành phần của bánh.\nDịch câu hỏi: Người đàn ông hỏi người phụ nữ về điều gì?\nA. Một số đồ trang trí\nB. Một số thành phần\nC. Địa điểm lấy hàng\nD. Thời gian cửa hàng mở cửa",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Some ingredients - Một số thành phần).\nGiải thích:\nNgười đàn ông hỏi: 'I have a colleague who is allergic to nuts. That won't be a problem, will it?' (Tôi có một đồng nghiệp bị dị ứng với các loại hạt. Điều đó sẽ không phải là vấn đề, đúng không?) Đây là câu hỏi về thành phần của bánh.\nDịch câu hỏi: Người đàn ông hỏi người phụ nữ về điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một số đồ trang trí"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một số thành phần"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "địa điểm lấy hàng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Thời gian cửa hàng mở cửa"
+        }
+       }
       }
      ],
      "vocab": [
@@ -1697,6 +2221,13 @@
        "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
+       "term": "interested",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quan tâm"
+      },
+      {
        "term": "budget",
        "pos": [
         "n"
@@ -1710,6 +2241,13 @@
         "v"
        ],
        "meaning": "giới hạn; có hạn"
+      },
+      {
+       "term": "colleague",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đồng nghiệp"
       }
      ],
      "vocabAuto": true
@@ -1745,8 +2283,26 @@
         "D": "At a printing company"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (At a printing company - Tại một công ty in ấn).\nGiải thích:\nCuộc đối thoại đề cập đến việc in ấn 'three thousand full-color brochures and booklets' (ba nghìn tờ rơi và sách nhỏ màu đầy đủ), cho thấy họ làm việc tại một công ty in ấn.\nDịch câu hỏi: Những người nói chuyện có khả năng làm việc ở đâu nhất?\nA. Tại một ngân hàng\nB. Tại một công ty quảng cáo\nC. Tại một cơ quan tuyển dụng\nD. Tại một công ty in ấn",
-       "tags": []
+       "explanation": "Đáp án đúng là D (At a printing company - Tại một công ty in ấn).\nGiải thích:\nCuộc đối thoại đề cập đến việc in ấn 'three thousand full-color brochures and booklets' (ba nghìn tờ rơi và sách nhỏ màu đầy đủ), cho thấy họ làm việc tại một công ty in ấn.\nDịch câu hỏi: Những người nói chuyện có khả năng làm việc ở đâu nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tại một ngân hàng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Tại một công ty quảng cáo"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Tại một cơ quan tuyển dụng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tại một công ty in ấn"
+        }
+       }
       },
       {
        "number": 54,
@@ -1759,8 +2315,22 @@
         "D": "To explain a company policy"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (To express concern about an order - Để bày tỏ lo ngại về một đơn hàng).\nGiải thích:\nNgười phụ nữ nói điều này để bày tỏ lo ngại về khả năng hoàn thành đơn hàng gấp khi thiếu nhân lực.\nDịch câu hỏi: Tại sao người phụ nữ nói 'Bốn người của chúng ta đang nghỉ phép'?\nA. Để xin lỗi về một lỗi\nB. Để bày tỏ lo ngại về một đơn hàng\nC. Để đề xuất hủy bỏ một cuộc họp\nD. Để giải thích một chính sách của công ty",
-       "tags": []
+       "explanation": "Đáp án đúng là B (To express concern about an order - Để bày tỏ lo ngại về một đơn hàng).\nGiải thích:\nNgười phụ nữ nói điều này để bày tỏ lo ngại về khả năng hoàn thành đơn hàng gấp khi thiếu nhân lực.\nDịch câu hỏi: Tại sao người phụ nữ nói 'Bốn người của chúng ta đang nghỉ phép'?\nD. Để giải thích một chính sách của công ty",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để xin lỗi về một lỗi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để bày tỏ lo ngại về một đơn hàng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để đề xuất hủy bỏ một cuộc họp"
+        }
+       }
       },
       {
        "number": 55,
@@ -1773,8 +2343,26 @@
         "D": "Extra pay"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Extra pay - Trả thêm tiền).\nGiải thích:\nNgười đàn ông đề xuất: 'What about increasing the rate we pay for overtime, just for this job?' (Chúng ta tăng mức trả cho làm thêm giờ, chỉ cho công việc này thì sao?)\nDịch câu hỏi: Người đàn ông đề xuất đưa ra điều gì để động viên nhân viên?\nA. Tăng thời gian nghỉ\nB. Bữa ăn miễn phí\nC. Cải tạo không gian làm việc\nD. Trả thêm tiền",
-       "tags": []
+       "explanation": "Đáp án đúng là D (Extra pay - Trả thêm tiền).\nGiải thích:\nNgười đàn ông đề xuất: 'What about increasing the rate we pay for overtime, just for this job?' (Chúng ta tăng mức trả cho làm thêm giờ, chỉ cho công việc này thì sao?)\nDịch câu hỏi: Người đàn ông đề xuất đưa ra điều gì để động viên nhân viên?\nC. Cải tạo không gian làm việc",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tăng thời gian nghỉ"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "bữa ăn miễn phí"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cải tạo không gian làm việc"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trả thêm tiền"
+        }
+       }
       }
      ],
      "vocab": [
@@ -1799,6 +2387,13 @@
         "v"
        ],
        "meaning": "tăng; tăng lên"
+      },
+      {
+       "term": "rate",
+       "pos": [
+        "n"
+       ],
+       "meaning": "giá"
       }
      ],
      "vocabAuto": true
@@ -1834,8 +2429,26 @@
         "D": "An employee retirement plan"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (An energy efficiency initiative - Một sáng kiến hiệu quả năng lượng).\nGiải thích:\nNgay từ đầu cuộc trò chuyện, người nói đề cập: 'we started this initiative with the aim of increasing energy efficiency in the office' (chúng ta đã bắt đầu sáng kiến này với mục đích tăng hiệu quả năng lượng trong văn phòng). Các nội dung thảo luận sau đó đều xoay quanh các biện pháp tiết kiệm năng lượng.\nDịch câu hỏi: Chủ đề chính của cuộc trò chuyện là gì?\nA. Một kế hoạch tái cơ cấu lãnh đạo\nB. Một dự án di dời văn phòng\nC. Một sáng kiến hiệu quả năng lượng\nD. Một kế hoạch nghỉ hưu cho nhân viên",
-       "tags": []
+       "explanation": "Đáp án đúng là C (An energy efficiency initiative - Một sáng kiến hiệu quả năng lượng).\nGiải thích:\nNgay từ đầu cuộc trò chuyện, người nói đề cập: 'we started this initiative with the aim of increasing energy efficiency in the office' (chúng ta đã bắt đầu sáng kiến này với mục đích tăng hiệu quả năng lượng trong văn phòng). Các nội dung thảo luận sau đó đều xoay quanh các biện pháp tiết kiệm năng lượng.\nDịch câu hỏi: Chủ đề chính của cuộc trò chuyện là gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một kế hoạch tái cơ cấu lãnh đạo"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một dự án di dời văn phòng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một sáng kiến hiệu quả năng lượng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một kế hoạch nghỉ hưu cho nhân viên"
+        }
+       }
       },
       {
        "number": 57,
@@ -1848,8 +2461,26 @@
         "D": "An employee survey"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (A monthly contest - Một cuộc thi hàng tháng).\nGiải thích:\nNgười phụ nữ nói: 'everyone seems motivated by the monthly challenge' (mọi người dường như được thúc đẩy bởi thử thách hàng tháng). Sau đó, một người khác nhắc lại 'It's great that employees are responding positively to the contest' (Thật tuyệt khi nhân viên đang phản ứng tích cực với cuộc thi).\nDịch câu hỏi: Theo người phụ nữ, nhân viên đang phản ứng tích cực với điều gì?\nA. Việc di dời văn phòng\nB. Một chính sách nghỉ phép được sửa đổi\nC. Một cuộc thi hàng tháng\nD. Một cuộc khảo sát nhân viên",
-       "tags": []
+       "explanation": "Đáp án đúng là C (A monthly contest - Một cuộc thi hàng tháng).\nGiải thích:\nNgười phụ nữ nói: 'everyone seems motivated by the monthly challenge' (mọi người dường như được thúc đẩy bởi thử thách hàng tháng). Sau đó, một người khác nhắc lại 'It's great that employees are responding positively to the contest' (Thật tuyệt khi nhân viên đang phản ứng tích cực với cuộc thi).\nDịch câu hỏi: Theo người phụ nữ, nhân viên đang phản ứng tích cực với điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "việc di dời văn phòng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một chính sách nghỉ phép được sửa đổi"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một cuộc thi hàng tháng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một cuộc khảo sát nhân viên"
+        }
+       }
       },
       {
        "number": 58,
@@ -1862,11 +2493,36 @@
         "D": "Research some competitors"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Hire a contractor - Thuê một nhà thầu).\nGiải thích:\nNgười phụ nữ nói: 'I'm going to hire a contractor to help with that. I'll get some bids from different companies.' (Tôi sẽ thuê một nhà thầu để giúp với việc đó. Tôi sẽ lấy một số báo giá từ các công ty khác nhau.)\nDịch câu hỏi: Người phụ nữ dự định làm gì?\nA. Thuê một số thiết bị\nB. Thuê một nhà thầu\nC. Tạm dừng sản xuất mặt hàng\nD. Nghiên cứu một số đối thủ cạnh tranh",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Hire a contractor - Thuê một nhà thầu).\nGiải thích:\nNgười phụ nữ nói: 'I'm going to hire a contractor to help with that. I'll get some bids from different companies.' (Tôi sẽ thuê một nhà thầu để giúp với việc đó. Tôi sẽ lấy một số báo giá từ các công ty khác nhau.)\nDịch câu hỏi: Người phụ nữ dự định làm gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "thuê một số thiết bị"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "thuê một nhà thầu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tạm dừng sản xuất mặt hàng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "nghiên cứu một số đối thủ cạnh tranh"
+        }
+       }
       }
      ],
      "vocab": [
+      {
+       "term": "initiative",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sáng kiến"
+      },
       {
        "term": "aim",
        "pos": [
@@ -1944,13 +2600,6 @@
         "v"
        ],
        "meaning": "đã giảm; giảm"
-      },
-      {
-       "term": "usage",
-       "pos": [
-        "n"
-       ],
-       "meaning": "việc sử dụng"
       }
      ],
      "vocabAuto": true
@@ -1986,8 +2635,26 @@
         "D": "At a farm"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (At a farm - Tại một trang trại).\nGiải thích:\nNgười đàn ông nói rằng anh ta đã mua đất ở bên kia sông để mở rộng vụ mùa rau của mình và muốn xây một cây cầu để lái máy kéo qua sông. Điều này cho thấy cuộc trò chuyện có khả năng diễn ra tại một trang trại.\nDịch câu hỏi: Cuộc trò chuyện có khả năng diễn ra ở đâu nhất?\nA. Tại một sở thú\nB. Tại một bãi biển\nC. Tại một công viên\nD. Tại một trang trại",
-       "tags": []
+       "explanation": "Đáp án đúng là D (At a farm - Tại một trang trại).\nGiải thích:\nNgười đàn ông nói rằng anh ta đã mua đất ở bên kia sông để mở rộng vụ mùa rau của mình và muốn xây một cây cầu để lái máy kéo qua sông. Điều này cho thấy cuộc trò chuyện có khả năng diễn ra tại một trang trại.\nDịch câu hỏi: Cuộc trò chuyện có khả năng diễn ra ở đâu nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tại một sở thú"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "tại một bãi biển"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tại một công viên"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "tại một trang trại"
+        }
+       }
       },
       {
        "number": 60,
@@ -2000,8 +2667,26 @@
         "D": "Clear some trees"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Take some measurements - Thực hiện một số đo đạc).\nGiải thích:\nNgười phụ nữ đầu tiên nói: 'We'll start today by measuring the span of the river and the height and slope of the riverbank.' (Chúng tôi sẽ bắt đầu hôm nay bằng cách đo chiều rộng của sông và chiều cao và độ dốc của bờ sông.)\nDịch câu hỏi: Những người phụ nữ sẽ làm gì hôm nay?\nA. Thực hiện một số đo đạc\nB. Đổ một số bê tông\nC. Tính toán một ước tính giá\nD. Dọn dẹp một số cây",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Take some measurements - Thực hiện một số đo đạc).\nGiải thích:\nNgười phụ nữ đầu tiên nói: 'We'll start today by measuring the span of the river and the height and slope of the riverbank.' (Chúng tôi sẽ bắt đầu hôm nay bằng cách đo chiều rộng của sông và chiều cao và độ dốc của bờ sông.)\nDịch câu hỏi: Những người phụ nữ sẽ làm gì hôm nay?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "thực hiện một số đo đạc"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đổ một số bê tông"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Tính toán một ước tính giá"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "dọn dẹp một số cây"
+        }
+       }
       },
       {
        "number": 61,
@@ -2014,8 +2699,26 @@
         "D": "It is surrounded by a fence."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (It is flat - Nó bằng phẳng).\nGiải thích:\nAdriana nói: 'That area by the oak tree looks nice and flat.' (Khu vực bên cạnh cây sồi trông đẹp và bằng phẳng.)\nDịch câu hỏi: Adriana chỉ ra điều gì về một số đất?\nA. Nó khô.\nB. Nó bằng phẳng.\nC. Nó có cát.\nD. Nó được bao quanh bởi một hàng rào.",
-       "tags": []
+       "explanation": "Đáp án đúng là B (It is flat - Nó bằng phẳng).\nGiải thích:\nAdriana nói: 'That area by the oak tree looks nice and flat.' (Khu vực bên cạnh cây sồi trông đẹp và bằng phẳng.)\nDịch câu hỏi: Adriana chỉ ra điều gì về một số đất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "nó khô"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "nó bằng phẳng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nó có cát"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó được bao quanh bởi một hàng rào."
+        }
+       }
       }
      ],
      "vocab": [
@@ -2093,8 +2796,26 @@
         "D": "To visit family"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (To give a talk - Để thuyết trình).\nGiải thích:\nNgười đàn ông nói: 'I'm supposed to be in Chicago to deliver a lecture tonight' (Tôi phải có mặt ở Chicago để thuyết trình tối nay).\nDịch câu hỏi: Tại sao người đàn ông đang đi du lịch?\nA. Để xem một bất động sản\nB. Để tham gia một cuộc phỏng vấn\nC. Để thuyết trình\nD. Để thăm gia đình",
-       "tags": []
+       "explanation": "Đáp án đúng là C (To give a talk - Để thuyết trình).\nGiải thích:\nNgười đàn ông nói: 'I'm supposed to be in Chicago to deliver a lecture tonight' (Tôi phải có mặt ở Chicago để thuyết trình tối nay).\nDịch câu hỏi: Tại sao người đàn ông đang đi du lịch?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để xem một bất động sản"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để tham gia một cuộc phỏng vấn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để thuyết trình"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "để thăm gia đình"
+        }
+       }
       },
       {
        "number": 63,
@@ -2107,8 +2828,26 @@
         "D": "Flight 23"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Flight 105).\nGiải thích:\nTrong đoạn hội thoại, người phụ nữ nói rằng chuyến bay của người đàn ông bị trì hoãn. Nhìn vào bảng trong hình ảnh, chuyến bay duy nhất bị trì hoãn (Delayed) là Flight 105.\nDịch câu hỏi: Nhìn vào hình ảnh. Người đàn ông đã đặt chuyến bay nào?\nA. Chuyến bay 105\nB. Chuyến bay 451\nC. Chuyến bay 57\nD. Chuyến bay 23",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Flight 105).\nGiải thích:\nTrong đoạn hội thoại, người phụ nữ nói rằng chuyến bay của người đàn ông bị trì hoãn. Nhìn vào bảng trong hình ảnh, chuyến bay duy nhất bị trì hoãn (Delayed) là Flight 105.\nDịch câu hỏi: Nhìn vào hình ảnh. Người đàn ông đã đặt chuyến bay nào?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chuyến bay 105"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "chuyến bay 451"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "chuyến bay 57"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "chuyến bay 23"
+        }
+       }
       },
       {
        "number": 64,
@@ -2121,8 +2860,22 @@
         "D": "A voucher will be provided."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (A voucher will be provided - Một phiếu giảm giá sẽ được cung cấp).\nGiải thích:\nKhi người phụ nữ thông báo rằng hãng hàng không đang cung cấp phiếu ăn miễn phí cho tất cả hành khách, người đàn ông nói: 'Oh, that's a nice surprise!' (Ồ, đó là một bất ngờ thú vị!)\nDịch câu hỏi: Tại sao người đàn ông ngạc nhiên?\nA. Một khoản hoàn tiền sẽ được cấp.\nB. Một cổng khởi hành đã thay đổi.\nC. Một bữa ăn sẽ không được phục vụ trên chuyến bay.\nD. Một phiếu giảm giá sẽ được cung cấp.",
-       "tags": []
+       "explanation": "Đáp án đúng là D (A voucher will be provided - Một phiếu giảm giá sẽ được cung cấp).\nGiải thích:\nKhi người phụ nữ thông báo rằng hãng hàng không đang cung cấp phiếu ăn miễn phí cho tất cả hành khách, người đàn ông nói: 'Oh, that's a nice surprise!' (Ồ, đó là một bất ngờ thú vị!)\nDịch câu hỏi: Tại sao người đàn ông ngạc nhiên?\nC. Một bữa ăn sẽ không được phục vụ trên chuyến bay.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một khoản hoàn tiền sẽ được cấp."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một cổng khởi hành đã thay đổi."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một phiếu giảm giá sẽ được cung cấp."
+        }
+       }
       }
      ],
      "vocab": [
@@ -2239,8 +2992,26 @@
         "D": "A product is not selling well."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (A product is not selling well - Một sản phẩm không bán chạy).\nGiải thích:\nNgười phụ nữ nói ngay từ đầu: 'sales of our pet food aren't as good as we'd hoped' (doanh số bán thức ăn cho thú cưng của chúng ta không tốt như chúng ta hy vọng).\nDịch câu hỏi: Tại sao người phụ nữ muốn thay đổi chiến lược quảng cáo?\nA. Một đối thủ cạnh tranh đã sửa đổi một nguyên mẫu.\nB. Một số chi phí quá cao.\nC. Một dự án đã bị trì hoãn.\nD. Một sản phẩm không bán chạy.",
-       "tags": []
+       "explanation": "Đáp án đúng là D (A product is not selling well - Một sản phẩm không bán chạy).\nGiải thích:\nNgười phụ nữ nói ngay từ đầu: 'sales of our pet food aren't as good as we'd hoped' (doanh số bán thức ăn cho thú cưng của chúng ta không tốt như chúng ta hy vọng).\nDịch câu hỏi: Tại sao người phụ nữ muốn thay đổi chiến lược quảng cáo?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một đối thủ cạnh tranh đã sửa đổi một nguyên mẫu."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một số chi phí quá cao."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một dự án đã bị trì hoãn."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một sản phẩm không bán chạy."
+        }
+       }
       },
       {
        "number": 66,
@@ -2253,8 +3024,22 @@
         "D": "Social media"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Newspaper - Báo).\nGiải thích:\nNgười đàn ông nói: 'I think we're better off spending sixteen dollars per thousand people.' Nhìn vào biểu đồ, phương tiện truyền thông có chi phí $16 cho 1,000 người là báo (Newspaper).\nDịch câu hỏi: Nhìn vào hình ảnh. Những người nói quyết định sử dụng loại phương tiện truyền thông nào để quảng cáo?\nA. Truyền hình\nB. Báo\nC. Radio\nD. Mạng xã hội",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Newspaper - Báo).\nGiải thích:\nNgười đàn ông nói: 'I think we're better off spending sixteen dollars per thousand people.' Nhìn vào biểu đồ, phương tiện truyền thông có chi phí $16 cho 1,000 người là báo (Newspaper).\nDịch câu hỏi: Nhìn vào hình ảnh. Những người nói quyết định sử dụng loại phương tiện truyền thông nào để quảng cáo?\nC. Radio",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "truyền hình"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "báo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "mạng xã hội"
+        }
+       }
       },
       {
        "number": 67,
@@ -2267,8 +3052,26 @@
         "D": "Contact a colleague"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Contact a colleague - Liên hệ với một đồng nghiệp).\nGiải thích:\nNgười phụ nữ nói: 'Please ask Paul to start drafting a new ad.' (Hãy yêu cầu Paul bắt đầu soạn thảo một quảng cáo mới.) Điều này ngụ ý rằng người đàn ông sẽ liên hệ với Paul, một đồng nghiệp.\nDịch câu hỏi: Người đàn ông có khả năng sẽ làm gì nhất?\nA. Thuê thêm một nhân viên\nB. Tiến hành một cuộc khảo sát khách hàng\nC. Chuẩn bị một bài thuyết trình\nD. Liên hệ với một đồng nghiệp",
-       "tags": []
+       "explanation": "Đáp án đúng là D (Contact a colleague - Liên hệ với một đồng nghiệp).\nGiải thích:\nNgười phụ nữ nói: 'Please ask Paul to start drafting a new ad.' (Hãy yêu cầu Paul bắt đầu soạn thảo một quảng cáo mới.) Điều này ngụ ý rằng người đàn ông sẽ liên hệ với Paul, một đồng nghiệp.\nDịch câu hỏi: Người đàn ông có khả năng sẽ làm gì nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Thuê thêm một nhân viên"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Tiến hành một cuộc khảo sát khách hàng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "chuẩn bị một bài thuyết trình"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "liên hệ với một đồng nghiệp"
+        }
+       }
       }
      ],
      "vocab": [
@@ -2383,8 +3186,26 @@
         "D": "At a tourism office"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (At a tourism office - Tại một văn phòng du lịch).\nGiải thích:\nCuộc trò chuyện đề cập đến việc du lịch tăng lên, khách du lịch hỏi về các địa điểm trong thành phố, và họ đang làm một bản đồ thực phẩm cho khu vực trung tâm thành phố. Những điều này cho thấy họ có khả năng làm việc tại một văn phòng du lịch.\nDịch câu hỏi: Những người nói chuyện có khả năng làm việc ở đâu nhất?\nA. Tại một studio truyền hình\nB. Tại một trường dạy nấu ăn\nC. Tại một nhà ga xe lửa\nD. Tại một văn phòng du lịch",
-       "tags": []
+       "explanation": "Đáp án đúng là D (At a tourism office - Tại một văn phòng du lịch).\nGiải thích:\nCuộc trò chuyện đề cập đến việc du lịch tăng lên, khách du lịch hỏi về các địa điểm trong thành phố, và họ đang làm một bản đồ thực phẩm cho khu vực trung tâm thành phố. Những điều này cho thấy họ có khả năng làm việc tại một văn phòng du lịch.\nDịch câu hỏi: Những người nói chuyện có khả năng làm việc ở đâu nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Tại một studio truyền hình"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Tại một trường dạy nấu ăn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Tại một nhà ga xe lửa"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tại một văn phòng du lịch"
+        }
+       }
       },
       {
        "number": 69,
@@ -2397,8 +3218,26 @@
         "D": "A local festival was canceled."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (A television show premiered - Một chương trình truyền hình đã ra mắt).\nGiải thích:\nNgười đàn ông nói: 'Ever since that cooking show premiered on television last year' (Kể từ khi chương trình nấu ăn đó ra mắt trên truyền hình năm ngoái).\nDịch câu hỏi: Theo người đàn ông, điều gì đã xảy ra năm ngoái?\nA. Một chương trình truyền hình đã ra mắt.\nB. Một chiến dịch quảng cáo đã được triển khai.\nC. Một vườn cộng đồng đã được bắt đầu.\nD. Một lễ hội địa phương đã bị hủy bỏ.",
-       "tags": []
+       "explanation": "Đáp án đúng là A (A television show premiered - Một chương trình truyền hình đã ra mắt).\nGiải thích:\nNgười đàn ông nói: 'Ever since that cooking show premiered on television last year' (Kể từ khi chương trình nấu ăn đó ra mắt trên truyền hình năm ngoái).\nDịch câu hỏi: Theo người đàn ông, điều gì đã xảy ra năm ngoái?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một chương trình truyền hình đã ra mắt."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một chiến dịch quảng cáo đã được triển khai."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một vườn cộng đồng đã được bắt đầu."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một lễ hội địa phương đã bị hủy bỏ."
+        }
+       }
       },
       {
        "number": 70,
@@ -2411,8 +3250,14 @@
         "D": "Fontana's Desserts"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Diaz Family Restaurant).\nGiải thích:\nNgười phụ nữ nói: 'The place at the corner of Second and Fielding Streets has moved to a bigger location north of the city.' (Địa điểm ở góc đường Second và Fielding đã chuyển đến một vị trí lớn hơn ở phía bắc thành phố.) Nhìn vào bản đồ, nhà hàng ở góc đường Second và Fielding là Diaz Family Restaurant.\nDịch câu hỏi: Nhìn vào hình ảnh. Doanh nghiệp nào sẽ bị xóa khỏi bản đồ?\nA. Tokyo Café\nB. Nhà hàng Gia đình Diaz\nC. Yang Bistro\nD. Fontana's Desserts",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Diaz Family Restaurant).\nGiải thích:\nNgười phụ nữ nói: 'The place at the corner of Second and Fielding Streets has moved to a bigger location north of the city.' (Địa điểm ở góc đường Second và Fielding đã chuyển đến một vị trí lớn hơn ở phía bắc thành phố.) Nhìn vào bản đồ, nhà hàng ở góc đường Second và Fielding là Diaz Family Restaurant.\nDịch câu hỏi: Nhìn vào hình ảnh. Doanh nghiệp nào sẽ bị xóa khỏi bản đồ?\nA. Tokyo Café\nC. Yang Bistro\nD. Fontana's Desserts",
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "nhà hàng Gia đình Diaz"
+        }
+       }
       }
      ],
      "vocab": [
@@ -2461,7 +3306,9 @@
       },
       {
        "term": "error",
-       "pos": [],
+       "pos": [
+        "n"
+       ],
        "meaning": "lỗi"
       },
       {
@@ -2515,8 +3362,26 @@
         "D": "At a nature park"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (At a nature park - Tại một công viên thiên nhiên).\nGiải thích:\nNgười nói bắt đầu bằng câu: 'Welcome, everyone, to Watanabe Nature Park.' (Chào mừng mọi người đến với Công viên Thiên nhiên Watanabe.)\nDịch câu hỏi: Chuyến tham quan diễn ra ở đâu?\nA. Tại một bảo tàng nghệ thuật\nB. Tại một công viên giải trí\nC. Tại một sở thú\nD. Tại một công viên thiên nhiên",
-       "tags": []
+       "explanation": "Đáp án đúng là D (At a nature park - Tại một công viên thiên nhiên).\nGiải thích:\nNgười nói bắt đầu bằng câu: 'Welcome, everyone, to Watanabe Nature Park.' (Chào mừng mọi người đến với Công viên Thiên nhiên Watanabe.)\nDịch câu hỏi: Chuyến tham quan diễn ra ở đâu?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Tại một bảo tàng nghệ thuật"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Tại một công viên giải trí"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tại một sở thú"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tại một công viên thiên nhiên"
+        }
+       }
       },
       {
        "number": 72,
@@ -2529,8 +3394,26 @@
         "D": "Buying souvenirs"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Watching birds - Xem chim).\nGiải thích:\nNgười nói khuyến nghị: 'I recommend stopping at the top of the mountain for bird-watching.' (Tôi khuyên nên dừng lại ở đỉnh núi để ngắm chim.)\nDịch câu hỏi: Người nói khuyến nghị hoạt động nào?\nA. Thuê xe đạp\nB. Chụp ảnh\nC. Xem chim\nD. Mua đồ lưu niệm",
-       "tags": []
+       "explanation": "Đáp án đúng là C (Watching birds - Xem chim).\nGiải thích:\nNgười nói khuyến nghị: 'I recommend stopping at the top of the mountain for bird-watching.' (Tôi khuyên nên dừng lại ở đỉnh núi để ngắm chim.)\nDịch câu hỏi: Người nói khuyến nghị hoạt động nào?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "thuê xe đạp"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "chụp ảnh"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "xem chim"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "mua đồ lưu niệm"
+        }
+       }
       },
       {
        "number": 73,
@@ -2543,8 +3426,26 @@
         "D": "To see a performance"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (To eat lunch - Để ăn trưa).\nGiải thích:\nNgười nói yêu cầu: 'please be back by twelve noon so we can all have lunch together at the picnic tables.' (vui lòng quay lại vào lúc 12 giờ trưa để chúng ta có thể cùng nhau ăn trưa tại các bàn picnic.)\nDịch câu hỏi: Tại sao người nghe nên gặp người nói vào buổi trưa?\nA. Để ăn trưa\nB. Để trả lại một số thiết bị\nC. Để chụp ảnh nhóm\nD. Để xem một buổi biểu diễn",
-       "tags": []
+       "explanation": "Đáp án đúng là A (To eat lunch - Để ăn trưa).\nGiải thích:\nNgười nói yêu cầu: 'please be back by twelve noon so we can all have lunch together at the picnic tables.' (vui lòng quay lại vào lúc 12 giờ trưa để chúng ta có thể cùng nhau ăn trưa tại các bàn picnic.)\nDịch câu hỏi: Tại sao người nghe nên gặp người nói vào buổi trưa?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "để ăn trưa"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để trả lại một số thiết bị"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để chụp ảnh nhóm"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để xem một buổi biểu diễn"
+        }
+       }
       }
      ],
      "vocab": [
@@ -2596,8 +3497,26 @@
         "D": "A building inspector"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (A real estate agent - Một môi giới bất động sản).\nGiải thích:\nNgười nói giới thiệu mình là 'Richard, your real estate agent' (Richard, môi giới bất động sản của bạn).\nDịch câu hỏi: Người nói là ai?\nA. Một môi giới bất động sản\nB. Một công nhân xây dựng\nC. Một nhà trang trí nội thất\nD. Một thanh tra xây dựng",
-       "tags": []
+       "explanation": "Đáp án đúng là A (A real estate agent - Một môi giới bất động sản).\nGiải thích:\nNgười nói giới thiệu mình là 'Richard, your real estate agent' (Richard, môi giới bất động sản của bạn).\nDịch câu hỏi: Người nói là ai?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một môi giới bất động sản"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một công nhân xây dựng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một nhà trang trí nội thất"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một thanh tra xây dựng"
+        }
+       }
       },
       {
        "number": 75,
@@ -2610,8 +3529,22 @@
         "D": "To complain about a cost"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (To suggest an explanation - Để đề xuất một lời giải thích).\nGiải thích:\nNgười nói đề cập đến đội vệ sinh đến hôm trước như một lời giải thích có thể cho việc chìa khóa không còn ở vị trí thường lệ.\nDịch câu hỏi: Tại sao người nói nói 'chúng ta đã có một đội vệ sinh đến hôm qua'?\nA. Để nhấn mạnh một thành tích\nB. Để không đồng ý với một quyết định\nC. Để đề xuất một lời giải thích\nD. Để phàn nàn về một chi phí",
-       "tags": []
+       "explanation": "Đáp án đúng là C (To suggest an explanation - Để đề xuất một lời giải thích).\nGiải thích:\nNgười nói đề cập đến đội vệ sinh đến hôm trước như một lời giải thích có thể cho việc chìa khóa không còn ở vị trí thường lệ.\nDịch câu hỏi: Tại sao người nói nói 'chúng ta đã có một đội vệ sinh đến hôm qua'?\nC. Để đề xuất một lời giải thích",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để nhấn mạnh một thành tích"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để không đồng ý với một quyết định"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để phàn nàn về một chi phí"
+        }
+       }
       },
       {
        "number": 76,
@@ -2624,8 +3557,26 @@
         "D": "Apply for a permit"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Choose some photos - Chọn một số ảnh).\nGiải thích:\nNgười nói nói: 'I'll send them to you. Please decide which ones you want to use for your listing.' (Tôi sẽ gửi chúng cho bạn. Vui lòng quyết định những bức ảnh nào bạn muốn sử dụng cho bài đăng của bạn.)\nDịch câu hỏi: Người nói bảo người nghe làm gì?\nA. Chọn một số ảnh\nB. Kiểm tra một lịch trình\nC. Gửi một khoản thanh toán\nD. Nộp đơn xin giấy phép",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Choose some photos - Chọn một số ảnh).\nGiải thích:\nNgười nói nói: 'I'll send them to you. Please decide which ones you want to use for your listing.' (Tôi sẽ gửi chúng cho bạn. Vui lòng quyết định những bức ảnh nào bạn muốn sử dụng cho bài đăng của bạn.)\nDịch câu hỏi: Người nói bảo người nghe làm gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "chọn một số ảnh"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "kiểm tra một lịch trình"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "gửi một khoản thanh toán"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nộp đơn xin giấy phép"
+        }
+       }
       }
      ],
      "vocab": [
@@ -2646,7 +3597,7 @@
        "pos": [
         "conj"
        ],
-       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+       "meaning": "trong khi, mặc dù"
       },
       {
        "term": "gain",
@@ -2661,7 +3612,7 @@
         "n",
         "v"
        ],
-       "meaning": "quyền truy cập, sự vào; sự tiếp cận/tiếp cận"
+       "meaning": "quyền truy cập, sự vào; quyền truy cập"
       }
      ],
      "vocabAuto": true
@@ -2697,8 +3648,26 @@
         "D": "A harvest fair"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (A music festival - Một lễ hội âm nhạc).\nGiải thích:\nNgười nói bắt đầu bằng cách nói: 'the music festival is starting in two hours' (lễ hội âm nhạc sẽ bắt đầu trong hai giờ nữa).\nDịch câu hỏi: Những người nghe đang chuẩn bị cho cái gì?\nA. Một cuộc thi thể thao\nB. Một lễ hội âm nhạc\nC. Một buổi picnic công ty\nD. Một hội chợ mùa vụ",
-       "tags": []
+       "explanation": "Đáp án đúng là B (A music festival - Một lễ hội âm nhạc).\nGiải thích:\nNgười nói bắt đầu bằng cách nói: 'the music festival is starting in two hours' (lễ hội âm nhạc sẽ bắt đầu trong hai giờ nữa).\nDịch câu hỏi: Những người nghe đang chuẩn bị cho cái gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một cuộc thi thể thao"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một lễ hội âm nhạc"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một buổi picnic công ty"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một hội chợ mùa vụ"
+        }
+       }
       },
       {
        "number": 78,
@@ -2711,8 +3680,26 @@
         "D": "Showing vendors where they need to be"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (Showing vendors where they need to be - Chỉ cho các nhà cung cấp nơi họ cần phải ở).\nGiải thích:\nNgười nói nói: 'I'll have Maria direct them to their proper locations.' (Tôi sẽ nhờ Maria chỉ dẫn họ đến đúng vị trí của họ.) 'Them' ở đây đề cập đến các nhà cung cấp thực phẩm.\nDịch câu hỏi: Maria sẽ chịu trách nhiệm làm gì?\nA. Bố trí thêm ghế\nB. Thu vé sự kiện\nC. Treo một số đồ trang trí\nD. Chỉ cho các nhà cung cấp nơi họ cần phải ở",
-       "tags": []
+       "explanation": "Đáp án đúng là D (Showing vendors where they need to be - Chỉ cho các nhà cung cấp nơi họ cần phải ở).\nGiải thích:\nNgười nói nói: 'I'll have Maria direct them to their proper locations.' (Tôi sẽ nhờ Maria chỉ dẫn họ đến đúng vị trí của họ.) 'Them' ở đây đề cập đến các nhà cung cấp thực phẩm.\nDịch câu hỏi: Maria sẽ chịu trách nhiệm làm gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Bố trí thêm ghế"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "thu vé sự kiện"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Treo một số đồ trang trí"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Chỉ cho các nhà cung cấp nơi họ cần phải ở"
+        }
+       }
       },
       {
        "number": 79,
@@ -2725,8 +3712,26 @@
         "D": "The weather has been unusually cold recently."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (An event will probably not need to be moved - Một sự kiện có thể sẽ không cần phải di chuyển).\nGiải thích:\nNgười nói đề cập đến kế hoạch dự phòng trong trường hợp mưa, sau đó nói rằng ngày hôm nay rất đẹp. Điều này ngụ ý rằng sự kiện có thể sẽ không cần phải di chuyển vào trong nhà.\nDịch câu hỏi: Người nói có ý gì khi cô ấy nói 'chúng ta đã không có một ngày đẹp như thế này trong một thời gian'?\nA. Một số bài kiểm tra có thể không cần thiết.\nB. Cô ấy hào hứng về một chuyến đi chơi với bạn bè.\nC. Một sự kiện có thể sẽ không cần phải di chuyển.\nD. Thời tiết gần đây đã lạnh bất thường.",
-       "tags": []
+       "explanation": "Đáp án đúng là C (An event will probably not need to be moved - Một sự kiện có thể sẽ không cần phải di chuyển).\nGiải thích:\nNgười nói đề cập đến kế hoạch dự phòng trong trường hợp mưa, sau đó nói rằng ngày hôm nay rất đẹp. Điều này ngụ ý rằng sự kiện có thể sẽ không cần phải di chuyển vào trong nhà.\nDịch câu hỏi: Người nói có ý gì khi cô ấy nói 'chúng ta đã không có một ngày đẹp như thế này trong một thời gian'?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một số bài kiểm tra có thể không cần thiết."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy hào hứng về một chuyến đi chơi với bạn bè."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một sự kiện có thể sẽ không cần phải di chuyển."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Thời tiết gần đây đã lạnh bất thường."
+        }
+       }
       }
      ],
      "vocab": [
@@ -2771,7 +3776,7 @@
        "pos": [
         "conj"
        ],
-       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+       "meaning": "trong khi, mặc dù"
       }
      ],
      "vocabAuto": true
@@ -2807,8 +3812,26 @@
         "D": "At a press conference"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (At a press conference - Tại một cuộc họp báo).\nGiải thích:\nNgười nói cảm ơn các phóng viên tin tức và đang công bố một sáng kiến mới. Điều này cho thấy đây là một cuộc họp báo.\nDịch câu hỏi: Bài phát biểu có khả năng diễn ra ở đâu nhất?\nA. Tại một hội chợ sức khỏe\nB. Tại một bữa trưa nhân viên\nC. Tại một buổi hội thảo đào tạo\nD. Tại một cuộc họp báo",
-       "tags": []
+       "explanation": "Đáp án đúng là D (At a press conference - Tại một cuộc họp báo).\nGiải thích:\nNgười nói cảm ơn các phóng viên tin tức và đang công bố một sáng kiến mới. Điều này cho thấy đây là một cuộc họp báo.\nDịch câu hỏi: Bài phát biểu có khả năng diễn ra ở đâu nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Tại một hội chợ sức khỏe"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Tại một bữa trưa nhân viên"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Tại một buổi hội thảo đào tạo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tại một cuộc họp báo"
+        }
+       }
       },
       {
        "number": 81,
@@ -2821,8 +3844,26 @@
         "D": "Health care"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Shipping - Vận chuyển).\nGiải thích:\nNgười nói đề cập: 'As a leader in the ocean shipping industry' (Là một công ty dẫn đầu trong ngành vận chuyển đường biển).\nDịch câu hỏi: Người nói làm việc trong ngành nào?\nA. Đánh bắt cá\nB. Du lịch\nC. Vận chuyển\nD. Chăm sóc sức khỏe",
-       "tags": []
+       "explanation": "Đáp án đúng là C (Shipping - Vận chuyển).\nGiải thích:\nNgười nói đề cập: 'As a leader in the ocean shipping industry' (Là một công ty dẫn đầu trong ngành vận chuyển đường biển).\nDịch câu hỏi: Người nói làm việc trong ngành nào?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "đánh bắt cá"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "du lịch"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "vận chuyển"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "chăm sóc sức khỏe"
+        }
+       }
       },
       {
        "number": 82,
@@ -2835,8 +3876,26 @@
         "D": "Supporting local businesses"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (An environmental initiative - Một sáng kiến môi trường).\nGiải thích:\nNgười nói nói: 'I'm very proud of this initiative. I believe it will impact the environment in a positive way.' (Tôi rất tự hào về sáng kiến này. Tôi tin rằng nó sẽ tác động tích cực đến môi trường.)\nDịch câu hỏi: Người nói nói rằng anh ta tự hào về điều gì?\nA. Một quy trình tuyển dụng\nB. Một sáng kiến môi trường\nC. Tài trợ nghiên cứu đổi mới\nD. Hỗ trợ các doanh nghiệp địa phương",
-       "tags": []
+       "explanation": "Đáp án đúng là B (An environmental initiative - Một sáng kiến môi trường).\nGiải thích:\nNgười nói nói: 'I'm very proud of this initiative. I believe it will impact the environment in a positive way.' (Tôi rất tự hào về sáng kiến này. Tôi tin rằng nó sẽ tác động tích cực đến môi trường.)\nDịch câu hỏi: Người nói nói rằng anh ta tự hào về điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một quy trình tuyển dụng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một sáng kiến môi trường"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "tài trợ nghiên cứu đổi mới"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "hỗ trợ các doanh nghiệp địa phương"
+        }
+       }
       }
      ],
      "vocab": [
@@ -2846,6 +3905,13 @@
         "v"
        ],
        "meaning": "thông báo; được công bố"
+      },
+      {
+       "term": "initiative",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sáng kiến"
       },
       {
        "term": "impact",
@@ -2913,13 +3979,6 @@
         "v"
        ],
        "meaning": "hứa"
-      },
-      {
-       "term": "reporter",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phóng viên"
       }
      ],
      "vocabAuto": true
@@ -2955,8 +4014,26 @@
         "D": "Hospitality"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Publishing - Xuất bản).\nGiải thích:\nNgười nói giới thiệu mình đến từ 'Blue Tern Press' và đang thảo luận về việc xuất bản một ấn bản mới của một cuốn tiểu thuyết.\nDịch câu hỏi: Người nói có khả năng làm việc trong ngành nào nhất?\nA. Xuất bản\nB. Quảng cáo\nC. Điện ảnh\nD. Khách sạn",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Publishing - Xuất bản).\nGiải thích:\nNgười nói giới thiệu mình đến từ 'Blue Tern Press' và đang thảo luận về việc xuất bản một ấn bản mới của một cuốn tiểu thuyết.\nDịch câu hỏi: Người nói có khả năng làm việc trong ngành nào nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "xuất bản"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "quảng cáo"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "điện ảnh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "khách sạn"
+        }
+       }
       },
       {
        "number": 84,
@@ -2969,8 +4046,26 @@
         "D": "An anniversary celebration was held."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (A manuscript was found - Một bản thảo đã được tìm thấy).\nGiải thích:\nNgười nói đề cập: 'another version of the manuscript-handwritten and edited by the author-was recently discovered' (một phiên bản khác của bản thảo - viết tay và chỉnh sửa bởi tác giả - đã được phát hiện gần đây).\nDịch câu hỏi: Người nói nói gì đã xảy ra gần đây?\nA. Một cuốn sách đã được chuyển thể thành phim.\nB. Một giám đốc mới đã được thuê.\nC. Một bản thảo đã được tìm thấy.\nD. Một lễ kỷ niệm đã được tổ chức.",
-       "tags": []
+       "explanation": "Đáp án đúng là C (A manuscript was found - Một bản thảo đã được tìm thấy).\nGiải thích:\nNgười nói đề cập: 'another version of the manuscript-handwritten and edited by the author-was recently discovered' (một phiên bản khác của bản thảo - viết tay và chỉnh sửa bởi tác giả - đã được phát hiện gần đây).\nDịch câu hỏi: Người nói nói gì đã xảy ra gần đây?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một cuốn sách đã được chuyển thể thành phim."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một giám đốc mới đã được thuê."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một bản thảo đã được tìm thấy."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một lễ kỷ niệm đã được tổ chức."
+        }
+       }
       },
       {
        "number": 85,
@@ -2983,8 +4078,26 @@
         "D": "To develop a timeline"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (To discuss a contract - Để thảo luận về một hợp đồng).\nGiải thích:\nNgười nói kết thúc bằng câu: 'If you're interested, call me back as soon as possible to talk about a contract for this project.' (Nếu bạn quan tâm, hãy gọi lại cho tôi càng sớm càng tốt để nói về hợp đồng cho dự án này.)\nDịch câu hỏi: Tại sao người nói muốn người nghe gọi lại cho cô ấy?\nA. Để hoàn thiện một thiết kế\nB. Để xác nhận danh sách khách mời\nC. Để thảo luận về một hợp đồng\nD. Để phát triển một lịch trình",
-       "tags": []
+       "explanation": "Đáp án đúng là C (To discuss a contract - Để thảo luận về một hợp đồng).\nGiải thích:\nNgười nói kết thúc bằng câu: 'If you're interested, call me back as soon as possible to talk about a contract for this project.' (Nếu bạn quan tâm, hãy gọi lại cho tôi càng sớm càng tốt để nói về hợp đồng cho dự án này.)\nDịch câu hỏi: Tại sao người nói muốn người nghe gọi lại cho cô ấy?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để hoàn thiện một thiết kế"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để xác nhận danh sách khách mời"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để thảo luận về một hợp đồng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để phát triển một lịch trình"
+        }
+       }
       }
      ],
      "vocab": [
@@ -3038,6 +4151,13 @@
        "meaning": "chuyên gia; thành thạo"
       },
       {
+       "term": "interested",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quan tâm"
+      },
+      {
        "term": "contract",
        "pos": [
         "n"
@@ -3078,8 +4198,26 @@
         "D": "Designing a new company logo"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Listing some job duties - Liệt kê một số nhiệm vụ công việc).\nGiải thích:\nNgười nói nói: 'I'm making a list of what the secretary role entails' (Tôi đang lập một danh sách về những gì vai trò thư ký bao gồm).\nDịch câu hỏi: Người nói hiện đang làm gì?\nA. Liệt kê một số nhiệm vụ công việc\nB. Sửa lỗi trong một báo cáo\nC. Cập nhật một hướng dẫn sử dụng thiết bị\nD. Thiết kế một logo công ty mới",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Listing some job duties - Liệt kê một số nhiệm vụ công việc).\nGiải thích:\nNgười nói nói: 'I'm making a list of what the secretary role entails' (Tôi đang lập một danh sách về những gì vai trò thư ký bao gồm).\nDịch câu hỏi: Người nói hiện đang làm gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Liệt kê một số nhiệm vụ công việc"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Sửa lỗi trong một báo cáo"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cập nhật một hướng dẫn sử dụng thiết bị"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Thiết kế một logo công ty mới"
+        }
+       }
       },
       {
        "number": 87,
@@ -3092,8 +4230,26 @@
         "D": "Opening a new branch location"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Keeping some documents online - Lưu trữ một số tài liệu trực tuyến).\nGiải thích:\nNgười nói hỏi: 'remember in October the board discussed storing meeting minutes in a secure, online location?' (nhớ vào tháng 10, hội đồng đã thảo luận về việc lưu trữ biên bản cuộc họp tại một vị trí trực tuyến an toàn?)\nDịch câu hỏi: Hội đồng đã nói về điều gì vào tháng 10?\nA. Mua một số phần mềm\nB. Thay đổi thời gian họp\nC. Lưu trữ một số tài liệu trực tuyến\nD. Mở một chi nhánh mới",
-       "tags": []
+       "explanation": "Đáp án đúng là C (Keeping some documents online - Lưu trữ một số tài liệu trực tuyến).\nGiải thích:\nNgười nói hỏi: 'remember in October the board discussed storing meeting minutes in a secure, online location?' (nhớ vào tháng 10, hội đồng đã thảo luận về việc lưu trữ biên bản cuộc họp tại một vị trí trực tuyến an toàn?)\nDịch câu hỏi: Hội đồng đã nói về điều gì vào tháng 10?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "mua một số phần mềm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Thay đổi thời gian họp"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Lưu trữ một số tài liệu trực tuyến"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Mở một chi nhánh mới"
+        }
+       }
       },
       {
        "number": 88,
@@ -3106,8 +4262,26 @@
         "D": "Revise a client contract"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Assist a colleague - Hỗ trợ một đồng nghiệp).\nGiải thích:\nNgười nói nói: 'After I leave, I'll be available to assist Ji-Min with any questions that may come up.' (Sau khi tôi rời đi, tôi sẽ sẵn sàng hỗ trợ Ji-Min với bất kỳ câu hỏi nào có thể phát sinh.)\nDịch câu hỏi: Người nói sẽ sẵn sàng làm gì?\nA. Phát hành một thông cáo báo chí\nB. Hỗ trợ một đồng nghiệp\nC. Tạo một báo cáo tiến độ\nD. Sửa đổi một hợp đồng khách hàng",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Assist a colleague - Hỗ trợ một đồng nghiệp).\nGiải thích:\nNgười nói nói: 'After I leave, I'll be available to assist Ji-Min with any questions that may come up.' (Sau khi tôi rời đi, tôi sẽ sẵn sàng hỗ trợ Ji-Min với bất kỳ câu hỏi nào có thể phát sinh.)\nDịch câu hỏi: Người nói sẽ sẵn sàng làm gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Phát hành một thông cáo báo chí"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "hỗ trợ một đồng nghiệp"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Tạo một báo cáo tiến độ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Sửa đổi một hợp đồng khách hàng"
+        }
+       }
       }
      ],
      "vocab": [
@@ -3131,6 +4305,13 @@
         "v"
        ],
        "meaning": "lên tàu/máy bay; ván, tấm gỗ"
+      },
+      {
+       "term": "role",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vai trò"
       },
       {
        "term": "document",
@@ -3223,8 +4404,26 @@
         "D": "A video camera"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (A software program - Một chương trình phần mềm).\nGiải thích:\nNgười nói đề cập: 'you've recently purchased Karoo, a state-of-the-art software program' (bạn đã mua gần đây Karoo, một chương trình phần mềm hiện đại).\nDịch câu hỏi: Người nghe đã mua gì?\nA. Một chương trình phần mềm\nB. Một máy tính bảng\nC. Một dịch vụ quảng cáo\nD. Một máy quay video",
-       "tags": []
+       "explanation": "Đáp án đúng là A (A software program - Một chương trình phần mềm).\nGiải thích:\nNgười nói đề cập: 'you've recently purchased Karoo, a state-of-the-art software program' (bạn đã mua gần đây Karoo, một chương trình phần mềm hiện đại).\nDịch câu hỏi: Người nghe đã mua gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một chương trình phần mềm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một máy tính bảng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một dịch vụ quảng cáo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "một máy quay video"
+        }
+       }
       },
       {
        "number": 90,
@@ -3237,8 +4436,26 @@
         "D": "It will collect customer data."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (It will make sharing information easier - Nó sẽ làm cho việc chia sẻ thông tin dễ dàng hơn).\nGiải thích:\nNgười nói nói: 'Karoo increases the efficiency of how companies share information-both internally with staff and externally with clients.' (Karoo tăng hiệu quả của cách các công ty chia sẻ thông tin - cả nội bộ với nhân viên và bên ngoài với khách hàng.)\nDịch câu hỏi: Theo người nói, sản phẩm sẽ cải thiện doanh nghiệp như thế nào?\nA. Nó sẽ làm cho việc chia sẻ thông tin dễ dàng hơn.\nB. Nó sẽ đảm bảo an ninh.\nC. Nó sẽ giúp thu hút thêm khách hàng.\nD. Nó sẽ thu thập dữ liệu khách hàng.",
-       "tags": []
+       "explanation": "Đáp án đúng là A (It will make sharing information easier - Nó sẽ làm cho việc chia sẻ thông tin dễ dàng hơn).\nGiải thích:\nNgười nói nói: 'Karoo increases the efficiency of how companies share information-both internally with staff and externally with clients.' (Karoo tăng hiệu quả của cách các công ty chia sẻ thông tin - cả nội bộ với nhân viên và bên ngoài với khách hàng.)\nDịch câu hỏi: Theo người nói, sản phẩm sẽ cải thiện doanh nghiệp như thế nào?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó sẽ làm cho việc chia sẻ thông tin dễ dàng hơn."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó sẽ đảm bảo an ninh."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó sẽ giúp thu hút thêm khách hàng."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó sẽ thu thập dữ liệu khách hàng."
+        }
+       }
       },
       {
        "number": 91,
@@ -3251,8 +4468,26 @@
         "D": "Conducting a quality test"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Using a second device - Sử dụng một thiết bị thứ hai).\nGiải thích:\nNgười nói gợi ý: 'I suggest reopening this video on a device other than the one where you're installing the program.' (Tôi gợi ý mở lại video này trên một thiết bị khác với thiết bị bạn đang cài đặt chương trình.)\nDịch câu hỏi: Người nói khuyến nghị điều gì?\nA. Ghi lại một số sê-ri\nB. Sử dụng một thiết bị thứ hai\nC. Khởi động lại một máy\nD. Tiến hành kiểm tra chất lượng",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Using a second device - Sử dụng một thiết bị thứ hai).\nGiải thích:\nNgười nói gợi ý: 'I suggest reopening this video on a device other than the one where you're installing the program.' (Tôi gợi ý mở lại video này trên một thiết bị khác với thiết bị bạn đang cài đặt chương trình.)\nDịch câu hỏi: Người nói khuyến nghị điều gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Ghi lại một số sê-ri"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Sử dụng một thiết bị thứ hai"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "khởi động lại một máy"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tiến hành kiểm tra chất lượng"
+        }
+       }
       }
      ],
      "vocab": [
@@ -3310,7 +4545,7 @@
        "pos": [
         "adv"
        ],
-       "meaning": "một cách nội bộ"
+       "meaning": "nội bộ; một cách nội bộ"
       },
       {
        "term": "setting",
@@ -3374,8 +4609,26 @@
         "D": "At a tour company"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (At a television station - Tại một đài truyền hình).\nGiải thích:\nNgười nói thảo luận về lập trình truyền hình muộn, chương trình tin tức địa phương, và talk show, cho thấy họ làm việc tại một đài truyền hình.\nDịch câu hỏi: Người nói có khả năng làm việc ở đâu nhất?\nA. Tại một đài truyền hình\nB. Tại một công ty xuất bản\nC. Tại một công ty quảng cáo\nD. Tại một công ty du lịch",
-       "tags": []
+       "explanation": "Đáp án đúng là A (At a television station - Tại một đài truyền hình).\nGiải thích:\nNgười nói thảo luận về lập trình truyền hình muộn, chương trình tin tức địa phương, và talk show, cho thấy họ làm việc tại một đài truyền hình.\nDịch câu hỏi: Người nói có khả năng làm việc ở đâu nhất?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Tại một đài truyền hình"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Tại một công ty xuất bản"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Tại một công ty quảng cáo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tại một công ty du lịch"
+        }
+       }
       },
       {
        "number": 93,
@@ -3388,8 +4641,26 @@
         "D": "To apologize for a mistake"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (To suggest a solution to a problem - Để đề xuất một giải pháp cho một vấn đề).\nGiải thích:\nNgười nói đề cập đến việc tìm kiếm tài năng mới là một thách thức, nhưng một câu lạc bộ hài kịch vừa mở ở khu nghệ thuật. Điều này ngụ ý rằng câu lạc bộ hài kịch mới có thể là nguồn tìm kiếm tài năng mới cho chương trình.\nDịch câu hỏi: Tại sao người nói nói 'một câu lạc bộ hài kịch vừa mở ở khu nghệ thuật'?\nA. Để bày tỏ sự ngạc nhiên về một thời gian biểu\nB. Để phàn nàn về một địa điểm\nC. Để đề xuất một giải pháp cho một vấn đề\nD. Để xin lỗi về một sai lầm",
-       "tags": []
+       "explanation": "Đáp án đúng là C (To suggest a solution to a problem - Để đề xuất một giải pháp cho một vấn đề).\nGiải thích:\nNgười nói đề cập đến việc tìm kiếm tài năng mới là một thách thức, nhưng một câu lạc bộ hài kịch vừa mở ở khu nghệ thuật. Điều này ngụ ý rằng câu lạc bộ hài kịch mới có thể là nguồn tìm kiếm tài năng mới cho chương trình.\nDịch câu hỏi: Tại sao người nói nói 'một câu lạc bộ hài kịch vừa mở ở khu nghệ thuật'?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để bày tỏ sự ngạc nhiên về một thời gian biểu"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để phàn nàn về một địa điểm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để đề xuất một giải pháp cho một vấn đề"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để xin lỗi về một sai lầm"
+        }
+       }
       },
       {
        "number": 94,
@@ -3402,8 +4673,26 @@
         "D": "Ask for volunteers"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Announce award winners - Công bố người đoạt giải).\nGiải thích:\nNgười nói nói: 'A few of you have been chosen to receive the director's award for outstanding leadership. Please stand when I call your names.' (Một số người trong số các bạn đã được chọn để nhận giải thưởng của giám đốc về khả năng lãnh đạo xuất sắc. Vui lòng đứng lên khi tôi gọi tên các bạn.)\nDịch câu hỏi: Người nói sẽ làm gì tiếp theo?\nA. Công bố người đoạt giải\nB. Phân phát lời mời\nC. Phát một video\nD. Yêu cầu tình nguyện viên",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Announce award winners - Công bố người đoạt giải).\nGiải thích:\nNgười nói nói: 'A few of you have been chosen to receive the director's award for outstanding leadership. Please stand when I call your names.' (Một số người trong số các bạn đã được chọn để nhận giải thưởng của giám đốc về khả năng lãnh đạo xuất sắc. Vui lòng đứng lên khi tôi gọi tên các bạn.)\nDịch câu hỏi: Người nói sẽ làm gì tiếp theo?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "công bố người đoạt giải"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "phân phát lời mời"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "phát một video"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "yêu cầu tình nguyện viên"
+        }
+       }
       }
      ],
      "vocab": [
@@ -3445,9 +4734,9 @@
       {
        "term": "award",
        "pos": [
-        "v"
+        "n"
        ],
-       "meaning": "trao giải; giải thưởng"
+       "meaning": "giải thưởng"
       },
       {
        "term": "outstanding",
@@ -3509,8 +4798,26 @@
         "D": "International snacks"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (International snacks - Đồ ăn vặt quốc tế).\nGiải thích:\nNgười nói giới thiệu về dịch vụ giao đồ ăn vặt của Samantha, nói rằng họ tập hợp 'a variety of snacks from different parts of the world' (một loạt đồ ăn vặt từ các nơi khác nhau trên thế giới).\nDịch câu hỏi: Cái gì đang được quảng cáo để giao hàng hàng tháng?\nA. Văn phòng phẩm\nB. Cây cảnh trong chậu\nC. Sách bán chạy nhất\nD. Đồ ăn vặt quốc tế",
-       "tags": []
+       "explanation": "Đáp án đúng là D (International snacks - Đồ ăn vặt quốc tế).\nGiải thích:\nNgười nói giới thiệu về dịch vụ giao đồ ăn vặt của Samantha, nói rằng họ tập hợp 'a variety of snacks from different parts of the world' (một loạt đồ ăn vặt từ các nơi khác nhau trên thế giới).\nDịch câu hỏi: Cái gì đang được quảng cáo để giao hàng hàng tháng?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "văn phòng phẩm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "cây cảnh trong chậu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "sách bán chạy nhất"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đồ ăn vặt quốc tế"
+        }
+       }
       },
       {
        "number": 96,
@@ -3523,8 +4830,26 @@
         "D": "Online tracking"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Refrigerated shipping - Vận chuyển làm lạnh).\nGiải thích:\nNgười nói nói: 'starting in January, we're packaging our snacks in cooled containers. This refrigerated shipping allows us to offer a bigger selection of foods.' (bắt đầu từ tháng Giêng, chúng tôi sẽ đóng gói đồ ăn vặt trong các thùng chứa làm mát. Việc vận chuyển làm lạnh này cho phép chúng tôi cung cấp nhiều loại thực phẩm hơn.)\nDịch câu hỏi: Người nói nói cái gì sẽ có sẵn vào tháng Giêng?\nA. Giao hàng cuối tuần\nB. Gói quà miễn phí\nC. Vận chuyển làm lạnh\nD. Theo dõi trực tuyến",
-       "tags": []
+       "explanation": "Đáp án đúng là C (Refrigerated shipping - Vận chuyển làm lạnh).\nGiải thích:\nNgười nói nói: 'starting in January, we're packaging our snacks in cooled containers. This refrigerated shipping allows us to offer a bigger selection of foods.' (bắt đầu từ tháng Giêng, chúng tôi sẽ đóng gói đồ ăn vặt trong các thùng chứa làm mát. Việc vận chuyển làm lạnh này cho phép chúng tôi cung cấp nhiều loại thực phẩm hơn.)\nDịch câu hỏi: Người nói nói cái gì sẽ có sẵn vào tháng Giêng?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "giao hàng cuối tuần"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "gói quà miễn phí"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "vận chuyển làm lạnh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "theo dõi trực tuyến"
+        }
+       }
       },
       {
        "number": 97,
@@ -3538,7 +4863,8 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C ($25.00).\nGiải thích:\nNgười nói nói: 'To qualify, just subscribe for at least three months, and you'll receive an extra box for free!' (Để đủ điều kiện, chỉ cần đăng ký ít nhất ba tháng, và bạn sẽ nhận được một hộp bổ sung miễn phí!) Nhìn vào bảng giá trong hình ảnh, gói đăng ký 3 tháng có giá $25.00.\nDịch câu hỏi: Nhìn vào hình ảnh. Số tiền đăng ký nhỏ nhất cần thiết để nhận được một hộp bổ sung là bao nhiêu?\nA. $10.00\nB. $18.00\nC. $25.00\nD. $45.00",
-       "tags": []
+       "tags": [],
+       "optionNotes": {}
       }
      ],
      "vocab": [
@@ -3656,8 +4982,26 @@
         "D": "Decorating cakes"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Making candles - Làm nến).\nGiải thích:\nNgười nói bắt đầu bằng cách nói: 'Thanks for joining this online workshop on making candles.' (Cảm ơn bạn đã tham gia hội thảo trực tuyến về làm nến này.)\nDịch câu hỏi: Chủ đề của hội thảo là gì?\nA. Cắm hoa\nB. Làm nến\nC. Vẽ tranh\nD. Trang trí bánh",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Making candles - Làm nến).\nGiải thích:\nNgười nói bắt đầu bằng cách nói: 'Thanks for joining this online workshop on making candles.' (Cảm ơn bạn đã tham gia hội thảo trực tuyến về làm nến này.)\nDịch câu hỏi: Chủ đề của hội thảo là gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "cắm hoa"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "làm nến"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "vẽ tranh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "trang trí bánh"
+        }
+       }
       },
       {
        "number": 99,
@@ -3670,8 +5014,26 @@
         "D": "Button 4"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Button 2 - Nút 2).\nGiải thích:\nNgười nói nói: 'we've just enabled automatic captioning, so if you'd like to use this new feature, please click the Captions\" button on the screen.' (chúng tôi vừa bật tính năng phụ đề tự động, vì vậy nếu bạn muốn sử dụng tính năng mới này, vui lòng nhấp vào nút \"Captions\" trên màn hình.) Nhìn vào hình ảnh, nút \"Captions\" là nút số 2.\nDịch câu hỏi: Nhìn vào hình ảnh. Nút nào đại diện cho một tính năng mới của chương trình phần mềm?\nA. Nút 1\nB. Nút 2\nC. Nút 3\nD. Nút 4\"",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Button 2 - Nút 2).\nGiải thích:\nNgười nói nói: 'we've just enabled automatic captioning, so if you'd like to use this new feature, please click the Captions\" button on the screen.' (chúng tôi vừa bật tính năng phụ đề tự động, vì vậy nếu bạn muốn sử dụng tính năng mới này, vui lòng nhấp vào nút \"Captions\" trên màn hình.) Nhìn vào hình ảnh, nút \"Captions\" là nút số 2.\nDịch câu hỏi: Nhìn vào hình ảnh. Nút nào đại diện cho một tính năng mới của chương trình phần mềm?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "nút 1"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "nút 2"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nút 3"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "nút 4"
+        }
+       }
       },
       {
        "number": 100,
@@ -3684,8 +5046,26 @@
         "D": "Networking opportunities"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (Additional video content - Nội dung video bổ sung).\nGiải thích:\nNgười nói nói: 'We release exclusive video content each week for our subscribers.' (Chúng tôi phát hành nội dung video độc quyền mỗi tuần cho người đăng ký của chúng tôi.)\nDịch câu hỏi: Người nói nói lợi ích của việc đăng ký là gì?\nA. Nội dung video bổ sung\nB. Hướng dẫn cá nhân\nC. Vật tư giảm giá\nD. Cơ hội kết nối",
-       "tags": []
+       "explanation": "Đáp án đúng là A (Additional video content - Nội dung video bổ sung).\nGiải thích:\nNgười nói nói: 'We release exclusive video content each week for our subscribers.' (Chúng tôi phát hành nội dung video độc quyền mỗi tuần cho người đăng ký của chúng tôi.)\nDịch câu hỏi: Người nói nói lợi ích của việc đăng ký là gì?",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "nội dung video bổ sung"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "hướng dẫn cá nhân"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "vật tư giảm giá"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "cơ hội kết nối"
+        }
+       }
       }
      ],
      "vocab": [
@@ -3709,6 +5089,11 @@
         "v"
        ],
        "meaning": "kích hoạt; cho phép"
+      },
+      {
+       "term": "automatic",
+       "pos": [],
+       "meaning": "tự động"
       },
       {
        "term": "feature",
@@ -3740,6 +5125,13 @@
        "term": "subscriber",
        "pos": [],
        "meaning": "người đăng ký"
+      },
+      {
+       "term": "subscribe",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
       }
      ],
      "vocabAuto": true
@@ -3770,7 +5162,7 @@
         "D": "meetings"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (to meet - động từ nguyên mẫu). Giải thích: Câu này cần một động từ nguyên mẫu để chỉ mục đích. \"To meet\" (để đáp ứng) phù hợp nhất trong ngữ cảnh này.\nDịch: Ngân hàng Aberdeen cung cấp một loạt các dịch vụ tài chính để đáp ứng nhu cầu của khách hàng.\nC. is meeting (động từ hiện tại tiếp diễn): đang đáp ứng",
+       "explanation": "Đáp án đúng là B (to meet - động từ nguyên mẫu). Giải thích: Câu này cần một động từ nguyên mẫu để chỉ mục đích. \"To meet\" (để đáp ứng) phù hợp nhất trong ngữ cảnh này.\nDịch: Ngân hàng Aberdeen cung cấp một loạt các dịch vụ tài chính để đáp ứng nhu cầu của khách hàng.",
        "tags": [
         "verb"
        ],
@@ -3786,6 +5178,10 @@
           "v"
          ],
          "meaning": "để đáp ứng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "đang đáp ứng"
         },
         "D": {
          "pos": [
@@ -4513,7 +5909,7 @@
         "D": "is hosting"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (hosted - động từ quá khứ). Giải thích: Câu này có từ chỉ thời gian quá khứ \"Last July\" nên cần một động từ ở thì quá khứ đơn.\nDịch: Vào tháng 7 năm ngoái, Rojas Rieper LLC đã tổ chức lễ khai trương hoành tráng.\nD. is hosting (động từ hiện tại tiếp diễn): đang tổ chức",
+       "explanation": "Đáp án đúng là B (hosted - động từ quá khứ). Giải thích: Câu này có từ chỉ thời gian quá khứ \"Last July\" nên cần một động từ ở thì quá khứ đơn.\nDịch: Vào tháng 7 năm ngoái, Rojas Rieper LLC đã tổ chức lễ khai trương hoành tráng.",
        "tags": [
         "verb"
        ],
@@ -4535,6 +5931,10 @@
           "v"
          ],
          "meaning": "sẽ tổ chức"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đang tổ chức"
         }
        }
       }
@@ -4583,6 +5983,12 @@
           "prep"
          ],
          "meaning": "cho"
+        },
+        "D": {
+         "pos": [
+          "prep"
+         ],
+         "meaning": ""
         }
        }
       }
@@ -4631,6 +6037,12 @@
           "n"
          ],
          "meaning": "sự sắp xếp"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": ""
         }
        }
       }
@@ -5141,11 +6553,28 @@
         "D": "predicted"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (anticipated - tính từ/động từ quá khứ phân từ). Giải thích: Câu này cần một tính từ chỉ sự mong đợi. \"Most widely anticipated\" (được mong đợi rộng rãi nhất) là cụm từ phổ biến để mô tả một cuốn sách được chờ đợi.\nDịch: Cuốn tiểu thuyết trinh thám mới của Krit Pinthong là cuốn sách được mong đợi rộng rãi nhất trong năm.\nA. estimated (tính từ/động từ quá khứ phân từ): được ước tính\nB. anticipated (tính từ/động từ quá khứ phân từ): được mong đợi\nC. assumed (tính từ/động từ quá khứ phân từ): được giả định\nD. predicted (tính từ/động từ quá khứ phân từ): được dự đoán",
+       "explanation": "Đáp án đúng là B (anticipated - tính từ/động từ quá khứ phân từ). Giải thích: Câu này cần một tính từ chỉ sự mong đợi. \"Most widely anticipated\" (được mong đợi rộng rãi nhất) là cụm từ phổ biến để mô tả một cuốn sách được chờ đợi.\nDịch: Cuốn tiểu thuyết trinh thám mới của Krit Pinthong là cuốn sách được mong đợi rộng rãi nhất trong năm.",
        "tags": [
         "vocabulary"
        ],
-       "optionNotes": {}
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "được ước tính"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "được mong đợi"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "được giả định"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "được dự đoán"
+        }
+       }
       }
      ]
     },
@@ -5345,8 +6774,34 @@
         "D": "instead"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (now - trạng từ). Giải thích: Cần một trạng từ chỉ thời gian hiện tại để nhấn mạnh việc tuyển dụng đang diễn ra. \"Now\" (hiện tại) phù hợp nhất trong ngữ cảnh này.\nA. now (trạng từ): hiện tại\nB. likewise (trạng từ): tương tự\nC. there (trạng từ): ở đó\nD. instead (trạng từ): thay vào đó",
-       "tags": []
+       "explanation": "Đáp án đúng là A (now - trạng từ). Giải thích: Cần một trạng từ chỉ thời gian hiện tại để nhấn mạnh việc tuyển dụng đang diễn ra. \"Now\" (hiện tại) phù hợp nhất trong ngữ cảnh này.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "hiện tại"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "tương tự"
+        },
+        "C": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "ở đó"
+        },
+        "D": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thay vào đó"
+        }
+       }
       },
       {
        "number": 132,
@@ -5359,8 +6814,34 @@
         "D": "Everyone"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (You - đại từ nhân xưng). Giải thích: Cần một đại từ nhân xưng để chỉ người đọc/ứng viên tiềm năng. \"You\" (Bạn) phù hợp nhất để trực tiếp nói với người đọc.\nA. It (đại từ): Nó\nB. You (đại từ nhân xưng): Bạn\nC. They (đại từ nhân xưng): Họ\nD. Everyone (đại từ): Mọi người",
-       "tags": []
+       "explanation": "Đáp án đúng là B (You - đại từ nhân xưng). Giải thích: Cần một đại từ nhân xưng để chỉ người đọc/ứng viên tiềm năng. \"You\" (Bạn) phù hợp nhất để trực tiếp nói với người đọc.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "nó"
+        },
+        "B": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "bạn"
+        },
+        "C": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "họ"
+        },
+        "D": {
+         "pos": [
+          "pron"
+         ],
+         "meaning": "mọi người"
+        }
+       }
       },
       {
        "number": 133,
@@ -5373,8 +6854,28 @@
         "D": "that had been"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (that are - mệnh đề quan hệ). Giải thích: Cần một mệnh đề quan hệ để mô tả các sản phẩm. \"That are\" phù hợp nhất để kết nối \"high-tech products\" với \"found in cars and trucks\".\nA. can be (cụm động từ): có thể được\nB. that are (mệnh đề quan hệ): mà được\nC. and being (cụm từ): và đang là\nD. that had been (mệnh đề quan hệ quá khứ hoàn thành): đã từng được",
-       "tags": []
+       "explanation": "Đáp án đúng là B (that are - mệnh đề quan hệ). Giải thích: Cần một mệnh đề quan hệ để mô tả các sản phẩm. \"That are\" phù hợp nhất để kết nối \"high-tech products\" với \"found in cars and trucks\".",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "có thể được"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "mệnh đề quan hệ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "và đang là"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "mệnh đề quan hệ quá khứ hoàn thành"
+        }
+       }
       },
       {
        "number": 134,
@@ -5387,8 +6888,26 @@
         "D": "RGBS Automotive sells a wide selection of merchandise."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (We also offer a generous number of vacation days). Giải thích: Cần một câu bổ sung thông tin về phúc lợi công ty. Đáp án C phù hợp nhất vì nó cung cấp thông tin về ngày nghỉ phép, một lợi ích quan trọng đối với nhân viên.\nA. Ours is a highly competitive industry. (Ngành của chúng tôi là một ngành cạnh tranh cao.)\nB. RGBS Automotive began doing business 45 years ago. (RGBS Automotive bắt đầu kinh doanh cách đây 45 năm.)\nC. We also offer a generous number of vacation days. (Chúng tôi cũng cung cấp một số ngày nghỉ phép hào phóng.)\nD. RGBS Automotive sells a wide selection of merchandise. (RGBS Automotive bán một loạt sản phẩm đa dạng.)",
-       "tags": []
+       "explanation": "Đáp án đúng là C (We also offer a generous number of vacation days). Giải thích: Cần một câu bổ sung thông tin về phúc lợi công ty. Đáp án C phù hợp nhất vì nó cung cấp thông tin về ngày nghỉ phép, một lợi ích quan trọng đối với nhân viên.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Ngành của chúng tôi là một ngành cạnh tranh cao."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "RGBS Automotive bắt đầu kinh doanh cách đây 45 năm."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Chúng tôi cũng cung cấp một số ngày nghỉ phép hào phóng."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "RGBS Automotive bán một loạt sản phẩm đa dạng."
+        }
+       }
       }
      ]
     },
@@ -5421,8 +6940,34 @@
         "D": "decided"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (decided - động từ quá khứ phân từ). Giải thích: Cần một động từ chỉ hành động đã thực hiện trong cuộc họp. \"Decided\" (đã quyết định) phù hợp nhất trong ngữ cảnh này.\nA. taken (động từ quá khứ phân từ): đã lấy\nB. driven (động từ quá khứ phân từ): đã lái\nC. earned (động từ quá khứ phân từ): đã kiếm được\nD. decided (động từ quá khứ phân từ): đã quyết định",
-       "tags": []
+       "explanation": "Đáp án đúng là D (decided - động từ quá khứ phân từ). Giải thích: Cần một động từ chỉ hành động đã thực hiện trong cuộc họp. \"Decided\" (đã quyết định) phù hợp nhất trong ngữ cảnh này.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã lấy"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã lái"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã kiếm được"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đã quyết định"
+        }
+       }
       },
       {
        "number": 136,
@@ -5435,8 +6980,26 @@
         "D": "These new features will surely increase Turbo Omega 2 sales."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (This gives us one month to generate consumer excitement). Giải thích: Cần một câu liên quan đến kế hoạch marketing. Đáp án B phù hợp nhất vì nó giải thích lý do cho thời gian ra mắt quảng cáo trước khi sản phẩm có mặt tại cửa hàng.\nA. Remember to turn off your phone at the end of the workday. (Hãy nhớ tắt điện thoại của bạn vào cuối ngày làm việc.)\nB. This gives us one month to generate consumer excitement. (Điều này cho chúng ta một tháng để tạo ra sự hứng thú cho người tiêu dùng.)\nC. The wholesale price can also be adjusted if necessary. (Giá bán buôn cũng có thể được điều chỉnh nếu cần thiết.)\nD. These new features will surely increase Turbo Omega 2 sales. (Những tính năng mới này chắc chắn sẽ làm tăng doanh số bán Turbo Omega 2.)",
-       "tags": []
+       "explanation": "Đáp án đúng là B (This gives us one month to generate consumer excitement). Giải thích: Cần một câu liên quan đến kế hoạch marketing. Đáp án B phù hợp nhất vì nó giải thích lý do cho thời gian ra mắt quảng cáo trước khi sản phẩm có mặt tại cửa hàng.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Hãy nhớ tắt điện thoại của bạn vào cuối ngày làm việc."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Điều này cho chúng ta một tháng để tạo ra sự hứng thú cho người tiêu dùng."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Giá bán buôn cũng có thể được điều chỉnh nếu cần thiết."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Những tính năng mới này chắc chắn sẽ làm tăng doanh số bán Turbo Omega 2."
+        }
+       }
       },
       {
        "number": 137,
@@ -5449,8 +7012,30 @@
         "D": "That is"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (Soon - trạng từ). Giải thích: Cần một trạng từ chỉ thời gian để giới thiệu hành động tiếp theo. \"Soon\" (Sắp tới) phù hợp nhất để chỉ ra rằng việc soạn thảo thông cáo báo chí sẽ diễn ra trong tương lai gần.\nA. Rather (trạng từ): Thay vào đó\nB. Soon (trạng từ): Sắp tới\nC. After all (cụm từ): Xét cho cùng\nD. That is (cụm từ): Nghĩa là",
-       "tags": []
+       "explanation": "Đáp án đúng là B (Soon - trạng từ). Giải thích: Cần một trạng từ chỉ thời gian để giới thiệu hành động tiếp theo. \"Soon\" (Sắp tới) phù hợp nhất để chỉ ra rằng việc soạn thảo thông cáo báo chí sẽ diễn ra trong tương lai gần.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "thay vào đó"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "sắp tới"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "xét cho cùng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "nghĩa là"
+        }
+       }
       },
       {
        "number": 138,
@@ -5463,8 +7048,35 @@
         "D": "suggests"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (suggestions - danh từ). Giải thích: Cần một danh từ để hoàn thành cụm từ \"e-mail any ... for changes\". \"Suggestions\" (đề xuất) phù hợp nhất trong ngữ cảnh này.\nA. suggesting (động từ hiện tại phân từ): đang đề xuất\nB. suggested (động từ quá khứ/tính từ): đã đề xuất\nC. suggestions (danh từ): đề xuất\nD. suggests (động từ, ngôi thứ 3 số ít): đề xuất",
-       "tags": []
+       "explanation": "Đáp án đúng là C (suggestions - danh từ). Giải thích: Cần một danh từ để hoàn thành cụm từ \"e-mail any ... for changes\". \"Suggestions\" (đề xuất) phù hợp nhất trong ngữ cảnh này.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đang đề xuất"
+        },
+        "B": {
+         "pos": [
+          "adj",
+          "v"
+         ],
+         "meaning": "đã đề xuất"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "đề xuất"
+        },
+        "D": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "đề xuất"
+        }
+       }
       }
      ]
     },
@@ -5497,8 +7109,34 @@
         "D": "their"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (our - tính từ sở hữu). Giải thích: Cần một tính từ sở hữu để chỉ sản phẩm của công ty. \"Our garments\" (quần áo của chúng tôi) phù hợp nhất trong ngữ cảnh này.\nA. its (tính từ sở hữu): của nó\nB. our (tính từ sở hữu): của chúng tôi\nC. your (tính từ sở hữu): của bạn\nD. their (tính từ sở hữu): của họ",
-       "tags": []
+       "explanation": "Đáp án đúng là B (our - tính từ sở hữu). Giải thích: Cần một tính từ sở hữu để chỉ sản phẩm của công ty. \"Our garments\" (quần áo của chúng tôi) phù hợp nhất trong ngữ cảnh này.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của nó"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của chúng tôi"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của bạn"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "của họ"
+        }
+       }
       },
       {
        "number": 140,
@@ -5511,8 +7149,22 @@
         "D": "Extra shipping charges may apply."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (They cannot be exactly replicated). Giải thích: Cần một câu giải thích về tính độc đáo của sản phẩm. Đáp án C phù hợp nhất vì nó nhấn mạnh rằng mỗi sản phẩm là duy nhất và không thể sao chép chính xác.\nA. This is a hassle-free return policy. (Đây là chính sách hoàn trả không rắc rối.)\nB. Always check your receipt. (Luôn kiểm tra biên lai của bạn.)\nC. They cannot be exactly replicated. (Chúng không thể được sao chép chính xác.)\nD. Extra shipping charges may apply. (Có thể áp dụng phí vận chuyển thêm.)",
-       "tags": []
+       "explanation": "Đáp án đúng là C (They cannot be exactly replicated). Giải thích: Cần một câu giải thích về tính độc đáo của sản phẩm. Đáp án C phù hợp nhất vì nó nhấn mạnh rằng mỗi sản phẩm là duy nhất và không thể sao chép chính xác.\nA. This is a hassle-free return policy. (Đây là chính sách hoàn trả không rắc rối.)",
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "Luôn kiểm tra biên lai của bạn."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Chúng không thể được sao chép chính xác."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Có thể áp dụng phí vận chuyển thêm."
+        }
+       }
       },
       {
        "number": 141,
@@ -5525,8 +7177,34 @@
         "D": "unavailable"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B (delicate - tính từ). Giải thích: Cần một tính từ mô tả tính chất của sản phẩm. \"Delicate\" (tinh tế, dễ hỏng) phù hợp nhất trong ngữ cảnh hướng dẫn giặt cẩn thận.\nA. popular (tính từ): phổ biến\nB. delicate (tính từ): tinh tế, dễ hỏng\nC. mild (tính từ): nhẹ nhàng\nD. unavailable (tính từ): không có sẵn",
-       "tags": []
+       "explanation": "Đáp án đúng là B (delicate - tính từ). Giải thích: Cần một tính từ mô tả tính chất của sản phẩm. \"Delicate\" (tinh tế, dễ hỏng) phù hợp nhất trong ngữ cảnh hướng dẫn giặt cẩn thận.\nD. unavailable (tính từ): không có sẵn",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "phổ biến"
+        },
+        "B": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "tinh tế, dễ hỏng"
+        },
+        "C": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": "nhẹ nhàng"
+        },
+        "D": {
+         "pos": [
+          "adj"
+         ],
+         "meaning": ""
+        }
+       }
       },
       {
        "number": 142,
@@ -5539,8 +7217,30 @@
         "D": "On the contrary"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (Therefore - liên từ). Giải thích: Cần một từ chuyển tiếp để kết nối thông tin về nguy cơ co rút với hướng dẫn phơi khô. \"Therefore\" (Do đó) phù hợp nhất để chỉ ra mối quan hệ nguyên nhân-kết quả.\nA. If not (cụm từ): Nếu không\nB. Likewise (trạng từ): Tương tự\nC. Therefore (liên từ): Do đó\nD. On the contrary (cụm từ): Ngược lại",
-       "tags": []
+       "explanation": "Đáp án đúng là C (Therefore - liên từ). Giải thích: Cần một từ chuyển tiếp để kết nối thông tin về nguy cơ co rút với hướng dẫn phơi khô. \"Therefore\" (Do đó) phù hợp nhất để chỉ ra mối quan hệ nguyên nhân-kết quả.\nA. If not (cụm từ): Nếu không",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "nếu không"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "tương tự"
+        },
+        "C": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "do đó"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "ngược lại"
+        }
+       }
       }
      ]
     },
@@ -5573,8 +7273,32 @@
         "D": "have chosen"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (have chosen - động từ hiện tại hoàn thành). Giải thích: Cần một động từ chỉ hành động đã hoàn thành và có kết quả ở hiện tại. \"Have chosen\" (đã chọn) phù hợp nhất để mô tả quyết định của khách hàng.\nA. chooses (động từ hiện tại): chọn\nB. will choose (động từ tương lai): sẽ chọn\nC. chosen (động từ quá khứ phân từ): được chọn\nD. have chosen (động từ hiện tại hoàn thành): đã chọn",
-       "tags": []
+       "explanation": "Đáp án đúng là D (have chosen - động từ hiện tại hoàn thành). Giải thích: Cần một động từ chỉ hành động đã hoàn thành và có kết quả ở hiện tại. \"Have chosen\" (đã chọn) phù hợp nhất để mô tả quyết định của khách hàng.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "chọn"
+        },
+        "B": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "sẽ chọn"
+        },
+        "C": {
+         "pos": [
+          "v"
+         ],
+         "meaning": "được chọn"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "đã chọn"
+        }
+       }
       },
       {
        "number": 144,
@@ -5587,8 +7311,26 @@
         "D": "However, business contracts can be difficult to understand."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (If your contact information changes, please let us know). Giải thích: Cần một câu liên quan đến việc duy trì thông tin liên lạc với khách hàng. Đáp án A phù hợp nhất vì nó yêu cầu khách hàng cập nhật thông tin liên hệ.\nA. If your contact information changes, please let us know. (Nếu thông tin liên lạc của bạn thay đổi, vui lòng cho chúng tôi biết.)\nB. We hope you will enjoy working here. (Chúng tôi hy vọng bạn sẽ thích làm việc ở đây.)\nC. We will reply as soon as possible. (Chúng tôi sẽ trả lời sớm nhất có thể.)\nD. However, business contracts can be difficult to understand. (Tuy nhiên, các hợp đồng kinh doanh có thể khó hiểu.)",
-       "tags": []
+       "explanation": "Đáp án đúng là A (If your contact information changes, please let us know). Giải thích: Cần một câu liên quan đến việc duy trì thông tin liên lạc với khách hàng. Đáp án A phù hợp nhất vì nó yêu cầu khách hàng cập nhật thông tin liên hệ.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nếu thông tin liên lạc của bạn thay đổi, vui lòng cho chúng tôi biết."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Chúng tôi hy vọng bạn sẽ thích làm việc ở đây."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Chúng tôi sẽ trả lời sớm nhất có thể."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tuy nhiên, các hợp đồng kinh doanh có thể khó hiểu."
+        }
+       }
       },
       {
        "number": 145,
@@ -5601,8 +7343,30 @@
         "D": "since"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C (as well - cụm từ). Giải thích: Cần một cụm từ chỉ sự bổ sung. \"As well\" (cũng) phù hợp nhất để chỉ ra rằng cả người giới thiệu và người được giới thiệu đều nhận được ưu đãi.\nA. after all (cụm từ): xét cho cùng\nB. again (trạng từ): lại\nC. as well (cụm từ): cũng\nD. since (liên từ): vì",
-       "tags": []
+       "explanation": "Đáp án đúng là C (as well - cụm từ). Giải thích: Cần một cụm từ chỉ sự bổ sung. \"As well\" (cũng) phù hợp nhất để chỉ ra rằng cả người giới thiệu và người được giới thiệu đều nhận được ưu đãi.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "xét cho cùng"
+        },
+        "B": {
+         "pos": [
+          "adv"
+         ],
+         "meaning": "lại"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "cũng"
+        },
+        "D": {
+         "pos": [
+          "conj"
+         ],
+         "meaning": "vì"
+        }
+       }
       },
       {
        "number": 146,
@@ -5615,8 +7379,34 @@
         "D": "amounts"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (offers - danh từ). Giải thích: Cần một danh từ chỉ các ưu đãi hoặc khuyến mãi. \"Offers\" (ưu đãi) phù hợp nhất trong ngữ cảnh này.\nA. offers (danh từ): ưu đãi\nB. schedules (danh từ): lịch trình\nC. classes (danh từ): lớp học\nD. amounts (danh từ): số lượng",
-       "tags": []
+       "explanation": "Đáp án đúng là A (offers - danh từ). Giải thích: Cần một danh từ chỉ các ưu đãi hoặc khuyến mãi. \"Offers\" (ưu đãi) phù hợp nhất trong ngữ cảnh này.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "ưu đãi"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "lịch trình"
+        },
+        "C": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "lớp học"
+        },
+        "D": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "số lượng"
+        }
+       }
       }
      ]
     }
@@ -5653,7 +7443,17 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì thông báo giải thích rằng do thời tiết bất thường, việc đóng cửa đường sẽ kéo dài đến cuối mùa xuân và công việc lát đường cuối cùng phải hoãn lại. Đây là một thay đổi trong kế hoạch xây dựng đường.\nA. Báo cáo thay đổi về mô hình thời tiết: Mặc dù có đề cập đến thời tiết, nhưng đây không phải là mục đích chính của thông báo.\nB. Thông báo một tuyến đường vòng mới: Không được đề cập trong thông báo.\nC. Giải thích thay đổi trong kế hoạch xây dựng đường: Đúng, phù hợp với nội dung chính của thông báo.\nD. Nhấn mạnh nguyên nhân gây hư hỏng đường: Không được đề cập trong thông báo.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "Thông báo một tuyến đường vòng mới"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nhấn mạnh nguyên nhân gây hư hỏng đường"
+        }
+       }
       },
       {
        "number": 148,
@@ -5667,7 +7467,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì thông báo nói: \"Workers will begin the pavement work once construction of the bridge on Cardinal Street has been completed.\" Điều này cho thấy dự án bao gồm việc xây dựng một cây cầu.\nA. Nó bao gồm việc xây dựng một cây cầu: Đúng, phù hợp với thông tin trong thông báo.\nB. Nó được xử lý bởi công ty của cô Nguyen: Không đúng, Vy Nguyen được đề cập là người liên hệ từ văn phòng quy hoạch thành phố, không phải từ một công ty riêng.\nC. Nó không liên quan đến việc lát đường: Không đúng, thông báo đề cập đến \"final paving\".\nD. Nó không thể hoàn thành trong thời tiết nóng: Không được đề cập trong thông báo.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó bao gồm việc xây dựng một cây cầu"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó được xử lý bởi công ty của cô Nguyen"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó không liên quan đến việc lát đường"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó không thể hoàn thành trong thời tiết nóng"
+        }
+       }
       }
      ]
     },
@@ -5699,7 +7517,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì thông tin nói rõ: \"Buckets provided at no cost.\"\nA. Xô miễn phí để hái trái cây: Đúng, phù hợp với thông tin được cung cấp.\nB. Giỏ picnic tùy chỉnh: Không được đề cập trong thông tin.\nC. Mẫu bánh và mứt: Không được đề cập trong thông tin.\nD. Tour tham quan trang trại: Không được đề cập trong thông tin.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Xô miễn phí để hái trái cây"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "giỏ picnic tùy chỉnh"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Mẫu bánh và mứt"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Tour tham quan trang trại"
+        }
+       }
       },
       {
        "number": 150,
@@ -5712,8 +7548,26 @@
         "D": "It is open every day of the week."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B vì thông tin nói: \"Stop by our market to purchase jams, pies, and sauces made from farm-fresh fruit.\" Với thông tin rằng trang trại có đào, ta có thể suy ra rằng các sản phẩm này được làm từ đào.\nA. Nó có một khu vực đỗ xe mới: Có đề cập đến khu vực đỗ xe nhưng không nói là mới.\nB. Nó bán các sản phẩm làm từ đào: Đúng, phù hợp với thông tin được cung cấp.\nC. Nó đang dưới sự quản lý mới: Không được đề cập trong thông tin.\nD. Nó mở cửa mỗi ngày trong tuần: Không đúng, thông tin cho thấy nó chỉ mở cửa từ thứ Tư đến Chủ nhật.",
-       "tags": []
+       "explanation": "Đáp án đúng là B vì thông tin nói: \"Stop by our market to purchase jams, pies, and sauces made from farm-fresh fruit.\" Với thông tin rằng trang trại có đào, ta có thể suy ra rằng các sản phẩm này được làm từ đào.\nB. Nó bán các sản phẩm làm từ đào: Đúng, phù hợp với thông tin được cung cấp.\nC. Nó đang dưới sự quản lý mới: Không được đề cập trong thông tin.\nD. Nó mở cửa mỗi ngày trong tuần: Không đúng, thông tin cho thấy nó chỉ mở cửa từ thứ Tư đến Chủ nhật.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó có một khu vực đỗ xe mới: Có đề cập đến khu vực đỗ xe nhưng không nói là mới."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó bán các sản phẩm làm từ đào"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó đang dưới sự quản lý mới"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó mở cửa mỗi ngày trong tuần"
+        }
+       }
       }
      ]
     },
@@ -5745,7 +7599,17 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì Mr. McCraine bắt đầu email bằng cách xin lỗi về việc sản phẩm mà Ms. Ngxongo đã chọn đang bị tạm hết hàng, gây ra sự chậm trễ trong việc giao hàng.\nA. Để nhấn mạnh một sản phẩm mới: Mặc dù có đề cập đến một sản phẩm khác, nhưng đây không phải là mục đích chính của email.\nB. Để xin lỗi về sự chậm trễ: Đúng, phù hợp với nội dung chính của email.\nC. Để trả lời một câu hỏi: Không có dấu hiệu nào cho thấy đây là phản hồi cho một câu hỏi.\nD. Để cung cấp chi tiết về việc trả lại hàng: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "Để xin lỗi về sự chậm trễ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để cung cấp chi tiết về việc trả lại hàng"
+        }
+       }
       },
       {
        "number": 152,
@@ -5759,7 +7623,21 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì email nói rằng \"The Extreme2 model includes a perforated sticky tape for ease of use and comes with two refills.\"\nA. Nó rẻ hơn mẫu Performa: Không được đề cập trong email.\nB. Nó đi kèm với băng dính bổ sung: Đúng, email nói rõ nó đi kèm với hai lõi thay thế.\nC. Nó hiệu quả hơn mẫu Performa: Email nói nó có hiệu quả tương tự, không phải hiệu quả hơn.\nD. Nó đã nhận được đánh giá cao từ người dùng: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó rẻ hơn mẫu Performa"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó đi kèm với băng dính bổ sung"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó đã nhận được đánh giá cao từ người dùng"
+        }
+       }
       }
      ]
     },
@@ -5791,7 +7669,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì cuộc trò chuyện ngụ ý rằng Mr. Geraci là người sở hữu cơ sở mà Sen Chai và Mateo Michelacci đang cố gắng mua. Họ đang thảo luận về việc tăng giá chào mua để thuyết phục Mr. Geraci bán.\nA. Ông ấy sở hữu một tòa nhà: Đúng, phù hợp với ngữ cảnh của cuộc trò chuyện.\nB. Ông ấy gần đây đã cải tạo một cơ sở: Không được đề cập trong cuộc trò chuyện.\nC. Ông ấy sẽ phê duyệt một khoản vay: Không được đề cập, thay vào đó là ngân hàng đã phê duyệt khoản vay cho Sen Chai và Mateo Michelacci.\nD. Ông ấy sẽ gặp Mr. Michelacci: Không được đề cập trong cuộc trò chuyện.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Ông ấy sở hữu một tòa nhà"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Ông ấy gần đây đã cải tạo một cơ sở"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Ông ấy sẽ phê duyệt một khoản vay"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Ông ấy sẽ gặp Mr. Michelacci"
+        }
+       }
       },
       {
        "number": 154,
@@ -5805,7 +7701,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì khi Sen Chai nói \"I can't see that happening\", cô ấy đang trả lời câu hỏi của Mateo Michelacci về việc liệu Mr. Geraci có chấp nhận bán nếu họ đề nghị thêm 10.000 € không. Cô ấy không tin rằng Mr. Geraci sẽ chấp nhận đề nghị này.\nA. Cô ấy nghĩ rằng sẽ khó thu hút người thuê: Không liên quan đến ngữ cảnh của câu nói.\nB. Cô ấy tin rằng một đề nghị vẫn sẽ bị từ chối: Đúng, phù hợp với ngữ cảnh của cuộc trò chuyện.\nC. Cô ấy nghi ngờ rằng việc vận chuyển sẽ dễ tổ chức: Không liên quan đến ngữ cảnh của câu nói.\nD. Cô ấy nghĩ rằng khách hàng sẽ gặp khó khăn trong việc tìm địa điểm: Không liên quan đến ngữ cảnh của câu nói.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Cô ấy nghĩ rằng sẽ khó thu hút người thuê"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy tin rằng một đề nghị vẫn sẽ bị từ chối"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy nghi ngờ rằng việc vận chuyển sẽ dễ tổ chức"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Cô ấy nghĩ rằng khách hàng sẽ gặp khó khăn trong việc tìm địa điểm"
+        }
+       }
       }
      ]
     },
@@ -5838,7 +7752,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì trong ngữ cảnh này, \"backing\" có nghĩa là \"supporting\" (hỗ trợ). Câu nói rằng BSS đơn giản hóa quy trình giao dịch trong khi \"backing you with 24-7 technical expertise\", nghĩa là hỗ trợ bạn với chuyên môn kỹ thuật 24/7.\nA. favoring (ưu ái): Không phù hợp với ngữ cảnh.\nB. reversing (đảo ngược): Không phù hợp với ngữ cảnh.\nC. supporting (hỗ trợ): Đúng, phù hợp nhất với ý nghĩa của \"backing\" trong ngữ cảnh này.\nD. establishing (thiết lập): Không phù hợp với ngữ cảnh.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "ưu ái"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đảo ngược"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "hỗ trợ"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thiết lập"
+        }
+       }
       },
       {
        "number": 156,
@@ -5851,8 +7783,26 @@
         "D": "Mobile app"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A vì quảng cáo không đề cập đến việc thanh toán bằng tiền mặt. Nó chỉ đề cập đến thẻ tín dụng (magnetic-stripe and chip readers), séc (digital scanners for checks), và ứng dụng di động (mobile app payment services).\nA. Cash (Tiền mặt): Đúng, không được đề cập trong quảng cáo.\nB. Check (Séc): Được đề cập trong quảng cáo.\nC. Credit card (Thẻ tín dụng): Được đề cập trong quảng cáo.\nD. Mobile app (Ứng dụng di động): Được đề cập trong quảng cáo.",
-       "tags": []
+       "explanation": "Đáp án đúng là A vì quảng cáo không đề cập đến việc thanh toán bằng tiền mặt. Nó chỉ đề cập đến thẻ tín dụng (magnetic-stripe and chip readers), séc (digital scanners for checks), và ứng dụng di động (mobile app payment services).\nA. Cash (Tiền mặt): Đúng, không được đề cập trong quảng cáo.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tiền mặt"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "séc"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "thẻ tín dụng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "ứng dụng di động"
+        }
+       }
       },
       {
        "number": 157,
@@ -5866,7 +7816,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì quảng cáo nói: \"Once approved, save $50 on the purchase of any BSS device that connects to your phone or tablet.\" Đây là một khoản giảm giá cho thiết bị.\nA. Một điện thoại di động mới: Không được đề cập trong quảng cáo.\nB. Một thử nghiệm miễn phí 15 ngày: Không đúng, quảng cáo đề cập đến thử nghiệm miễn phí 10 ngày.\nC. Một thiết bị miễn phí cho máy tính bảng: Không được đề cập trong quảng cáo.\nD. Một khoản giảm giá cho thiết bị: Đúng, phù hợp với thông tin trong quảng cáo.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một điện thoại di động mới"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một thử nghiệm miễn phí 15 ngày"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một thiết bị miễn phí cho máy tính bảng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một khoản giảm giá cho thiết bị"
+        }
+       }
       }
      ]
     },
@@ -5899,7 +7867,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì Ms. Hsiao đang đề nghị một cơ hội công việc cho Mr. Brandt. Cô ấy hỏi liệu công ty của ông có cung cấp dịch vụ ăn uống không và liệu họ có quan tâm đến việc quản lý thực phẩm cho diễn viên và đoàn làm phim không.\nA. Để xác nhận một đơn hàng: Không phải mục đích của email.\nB. Để yêu cầu một báo giá: Không phải mục đích chính của email.\nC. Để cung cấp một báo cáo: Không phải mục đích của email.\nD. Để đưa ra một đề nghị: Đúng, phù hợp với nội dung của email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để xác nhận một đơn hàng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để yêu cầu một báo giá"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để cung cấp một báo cáo"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để đưa ra một đề nghị"
+        }
+       }
       },
       {
        "number": 159,
@@ -5913,7 +7899,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì email đề cập đến \"actors and stage crews\", gợi ý rằng đây là một lễ hội tập trung vào sân khấu hoặc nhà hát.\nA. Music (Âm nhạc): Không có thông tin cụ thể về âm nhạc.\nB. Books (Sách): Không được đề cập trong email.\nC. Theater (Nhà hát): Đúng, phù hợp nhất với các chi tiết được đề cập như diễn viên và đoàn làm phim.\nD. Fashion (Thời trang): Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "âm nhạc"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "sách"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "nhà hát"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thời trang"
+        }
+       }
       },
       {
        "number": 160,
@@ -5927,7 +7931,8 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì câu này phù hợp nhất ở vị trí [2]. Nó tạo ra một sự chuyển tiếp tốt giữa việc từ chối dịch vụ chiếu sáng và việc hỏi về dịch vụ ăn uống. Nó cũng giải thích tại sao Ms. Hsiao vẫn quan tâm đến việc làm việc với Preble Events mặc dù đã từ chối dịch vụ chiếu sáng của họ.\nA. [1]: Không phù hợp vì nó sẽ ngắt quãng luồng thông tin.\nB. [2]: Đúng, phù hợp nhất với ngữ cảnh của email.\nC. [3]: Không phù hợp vì nó sẽ làm gián đoạn câu hỏi về dịch vụ ăn uống.\nD. [4]: Quá muộn trong email để đưa ra thông tin này.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {}
       }
      ]
     },
@@ -5960,7 +7965,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì thông báo đề cập đến \"refrigerators\" và \"washing machines\" là ví dụ về các thiết bị gia dụng được bán. Máy rửa chén (dishwashers) cũng là một loại thiết bị gia dụng tương tự.\nA. Computers (Máy tính): Không được đề cập cụ thể trong thông báo.\nB. Sofas (Ghế sofa): Không được đề cập trong thông báo.\nC. Dishwashers (Máy rửa chén): Đúng, phù hợp với loại sản phẩm được mô tả trong thông báo.\nD. Food (Thực phẩm): Không được đề cập trong thông báo.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "máy tính"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "ghế sofa"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "máy rửa chén"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thực phẩm"
+        }
+       }
       },
       {
        "number": 162,
@@ -5974,7 +7997,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì thông báo nói rõ \"After 25 years in business, our store is closing. Everything must go!\" Điều này cho thấy cửa hàng sắp đóng cửa hoặc ngừng kinh doanh.\nA. Nó sẽ sớm chuyển đến một địa điểm mới: Không được đề cập trong thông báo.\nB. Nó muốn quảng bá một thương hiệu cụ thể: Không được đề cập trong thông báo.\nC. Nó cần dọn chỗ cho các mặt hàng mới: Không được đề cập trong thông báo.\nD. Nó sẽ sớm ngừng kinh doanh: Đúng, phù hợp với thông tin trong thông báo.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó sẽ sớm chuyển đến một địa điểm mới"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó muốn quảng bá một thương hiệu cụ thể"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó cần dọn chỗ cho các mặt hàng mới"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó sẽ sớm ngừng kinh doanh"
+        }
+       }
       },
       {
        "number": 163,
@@ -5988,7 +8029,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì thông báo nói \"Delivery is available within 60 miles of our store for a flat fee of $50.00.\" Điều này cho thấy giao hàng chỉ có sẵn trong một khu vực cụ thể.\nA. Nó miễn phí cho việc mua hai mặt hàng trở lên: Không được đề cập trong thông báo.\nB. Nó chỉ có sẵn trong một khu vực cụ thể: Đúng, phù hợp với thông tin trong thông báo.\nC. Nó giới hạn cho các mặt hàng lớn: Không được đề cập trong thông báo.\nD. Nó được bao gồm trong giá của mặt hàng: Không đúng, có phí giao hàng riêng.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó miễn phí cho việc mua hai mặt hàng trở lên"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó chỉ có sẵn trong một khu vực cụ thể"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó giới hạn cho các mặt hàng lớn"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó được bao gồm trong giá của mặt hàng"
+        }
+       }
       }
      ]
     },
@@ -6022,7 +8081,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì email chủ yếu cung cấp hướng dẫn cho Bruce Holt về những việc cần làm liên quan đến thay đổi trong chế độ phúc lợi hưu trí. Ms. Walker yêu cầu Bruce làm việc với Yua Suzuki, cung cấp thông tin cho nhân viên, và tiếp tục gửi báo cáo tài chính hàng ngày.\nA. Để hỏi về một giao dịch: Không phải mục đích chính của email.\nB. Để lên kế hoạch cho một cuộc họp: Không được đề cập trong email.\nC. Để cung cấp hướng dẫn: Đúng, phù hợp với nội dung chính của email.\nD. Để hỏi ý kiến: Không phải mục đích chính của email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để hỏi về một giao dịch"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để lên kế hoạch cho một cuộc họp"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để cung cấp hướng dẫn"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để hỏi ý kiến"
+        }
+       }
       },
       {
        "number": 165,
@@ -6036,7 +8113,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trong ngữ cảnh này, \"applied\" có nghĩa là \"implemented\" (thực hiện). Câu nói rằng sự thay đổi trong phúc lợi hưu trí sẽ được \"applied\", nghĩa là nó sẽ được thực hiện hoặc áp dụng.\nA. requested (yêu cầu): Không phù hợp với ngữ cảnh.\nB. delayed (trì hoãn): Không phù hợp với ngữ cảnh.\nC. discussed (thảo luận): Không phù hợp với ngữ cảnh.\nD. implemented (thực hiện): Đúng, phù hợp nhất với ý nghĩa của \"applied\" trong ngữ cảnh này.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "yêu cầu"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "trì hoãn"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "thảo luận"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "thực hiện"
+        }
+       }
       },
       {
        "number": 166,
@@ -6050,7 +8145,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì email nói rằng \"The firm will manage the transition and will continue to provide customer support to Blanen Industries employees. Questions should be directed to Pierre Dehaene at Proxave Futures rather than our human resources department.\" Điều này gợi ý rằng Proxave Futures sẽ giải đáp bất kỳ thắc mắc nào của nhân viên Blanen Industries.\nA. Nó đang tặng nhân viên một khoản thưởng: Không được đề cập trong email.\nB. Nó cung cấp cổ phiếu công ty cho nhân viên của mình: Không đúng, đây là Blanen Industries đang làm điều này cho nhân viên của họ.\nC. Nó sẽ giải quyết bất kỳ thắc mắc nào của nhân viên Blanen Industries: Đúng, phù hợp với thông tin trong email.\nD. Nó đang sáp nhập với Blanen Industries: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó đang tặng nhân viên một khoản thưởng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó cung cấp cổ phiếu công ty cho nhân viên của mình"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó sẽ giải quyết bất kỳ thắc mắc nào của nhân viên Blanen Industries"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó đang sáp nhập với Blanen Industries"
+        }
+       }
       },
       {
        "number": 167,
@@ -6064,7 +8177,8 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì email nói \"Please work with Yua Suzuki, head of human resources, to provide her with the information she should include in her all-staff communication about this important change in employee benefits.\" Điều này cho thấy Ms. Suzuki sẽ là người thông báo cho tất cả nhân viên về sự thay đổi chính sách.\nA. Mr. Holt: Không phải người chịu trách nhiệm thông báo.\nB. Ms. Walker: Là người gửi email, không phải người thông báo cho nhân viên.\nC. Mr. Dehaene: Là người từ Proxave Futures, không phải người thông báo cho nhân viên Blanen Industries.\nD. Ms. Suzuki: Đúng, là người chịu trách nhiệm thông báo cho tất cả nhân viên.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {}
       }
      ]
     },
@@ -6098,7 +8212,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì Monica Zia nói: \"She said she had a slight cold but that she should be able to work from home on the data analyses for her clients.\"\nA. Cô ấy cảm thấy không khỏe: Đúng, phù hợp với thông tin trong cuộc trò chuyện.\nB. Cô ấy làm việc tại nhà mỗi thứ Sáu: Không được đề cập trong cuộc trò chuyện.\nC. Cô ấy đang gặp gỡ khách hàng: Không đúng, cô ấy sẽ làm việc từ xa cho khách hàng.\nD. Cô ấy đang gặp sự cố với xe hơi: Không được đề cập trong cuộc trò chuyện.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Cô ấy cảm thấy không khỏe"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy làm việc tại nhà mỗi thứ Sáu"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy đang gặp gỡ khách hàng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Cô ấy đang gặp sự cố với xe hơi"
+        }
+       }
       },
       {
        "number": 169,
@@ -6112,7 +8244,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì Monica Zia nói: \"Dejani and I were going to go to Willi's Market to buy food and beverages for tomorrow's office picnic.\" Điều này cho thấy Ms. Jones đã đồng ý giúp đỡ việc mua sắm.\nA. Lái xe đưa Ms. Zia đến nơi làm việc: Không được đề cập trong cuộc trò chuyện.\nB. Chọn địa điểm cho buổi picnic: Không đúng, địa điểm đã được chọn (City Park).\nC. Chuyển đến một bàn làm việc mới: Không được đề cập trong cuộc trò chuyện.\nD. Giúp đỡ việc mua sắm: Đúng, phù hợp với thông tin trong cuộc trò chuyện.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Lái xe đưa Ms. Zia đến nơi làm việc"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Chọn địa điểm cho buổi picnic"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Chuyển đến một bàn làm việc mới"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Giúp đỡ việc mua sắm"
+        }
+       }
       },
       {
        "number": 170,
@@ -6125,8 +8275,18 @@
         "D": "Mr. Suh"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C vì Yuji Saito đã đồng ý giúp đỡ và nói: \"I can help, and we can use my credit card.\" Điều này cho thấy Mr. Saito sẽ là người mua đồ ăn và đồ uống cho buổi picnic.\nA. Ms. Zia: Không phải người trực tiếp mua, mặc dù cô ấy sẽ đi cùng.\nB. Ms. Jones: Không thể mua vì cô ấy không đến văn phòng hôm nay.\nC. Mr. Saito: Đúng, anh ấy đã đồng ý giúp đỡ và sử dụng thẻ tín dụng của mình.\nD. Mr. Suh: Không thể giúp vì anh ấy có nhiều cuộc họp chiều nay.",
-       "tags": []
+       "explanation": "Đáp án đúng là C vì Yuji Saito đã đồng ý giúp đỡ và nói: \"I can help, and we can use my credit card.\" Điều này cho thấy Mr. Saito sẽ là người mua đồ ăn và đồ uống cho buổi picnic.\nA. Ms. Zia: Không phải người trực tiếp mua, mặc dù cô ấy sẽ đi cùng.\nC. Mr. Saito: Đúng, anh ấy đã đồng ý giúp đỡ và sử dụng thẻ tín dụng của mình.",
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "Không thể mua vì cô ấy không đến văn phòng hôm nay."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Không thể giúp vì anh ấy có nhiều cuộc họp chiều nay."
+        }
+       }
       },
       {
        "number": 171,
@@ -6140,7 +8300,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì \"Around two\" là câu trả lời của Monica Zia cho câu hỏi của Sung-ho Suh \"When were you thinking of going?\" Điều này cho thấy cô ấy muốn rời văn phòng vào khoảng 2 giờ chiều để đi mua sắm.\nA. Cô ấy cần ít nhất hai người giúp đỡ tại Willi's Market: Không phù hợp với ngữ cảnh của cuộc trò chuyện.\nB. Cô ấy đã đặt hai vé cho một sự kiện tại Công viên Thành phố: Không được đề cập trong cuộc trò chuyện.\nC. Cô ấy dự định gặp Mr. Suh trong khoảng hai giờ nữa: Không đúng, Mr. Suh không thể giúp đỡ.\nD. Cô ấy muốn rời văn phòng chiều nay vào khoảng hai giờ: Đúng, phù hợp với ngữ cảnh của cuộc trò chuyện.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Cô ấy cần ít nhất hai người giúp đỡ tại Willi's Market"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy đã đặt hai vé cho một sự kiện tại Công viên Thành phố"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy dự định gặp Mr. Suh trong khoảng hai giờ nữa"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Cô ấy muốn rời văn phòng chiều nay vào khoảng hai giờ"
+        }
+       }
       }
      ]
     },
@@ -6174,7 +8352,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì email này chủ yếu so sánh các địa điểm có thể tổ chức hội nghị, tập trung vào Hotel al Ponte ở Rome và đề cập đến các thành phố khác như Genoa và Florence.\nA. Để đặt chuyến đi cho một hội nghị: Không phải mục đích chính của email.\nB. Để so sánh các địa điểm có thể cho một hội nghị: Đúng, phù hợp với nội dung chính của email.\nC. Để yêu cầu tăng ngân sách cho việc tổ chức hội nghị: Không được đề cập trong email.\nD. Để hỏi về chi phí tham dự hội nghị: Không phải mục đích chính của email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để đặt chuyến đi cho một hội nghị"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để so sánh các địa điểm có thể cho một hội nghị"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để yêu cầu tăng ngân sách cho việc tổ chức hội nghị"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để hỏi về chi phí tham dự hội nghị"
+        }
+       }
       },
       {
        "number": 173,
@@ -6188,7 +8384,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì email đề cập đến \"our next annual technology conference\", cho thấy hội nghị này diễn ra hàng năm.\nA. Nó dành cho các chuyên gia trong ngành du lịch: Không được đề cập trong email.\nB. Nó diễn ra mỗi năm: Đúng, phù hợp với thông tin trong email.\nC. Nó thường được tổ chức ở Buenos Aires: Không được đề cập là nơi thường xuyên tổ chức.\nD. Nó sẽ diễn ra vào tháng Tám: Không đúng, email nói hội nghị sẽ diễn ra vào tháng 6 năm sau.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó dành cho các chuyên gia trong ngành du lịch"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó diễn ra mỗi năm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó thường được tổ chức ở Buenos Aires"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó sẽ diễn ra vào tháng Tám"
+        }
+       }
       },
       {
        "number": 174,
@@ -6202,7 +8416,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì email nói rằng phòng ở Hotel al Ponte có giá €110 mỗi đêm, trong khi ở Hotel Milvio là €120 mỗi đêm, cho thấy Hotel Milvio đắt hơn.\nA. Nó đắt hơn Hotel al Ponte: Đúng, phù hợp với thông tin trong email.\nB. Nó thường xuyên kín phòng: Không được đề cập trong email.\nC. Nó có các địa điểm ở Genoa và Florence: Không được đề cập trong email.\nD. Nó có nhiều phòng hơn Hotel al Ponte: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó đắt hơn Hotel al Ponte"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó thường xuyên kín phòng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó có các địa điểm ở Genoa và Florence"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó có nhiều phòng hơn Hotel al Ponte"
+        }
+       }
       },
       {
        "number": 175,
@@ -6216,7 +8448,8 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì câu này phù hợp nhất ở vị trí [3], ngay sau khi đề cập đến việc tìm kiếm khách sạn ở Genoa và Florence. Nó cung cấp thông tin về sự chênh lệch chi phí giữa các thành phố này và Rome.\nA. [1]: Không phù hợp vì nó sẽ ngắt quãng thông tin về Hotel al Ponte.\nB. [2]: Không phù hợp vì nó sẽ ngắt quãng thông tin về Hotel Milvio.\nC. [3]: Đúng, phù hợp nhất với ngữ cảnh của email.\nD. [4]: Quá muộn trong email để đưa ra thông tin này.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {}
       }
      ]
     },
@@ -6251,7 +8484,17 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì trang web này chủ yếu nhằm quảng bá và thu hút người đăng ký cho Central University Health Newsletter. Nó cung cấp thông tin về nội dung bản tin, giá cả, và các lợi ích của việc đăng ký, với mục đích rõ ràng là thu hút độc giả mới.\nA. Để giải thích lý do tăng giá: Không được đề cập trong trang web.\nB. Để tăng số lượng độc giả cho một ấn phẩm: Đúng, phù hợp với mục đích chính của trang web.\nC. Để tuyển tình nguyện viên cho một dự án nghiên cứu: Không được đề cập trong trang web.\nD. Để bán các thực phẩm bổ sung: Mặc dù có đề cập đến việc đánh giá thực phẩm bổ sung, nhưng đây không phải là mục đích chính của trang web.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "Để tăng số lượng độc giả cho một ấn phẩm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để tuyển tình nguyện viên cho một dự án nghiên cứu"
+        }
+       }
       },
       {
        "number": 177,
@@ -6265,7 +8508,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì trong ngữ cảnh này, \"delivers\" có nghĩa là \"presents\" (trình bày). Câu nói rằng bản tin \"delivers informative, easy-to-understand articles\", nghĩa là nó trình bày các bài viết thông tin, dễ hiểu.\nA. presents (trình bày): Đúng, phù hợp nhất với ý nghĩa của \"delivers\" trong ngữ cảnh này.\nB. transports (vận chuyển): Không phù hợp với ngữ cảnh, vì đang nói về nội dung, không phải vật lý.\nC. guides (hướng dẫn): Không phù hợp với ngữ cảnh.\nD. claims (tuyên bố): Không phù hợp với ngữ cảnh.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "trình bày"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "vận chuyển"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "hướng dẫn"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "tuyên bố"
+        }
+       }
       },
       {
        "number": 178,
@@ -6279,7 +8540,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trang web nói rằng \"subscribers receive our free weekly \"Healthy Living\" e-mail update\", và Mr. Kipp đã đăng ký bản tin này trong hai năm, nên có thể kết luận rằng anh ấy nhận được email hàng tuần từ Đại học Central.\nA. Anh ấy là một chuyên gia chăm sóc sức khỏe: Không có thông tin nào cho thấy điều này.\nB. Anh ấy nhận được giảm giá 20% cho đăng ký: Không đúng, trang web chỉ đề cập đến giảm giá 10% cho lần gia hạn đầu tiên.\nC. Anh ấy nhận được các mẹo dinh dưỡng từ một chương trình truyền hình: Không được đề cập trong đánh giá của Mr. Kipp.\nD. Anh ấy nhận được email hàng tuần từ Đại học Central: Đúng, có thể suy ra từ thông tin được cung cấp.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Anh ấy là một chuyên gia chăm sóc sức khỏe"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Anh ấy nhận được giảm giá 20% cho đăng ký"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Anh ấy nhận được các mẹo dinh dưỡng từ một chương trình truyền hình"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Anh ấy nhận được email hàng tuần từ Đại học Central"
+        }
+       }
       },
       {
        "number": 179,
@@ -6293,7 +8572,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì đánh giá của Mr. Kipp đề cập đến \"Dr. Stella Booth gives a surprising answer\", và trang web nói rằng \"the director of the School of Nutrition answers readers' questions\". Từ đó có thể suy ra rằng Dr. Booth là giám đốc của Trường Dinh dưỡng Đại học Central.\nA. Nó tạo ra các kế hoạch bài giảng cho giáo viên địa phương: Không được đề cập trong thông tin cung cấp.\nB. Nó được đứng đầu bởi Dr. Booth: Đúng, có thể suy ra từ thông tin được cung cấp.\nC. Nó cung cấp các lớp học nấu ăn trực tuyến: Không được đề cập trong thông tin cung cấp.\nD. Nó có một vị trí tuyển dụng cho nhà nghiên cứu: Không được đề cập trong thông tin cung cấp.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó tạo ra các kế hoạch bài giảng cho giáo viên địa phương"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó được đứng đầu bởi Dr. Booth"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó cung cấp các lớp học nấu ăn trực tuyến"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó có một vị trí tuyển dụng cho nhà nghiên cứu"
+        }
+       }
       },
       {
        "number": 180,
@@ -6307,7 +8604,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trong đánh giá của mình, Mr. Kipp nói: \"My sole complaint is that the newsletter is only twelve pages long!\" Điều này cho thấy độ dài tổng thể của bản tin là điểm yếu duy nhất mà anh ấy đề cập.\nA. Phạm vi chủ đề hạn chế: Không được đề cập là một điểm yếu trong đánh giá.\nB. Độ phức tạp của các bài viết: Không được đề cập là một điểm yếu, thực tế Mr. Kipp nói rằng anh ấy luôn học được điều gì đó mới.\nC. Thiếu hình ảnh: Không được đề cập trong đánh giá.\nD. Độ dài tổng thể: Đúng, đây là điểm yếu duy nhất được đề cập trong đánh giá.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Phạm vi chủ đề hạn chế"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Độ phức tạp của các bài viết"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Thiếu hình ảnh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Độ dài tổng thể"
+        }
+       }
       }
      ]
     },
@@ -6341,8 +8656,22 @@
         "D": "Mr. Withers"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D vì Mr. Withers đã yêu cầu chỉnh sửa CV và thư xin việc, điều này thường liên quan đến việc tìm kiếm việc làm mới.\nA. Mr. Gallagher: Anh ấy đang chỉnh sửa đề xuất tài trợ, không liên quan trực tiếp đến tìm việc mới.\nB. Ms. Quinn: Cô ấy là khách hàng doanh nghiệp lâu năm, không có dấu hiệu tìm việc mới.\nC. Ms. Rogers: Cô ấy đang chỉnh sửa bài báo tạp chí, không liên quan đến tìm việc mới.\nD. Mr. Withers: Đúng, việc chỉnh sửa CV và thư xin việc gợi ý anh ấy đang tìm việc mới.",
-       "tags": []
+       "explanation": "Đáp án đúng là D vì Mr. Withers đã yêu cầu chỉnh sửa CV và thư xin việc, điều này thường liên quan đến việc tìm kiếm việc làm mới.\nD. Mr. Withers: Đúng, việc chỉnh sửa CV và thư xin việc gợi ý anh ấy đang tìm việc mới.",
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Anh ấy đang chỉnh sửa đề xuất tài trợ, không liên quan trực tiếp đến tìm việc mới."
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy là khách hàng doanh nghiệp lâu năm, không có dấu hiệu tìm việc mới."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy đang chỉnh sửa bài báo tạp chí, không liên quan đến tìm việc mới."
+        }
+       }
       },
       {
        "number": 182,
@@ -6356,7 +8685,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì email nói: \"As you know, we do not dictate how you structure your workday  instead, Brit-Revision (BRV) guidelines require simply that deadlines be met and that work quality be maintained.\" Điều này cho thấy Ms. Yamashita có thể tự sắp xếp giờ làm việc của mình.\nA. Cô ấy có thể tự sắp xếp giờ làm việc: Đúng, phù hợp với thông tin trong email.\nB. Cô ấy đến văn phòng BRV mỗi tuần: Không được đề cập trong email.\nC. Cô ấy phải tìm khách hàng mới cho BRV: Không được đề cập trong email.\nD. Cô ấy sẽ sớm đủ điều kiện để được thăng chức: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Cô ấy có thể tự sắp xếp giờ làm việc"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy đến văn phòng BRV mỗi tuần"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy phải tìm khách hàng mới cho BRV"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Cô ấy sẽ sớm đủ điều kiện để được thăng chức"
+        }
+       }
       },
       {
        "number": 183,
@@ -6370,7 +8717,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì email đề cập đến một công việc bổ sung mà Ms. Yamashita đã làm cho Mr. Kent nhưng không được đưa vào hóa đơn: \"we will pay you for an additional 30 minutes of work that you did for Mr. Kent.\"\nA. Thay đổi địa chỉ: Không được đề cập trong email.\nB. Một nhiệm vụ bổ sung: Đúng, đây là điều không được đưa vào hóa đơn.\nC. Ngày kết thúc dự án: Không được đề cập là thiếu trong hóa đơn.\nD. Số tài khoản: Không được đề cập là thiếu trong hóa đơn.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Thay đổi địa chỉ"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một nhiệm vụ bổ sung"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Ngày kết thúc dự án"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "số tài khoản"
+        }
+       }
       },
       {
        "number": 184,
@@ -6384,7 +8749,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì email nói: \"As for the work that you did for our long-standing corporate client Lydia Quinn, you will see on your receipt that we have paid you at a higher hourly rate.\" Lydia Quinn là khách hàng của dự án chỉnh sửa bản sao tiếp thị.\nA. Luận văn đại học: Không được đề cập là có mức lương cao nhất.\nB. Đề xuất tài trợ: Không được đề cập là có mức lương cao nhất.\nC. Bản sao tiếp thị: Đúng, được đề cập là có mức lương theo giờ cao hơn.\nD. Bài báo tạp chí: Không được đề cập là có mức lương cao nhất.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "luận văn đại học"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "đề xuất tài trợ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Bản sao tiếp thị"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "bài báo tạp chí"
+        }
+       }
       },
       {
        "number": 185,
@@ -6398,7 +8781,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì email nói: \"I have initiated the transfer of £750 into your Stashcash account. The funds should appear in your account by tomorrow morning.\" Email được gửi vào ngày 1 tháng 10, nên \"tomorrow morning\" sẽ là ngày 2 tháng 10.\nA. Vào ngày 28 tháng 9: Không phải ngày thanh toán được đề cập.\nB. Vào ngày 30 tháng 9: Không phải ngày thanh toán được đề cập.\nC. Vào ngày 1 tháng 10: Không phải ngày thanh toán được đề cập.\nD. Vào ngày 2 tháng 10: Đúng, phù hợp với thông tin trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "vào ngày 28 tháng 9"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "vào ngày 30 tháng 9"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "vào ngày 1 tháng 10"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Vào ngày 2 tháng 10"
+        }
+       }
       }
      ]
     },
@@ -6433,7 +8834,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì email đầu tiên nói: \"we just need to ensure that your Motman Motors portal account is set up using the employee identification number recently sent to you\". Điều này cho thấy số nhận dạng nhân viên đã được gửi trước đó cho nhân viên mới.\nA. Một quảng cáo: Không được đề cập trong email.\nB. Một mẫu đơn ứng tuyển: Không được đề cập trong email.\nC. Một số nhận dạng nhân viên: Đúng, phù hợp với thông tin trong email.\nD. Hướng dẫn đến một khu phức hợp văn phòng: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "một quảng cáo"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "một mẫu đơn ứng tuyển"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một số nhận dạng nhân viên"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Hướng dẫn đến một khu phức hợp văn phòng"
+        }
+       }
       },
       {
        "number": 187,
@@ -6447,7 +8866,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì email đầu tiên nói: \"Please follow the attached instructions to complete this final step. It should not take any more than fifteen minutes, and I ask that you do this by June 17.\"\nA. 8 tháng 6: Không phải là hạn chót được đề cập.\nB. 10 tháng 6: Đây là ngày định hướng, không phải hạn chót cho nhiệm vụ trực tuyến.\nC. 15 tháng 6: Không phải là hạn chót được đề cập.\nD. 17 tháng 6: Đúng, đây là hạn chót được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "8 tháng 6"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "10 tháng 6"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "15 tháng 6"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "17 tháng 6"
+        }
+       }
       },
       {
        "number": 188,
@@ -6461,7 +8898,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì trong email của mình, Ms. Dimaano nói: \"I am trying to set up my Motman Motors portal account, but I seem to be having trouble with my employee ID number.\" Bước 1 trong hướng dẫn là \"Go to the \"New User Registration\" page and enter your employee ID number.\"\nA. Bước 1: Đúng, cô ấy đang gặp vấn đề với việc nhập số ID nhân viên.\nB. Bước 2: Không phải bước mà cô ấy đang gặp vấn đề.\nC. Bước 3: Không phải bước mà cô ấy đang gặp vấn đề.\nD. Bước 4: Không phải bước mà cô ấy đang gặp vấn đề.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Bước 1"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "bước 2"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "bước 3"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "bước 4"
+        }
+       }
       },
       {
        "number": 189,
@@ -6475,7 +8930,21 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì trong email của mình, Ms. Dimaano nói: \"I look forward to meeting you tomorrow in room 215 in the Pimzler Building.\" Theo email đầu tiên, phòng 215 được chỉ định cho bộ phận Kỹ thuật (Engineering).\nA. Marketing: Không đúng, họ được chỉ định đến phòng 320.\nB. Dịch vụ Khách hàng: Không đúng, họ cũng được chỉ định đến phòng 320.\nC. Kỹ thuật: Đúng, phù hợp với thông tin trong cả hai email.\nD. Dịch vụ Công nghệ: Không đúng, họ được chỉ định đến phòng 158.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "Dịch vụ Khách hàng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Kỹ thuật"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Dịch vụ Công nghệ"
+        }
+       }
       },
       {
        "number": 190,
@@ -6489,7 +8958,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trong email của mình, Ms. Dimaano hỏi: \"Will the orientation include any information for newcomers to San Antonio? I am excited to start exploring everything here that this great city offers.\" Điều này gợi ý rằng cô ấy mới chuyển đến San Antonio.\nA. Cô ấy vừa tốt nghiệp đại học: Không được đề cập trong email.\nB. Cô ấy đã gặp ông Amos trước đây: Không được đề cập trong email.\nC. Cô ấy lo lắng về việc tìm tòa nhà: Không được đề cập trong email.\nD. Cô ấy gần đây đã chuyển đến San Antonio: Đúng, phù hợp với thông tin trong email của cô ấy.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Cô ấy vừa tốt nghiệp đại học"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Cô ấy đã gặp ông Amos trước đây"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cô ấy lo lắng về việc tìm tòa nhà"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Cô ấy gần đây đã chuyển đến San Antonio"
+        }
+       }
       }
      ]
     },
@@ -6524,7 +9011,25 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trong email, Ms. Mathai viết: \"Could you insert a short timeline of the history of The Hospital Equipment Company? I have attached the relevant information to this e-mail.\" Điều này cho thấy tệp đính kèm là thông tin về lịch sử công ty.\nA. Chi tiết về một hóa đơn: Không được đề cập là tệp đính kèm trong email.\nB. Đánh giá về Video Genie Productions: Không được đề cập là tệp đính kèm trong email.\nC. Lịch trình hoàn thành một dự án: Không được đề cập là tệp đính kèm trong email.\nD. Một đồ họa phác thảo lịch sử công ty: Đúng, phù hợp với thông tin trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Chi tiết về một hóa đơn"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Đánh giá về Video Genie Productions"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Lịch trình hoàn thành một dự án"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một đồ họa phác thảo lịch sử công ty"
+        }
+       }
       },
       {
        "number": 192,
@@ -6538,7 +9043,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì Ms. Mathai viết: \"At 1 minute: I had a hard time seeing the details of the control panel in this scene. Could you please replace it with a close-up shot?\" Điều này cho thấy một số nội dung không rõ ràng.\nA. Một số nội dung không rõ ràng: Đúng, phù hợp với yêu cầu của Ms. Mathai.\nB. Một số thiết bị được dán nhãn không chính xác: Không được đề cập trong email.\nC. Video của cảnh di chuyển quá nhanh: Đây là vấn đề với cảnh ở phút thứ 2, không phải phút thứ 1.\nD. Kỹ thuật viên y tế nói quá khẽ: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một số nội dung không rõ ràng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một số thiết bị được dán nhãn không chính xác"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Video của cảnh di chuyển quá nhanh"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Kỹ thuật viên y tế nói quá khẽ"
+        }
+       }
       },
       {
        "number": 193,
@@ -6552,7 +9075,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì hóa đơn cho thấy \"Quantity 2\" cho Fluorolook Imager, nghĩa là người mua đã đặt hàng hai chiếc.\nA. Chúng được bán với giá giảm: Không có thông tin về giảm giá trên hóa đơn.\nB. Việc giao hàng miễn phí: Không đúng, có một khoản phí $2,350 cho \"Delivery and Installation\".\nC. Người mua đã đặt hàng hai chiếc: Đúng, phù hợp với thông tin trên hóa đơn.\nD. Chúng được lắp đặt vào ngày 25 tháng 10: Không đúng, ngày lắp đặt là 26 tháng 10.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Chúng được bán với giá giảm"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Việc giao hàng miễn phí"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Người mua đã đặt hàng hai chiếc"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Chúng được lắp đặt vào ngày 25 tháng 10"
+        }
+       }
       },
       {
        "number": 194,
@@ -6566,7 +9107,21 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì trong memo, Ms. Oliver viết: \"I would especially like to commend Ms. Mathai. She was instrumental in getting us to this point.\" Ms. Mathai là quản lý dự án của The Hospital Equipment Company.\nA. Một kỹ thuật viên y tế: Không được đề cập là người được khen ngợi cụ thể.\nB. Một quản lý bệnh viện: Mặc dù có đề cập đến Mr. Lamontagne, nhưng ông không phải người được khen ngợi cụ thể.\nC. Một quản lý dự án: Đúng, Ms. Mathai là người được khen ngợi cụ thể.\nD. Một nhà sản xuất video: Không được đề cập là người được khen ngợi cụ thể.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Một kỹ thuật viên y tế"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "một quản lý dự án"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một nhà sản xuất video"
+        }
+       }
       },
       {
        "number": 195,
@@ -6580,7 +9135,13 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trong memo, Ms. Oliver đề cập: \"The administrator of the hospital that made the purchase, Mr. Fabrice Lamontagne\". Hóa đơn cho thấy bệnh viện mua hàng là All-City Hospital.\nA. Tại MDP Delivery: Không phải nơi làm việc của Mr. Lamontagne.\nB. Tại Video Genie Productions: Không phải nơi làm việc của Mr. Lamontagne.\nC. Tại The Hospital Equipment Company: Không phải nơi làm việc của Mr. Lamontagne.\nD. Tại All-City Hospital: Đúng, phù hợp với thông tin trong memo và hóa đơn.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "tại MDP Delivery"
+        }
+       }
       }
      ]
     },
@@ -6615,7 +9176,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì email đầu tiên từ Min Hae Seong đề cập đến một vấn đề với lô hàng: \"there is a small issue with the shipment\" và giải thích rằng các thùng chứa 3 lít đã được giao nhầm.\nA. Để đặt hàng: Không phải mục đích của email này.\nB. Để hỏi về chi phí giao hàng: Không được đề cập trong email.\nC. Để thảo luận về một lỗi vận chuyển: Đúng, phù hợp với nội dung email.\nD. Để thực hiện thanh toán: Không phải mục đích của email này.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để đặt hàng"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để hỏi về chi phí giao hàng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để thảo luận về một lỗi vận chuyển"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để thực hiện thanh toán"
+        }
+       }
       },
       {
        "number": 197,
@@ -6629,7 +9208,8 @@
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D vì trong email đầu tiên, Ms. Seong đề cập đến \"the 3-litre bulk size containers were delivered in error\". Theo phiếu đóng gói, mã sản phẩm EVO163 tương ứng với \"3-litre extra-virgin olive oil bulk size Reina logo tin\".\nA. EVO160: Không phải sản phẩm được đề cập trong email.\nB. EVO161: Không phải sản phẩm được đề cập trong email.\nC. EVO162: Không phải sản phẩm được đề cập trong email.\nD. EVO163: Đúng, phù hợp với mô tả trong email và phiếu đóng gói.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {}
       },
       {
        "number": 198,
@@ -6643,7 +9223,25 @@
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B vì trong email thứ hai, Mr. Nadal viết: \"Unfortunately, we are unable to restock any items that have left our warehouse.\" Điều này gợi ý rằng công ty không thể chấp nhận hàng trả lại.\nA. Nó đang tìm kiếm khách hàng mới: Không được đề cập trong email.\nB. Nó không thể chấp nhận hàng trả lại: Đúng, phù hợp với thông tin trong email.\nC. Nó được sở hữu bởi ông Nadal: Không có thông tin về điều này trong email.\nD. Nó phân phối nhiều hơn là chỉ dầu ô liu: Không có thông tin về điều này trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Nó đang tìm kiếm khách hàng mới"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Nó không thể chấp nhận hàng trả lại"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó được sở hữu bởi ông Nadal"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Nó phân phối nhiều hơn là chỉ dầu ô liu"
+        }
+       }
       },
       {
        "number": 199,
@@ -6657,7 +9255,25 @@
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C vì trong email thứ hai, Mr. Nadal viết: \"Also, you will receive a refund for the extra charge within the next five to ten business days because of our mistake.\"\nA. Bắt đầu một cuộc điều tra: Không được đề cập trong email.\nB. Gửi một số brochure của công ty: Không được đề cập trong email.\nC. Sắp xếp một khoản hoàn tiền: Đúng, phù hợp với thông tin trong email.\nD. Gửi một hóa đơn đã sửa đổi: Không được đề cập trong email.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "bắt đầu một cuộc điều tra"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Gửi một số brochure của công ty"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Sắp xếp một khoản hoàn tiền"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Gửi một hóa đơn đã sửa đổi"
+        }
+       }
       },
       {
        "number": 200,
@@ -6671,7 +9287,25 @@
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì trong email thứ hai, Mr. Nadal giải thích: \"during our Olive Harvest Festival in December, every shipment includes samples of our company's classic olive oil that we encourage you to give to your shoppers with our compliments.\" Mã sản phẩm EVO001 được mô tả là \"50-millilitre extra-virgin olive oil December sample size\" trong phiếu đóng gói.\nA. Để công nhận và chào mừng một lễ hội: Đúng, phù hợp với thông tin trong email và phiếu đóng gói.\nB. Để giới thiệu sản phẩm mới của công ty: Không được đề cập là lý do.\nC. Để thay thế một mặt hàng đã hết hàng: Không được đề cập là lý do.\nD. Để giải quyết một vấn đề với cơ sở dữ liệu của công ty: Không phải lý do cho việc bao gồm mẫu sản phẩm.",
-       "tags": []
+       "tags": [],
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Để công nhận và chào mừng một lễ hội"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Để giới thiệu sản phẩm mới của công ty"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để thay thế một mặt hàng đã hết hàng"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Để giải quyết một vấn đề với cơ sở dữ liệu của công ty"
+        }
+       }
       }
      ]
     }

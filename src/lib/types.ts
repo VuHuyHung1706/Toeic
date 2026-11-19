@@ -19,7 +19,8 @@ export interface Question {
   transcript?: string;
   /** Nhãn dạng câu (Part 2: loại câu hỏi, Part 5: chủ điểm ngữ pháp) — xem scripts/enrich.py */
   tags?: string[];
-  /** Part 5: nghĩa tiếng Việt + loại từ của từng phương án (hiện song ngữ dưới đáp án sau khi làm) */
+  /** Nghĩa tiếng Việt (+ loại từ nếu có) của từng phương án — hiện song ngữ dưới đáp án sau khi làm.
+   *  meaning có thể rỗng khi giải thích chỉ ghi loại từ. */
   optionNotes?: Partial<Record<Letter, { pos: string[]; meaning: string }>>;
 }
 

@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from enrich import COMMENT_RE, gloss_of_line  # noqa: E402
+from enrich import option_line_note  # noqa: E402
 CONTENT = ROOT / "content"
 DATA = ROOT / "Data"
 PART_COUNTS = {1: 6, 2: 25, 3: 39, 4: 30, 5: 30, 6: 16, 7: 54}
@@ -66,13 +66,15 @@ for entry in index:
                 err(f"{tid} {g['id']}: Part {part} thiếu danh sách từ vựng")
             for q in g["questions"]:
                 nums.append(q["number"])
-                if part == 5:
-                    if not isinstance(q.get("optionNotes"), dict):
-                        err(f"{tid} câu {q['number']}: thiếu optionNotes")
-                    for line in q["explanation"].split("\n"):
-                        gl = gloss_of_line(line, q["options"], relaxed=True)
-                        if gl and gl[2] and not COMMENT_RE.search(line.replace(gl[2], "")):
-                            err(f"{tid} câu {q['number']}: giải thích còn dòng dịch phương án: {line[:50]}")
+                if not isinstance(q.get("optionNotes"), dict):
+                    err(f"{tid} câu {q['number']}: thiếu optionNotes")
+                for L, note in (q.get("optionNotes") or {}).items():
+                    if L not in q["options"] or not (note.get("meaning") or note.get("pos")):
+                        err(f"{tid} câu {q['number']}: optionNotes[{L}] không hợp lệ")
+                for line in q["explanation"].split("\n"):
+                    nt = option_line_note(line, q["options"])
+                    if nt and nt[3] and (nt[1] or nt[2]):
+                        err(f"{tid} câu {q['number']}: giải thích còn dòng chỉ dịch phương án: {line[:50]}")
                 if part in (3, 4) and SECTION_RE.search(q["explanation"]):
                     err(f"{tid} câu {q['number']}: giải thích còn mục Từ vựng/Ngữ pháp/Bối cảnh")
                 letters = "ABC" if part == 2 else "ABCD"
@@ -80,7 +82,7 @@ for entry in index:
                     err(f"{tid} câu {q['number']}: đáp án '{q['answer']}' không hợp lệ")
                 if part >= 3 and any(not q["options"].get(L) for L in letters):
                     warns.append(f"{tid} câu {q['number']}: thiếu nội dung phương án")
-                if not q["explanation"]:
+                if not q["explanation"] and not q.get("optionNotes"):
                     warns.append(f"{tid} câu {q['number']}: thiếu giải thích")
                 if part in (2, 5) and len(q.get("tags", [])) != 1:
                     err(f"{tid} câu {q['number']}: Part {part} thiếu nhãn dạng câu")
