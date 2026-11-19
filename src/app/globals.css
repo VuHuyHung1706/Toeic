@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #f1f3f8;
+  --line: #e3e6ee;
+  --text: #171a23;
+  --muted: #5d6475;
+  --primary: #2453d6;
+  --primary-soft: #e8eefc;
+  --on-primary: #ffffff;
+  --success: #128a4a;
+  --success-soft: #e3f5ea;
+  --danger: #c43131;
+  --danger-soft: #fbe7e7;
+  --warn: #b26b00;
+  --warn-soft: #fff1d9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1016;
+    --surface: #171a23;
+    --surface-2: #1f2330;
+    --line: #2c3142;
+    --text: #e9ebf2;
+    --muted: #9aa1b4;
+    --primary: #7d9bff;
+    --primary-soft: #1f2a4a;
+    --on-primary: #0e1016;
+    --success: #4cc584;
+    --success-soft: #16301f;
+    --danger: #ff7b7b;
+    --danger-soft: #3a1c1c;
+    --warn: #f0b24a;
+    --warn-soft: #3a2c12;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-fg: var(--text);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-on-primary: var(--on-primary);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --font-sans: var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Đoạn văn Part 6/7 & script: giữ xuống dòng của dữ liệu */
+.prose-pre {
+  white-space: pre-line;
+  line-height: 1.7;
+}
+
+audio {
+  width: 100%;
+}
