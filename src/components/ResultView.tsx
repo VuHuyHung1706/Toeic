@@ -95,9 +95,16 @@ export default function ResultView({ test }: { test: TestData }) {
             <span className="rounded-full bg-danger-soft px-3 py-1 text-danger">Sai {wrong}</span>
             <span className="rounded-full bg-warn-soft px-3 py-1 text-warn">Bỏ trống {skipped}</span>
           </div>
-          <Link href={retryHref} className="mt-5 inline-block rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-on-primary">
-            Làm lại
-          </Link>
+          <div className="mt-5 flex flex-wrap gap-2">
+            <Link href={retryHref} className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-on-primary">
+              Làm lại
+            </Link>
+            {wrong + skipped > 0 && (
+              <Link href="/mistakes" className="rounded-lg border border-line px-4 py-2 text-sm font-semibold hover:bg-surface-2">
+                Ôn câu sai
+              </Link>
+            )}
+          </div>
         </div>
 
         <div className="rounded-xl border border-line bg-surface p-6">

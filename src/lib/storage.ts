@@ -1,11 +1,7 @@
 "use client";
-// Lưu bài làm trong localStorage (giai đoạn chưa có tài khoản/CSDL)
+// Lưu dữ liệu học trong localStorage (giai đoạn chưa có tài khoản/CSDL)
 import { useSyncExternalStore } from "react";
 import type { Attempt } from "./types";
-
-const ATTEMPTS_KEY = "toeic:attempts";
-const MAX_ATTEMPTS = 300;
-const listeners = new Set<() => void>();
 
 function safeGet(key: string): string | null {
   try {
@@ -23,53 +19,88 @@ function safeSet(key: string, value: string | null) {
   }
 }
 
-let cacheRaw: string | null | undefined;
-let cacheParsed: Attempt[] = [];
-const EMPTY: Attempt[] = [];
+/** Một giá trị JSON trong localStorage, đọc được bằng hook và đồng bộ giữa các tab. */
+function createStore<T>(key: string, empty: T) {
+  const listeners = new Set<() => void>();
+  let cacheRaw: string | null | undefined;
+  let cacheParsed: T = empty;
 
-function readAttempts(): Attempt[] {
-  const raw = safeGet(ATTEMPTS_KEY);
-  if (raw !== cacheRaw) {
-    cacheRaw = raw;
-    try {
-      cacheParsed = raw ? (JSON.parse(raw) as Attempt[]) : [];
-    } catch {
-      cacheParsed = [];
+  const read = (): T => {
+    const raw = safeGet(key);
+    if (raw !== cacheRaw) {
+      cacheRaw = raw;
+      try {
+        cacheParsed = raw ? (JSON.parse(raw) as T) : empty;
+      } catch {
+        cacheParsed = empty;
+      }
     }
-  }
-  return cacheParsed;
+    return cacheParsed;
+  };
+  const subscribe = (cb: () => void) => {
+    listeners.add(cb);
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === key) cb();
+    };
+    window.addEventListener("storage", onStorage);
+    return () => {
+      listeners.delete(cb);
+      window.removeEventListener("storage", onStorage);
+    };
+  };
+  const write = (value: T) => {
+    safeSet(key, JSON.stringify(value));
+    listeners.forEach((l) => l());
+  };
+  const useValue = () => useSyncExternalStore(subscribe, read, () => empty);
+  return { read, write, useValue };
 }
 
-function emit() {
-  listeners.forEach((l) => l());
-}
-
-function subscribe(cb: () => void) {
-  listeners.add(cb);
-  const onStorage = (e: StorageEvent) => {
-    if (e.key === ATTEMPTS_KEY) cb();
-  };
-  window.addEventListener("storage", onStorage);
-  return () => {
-    listeners.delete(cb);
-    window.removeEventListener("storage", onStorage);
-  };
-}
+// ---- bài làm đã nộp ----
+const MAX_ATTEMPTS = 300;
+const attemptsStore = createStore<Attempt[]>("toeic:attempts", []);
 
 /** Danh sách bài làm, mới nhất trước. Trả [] khi render phía server. */
-export function useAttempts(): Attempt[] {
-  return useSyncExternalStore(subscribe, readAttempts, () => EMPTY);
-}
+export const useAttempts = attemptsStore.useValue;
 
 export function saveAttempt(a: Attempt) {
-  const list = [a, ...readAttempts().filter((x) => x.id !== a.id)].slice(0, MAX_ATTEMPTS);
-  safeSet(ATTEMPTS_KEY, JSON.stringify(list));
-  emit();
+  attemptsStore.write([a, ...attemptsStore.read().filter((x) => x.id !== a.id)].slice(0, MAX_ATTEMPTS));
 }
 
 export function deleteAttempt(id: string) {
-  safeSet(ATTEMPTS_KEY, JSON.stringify(readAttempts().filter((x) => x.id !== id)));
-  emit();
+  attemptsStore.write(attemptsStore.read().filter((x) => x.id !== id));
+}
+
+// ---- kết quả làm lại câu sai: "testId:số câu" → các lần làm lại ----
+export interface ReviewEvent {
+  at: number;
+  ok: boolean;
+}
+export type ReviewLog = Record<string, ReviewEvent[]>;
+const reviewsStore = createStore<ReviewLog>("toeic:reviews", {});
+export const useReviews = reviewsStore.useValue;
+
+export function questionKey(testId: string, n: number) {
+  return `${testId}:${n}`;
+}
+
+export function recordReview(key: string, ok: boolean) {
+  const log = reviewsStore.read();
+  reviewsStore.write({ ...log, [key]: [...(log[key] ?? []), { at: Date.now(), ok }].slice(-20) });
+}
+
+// ---- hoạt động luyện nghe điền từ (để tính vào lịch học) ----
+export interface DictationEvent {
+  at: number;
+  testId: string;
+  groupId: string;
+  correct: number;
+  total: number;
+}
+const dictationStore = createStore<DictationEvent[]>("toeic:dictation", []);
+export const useDictation = dictationStore.useValue;
+export function recordDictation(e: DictationEvent) {
+  dictationStore.write([e, ...dictationStore.read()].slice(0, 1000));
 }
 
 // ---- tiến độ bài đang làm (tự lưu để reload không mất) ----

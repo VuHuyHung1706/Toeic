@@ -44,6 +44,19 @@ export default async function Home() {
         </div>
       </section>
 
+      <section className="mt-16 grid gap-3 md:grid-cols-3">
+        {[
+          ["/tests", "Thi thử & luyện đề", "200 câu bấm giờ như phòng thi, hoặc luyện riêng từng part kèm giải thích."],
+          ["/listening", "Luyện nghe điền từ", "Nghe audio Part 1–4 và điền từ còn thiếu trong script, 3 mức độ khó."],
+          ["/mistakes", "Sổ câu sai", "Tự gom câu làm sai để luyện lại tới khi làm đúng."],
+        ].map(([href, title, desc]) => (
+          <Link key={href} href={href} className="rounded-xl border border-line bg-surface p-5 transition hover:border-primary">
+            <div className="font-semibold">{title} →</div>
+            <div className="mt-1 text-sm text-muted">{desc}</div>
+          </Link>
+        ))}
+      </section>
+
       <section className="mt-16">
         <h2 className="text-xl font-bold">Cấu trúc đề thi</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">

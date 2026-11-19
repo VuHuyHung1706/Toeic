@@ -23,9 +23,12 @@ npm run dev              # http://localhost:3000
 | `/tests/[id]/exam?mode=full` | 200 câu, 120 phút, audio full phát liền không tua, tự nộp khi hết giờ |
 | `/tests/[id]/exam?mode=practice&parts=…` | Audio từng nhóm câu, chỉnh tốc độ, hiện giải thích ngay |
 | `/tests/[id]/result?attempt=…` | Điểm 990 ước tính, đúng/sai theo part, xem lại từng câu + script + bản dịch |
-| `/history` | Lịch sử làm bài |
+| `/listening` | Luyện nghe điền từ Part 1–4: script đục lỗ theo 3 mức độ, kiểm tra từng từ, xem bản dịch |
+| `/mistakes` | Sổ câu sai: gom câu sai từ mọi bài làm, lọc theo part, luyện lại tới khi đúng |
+| `/history` | Tiến độ: biểu đồ điểm thi thử, tỉ lệ đúng theo part, lịch học 16 tuần, lịch sử làm bài |
+| `/api/tests/[id]` | JSON một đề (prerender sẵn) cho các trang phía client |
 
-Bài làm và tiến độ đang lưu ở `localStorage` (chưa có tài khoản / CSDL — giai đoạn sau).
+Bài làm, lần ôn câu sai và luyện nghe đang lưu ở `localStorage` (chưa có tài khoản / CSDL — giai đoạn sau).
 
 ## Cấu trúc
 

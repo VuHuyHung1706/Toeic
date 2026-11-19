@@ -19,17 +19,21 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="vi" className={`${font.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col font-sans">
         <header className="sticky top-0 z-30 border-b border-line bg-surface/90 backdrop-blur">
-          <nav className="mx-auto flex h-14 max-w-6xl items-center gap-6 px-4">
-            <Link href="/" className="text-lg font-bold tracking-tight">
+          <nav className="mx-auto flex h-14 max-w-6xl items-center gap-5 px-4">
+            <Link href="/" className="shrink-0 text-lg font-bold tracking-tight">
               Toeic<span className="text-primary">Lab</span>
             </Link>
-            <div className="flex items-center gap-4 text-sm text-muted">
-              <Link href="/tests" className="hover:text-fg">
-                Đề thi
-              </Link>
-              <Link href="/history" className="hover:text-fg">
-                Lịch sử
-              </Link>
+            <div className="flex min-w-0 items-center gap-4 overflow-x-auto text-sm whitespace-nowrap text-muted">
+              {[
+                ["/tests", "Đề thi"],
+                ["/listening", "Luyện nghe"],
+                ["/mistakes", "Sổ câu sai"],
+                ["/history", "Tiến độ"],
+              ].map(([href, label]) => (
+                <Link key={href} href={href} className="hover:text-fg">
+                  {label}
+                </Link>
+              ))}
             </div>
           </nav>
         </header>
