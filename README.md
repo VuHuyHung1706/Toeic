@@ -74,6 +74,9 @@ Bài làm, lần ôn câu sai, luyện nghe, thẻ từ vựng, bài làm dở v
 ```
 scripts/etl.py              ETL CSV → JSON
 scripts/enrich.py           gắn nhãn dạng câu Part 2/5, trích từ vựng
+scripts/passage.py          chuẩn hoá bài đọc Part 7 (ký hiệu chèn câu [1]–[4], dòng phân cách giữa các văn bản)
+src/lib/passage.ts          tách bài đọc Part 7 thành khối: email/memo, tin nhắn, trang web, bảng, biểu mẫu, danh sách
+src/components/PassageView.tsx hiển thị bài đọc Part 7 dạng HTML (song ngữ theo từng dòng khi bản dịch khớp dòng)
 src/lib/                    types, tải dữ liệu (server), quy đổi điểm
 src/lib/storage.ts          lưu trữ phía trình duyệt + hàng đợi đồng bộ server
 src/lib/auth.ts             better-auth (email + mật khẩu, giới hạn tần suất)

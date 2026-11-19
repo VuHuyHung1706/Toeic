@@ -3,6 +3,7 @@
 import type { CSSProperties, ReactNode } from "react";
 import AudioPlayer from "./AudioPlayer";
 import BilingualText from "./BilingualText";
+import PassageView from "./PassageView";
 import { renderBlanks } from "./BlankText";
 import { HL_COLORS, highlightEvidence, highlightPair, jumpToEvidence, type EvidenceItem } from "./Evidence";
 import { setPref, usePref } from "@/lib/storage";
@@ -93,7 +94,7 @@ export default function GroupView({
         />
       ))}
       {showPassages && (
-        <div className="rounded-lg border border-line bg-surface p-4">
+        <div className={part === 7 ? "" : "rounded-lg border border-line bg-surface p-4"}>
           {allRevealed && hasVi && (
             <div className="mb-3 flex flex-wrap gap-1 text-sm" role="tablist" aria-label="Cách xem bài đọc">
               {VIEWS.map(([id, label]) => (
@@ -109,7 +110,18 @@ export default function GroupView({
               ))}
             </div>
           )}
-          {passages.map((p, i) => (
+          {part === 7 &&
+            passages.map((p, i) => (
+              <div key={i} className={i ? "mt-4" : ""}>
+                <PassageView
+                  en={p.en || p.vi}
+                  vi={p.en ? p.vi : ""}
+                  view={allRevealed && p.vi ? view : "en"}
+                  renderText={(s, lang, pairEn) => blanks(s, lang, pairEn)}
+                />
+              </div>
+            ))}
+          {part !== 7 && passages.map((p, i) => (
             <div key={i} className={i ? "mt-4 border-t border-dashed border-line pt-4" : ""}>
               {allRevealed && view === "bilingual" && p.en && p.vi ? (
                 <BilingualText en={p.en} vi={p.vi} renderText={blanks} />
