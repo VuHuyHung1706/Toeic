@@ -1,8 +1,9 @@
 "use client";
 
-import type { CSSProperties } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import AudioPlayer from "./AudioPlayer";
 import BilingualText from "./BilingualText";
+import { renderBlanks } from "./BlankText";
 import { setPref, usePref } from "@/lib/storage";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
@@ -52,6 +53,9 @@ export default function GroupView({
   const hasLeft = images.length > 0 || showPassages;
   const allRevealed = group.questions.every((q) => isRevealed(q.number));
   const hasVi = passages.some((p) => p.vi);
+  // Part 6: chỗ trống hiện thành nhãn số câu; đã chọn thì điền luôn đáp án, bấm để nhảy tới câu
+  const blanks = (text: string, lang: "en" | "vi" = "en"): ReactNode =>
+    part === 6 ? renderBlanks(text, { questions: group.questions, answers, isRevealed, lang }) : text;
 
   // Màn hình rộng (2 cột): cột trái dính lại và có thanh cuộn riêng, câu hỏi cuộn bên phải.
   // Mặc định: dưới menu (56px) + thanh audio dính của GroupView nếu có.
@@ -90,9 +94,11 @@ export default function GroupView({
           {passages.map((p, i) => (
             <div key={i} className={i ? "mt-4 border-t border-dashed border-line pt-4" : ""}>
               {allRevealed && view === "bilingual" && p.en && p.vi ? (
-                <BilingualText en={p.en} vi={p.vi} />
+                <BilingualText en={p.en} vi={p.vi} renderText={blanks} />
               ) : (
-                <div className="prose-pre text-[15px]">{(allRevealed && view === "vi" ? p.vi || p.en : p.en) || p.vi}</div>
+                <div className="prose-pre text-[15px]">
+                  {allRevealed && view === "vi" && p.vi ? blanks(p.vi, "vi") : blanks(p.en || p.vi)}
+                </div>
               )}
             </div>
           ))}

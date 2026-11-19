@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, type ReactNode } from "react";
 import { alignBilingual } from "@/lib/bilingual";
 
 // Nhãn người nói ở đầu lượt lời: "W-Am:", "M-Cn", "Man:", "W" …
@@ -8,7 +8,16 @@ import { alignBilingual } from "@/lib/bilingual";
 const SPEAKER_RE = /^((?:[WMwm]-[A-Za-z]{2})|(?:Man|Woman)\s*\d?|[WM]\d?)\s*:?\s+/;
 
 /** Song ngữ: mỗi câu tiếng Anh gốc ở trên, bản dịch tiếng Việt màu xanh ngay bên dưới */
-export default function BilingualText({ en, vi }: { en: string; vi: string }) {
+export default function BilingualText({
+  en,
+  vi,
+  renderText = (s: string) => s,
+}: {
+  en: string;
+  vi: string;
+  /** Tuỳ biến cách hiển thị từng câu (vd. điền đáp án vào chỗ trống Part 6) */
+  renderText?: (s: string, lang: "en" | "vi") => ReactNode;
+}) {
   const pairs = useMemo(() => alignBilingual(en, vi), [en, vi]);
   return (
     <div className="text-[15px] leading-relaxed">
@@ -23,10 +32,10 @@ export default function BilingualText({ en, vi }: { en: string; vi: string }) {
             {p.en && (
               <p>
                 {label && <b className="mr-1.5">{label}:</b>}
-                {enText}
+                {renderText(enText, "en")}
               </p>
             )}
-            {viText && <p className="text-primary">{viText}</p>}
+            {viText && <p className="text-primary">{renderText(viText, "vi")}</p>}
           </div>
         );
       })}
