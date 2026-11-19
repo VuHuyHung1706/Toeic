@@ -56,6 +56,15 @@ function createStore<T>(key: string, empty: T) {
   return { read, write, useValue };
 }
 
+// ---- tuỳ chọn hiển thị của người xem (vd chế độ xem bài đọc: Anh / song ngữ / Việt) ----
+const prefsStore = createStore<Record<string, string>>("toeic:prefs", {});
+export function usePref<T extends string>(key: string, fallback: T): T {
+  return (prefsStore.useValue()[key] as T | undefined) ?? fallback;
+}
+export function setPref(key: string, value: string) {
+  prefsStore.write({ ...prefsStore.read(), [key]: value });
+}
+
 // ---- bài làm đã nộp ----
 const MAX_ATTEMPTS = 300;
 const attemptsStore = createStore<Attempt[]>("toeic:attempts", []);

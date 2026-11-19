@@ -1,9 +1,17 @@
 "use client";
 
-import { useState } from "react";
 import AudioPlayer from "./AudioPlayer";
+import BilingualText from "./BilingualText";
+import { setPref, usePref } from "@/lib/storage";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
+
+type View = "en" | "bilingual" | "vi";
+const VIEWS: [View, string][] = [
+  ["en", "Tiếng Anh"],
+  ["bilingual", "Song ngữ"],
+  ["vi", "Tiếng Việt"],
+];
 
 interface Props {
   group: QuestionGroup;
@@ -19,7 +27,7 @@ interface Props {
 }
 
 export default function GroupView({ group, answers, onSelect, isRevealed, showScript, showAudio, flagged, onToggleFlag }: Props) {
-  const [showVi, setShowVi] = useState(false);
+  const view = usePref<View>("passageView", "bilingual");
   const part = group.part;
   const listening = part <= 4;
   const passages = group.passages.filter((p) => p.en || p.vi);
@@ -27,6 +35,7 @@ export default function GroupView({ group, answers, onSelect, isRevealed, showSc
   const images = group.images.filter((i) => i.src);
   const hasLeft = images.length > 0 || showPassages;
   const allRevealed = group.questions.every((q) => isRevealed(q.number));
+  const hasVi = passages.some((p) => p.vi);
 
   const left = hasLeft && (
     <div className={`space-y-4 ${part >= 6 ? "lg:sticky lg:top-4 lg:max-h-[calc(100vh-12rem)] lg:overflow-y-auto" : ""}`}>
@@ -41,13 +50,15 @@ export default function GroupView({ group, answers, onSelect, isRevealed, showSc
       ))}
       {showPassages && (
         <div className="rounded-lg border border-line bg-surface p-4">
-          {allRevealed && passages.some((p) => p.vi) && (
-            <div className="mb-3 flex gap-1 text-sm">
-              {(["Tiếng Anh", "Bản dịch"] as const).map((label, i) => (
+          {allRevealed && hasVi && (
+            <div className="mb-3 flex flex-wrap gap-1 text-sm" role="tablist" aria-label="Cách xem bài đọc">
+              {VIEWS.map(([id, label]) => (
                 <button
-                  key={label}
-                  onClick={() => setShowVi(i === 1)}
-                  className={`rounded-md px-3 py-1 ${showVi === (i === 1) ? "bg-primary-soft font-semibold text-primary" : "text-muted hover:bg-surface-2"}`}
+                  key={id}
+                  role="tab"
+                  aria-selected={view === id}
+                  onClick={() => setPref("passageView", id)}
+                  className={`rounded-md px-3 py-1 ${view === id ? "bg-primary-soft font-semibold text-primary" : "text-muted hover:bg-surface-2"}`}
                 >
                   {label}
                 </button>
@@ -56,7 +67,11 @@ export default function GroupView({ group, answers, onSelect, isRevealed, showSc
           )}
           {passages.map((p, i) => (
             <div key={i} className={i ? "mt-4 border-t border-dashed border-line pt-4" : ""}>
-              <div className="prose-pre text-[15px]">{(allRevealed && showVi ? p.vi || p.en : p.en) || p.vi}</div>
+              {allRevealed && view === "bilingual" && p.en && p.vi ? (
+                <BilingualText en={p.en} vi={p.vi} />
+              ) : (
+                <div className="prose-pre text-[15px]">{(allRevealed && view === "vi" ? p.vi || p.en : p.en) || p.vi}</div>
+              )}
             </div>
           ))}
         </div>

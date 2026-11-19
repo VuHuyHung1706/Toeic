@@ -2,6 +2,7 @@
 
 import { useMemo, useRef, useState } from "react";
 import AudioPlayer from "./AudioPlayer";
+import BilingualText from "./BilingualText";
 import { LEVELS, buildTokens, diffWords, hintOf, normalizeWord, scriptLines, type Level } from "@/lib/dictation";
 import { recordDictation } from "@/lib/storage";
 import { PARTS } from "@/lib/toeic";
@@ -287,8 +288,18 @@ function DictationCard({
 
       {(checked || revealed) && translation && (
         <details className="mt-5 rounded-lg bg-surface-2 p-3 text-sm">
-          <summary className="cursor-pointer font-semibold">{group.part >= 3 ? "Bản dịch" : "Dịch & giải thích"}</summary>
-          <div className="prose-pre mt-2">{translation}</div>
+          <summary className="cursor-pointer font-semibold">{group.part >= 3 ? "Song ngữ Anh – Việt" : "Dịch & giải thích"}</summary>
+          {group.part >= 3 ? (
+            <div className="mt-3 space-y-4">
+              {group.passages
+                .filter((p) => p.en && p.vi)
+                .map((p, i) => (
+                  <BilingualText key={i} en={p.en} vi={p.vi} />
+                ))}
+            </div>
+          ) : (
+            <div className="prose-pre mt-2">{translation}</div>
+          )}
         </details>
       )}
       <p className="mt-4 text-xs text-muted">Mẹo: nhấn Enter để chuyển sang chỗ trống tiếp theo; Enter ở ô cuối để kiểm tra.</p>
@@ -397,6 +408,23 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
           </button>
         )}
       </div>
+
+      {checked && (
+        <details className="mt-5 rounded-lg bg-surface-2 p-3 text-sm">
+          <summary className="cursor-pointer font-semibold">{group.part >= 3 ? "Song ngữ Anh – Việt" : "Dịch & giải thích"}</summary>
+          {group.part >= 3 ? (
+            <div className="mt-3 space-y-4">
+              {group.passages
+                .filter((p) => p.en && p.vi)
+                .map((p, i) => (
+                  <BilingualText key={i} en={p.en} vi={p.vi} />
+                ))}
+            </div>
+          ) : (
+            <div className="prose-pre mt-2">{group.questions[0]?.explanation}</div>
+          )}
+        </details>
+      )}
     </div>
   );
 }

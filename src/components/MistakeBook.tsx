@@ -218,18 +218,28 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
           <div className="h-full bg-primary" style={{ width: `${(index / groups.length) * 100}%` }} />
         </div>
       </div>
+      {group.questionNumbers.length > 1 && !allAnswered && (
+        <div className="mb-3 rounded-lg bg-primary-soft px-3 py-2 text-sm text-primary">
+          Trả lời đủ {group.questionNumbers.length} câu của đoạn này để xem đáp án và giải thích (đã trả lời{" "}
+          {Object.keys(local).length}/{group.questionNumbers.length}).
+        </div>
+      )}
       <div className="rounded-xl border border-line bg-surface p-4 sm:p-6">
         <GroupView
           key={group.id}
           group={group}
           answers={local}
           onSelect={(n, l) => {
-            const key = questionKey(test.id, n);
-            if (answers[key]) return;
-            setAnswers((a) => ({ ...a, [key]: l }));
-            recordReview(key, group.questions.find((q) => q.number === n)?.answer === l);
+            // đoạn đã hiện đáp án thì khoá; trước đó vẫn được đổi lựa chọn
+            if (allAnswered) return;
+            const next = { ...local, [n]: l };
+            setAnswers((a) => ({ ...a, [questionKey(test.id, n)]: l }));
+            // vừa trả lời đủ cả đoạn → chấm và ghi lại kết quả cho từng câu
+            if (group.questionNumbers.every((m) => next[m])) {
+              for (const q of group.questions) recordReview(questionKey(test.id, q.number), next[q.number] === q.answer);
+            }
           }}
-          isRevealed={(n) => !!local[n]}
+          isRevealed={() => allAnswered}
           showScript={allAnswered}
           showAudio
         />

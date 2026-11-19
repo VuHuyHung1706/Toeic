@@ -50,7 +50,7 @@ export function scriptLines(group: QuestionGroup): DictationLine[] {
     .filter(Boolean)
     .map((l) => {
       // nhãn người nói: "W-Am", "M-Cn", "Man 1:", hoặc chỉ "W"/"M" ở đầu dòng (đề 2026)
-      const m = l.match(/^((?:[WMwm]-(?:[Aa]m|[Bb]r|[Cc]n|[Aa]u))|(?:Man|Woman)\s*\d?|[WM]\d?)\s*:?\s+(.*)$/);
+      const m = l.match(/^((?:[WMwm]-[A-Za-z]{2})|(?:Man|Woman)\s*\d?|[WM]\d?)\s*:?\s+(.*)$/);
       return m ? { label: m[1], text: m[2] } : { text: l };
     });
 }

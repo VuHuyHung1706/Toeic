@@ -81,6 +81,12 @@ function ExamSession({
     for (const g of groups) for (const q of g.questions) m.set(q.number, q.answer);
     return m;
   }, [groups]);
+  // số câu → các câu cùng đoạn (Part 3/4/6/7: 2–5 câu; các part khác: chính nó)
+  const siblingsOf = useMemo(() => {
+    const m = new Map<number, number[]>();
+    for (const g of groups) for (const n of g.questionNumbers) m.set(n, g.questionNumbers);
+    return m;
+  }, [groups]);
 
   // ---------------- nộp bài ----------------
   const submit = useCallback(() => {
@@ -195,11 +201,12 @@ function ExamSession({
       return next;
     });
 
-  const isRevealed = (n: number) => instant && !!answers[n];
+  // Hiện đáp án ngay: chỉ khi đã trả lời hết các câu của cả đoạn, để không lộ đáp án câu đang làm dở
+  const isRevealed = (n: number) => instant && (siblingsOf.get(n) ?? [n]).every((m) => answers[m]);
   const cellState = (n: number): CellState => {
     const a = answers[n];
     if (!a) return "empty";
-    if (instant) return a === answerOf.get(n) ? "correct" : "wrong";
+    if (isRevealed(n)) return a === answerOf.get(n) ? "correct" : "wrong";
     return "answered";
   };
 
@@ -345,6 +352,12 @@ function ExamSession({
 
       <div className="mx-auto grid w-full max-w-7xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[1fr_280px]">
         <div ref={mainRef} className="min-w-0 scroll-mt-32">
+          {group && instant && group.questionNumbers.length > 1 && !group.questionNumbers.every((n) => answers[n]) && (
+            <div className="mb-3 rounded-lg bg-primary-soft px-3 py-2 text-sm text-primary">
+              Trả lời đủ {group.questionNumbers.length} câu của đoạn này để xem đáp án và giải thích (đã trả lời{" "}
+              {group.questionNumbers.filter((n) => answers[n]).length}/{group.questionNumbers.length}).
+            </div>
+          )}
           {group && (
             <GroupView
               key={group.id}
@@ -352,7 +365,7 @@ function ExamSession({
               answers={answers}
               onSelect={select}
               isRevealed={isRevealed}
-              showScript={false}
+              showScript={instant && group.questionNumbers.every((n) => answers[n])}
               showAudio={mode === "practice"}
               flagged={flagged}
               onToggleFlag={toggleFlag}
