@@ -93,6 +93,14 @@ describe("parsePassage", () => {
   });
 });
 
+describe("Part 6", () => {
+  it("dòng đầu kết thúc bằng ! hoặc ? là tiêu đề; dòng ngày ở đầu thư thì không", () => {
+    const long = "This spring, let Rutherford Garden Center help you create the garden of your dreams with 138...... care.";
+    expect(kinds(`Do You Want to Perfect Your Garden?\n${long}`)).toEqual([["doc", ["heading", "para"]]]);
+    expect(kinds(`January 17\nKenji Davis\n26 Peartree Lane\nDear Mr. Davis,\n${long}`)).toEqual([["doc", ["para", "para", "para", "para", "para"]]]);
+  });
+});
+
 describe("menu trang web nhiều dòng", () => {
   it("≥ 3 dòng ngắn liền nhau sau URL/tiêu đề là thanh menu", () => {
     const text = "http://www.emery.com/dishware\nEMERY RESTAURANT WAREHOUSE\nHome\nProduct Categories\nAbout\nHelp Center\nLund Square Dinner Plates\nLund is known for high-quality porcelain dishware that lasts for many years of daily use.";

@@ -90,6 +90,10 @@ const isNav = (line: string) => {
 };
 /** Dòng thụt lề sâu (≥ 4 dấu cách đầu dòng) — phần nối của dòng bảng / biểu mẫu phía trên */
 const isIndented = (raw: string) => /^\s{4,}\S/.test(raw);
+const MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December";
+/** "January 17", "17 January 2024", "Tháng 1 …" — dòng ngày ở đầu thư, không phải tiêu đề */
+const isDateLine = (s: string) =>
+  new RegExp(`^(?:(?:${MONTHS})\\s+\\d{1,2}(?:,\\s*\\d{4})?|\\d{1,2}\\s+(?:${MONTHS})(?:\\s+\\d{4})?)\\.?$`).test(s.trim());
 const isMenuItem = (s: string) => s.length <= 24 && s.split(/\s+/).length <= 3 && !/[\d.,:;!?]/.test(s.replace(/\.$/, ""));
 const isShort = (s: string) => s.length <= 60 && !/[.!?;,]["”’)]?$/.test(s.trim());
 /** Dòng ngắn viết hoa đầu mỗi từ, ngay trước một đoạn dài → tiêu đề phụ ("Express Yourself Beautifully") */
@@ -238,7 +242,8 @@ export function parseDoc(lines: string[]): PassageDoc {
 
     // tiêu đề: dòng đầu ngắn (sau URL/tên loại thư) hoặc dòng VIẾT HOA ngắn
     const firstContent = blocks.every((b) => b.kind === "url" || b.kind === "nav" || b.kind === "label");
-    if ((firstContent && isShort(line)) || isAllCaps(line) || isSubheading(line, lines[i + 1])) {
+    const firstTitle = firstContent && !isDateLine(line) && (isShort(line) || (/[!?]$/.test(line) && line.length <= 70));
+    if (firstTitle || isAllCaps(line) || isSubheading(line, lines[i + 1])) {
       blocks.push({ kind: "heading", i, level: firstContent ? 1 : 2 });
       i++;
       continue;

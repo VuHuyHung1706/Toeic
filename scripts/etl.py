@@ -456,7 +456,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                     vi = r["transcript"]
                     if vi and any(p["vi"] == vi for p in group["passages"]):
                         vi = ""  # bản dịch bị chép lặp ở nhiều câu
-                    if part == 7:
+                    if part in (6, 7):
                         en, vi = normalize_passage(en), normalize_passage(vi)
                     if en or vi:
                         group["passages"].append({"en": en, "vi": vi})

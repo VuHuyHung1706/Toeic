@@ -94,7 +94,7 @@ export default function GroupView({
         />
       ))}
       {showPassages && (
-        <div className={part === 7 ? "" : "rounded-lg border border-line bg-surface p-4"}>
+        <div className={part >= 6 ? "" : "rounded-lg border border-line bg-surface p-4"}>
           {allRevealed && hasVi && (
             <div className="mb-3 flex flex-wrap gap-1 text-sm" role="tablist" aria-label="Cách xem bài đọc">
               {VIEWS.map(([id, label]) => (
@@ -110,7 +110,7 @@ export default function GroupView({
               ))}
             </div>
           )}
-          {part === 7 &&
+          {part >= 6 &&
             passages.map((p, i) => (
               <div key={i} className={i ? "mt-4" : ""}>
                 <PassageView
@@ -121,7 +121,7 @@ export default function GroupView({
                 />
               </div>
             ))}
-          {part !== 7 && passages.map((p, i) => (
+          {part < 6 && passages.map((p, i) => (
             <div key={i} className={i ? "mt-4 border-t border-dashed border-line pt-4" : ""}>
               {allRevealed && view === "bilingual" && p.en && p.vi ? (
                 <BilingualText en={p.en} vi={p.vi} renderText={blanks} />

@@ -1,4 +1,4 @@
-"""Chuẩn hoá văn bản bài đọc Part 7 (bản gốc và bản dịch) trước khi ghi ra content/.
+"""Chuẩn hoá văn bản bài đọc Part 6/7 (bản gốc và bản dịch) trước khi ghi ra content/.
 
 - Ký hiệu vị trí chèn câu bị OCR lỗi nhiều kiểu ("— [1] —.", "- (3] -", "—|1|—", "- [l] -") → "[1]".
 - Dòng phân cách giữa các văn bản của đoạn kép/ba ("=====", "============") → "==========".
@@ -25,7 +25,8 @@ def _marker(m: re.Match) -> str:
 def normalize_passage(text: str) -> str:
     if not text:
         return text
-    text = text.replace("\ufeff", "").replace("\\N", " ")
+    # k\u00fd t\u1ef1 BOM l\u1ecdt gi\u1eefa c\u00e2u: n\u1eb1m gi\u1eefa hai ch\u1eef th\u00ec thay b\u1eb1ng d\u1ea5u c\u00e1ch ("137---\ufeffto" \u2192 "137--- to")
+    text = re.sub(r"(?<=\S)\ufeff+(?=\S)", " ", text).replace("\ufeff", "").replace("\\N", " ")
     text = _SEP_LINE.sub(SEPARATOR, text)
     text = _MARKER.sub(_marker, text)
     # gạch ngang còn sót một bên ký hiệu, ký hiệu dính chữ ("out.[2]We")
