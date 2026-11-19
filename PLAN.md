@@ -60,7 +60,7 @@ Với dữ liệu hiện có, chia làm 3 giai đoạn:
   - Nộp bài → điểm Listening/Reading/Tổng quy đổi thang 990, số câu đúng từng part.
 - **Luyện tập (Practice)**: chọn 1 hoặc nhiều part, có/không bấm giờ; audio từng câu/nhóm, được nghe lại.
 - **Xem đáp án & giải thích**: đáp án đúng/sai, `Explain` tiếng Việt, hiện script (`Text`) + bản dịch (`Transcript`) cho Part 3/4/6/7.
-- **Tài khoản**: đăng nhập Google, lịch sử bài làm.
+- **Tài khoản**: đăng ký/đăng nhập bằng email + mật khẩu, lịch sử bài làm.
 
 ### Giai đoạn 2 — phân tích & ôn luyện ✅ (hoàn thành 19/11/2026)
 - ✅ Dashboard (`/history`): điểm dự đoán, biểu đồ điểm theo thời gian, heatmap ngày học, tỉ lệ đúng theo part.
@@ -86,12 +86,12 @@ Với dữ liệu hiện có, chia làm 3 giai đoạn:
 |---|---|---|
 | Frontend + Backend | **Next.js (App Router) + TypeScript** | SSR cho SEO trang danh sách đề, API routes/Server Actions cho chấm bài |
 | UI | **Tailwind CSS + shadcn/ui** | dựng nhanh giao diện phòng thi, dark mode |
-| CSDL | **PostgreSQL + Prisma** (hoặc Supabase) | dữ liệu quan hệ rõ ràng: đề → nhóm → câu → bài làm |
-| Auth | **Auth.js (NextAuth)** – Google OAuth | giống "Đăng nhập Google trong 30 giây" |
-| Lưu media | **Cloudflare R2 / S3 + CDN** | 1,2 GB mp3/ảnh, không nên để trong repo |
+| CSDL | **PostgreSQL + Drizzle ORM** (Aiven; dev dùng PGlite — xem mục 11) | dữ liệu quan hệ rõ ràng: đề → nhóm → câu → bài làm |
+| Auth | **better-auth** – email + mật khẩu | không phụ thuộc dịch vụ ngoài (đã bỏ Google theo yêu cầu) |
+| Lưu media | **Backblaze B2** (API S3) — xem mục 11 | 1,7 GB mp3/ảnh, không nên để trong repo |
 | ETL | Script **Python** (pandas) hoặc **Node** | làm sạch CSV → JSON chuẩn → seed DB |
 | State phòng thi | Zustand + localStorage | giữ bài làm khi reload/mất mạng |
-| Deploy | Vercel (app) + Neon/Supabase (DB) + R2 (media) | chi phí thấp giai đoạn đầu |
+| Deploy | Vercel (app) + Aiven PostgreSQL (DB) + Backblaze B2 (media) | chi phí thấp giai đoạn đầu |
 
 Giai đoạn đầu có thể chạy hoàn toàn **local**: media phục vụ từ `public/media/…` hoặc một route đọc thẳng thư mục `Data/`.
 
@@ -124,7 +124,7 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 4. **Resolve media**: tên file local (2 kiểu đặt tên) hoặc URL → đường dẫn trong `Data/`; nếu là URL ngoài thì lấy basename tra local, không có thì đánh dấu thiếu.
 5. **Kiểm tra**: mỗi đề đủ 200 câu, đúng số câu từng part, không trùng số câu, mọi media tồn tại.
 6. **Xuất** `data/tests/<năm>-<testN>.json` + `etl-report.md` (danh sách lỗi cần sửa tay) → **seed** vào DB.
-7. Upload media lên R2 với key `"<năm>/<testN>/audio/…"`.
+7. Upload media lên Backblaze B2 với key `"<năm>/<testN>/audio/…"`.
 
 ---
 
@@ -140,7 +140,7 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 | `/attempts/[attemptId]/review?q=32` | Xem lại từng câu + giải thích + script/dịch |
 | `/dashboard` | Thống kê, lịch sử (GĐ2) |
 | `/mistakes` | Sổ câu sai (GĐ2) |
-| `/login` | Đăng nhập Google |
+| `/login` | Đăng nhập / tạo tài khoản (email + mật khẩu) |
 
 ### Giao diện phòng thi
 - **Header**: tên đề, đồng hồ đếm ngược, nút Nộp bài.
@@ -166,12 +166,12 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 
 | Tuần | Công việc | Kết quả |
 |---|---|---|
-| 1 | Khởi tạo Next.js + Tailwind + Prisma; viết ETL & báo cáo lỗi; sửa dữ liệu bẩn | JSON sạch 50 đề, DB đã seed |
+| 1 | Khởi tạo Next.js + Tailwind + Drizzle; viết ETL & báo cáo lỗi; sửa dữ liệu bẩn | JSON sạch 50 đề, DB đã seed |
 | 2 | Trang danh sách đề, chi tiết đề; route phục vụ media | Duyệt được đề, nghe audio, xem ảnh |
 | 3 | Phòng thi Practice (theo part) + chấm + xem giải thích | Luyện từng part chạy end-to-end |
 | 4 | Phòng thi Full test (audio liền mạch, timer, autosave) + trang kết quả 990 | Thi thử 200 câu hoàn chỉnh |
-| 5 | Đăng nhập Google, lưu lịch sử, trang review bài làm | MVP có tài khoản |
-| 6 | Responsive, kiểm thử (Playwright cho luồng thi), deploy Vercel + R2 | **MVP online** |
+| 5 | Đăng nhập, lưu lịch sử, trang review bài làm | MVP có tài khoản |
+| 6 | Responsive, kiểm thử (Playwright cho luồng thi), deploy Vercel + Backblaze B2 | **MVP online** |
 | 7+ | Dashboard, sổ câu sai, nghe chép, tag dạng câu, từ vựng | Giai đoạn 2 |
 
 ---
@@ -186,9 +186,103 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 
 ---
 
-## 10. Việc cần làm ngay
+## 10. Việc cần làm ngay ✅ (đã xong)
 
-1. `git init`, tạo project Next.js trong thư mục này, thêm `Data/` vào `.gitignore`.
-2. Viết `scripts/etl.py` theo mục 5, chạy và đọc `etl-report.md`.
-3. Quyết định phương án cho đề 2026.
-4. Dựng trang `/tests` + phòng thi Practice để có bản chạy được sớm nhất.
+Đã khởi tạo project, ETL, xử lý đề 2026 (tải đủ media), phòng thi. Xem mục 11 cho phần tiếp theo.
+
+---
+
+## 11. Kế hoạch tiếp theo: backend + deploy (cập nhật 19/11/2026)
+
+### 11.1 Hiện trạng ảnh hưởng tới deploy
+
+| Thành phần | Hiện tại | Vấn đề khi deploy |
+|---|---|---|
+| Audio/ảnh (`Data/`, 1,7 GB) | Route `/media` đọc từ ổ đĩa | Không có trên server/GitHub → phải lên object storage |
+| Dữ liệu đề (`content/`, 25 MB JSON) | Đọc bằng `fs`, đã được đóng gói vào bản build | ✅ Chạy được trên Vercel |
+| Bài làm, câu sai, thẻ từ vựng | ✅ Khách: `localStorage`; đã đăng nhập: đồng bộ Postgres | ✅ Aiven đã tạo bảng; cần đặt `DATABASE_URL` + `BETTER_AUTH_SECRET` trên Vercel |
+| Chấm điểm | Ở trình duyệt, đáp án gửi kèm dữ liệu | Người dùng xem trộm được đáp án |
+| Kiểm thử | Unit test + `check_content.py` | `check_content` cần `Data/` → CI không chạy được |
+
+### 11.2 Hạ tầng đề xuất (đều có gói miễn phí)
+
+| Việc | Dịch vụ | Ghi chú |
+|---|---|---|
+| Chạy web | **Vercel** (Hobby) | Kết nối thẳng repo GitHub, tự deploy mỗi lần push. Gói Hobby chỉ cho mục đích phi thương mại |
+| Audio/ảnh | **Backblaze B2** ✅ (đã chọn) | ~10 GB lưu trữ miễn phí; API tương thích S3; hỗ trợ tua audio (HTTP Range) |
+| Database | **Aiven for PostgreSQL** ✅ (đã chọn, gói Free) | Chỉ lưu dữ liệu người dùng; nội dung đề vẫn là JSON tĩnh trong `content/` |
+| Đăng nhập | **better-auth, email + mật khẩu** ✅ | Chưa có dịch vụ gửi email → chưa xác minh email / quên mật khẩu |
+| ORM | **Drizzle ORM + drizzle-kit** ✅ | Dev không cần cài gì: bỏ trống `DATABASE_URL` → PGlite (Postgres WASM) trong `.data/pglite`; prod đặt `DATABASE_URL` của Aiven |
+| CI | **GitHub Actions** | lint, typecheck, unit test, build mỗi lần push/PR |
+
+**Lưu ý với Backblaze B2**
+- Truy cập file qua địa chỉ dạng `https://f00X.backblazeb2.com/file/<bucket>/<đường dẫn>` (hoặc endpoint S3 `https://<bucket>.s3.<region>.backblazeb2.com/...`)
+  → đặt `NEXT_PUBLIC_MEDIA_BASE` bằng phần trước đường dẫn file.
+- Bucket phải để **Public** để trình duyệt phát audio trực tiếp. Backblaze có thể yêu cầu xác minh tài khoản (email / thanh toán) mới cho tạo bucket public — kiểm tra khi tạo.
+- Cấu hình **CORS** cho domain web: cho phép `GET`, `HEAD`; lộ header `Content-Range`, `Accept-Ranges`, `Content-Length` (để tua audio).
+- **Băng thông tải xuống**: miễn phí trong một hạn mức theo dung lượng lưu (khoảng gấp 3 lần/tháng ≈ 5 GB với 1,7 GB media); một bài thi thử tải ~25–40 MB audio.
+  Khi có nhiều người dùng → đặt **Cloudflare** (miễn phí) làm CDN phía trước B2 để không tốn phí tải xuống (Bandwidth Alliance).
+
+**Lưu ý với Aiven PostgreSQL (gói Free)**
+- Gói miễn phí: 1 máy chủ nhỏ, dung lượng giới hạn (vài GB), không có bản dự phòng/nhân bản; dịch vụ có thể bị tắt khi lâu không dùng — đủ cho giai đoạn thử nghiệm.
+- Kết nối bắt buộc SSL: `DATABASE_URL="postgres://user:pass@host:port/defaultdb?sslmode=require"`.
+- Vercel chạy serverless (mỗi instance mở pool riêng) trong khi gói Free giới hạn số kết nối → pool nhỏ (`DATABASE_POOL_MAX`, mặc định 3);
+  phiên đăng nhập được giữ 5 phút trong cookie đã ký để bớt truy vấn. Nên đặt `DATABASE_CA_CERT` (CA của Aiven) để xác thực chứng chỉ.
+- Chọn region gần Vercel (vd. cùng khu vực Singapore) để giảm độ trễ.
+- Giới hạn gói miễn phí có thể thay đổi — kiểm tra lại trang giá của Aiven và Backblaze khi tạo.
+
+### 11.3 Các giai đoạn
+
+**Giai đoạn A — Đưa bản hiện tại lên mạng (~1–2 ngày, chưa cần database)**
+1. Script `scripts/upload_media.sh` đồng bộ `Data/` lên bucket Backblaze B2 (`b2 sync` hoặc `aws s3 sync --endpoint-url https://s3.<region>.backblazeb2.com`), giữ nguyên cấu trúc thư mục `<năm>/<testN>/audio|image/…`; đặt bucket Public và CORS cho domain web.
+2. Đặt `NEXT_PUBLIC_MEDIA_BASE=https://f00X.backblazeb2.com/file/<bucket>` trên Vercel; route `/media` chỉ còn dùng khi chạy local. Thử phát và tua audio, kể cả tên file có dấu cách.
+3. `check_content.py --skip-media` để chạy được khi không có `Data/`; thêm GitHub Actions (lint, tsc, vitest, check_content, build).
+4. Kết nối repo với Vercel, deploy; thử toàn bộ luồng trên domain `*.vercel.app` (audio tua được, ảnh hiện, thi thử, luyện tập).
+5. Sửa trả mã 404 thật cho đường dẫn đề sai; thêm `robots.txt` (tạm `noindex` — xem 11.5).
+
+→ Kết quả: web chạy công khai, dữ liệu học vẫn lưu trên trình duyệt như hiện nay.
+
+**Giai đoạn B — Database + đăng nhập** ✅ (19/11/2026, trừ mục ghi chú)
+1. ✅ Drizzle schema (`src/db/schema.ts`, migration trong `drizzle/`): `user/session/account/verification` (better-auth),
+   `attempt`, `review_event`, `dictation_event`, `vocab_card`, `vocab_day`, `exam_progress`, `user_pref`. Dev dùng PGlite, tự migrate; prod `npm run db:migrate`.
+2. ✅ better-auth, đăng ký/đăng nhập bằng email + mật khẩu (`/api/auth/*`, đã bỏ Google), trang `/login`, avatar + trạng thái đồng bộ trên menu,
+   đăng xuất xoá bản sao dữ liệu khỏi trình duyệt. ⏳ Trang hồ sơ (mục tiêu điểm), quên mật khẩu / xác minh email (cần dịch vụ gửi mail, vd Resend) để sau.
+3. ✅ Tầng lưu trữ hai chế độ (`src/lib/storage.ts`, giữ nguyên các hook): khách → `localStorage`; đã đăng nhập → vùng riêng `toeic:u:<id>:…`,
+   thay đổi xếp hàng (lưu cả khi tắt trình duyệt) và đẩy lên `POST /api/me/sync`; mở trang / quay lại tab → kéo `GET /api/me/sync`.
+4. ✅ Lần đăng nhập đầu: banner hỏi **chuyển dữ liệu khách trên trình duyệt** vào tài khoản (hỏi một lần).
+5. ✅ API `/api/me/sync`: kiểm tra phiên, kiểm tra dữ liệu bằng zod, bắt buộc JSON (chống CSRF), giới hạn 200 thao tác / 4 MB mỗi lần.
+   ✅ Giới hạn tần suất của better-auth lưu trong bảng `rate_limit` (đăng nhập 5 lần/phút, đăng ký 5 lần/giờ mỗi IP).
+
+**Giai đoạn C — Chấm điểm trên server, giấu đáp án (~2–3 ngày)**
+1. Phòng thi nhận dữ liệu đề **đã bỏ** `answer`, `explanation`, `optionNotes`, `questionVi`, `evidence`.
+2. Nộp bài → server chấm theo đáp án trong `content/` → trả kết quả + phần giải thích.
+3. Luyện tập "hiện đáp án ngay": khi làm xong một đoạn, gọi API lấy đáp án + giải thích của đoạn đó.
+4. Trang kết quả, sổ câu sai, luyện dạng lấy giải thích qua API (chỉ sau khi đã trả lời).
+
+**Giai đoạn D — Chất lượng & vận hành (~2–3 ngày, làm xen kẽ)**
+1. Playwright E2E: thi thử (nộp tay + hết giờ), luyện tập, đăng nhập, sổ câu sai, từ vựng.
+2. Theo dõi lỗi (Sentry gói free hoặc log của Vercel), Vercel Analytics.
+3. Sao lưu database: gói Free của Aiven không có bản dự phòng tự động → GitHub Actions chạy `pg_dump` định kỳ, lưu bản sao vào một bucket B2 riêng (private).
+
+**Giai đoạn E — Tính năng Giai đoạn 3 (sau khi đã chạy ổn)**
+Trang quản trị sửa câu hỏi/giải thích, lộ trình học cá nhân, bảng xếp hạng, gia sư AI giải thích thêm (Claude API), gói Pro.
+
+### 11.4 Việc bạn cần chuẩn bị
+
+1. Tài khoản **Vercel** (đăng nhập bằng GitHub) và cấp quyền repo `VuHuyHung1706/Toeic`.
+2. Tài khoản **Backblaze** → tạo bucket B2 (Public) → tạo **Application Key** (keyID + applicationKey, quyền đọc/ghi bucket đó) để chạy script tải media.
+3. ✅ **Aiven PostgreSQL** đã tạo, đã chạy migration. Trên Vercel đặt `DATABASE_URL`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL` (xem `.env.example`).
+4. (Tuỳ chọn) tên miền riêng.
+
+Mọi khoá bí mật đặt trong biến môi trường của Vercel / file `.env.local` (đã nằm trong `.gitignore`), **không commit**.
+
+### 11.5 Rủi ro
+
+- **Bản quyền:** nội dung đề ETS có bản quyền. Đưa lên mạng công khai (nhất là có thu phí) có rủi ro bị yêu cầu gỡ. Nên để `noindex`, chỉ chia sẻ link riêng, hoặc bật bảo vệ bằng mật khẩu/đăng nhập cho tới khi có phương án nội dung riêng.
+- Gói miễn phí có giới hạn (Vercel Hobby không dùng thương mại; Aiven Free giới hạn dung lượng/kết nối, có thể tự tắt khi lâu không dùng; Backblaze B2 giới hạn băng thông tải xuống miễn phí) — đủ cho giai đoạn thử nghiệm.
+- Giới hạn của gói miễn phí có thể thay đổi — kiểm tra lại trang giá trước khi chọn.
+
+### 11.6 Thứ tự đề xuất
+
+A (deploy bản hiện tại) → B (đăng nhập + database) → C (giấu đáp án) → D (song song) → E.
+Giai đoạn A làm được ngay sau khi có bucket Backblaze B2 và tài khoản Vercel; Giai đoạn B đã chạy được trên Aiven PostgreSQL.

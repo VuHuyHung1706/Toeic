@@ -14,10 +14,23 @@ npm run dev              # http://localhost:3000
   Đổi vị trí bằng biến môi trường `TOEIC_DATA_DIR`; khi đưa media lên CDN thì đặt `NEXT_PUBLIC_MEDIA_BASE`.
 - `content/tests/` là dữ liệu đã chuẩn hoá do ETL sinh ra; báo cáo lỗi dữ liệu ở `content/etl-report.md`.
 
+### CSDL & đăng nhập
+
+- Không cần cài Postgres: khi **không** có `DATABASE_URL`, server dùng PGlite (Postgres chạy bằng WASM) lưu ở `.data/pglite` và tự áp migration.
+- Đăng nhập bằng email + mật khẩu (tab "Tạo tài khoản" ở `/login`); sai mật khẩu quá 5 lần/phút sẽ bị chặn tạm.
+- Dùng Postgres thật (Aiven): chép `.env.example` thành `.env.local` rồi điền `DATABASE_URL`, `BETTER_AUTH_SECRET` (file này không commit).
+  Khi đó cả `npm run dev` cũng ghi vào CSDL đó; muốn quay về PGlite thì comment dòng `DATABASE_URL`.
+
+```bash
+npm run db:generate      # sửa src/db/schema.ts xong → sinh migration SQL mới trong drizzle/
+npm run db:migrate       # áp migration lên DATABASE_URL (không có → PGlite local)
+npm run db:studio        # xem dữ liệu (drizzle-kit studio, cần DATABASE_URL)
+```
+
 ## Kiểm thử
 
 ```bash
-npm test                  # unit test (Vitest): chấm điểm, điểm dự đoán, song ngữ, chép chính tả, sổ câu sai
+npm test                  # unit test (Vitest): chấm điểm, điểm dự đoán, song ngữ, chép chính tả, sổ câu sai, ghi/đọc CSDL (PGlite trong bộ nhớ)
 npm run check:content     # kiểm tra toàn vẹn content/ (200 câu/đề, đáp án, media tồn tại, ngân hàng câu, từ vựng)
 npm run lint && npx tsc --noEmit && npm run build
 ```
@@ -36,16 +49,23 @@ npm run lint && npx tsc --noEmit && npm run build
 | `/vocabulary` | ~2.100 từ (kèm dạng danh/động/tính/trạng từ và nghĩa, ẩn từ cơ bản) từ phần nghe và đọc, chia theo từng đề (`?test=2026-test1`), lọc Nghe/Đọc, flashcard ôn ngắt quãng |
 | `/mistakes` | Sổ câu sai: gom câu sai từ mọi nguồn, hẹn ôn lại 1 → 3 → 7 ngày tới khi thuộc |
 | `/history` | Tiến độ: điểm dự đoán, biểu đồ điểm thi thử, tỉ lệ đúng theo part, lịch học 16 tuần, lịch sử làm bài |
+| `/login` | Đăng nhập / tạo tài khoản bằng email + mật khẩu; lần đầu hỏi chuyển dữ liệu khách vào tài khoản |
 | `/api/tests/[id]`, `/api/bank/[part]/[tag]` | JSON đề / ngân hàng câu theo dạng (prerender sẵn) cho các trang phía client |
+| `/api/me/sync` | `GET` toàn bộ dữ liệu học của người đang đăng nhập, `POST {ops}` ghi thay đổi |
 
-Bài làm, lần ôn câu sai, luyện nghe và thẻ từ vựng đang lưu ở `localStorage` (chưa có tài khoản / CSDL — giai đoạn sau).
+Bài làm, lần ôn câu sai, luyện nghe, thẻ từ vựng, bài làm dở và tuỳ chọn hiển thị: khách lưu ở `localStorage`;
+đã đăng nhập thì đồng bộ lên PostgreSQL (vẫn giữ bản sao trên trình duyệt để mở trang tức thì và dùng được khi mất mạng).
 
 ## Cấu trúc
 
 ```
 scripts/etl.py              ETL CSV → JSON
 scripts/enrich.py           gắn nhãn dạng câu Part 2/5, trích từ vựng
-src/lib/                    types, tải dữ liệu (server), quy đổi điểm, localStorage
+src/lib/                    types, tải dữ liệu (server), quy đổi điểm
+src/lib/storage.ts          lưu trữ phía trình duyệt + hàng đợi đồng bộ server
+src/lib/auth.ts             better-auth (email + mật khẩu, giới hạn tần suất)
+src/db/                     Drizzle: schema, kết nối (Postgres/PGlite), đọc/ghi dữ liệu học
+drizzle/                    migration SQL (sinh bằng drizzle-kit)
 src/app/media/[...path]/    phục vụ audio/ảnh từ Data/
 src/components/ExamRoom.tsx phòng thi (timer, autosave, audio full, nộp bài)
 src/components/GroupView.tsx hiển thị một nhóm câu (dùng chung cho làm bài & xem lại)

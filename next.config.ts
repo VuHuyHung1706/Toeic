@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   outputFileTracingExcludes: {
     "/*": ["./Data/**/*"],
   },
+  // PGlite (Postgres WASM, chỉ dùng ở dev) đọc file .wasm/.data của chính nó → không đóng gói
+  serverExternalPackages: ["@electric-sql/pglite"],
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

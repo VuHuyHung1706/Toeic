@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import Link from "next/link";
+import AccountMenu, { ImportBanner } from "@/components/AccountMenu";
 import "./globals.css";
 
 const font = Be_Vietnam_Pro({
@@ -24,6 +25,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="shrink-0 text-lg font-bold tracking-tight">
               Toeic<span className="text-primary">Lab</span>
             </Link>
+            <div className="ml-auto sm:order-3">
+              <AccountMenu />
+            </div>
             <div className="-mx-4 flex w-[calc(100%+2rem)] min-w-0 items-center gap-3 overflow-x-auto px-4 pb-1 text-[13px] whitespace-nowrap text-muted sm:mx-0 sm:w-auto sm:gap-4 sm:px-0 sm:pb-0 sm:text-sm">
               {[
                 ["/tests", "Đề thi", "Đề thi"],
@@ -41,6 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </nav>
         </header>
+        <ImportBanner />
         <div className="flex flex-1 flex-col">{children}</div>
       </body>
     </html>
