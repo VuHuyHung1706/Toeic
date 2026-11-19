@@ -178,7 +178,99 @@ def _parse_meaning(raw: str) -> tuple[list[str], str]:
     return pos, meaning
 
 
-def build_vocab(tests: list[dict]) -> list[dict]:
+# Các kiểu dòng giải thích phương án khác (mỗi bộ đề viết một kiểu):
+#   "A. khu vực (tính từ)"                      — nghĩa trước, loại từ trong ngoặc (2022)
+#   "(A) plan (động từ): lên kế hoạch (đúng)"    — (2024)
+#   "A. raised (động từ quá khứ): đã gây quỹ"    — (2023)
+#   "- (A) across (qua, ngang qua) - không …"    — (2026)
+#   "Đáp án A: cuối cùng (tính từ)"              — (2026)
+OPTION_LINE_RE = re.compile(r"^\s*(?:[-•*]\s*)?(?:Đáp án\s*)?\(?([A-D])\)?\s*[.:)\-]?\s+(.+?)\s*$")
+PAREN_RE = re.compile(r"\(([^()]{1,80})\)")
+NOT_MEANING_RE = re.compile(r"đáp án|phù hợp|không đúng|chính xác|ngữ pháp|cấu trúc|câu này|vị trí|cần một|bổ nghĩa|"
+                            r"lý do|là đúng|đúng vì|^cụm từ$|^(?:đúng|sai)$|^không\b|ngữ cảnh|chủ ngữ|tân ngữ|chia thì|chia ở|không đứng|đứng trước|đứng sau|dạng (?:số|quá|hiện|bị)|"
+                            r"^(?:động từ|danh từ|tính từ|trạng từ)\b|^cụm động từ$|^thành ngữ$|"
+                            r"\b(?:the|and|is|are|to|of)\b", re.I)
+# nhãn ngữ pháp đứng đầu nghĩa: "quá khứ: đã đánh giá", "hiện tại phân từ: đang …"
+GRAMMAR_PREFIX_RE = re.compile(r"^(?:(?:động từ|danh từ|tính từ|trạng từ)\s*)?(?:quá khứ|hiện tại|tương lai|phân từ|"
+                               r"nguyên mẫu|nguyên thể|bị động|số nhiều|số ít|V-ing|V-ed|to-V)[^:]{0,25}:\s*", re.I)
+AUX_START = {"to", "is", "are", "was", "were", "be", "been", "being", "has", "have", "had", "will", "would", "can",
+             "could", "may", "might", "should", "must", "shall", "do", "does", "did", "having"}
+VI_CHARS_RE = re.compile(r"[ăâđêôơưàảãáạằẳẵắặầẩẫấậèẻẽéẹềểễếệìỉĩíịòỏõóọồổỗốộờởỡớợùủũúụừửữứựỳỷỹýỵ]", re.I)
+
+
+def _pos_of(text: str) -> list[str]:
+    t = text.lower()
+    return sorted({tag for label, tag in POS_MAP if label in t})
+
+
+def _clean_meaning(m: str) -> str:
+    m = re.sub(r"\((?:đúng|sai|đáp án đúng)\)", "", m, flags=re.I)
+    m = re.split(r"\s+[-–—]\s+|\s*\.\s+|;\s*(?:không|sai)", m)[0]
+    m = GRAMMAR_PREFIX_RE.sub("", m.strip())
+    m = re.sub(r"^có nghĩa(?: là)?\s*", "", m, flags=re.I)
+    m = re.sub(r"^(?:danh từ|động từ|tính từ|trạng từ|giới từ|liên từ|đại từ)[^,:]{0,15}[,:]\s*", "", m, flags=re.I)
+    m = re.sub(r"\s*\([^)]*$", "", m)  # ngoặc mở không đóng ở cuối
+    m = m.strip(" .,:;\"'“”(")
+    return m[:1].lower() + m[1:] if m[:1].isupper() and not m[1:2].isupper() else m
+
+
+def _valid_meaning(m: str) -> bool:
+    return bool(m) and len(m) <= 60 and bool(VI_CHARS_RE.search(m)) and not NOT_MEANING_RE.search(m)
+
+
+def parse_option_line(line: str, options: dict) -> tuple[str, list[str], str] | None:
+    """Trả về (chữ cái, loại từ, nghĩa tiếng Việt) nếu dòng là phần giải nghĩa một phương án."""
+    m = OPTION_LINE_RE.match(line)
+    if not m:
+        return None
+    letter, rest = m.groups()
+    word = (options.get(letter) or "").strip()
+    if not word or len(word.split()) > 3:
+        return None
+    rest = rest.strip().strip("\"'“”")
+    low = rest.lower()
+    if low.startswith(word.lower()):
+        after = rest[len(word):].strip().strip("\"'“”").strip()
+        pos: list[str] = []
+        meaning = ""
+        quoted = re.search(r"nghĩa(?: là)?\s*[\"“']([^\"”']{1,40})[\"”']", after)
+        after0 = re.sub(r"^[:\-–—=]\s*", "", after)
+        # chỉ xét các ngoặc đứng ngay sau từ, không lấy ngoặc nằm trong câu bình luận phía sau
+        lead = re.match(r"^((?:\([^()]*\)\s*)+)", after0)
+        tail_text = after0
+        if lead:
+            tail_text = after0[lead.end():]
+            for inner in PAREN_RE.findall(lead.group(1)):
+                p = _pos_of(inner)
+                _, sep, tail = inner.partition(":")
+                if p and (sep or len(inner) <= 25):
+                    pos += p
+                    if sep and tail.strip():
+                        meaning = meaning or tail.strip()
+                elif not meaning:
+                    meaning = inner
+        elif re.match(r"^(?:danh từ|động từ|tính từ|trạng từ|giới từ|liên từ|đại từ)", after0, re.I):
+            # "- tính từ có nghĩa …": loại từ đứng đầu phần mô tả
+            pos = _pos_of(after0[:12])
+        if not meaning and quoted:
+            meaning = quoted.group(1)
+        if not meaning:
+            first = re.split(r"\s+[-–—]\s+", re.sub(r"^[:\-–—=]\s*", "", tail_text.strip()), maxsplit=1)[0]
+            meaning = PAREN_RE.sub("", first).strip()
+        meaning = _clean_meaning(meaning)
+    else:
+        # nghĩa tiếng Việt đứng trước, loại từ trong ngoặc
+        pos = []
+        for inner in PAREN_RE.findall(rest):
+            pos += _pos_of(inner)
+        meaning = _clean_meaning(PAREN_RE.sub("", rest))
+    if not _valid_meaning(meaning):
+        return None
+    return letter, sorted(set(pos)), meaning
+
+
+def _collect_forms(tests: list[dict]) -> list[dict]:
+    """Từng dạng từ (chưa gộp) kèm nghĩa, lấy từ dòng giải thích phương án Part 5–6."""
     entries: dict[str, dict] = {}
     for t in tests:
         for p in t["parts"]:
@@ -188,16 +280,27 @@ def build_vocab(tests: list[dict]) -> list[dict]:
                 for q in g["questions"]:
                     for line in q.get("explanation", "").split("\n"):
                         m = VOCAB_LINE_RE.match(line)
-                        if not m:
-                            continue
-                        letter, word, raw = m.groups()
-                        word = re.sub(r"\s+", " ", word.strip())
-                        if _norm(q["options"].get(letter, "")) != word.lower() or len(word.split()) > 3:
-                            continue
+                        if m:
+                            letter, word, raw = m.groups()
+                            word = re.sub(r"\s+", " ", word.strip())
+                            if _norm(q["options"].get(letter, "")) != word.lower() or len(word.split()) > 3:
+                                continue
+                            pos, meaning = _parse_meaning(raw)
+                        else:
+                            parsed = parse_option_line(line, q["options"])
+                            if not parsed:
+                                continue
+                            letter, pos, meaning = parsed
+                            word = re.sub(r"\s+", " ", q["options"][letter].strip())
                         key = word.lower().replace("’", "'")
                         if key in SKIP_WORDS or len(key) < 2:
                             continue
-                        pos, meaning = _parse_meaning(raw)
+                        # bỏ các dạng chia động từ nhiều từ ("is being hired", "to run") — không phải mục từ vựng
+                        if len(key.split()) > 1 and key.split()[0] in AUX_START:
+                            continue
+                        meaning = _clean_meaning(meaning)
+                        if meaning and not _valid_meaning(meaning):
+                            meaning = ""
                         e = entries.setdefault(key, {"w": word.lower() if not word.isupper() else word, "pos": set(),
                                                      "meanings": [], "freq": 0, "examples": [], "_seen": set()})
                         e["pos"].update(pos)
@@ -217,8 +320,281 @@ def build_vocab(tests: list[dict]) -> list[dict]:
     for e in entries.values():
         if not e["meanings"]:
             continue
-        e.pop("_seen")
+        # các đề / câu có từ này (để chia từ vựng theo đề): {"testId": [số câu, ...]}
+        by_test: dict[str, list[int]] = defaultdict(list)
+        for tid, num in sorted(e.pop("_seen")):
+            by_test[tid].append(num)
+        e["tests"] = dict(by_test)
         e["pos"] = sorted(e["pos"])
+        out.append(e)
+    out.sort(key=lambda e: (-e["freq"], e["w"]))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Gộp biến thể về từ gốc, họ từ, từ cơ bản, từ trong phần nghe
+# ---------------------------------------------------------------------------
+BASIC_WORDS = {
+    w.lower()
+    for line in (Path(__file__).with_name("basic_words.txt")).read_text(encoding="utf-8").splitlines()
+    if not line.lstrip().startswith("#")
+    for w in line.split()
+}
+try:  # danh sách từ tiếng Anh của hệ thống (macOS/Linux) — chỉ dùng để xác nhận từ gốc có thật
+    DICT_WORDS = {w.strip().lower() for w in open("/usr/share/dict/words", encoding="utf-8")}
+except OSError:
+    DICT_WORDS = set()
+
+# danh từ đuôi -ing / -s mang nghĩa riêng: không gộp về động từ gốc
+KEEP_SEPARATE = {
+    "news", "goods", "savings", "earnings", "belongings", "proceeds", "headquarters", "series", "means", "species",
+    "clothes", "glasses", "premises", "customs", "sales", "arms", "outskirts", "surroundings", "findings", "proceedings",
+    "holdings", "building", "meeting", "marketing", "advertising", "accounting", "housing", "funding", "training",
+    "opening", "setting", "booking", "listing", "shipping", "parking", "seating", "catering", "clothing", "offering",
+    "warning", "painting", "recording", "beginning", "morning", "evening", "ceiling", "feeling", "understanding",
+    "gathering", "wedding", "timing", "pricing", "staffing", "outing", "heading", "filing", "spending", "planning",
+    "landscaping", "engineering", "manufacturing", "programming", "banking", "lighting", "flooring", "plumbing",
+    "packaging", "boarding", "lodging", "dining", "cleaning", "printing", "fitting", "hearing", "being", "thing",
+    "nothing", "something", "anything", "everything", "during", "including", "regarding", "following", "according",
+    "pending", "interesting", "amazing", "exciting", "outstanding", "leading", "missing", "remaining", "existing",
+    "upcoming", "ongoing", "willing", "detailed", "limited", "qualified", "experienced", "interested", "advanced",
+    "skilled", "used", "united", "related", "dedicated", "complicated", "sophisticated", "assorted", "authorized",
+}
+TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z'’-]*[A-Za-z]")
+SENT_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"“])")
+
+
+IRREGULAR = {
+    "going": "go", "went": "go", "gone": "go", "being": "be", "been": "be", "was": "be", "were": "be",
+    "having": "have", "had": "have", "doing": "do", "did": "do", "done": "do", "made": "make", "found": "find",
+    "sent": "send", "thought": "think", "taken": "take", "took": "take", "given": "give", "gave": "give",
+    "bought": "buy", "sold": "sell", "seen": "see", "saw": "see", "heard": "hear", "held": "hold",
+    "brought": "bring", "left": "leave", "came": "come", "said": "say", "told": "tell", "knew": "know",
+    "known": "know", "wrote": "write", "written": "write", "spoke": "speak", "spoken": "speak", "began": "begin",
+    "begun": "begin", "chose": "choose", "chosen": "choose", "built": "build", "kept": "keep", "paid": "pay",
+    "met": "meet", "ran": "run", "felt": "feel", "led": "lead", "lost": "lose", "won": "win", "spent": "spend",
+    "taught": "teach", "caught": "catch", "understood": "understand", "stood": "stand", "drove": "drive",
+    "driven": "drive", "rose": "rise", "risen": "rise", "fell": "fall", "fallen": "fall", "broke": "break",
+    "broken": "break", "grew": "grow", "grown": "grow", "threw": "throw", "thrown": "throw", "wore": "wear",
+    "worn": "wear", "ate": "eat", "eaten": "eat", "drew": "draw", "drawn": "draw", "forgot": "forget",
+    "forgotten": "forget", "hung": "hang", "laid": "lay", "lent": "lend", "sought": "seek", "shown": "show",
+    "flew": "fly", "flown": "fly", "sat": "sit", "slept": "sleep", "sang": "sing", "sung": "sing", "swam": "swim",
+    "dealt": "deal", "meant": "mean", "overseen": "oversee", "oversaw": "oversee", "undertook": "undertake",
+    "undertaken": "undertake", "withdrew": "withdraw", "withdrawn": "withdraw", "forecast": "forecast",
+    "children": "child", "men": "man", "women": "woman", "people": "person", "better": "good", "best": "good",
+}
+
+
+def _bases(w: str) -> list[tuple[str, str]]:
+    out: list[tuple[str, str]] = []
+    if len(w) <= 4:  # need, seed, red… không phải dạng chia
+        return out
+    if w.endswith("ies"):
+        out.append((w[:-3] + "y", "s"))
+    if w.endswith("es"):
+        out.append((w[:-2], "s"))
+    if w.endswith("s") and not w.endswith("ss"):
+        out.append((w[:-1], "s"))
+    if w.endswith("ied"):
+        out.append((w[:-3] + "y", "ed"))
+    if w.endswith("ed"):
+        out += [(w[:-2], "ed"), (w[:-1], "ed")]
+        if len(w) > 4 and w[-3] == w[-4]:
+            out.append((w[:-3], "ed"))
+    if w.endswith("ing"):
+        out += [(w[:-3], "ing"), (w[:-3] + "e", "ing")]
+        if len(w) > 5 and w[-4] == w[-5]:
+            out.append((w[:-4], "ing"))
+    if w.endswith("ier") or w.endswith("iest"):
+        out.append((re.sub(r"i(?:er|est)$", "y", w), "er"))
+    for suf in ("er", "est"):
+        if w.endswith(suf):
+            out += [(w[: -len(suf)], "er"), (w[: -len(suf)] + "e", "er")]
+    return [(b, k) for b, k in out if len(b) >= 3 and b != w]
+
+
+def _compatible(kind: str, wpos: set[str], bpos: set[str]) -> bool:
+    if kind == "s":
+        return not bpos or bool(bpos & {"n", "v"})
+    if kind in ("ed", "ing"):
+        return not bpos or "v" in bpos
+    return not bpos or "adj" in bpos or "adv" in bpos  # so sánh hơn / nhất
+
+
+def lemma_of(word: str, known: dict[str, set[str]]) -> str:
+    """Từ gốc của một dạng từ. known: dạng từ đã có trong từ điển → loại từ."""
+    if " " in word or word in KEEP_SEPARATE:
+        return word
+    if word in IRREGULAR:
+        return IRREGULAR[word]
+    wpos = known.get(word, set())
+    for base, kind in _bases(word):
+        if base in known and _compatible(kind, wpos, known[base]):
+            return base
+    for base, kind in _bases(word):
+        if base in BASIC_WORDS and kind != "er":  # asked → ask, using → use, carrying → carry
+            return base
+    for base, kind in _bases(word):
+        if len(base) >= 4 and base in DICT_WORDS and (
+            (kind == "s" and (not wpos or wpos & {"n", "v"})) or (kind in ("ed", "ing") and "v" in wpos)
+        ):
+            return base
+    return word
+
+
+# hậu tố tạo từ → cách khôi phục từ gốc (thử lần lượt)
+_DERIV_RULES: list[tuple[str, list[str]]] = [
+    ("ically", ["ic", "ical"]), ("ility", ["le", "ile"]), ("iness", ["y"]), ("ily", ["y"]), ("ication", ["y", "ify"]),
+    ("ation", ["e", "", "ate"]), ("ition", ["", "e"]), ("tion", ["te", "e", "", "t"]), ("sion", ["d", "de", "t", "se", "s"]),
+    ("ment", [""]), ("ness", [""]), ("ity", ["", "e"]), ("ful", [""]), ("less", [""]), ("able", ["", "e", "ate"]),
+    ("ible", ["", "e"]), ("ial", ["", "y"]), ("al", ["", "e"]), ("ive", ["e", "", "ion"]), ("ance", ["", "e"]),
+    ("ence", ["", "e", "ent"]), ("ancy", ["ant"]), ("ency", ["ent"]), ("ant", ["", "e"]), ("ent", ["", "e"]),
+    ("ize", ["", "e"]), ("ise", ["", "e"]), ("ist", ["", "y"]), ("er", ["", "e"]), ("or", ["", "e"]), ("ee", ["", "e"]),
+    ("ure", ["", "e"]), ("ous", ["", "e", "y"]), ("ary", [""]), ("ship", [""]), ("ly", ["", "le", "e"]),
+]
+
+
+def _derivation_stems(w: str) -> list[str]:
+    out = []
+    for suf, repls in _DERIV_RULES:
+        if w.endswith(suf) and len(w) - len(suf) >= 3:
+            base = w[: -len(suf)]
+            out += [base + r for r in repls]
+            if len(base) > 2 and base[-1] == base[-2]:  # chữ cái nhân đôi: forgettable → forget
+                out.append(base[:-1])
+    return out
+
+
+def build_vocab(tests: list[dict]) -> list[dict]:
+    forms = _collect_forms(tests)
+    known = {f["w"]: set(f["pos"]) for f in forms}
+    lemma_map = {f["w"]: lemma_of(f["w"], known) for f in forms}
+    # lemma của lemma (vd lasted → last → last)
+    for k, v in lemma_map.items():
+        while lemma_map.get(v, v) != v:
+            v = lemma_map[v]
+        lemma_map[k] = v
+
+    entries: dict[str, dict] = {}
+    for f in forms:
+        lemma = lemma_map[f["w"]]
+        e = entries.setdefault(lemma, {"w": lemma, "pos": [], "meanings": [], "forms": [], "family": [],
+                                       "basic": False, "freq": 0, "examples": [], "tests": {}})
+        if f["w"] == lemma:
+            e["pos"], e["meanings"] = f["pos"], f["meanings"]
+        else:
+            e["forms"].append({"w": f["w"], "pos": f["pos"], "meanings": f["meanings"]})
+        for ex in f["examples"]:
+            if len(e["examples"]) < 3:
+                e["examples"].append(ex)
+        for tid, nums in f["tests"].items():
+            r = e["tests"].setdefault(tid, {}).setdefault("r", [])
+            r.extend(n for n in nums if n not in r)
+    for e in entries.values():
+        if not e["meanings"] and e["forms"]:  # từ gốc không xuất hiện trực tiếp trong đề → mượn nghĩa của biến thể đầu
+            e["pos"], e["meanings"] = e["forms"][0]["pos"], e["forms"][0]["meanings"]
+        e["forms"].sort(key=lambda x: x["w"])
+        e["basic"] = e["w"] in BASIC_WORDS or IRREGULAR.get(e["w"]) in BASIC_WORDS
+
+    # họ từ: các phương án cùng gốc trong một câu hỏi "từ loại" Part 5
+    parent: dict[str, str] = {}
+
+    def find(x: str) -> str:
+        parent.setdefault(x, x)
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    for t in tests:
+        for p in t["parts"]:
+            if p["part"] != 5:
+                continue
+            for g in p["groups"]:
+                for q in g["questions"]:
+                    if "word-form" not in q.get("tags", []):
+                        continue
+                    lem = [lemma_map.get(_norm(o), lemma_of(_norm(o), known)) for o in q["options"].values() if o]
+                    lem = [x for x in lem if x in entries and " " not in x]
+                    for a in lem[1:]:
+                        if _common_prefix([a, lem[0]]) >= 4:
+                            parent[find(a)] = find(lem[0])
+    # họ từ theo quy tắc tạo từ: decide → decision, decisive, decisively …
+    single = {w for w in entries if " " not in w}
+    for w in single:
+        for stem in _derivation_stems(w):
+            if stem in single and stem != w and len(stem) >= 4:
+                parent[find(w)] = find(stem)
+                break
+    groups: dict[str, list[str]] = defaultdict(list)
+    for w in entries:
+        if w in parent:
+            groups[find(w)].append(w)
+    for members in groups.values():
+        if len(members) > 12:  # nhóm quá lớn thường là ghép nhầm → bỏ
+            continue
+        for w in members:
+            entries[w]["family"] = sorted(m for m in members if m != w)
+
+    # "dạng khác của từ": các từ cùng họ + dạng -ing/-ed dùng như tính từ / danh từ (lasting, qualified …)
+    POS_ORDER = {"n": 0, "v": 1, "adj": 2, "adv": 3, "prep": 4, "conj": 5, "pron": 6}
+    for e in entries.values():
+        related = [{"w": m, "pos": entries[m]["pos"], "meanings": entries[m]["meanings"][:2]} for m in e["family"]]
+        for f in e["forms"]:
+            if f["w"].endswith(("ing", "ed")) and set(f["pos"]) & {"adj", "n"} and f["meanings"]:
+                pos = [x for x in f["pos"] if x in ("adj", "n")]
+                if f["w"] not in e["family"]:
+                    related.append({"w": f["w"], "pos": pos, "meanings": f["meanings"][:2]})
+        related = [r for r in related if r["meanings"]]
+        related.sort(key=lambda r: (min((POS_ORDER.get(x, 9) for x in r["pos"]), default=9), r["w"]))
+        e["related"] = related
+        # biến thể chỉ giữ lại tên để tô đậm trong câu ví dụ, không hiển thị
+        e["inflections"] = [f["w"] for f in e["forms"]]
+        del e["forms"]
+        del e["family"]
+
+    # từ trong phần nghe (Part 1–4): chỉ những từ đã có nghĩa trong từ điển và không phải từ cơ bản
+    token_lemma: dict[str, str | None] = {}
+
+    def to_entry(tok: str) -> str | None:
+        if tok not in token_lemma:
+            lem = lemma_map.get(tok) or lemma_of(tok, known)
+            lem = lemma_map.get(lem, lem)
+            ok = lem in entries and not entries[lem]["basic"] and lem not in BASIC_WORDS and tok not in BASIC_WORDS
+            token_lemma[tok] = lem if ok else None
+        return token_lemma[tok]
+
+    listen_example: dict[str, dict] = {}
+    for t in tests:
+        for p in t["parts"]:
+            if p["part"] > 4:
+                continue
+            for g in p["groups"]:
+                n0 = g["questionNumbers"][0]
+                texts = [ps["en"] for ps in g["passages"] if ps.get("en")]
+                for q in g["questions"]:
+                    texts.append(q.get("question", "") if p["part"] == 2 else "")
+                    if p["part"] <= 2:
+                        texts += [o for o in q["options"].values() if o]
+                for text in texts:
+                    for sent in SENT_SPLIT_RE.split(re.sub(r"\s+", " ", text.replace("**", ""))):
+                        for tok in TOKEN_RE.findall(sent):
+                            lem = to_entry(tok.lower().replace("’", "'"))
+                            if not lem:
+                                continue
+                            ls = entries[lem]["tests"].setdefault(t["id"], {}).setdefault("l", [])
+                            if n0 not in ls:
+                                ls.append(n0)
+                            if lem not in listen_example and 30 <= len(sent) <= 220:
+                                listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
+    out = []
+    for e in entries.values():
+        if e["w"] in listen_example:
+            e["listenExample"] = listen_example[e["w"]]
+        for v in e["tests"].values():
+            for k in v:
+                v[k].sort()
+        e["freq"] = len(e["tests"])
         out.append(e)
     out.sort(key=lambda e: (-e["freq"], e["w"]))
     return out
@@ -263,7 +639,7 @@ def write_extras(tests: list[dict], out_dir: Path) -> dict:
         (bank_dir / f"p{part}-{tag}.json").write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
     (bank_dir / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
     vocab = build_vocab(tests)
-    (out_dir / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, indent=0), encoding="utf-8")
+    (out_dir / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return {"tags": {f"p{i['part']}-{i['tag']}": i["count"] for i in index}, "vocab": len(vocab)}
 
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { getTest, getTestIndex } from "@/lib/tests";
+import { getTest, getTestIndex, getVocab } from "@/lib/tests";
 import PracticeSetup from "@/components/PracticeSetup";
 import TestHistory from "@/components/TestHistory";
 
@@ -25,8 +25,9 @@ export default function TestDetailPage({ params }: PageProps<"/tests/[id]">) {
 
 async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const test = await getTest(id);
+  const [test, vocab] = await Promise.all([getTest(id), getVocab()]);
   if (!test) notFound();
+  const vocabCount = vocab.filter((v) => v.tests[test.id] && !v.basic).length;
 
   const partCounts = test.parts.map((p) => ({
     part: p.part,
@@ -70,6 +71,21 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
 
         <PracticeSetup testId={test.id} partCounts={partCounts} />
       </div>
+
+      {vocabCount > 0 && (
+        <Link
+          href={`/vocabulary?test=${test.id}`}
+          className="mt-6 flex items-center justify-between gap-4 rounded-xl border border-line bg-surface p-5 transition hover:border-primary"
+        >
+          <div>
+            <div className="font-semibold">Từ vựng của đề này</div>
+            <div className="text-sm text-muted">
+              {vocabCount} từ (phần nghe và phần đọc), kèm các dạng khác của từ, học bằng thẻ ghi nhớ
+            </div>
+          </div>
+          <span className="shrink-0 font-semibold text-primary">Học từ vựng →</span>
+        </Link>
+      )}
 
       <TestHistory testId={test.id} />
     </main>

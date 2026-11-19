@@ -103,10 +103,29 @@ export interface BankItem {
   group: QuestionGroup;
 }
 
-export interface VocabEntry {
+export interface VocabForm {
   w: string;
   pos: string[];
   meanings: string[];
+}
+
+export interface VocabEntry {
+  /** Từ gốc */
+  w: string;
+  pos: string[];
+  meanings: string[];
+  /** Dạng khác của từ theo loại từ (submit → submission; last → lasting, lastly), kèm nghĩa */
+  related: VocabForm[];
+  /** Dạng chia của từ gốc (lasts, lasted…) — chỉ dùng để tô đậm trong câu ví dụ */
+  inflections: string[];
+  /** Từ cơ bản (A1–A2), ẩn mặc định */
+  basic: boolean;
+  /** Số đề có từ này */
   freq: number;
+  /** Câu ví dụ Part 5 (đã điền đáp án) */
   examples: { text: string; testId: string; number: number }[];
+  /** Câu ví dụ trong lời thoại Part 1–4 */
+  listenExample?: { text: string; testId: string; number: number; part: number };
+  /** Đề → số câu: r = phần đọc (Part 5–6), l = phần nghe (câu đầu của đoạn Part 1–4) */
+  tests: Record<string, { r?: number[]; l?: number[] }>;
 }

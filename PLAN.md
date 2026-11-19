@@ -68,7 +68,8 @@ Với dữ liệu hiện có, chia làm 3 giai đoạn:
 - ✅ **Luyện nghe chép chính tả** (`/listening`): chế độ điền từ (3 mức độ) và chép cả câu (so khớp từng từ).
 - ✅ Luyện theo dạng câu (`/practice`): Part 2 theo 11 loại câu hỏi, Part 5 theo 7 chủ điểm ngữ pháp — nhãn gắn tự động
   bằng quy tắc trong `scripts/enrich.py` (chưa dùng AI; có thể lệch ở một số câu).
-- ✅ Từ vựng (`/vocabulary`): ~1.400 từ trích từ phần giải thích Part 5–6 kèm câu ví dụ trong đề; flashcard hộp Leitner
+- ✅ Từ vựng (`/vocabulary`): ~2.100 từ gốc — nghĩa trích từ giải thích Part 5–6, gộp dạng chia về từ gốc, hiện các dạng khác của từ theo loại từ kèm nghĩa (submit → submission),
+  ẩn từ cơ bản (`scripts/basic_words.txt`), thêm từ xuất hiện trong lời thoại Part 1–4; chia theo từng đề; flashcard hộp Leitner
   (1 → 3 → 7 → 14 → 30 ngày), phát âm bằng giọng đọc của trình duyệt.
 
 ### Giai đoạn 3 — mở rộng (tuỳ chọn)
