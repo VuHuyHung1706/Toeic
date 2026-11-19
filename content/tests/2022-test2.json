@@ -1045,7 +1045,61 @@
        "explanation": "Đáp án C đúng vì trong đoạn văn, người đàn ông nói \"I just need to finalize this budget proposal\", tức là anh ta cần hoàn thiện đề xuất ngân sách trước khi rời văn phòng.\nDịch nghĩa:\nAnh ta nói mình sẽ làm gì trước khi rời văn phòng?\n(A) Điền vào bảng chấm công.\n(B) Gửi một email.\n(C) Hoàn thiện đề xuất ngân sách.\n(D) Sắp xếp một cuộc họp.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "financial",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tài chính"
+      },
+      {
+       "term": "consultant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chuyên gia tư vấn; tư vấn viên"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "locate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; tọa lạc, ở"
+      },
+      {
+       "term": "finalize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hoàn thiện; hoàn thành, hoàn thiện"
+      },
+      {
+       "term": "budget",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngân sách"
+      },
+      {
+       "term": "proposal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đề xuất; đề xuất, đề nghị"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g2",
@@ -1109,7 +1163,43 @@
        "explanation": "Đáp án C đúng vì người phụ nữ hỏi \"does the hotel have a restaurant on-site\", tức là cô ấy hỏi về nhà hàng trong khuôn viên khách sạn.\nDịch nghĩa:\nNgười phụ nữ hỏi người đàn ông về gì?\n(A) Một ngân hàng.\n(B) Một bưu điện.\n(C) Một nhà hàng.\n(D) Một trung tâm hội nghị.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "within",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "trong vòng; trong phạm vi"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "arrange",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sắp xếp"
+      },
+      {
+       "term": "convenient",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thuận tiện; tiện lợi"
+      },
+      {
+       "term": "accommodation",
+       "pos": [],
+       "meaning": "chỗ ở"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g3",
@@ -1173,7 +1263,73 @@
        "explanation": "Đáp án đúng là A (A plan would be time-consuming) vì:\n1. Người phụ nữ nói: \"I'm worried it would add a step or two to our production schedule. We have several hard deadlines coming up soon.\" (Tôi lo lắng rằng nó sẽ thêm một hoặc hai bước vào lịch sản xuất của chúng ta. Chúng ta có một số thời hạn khó khăn sắp tới.)\n2. Điều này cho thấy cô ấy lo ngại rằng kế hoạch này sẽ tốn nhiều thời gian.\nDịch các đáp án:\nA. Một kế hoạch sẽ tốn nhiều thời gian\nB. Một màu sắc quá sáng\nC. Một số con số bán hàng đã giảm\nD. Một số vật tư sẽ đắt tiền",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "athletic",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thể thao"
+      },
+      {
+       "term": "original",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "ban đầu; nguyên bản"
+      },
+      {
+       "term": "fabric",
+       "pos": [],
+       "meaning": "vải"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "apart",
+       "pos": [
+        "adj",
+        "adv",
+        "prep"
+       ],
+       "meaning": "riêng biệt; tách biệt"
+      },
+      {
+       "term": "production",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sản xuất; sự sản xuất"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "smoothly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "suôn sẻ"
+      },
+      {
+       "term": "deadline",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hạn chót; thời hạn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g4",
@@ -1237,7 +1393,51 @@
        "explanation": "Đáp án đúng là C (Go to the airport) vì:\n1. Người phụ nữ nói: \"We're on our way to catch a flight now\" (Chúng tôi đang trên đường đi bắt chuyến bay).\n2. Điều này chỉ ra rõ ràng rằng họ đang chuẩn bị đi đến sân bay.\nDịch các đáp án:\nA. Ký một hợp đồng\nB. Tham dự một khóa đào tạo\nC. Đi đến sân bay\nD. Sửa đổi một bài thuyết trình",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
+       "term": "delay",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "trì hoãn; sự trì hoãn trì hoãn"
+      },
+      {
+       "term": "sensitive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nhạy cảm"
+      },
+      {
+       "term": "priority",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ưu tiên"
+      },
+      {
+       "term": "deadline",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hạn chót; thời hạn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g5",
@@ -1301,7 +1501,54 @@
        "explanation": "Đáp án đúng là C (Provide a membership number) vì:\n1. Người phụ nữ nói: \"In that case, just tell me your membership number, and I'll make the reservation.\" (Trong trường hợp đó, chỉ cần cho tôi biết số thành viên của bạn, và tôi sẽ đặt chỗ.)\n2. Điều này cho thấy bước tiếp theo của người đàn ông sẽ là cung cấp số thành viên của anh ta.\nDịch các đáp án:\nA. Lấy một tờ rơi\nB. Thực hiện thanh toán đặt cọc\nC. Cung cấp số thành viên\nD. Viết một đánh giá khách hàng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "associate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "liên kết"
+      },
+      {
+       "term": "nearby",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "gần đó"
+      },
+      {
+       "term": "following",
+       "pos": [
+        "adj",
+        "adv",
+        "prep"
+       ],
+       "meaning": "sau đây; tuân theo"
+      },
+      {
+       "term": "membership",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tư cách thành viên; thẻ thành viên"
+      },
+      {
+       "term": "reservation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc đặt chỗ; đặt chỗ"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g6",
@@ -1365,7 +1612,45 @@
        "explanation": "Đáp án đúng là A (Come in for an interview) vì:\n1. Người phụ nữ nói: \"We're opening a position for assistant photo editor, and I wonder if you can come in for an interview.\" (Chúng tôi đang mở một vị trí cho trợ lý biên tập ảnh, và tôi tự hỏi liệu bạn có thể đến phỏng vấn không.)\n2. Điều này chỉ ra rõ ràng rằng cô ấy đang mời anh ta đến phỏng vấn.\nDịch các đáp án:\nA. Đến để phỏng vấn\nB. Xuất hiện trong một bài viết đặc biệt\nC. Đi công tác cho một nhiệm vụ\nD. Đăng một số thông tin trực tuyến",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "issue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vấn đề; vấn đề, số báo"
+      },
+      {
+       "term": "spread",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự lây lan"
+      },
+      {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
+       "term": "assistant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "trợ lý"
+      },
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g7",
@@ -1429,7 +1714,90 @@
        "explanation": "Đáp án đúng là A (Offering a discount) vì:\n1. Người đàn ông nói: \"Hmm, we could offer them a reduced first-year rate.\" (Hmm, chúng ta có thể đề nghị cho họ mức giá giảm cho năm đầu tiên.)\n2. Đây là một đề xuất trực tiếp về việc cung cấp một khoản giảm giá.\nDịch các đáp án:\nA. Đề nghị giảm giá\nB. Thay đổi nhà cung cấp\nC. Thành lập một ủy ban\nD. Đóng cửa một chi nhánh",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "purchase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
+      },
+      {
+       "term": "insurance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bảo hiểm"
+      },
+      {
+       "term": "interest",
+       "pos": [],
+       "meaning": "những sự quan tâm"
+      },
+      {
+       "term": "vehicle",
+       "pos": [],
+       "meaning": "phương tiện"
+      },
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "account",
+       "pos": [],
+       "meaning": "tài khoản"
+      },
+      {
+       "term": "commit",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cam kết"
+      },
+      {
+       "term": "reduce",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "đã giảm; giảm"
+      },
+      {
+       "term": "decision",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quyết định"
+      },
+      {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g8",
@@ -1493,7 +1861,60 @@
        "explanation": "Đáp án đúng là B (Go to another room) vì:\n1. Người đàn ông nói: \"OK, now let's go join the other participants. Please follow me to Room B.\" (Được rồi, bây giờ hãy đi gặp những người tham gia khác. Vui lòng theo tôi đến Phòng B.)\n2. Điều này chỉ ra rõ ràng rằng bước tiếp theo của người phụ nữ là đi đến một phòng khác.\nDịch các đáp án:\nA. Thiết lập máy tính của cô ấy\nB. Đi đến một phòng khác\nC. Ăn trưa\nD. Thực hiện một cuộc gọi điện thoại",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "volunteer",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "tình nguyện; người tình nguyện"
+      },
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi; buổi học, phiên họp"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "traditional",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "truyền thống"
+      },
+      {
+       "term": "comment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bình luận"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "participant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người tham gia"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g9",
@@ -1557,7 +1978,90 @@
        "explanation": "Đáp án đúng là C (An employee meeting will be held) vì:\n1. Người đàn ông nói: \"We'll discuss it further at the employee meeting later today.\" (Chúng ta sẽ thảo luận thêm về nó tại cuộc họp nhân viên sau hôm nay.)\n2. Điều này chỉ ra rõ ràng rằng một cuộc họp nhân viên sẽ được tổ chức sau trong ngày.\nDịch các đáp án:\nA. Một số vật tư sẽ được giao\nB. Một cuộc kiểm tra sẽ được tiến hành\nC. Một cuộc họp nhân viên sẽ được tổ chức\nD. Một báo cáo chi phí sẽ được nộp",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "mention",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được đề cập; đề cập, nhắc đến"
+      },
+      {
+       "term": "electricity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "điện"
+      },
+      {
+       "term": "reduce",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "đã giảm; giảm"
+      },
+      {
+       "term": "expense",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chi phí"
+      },
+      {
+       "term": "realize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận ra; nhận ra, hiện thực hóa"
+      },
+      {
+       "term": "issue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vấn đề; vấn đề, số báo"
+      },
+      {
+       "term": "location",
+       "pos": [
+        "n"
+       ],
+       "meaning": "địa điểm; vị trí"
+      },
+      {
+       "term": "nonetheless",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "further",
+       "pos": [
+        "adj",
+        "adv"
+       ],
+       "meaning": "thêm, chi tiết hơn; xa hơn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g10",
@@ -1621,7 +2125,71 @@
        "explanation": "Đáp án đúng là B (Do some research) vì:\n1. Người phụ nữ hỏi: \"Could you research that before we meet with the ferry company?\" (Anh có thể nghiên cứu điều đó trước khi chúng ta gặp công ty phà không?)\n2. Người đàn ông trả lời: \"Absolutely.\" (Chắc chắn rồi.)\n3. Điều này cho thấy anh ta đồng ý thực hiện nghiên cứu.\nDịch các đáp án:\nA. Nộp đơn xin tài trợ\nB. Thực hiện một số nghiên cứu\nC. Tổ chức một chuyến công tác\nD. Tập hợp một đội làm việc",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "contracted",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "đã ký hợp đồng"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "runs",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chạy"
+      },
+      {
+       "term": "transport",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự vận chuyển"
+      },
+      {
+       "term": "concerned",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "lo lắng; quan tâm"
+      },
+      {
+       "term": "vehicle",
+       "pos": [],
+       "meaning": "phương tiện"
+      },
+      {
+       "term": "passenger",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hành khách"
+      },
+      {
+       "term": "possibly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "có thể; có thể, có khả năng"
+      },
+      {
+       "term": "research",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g11",
@@ -1690,7 +2258,52 @@
        "explanation": "Đáp án đúng là B (Save some seats) vì:\n1. Người đàn ông nói: \"I'd better call our coworkers and ask them to save us some seats.\" (Tôi nên gọi cho đồng nghiệp và yêu cầu họ giữ cho chúng ta một số chỗ ngồi.)\n2. Điều này chỉ ra rõ ràng rằng anh ta sẽ yêu cầu đồng nghiệp giữ chỗ.\nDịch các đáp án:\nA. Hủy một đặt chỗ\nB. Giữ một số chỗ ngồi\nC. Đăng ký tại một sự kiện\nD. In một số tài liệu",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "offering",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
+      },
+      {
+       "term": "familiar",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quen thuộc"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "save",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiết kiệm"
+      },
+      {
+       "term": "seat",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chỗ ngồi"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g12",
@@ -1759,7 +2372,38 @@
        "explanation": "Đáp án đúng là A (Using a cart) vì:\n1. Người phụ nữ nói: \"But don't try to carry all these boxes  they're too heavy. I brought a cart over from the maintenance closet for you to use.\" (Nhưng đừng cố gắng mang tất cả những hộp này chúng quá nặng. Tôi đã mang một xe đẩy từ tủ bảo trì để anh sử dụng.)\n2. Điều này chỉ ra rõ ràng rằng cô ấy đề xuất sử dụng xe đẩy.\nDịch các đáp án:\nA. Sử dụng một xe đẩy\nB. Đợi một xác nhận\nC. Giao một nhiệm vụ cho đồng nghiệp\nD. Sắp xếp lại cuộc hẹn với khách hàng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "personal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cá nhân"
+      },
+      {
+       "term": "data",
+       "pos": [
+        "n"
+       ],
+       "meaning": "dữ liệu"
+      },
+      {
+       "term": "correct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được sửa chữa"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p3-g13",
@@ -1828,7 +2472,60 @@
        "explanation": "Đáp án đúng là A (The name of a sponsor) vì:\n1. Người đàn ông nói: \"Let's add a line at the bottom with the name of our organization, since we're sponsoring the event.\" (Hãy thêm một dòng ở cuối với tên tổ chức của chúng ta, vì chúng ta đang tài trợ cho sự kiện.)\n2. Điều này chỉ ra rằng anh ta đề xuất thêm tên của nhà tài trợ (tổ chức của họ) vào lời mời.\nDịch các đáp án:\nA. Tên của một nhà tài trợ\nB. Địa điểm của một phòng hòa nhạc\nC. Một địa chỉ trang web\nD. Một danh sách người biểu diễn",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "draft",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bản thảo; soạn thảo"
+      },
+      {
+       "term": "upcoming",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "sắp tới; sắp tới, sắp diễn ra"
+      },
+      {
+       "term": "otherwise",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "nếu không; nếu không thì"
+      },
+      {
+       "term": "perform",
+       "pos": [
+        "v"
+       ],
+       "meaning": "biểu diễn, trình diễn; biểu diễn"
+      },
+      {
+       "term": "organization",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tổ chức"
+      },
+      {
+       "term": "sponsor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà tài trợ; tài trợ"
+      },
+      {
+       "term": "addition",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự bổ sung"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2594,61 @@
        "explanation": "Đáp án đúng là C (A video interview) vì:\n1. Người nói nói: \"To hear more about the company, please visit our radio station's Web site, where my video interview with Starbright's president has been posted.\" (Để nghe thêm về công ty, vui lòng truy cập trang web của đài radio chúng tôi, nơi đã đăng cuộc phỏng vấn video của tôi với chủ tịch Starbright).\n2. Điều này chỉ ra rõ ràng rằng một cuộc phỏng vấn video có sẵn trực tuyến.\nDịch các đáp án:\nA. Một đơn xin việc\nB. Một lịch trình\nC. Một cuộc phỏng vấn video\nD. Một tour tham quan ảo",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "leading",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hàng đầu"
+      },
+      {
+       "term": "athletic",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thể thao"
+      },
+      {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
+       "term": "range",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "phạm vi"
+      },
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g2",
@@ -1961,7 +2712,52 @@
        "explanation": "Đáp án đúng là A (A slideshow) vì:\n1. Người nói nói: \"To honor his career, I've made a slideshow of some of the most impressive photos that Mustafa has taken\" (Để vinh danh sự nghiệp của anh ấy, tôi đã tạo một trình chiếu slide về một số bức ảnh ấn tượng nhất mà Mustafa đã chụp).\n2. Điều này chỉ ra rõ ràng rằng người nói đã tạo một trình chiếu slide cho sự kiện.\nDịch các đáp án:\nA. Một trình chiếu slide\nB. Một thiết kế áo phông\nC. Một trang web\nD. Một tập sách quảng cáo",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "celebration",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lễ kỷ niệm"
+      },
+      {
+       "term": "rely",
+       "pos": [
+        "v"
+       ],
+       "meaning": "dựa vào; tin cậy"
+      },
+      {
+       "term": "capture",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bắt giữ, thu hút; chụp"
+      },
+      {
+       "term": "article",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài báo; bài viết"
+      },
+      {
+       "term": "career",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự nghiệp"
+      },
+      {
+       "term": "impressive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "ấn tượng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g3",
@@ -2025,7 +2821,89 @@
        "explanation": "Đáp án đúng là C (A handbook) vì:\n1. Người nói nói: \"The safety procedure handbook is on our internal company Website if you need more information\" (Sổ tay quy trình an toàn có trên trang web nội bộ của công ty nếu bạn cần thêm thông tin).\n2. Điều này chỉ ra rõ ràng rằng một cuốn sổ tay có thể được tìm thấy trực tuyến.\nDịch các đáp án:\nA. Một cơ sở dữ liệu sản phẩm\nB. Một danh bạ nhân viên\nC. Một cuốn sổ tay\nD. Một hợp đồng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "agenda",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chương trình nghị sự; chương trình"
+      },
+      {
+       "term": "environment",
+       "pos": [],
+       "meaning": "môi trường"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "laboratory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phòng thí nghiệm"
+      },
+      {
+       "term": "maintain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "duy trì"
+      },
+      {
+       "term": "safety",
+       "pos": [
+        "adj",
+        "n"
+       ],
+       "meaning": "sự an toàn; an toàn"
+      },
+      {
+       "term": "advance",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "sự tiến bộ, tiến lên"
+      },
+      {
+       "term": "procedure",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình; thủ tục"
+      },
+      {
+       "term": "internal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nội bộ"
+      },
+      {
+       "term": "chemical",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hóa chất"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g4",
@@ -2089,7 +2967,73 @@
        "explanation": "Đáp án đúng là A (Register for a competition) vì:\n1. Người nói nói: \"the real reason I called was to remind you to register us for the annual farmers' association competition\" (lý do thực sự tôi gọi là để nhắc bạn đăng ký cho chúng ta tham gia cuộc thi hàng năm của hiệp hội nông dân).\n2. Điều này chỉ ra rõ ràng rằng người nói đang nhắc nhở người nghe đăng ký cho một cuộc thi.\nDịch các đáp án:\nA. Đăng ký cho một cuộc thi\nB. Mua một số vật tư\nC. Chuẩn bị một lô hàng\nD. Nói chuyện với một khách hàng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "farmer",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nông dân"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "accidentally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "vô ý"
+      },
+      {
+       "term": "concerned",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "lo lắng; quan tâm"
+      },
+      {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
+      },
+      {
+       "term": "register",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
+       "term": "association",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự liên kết"
+      },
+      {
+       "term": "competition",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự cạnh tranh; cuộc cạnh tranh"
+      },
+      {
+       "term": "award",
+       "pos": [
+        "v"
+       ],
+       "meaning": "trao giải; giải thưởng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g5",
@@ -2153,7 +3097,59 @@
        "explanation": "Đáp án đúng là D (Some time-reporting software will be fixed) vì:\n1. Người nói nói: \"the time reporting software will be working when you get to the factory tomorrow morning\" (phần mềm báo cáo thời gian sẽ hoạt động khi bạn đến nhà máy vào sáng mai).\n2. Điều này ngụ ý rằng phần mềm báo cáo thời gian sẽ được sửa chữa vào ngày mai.\nDịch các đáp án:\nA. Một số đồ nội thất văn phòng sẽ được giao\nB. Các thành viên hội đồng quản trị mới sẽ được bầu chọn\nC. Một quan chức thành phố sẽ tiến hành kiểm tra\nD. Một số phần mềm báo cáo thời gian sẽ được sửa chữa",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attention",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự chú ý"
+      },
+      {
+       "term": "furniture",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đồ nội thất"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "enter",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vào"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "operate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vận hành; hoạt động"
+      },
+      {
+       "term": "temporary",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tạm thời"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g6",
@@ -2217,7 +3213,71 @@
        "explanation": "Đáp án đúng là C (Eat a meal) vì:\n1. Người nói kết thúc bằng cách nói: \"As promised, I brought in soup and sandwiches for everyone – the food's in the break room\" (Như đã hứa, tôi đã mang súp và bánh mì kẹp cho mọi người - thức ăn ở trong phòng nghỉ).\n2. Điều này cho thấy rằng việc tiếp theo mà người nghe có thể làm là đi ăn.\nDịch các đáp án:\nA. Kiểm tra một lịch trình\nB. Hoàn thành một mẫu đăng ký\nC. Ăn một bữa ăn\nD. Động não một số ý tưởng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "item",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mặt hàng, sản phẩm; vật phẩm"
+      },
+      {
+       "term": "agenda",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chương trình nghị sự; chương trình"
+      },
+      {
+       "term": "previous",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "trước đó; trước đây"
+      },
+      {
+       "term": "clinic",
+       "pos": [],
+       "meaning": "phòng khám"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "touch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chạm"
+      },
+      {
+       "term": "presentation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài thuyết trình"
+      },
+      {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      },
+      {
+       "term": "maintain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "duy trì"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g7",
@@ -2281,7 +3341,81 @@
        "explanation": "Đáp án đúng là B (She can recommend some activities) vì:\n1. Người nói nói: \"Isabel can make some recommendations about what to do while you're in Barcelona for the meeting with NVC Industries\" (Isabel có thể đưa ra một số đề xuất về những việc cần làm khi bạn ở Barcelona cho cuộc họp với NVC Industries).\n2. Điều này chỉ ra rõ ràng rằng Isabel có thể đề xuất một số hoạt động.\nDịch các đáp án:\nA. Cô ấy mới gia nhập công ty gần đây\nB. Cô ấy có thể đề xuất một số hoạt động\nC. Cô ấy sẽ phê duyệt các báo cáo chi phí\nD. Cô ấy từng làm việc trên tài khoản NVC Industries",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "advertising",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "quảng cáo"
+      },
+      {
+       "term": "deliver",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao hàng; giao, chuyển giao"
+      },
+      {
+       "term": "hesitation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự do dự"
+      },
+      {
+       "term": "approach",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tiếp cận, phương pháp; đang đến gần"
+      },
+      {
+       "term": "concern",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mối quan ngại"
+      },
+      {
+       "term": "competitive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cạnh tranh"
+      },
+      {
+       "term": "recommendation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đề xuất; lời giới thiệu"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "industry",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngành công nghiệp; ngành"
+      },
+      {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g8",
@@ -2345,7 +3479,66 @@
        "explanation": "Đáp án đúng là D (Add videos to a Web site) vì:\n1. Người nói nói: \"I'd like to put together a team to create some videos about our groceries, and we can pick a few to post to our Web site\" (Tôi muốn tập hợp một đội để tạo ra một số video về các mặt hàng tạp hóa của chúng ta, và chúng ta có thể chọn một vài video để đăng lên trang web của chúng ta).\n2. Điều này chỉ ra rõ ràng rằng anh ta có kế hoạch thêm video vào trang web.\nDịch các đáp án:\nA. Chuyển đến một địa điểm khác\nB. Cung cấp giảm giá trực tuyến\nC. Thuê thêm nhân viên\nD. Thêm video vào một trang web",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "goal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mục tiêu"
+      },
+      {
+       "term": "encourage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "khuyến khích"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "location",
+       "pos": [
+        "n"
+       ],
+       "meaning": "địa điểm; vị trí"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "strategy",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chiến lược"
+      },
+      {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
+       "term": "satisfy",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm hài lòng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g9",
@@ -2414,7 +3607,78 @@
        "explanation": "Đáp án đúng là C (Free car washes) vì:\n1. Người nói nói: \"And don't forget to take advantage of our free monthly car wash\" (Và đừng quên tận dụng dịch vụ rửa xe miễn phí hàng tháng của chúng tôi).\n2. Điều này chỉ ra rõ ràng rằng cô ấy đang nhắc nhở người nghe về dịch vụ rửa xe miễn phí.\nDịch các đáp án:\nA. Dịch vụ đưa đón\nB. Nhắc nhở bảo trì\nC. Rửa xe miễn phí\nD. Chìa khóa thay thế",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "paperwork",
+       "pos": [
+        "n"
+       ],
+       "meaning": "giấy tờ"
+      },
+      {
+       "term": "vehicle",
+       "pos": [],
+       "meaning": "phương tiện"
+      },
+      {
+       "term": "fees",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phí"
+      },
+      {
+       "term": "fee",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phí; phí, lệ phí"
+      },
+      {
+       "term": "credit",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tín dụng"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
+       "term": "advantage",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lợi thế; lợi thế, ưu điểm"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "contract",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng"
+      },
+      {
+       "term": "purchase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2022-test2-p4-g10",
@@ -2483,7 +3747,59 @@
        "explanation": "Đáp án đúng là B (Pianos) vì:\n1. Người nói nói: \"look at this instrument--we only sell twenty of them per year\" (nhìn vào nhạc cụ này - chúng ta chỉ bán được 20 cái mỗi năm).\n2. Trong biểu đồ, chỉ có \"Pianos\" có số lượng bán ra là 20.\n3. Người nói cũng nói rằng họ sẽ ngừng bán loại nhạc cụ này.\nDịch các đáp án:\nA. Đàn phím\nB. Đàn piano\nC. Trống\nD. Đàn guitar",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attract",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bị thu hút"
+      },
+      {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
+       "term": "contest",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc thi"
+      },
+      {
+       "term": "sales",
+       "pos": [
+        "n"
+       ],
+       "meaning": "doanh số; doanh số bán hàng"
+      },
+      {
+       "term": "effort",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nỗ lực"
+      },
+      {
+       "term": "maintain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "duy trì"
+      },
+      {
+       "term": "consideration",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự xem xét"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

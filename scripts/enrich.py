@@ -144,6 +144,83 @@ def tag_question(q: dict) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
+# Part 3/4: tách mục "Từ vựng" khỏi giải thích thành danh sách từ của cả đoạn hội thoại,
+# và bỏ các mục "Ngữ pháp", "Bối cảnh/Ngữ cảnh" khỏi giải thích
+# ---------------------------------------------------------------------------
+REMOVED_SECTION_RE = re.compile(r"^(Từ vựng|Ngữ pháp|Bối cảnh|Ngữ cảnh)[^:\n]{0,30}:\s*(.*)$", re.I)
+OTHER_SECTION_RE = re.compile(r"^(?:[^\s\-•*+\d\"“'][^:\n]{1,45}:\s*$|(?:Mẹo|Đáp án|Giải thích|Lưu ý|Chú ý|Dịch|Câu hỏi|Paraphrase|Phân tích)\b)")
+BULLET_RE = re.compile(r"^\s*(?:[-•*+]|\d+[.)])\s*")
+VOCAB_ITEM_RE = re.compile(r"^[\"“']?([A-Za-z][A-Za-z'’ .,/=&-]{0,60}?)[\"”']?\s*(?:\(([^()]{1,40})\))?\s*[:\-–]\s+(.+)$")
+POS_ABBR = {"n": "n", "noun": "n", "v": "v", "verb": "v", "adj": "adj", "adv": "adv", "prep": "prep", "conj": "conj",
+            "pron": "pron", "phr": "", "phrase": "", "phr v": "v", "phrasal verb": "v", "idiom": ""}
+
+
+def _parse_vocab_item(text: str) -> dict | None:
+    m = VOCAB_ITEM_RE.match(text.strip())
+    if not m:
+        return None
+    term, pos_raw, meaning = m.groups()
+    term = re.sub(r"\s+", " ", term).strip(" .,")
+    pos: list[str] = []
+    if pos_raw:
+        parts = [x.strip().lower() for x in re.split(r"[/,]", pos_raw)]
+        if all(x in POS_ABBR for x in parts):
+            pos = sorted({POS_ABBR[x] for x in parts if POS_ABBR[x]})
+        else:
+            pos = _pos_of(pos_raw)  # "danh từ", "động từ"… ; còn lại là ghi chú như "(trong ngữ cảnh này)"
+    meaning = meaning.strip().strip("\"'“”").strip()
+    if not term or len(term) > 60 or not meaning or not VI_CHARS_RE.search(meaning):
+        return None
+    return {"term": term, "pos": pos, "meaning": meaning[:120]}
+
+
+def split_explanation(text: str) -> tuple[str, list[dict]]:
+    """Bỏ các mục Từ vựng / Ngữ pháp / Bối cảnh khỏi giải thích; trả về (giải thích mới, các mục từ vựng)."""
+    lines = text.split("\n")
+    out: list[str] = []
+    vocab: list[dict] = []
+    i = 0
+    while i < len(lines):
+        m = REMOVED_SECTION_RE.match(lines[i].strip())
+        if not m:
+            out.append(lines[i])
+            i += 1
+            continue
+        is_vocab = m.group(1).lower().startswith("từ vựng")
+        if is_vocab and m.group(2):
+            for piece in re.split(r";\s*", m.group(2)):
+                item = _parse_vocab_item(piece)
+                if item:
+                    vocab.append(item)
+        i += 1
+        while i < len(lines):  # thân của mục: tới dòng trống hoặc mục khác
+            b = lines[i].strip()
+            if not b or OTHER_SECTION_RE.match(b) and not BULLET_RE.match(lines[i]):
+                break
+            if is_vocab:
+                item = _parse_vocab_item(BULLET_RE.sub("", b))
+                if item:
+                    vocab.append(item)
+            i += 1
+    cleaned = re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+    return cleaned, vocab
+
+
+def apply_group_vocab(group: dict) -> None:
+    """Part 3/4: gom từ vựng của cả nhóm câu vào group["vocab"], làm gọn giải thích từng câu."""
+    seen: set[str] = set()
+    items: list[dict] = []
+    for q in group["questions"]:
+        q["explanation"], vocab = split_explanation(q["explanation"])
+        for v in vocab:
+            key = v["term"].lower()
+            if key not in seen:
+                seen.add(key)
+                items.append(v)
+    group["vocab"] = items
+
+
+# ---------------------------------------------------------------------------
 # Từ vựng: trích từ các dòng giải thích dạng "A. modifications (danh từ số nhiều: những sự thay đổi)"
 # ---------------------------------------------------------------------------
 VOCAB_LINE_RE = re.compile(
@@ -587,6 +664,41 @@ def build_vocab(tests: list[dict]) -> list[dict]:
                                 ls.append(n0)
                             if lem not in listen_example and 30 <= len(sent) <= 220:
                                 listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
+    # mục "Từ vựng" trong giải thích Part 3/4: thêm nghĩa cho từ phần nghe chưa có trong từ điển
+    for t in tests:
+        for p in t["parts"]:
+            if p["part"] not in (3, 4):
+                continue
+            for g in p["groups"]:
+                n0 = g["questionNumbers"][0]
+                script = " ".join(ps["en"] for ps in g["passages"] if ps.get("en"))
+                for item in g.get("vocab", []):
+                    term = item["term"].lower().replace("’", "'")
+                    if "=" in term or len(term.split()) > 4 or term in BASIC_WORDS:
+                        continue
+                    lem = term if " " in term else lemma_map.get(term) or lemma_of(term, known)
+                    lem = lemma_map.get(lem, lem)
+                    if lem in BASIC_WORDS:
+                        continue
+                    e = entries.get(lem)
+                    if e is None:
+                        e = entries[lem] = {"w": lem, "pos": item["pos"], "meanings": [], "related": [], "inflections": [],
+                                            "basic": False, "freq": 0, "examples": [], "tests": {}}
+                    if e["basic"]:
+                        continue
+                    if len(e["meanings"]) < 3 and item["meaning"].lower() not in (x.lower() for x in e["meanings"]):
+                        e["meanings"].append(item["meaning"])
+                    if not e["pos"] and item["pos"]:
+                        e["pos"] = item["pos"]
+                    ls = e["tests"].setdefault(t["id"], {}).setdefault("l", [])
+                    if n0 not in ls:
+                        ls.append(n0)
+                    if lem not in listen_example:
+                        for sent in SENT_SPLIT_RE.split(re.sub(r"\s+", " ", script.replace("**", ""))):
+                            if term in sent.lower() and 20 <= len(sent) <= 240:
+                                listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
+                                break
+
     out = []
     for e in entries.values():
         if e["w"] in listen_example:
@@ -640,7 +752,43 @@ def write_extras(tests: list[dict], out_dir: Path) -> dict:
     (bank_dir / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
     vocab = build_vocab(tests)
     (out_dir / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    fill_group_vocab(tests, vocab)
     return {"tags": {f"p{i['part']}-{i['tag']}": i["count"] for i in index}, "vocab": len(vocab)}
+
+
+AUTO_VOCAB_LIMIT = 12
+
+
+def fill_group_vocab(tests: list[dict], vocab: list[dict]) -> None:
+    """Đoạn Part 3/4 không có mục "Từ vựng" trong giải thích: lấy các từ (không cơ bản) của từ điển
+    xuất hiện trong lời thoại, theo thứ tự xuất hiện."""
+    by_test: dict[str, list[dict]] = defaultdict(list)
+    for e in vocab:
+        if e["basic"]:
+            continue
+        for tid, src in e["tests"].items():
+            if src.get("l"):
+                by_test[tid].append(e)
+    for t in tests:
+        for p in t["parts"]:
+            if p["part"] not in (3, 4):
+                continue
+            for g in p["groups"]:
+                if g.get("vocab"):
+                    continue
+                n0 = g["questionNumbers"][0]
+                script = " ".join(ps["en"] for ps in g["passages"] if ps.get("en")).lower()
+                found = []
+                for e in by_test.get(t["id"], []):
+                    if n0 not in e["tests"][t["id"]]["l"]:
+                        continue
+                    pos_in = [m.start() for w in [e["w"], *e["inflections"]]
+                              for m in [re.search(rf"\b{re.escape(w)}\b", script)] if m]
+                    found.append((min(pos_in) if pos_in else 10**6, e))
+                found.sort(key=lambda x: x[0])
+                g["vocab"] = [{"term": e["w"], "pos": e["pos"], "meaning": "; ".join(e["meanings"][:2])}
+                              for _, e in found[:AUTO_VOCAB_LIMIT]]
+                g["vocabAuto"] = True
 
 
 if __name__ == "__main__":

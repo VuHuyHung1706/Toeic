@@ -99,7 +99,7 @@ export function alignBilingual(en: string, vi: string): BilingualPair[] {
   const se = le.map(splitSentences);
   const starts = new Set<string>(se.map((s) => s[0]).filter(Boolean));
   for (const p of alignSentences(se.flat(), lv.flatMap(splitSentences))) {
-    out.push({ ...p, newParagraph: [...starts].some((s) => p.en.startsWith(s)) });
+    out.push({ ...p, newParagraph: out.length === 0 || (!!p.en && [...starts].some((s) => p.en.startsWith(s))) });
   }
   return out;
 }

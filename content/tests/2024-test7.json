@@ -1045,7 +1045,31 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông đề nghị giúp đỡ trong việc mang đồ vào từ xe tải.\nTrích dẫn: \"If you'd like any help bringing in your stuff, just let me know.\"\nCác đáp án dịch sang tiếng Việt:\nA. Lên lịch một cuộc phỏng vấn\nB. Trộn một số nguyên liệu\nC. Mang một số vật dụng\nD. Lắp ráp một số thiết bị\nCâu hỏi dịch: Người đàn ông đề nghị giúp đỡ với việc gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "equipment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g2",
@@ -1109,7 +1133,58 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông nói rằng anh ta sẽ kiểm tra xem máy đọc thẻ đã hoạt động trở lại chưa.\nTrích dẫn: \"Let me see if it's working again.\"\nCác đáp án dịch sang tiếng Việt:\nA. Tra cứu một số thông tin\nB. In một tài liệu\nC. Kiểm tra một máy móc\nD. Cập nhật một tài khoản\nCâu hỏi dịch: Người đàn ông nói anh ta sẽ làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "fee",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phí; phí, lệ phí"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "overdue",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quá hạn"
+      },
+      {
+       "term": "material",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vật liệu; tài liệu"
+      },
+      {
+       "term": "credit",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tín dụng"
+      },
+      {
+       "term": "reader",
+       "pos": [
+        "n"
+       ],
+       "meaning": "độc giả"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g3",
@@ -1173,7 +1248,64 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người phụ nữ lo lắng về việc có sẵn một chiếc tivi cho bài thuyết trình của cô ấy.\nTrích dẫn: \"Oh no! My presentation reguires the use of a television.\"\nCác đáp án dịch sang tiếng Việt:\nA. Tính bảo mật của kết nối Internet\nB. Số tiền được phê duyệt\nC. Phản hồi từ một số đồng nghiệp\nD. Sự sẵn có của một số thiết bị\nCâu hỏi dịch: Người phụ nữ lo lắng về điều gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "everybody",
+       "pos": [
+        "pron"
+       ],
+       "meaning": "đại từ chỉ mọi người; mọi người"
+      },
+      {
+       "term": "sales",
+       "pos": [
+        "n"
+       ],
+       "meaning": "doanh số; doanh số bán hàng"
+      },
+      {
+       "term": "presentation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài thuyết trình"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
+      },
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "candidate",
+       "pos": [],
+       "meaning": "ứng viên"
+      },
+      {
+       "term": "smart",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thông minh"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g4",
@@ -1237,7 +1369,41 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ cập nhật trang mạng xã hội của họ để hướng dẫn khách hàng.\nTrích dẫn: \"I'll update our social media page to direct our customers.\"\nCác đáp án dịch sang tiếng Việt:\nA. Hủy kế hoạch cho cuối tuần\nB. Đóng cửa hàng sớm\nC. Lái xe chậm\nD. Đăng một cập nhật trên mạng xã hội\nCâu hỏi dịch: Người phụ nữ sẽ làm gì tiếp theo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "direct",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "trực tiếp; chỉ đạo"
+      },
+      {
+       "term": "access",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "quyền truy cập, sự vào; sự tiếp cận/tiếp cận"
+      },
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g5",
@@ -1301,7 +1467,52 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ tình nguyện chụp ảnh khi người đàn ông đề cập đến việc chụp ảnh cho trang mạng xã hội.\nTrích dẫn: \"I can do that. I brought my camera.\"\nCác đáp án dịch sang tiếng Việt:\nA. Dẫn dắt một buổi đào tạo\nB. Chụp một số bức ảnh\nC. Đặt hàng một số vật tư\nD. Tổ chức một chuyến tham quan\nCâu hỏi dịch: Người phụ nữ tình nguyện làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "trail",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đường mòn"
+      },
+      {
+       "term": "sense",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ý nghĩa"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "collect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thu thập; đang lấy"
+      },
+      {
+       "term": "laboratory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phòng thí nghiệm"
+      },
+      {
+       "term": "photograph",
+       "pos": [
+        "n"
+       ],
+       "meaning": "những bức ảnh; ảnh"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g6",
@@ -1365,7 +1576,78 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông bày tỏ lo ngại rằng pin của xe điện có thể không đủ cho toàn bộ tuyến đường của anh ta.\nTrích dẫn: \"I'm concerned that the battery won't last through my entire route.\"\nCác đáp án dịch sang tiếng Việt:\nA. Pin sẽ kéo dài bao lâu\nB. Việc mua sắm sẽ đắt đến mức nào\nC. Dự báo thời tiết có chính xác đến đâu\nD. Chương trình đào tạo có cập nhật đến mức nào\nCâu hỏi dịch: Người đàn ông lo lắng về điều gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "board",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lên tàu/máy bay; ván, tấm gỗ"
+      },
+      {
+       "term": "carrier",
+       "pos": [],
+       "meaning": "người đưa thư"
+      },
+      {
+       "term": "entire",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "toàn bộ"
+      },
+      {
+       "term": "delivery",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc giao hàng; các chuyến giao hàng"
+      },
+      {
+       "term": "vehicle",
+       "pos": [],
+       "meaning": "phương tiện"
+      },
+      {
+       "term": "charge",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tính phí; khoản phí, khoản tính phí"
+      },
+      {
+       "term": "concerned",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "lo lắng; quan tâm"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "route",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lộ trình; tuyến đường"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g7",
@@ -1429,7 +1711,57 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông nói rằng anh ta sẽ chỉ cho Claudia cách sử dụng hệ thống phần mềm.\nTrích dẫn: \"It's easy to use. Let me show you how.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cung cấp một số phản hồi\nB. Kiểm tra lịch\nC. Trình diễn một chương trình máy tính\nD. Giúp đồng nghiệp tìm một số vật tư\nCâu hỏi dịch: Người đàn ông sẽ làm gì tiếp theo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      },
+      {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
+       "term": "reservation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc đặt chỗ; đặt chỗ"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g8",
@@ -1493,7 +1825,45 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Các người nói quyết định kiểm tra xem nhà hàng có dịch vụ mang đi không và đặt món để mang đi.\nTrích dẫn: \"Let's see if they offer takeout-we can just order something to go.\"\nCác đáp án dịch sang tiếng Việt:\nA. Đi đến một nhà hàng khác\nB. Thử một mẫu miễn phí\nC. Đặt đồ ăn mang đi\nD. Thanh toán hóa đơn\nCâu hỏi dịch: Các người nói nhiều khả năng sẽ làm gì tiếp theo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "somewhere",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đâu đó"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "forward",
+       "pos": [
+        "v"
+       ],
+       "meaning": "về phía trước; chuyển tiếp (email)"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g9",
@@ -1557,7 +1927,43 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ cho rằng công ty sẽ phải thuê thêm nhân viên để phục vụ cả hai địa điểm.\nTrích dẫn: \"I guess they'll have to hire more employees. There's just not enough of us to staff both locations.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thuê thêm nhân viên\nB. Đặt một đơn hàng lớn\nC. Sửa đổi sổ tay nhân viên\nD. Quảng cáo trên mạng xã hội\nCâu hỏi dịch: Người phụ nữ nghĩ rằng doanh nghiệp nên làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "management",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quản lý; ban quản lý"
+      },
+      {
+       "term": "surprise",
+       "pos": [],
+       "meaning": "ngạc nhiên"
+      },
+      {
+       "term": "location",
+       "pos": [
+        "n"
+       ],
+       "meaning": "địa điểm; vị trí"
+      },
+      {
+       "term": "densely",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "dày đặc"
+      },
+      {
+       "term": "hire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được thuê; thuê"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g10",
@@ -1621,7 +2027,74 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ tìm kiếm các hoạt động xây dựng đội ngũ hiệu quả có thể làm trực tuyến.\nTrích dẫn: \"I'll do a search for effective team-building activities that we can do online.\"\nCác đáp án dịch sang tiếng Việt:\nA. Xem xét một chương trình nghị sự\nB. Đặt một không gian sự kiện\nC. Nghiên cứu một số hoạt động trực tuyến\nD. Kiểm tra ngân sách\nCâu hỏi dịch: Người phụ nữ sẽ làm gì tiếp theo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "graphic",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đồ họa"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "reserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đặt chỗ; đặt trước, giữ chỗ"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "designer",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các nhà thiết kế; nhà thiết kế"
+      },
+      {
+       "term": "remotely",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "từ xa; từ xa (không cần đến văn phòng)"
+      },
+      {
+       "term": "equally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "một cách bình đẳng; như nhau"
+      },
+      {
+       "term": "effective",
+       "pos": [
+        "adj",
+        "prep"
+       ],
+       "meaning": "hiệu quả; có hiệu lực"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g11",
@@ -1690,7 +2163,45 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ đảm bảo với người đàn ông rằng cửa hàng có thang máy lớn có thể dễ dàng chứa xe lăn, nghĩa là tòa nhà có thể tiếp cận được bằng xe lăn.\nTrích dẫn: \"We have large elevators that can easily accommodate a wheelchair.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một hệ thống thanh toán trực tuyến là an toàn.\nB. Một tòa nhà có thể tiếp cận được bằng xe lăn.\nC. Một sản phẩm đủ điều kiện để hoàn tiền.\nD. Một khu ẩm thực mở cửa hàng ngày.\nCâu hỏi dịch: Người phụ nữ đảm bảo với người đàn ông về điều gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "furniture",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đồ nội thất"
+      },
+      {
+       "term": "selection",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
+       "term": "fully",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hoàn toàn"
+      },
+      {
+       "term": "concerned",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "lo lắng; quan tâm"
+      },
+      {
+       "term": "accommodate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thu xếp; chứa, tiếp đón"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g12",
@@ -1759,7 +2270,68 @@
        "explanation": "Đáp án đúng là C.\nGiải thích:“Per company policy, we can only use Blue Jet airlines for international travel” và lời xác nhận của người phụ nữ “That will have to do”, có thể thấy người phụ nữ sẽ đi hãng bay Blue Jet. Dựa vào đồ họa, chuyến bay Blue Jet sẽ khởi hành vào lúc 9 giờ 7 phút sáng.\n\nCác đáp án dịch sang tiếng Việt:\nA. Lái xe đưa người phụ nữ đến sân bay\nB. Đặt khách sạn\nC. Gửi email một số thông tin\nD. In thẻ lên máy bay\nCâu hỏi dịch: Người đàn ông nói anh ta sẽ làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "policy",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chính sách"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "arrange",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sắp xếp"
+      },
+      {
+       "term": "finalize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hoàn thiện; hoàn thành, hoàn thiện"
+      },
+      {
+       "term": "reservation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc đặt chỗ; đặt chỗ"
+      },
+      {
+       "term": "detail",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giải thích chi tiết; chi tiết"
+      },
+      {
+       "term": "investor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà đầu tư"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p3-g13",
@@ -1828,7 +2400,73 @@
        "explanation": "Đáp án đúng là C, “one document suggests that Columbia City's proposal is the favorite” có thể thấy khả năng cao sân vận động nằm tại thành phố Columbia. Dựa vào đồ họa, thành phố Columbia nằm tại vị trí C.\nCác đáp án dịch sang tiếng Việt:\nA. Tại địa điểm A\nB. Tại địa điểm B\nC. Tại địa điểm C\nD. Tại địa điểm D\nCâu hỏi dịch: Nhìn vào hình ảnh. Theo người phụ nữ, sân vận động có khả năng sẽ được xây dựng ở đâu?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "exclusive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "độc quyền"
+      },
+      {
+       "term": "access",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "quyền truy cập, sự vào; sự tiếp cận/tiếp cận"
+      },
+      {
+       "term": "proposal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đề xuất; đề xuất, đề nghị"
+      },
+      {
+       "term": "compete",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cạnh tranh"
+      },
+      {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      },
+      {
+       "term": "suggest",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đề xuất; gợi ý"
+      },
+      {
+       "term": "however",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên; phó từ: tuy nhiên"
+      },
+      {
+       "term": "bids",
+       "pos": [],
+       "meaning": "các lượt đặt giá"
+      },
+      {
+       "term": "consider",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xem xét; xem xét, cân nhắc"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2535,73 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nghe được mời nộp đơn đăng ký tại cơ sở mới hoặc trực tuyến.\nTrích dẫn: \"Visit us at our new campus or online to submit your application.\"\nCác đáp án dịch sang tiếng Việt:\nA. Tham gia một nhóm trực tuyến\nB. Tham gia một nghiên cứu\nC. Tham dự một hội thảo\nD. Nộp đơn đăng ký\nCâu hỏi dịch: Người nghe được mời làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "campus",
+       "pos": [],
+       "meaning": "các khuôn viên"
+      },
+      {
+       "term": "equip",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được trang bị"
+      },
+      {
+       "term": "launch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ra mắt; khởi động"
+      },
+      {
+       "term": "career",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự nghiệp"
+      },
+      {
+       "term": "flexible",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "linh hoạt"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "submit",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nộp, đệ trình; nộp"
+      },
+      {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g2",
@@ -1961,7 +2665,92 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói muốn nghe ý kiến về các sự kiện xã hội khác và nhắc nhở mọi người rằng họ có địa chỉ email của anh ta để gửi đề xuất.\nTrích dẫn: \"We don't have the budget to do anything big, but l'd like to hear your ideas. Everyone has my e-mail address.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để ngăn cản người nghe gọi điện thoại cho anh ta\nB. Để phàn nàn rằng anh ta nhận quá nhiều email\nC. Để giải thích cách anh ta biết về một cơ hội\nD. Để khuyến khích người nghe đưa ra đề xuất\nCâu hỏi dịch: Tại sao người nói nói \"Mọi người đều có địa chỉ email của tôi\"?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "mark",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đánh dấu; dấu, vết"
+      },
+      {
+       "term": "research",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
+      },
+      {
+       "term": "share",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chia sẻ; chia sẻ, dùng chung"
+      },
+      {
+       "term": "celebrate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỷ niệm; chúc mừng"
+      },
+      {
+       "term": "progress",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến triển"
+      },
+      {
+       "term": "reserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đặt chỗ; đặt trước, giữ chỗ"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "relax",
+       "pos": [],
+       "meaning": "thư giãn"
+      },
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi; buổi học, phiên họp"
+      },
+      {
+       "term": "whether",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liệu; liệu rằng"
+      },
+      {
+       "term": "throughout",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "khắp; suốt"
+      },
+      {
+       "term": "budget",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngân sách"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g3",
@@ -2025,7 +2814,51 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói cho biết anh ta sẽ tiến hành một số cuộc phỏng vấn việc làm vào buổi sáng.\nTrích dẫn: \"i'll be conducting some job interviews this morning\"\nCác đáp án dịch sang tiếng Việt:\nA. Lấy vật tư\nB. Tổ chức phỏng vấn\nC. Thực hiện một buổi trình diễn\nD. Tham quan một cơ sở\nCâu hỏi dịch: Người nói nói anh ta sẽ làm gì vào buổi sáng nay?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
+      },
+      {
+       "term": "clinic",
+       "pos": [],
+       "meaning": "phòng khám"
+      },
+      {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      },
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "message",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông điệp"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g4",
@@ -2089,7 +2922,46 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói khuyến nghị đảm bảo có đủ hộp ngũ cốc trong cửa hàng để tạo ra một màn trưng bày đẹp và giữ cho các kệ luôn đầy đủ hàng.\nTrích dẫn: \"You can sign it and send it back to me at your convenience.\"\nCác đáp án dịch sang tiếng Việt:\nA. Hạ giá\nB. Quảng cáo trên báo\nC. Phát triển hương vị mới\nD. Gửi nhiều hàng tồn kho\nCâu hỏi dịch: Người nói khuyến nghị làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "excite",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm phấn khích"
+      },
+      {
+       "term": "contract",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
+       "term": "display",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thể hiện; trưng bày"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g5",
@@ -2153,7 +3025,95 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề nghị chia thành các nhóm ba người để bắt đầu động não về các giải pháp kỹ thuật.\nTrích dẫn: \"Let's break into groups of three and start brainstorming technical solutions.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nghỉ giải lao\nB. Làm việc theo nhóm nhỏ\nC. Thăm một cơ sở sản xuất\nD. Thực hiện một số đo lường\nCâu hỏi dịch: Người nghe có khả năng sẽ làm gì tiếp theo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
+      },
+      {
+       "term": "access",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "quyền truy cập, sự vào; sự tiếp cận/tiếp cận"
+      },
+      {
+       "term": "remote",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "xa xôi"
+      },
+      {
+       "term": "location",
+       "pos": [
+        "n"
+       ],
+       "meaning": "địa điểm; vị trí"
+      },
+      {
+       "term": "user",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người dùng"
+      },
+      {
+       "term": "generally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "thường"
+      },
+      {
+       "term": "however",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên; phó từ: tuy nhiên"
+      },
+      {
+       "term": "interruption",
+       "pos": [
+        "n"
+       ],
+       "meaning": "những sự gián đoạn"
+      },
+      {
+       "term": "cover",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "bao quát; bìa"
+      },
+      {
+       "term": "focus",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung; trọng tâm"
+      },
+      {
+       "term": "internal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nội bộ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g6",
@@ -2217,7 +3177,90 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết thông tin chi tiết về cơ hội tình nguyện viên có thể được tìm thấy trong cuốn sách chương trình.\nTrích dẫn: \"If you're interested, be sure to check page four of your program booklet for more details.\"\nCác đáp án dịch sang tiếng Việt:\nA. Trên một biển hiệu được dán\nB. Tại quầy bán vé\nC. Trong một cuốn sách chương trình\nD. Trên một trang web\nCâu hỏi dịch: Người nói nói một số thông tin có thể được tìm thấy ở đâu?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "performance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hiệu suất; buổi biểu diễn"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "issue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vấn đề; vấn đề, số báo"
+      },
+      {
+       "term": "opportunity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ hội"
+      },
+      {
+       "term": "theater",
+       "pos": [
+        "n"
+       ],
+       "meaning": "rạp hát; sân khấu, rạp hát"
+      },
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "volunteer",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "tình nguyện; người tình nguyện"
+      },
+      {
+       "term": "seat",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chỗ ngồi"
+      },
+      {
+       "term": "detail",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giải thích chi tiết; chi tiết"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g7",
@@ -2281,7 +3324,83 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói yêu cầu người nghe lấy ra máy tính bảng hoặc laptop của họ.\nTrích dẫn: \"So please, get out your tablet or laptop.\"\nCác đáp án dịch sang tiếng Việt:\nA. Tạo một tài khoản\nB. Mở một cuốn sách hướng dẫn\nC. Điền vào một mẫu đơn\nD. Lấy ra một thiết bị điện tử\nCâu hỏi dịch: Người nói yêu cầu người nghe làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "management",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quản lý; ban quản lý"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "organize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "trade",
+       "pos": [],
+       "meaning": "giao dịch, thương mại"
+      },
+      {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
+       "term": "separate",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "riêng biệt"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g8",
@@ -2345,7 +3464,95 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết phiên này đang được ghi lại để tất cả người tham gia có thể xem lại sau phiên.\nTrích dẫn: \"By the way, this session is being recorded so that it's available to all participants after the session.\"\nCác đáp án dịch sang tiếng Việt:\nA. Đồ ăn nhẹ sẽ được phục vụ.\nB. Thanh toán sẽ được thu.\nC. Một bức ảnh nhóm sẽ được chụp.\nD. Một bản ghi âm sẽ được chia sẻ.\nCâu hỏi dịch: Người nói nói điều gì sẽ xảy ra sau cuộc nói chuyện?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi; buổi học, phiên họp"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "efficient",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hiệu quả"
+      },
+      {
+       "term": "example",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ví dụ"
+      },
+      {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
+       "term": "reduce",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "đã giảm; giảm"
+      },
+      {
+       "term": "electricity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "điện"
+      },
+      {
+       "term": "conserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bảo tồn"
+      },
+      {
+       "term": "combine",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kết hợp"
+      },
+      {
+       "term": "knowledge",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kiến thức"
+      },
+      {
+       "term": "advantage",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lợi thế; lợi thế, ưu điểm"
+      },
+      {
+       "term": "submit",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nộp, đệ trình; nộp"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g9",
@@ -2414,7 +3621,93 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Mặc dù không có hình ảnh kèm theo, người nói lo ngại về khối lượng gỗ mà Junko đang chở, cho rằng nó có thể được coi là quá khổ. Giả sử 20 mét là chiều dài quá khổ, đó sẽ là câu trả lời hợp lý nhất.\nTrích dẫn: \"Junko, I'm concerned the lumber you're carrying will be considered oversize.\"\nCác đáp án dịch sang tiếng Việt:\nA. 10 mét\nB. 13 mét\nC. 20 mét\nD. 25 mét\nCâu hỏi dịch: Nhìn vào hình ảnh. Người nói lo ngại về chiều dài tải nào?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "safety",
+       "pos": [
+        "adj",
+        "n"
+       ],
+       "meaning": "sự an toàn; an toàn"
+      },
+      {
+       "term": "seriously",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "nghiêm túc"
+      },
+      {
+       "term": "attend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tham dự"
+      },
+      {
+       "term": "deliver",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao hàng; giao, chuyển giao"
+      },
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "assign",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao phó"
+      },
+      {
+       "term": "carrier",
+       "pos": [],
+       "meaning": "người đưa thư"
+      },
+      {
+       "term": "securely",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "chắc chắn; một cách an toàn"
+      },
+      {
+       "term": "concerned",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "lo lắng; quan tâm"
+      },
+      {
+       "term": "consider",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xem xét; xem xét, cân nhắc"
+      },
+      {
+       "term": "obtain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận được"
+      },
+      {
+       "term": "permit",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cho phép; giấy phép"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test7-p4-g10",
@@ -2483,7 +3776,82 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói cho biết rằng dự báo thời tiết cuối tuần sẽ được phát sau phần quảng cáo.\nTrích dẫn: \"stay tuned after the commercial break for our weekend forecast.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một báo cáo tài chính\nB. Một dự báo thời tiết\nC. Một cuộc phỏng vấn với một quan chức chính phủ\nD. Một buổi biểu diễn âm nhạc trực tiếp\nCâu hỏi dịch: Người nghe sẽ nghe gì sau phần quảng cáo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "beginning",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "bắt đầu"
+      },
+      {
+       "term": "promptly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đúng giờ; nhanh chóng"
+      },
+      {
+       "term": "however",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên; phó từ: tuy nhiên"
+      },
+      {
+       "term": "route",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lộ trình; tuyến đường"
+      },
+      {
+       "term": "concern",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mối quan ngại"
+      },
+      {
+       "term": "avenue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đại lộ"
+      },
+      {
+       "term": "continue",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiếp tục"
+      },
+      {
+       "term": "originally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ban đầu"
+      },
+      {
+       "term": "whether",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liệu; liệu rằng"
+      },
+      {
+       "term": "commercial",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thương mại; quảng cáo (trên TV)"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

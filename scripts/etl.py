@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from enrich import tag_question, write_extras
+from enrich import apply_group_vocab, tag_question, write_extras
 
 # ---------------------------------------------------------------------------
 # Hằng số định dạng đề TOEIC
@@ -472,6 +472,8 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 if part not in GROUPED_PARTS and r["transcript"]:
                     q["transcript"] = r["transcript"]
                 group["questions"].append(q)
+            if part in (3, 4):
+                apply_group_vocab(group)
             groups.append(group)
 
         # --- kiểm tra số lượng câu
@@ -584,7 +586,6 @@ def main() -> int:
     for d in test_dirs:
         t = build_test(data_root, d, report)
         tests.append(t)
-        (out_tests / f"{t['id']}.json").write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding="utf-8")
         c = report.count(t["id"])
         print(f"{t['id']:<14} {t['questionCount']:>3} câu  lỗi={c['error']:<3} cảnh báo={c['warn']:<3} tự sửa={c['fixed']}")
 
@@ -594,8 +595,11 @@ def main() -> int:
             for t in tests
         ]
         (out_tests / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
+        # chạy trước khi ghi đề: bổ sung danh sách từ vựng cho các đoạn Part 3/4
         extras = write_extras(tests, args.out)
         print(f"Ngân hàng theo dạng: {len(extras['tags'])} nhóm | Từ vựng: {extras['vocab']} từ")
+    for t in tests:
+        (out_tests / f"{t['id']}.json").write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding="utf-8")
     report_path = args.out / "etl-report.md"
     write_report(report_path, tests, report)
 

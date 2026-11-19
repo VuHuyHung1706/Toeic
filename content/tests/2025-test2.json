@@ -1045,7 +1045,43 @@
        "explanation": "Question: What will the woman most likely do next? (Người phụ nữ nhiều khả năng sẽ làm gì tiếp theo?)\nA: Purchase some supplies (Mua một số vật dụng)\nB: Start a cleaning process (Bắt đầu quá trình dọn dẹp)\nC: Hang up some signs (Treo một số biển hiệu)\nD: Write a job posting (Viết thông báo tuyển dụng)\n\nGiải thích: Đáp án A là chính xác vì cuối đoạn hội thoại, người phụ nữ nói rằng cô ấy cần đi mua đĩa và dao kéo (I need to head out now to buy the plates and silverware we'll need).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "owner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ sở hữu"
+      },
+      {
+       "term": "counter",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quầy"
+      },
+      {
+       "term": "relax",
+       "pos": [],
+       "meaning": "thư giãn"
+      },
+      {
+       "term": "serve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phục vụ"
+      },
+      {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g2",
@@ -1109,7 +1145,45 @@
        "explanation": "Question: What does the man like about the woman's suggestion? (Người đàn ông thích điều gì về đề xuất của người phụ nữ?)\nA: It suits his schedule (Nó phù hợp với lịch trình của anh ấy)\nB: It is good for his health (Nó tốt cho sức khỏe của anh ấy)\nC: It will be more enjoyable (Nó sẽ thú vị hơn)\nD: It will reduce a fee (Nó sẽ giảm phí)\n\nGiải thích: Đáp án A là chính xác vì khi người phụ nữ đề xuất tập với Derek lúc 8 giờ, người đàn ông nói rằng điều đó hoàn hảo vì sẽ cho anh ấy đủ thời gian để đến đó sau khi tan làm (Perfect-that will give me enough time to get there after finishing work).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "personal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cá nhân"
+      },
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi; buổi học, phiên họp"
+      },
+      {
+       "term": "issue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vấn đề; vấn đề, số báo"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g3",
@@ -1173,7 +1247,88 @@
        "explanation": "Question: What does the woman say she will do? (Người phụ nữ nói cô ấy sẽ làm gì?)\nA: Look for a manual (Tìm một cuốn sổ tay)\nB: Cancel an order (Hủy một đơn hàng)\nC: Make some copies (Tạo một số bản sao)\nD: Speak with a manager (Nói chuyện với người quản lý)\n\nGiải thích: Đáp án D là chính xác vì người phụ nữ nói rằng cô ấy sẽ thông báo cho bà Brent về tình hình (I'll let Ms. Brent know about the situation).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "appliance",
+       "pos": [],
+       "meaning": "thiết bị"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "standard",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tiêu chuẩn"
+      },
+      {
+       "term": "limit",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "hạn chế; giới hạn"
+      },
+      {
+       "term": "approve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phê duyệt; chấp thuận"
+      },
+      {
+       "term": "replacement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thay thế; sự thay thế"
+      },
+      {
+       "term": "charge",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tính phí; khoản phí, khoản tính phí"
+      },
+      {
+       "term": "budget",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngân sách"
+      },
+      {
+       "term": "situation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tình huống"
+      },
+      {
+       "term": "technician",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỹ thuật viên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g4",
@@ -1237,7 +1392,54 @@
        "explanation": "Question: Why was the woman unable to use the online service? (Tại sao người phụ nữ không thể sử dụng dịch vụ trực tuyến?)\nA: A form is confusing (Một mẫu đơn gây nhầm lẫn)\nB: She was not aware of it (Cô ấy không biết về nó)\nC: A Web site was down (Trang web bị hỏng)\nD: Her computer is outdated (Máy tính của cô ấy đã cũ)\n\nGiải thích: Đáp án A là chính xác vì người phụ nữ nói rằng cô ấy không hiểu cách điền mẫu yêu cầu (I couldn't understand how to fill out the request form).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      },
+      {
+       "term": "retreat",
+       "pos": [
+        "v"
+       ],
+       "meaning": "rút lui; buổi nghỉ dưỡng, buổi tĩnh tâm"
+      },
+      {
+       "term": "transportation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phương tiện vận chuyển; phương tiện đi lại"
+      },
+      {
+       "term": "detail",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giải thích chi tiết; chi tiết"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g5",
@@ -1301,7 +1503,78 @@
        "explanation": "Question: What does the woman say the man should look at? (Người phụ nữ nói người đàn ông nên xem gì?)\nA: A revised list of names (Một danh sách tên đã được sửa đổi)\nB: Guidelines for a competition (Hướng dẫn cho một cuộc thi)\nC: Blueprints for a building (Bản vẽ cho một tòa nhà)\nD: A budget proposal (Một đề xuất ngân sách)\n\nGiải thích: Đáp án B là chính xác vì người phụ nữ nói rằng thông báo có bao gồm hướng dẫn cho người tham gia và anh ấy nên xem qua chúng (the announcement includes instructions for participants. You should take a look at them).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "issue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vấn đề; vấn đề, số báo"
+      },
+      {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
+       "term": "announcement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông báo"
+      },
+      {
+       "term": "contest",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc thi"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "submit",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nộp, đệ trình; nộp"
+      },
+      {
+       "term": "enter",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vào"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "instruction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hướng dẫn; hướng dẫn, chỉ dẫn"
+      },
+      {
+       "term": "participant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người tham gia"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g6",
@@ -1365,7 +1638,39 @@
        "explanation": "Question: What does the woman tell the man to do? (Người phụ nữ bảo người đàn ông làm gì?)\nA: Leave some windows open (Để cửa sổ mở)\nB: Watch some videos (Xem một số video)\nC: Wear a pair of gloves (Đeo một đôi găng tay)\nD: Read a product label (Đọc nhãn sản phẩm)\n\nGiải thích: Đáp án D là chính xác vì người phụ nữ bảo người đàn ông chắc chắn xem kỹ thông tin an toàn được in ở mặt sau của chai trước khi mở nó (Make sure to look over the safety information printed on the back of the bottle before you open it up).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "drain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thoát nước, làm cạn kiệt"
+      },
+      {
+       "term": "recommend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đề xuất; đề nghị"
+      },
+      {
+       "term": "safety",
+       "pos": [
+        "adj",
+        "n"
+       ],
+       "meaning": "sự an toàn; an toàn"
+      },
+      {
+       "term": "chemical",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hóa chất"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g7",
@@ -1429,7 +1734,18 @@
        "explanation": "Question: What does the man ask about? (Người đàn ông hỏi về điều gì?)\nA: Who is part of a team (Ai là thành viên của một đội)\nB: How long a certain shift is (Ca làm việc kéo dài bao lâu)\nC: Where to submit a document (Nộp tài liệu ở đâu)\nD: How to obtain a uniform (Làm thế nào để có đồng phục)\n\nGiải thích: Đáp án D là chính xác vì người đàn ông hỏi về việc lấy áo phản quang và quần đen từ đâu (Where do we get those from?) khi đề cập đến trang phục đồng phục họ phải mặc.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "supply",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cung cấp; nguồn cung"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g8",
@@ -1493,7 +1809,40 @@
        "explanation": "Question: What does the man imply when he says, 'I spoke with him after lunch'? (Người đàn ông ngụ ý gì khi nói 'Tôi đã nói chuyện với anh ấy sau bữa trưa'?)\nA: He missed a group outing (Anh ấy đã bỏ lỡ một chuyến đi nhóm)\nB: He already received some instructions (Anh ấy đã nhận được một số hướng dẫn)\nC: A plan changed a short time ago (Một kế hoạch đã thay đổi cách đây không lâu)\nD: A task has been completed (Một nhiệm vụ đã hoàn thành)\n\nGiải thích: Đáp án C là chính xác vì khi nói anh ấy đã nói chuyện với Dean sau bữa trưa, người đàn ông ngụ ý rằng kế hoạch đã thay đổi kể từ cuộc nói chuyện buổi sáng của Dean với người phụ nữ.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "relation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mối quan hệ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g9",
@@ -1557,7 +1906,71 @@
        "explanation": "Question: What do the men ask the woman about? (Những người đàn ông hỏi người phụ nữ về điều gì?)\nA: The reaction to an announcement (Phản ứng với một thông báo)\nB: The quality of a service (Chất lượng của một dịch vụ)\nC: The origin of an idea (Nguồn gốc của một ý tưởng)\nD: The status of a project (Tình trạng của một dự án)\n\nGiải thích: Đáp án C là chính xác vì họ hỏi Alexis về nguồn gốc ý tưởng cho trang diễn đàn của trang web mới đến từ đâu (where did the inspiration for the new Web site's forum page come from?).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "internal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nội bộ"
+      },
+      {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
+       "term": "share",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chia sẻ; chia sẻ, dùng chung"
+      },
+      {
+       "term": "collaborate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cộng tác"
+      },
+      {
+       "term": "improve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cải thiện"
+      },
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "propose",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đề xuất"
+      },
+      {
+       "term": "suggestion",
+       "pos": [
+        "n"
+       ],
+       "meaning": "gợi ý; sự gợi ý"
+      },
+      {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g10",
@@ -1621,7 +2034,64 @@
        "explanation": "Question: What does the man ask the woman to do? (Người đàn ông yêu cầu người phụ nữ làm gì?)\nA: Review a presentation (Xem xét một bài thuyết trình)\nB: Make some suggestions (Đưa ra một số gợi ý)\nC: Take some pictures (Chụp một số ảnh)\nD: Pick up some food (Lấy một số thức ăn)\n\nGiải thích: Đáp án B là chính xác vì người đàn ông nói rằng anh ấy chưa chắc về những nội dung khác sẽ đăng và yêu cầu nếu người phụ nữ có ý tưởng gì thì hãy cho anh ấy biết (If you have any ideas, please let me know!).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "smart",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thông minh"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "decision",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quyết định"
+      },
+      {
+       "term": "active",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "chủ động; tích cực"
+      },
+      {
+       "term": "increase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tăng; tăng lên"
+      },
+      {
+       "term": "presence",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự hiện diện"
+      },
+      {
+       "term": "account",
+       "pos": [],
+       "meaning": "tài khoản"
+      },
+      {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g11",
@@ -1690,7 +2160,38 @@
        "explanation": "Question: What will the man most likely do next? (Người đàn ông nhiều khả năng sẽ làm gì tiếp theo?)\nA: Have a small meal (Ăn một bữa nhẹ)\nB: Board a passenger ferry (Lên phà)\nC: Shop for souvenirs (Mua đồ lưu niệm)\nD: Retrieve his bicycle (Lấy xe đạp)\n\nGiải thích: Đáp án A là chính xác vì người đàn ông muốn ăn một chút trước khi lên phà (I'd like to grab a bite to eat before getting on the ferry) và được chỉ dẫn đến một địa điểm ăn uống ở gần đó.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "purchase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
+      },
+      {
+       "term": "island",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đảo"
+      },
+      {
+       "term": "higher",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cao hơn"
+      },
+      {
+       "term": "depart",
+       "pos": [
+        "v"
+       ],
+       "meaning": "rời khỏi; khởi hành"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g12",
@@ -1759,7 +2260,83 @@
        "explanation": "Question: What does the woman suggest doing? (Người phụ nữ đề xuất làm gì?)\nA: Assessing the value of the contents (Đánh giá giá trị của các món đồ)\nB: Printing some new labels for the boxes (In nhãn mới cho các hộp)\nC: Placing some items in individual bags (Đặt các món đồ vào túi riêng)\nD: Checking to see if there are missing pieces (Kiểm tra xem có mảnh nào bị thiếu không)\n\nGiải thích: Đáp án C là chính xác vì người phụ nữ nói rằng cô ấy đã mang một số túi nhựa để tách riêng từng món đồ (I brought some plastic bags to separate each item) để tránh các mảnh bị trộn lẫn.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "collect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thu thập; đang lấy"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
+      },
+      {
+       "term": "item",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mặt hàng, sản phẩm; vật phẩm"
+      },
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
+      },
+      {
+       "term": "donate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quyên góp"
+      },
+      {
+       "term": "board",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lên tàu/máy bay; ván, tấm gỗ"
+      },
+      {
+       "term": "condition",
+       "pos": [],
+       "meaning": "tình trạng"
+      },
+      {
+       "term": "collection",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ sưu tập"
+      },
+      {
+       "term": "administration",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quản lý"
+      },
+      {
+       "term": "separate",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "riêng biệt"
+      },
+      {
+       "term": "block",
+       "pos": [],
+       "meaning": "ngăn chặn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p3-g13",
@@ -1828,7 +2405,31 @@
        "explanation": "Question: What does the woman inform the man about? (Người phụ nữ thông báo cho người đàn ông về điều gì?)\nA: An elevator skips some floors (Một thang máy bỏ qua một số tầng)\nB: A parking space has a time limit (Một chỗ đỗ xe có giới hạn thời gian)\nC: A sales event is happening (Một sự kiện bán hàng đang diễn ra)\nD: An entrance is closed (Một lối vào đang đóng cửa)\n\nGiải thích: Đáp án D là chính xác vì người phụ nữ thông báo cho người đàn ông rằng lối vào kia đang đóng cửa hôm nay (The other entrance is closed today).",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
+      },
+      {
+       "term": "afterward",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "sau đó"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2498,61 @@
        "explanation": "[Dịch] Câu hỏi: Người nghe sẽ làm gì tiếp theo?\nA: Đi tham quan\nB: Điền vào các mẫu đơn\nC: Tự giới thiệu bản thân\nD: Mặc trang phục đặc biệt\n\nĐáp án A là chính xác vì người nói tuyên bố \"I'll start today by showing you around the entire facility\", nghĩa là người nói sẽ đưa người nghe đi tham quan toàn bộ cơ sở.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "volunteer",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "tình nguyện; người tình nguyện"
+      },
+      {
+       "term": "coordinator",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người điều phối"
+      },
+      {
+       "term": "specific",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cụ thể"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "however",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên; phó từ: tuy nhiên"
+      },
+      {
+       "term": "entire",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "toàn bộ"
+      },
+      {
+       "term": "overview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tổng quan"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g2",
@@ -1961,7 +2616,90 @@
        "explanation": "[Dịch] Câu hỏi: Theo người nói, tại sao người nghe sẽ cần một mã số?\nA: Để nhận giảm giá\nB: Để vận hành một máy\nC: Để đăng nhập vào một trang web\nD: Để vào một tòa nhà\n\nĐáp án B là chính xác vì người nói cho biết \"You'll have to enter that code in order to use the new copier\", nghĩa là người nghe sẽ cần nhập mã để sử dụng máy photocopy mới.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attention",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự chú ý"
+      },
+      {
+       "term": "cooperation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự hợp tác"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "copier",
+       "pos": [
+        "n"
+       ],
+       "meaning": "máy photocopy"
+      },
+      {
+       "term": "deliver",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao hàng; giao, chuyển giao"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      },
+      {
+       "term": "assign",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao phó"
+      },
+      {
+       "term": "enter",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vào"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g3",
@@ -2025,7 +2763,36 @@
        "explanation": "[Dịch] Câu hỏi: Người nói có ý gì khi anh ấy nói \"tàu điện ngầm chạy đến nửa đêm\"?\nA: Lịch trình tàu điện ngầm gần đây đã thay đổi\nB: Những người tham dự sự kiện nên sử dụng tàu điện ngầm\nC: Một số công việc phải diễn ra sau nửa đêm\nD: Dịch vụ vận chuyển của thành phố được tài trợ tốt\n\nĐáp án B là chính xác vì người nói đề nghị sử dụng tàu điện ngầm như một cách dễ dàng hơn để đi lại (\"an easier way to get to and from the stadium\"), đặc biệt khi giao thông sẽ rất đông đúc do buổi hòa nhạc bán hết vé.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "excitement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự phấn khích"
+      },
+      {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "reveal",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiết lộ"
+      },
+      {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g4",
@@ -2089,7 +2856,95 @@
        "explanation": "[Dịch] Câu hỏi: Người nói cho biết cô ấy sẽ làm gì tiếp theo?\nA: Chuyển tiếp một số tài liệu\nB: Đi công tác\nC: Xác nhận mức lương\nD: Cập nhật quảng cáo việc làm\n\nĐáp án A là chính xác vì người nói tuyên bố \"I'm going to send your application materials on to them now\", nghĩa là cô ấy sẽ chuyển tài liệu ứng tuyển cho phòng Nhân sự.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
+       "term": "producer",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà sản xuất"
+      },
+      {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
+       "term": "impressive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "ấn tượng"
+      },
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "currently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hiện tại"
+      },
+      {
+       "term": "contribution",
+       "pos": [
+        "n"
+       ],
+       "meaning": "những đóng góp"
+      },
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "material",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vật liệu; tài liệu"
+      },
+      {
+       "term": "sum",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tổng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g5",
@@ -2153,7 +3008,48 @@
        "explanation": "[Dịch] Câu hỏi: Người nói đề nghị làm gì?\nA: Gửi một số tệp điện tử\nB: Trả lời câu hỏi của người nghe\nC: Trả tiền để sử dụng một số hình ảnh\nD: Cung cấp chỉ đường\n\nĐáp án A là chính xác vì người nói đề nghị \"I can e-mail you some high-quality images of my work\", nghĩa là gửi email một số hình ảnh chất lượng cao về tác phẩm của mình.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reach",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đạt được"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "display",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thể hiện; trưng bày"
+      },
+      {
+       "term": "nearby",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "gần đó"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g6",
@@ -2217,7 +3113,67 @@
        "explanation": "[Dịch] Câu hỏi: Người nghe có khả năng sẽ làm gì tiếp theo?\nA: Nói chuyện với một đối tác\nB: Xem một bộ phim ngắn\nC: Nghe một số quy tắc\nD: Nhận một số đồ giải khát\n\nĐáp án C là chính xác vì người nói tuyên bố \"I'd like to start by telling you a few rules for the day\", nghĩa là họ sẽ bắt đầu bằng việc nói về một số quy tắc cho ngày hôm đó.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "effectively",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "một cách hiệu quả; hiệu quả"
+      },
+      {
+       "term": "smoothly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "suôn sẻ"
+      },
+      {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
+       "term": "range",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "phạm vi"
+      },
+      {
+       "term": "participant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người tham gia"
+      },
+      {
+       "term": "succeed",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thành công"
+      },
+      {
+       "term": "guideline",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hướng dẫn"
+      },
+      {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g7",
@@ -2281,7 +3237,52 @@
        "explanation": "[Dịch] Câu hỏi: Người nói có ý gì khi anh ấy nói \"quy trình chỉ mất vài phút\"?\nA: Để bày tỏ sự lo lắng\nB: Để sửa lỗi lên lịch\nC: Để trấn an người nghe\nD: Để yêu cầu hỗ trợ\n\nĐáp án C là chính xác vì người nói đang cố gắng trấn an nhân viên rằng việc đăng ký làm thẻ sẽ không mất nhiều thời gian, bằng cách chia sẻ trải nghiệm cá nhân của mình.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "announce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông báo; được công bố"
+      },
+      {
+       "term": "laboratory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phòng thí nghiệm"
+      },
+      {
+       "term": "register",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
+       "term": "reader",
+       "pos": [
+        "n"
+       ],
+       "meaning": "độc giả"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g8",
@@ -2345,7 +3346,62 @@
        "explanation": "[Dịch] Câu hỏi: Người nói đề cập đến lợi ích gì của kỹ thuật này?\nA: Giảm lãng phí vật tư\nB: Ít khiếu nại từ khách hàng hơn\nC: Tăng năng suất\nD: Giảm nguy cơ chấn thương\n\nĐáp án D là chính xác vì cuối đoạn hội thoại nêu rõ \"This technique has been proven to lower its users' risk of suffering an injury\", nghĩa là kỹ thuật này đã được chứng minh là làm giảm nguy cơ chấn thương cho người sử dụng.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "workshop",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội thảo"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "inventory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hàng tồn kho"
+      },
+      {
+       "term": "demonstrating",
+       "pos": [],
+       "meaning": "trình bày, chứng minh"
+      },
+      {
+       "term": "throughout",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "khắp; suốt"
+      },
+      {
+       "term": "user",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người dùng"
+      },
+      {
+       "term": "risk",
+       "pos": [],
+       "meaning": "rủi ro"
+      },
+      {
+       "term": "lift",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nâng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g9",
@@ -2414,7 +3470,93 @@
        "explanation": "[Dịch] Câu hỏi: Điều gì có sẵn trực tuyến?\nA: Một chuyến tham quan ảo\nB: Một số thống kê\nC: Một mẫu phản hồi\nD: Lịch trình dự án\n\nĐáp án D là chính xác vì cuối đoạn hội thoại, người nói hướng dẫn \"Visit the department's Web site to see the planned construction dates for each site\", nghĩa là truy cập trang web của sở để xem lịch trình xây dựng dự kiến cho từng địa điểm.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "enclose",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đính kèm"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "however",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên; phó từ: tuy nhiên"
+      },
+      {
+       "term": "primary",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "chính; chính, chủ yếu"
+      },
+      {
+       "term": "powerful",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "mạnh mẽ"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "user",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người dùng"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "transportation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phương tiện vận chuyển; phương tiện đi lại"
+      },
+      {
+       "term": "intend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "dự định; có ý định"
+      },
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "construct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xây dựng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2025-test2-p4-g10",
@@ -2483,7 +3625,59 @@
        "explanation": "[Dịch] Câu hỏi: Điều gì được cung cấp kèm theo khi mua hàng?\nA: Một phiếu giảm giá\nB: Dụng cụ ăn uống\nC: Gói quà\nD: Hướng dẫn bảo quản\n\nĐáp án B là chính xác vì cuối đoạn hội thoại có đề cập \"our staff will be happy to provide you with forks or spoons\", nghĩa là nhân viên sẽ cung cấp dĩa hoặc thìa cho khách hàng khi mua bánh.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attention",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự chú ý"
+      },
+      {
+       "term": "celebrate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỷ niệm; chúc mừng"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "counter",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quầy"
+      },
+      {
+       "term": "purchase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "anywhere",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ở bất cứ đâu; bất cứ đâu"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

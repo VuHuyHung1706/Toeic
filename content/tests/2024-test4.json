@@ -1045,7 +1045,78 @@
        "explanation": "Đáp án đúng là B. Người phụ nữ sẽ đi ăn tiếp theo:\n1. Cô ấy nói \"OK. Vậy tôi đoán là tôi sẽ đi ăn trưa gần đây.\"\n2. Người đàn ông sau đó đề xuất một quán cà phê cụ thể cho bánh sandwich và súp.\nCâu hỏi: Người phụ nữ sẽ làm gì tiếp theo?\nA. Đọc sách\nB. Ăn bữa ăn\nC. Xem phim\nD. Đi đến khách sạn",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "authority",
+       "pos": [],
+       "meaning": "chính quyền, nhà chức trách; thẩm quyền, quyền hạn"
+      },
+      {
+       "term": "cancel",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hủy bỏ; hủy"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "pass",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông qua; đi qua"
+      },
+      {
+       "term": "operation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hoạt động"
+      },
+      {
+       "term": "normal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "bình thường"
+      },
+      {
+       "term": "nearby",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "gần đó"
+      },
+      {
+       "term": "highly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "có trình độ cao; rất"
+      },
+      {
+       "term": "recommend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đề xuất; đề nghị"
+      },
+      {
+       "term": "suspend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hoãn lại"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g2",
@@ -1109,7 +1180,38 @@
        "explanation": "Đáp án đúng là D. Người phụ nữ đề nghị tìm kiếm một món đồ (cuốn sách):\n\"Đôi khi một cuốn sách được trả lại và đặt trở lại lên kệ mà không được nhập vào hệ thống trước. Tôi có thể kiểm tra. Bạn có thể cho tôi biết tên sách không?\"\nCâu hỏi: Người phụ nữ đề nghị làm gì?\nA. Tham dự một sự kiện\nB. Điền vào một biểu mẫu trực tuyến\nC. Đặt một đơn hàng\nD. Tìm kiếm một món đồ",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "overdue",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quá hạn"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "enter",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vào"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g3",
@@ -1173,7 +1275,53 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ hỏi về việc di chuyển đồ đạc. Cô ấy nói: \"And will you move the table and chairs out of the room before you start?\"\nCâu hỏi dịch: Người phụ nữ hỏi về điều gì?\nA. Ký hợp đồng\nB. Mua công cụ chuyên dụng\nC. Di chuyển một số đồ nội thất\nD. Xem một số mẫu",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "stress",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhấn mạnh"
+      },
+      {
+       "term": "higher",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cao hơn"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "require",
+       "pos": [
+        "v"
+       ],
+       "meaning": "yêu cầu; bắt buộc, cần thiết"
+      },
+      {
+       "term": "necessary",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cần thiết"
+      },
+      {
+       "term": "cover",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "bao quát; bìa"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g4",
@@ -1237,7 +1385,38 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nhiều khả năng sẽ đi tham quan tiếp theo. Người đàn ông đề xuất: \"Why don't we start by walking around so I can show you all of our facilities?\"\nCâu hỏi dịch: Điều gì người phụ nữ nhiều khả năng sẽ làm tiếp theo?\nA. Tham gia một đội\nB. Đi tham quan\nC. Thực hiện cuộc gọi điện thoại\nD. Điền vào đơn đăng ký",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "equipment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      },
+      {
+       "term": "consider",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xem xét; xem xét, cân nhắc"
+      },
+      {
+       "term": "description",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mô tả"
+      },
+      {
+       "term": "membership",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tư cách thành viên; thẻ thành viên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g5",
@@ -1301,7 +1480,85 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông nói rằng anh ta sẽ gọi điện cho người thuê hiện tại. Cụ thể, anh ta nói: \"I'll call the current tenant and we can figure out a time for a viewing.\"\nCâu hỏi dịch: Người đàn ông sẽ làm gì tiếp theo?\nA. Thực hiện cuộc gọi điện thoại\nB. Chuẩn bị hợp đồng\nC. Gửi chìa khóa\nD. Ghi lại giờ làm việc",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "currently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hiện tại"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      },
+      {
+       "term": "lease",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng thuê; thuê (đất, tài sản)"
+      },
+      {
+       "term": "interest",
+       "pos": [],
+       "meaning": "những sự quan tâm"
+      },
+      {
+       "term": "promote",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quảng bá; quảng bá, thúc đẩy"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "afford",
+       "pos": [
+        "v"
+       ],
+       "meaning": "có khả năng"
+      },
+      {
+       "term": "current",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hiện tại"
+      },
+      {
+       "term": "tenant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người thuê nhà; người thuê, công ty thuê"
+      },
+      {
+       "term": "figure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hình dung, tính toán"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g6",
@@ -1365,7 +1622,97 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ nói rằng cô ấy có thể cung cấp giảm giá cho khách hàng. Cụ thể, cô ấy nói: \"Then perhaps I could offer a future discount to any customer who completes the survey.\"\nCâu hỏi dịch: Người phụ nữ nói cô ấy có thể cung cấp gì cho khách hàng?\nA. Giảm giá\nB. Giao hàng nhanh\nC. Mẫu sản phẩm miễn phí\nD. Tư vấn cá nhân",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "goal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mục tiêu"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "supply",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cung cấp; nguồn cung"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "automatically",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "tự động; một cách tự động"
+      },
+      {
+       "term": "deliver",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao hàng; giao, chuyển giao"
+      },
+      {
+       "term": "success",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự thành công"
+      },
+      {
+       "term": "respond",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phản hồi; trả lời"
+      },
+      {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g7",
@@ -1429,7 +1776,52 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ gọi cho người giám sát. Cụ thể, cô ấy nói: \"Well, let me call your boss. We need this sorted out right away.\"\nCâu hỏi dịch: Người phụ nữ nói cô ấy sẽ làm gì?\nA. Ký biên nhận\nB. Điều chỉnh lịch trình\nC. Thêm các mục vào đơn hàng\nD. Gọi cho người giám sát",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "delivery",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc giao hàng; các chuyến giao hàng"
+      },
+      {
+       "term": "setting",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cài đặt"
+      },
+      {
+       "term": "acknowledge",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thừa nhận"
+      },
+      {
+       "term": "receipt",
+       "pos": [
+        "n"
+       ],
+       "meaning": "biên nhận; hóa đơn"
+      },
+      {
+       "term": "deliver",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao hàng; giao, chuyển giao"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g8",
@@ -1493,7 +1885,63 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Vào thứ Ba, người phụ nữ sẽ đóng cửa hàng của mình. Người đàn ông nói: \"I'm afraid you'll have to close your store while we replace the shingles.\" và đề xuất làm việc này vào thứ Ba.\nCâu hỏi dịch: Người phụ nữ sẽ làm gì vào thứ Ba?\nA. Rửa xe của cô ấy\nB. Đóng cửa hàng của cô ấy\nC. Lấy một số số đo\nD. Xem một số mẫu vật liệu",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "inspection",
+       "pos": [],
+       "meaning": "kiểm tra"
+      },
+      {
+       "term": "damage",
+       "pos": [],
+       "meaning": "thiệt hại; bị hư hỏng"
+      },
+      {
+       "term": "support",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "hỗ trợ"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
+       "term": "major",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quan trọng; lớn, quan trọng"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g9",
@@ -1557,7 +2005,43 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ gửi các liên kết đến trang web và bản đồ hệ thống. Cụ thể, cô ấy nói: \"I'll send you links to their Web site and system map.\"\nCâu hỏi dịch: Người phụ nữ sẽ làm gì tiếp theo?\nA. Tải xuống một vé\nB. Đón một số khách hàng\nC. Kích hoạt một thẻ chìa khóa\nD. Chuyển tiếp một số liên kết trang web",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "commute",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đi làm"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "direction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hướng dẫn; hướng"
+      },
+      {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
+       "term": "aware",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nhận thức"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g10",
@@ -1621,7 +2105,45 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng anh ta sẽ đưa cho người phụ nữ một danh sách các cửa hàng khác. Cụ thể, anh ta nói: \"Let me get you a list of other stores we also had in mind.\"\nCâu hỏi dịch: Người đàn ông nói anh ta sẽ đưa cho người phụ nữ cái gì?\nA. Một bản đồ khu vực\nB. Một danh sách các doanh nghiệp\nC. Một số bức ảnh\nD. Một số số đo",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "firm",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "chắc chắn; công ty"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "attention",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự chú ý"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "approach",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tiếp cận, phương pháp; đang đến gần"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g11",
@@ -1690,7 +2212,87 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ nói: \"I can't believe opening night is next week\", cho thấy vở kịch sẽ khai mạc vào tuần tới.\nCâu hỏi dịch: Điều gì sẽ xảy ra vào tuần tới?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "rehearsal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi diễn tập; buổi tập dượt"
+      },
+      {
+       "term": "direction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hướng dẫn; hướng"
+      },
+      {
+       "term": "actor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "diễn viên"
+      },
+      {
+       "term": "act",
+       "pos": [],
+       "meaning": "hành động"
+      },
+      {
+       "term": "charge",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tính phí; khoản phí, khoản tính phí"
+      },
+      {
+       "term": "lighting",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ánh sáng"
+      },
+      {
+       "term": "replacement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thay thế; sự thay thế"
+      },
+      {
+       "term": "audience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khán giả"
+      },
+      {
+       "term": "direct",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "trực tiếp; chỉ đạo"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g12",
@@ -1759,7 +2361,52 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông nói anh ta muốn thử chèo thuyền kayak, và trong hình ảnh 2 cho thấy Kayaking được dẫn dắt bởi Ketan Bora.\nCâu hỏi dịch: Nhìn vào hình ảnh. Ai sẽ dẫn dắt hoạt động mà người đàn ông quan tâm?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "retreat",
+       "pos": [
+        "v"
+       ],
+       "meaning": "rút lui; buổi nghỉ dưỡng, buổi tĩnh tâm"
+      },
+      {
+       "term": "surprise",
+       "pos": [],
+       "meaning": "ngạc nhiên"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "impress",
+       "pos": [
+        "v"
+       ],
+       "meaning": "gây ấn tượng; ấn tượng"
+      },
+      {
+       "term": "comfortable",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thoải mái"
+      },
+      {
+       "term": "pull",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kéo"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p3-g13",
@@ -1828,7 +2475,44 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng có nhiều cơn giông gần đây đã làm chậm tiến độ công việc.\nCâu hỏi dịch: Theo người đàn ông, tại sao một số công việc đã bị trì hoãn?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "mainly",
+       "pos": [],
+       "meaning": "chủ yếu"
+      },
+      {
+       "term": "capture",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bắt giữ, thu hút; chụp"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
+       "term": "further",
+       "pos": [
+        "adj",
+        "adv"
+       ],
+       "meaning": "thêm, chi tiết hơn; xa hơn"
+      },
+      {
+       "term": "lately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2581,88 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói hướng dẫn khách hàng \"visit our Web site to fill out a form to have a work order completed\", nghĩa là các mẫu đơn yêu cầu công việc có sẵn trên trang web.\nCác đáp án dịch sang tiếng Việt:\nA. Đánh giá của khách hàng\nB. Mẫu đơn yêu cầu công việc\nC. Giờ làm việc\nD. Hướng dẫn sử dụng sản phẩm\nCâu hỏi dịch: Người nói cho biết điều gì có sẵn trên trang web?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reach",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đạt được"
+      },
+      {
+       "term": "region",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khu vực"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "representative",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đại diện"
+      },
+      {
+       "term": "assure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đảm bảo"
+      },
+      {
+       "term": "fully",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hoàn toàn"
+      },
+      {
+       "term": "restore",
+       "pos": [
+        "v"
+       ],
+       "meaning": "khôi phục; phục hồi"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      },
+      {
+       "term": "technician",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỹ thuật viên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g2",
@@ -1961,7 +2726,93 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Marta Fuentes được giới thiệu là người sẽ giải thích cách hoàn thành việc cài đặt phần mềm bảo mật mới, điều này cho thấy cô ấy nhiều khả năng làm việc trong bộ phận Công nghệ Thông tin (IT).\nCác đáp án dịch sang tiếng Việt:\nA. Pháp lý\nB. Tiếp thị\nC. Nhân sự\nD. Công nghệ Thông tin\nCâu hỏi dịch: Marta Fuentes nhiều khả năng làm việc ở bộ phận nào?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "security",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bảo mật"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "internal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nội bộ"
+      },
+      {
+       "term": "routine",
+       "pos": [],
+       "meaning": "thói quen, quy trình"
+      },
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "personal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cá nhân"
+      },
+      {
+       "term": "data",
+       "pos": [
+        "n"
+       ],
+       "meaning": "dữ liệu"
+      },
+      {
+       "term": "enable",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kích hoạt; cho phép"
+      },
+      {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      },
+      {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
+       "term": "device",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      },
+      {
+       "term": "involve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "liên quan"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g3",
@@ -2025,7 +2876,89 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết \"We'll be posting project updates on our Web site, so be sure to check it regularly.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để tải xuống bản đồ\nB. Để đăng phản hồi\nC. Để điền vào mẫu đăng ký\nD. Để đọc cập nhật về dự án\nCâu hỏi dịch: Tại sao người nghe nên truy cập một trang web?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "usual",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thông thường"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      },
+      {
+       "term": "operate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vận hành; hoạt động"
+      },
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "regularly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "thường xuyên; một cách thường xuyên"
+      },
+      {
+       "term": "widen",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; làm rộng ra"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g4",
@@ -2089,7 +3022,40 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập đến dịch vụ bổ sung: \"They also have a complimentary shuttle bus that can take our guest back and forth from our office.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bữa ăn được phục vụ\nB. Xe buýt đưa đón\nC. Hỗ trợ kỹ thuật\nD. Kho lưu trữ an toàn\nCâu hỏi dịch: Dịch vụ bổ sung nào được đề cập?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "following",
+       "pos": [
+        "adj",
+        "adv",
+        "prep"
+       ],
+       "meaning": "sau đây; tuân theo"
+      },
+      {
+       "term": "reserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đặt chỗ; đặt trước, giữ chỗ"
+      },
+      {
+       "term": "fully",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hoàn toàn"
+      },
+      {
+       "term": "avenue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đại lộ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g5",
@@ -2153,7 +3119,95 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết rằng \"next month, we'll begin working with developers from XKP Software\", đây là một sự hợp tác kinh doanh.\nCác đáp án dịch sang tiếng Việt:\nA. Một loạt hội thảo\nB. Một chính sách công ty mới\nC. Một dự án phát triển đất\nD. Một sự hợp tác kinh doanh\nCâu hỏi dịch: Theo người nói, điều gì sẽ bắt đầu vào tháng sau?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "leading",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hàng đầu"
+      },
+      {
+       "term": "shipping",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vận chuyển"
+      },
+      {
+       "term": "continually",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "liên tục"
+      },
+      {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      },
+      {
+       "term": "delivery",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc giao hàng; các chuyến giao hàng"
+      },
+      {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
+       "term": "major",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quan trọng; lớn, quan trọng"
+      },
+      {
+       "term": "developer",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà phát triển"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g6",
@@ -2217,7 +3271,96 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói yêu cầu \"Please e-mail me if you're interested\" đối với những người muốn tình nguyện giúp đỡ cho chuyến tham quan.\nCác đáp án dịch sang tiếng Việt:\nA. Những người đi nghỉ\nB. Những người sẵn sàng tình nguyện\nC. Những người muốn cung cấp phản hồi\nD. Những người trình bày tại hội nghị\nCâu hỏi dịch: Ai nên gửi email cho người nói?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "exclusive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "độc quyền"
+      },
+      {
+       "term": "response",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phản hồi; sự đáp lại"
+      },
+      {
+       "term": "interview",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc phỏng vấn; phỏng vấn"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "field",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lĩnh vực, cánh đồng; lĩnh vực"
+      },
+      {
+       "term": "potential",
+       "pos": [
+        "adj",
+        "n"
+       ],
+       "meaning": "tiềm năng"
+      },
+      {
+       "term": "career",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự nghiệp"
+      },
+      {
+       "term": "assignment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhiệm vụ được giao"
+      },
+      {
+       "term": "coordination",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự phối hợp"
+      },
+      {
+       "term": "studio",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xưởng"
+      },
+      {
+       "term": "control",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kiểm soát"
+      },
+      {
+       "term": "volunteer",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "tình nguyện; người tình nguyện"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g7",
@@ -2281,7 +3424,45 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Khi người nói đề cập đến sự kiện thể thao, họ ngụ ý rằng việc đỗ xe sẽ hạn chế, do đó khuyến nghị đi chung xe hoặc sử dụng phương tiện công cộng.\nTrích dẫn: \"You might want to carpool or take public transportation to the event-the restaurant is near the stadium and there's a sports event that night.\"\nCác đáp án dịch sang tiếng Việt:\nA. Văn phòng sẽ đóng cửa\nB. Việc đỗ xe sẽ bị hạn chế\nC. Một cuộc họp sẽ được lên lịch lại\nD. Người nghe nên mua vé\nCâu hỏi dịch: Người nói có ý gì khi anh ta nói \"có một sự kiện thể thao vào đêm đó\"?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "successful",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thành công"
+      },
+      {
+       "term": "sales",
+       "pos": [
+        "n"
+       ],
+       "meaning": "doanh số; doanh số bán hàng"
+      },
+      {
+       "term": "celebrate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỷ niệm; chúc mừng"
+      },
+      {
+       "term": "transportation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phương tiện vận chuyển; phương tiện đi lại"
+      },
+      {
+       "term": "expectation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỳ vọng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g8",
@@ -2345,7 +3526,85 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói phát tờ rơi thông tin cho người nghe.\nTrích dẫn: \"Here are some brochures with information, including the times and prices.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bản đồ thành phố\nB. Thẻ quà tặng\nC. Thẻ tên\nD. Tờ rơi thông tin\nCâu hỏi dịch: Người nói đưa cho người nghe cái gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "announce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông báo; được công bố"
+      },
+      {
+       "term": "offering",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
+      },
+      {
+       "term": "focus",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung; trọng tâm"
+      },
+      {
+       "term": "various",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "đa dạng; nhiều loại khác nhau"
+      },
+      {
+       "term": "locate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; tọa lạc, ở"
+      },
+      {
+       "term": "throughout",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "khắp; suốt"
+      },
+      {
+       "term": "tourist",
+       "pos": [],
+       "meaning": "du khách"
+      },
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "expand",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; được mở rộng"
+      },
+      {
+       "term": "launch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ra mắt; khởi động"
+      },
+      {
+       "term": "exhibition",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc triển lãm; triển lãm"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g9",
@@ -2414,7 +3673,93 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Theo người nói, cư dân sẽ được mời bỏ phiếu cho các ý tưởng về công viên nhỏ liền kề.\nTrích dẫn: \"residents will be invited to vote on ideas for it\"\nCác đáp án dịch sang tiếng Việt:\nA. Các lựa chọn đỗ xe\nB. Các nhà cung cấp thực phẩm\nC. Tác phẩm nghệ thuật công cộng\nD. Ý tưởng cho công viên\nCâu hỏi dịch: Theo người nói, cư dân sẽ có thể bỏ phiếu cho điều gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "agency",
+       "pos": [],
+       "meaning": "cơ quan, đại lý"
+      },
+      {
+       "term": "announce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông báo; được công bố"
+      },
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "direct",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "trực tiếp; chỉ đạo"
+      },
+      {
+       "term": "initially",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ban đầu"
+      },
+      {
+       "term": "consider",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xem xét; xem xét, cân nhắc"
+      },
+      {
+       "term": "elaborate",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "phức tạp"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "ultimately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "phó từ; cuối cùng"
+      },
+      {
+       "term": "proposal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đề xuất; đề xuất, đề nghị"
+      },
+      {
+       "term": "economical",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tiết kiệm; tiết kiệm, có hiệu quả về mặt kinh tế"
+      },
+      {
+       "term": "completion",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự hoàn thành; sau khi hoàn thành"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test4-p4-g10",
@@ -2483,7 +3828,57 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Theo đoạn văn, trung tâm giải trí chưa mở cửa. Trong hình ảnh, trung tâm giải trí nằm ở tầng 2.\nTrích dẫn: \"one part of the building- i the recreation center-will not be available for use until next month\"\nCác đáp án dịch sang tiếng Việt:\nA. Tầng 4\nB. Tầng 3\nC. Tầng 2\nD. Tầng 1\nCâu hỏi dịch: Nhìn vào hình ảnh. Tầng nào của tòa nhà chưa mở cửa?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "environmentally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "về mặt môi trường"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "equip",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được trang bị"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "touch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chạm"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

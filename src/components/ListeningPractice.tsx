@@ -200,7 +200,9 @@ function DictationCard({
 
   return (
     <div className="mt-4 rounded-xl border border-line bg-surface p-5">
-      <AudioPlayer src={group.audio?.src ?? null} />
+      <div className="sticky top-0 z-10 -mx-2 bg-surface/95 px-2 py-1.5 backdrop-blur sm:top-14">
+        <AudioPlayer src={group.audio?.src ?? null} />
+      </div>
 
       <div className="mt-5 space-y-3 text-[17px] leading-10">
         {tokens.map((line, li) => (
@@ -328,7 +330,9 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
 
   return (
     <div className="mt-4 rounded-xl border border-line bg-surface p-5">
-      <AudioPlayer src={group.audio?.src ?? null} />
+      <div className="sticky top-0 z-10 -mx-2 bg-surface/95 px-2 py-1.5 backdrop-blur sm:top-14">
+        <AudioPlayer src={group.audio?.src ?? null} />
+      </div>
       <p className="mt-3 text-sm text-muted">
         Nghe và chép lại từng dòng ({lines.length} dòng). Không cần chính xác dấu câu và chữ hoa.
       </p>

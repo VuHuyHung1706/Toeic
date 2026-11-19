@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import AudioPlayer from "./AudioPlayer";
 import BilingualText from "./BilingualText";
 import { setPref, usePref } from "@/lib/storage";
@@ -24,9 +25,24 @@ interface Props {
   showAudio: boolean;
   flagged?: Set<number>;
   onToggleFlag?: (n: number) => void;
+  /**
+   * Khoảng cách (px) từ mép trên màn hình tới chỗ cột transcript/bài đọc dính lại khi cuộn —
+   * phải nằm dưới các thanh dính phía trên (menu, thanh phòng thi, thanh audio).
+   */
+  stickyTop?: number;
 }
 
-export default function GroupView({ group, answers, onSelect, isRevealed, showScript, showAudio, flagged, onToggleFlag }: Props) {
+export default function GroupView({
+  group,
+  answers,
+  onSelect,
+  isRevealed,
+  showScript,
+  showAudio,
+  flagged,
+  onToggleFlag,
+  stickyTop,
+}: Props) {
   const view = usePref<View>("passageView", "bilingual");
   const part = group.part;
   const listening = part <= 4;
@@ -37,8 +53,14 @@ export default function GroupView({ group, answers, onSelect, isRevealed, showSc
   const allRevealed = group.questions.every((q) => isRevealed(q.number));
   const hasVi = passages.some((p) => p.vi);
 
+  // Màn hình rộng (2 cột): cột trái dính lại và có thanh cuộn riêng, câu hỏi cuộn bên phải.
+  // Mặc định: dưới menu (56px) + thanh audio dính của GroupView nếu có.
+  const top = stickyTop ?? (showAudio && listening ? 128 : 72);
   const left = hasLeft && (
-    <div className={`space-y-4 ${part >= 6 ? "lg:sticky lg:top-4 lg:max-h-[calc(100vh-12rem)] lg:overflow-y-auto" : ""}`}>
+    <div
+      style={{ "--sticky-top": `${top}px` } as CSSProperties}
+      className="space-y-4 lg:sticky lg:self-start lg:top-[var(--sticky-top)] lg:max-h-[calc(100vh-var(--sticky-top)-1rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1"
+    >
       {images.map((img) => (
         // eslint-disable-next-line @next/next/no-img-element
         <img
@@ -76,6 +98,9 @@ export default function GroupView({ group, answers, onSelect, isRevealed, showSc
           ))}
         </div>
       )}
+      {showPassages && allRevealed && listening && group.vocab && group.vocab.length > 0 && (
+        <GroupVocab items={group.vocab} auto={!!group.vocabAuto} />
+      )}
     </div>
   );
 
@@ -91,7 +116,8 @@ export default function GroupView({ group, answers, onSelect, isRevealed, showSc
         </span>
       </div>
       {showAudio && listening && (
-        <div className="mb-4">
+        // dính dưới thanh menu khi cuộn để luôn điều khiển được audio
+        <div className="sticky top-0 z-10 mb-4 rounded-lg bg-surface/95 py-1.5 backdrop-blur sm:top-14">
           <AudioPlayer src={group.audio?.src ?? null} />
         </div>
       )}
@@ -213,6 +239,43 @@ function QuestionCard({
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+const POS_SHORT: Record<string, string> = { n: "n", v: "v", adj: "adj", adv: "adv", prep: "prep", conj: "conj", pron: "pron" };
+
+function speak(text: string) {
+  try {
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = 0.9;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  } catch {
+    /* trình duyệt không hỗ trợ đọc */
+  }
+}
+
+/** Từ vựng của đoạn hội thoại / bài nói (Part 3–4), hiện dưới transcript */
+function GroupVocab({ items, auto }: { items: NonNullable<QuestionGroup["vocab"]>; auto: boolean }) {
+  return (
+    <div className="rounded-lg border border-line bg-surface p-4">
+      <div className="mb-2 flex items-baseline justify-between gap-2">
+        <h3 className="font-semibold">Từ vựng</h3>
+        {auto && <span className="text-xs text-muted">tự động lấy từ lời thoại</span>}
+      </div>
+      <ul className="space-y-1.5 text-sm">
+        {items.map((v) => (
+          <li key={v.term} className="flex flex-wrap items-baseline gap-x-2">
+            <button onClick={() => speak(v.term)} className="font-semibold hover:text-primary" title="Nghe phát âm">
+              {v.term}
+            </button>
+            {v.pos.length > 0 && <span className="text-xs text-muted">({v.pos.map((p) => POS_SHORT[p] ?? p).join(", ")})</span>}
+            <span className="text-muted">{v.meaning}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

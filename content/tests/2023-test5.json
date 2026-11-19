@@ -1045,7 +1045,31 @@
        "explanation": "Đáp án đúng là B. Người phụ nữ sẽ gửi tin nhắn văn bản tiếp theo. Điều này được thể hiện qua câu nói của cô ấy: \"I can text you the address when we finish this call.\" (Tôi có thể nhắn tin địa chỉ cho anh khi chúng ta kết thúc cuộc gọi này.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người phụ nữ sẽ làm gì tiếp theo?\nA. Gọi cho quản lý của người đàn ông\nB. Gửi tin nhắn văn bản\nC. Nói chuyện với một biên tập viên\nD. Kiểm tra lịch trình",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "festival",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lễ hội"
+      },
+      {
+       "term": "direction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hướng dẫn; hướng"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g2",
@@ -1109,7 +1133,88 @@
        "explanation": "Đáp án đúng là B. Các người nói sẽ thảo luận về quảng cáo trên Internet trong cuộc họp tiếp theo. Điều này được gợi ý khi người phụ nữ nói: \"I know you've been hesitant to get into Web advertising. But maybe now the time is right.\" (Tôi biết ông đã e ngại về việc tham gia quảng cáo trên Web. Nhưng có lẽ bây giờ là thời điểm thích hợp.) và người đàn ông đồng ý sắp xếp một cuộc họp để thảo luận về điều này.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Các người nói sẽ thảo luận gì trong cuộc họp tiếp theo của họ?\nA. Thuê một người nổi tiếng\nB. Quảng cáo trên Internet\nC. Mở rộng ngân sách quảng cáo\nD. Thay đổi công ty quảng cáo",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "advertising",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "quảng cáo"
+      },
+      {
+       "term": "contract",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "renewal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự gia hạn"
+      },
+      {
+       "term": "honestly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "thành thực"
+      },
+      {
+       "term": "increase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tăng; tăng lên"
+      },
+      {
+       "term": "sales",
+       "pos": [
+        "n"
+       ],
+       "meaning": "doanh số; doanh số bán hàng"
+      },
+      {
+       "term": "hesitant",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "do dự"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "expire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hết hạn"
+      },
+      {
+       "term": "term",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thuật ngữ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g3",
@@ -1173,7 +1278,39 @@
        "explanation": "Đáp án đúng là A. Miho đề nghị giúp người đàn ông với công việc của anh ta. Điều này được thể hiện qua câu nói của cô ấy: \"Once I finish the baking, I should be able to do some.\" (Khi tôi làm xong việc nướng bánh, tôi sẽ có thể làm một số.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Miho đề nghị làm gì?\nA. Giúp người đàn ông với công việc của anh ta\nB. Liên hệ với ông Okamura\nC. Ký nhận một lô hàng\nD. Tìm một nhân viên thay thế",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "delivery",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc giao hàng; các chuyến giao hàng"
+      },
+      {
+       "term": "mistake",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "sai lầm; nhầm lẫn"
+      },
+      {
+       "term": "offering",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g4",
@@ -1237,7 +1374,67 @@
        "explanation": "Đáp án đúng là D. Người phụ nữ nhắc nhở người đàn ông rằng khu vực đỗ xe đã đóng cửa. Cô ấy nói: \"our regular parking area is unavailable because it's being renovated.\" (khu vực đỗ xe thông thường của chúng tôi không khả dụng vì đang được tu sửa.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người phụ nữ đưa ra lời nhắc nhở gì cho người đàn ông?\nA. Một đồng nghiệp đang đi công tác.\nB. Một mức giá đã thay đổi.\nC. Một số phần mềm phải được cập nhật.\nD. Một khu vực đỗ xe đã đóng cửa.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "appointment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
+      },
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "reminder",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lời nhắc nhở"
+      },
+      {
+       "term": "regular",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thường xuyên; regular'  là tính từ bổ sung nghĩa cho danh từ 'visitors"
+      },
+      {
+       "term": "renovated",
+       "pos": [],
+       "meaning": "cải tạo"
+      },
+      {
+       "term": "insurance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bảo hiểm"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g5",
@@ -1301,7 +1498,52 @@
        "explanation": "Đáp án đúng là C. Người phụ nữ nói \"I'm the guest speaker at a conference\" (Tôi là diễn giả khách mời tại một hội nghị) để từ chối đề nghị của nhân viên về việc chuyển sang chuyến bay ngày hôm sau. Cô ấy đang ngụ ý rằng cô không thể hoãn chuyến bay vì có trách nhiệm quan trọng tại hội nghị.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Tại sao người phụ nữ nói, \"Tôi là diễn giả khách mời tại một hội nghị\"?\nA. Để xác nhận việc tham dự hội nghị của cô ấy\nB. Để giới thiệu bản thân\nC. Để từ chối một đề nghị\nD. Để làm rõ một sự hiểu lầm",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reservation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc đặt chỗ; đặt chỗ"
+      },
+      {
+       "term": "pass",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông qua; đi qua"
+      },
+      {
+       "term": "seat",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chỗ ngồi"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "passenger",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hành khách"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g6",
@@ -1365,7 +1607,97 @@
        "explanation": "Đáp án đúng là C. Người đàn ông sẽ liên hệ với các quan chức thành phố tiếp theo. Anh ta nói: \"I'll go ahead and contact the city to request a change to the start date of our construction permit.\" (Tôi sẽ liên hệ với thành phố để yêu cầu thay đổi ngày bắt đầu giấy phép xây dựng của chúng tôi.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người đàn ông sẽ làm gì tiếp theo?\nA. Đóng cửa tòa nhà tạm thời\nB. Xin phê duyệt từ cấp trên của anh ta\nC. Liên hệ với các quan chức thành phố\nD. Sắp xếp một lịch thanh toán mới",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "originally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ban đầu"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "transport",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự vận chuyển"
+      },
+      {
+       "term": "upcoming",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "sắp tới; sắp tới, sắp diễn ra"
+      },
+      {
+       "term": "lift",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nâng"
+      },
+      {
+       "term": "renovation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự cải tạo; tu sửa, cải tạo"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo, chú ý"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
+      },
+      {
+       "term": "contact",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "hãy liên hệ; liên hệ"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g7",
@@ -1429,7 +1761,64 @@
        "explanation": "Đáp án đúng là C. Marc nhấn mạnh về hiệu quả của hệ thống mới. Anh ấy nói: \"The system isn't difficult to use. And most importantly, I think it will make filling online orders much quicker.\" (Hệ thống không khó sử dụng. Và quan trọng nhất, tôi nghĩ nó sẽ giúp việc xử lý đơn đặt hàng trực tuyến nhanh hơn nhiều.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Marc nhấn mạnh điều gì?\nA. Chi phí hoạt động giảm\nB. Tính khả dụng của hàng tồn kho lớn hơn\nC. Hiệu quả của một hệ thống mới\nD. Nhu cầu đào tạo thêm",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "inventory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hàng tồn kho"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "enter",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vào"
+      },
+      {
+       "term": "concern",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mối quan ngại"
+      },
+      {
+       "term": "attend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tham dự"
+      },
+      {
+       "term": "concentrate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "quicker",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nhanh hơn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g8",
@@ -1493,7 +1882,73 @@
        "explanation": "Đáp án đúng là D. Người phụ nữ đề nghị Michael Byrne dành thêm thời gian để đến cuộc hẹn vào thứ Sáu. Cô ấy nói: \"please advise him to arrive early for his appearance on our show this Friday. There's road construction around the studio, so it may take longer to get here than he expects.\" (vui lòng khuyên anh ấy đến sớm cho buổi xuất hiện trên chương trình của chúng tôi vào thứ Sáu này. Có công trình xây dựng đường xung quanh studio, nên có thể mất nhiều thời gian hơn dự kiến để đến đây.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người phụ nữ đề nghị Michael Byrne làm gì vào thứ Sáu?\nA. Nói chuyện với cô ấy qua điện thoại về một video\nB. Chia sẻ một số ý tưởng cho một vở nhạc kịch mới\nC. Giúp cô ấy với một vấn đề tại studio\nD. Dành thêm thời gian để đến cuộc hẹn của anh ấy",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "musical",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "âm nhạc"
+      },
+      {
+       "term": "field",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lĩnh vực, cánh đồng; lĩnh vực"
+      },
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "rehearsal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi diễn tập; buổi tập dượt"
+      },
+      {
+       "term": "aware",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nhận thức"
+      },
+      {
+       "term": "advise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "khuyên; tư vấn (động từ)"
+      },
+      {
+       "term": "appearance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự xuất hiện; hình thức"
+      },
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "studio",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xưởng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g9",
@@ -1557,7 +2012,79 @@
        "explanation": "Đáp án đúng là B. Người phụ nữ nói \"So, let's not rush this decision\" để từ chối đề xuất của người đàn ông. Cô ấy cảnh báo rằng việc thay đổi sang nhạc phổ biến có thể không phải là một quyết định tốt trong dài hạn, vì những gì phổ biến hôm nay có thể không còn phổ biến vào ngày mai.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Tại sao người phụ nữ nói, \"Vì vậy, hãy đừng vội vàng với quyết định này\"?\nA. Để yêu cầu thêm tài trợ từ các lãnh đạo bộ phận\nB. Để từ chối đề xuất của người đàn ông\nC. Để có được một sản phẩm thay thế\nD. Để đề xuất một nhạc sĩ khác",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "surprise",
+       "pos": [],
+       "meaning": "ngạc nhiên"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "trend",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xu hướng"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
+      },
+      {
+       "term": "increase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tăng; tăng lên"
+      },
+      {
+       "term": "sales",
+       "pos": [
+        "n"
+       ],
+       "meaning": "doanh số; doanh số bán hàng"
+      },
+      {
+       "term": "decision",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quyết định"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "further",
+       "pos": [
+        "adj",
+        "adv"
+       ],
+       "meaning": "thêm, chi tiết hơn; xa hơn"
+      },
+      {
+       "term": "division",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phòng ban, bộ phận; bộ phận"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g10",
@@ -1621,7 +2148,88 @@
        "explanation": "Đáp án đúng là D. Người đàn ông cảm thấy tự tin về trợ lý văn phòng tạm thời vì người này đến từ một cơ quan chuyên về công việc y tế. Anh ta nói: \"the office assistant is coming from an agency that specializes in the medical profession, so I think we should be fine.\" (trợ lý văn phòng đến từ một cơ quan chuyên về ngành y tế, vì vậy tôi nghĩ chúng ta sẽ ổn thôi.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Tại sao người đàn ông cảm thấy tự tin về trợ lý văn phòng tạm thời?\nA. Anh ta sẽ có thể giúp trợ lý nếu văn phòng trở nên bận rộn.\nB. Anh ta đã làm việc với trợ lý này trong các dự án khác.\nC. Bác sĩ đã đề nghị anh ta thuê trợ lý này.\nD. Trợ lý đến từ một cơ quan chuyên về công việc y tế.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "transferring",
+       "pos": [],
+       "meaning": "chuyển khoản"
+      },
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "arrange",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sắp xếp"
+      },
+      {
+       "term": "temporary",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tạm thời"
+      },
+      {
+       "term": "assistant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "trợ lý"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "operate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vận hành; hoạt động"
+      },
+      {
+       "term": "agency",
+       "pos": [],
+       "meaning": "cơ quan, đại lý"
+      },
+      {
+       "term": "appointment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
+      },
+      {
+       "term": "specialize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chuyên môn hóa"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g11",
@@ -1690,7 +2298,46 @@
        "explanation": "Đáp án đúng là B. Giá $130 sẽ thay đổi trên hóa đơn. Đây là giá của 100 bông hoa tulip, và người phụ nữ đã yêu cầu tăng gấp đôi số lượng lên 200 bông.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Nhìn vào hình ảnh. Giá nào sẽ thay đổi trên hóa đơn?\nA. $155\nB. $130\nC. $180\nD. $85",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "supplier",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà cung cấp"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "revise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa đổi; đã được sửa đổi, chỉnh sửa"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g12",
@@ -1759,7 +2406,67 @@
        "explanation": "Đáp án đúng là D. Người đàn ông đề xuất di chuyển Đèn 4, đó là đèn cảnh báo nước. Anh ta nói: \"I think we should move the warning light to the right of the words Add Water.\" (Tôi nghĩ chúng ta nên di chuyển đèn cảnh báo sang bên phải của dòng chữ Add Water.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Nhìn vào hình ảnh. Người đàn ông đề xuất di chuyển đèn nào?\nA. Đèn 1\nB. Đèn 2\nC. Đèn 3\nD. Đèn 4",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "display",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thể hiện; trưng bày"
+      },
+      {
+       "term": "panel",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội đồng"
+      },
+      {
+       "term": "maker",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà sản xuất"
+      },
+      {
+       "term": "previous",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "trước đó; trước đây"
+      },
+      {
+       "term": "enlarge",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "mở rộng"
+      },
+      {
+       "term": "solve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải quyết"
+      },
+      {
+       "term": "issue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vấn đề; vấn đề, số báo"
+      },
+      {
+       "term": "confuse",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhầm lẫn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p3-g13",
@@ -1828,7 +2535,68 @@
        "explanation": "Đáp án đúng là D. Người phụ nữ nói rằng tiệm bánh nên quảng cáo về việc giảm giá. Cụ thể, cô ấy nói: \"We should also post about the change on our social media accounts.\" (Chúng ta cũng nên đăng về sự thay đổi này trên các tài khoản mạng xã hội của chúng ta.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người phụ nữ nói tiệm bánh nên làm gì?\nA. Giao sản phẩm sớm\nB. Bán nhiều loại sản phẩm hơn\nC. Tổ chức một cuộc thi\nD. Quảng cáo về việc giảm giá",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "current",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hiện tại"
+      },
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "extend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; kéo dài"
+      },
+      {
+       "term": "originally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ban đầu"
+      },
+      {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
+       "term": "account",
+       "pos": [],
+       "meaning": "tài khoản"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2665,73 @@
        "explanation": "Đáp án đúng là D. Lợi thế của Peckham là nó phổ biến. Người nói mô tả Peckham là \"a busy, vibrant area\" (một khu vực sôi động, nhộn nhịp), điều này ngụ ý rằng nó là một khu vực phổ biến.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Lợi thế của Peckham là gì?\nA. Nó có phong cảnh đẹp.\nB. Nó có nhiều công viên.\nC. Nó là một khu phố an toàn.\nD. Nó phổ biến.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "budget",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngân sách"
+      },
+      {
+       "term": "owner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ sở hữu"
+      },
+      {
+       "term": "successful",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thành công"
+      },
+      {
+       "term": "chef",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các đầu bếp; đầu bếp"
+      },
+      {
+       "term": "willing",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "sẵn lòng"
+      },
+      {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      },
+      {
+       "term": "locate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; tọa lạc, ở"
+      },
+      {
+       "term": "neighborhood",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khu phố; khu phố, khu vực"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g2",
@@ -1961,7 +2795,24 @@
        "explanation": "Đáp án đúng là B. Sau khi mở cơ sở, người nghe sẽ kiểm tra thẻ nhận dạng thành viên. Điều này được nêu rõ trong câu cuối cùng: \"be ready to scan IDs as the guests come in.\" (sẵn sàng quét thẻ ID khi khách đến.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người nghe sẽ làm gì sau khi mở cơ sở?\nA. Cho khách thuê tủ khóa\nB. Kiểm tra thẻ nhận dạng thành viên\nC. Gấp khăn tắm\nD. Trả lời điện thoại",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "basis",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ sở; cơ sở, nền tảng"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g3",
@@ -2025,7 +2876,32 @@
        "explanation": "Đáp án đúng là C. Người nói nói rằng một số người nghe có thể đặt câu hỏi. Cụ thể, anh ta nói: \"If you have a question about astronomy and this weekend's event... the number is 555-0156.\" (Nếu bạn có câu hỏi về thiên văn học và sự kiện cuối tuần này... số điện thoại là 555-0156.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người nói nói rằng một số người nghe có thể làm gì?\nA. Giành giải thưởng\nB. Yêu cầu lời khuyên\nC. Đặt câu hỏi\nD. Gọi lại sau",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "visible",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có thể nhìn thấy"
+      },
+      {
+       "term": "restrict",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "quá khứ phân từ/tính từ, không phải danh từ; bị hạn chế"
+      },
+      {
+       "term": "topic",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ đề"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g4",
@@ -2089,7 +2965,17 @@
        "explanation": "Đáp án đúng là D. Người nói đề cập đến ba màn hình ở phía trước phòng để hướng dẫn người nghe xem một video. Điều này được suy ra từ việc cô ấy đề cập đến việc chủ tịch gửi một video chào mừng và ngay sau đó nói về các màn hình.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Tại sao người nói nói, \"Chúng ta có ba màn hình ở phía trước phòng\"?\nA. Để giới thiệu nhân viên mới\nB. Để nhắc nhở người nghe phải cẩn thận\nC. Để nhấn mạnh việc cải tiến công nghệ\nD. Để hướng dẫn người nghe xem một video",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "equip",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được trang bị"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g5",
@@ -2153,7 +3039,95 @@
        "explanation": "Đáp án đúng là A. Tiếp theo trong cuộc họp sẽ là một buổi trình diễn sản phẩm. Điều này được ngụ ý khi người nói giới thiệu Johanna, người sẽ \"describe the app specifications and show us how it works\" (mô tả thông số kỹ thuật của ứng dụng và cho chúng ta thấy cách nó hoạt động).\nDịch câu hỏi và các đáp án:\nCâu hỏi: Điều gì sẽ xảy ra tiếp theo trong cuộc họp?\nA. Một buổi trình diễn sản phẩm\nB. Một phiên brainstorm\nC. Một cuộc phỏng vấn việc làm\nD. Một buổi giới thiệu khách hàng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tham dự"
+      },
+      {
+       "term": "agenda",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chương trình nghị sự; chương trình"
+      },
+      {
+       "term": "reservation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "việc đặt chỗ; đặt chỗ"
+      },
+      {
+       "term": "competition",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự cạnh tranh; cuộc cạnh tranh"
+      },
+      {
+       "term": "user",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người dùng"
+      },
+      {
+       "term": "reserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đặt chỗ; đặt trước, giữ chỗ"
+      },
+      {
+       "term": "menu",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thực đơn"
+      },
+      {
+       "term": "advance",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "sự tiến bộ, tiến lên"
+      },
+      {
+       "term": "researcher",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các nhà nghiên cứu; nhà nghiên cứu"
+      },
+      {
+       "term": "describe",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mô tả; được mô tả"
+      },
+      {
+       "term": "specification",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đặc điểm kỹ thuật; thông số kỹ thuật"
+      },
+      {
+       "term": "choice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g6",
@@ -2217,7 +3191,74 @@
        "explanation": "Đáp án đúng là B. Người nói nói \"I know this is a last-minute request\" để xin lỗi vì sự bất tiện. Cô ấy nhận ra rằng việc thay đổi kế hoạch vào phút cuối có thể gây ra sự bất tiện cho nhóm và đang thừa nhận điều đó.\nDịch câu hỏi và các đáp án:\nCâu hỏi: Tại sao người nói nói, \"Tôi biết đây là một yêu cầu vào phút chót\"?\nA. Để từ chối một thỏa thuận nâng cấp\nB. Để xin lỗi vì sự bất tiện\nC. Để hủy một đơn đặt hàng\nD. Để bày tỏ sự ngạc nhiên của cô ấy",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "avenue",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đại lộ"
+      },
+      {
+       "term": "originally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ban đầu"
+      },
+      {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
+       "term": "supplier",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà cung cấp"
+      },
+      {
+       "term": "rais",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã gây quỹ"
+      },
+      {
+       "term": "dimension",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kích thước"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "budget",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngân sách"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g7",
@@ -2281,7 +3322,66 @@
        "explanation": "Đáp án đúng là D. Người thuê nên ghé văn phòng chính để nhận chìa khóa mới. Người nói nói: \"Please note that new doors and locks will also be installed, so all tenants will need a new key. Please stop at the main office to pick that up.\" (Xin lưu ý rằng cửa và khóa mới cũng sẽ được lắp đặt, vì vậy tất cả người thuê sẽ cần một chìa khóa mới. Vui lòng ghé văn phòng chính để nhận chìa khóa đó.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Tại sao người thuê nên ghé văn phòng chính?\nA. Để trả phí giặt là\nB. Để nhận một bảng câu hỏi\nC. Để ký một mẫu đơn cho phép\nD. Để nhận chìa khóa mới",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "resident",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cư dân"
+      },
+      {
+       "term": "aware",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nhận thức"
+      },
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "tenant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người thuê nhà; người thuê, công ty thuê"
+      },
+      {
+       "term": "access",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "quyền truy cập, sự vào; sự tiếp cận/tiếp cận"
+      },
+      {
+       "term": "renovated",
+       "pos": [],
+       "meaning": "cải tạo"
+      },
+      {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g8",
@@ -2345,7 +3445,86 @@
        "explanation": "Đáp án đúng là A. Người nói tin rằng cửa hàng sẽ mở cửa vào ngày 1 tháng 10. Họ nói: \"I think everything can be done by the first of October, and you can open your doors and welcome new customers.\" (Tôi nghĩ mọi thứ có thể hoàn thành vào ngày 1 tháng 10, và ông có thể mở cửa và chào đón khách hàng mới.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Người nói tin rằng điều gì sẽ xảy ra vào ngày 1 tháng 10?\nA. Cửa hàng sẽ mở cửa.\nB. Hợp đồng sẽ được ký kết.\nC. Cuộc kiểm tra sẽ diễn ra.\nD. Công việc xây dựng sẽ bắt đầu.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "message",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông điệp"
+      },
+      {
+       "term": "contract",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng"
+      },
+      {
+       "term": "retail",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bán lẻ"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "inspection",
+       "pos": [],
+       "meaning": "kiểm tra"
+      },
+      {
+       "term": "electricity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "điện"
+      },
+      {
+       "term": "owner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ sở hữu"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "storage",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kho, sự lưu trữ"
+      },
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "within",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "trong vòng; trong phạm vi"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g9",
@@ -2414,7 +3593,44 @@
        "explanation": "Đáp án đúng là C. Quy tắc có thể được thay đổi là Quy tắc 3. Người nói đề cập: \"We may need to revisit the one about using multiple discounts.\" (Chúng ta có thể cần xem xét lại quy tắc về việc sử dụng nhiều ưu đãi giảm giá.) Quy tắc 3 trong hình ảnh nói \"May not be used with other discounts.\" (Không được sử dụng cùng với các ưu đãi giảm giá khác.)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Nhìn vào hình ảnh. Quy tắc nào có thể được thay đổi?\nA. Quy tắc 1\nB. Quy tắc 2\nC. Quy tắc 3\nD. Quy tắc 4",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reward",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thưởng; khen thưởng, phần thưởng"
+      },
+      {
+       "term": "offering",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
+      },
+      {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
+       "term": "while",
+       "pos": [
+        "conj"
+       ],
+       "meaning": "liên từ mang nghĩa “trong khi; trong khi, mặc dù"
+      },
+      {
+       "term": "multiple",
+       "pos": [],
+       "meaning": "nhiều"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2023-test5-p4-g10",
@@ -2483,7 +3699,45 @@
        "explanation": "Đáp án đúng là B. Người nói có vẻ thích hoạt động 2 (Volleyball) nhất. Họ nói: \"lt would be energizing and fun to use our volleyball court, but I shouldn't influence you!\" (Sẽ rất năng động và vui vẻ khi sử dụng sân bóng chuyền của chúng ta, nhưng tôi không nên ảnh hưởng đến các bạn!)\nDịch câu hỏi và các đáp án:\nCâu hỏi: Nhìn vào hình ảnh. Hoạt động nào mà người nói có vẻ thích nhất?\nA. Hoạt động 1\nB. Hoạt động 2\nC. Hoạt động 3\nD. Hoạt động 4",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "insurance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bảo hiểm"
+      },
+      {
+       "term": "mark",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đánh dấu; dấu, vết"
+      },
+      {
+       "term": "influence",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ảnh hưởng"
+      },
+      {
+       "term": "choice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
+       "term": "energize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm tăng sinh lực"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

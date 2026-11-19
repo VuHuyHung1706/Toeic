@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import AudioPlayer from "./AudioPlayer";
 import GroupView from "./GroupView";
 import QuestionNav, { answeredCount, type CellState } from "./QuestionNav";
 import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, type Progress } from "@/lib/storage";
@@ -89,14 +90,19 @@ function ExamSession({
   }, [groups]);
 
   // ---------------- nộp bài ----------------
+  // elapsedRef luôn giữ số giây mới nhất (đồng hồ chạy ngoài vòng render)
+  const elapsedRef = useRef(elapsed);
+  const submittedRef = useRef(false);
   const submit = useCallback(() => {
+    if (submittedRef.current) return; // chống nộp hai lần (hết giờ + bấm nút cùng lúc, StrictMode…)
+    submittedRef.current = true;
     setPhase("submitting");
     audioRef.current?.pause();
-    const attempt = gradeAttempt({ test, mode, parts, answers, startedAt, durationSec: elapsed });
+    const attempt = gradeAttempt({ test, mode, parts, answers, startedAt, durationSec: elapsedRef.current });
     saveAttempt(attempt);
     clearProgress(storeKey);
     router.replace(`/tests/${test.id}/result?attempt=${attempt.id}`);
-  }, [test, mode, parts, answers, startedAt, elapsed, storeKey, router]);
+  }, [test, mode, parts, answers, startedAt, storeKey, router]);
 
   const submitRef = useRef(submit);
   useEffect(() => {
@@ -107,11 +113,11 @@ function ExamSession({
   useEffect(() => {
     if (phase !== "running") return;
     const id = setInterval(() => {
-      setElapsed((e) => {
-        const next = e + 1;
-        if (timeLimitSec && next >= timeLimitSec) queueMicrotask(() => submitRef.current());
-        return next;
-      });
+      // tăng bằng ref rồi mới đặt state: hàm cập nhật state phải thuần (React có thể gọi 2 lần)
+      const next = elapsedRef.current + 1;
+      elapsedRef.current = next;
+      setElapsed(next);
+      if (timeLimitSec && next >= timeLimitSec) submitRef.current();
     }, 1000);
     return () => clearInterval(id);
   }, [phase, timeLimitSec]);
@@ -155,7 +161,8 @@ function ExamSession({
     if (phase !== "running") return;
     const onKey = (e: KeyboardEvent) => {
       const tag = (e.target as HTMLElement)?.tagName;
-      if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA" || e.metaKey || e.ctrlKey || e.altKey) return;
+      // không bắt phím khi đang ở ô nhập hoặc trình phát audio (← → của audio dùng để tua)
+      if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA" || tag === "AUDIO" || e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.key === "ArrowRight") goTo(groupIndex + 1);
       if (e.key === "ArrowLeft") goTo(groupIndex - 1);
     };
@@ -181,6 +188,7 @@ function ExamSession({
       setAnswers({});
       setFlagged(new Set());
       setElapsed(0);
+      elapsedRef.current = 0;
       setGroupIndex(0);
       audioTimeRef.current = 0;
       setAudioState({ t: 0, d: 0, ended: false });
@@ -211,6 +219,7 @@ function ExamSession({
   };
 
   const group = groups[groupIndex];
+  const practiceAudio = mode === "practice" && !!group && group.part <= 4;
   const title = mode === "full" ? "Thi thử" : `Luyện tập · Part ${parts.join(", ")}`;
 
   // ---------------- giao diện ----------------
@@ -286,7 +295,7 @@ function ExamSession({
     {audioEl}
     <div className="flex flex-1 flex-col">
       {/* thanh trên */}
-      <div className="sticky top-14 z-20 border-b border-line bg-surface">
+      <div className="sticky top-0 z-20 border-b border-line bg-surface sm:top-14">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-2.5">
           <div className="w-full min-w-0 sm:w-auto sm:flex-1">
             <div className="truncate text-sm font-semibold">{test.title}</div>
@@ -348,6 +357,12 @@ function ExamSession({
             )}
           </div>
         )}
+        {/* luyện tập phần nghe: audio của nhóm câu nằm trong thanh dính, luôn thấy khi cuộn */}
+        {practiceAudio && group && (
+          <div className="mx-auto max-w-7xl px-4 pb-2">
+            <AudioPlayer key={group.id} src={group.audio?.src ?? null} />
+          </div>
+        )}
       </div>
 
       <div className="mx-auto grid w-full max-w-7xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[1fr_280px]">
@@ -366,7 +381,8 @@ function ExamSession({
               onSelect={select}
               isRevealed={isRevealed}
               showScript={instant && group.questionNumbers.every((n) => answers[n])}
-              showAudio={mode === "practice"}
+              showAudio={false}
+              stickyTop={practiceAudio ? 196 : fullAudioUrl ? 152 : 128}
               flagged={flagged}
               onToggleFlag={toggleFlag}
             />
@@ -395,7 +411,13 @@ function ExamSession({
         </div>
 
         <aside className="hidden lg:block">
-          <div className="sticky top-40 max-h-[calc(100vh-11rem)] overflow-y-auto rounded-xl border border-line bg-surface p-4">{nav}</div>
+          <div
+            className={`sticky overflow-y-auto rounded-xl border border-line bg-surface p-4 ${
+              practiceAudio ? "top-48 max-h-[calc(100vh-13rem)]" : "top-40 max-h-[calc(100vh-11rem)]"
+            }`}
+          >
+            {nav}
+          </div>
         </aside>
       </div>
 

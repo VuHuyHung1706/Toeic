@@ -34,6 +34,9 @@ export interface QuestionGroup {
   images: MediaRef[];
   passages: Passage[];
   questions: Question[];
+  /** Part 3/4: từ vựng của đoạn (từ mục "Từ vựng" trong giải thích, hoặc tự lấy từ từ điển nếu vocabAuto) */
+  vocab?: { term: string; pos: string[]; meaning: string }[];
+  vocabAuto?: boolean;
 }
 
 export interface TestAvailability {

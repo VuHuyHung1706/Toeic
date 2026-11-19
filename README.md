@@ -14,6 +14,14 @@ npm run dev              # http://localhost:3000
   Đổi vị trí bằng biến môi trường `TOEIC_DATA_DIR`; khi đưa media lên CDN thì đặt `NEXT_PUBLIC_MEDIA_BASE`.
 - `content/tests/` là dữ liệu đã chuẩn hoá do ETL sinh ra; báo cáo lỗi dữ liệu ở `content/etl-report.md`.
 
+## Kiểm thử
+
+```bash
+npm test                  # unit test (Vitest): chấm điểm, điểm dự đoán, song ngữ, chép chính tả, sổ câu sai
+npm run check:content     # kiểm tra toàn vẹn content/ (200 câu/đề, đáp án, media tồn tại, ngân hàng câu, từ vựng)
+npm run lint && npx tsc --noEmit && npm run build
+```
+
 ## Tính năng hiện có
 
 | Trang | Mô tả |

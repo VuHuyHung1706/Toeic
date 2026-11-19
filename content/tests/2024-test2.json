@@ -1045,7 +1045,17 @@
        "explanation": "Đáp án đúng là C. Check some machinery (Kiểm tra một số máy móc).\nThuyền trưởng yêu cầu người đàn ông làm nhiệm vụ buổi sáng, bắt đầu bằng việc kiểm tra máy móc trong phòng máy.\nNgười đàn ông đồng ý và nói rằng anh ta sẽ đi ngay.\nDịch các phương án:\nA. Xác nhận một lịch trình\nB. Nói chuyện với một đồng nghiệp\nC. Kiểm tra một số máy móc\nD. Dọn dẹp một phòng kho",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g2",
@@ -1109,7 +1119,71 @@
        "explanation": "Đáp án đúng là C. Provide a tour (Cung cấp một chuyến tham quan).\nNgười phụ nữ nói: \"But before I get you signed up, let me show you around our facility.\"\nĐiều này cho thấy hành động tiếp theo của cô ấy là đưa khách hàng đi tham quan cơ sở.\nDịch các phương án:\nA. Đăng một biển hiệu\nB. Xác nhận số tài khoản\nC. Cung cấp một chuyến tham quan\nD. Xem một lịch trình",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "personal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cá nhân"
+      },
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi; buổi học, phiên họp"
+      },
+      {
+       "term": "goal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mục tiêu"
+      },
+      {
+       "term": "lift",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nâng"
+      },
+      {
+       "term": "weight",
+       "pos": [
+        "n"
+       ],
+       "meaning": "trọng lượng"
+      },
+      {
+       "term": "strength",
+       "pos": [],
+       "meaning": "sức mạnh"
+      },
+      {
+       "term": "currently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hiện tại"
+      },
+      {
+       "term": "membership",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tư cách thành viên; thẻ thành viên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g3",
@@ -1173,7 +1247,74 @@
        "explanation": "Đáp án đúng là C. An important event is approaching (Một sự kiện quan trọng đang đến gần).\nNgười đàn ông nói: \"This would be a stunning piece to unveil at our anniversary dinner in June. And since it's a big project to finish by then, we should get started right away.\"\nÔng ấy muốn bắt đầu ngay để hoàn thành việc phục chế trước bữa tiệc kỷ niệm vào tháng 6, một sự kiện quan trọng đang đến gần.\nDịch các phương án:\nA. Thanh toán đã được thực hiện\nB. Nhân viên sẽ đi nghỉ\nC. Một sự kiện quan trọng đang đến gần\nD. Một khách hàng đang ở trong thành phố trong thời gian ngắn",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "acquire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quá khứ phân từ, không phải danh từ; đã mua lại"
+      },
+      {
+       "term": "condition",
+       "pos": [],
+       "meaning": "tình trạng"
+      },
+      {
+       "term": "display",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thể hiện; trưng bày"
+      },
+      {
+       "term": "significant",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "đáng kể; quan trọng"
+      },
+      {
+       "term": "restoration",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự khôi phục; sự phục hồi, khôi phục"
+      },
+      {
+       "term": "style",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phong cách"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
+       "term": "damage",
+       "pos": [],
+       "meaning": "thiệt hại; bị hư hỏng"
+      },
+      {
+       "term": "unveil",
+       "pos": [],
+       "meaning": "tiết lộ"
+      },
+      {
+       "term": "investigate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "điều tra"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g4",
@@ -1237,7 +1378,60 @@
        "explanation": "Đáp án đúng là D. A meeting should be casual (Một cuộc họp nên mang tính thân mật).\nMột người đàn ông nói: \"Smith Incorporated prefers informal meetings.\"\nNgười đàn ông khác đồng ý: \"Ozan is right. I think they'd prefer a meeting that was more of a conversation than a presentation.\"\nĐiều này cho thấy họ đồng ý rằng cuộc họp nên mang tính thân mật, không chính thức.\nDịch các phương án:\nA. Một đăng ký nên được hủy bỏ\nB. Một chiến dịch quảng cáo nên được trì hoãn\nC. Một buổi đào tạo nên là bắt buộc\nD. Một cuộc họp nên mang tính thân mật",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "impact",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tác động; bị ảnh hưởng"
+      },
+      {
+       "term": "sales",
+       "pos": [
+        "n"
+       ],
+       "meaning": "doanh số; doanh số bán hàng"
+      },
+      {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      },
+      {
+       "term": "conversation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc trò chuyện"
+      },
+      {
+       "term": "presentation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài thuyết trình"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g5",
@@ -1301,7 +1495,66 @@
        "explanation": "Đáp án đúng là D. Gain management experience (Có được kinh nghiệm quản lý).\nNgười đàn ông nói: \"I hope to get some experience doing that next quarter\", sau khi đề cập đến việc quản lý một nhóm nghiên cứu toàn bộ.\nDịch các phương án:\nA. Nhận được một khoản tài trợ nghiên cứu\nB. Xuất bản một cuốn sách\nC. Thay thế một số đồ nội thất\nD. Có được kinh nghiệm quản lý",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "expect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kỳ vọng; mong đợi, dự kiến"
+      },
+      {
+       "term": "submit",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nộp, đệ trình; nộp"
+      },
+      {
+       "term": "research",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
+      },
+      {
+       "term": "promote",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quảng bá; quảng bá, thúc đẩy"
+      },
+      {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
+       "term": "entire",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "toàn bộ"
+      },
+      {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g6",
@@ -1365,7 +1618,68 @@
        "explanation": "Đáp án đúng là A. His career path (Con đường sự nghiệp của anh ấy).\nNgười phụ nữ hỏi: \"How did you get started in this line of work?\", đây là câu hỏi về con đường sự nghiệp của người đàn ông.\nDịch các phương án:\nA. Con đường sự nghiệp của anh ấy\nB. Những người cố vấn của anh ấy\nC. Mục tiêu tương lai của anh ấy\nD. Sở thích của anh ấy",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "personal",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cá nhân"
+      },
+      {
+       "term": "owner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ sở hữu"
+      },
+      {
+       "term": "studio",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xưởng"
+      },
+      {
+       "term": "excite",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm phấn khích"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "equipment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      },
+      {
+       "term": "compete",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cạnh tranh"
+      },
+      {
+       "term": "continue",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiếp tục"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g7",
@@ -1429,7 +1743,80 @@
        "explanation": "Đáp án đúng là A. The use of some equipment (Việc sử dụng một số thiết bị).\nRoberto nói: \"And what's exciting is that we've started using drones to photograph the area with the mangroves.\", cho thấy anh ấy thấy hứng thú với việc sử dụng thiết bị mới (drone) trong dự án.\nDịch các phương án:\nA. Việc sử dụng một số thiết bị\nB. Kết quả của một cuộc khảo sát\nC. Phản hồi của công chúng đối với một dự án\nD. Một khoản quyên góp gần đây cho viện",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "delight",
+       "pos": [],
+       "meaning": "vui mừng; niềm vui"
+      },
+      {
+       "term": "produce",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "sản xuất, nông sản; sản xuất"
+      },
+      {
+       "term": "forward",
+       "pos": [
+        "v"
+       ],
+       "meaning": "về phía trước; chuyển tiếp (email)"
+      },
+      {
+       "term": "article",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài báo; bài viết"
+      },
+      {
+       "term": "funding",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn tài trợ, nguồn vốn; tài trợ"
+      },
+      {
+       "term": "aim",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mục tiêu"
+      },
+      {
+       "term": "research",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
+      },
+      {
+       "term": "cover",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "bao quát; bìa"
+      },
+      {
+       "term": "exciting",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thú vị"
+      },
+      {
+       "term": "photograph",
+       "pos": [
+        "n"
+       ],
+       "meaning": "những bức ảnh; ảnh"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g8",
@@ -1493,7 +1880,66 @@
        "explanation": "Đáp án đúng là A. They are unnecessary (Chúng không cần thiết).\nNgười phụ nữ nói: \"You know, we allocated money for a trip to Singapore to present our preliminary findings. We don't really need to do that.\", cho thấy cô ấy cho rằng chi phí du lịch này là không cần thiết.\nDịch các phương án:\nA. Chúng không cần thiết\nB. Chúng đã được hoàn lại\nC. Chúng yêu cầu hóa đơn\nD. Chúng đã được tính vào thẻ tín dụng của công ty",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "cancel",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hủy bỏ; hủy"
+      },
+      {
+       "term": "budget",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngân sách"
+      },
+      {
+       "term": "cancellation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự hủy bỏ"
+      },
+      {
+       "term": "research",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
+      },
+      {
+       "term": "partner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đối tác; thường chỉ người/tổ chức, không phải mối quan hệ"
+      },
+      {
+       "term": "draft",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bản thảo; soạn thảo"
+      },
+      {
+       "term": "fund",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quỹ, tiền; tiền"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g9",
@@ -1557,7 +2003,94 @@
        "explanation": "Đáp án đúng là B. Customize a setting (Tùy chỉnh một cài đặt).\nNgười đàn ông hướng dẫn người phụ nữ cách thay đổi cài đặt cảnh báo cho một sản phẩm cụ thể trong phần mềm.\nDịch các phương án:\nA. Trả lại một món hàng đã mua\nB. Tùy chỉnh một cài đặt\nC. Sửa chữa một động cơ\nD. Kiểm tra một lô hàng",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reach",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đạt được"
+      },
+      {
+       "term": "support",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "hỗ trợ"
+      },
+      {
+       "term": "equipment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "purchase",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "warehouse",
+       "pos": [],
+       "meaning": "kho hàng"
+      },
+      {
+       "term": "inventory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hàng tồn kho"
+      },
+      {
+       "term": "setting",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cài đặt"
+      },
+      {
+       "term": "alert",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cảnh báo; cảnh báo, thông báo"
+      },
+      {
+       "term": "whenever",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "bất cứ khi nào; phó từ: bất cứ khi nào"
+      },
+      {
+       "term": "deep",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "sâu sắc"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g10",
@@ -1621,7 +2154,43 @@
        "explanation": "Đáp án đúng là A. Look for some materials (Tìm kiếm một số vật liệu).\nNgười đàn ông nói: \"We have some extra parts left over from when we worked on the cherry trees. I'll check what we have left after we finish measuring the rose garden.\"\nDịch các phương án:\nA. Tìm kiếm một số vật liệu\nB. Đào tạo một trợ lý\nC. Cấy ghép một số cây\nD. Làm thêm giờ",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
+      },
+      {
+       "term": "figure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hình dung, tính toán"
+      },
+      {
+       "term": "material",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vật liệu; tài liệu"
+      },
+      {
+       "term": "rise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vươn lên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g11",
@@ -1690,7 +2259,38 @@
        "explanation": "Đáp án đúng là B. Area 1.\nNgười phụ nữ yêu cầu người đàn ông kiểm tra pin của xe oto điện, \" ld like you to start by checking the batteries in our electric cars. \" Theo hình thì tương ứng với khu vực 2.",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "education",
+       "pos": [
+        "n"
+       ],
+       "meaning": "giáo dục"
+      },
+      {
+       "term": "reserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đặt chỗ; đặt trước, giữ chỗ"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "fully",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hoàn toàn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g12",
@@ -1759,7 +2359,79 @@
        "explanation": "Đáp án đúng là A. Eastern redbud.\nTheo đồ họa, Eastern redbud có chiều cao lớn nhất (20-30 feet), và người phụ nữ nói rằng họ sẽ tặng loại cây cao nhất vì nó được ưa chuộng nhất trong cuộc khảo sát.\"We'll be giving away the tallest of these four varieties, \"\nDịch các phương án:\nA. Eastern redbud (Cây hoa đỏ phương Đông)\nB. Japanese maple (Cây phong Nhật Bản)\nC. White fringe tree (Cây tua trắng)\nD. Panicle hydrangea (Cây cẩm tú cầu hình chùy)",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "update",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cập nhật; thông tin cập nhật"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "planting",
+       "pos": [],
+       "meaning": "việc trồng cây"
+      },
+      {
+       "term": "residential",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thuộc về khu dân cư; dân cư, nhà ở"
+      },
+      {
+       "term": "education",
+       "pos": [
+        "n"
+       ],
+       "meaning": "giáo dục"
+      },
+      {
+       "term": "competition",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự cạnh tranh; cuộc cạnh tranh"
+      },
+      {
+       "term": "winner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người chiến thắng"
+      },
+      {
+       "term": "participant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người tham gia"
+      },
+      {
+       "term": "variety",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đa dạng; giống, loại"
+      },
+      {
+       "term": "resident",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cư dân"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p3-g13",
@@ -1828,7 +2500,24 @@
        "explanation": "Đáp án đúng là A. Call a business (Gọi điện cho một doanh nghiệp).\nNgười đàn ông nói: \"No, I'll call you later today when I know what everyone wants.\" về việc đặt bữa sáng cho nhóm của anh ấy.\nDịch các phương án:\nA. Gọi điện cho một doanh nghiệp\nB. Trả lại một số hàng hóa\nC. Điền vào một khảo sát trực tuyến\nD. Treo một số áp phích",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2586,24 @@
        "explanation": "Đáp án đúng là A. To give feedback (Để đưa ra phản hồi).\nNgười nói yêu cầu: \"please call me back after you receive it. I'd really like to hear your thoughts on it.\"\nDịch các phương án:\nA. Để đưa ra phản hồi\nB. Để xác nhận việc nhận đơn hàng\nC. Để cập nhật phương thức thanh toán\nD. Để cung cấp địa chỉ",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "creation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự tạo ra"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g2",
@@ -1961,7 +2667,72 @@
        "explanation": "Đáp án đúng là D. A warranty (Một bảo hành).\nNgười nói đề cập: \"And for a small extra cost, we'll guarantee to replace your frame in case of damage.\"\nDịch các phương án:\nA. Vận chuyển\nB. Chữ ký của nghệ sĩ\nC. Một bản tin\nD. Một bảo hành",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      },
+      {
+       "term": "digital",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "kỹ thuật số"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      },
+      {
+       "term": "entire",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "toàn bộ"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "guarantee",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đảm bảo, cam kết"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
+       "term": "damage",
+       "pos": [],
+       "meaning": "thiệt hại; bị hư hỏng"
+      },
+      {
+       "term": "choice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g3",
@@ -2025,7 +2796,66 @@
        "explanation": "Đáp án đúng là D. Some material will not be covered today (Một số tài liệu sẽ không được đề cập đến hôm nay).\nNgười nói nói thêm: \"Next week we'll try out more of the games.\", ngụ ý rằng một số nội dung sẽ không được đề cập đến trong buổi hôm nay.\nDịch các phương án:\nA. Anh ấy muốn xin phép rời đi\nB. Anh ấy không thể tham gia bữa trưa\nC. Một đồng nghiệp sẽ thay thế anh ấy\nD. Một số tài liệu sẽ không được đề cập đến hôm nay",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
+      },
+      {
+       "term": "series",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chuỗi, loạt"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      },
+      {
+       "term": "engage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "gài; tham gia, thu hút"
+      },
+      {
+       "term": "resident",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cư dân"
+      },
+      {
+       "term": "variety",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đa dạng; giống, loại"
+      },
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "involve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "liên quan"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g4",
@@ -2089,7 +2919,94 @@
        "explanation": "Đáp án đúng là D. Get more information (Tìm hiểu thêm thông tin).\nQuảng cáo kết thúc bằng câu: \"Please check out our website to learn more about our open positions.\"\nDịch các phương án:\nA. Hoàn thành một cuộc khảo sát\nB. Điền vào một đơn xin việc\nC. Đặt hàng\nD. Tìm hiểu thêm thông tin",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "certified",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "được chứng nhận"
+      },
+      {
+       "term": "commercial",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thương mại; quảng cáo (trên TV)"
+      },
+      {
+       "term": "currently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hiện tại"
+      },
+      {
+       "term": "experienced",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có kinh nghiệm"
+      },
+      {
+       "term": "suggest",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đề xuất; gợi ý"
+      },
+      {
+       "term": "transport",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự vận chuyển"
+      },
+      {
+       "term": "throughout",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "khắp; suốt"
+      },
+      {
+       "term": "region",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khu vực"
+      },
+      {
+       "term": "flexible",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "linh hoạt"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "determine",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xác định"
+      },
+      {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g5",
@@ -2153,7 +3070,71 @@
        "explanation": "Đáp án đúng là A. To a food festival (Đến một lễ hội ẩm thực).\nNgười nói đề cập: \"I'm still planning to be out of town next week for the Springdale Pastry and Dessert Festival.\"\nDịch các phương án:\nA. Đến một lễ hội ẩm thực\nB. Đến một lớp học nấu ăn\nC. Đến một chợ nông sản\nD. Đến lễ khai trương một tiệm bánh",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "exciting",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thú vị"
+      },
+      {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
+       "term": "upcoming",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "sắp tới; sắp tới, sắp diễn ra"
+      },
+      {
+       "term": "executive",
+       "pos": [
+        "n"
+       ],
+       "meaning": "giám đốc"
+      },
+      {
+       "term": "chef",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các đầu bếp; đầu bếp"
+      },
+      {
+       "term": "usual",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thông thường"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "reminder",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lời nhắc nhở"
+      },
+      {
+       "term": "festival",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lễ hội"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g6",
@@ -2217,7 +3198,78 @@
        "explanation": "Đáp án đúng là B. Some images (Một số hình ảnh).\nNgười nói đề cập: \"artist-rendered images of the project are on display at the City Hall building.\"\nDịch các phương án:\nA. Một hợp đồng chính thức\nB. Một số hình ảnh\nC. Một danh sách các công ty\nD. Một số thông tin về các chính trị gia địa phương",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "vehicle",
+       "pos": [],
+       "meaning": "phương tiện"
+      },
+      {
+       "term": "directly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "trực tiếp, ngay lập tức; trực tiếp"
+      },
+      {
+       "term": "recent",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "gần đây"
+      },
+      {
+       "term": "comment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bình luận"
+      },
+      {
+       "term": "resident",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cư dân"
+      },
+      {
+       "term": "exciting",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thú vị"
+      },
+      {
+       "term": "development",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phát triển; sự phát triển"
+      },
+      {
+       "term": "display",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thể hiện; trưng bày"
+      },
+      {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g7",
@@ -2281,7 +3333,46 @@
        "explanation": "Đáp án đúng là A. By calling within a time limit (Bằng cách gọi trong một giới hạn thời gian).\nQuảng cáo nói: \"If you call in the next 10 minutes, you'll receive a 30% discount.\"\nDịch các phương án:\nA. Bằng cách gọi trong một giới hạn thời gian\nB. Bằng cách nhập địa chỉ email\nC. Bằng cách giới thiệu sản phẩm cho bạn bè\nD. Bằng cách sử dụng ứng dụng điện thoại di động",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "organizer",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người tổ chức"
+      },
+      {
+       "term": "wide",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "rộng"
+      },
+      {
+       "term": "within",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "trong vòng; trong phạm vi"
+      },
+      {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
+       "term": "adjust",
+       "pos": [
+        "v"
+       ],
+       "meaning": "điều chỉnh"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g8",
@@ -2345,7 +3436,95 @@
        "explanation": "Đáp án đúng là C. She opened a restaurant (Cô ấy đã mở một nhà hàng).\nNgười nói đề cập: \"Rebecca recently launched a vegetarian restaurant in New York that is getting rave reviews so far.\"\nDịch các phương án:\nA. Cô ấy đã xuất bản một cuốn sách dạy nấu ăn\nB. Cô ấy đã ra mắt một khóa học đào tạo nấu ăn\nC. Cô ấy đã mở một nhà hàng\nD. Cô ấy đã đi du lịch nước ngoài",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "flavor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hương vị"
+      },
+      {
+       "term": "excite",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm phấn khích"
+      },
+      {
+       "term": "announce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông báo; được công bố"
+      },
+      {
+       "term": "supply",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cung cấp; nguồn cung"
+      },
+      {
+       "term": "develop",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phát triển; phát triển, phát minh"
+      },
+      {
+       "term": "release",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự phát hành; phát hành"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "chef",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các đầu bếp; đầu bếp"
+      },
+      {
+       "term": "recently",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "gần đây; gần đây, mới đây"
+      },
+      {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "launch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ra mắt; khởi động"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g9",
@@ -2414,7 +3593,92 @@
        "explanation": "Đáp án đúng là B. At 12:05 P.M.\nTheo lịch trình trong hình, Train 133 dự kiến đến Wilmington (điểm dừng tiếp theo sau Philadelphia) lúc 12:05 P.M.\nDịch các phương án:\nA. Lúc 10:45 sáng\nB. Lúc 12:05 chiều\nC. Lúc 1:00 chiều\nD. Lúc 1:30 chiều",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attention",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự chú ý"
+      },
+      {
+       "term": "passenger",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hành khách"
+      },
+      {
+       "term": "renovation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự cải tạo; tu sửa, cải tạo"
+      },
+      {
+       "term": "apologize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xin lỗi"
+      },
+      {
+       "term": "inconvenience",
+       "pos": [],
+       "meaning": "sự bất tiện"
+      },
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "noise",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tiếng ồn"
+      },
+      {
+       "term": "cause",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã gây ra; gây ra"
+      },
+      {
+       "term": "regional",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "khu vực; thuộc khu vực"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "affect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ảnh hưởng; ảnh hưởng đến"
+      },
+      {
+       "term": "shortly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "chẳng bao lâu; sắp"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test2-p4-g10",
@@ -2483,7 +3747,87 @@
        "explanation": "Đáp án đúng là B. Look at a model (Xem một mô hình).\nNgười nói đề cập: \"we now have a 3D printed model of this project. please feel free to visit our website so you can view it.\"\nDịch các phương án:\nA. Tải xuống một số thiết kế\nB. Xem một mô hình\nC. Tham quan công trường\nD. Xem một Webcam",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "operation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hoạt động"
+      },
+      {
+       "term": "attend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tham dự"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
+      },
+      {
+       "term": "construction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "xây dựng; việc xây dựng"
+      },
+      {
+       "term": "regional",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "khu vực; thuộc khu vực"
+      },
+      {
+       "term": "proceed",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "minor",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nhỏ, không đáng kể"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
+      },
+      {
+       "term": "slightly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hơi; một chút"
+      },
+      {
+       "term": "mention",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được đề cập; đề cập, nhắc đến"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

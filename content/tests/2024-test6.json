@@ -1045,7 +1045,95 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập đến việc tổ chức một buổi gây quỹ vào tháng tới.\nTrích dẫn: \"it gives us time to focus on next month's fund-raiser\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc họp báo\nB. Một buổi gây quỹ\nC. Một buổi thử vai\nD. Một buổi ký tặng\nCâu hỏi dịch: Các người nói đang lên kế hoạch cho sự kiện nào?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "renovation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự cải tạo; tu sửa, cải tạo"
+      },
+      {
+       "term": "theater",
+       "pos": [
+        "n"
+       ],
+       "meaning": "rạp hát; sân khấu, rạp hát"
+      },
+      {
+       "term": "overdue",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "quá hạn"
+      },
+      {
+       "term": "musical",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "âm nhạc"
+      },
+      {
+       "term": "production",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sản xuất; sự sản xuất"
+      },
+      {
+       "term": "successful",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thành công"
+      },
+      {
+       "term": "plus",
+       "pos": [
+        "conj",
+        "prep"
+       ],
+       "meaning": "cộng"
+      },
+      {
+       "term": "focus",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung; trọng tâm"
+      },
+      {
+       "term": "hopefully",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "một cách hy vọng; hy vọng là"
+      },
+      {
+       "term": "raise",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tăng lương"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
+       "term": "lighting",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ánh sáng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g2",
@@ -1109,7 +1197,77 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ lo lắng rằng họ có thể không đủ khả năng chi trả tiền thuê.\nTrích dẫn: \"But I'm worried we may not be able to afford the lease.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một đối thủ cạnh tranh mới\nB. Thời gian đi lại dài hơn\nC. Một giá cao\nD. Một thời hạn sắp tới\nCâu hỏi dịch: Người phụ nữ lo lắng về điều gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "candidate",
+       "pos": [],
+       "meaning": "ứng viên"
+      },
+      {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
+       "term": "contract",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng"
+      },
+      {
+       "term": "hire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được thuê; thuê"
+      },
+      {
+       "term": "lease",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng thuê; thuê (đất, tài sản)"
+      },
+      {
+       "term": "afford",
+       "pos": [
+        "v"
+       ],
+       "meaning": "có khả năng"
+      },
+      {
+       "term": "contact",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "hãy liên hệ; liên hệ"
+      },
+      {
+       "term": "agency",
+       "pos": [],
+       "meaning": "cơ quan, đại lý"
+      },
+      {
+       "term": "panel",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội đồng"
+      },
+      {
+       "term": "expire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hết hạn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g3",
@@ -1173,7 +1331,24 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông xin lỗi vì không thể đáp ứng yêu cầu làm bánh đứng của người phụ nữ, do nhân viên có thể làm loại bánh đó đã kín lịch.\nTrích dẫn: \"I'm sorry. I do have someone on staff who can make those, but she's all booked up for the next few weeks.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số công cụ không thể tìm thấy\nB. Một số lời mời đã được gửi muộn\nC. Một cửa hàng đóng cửa vì ngày lễ\nD. Một yêu cầu không thể được đáp ứng\nCâu hỏi dịch: Tại sao người đàn ông xin lỗi?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "creation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự tạo ra"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g4",
@@ -1237,7 +1412,69 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ đề nghị người đàn ông đến cửa hàng ngay bây giờ để được sắp xếp một cuộc hẹn không cần đặt trước, và anh ta đồng ý chờ đợi.\nTrích dẫn: \"If you come to the store now, we can try to fit you in as a walk-in appointment.\" và \"I don't mind waiting.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nói chuyện với một người quản lý\nB. Gọi hỗ trợ kỹ thuật\nC. Đến cửa hàng\nD. Khởi động lại thiết bị\nCâu hỏi dịch: Người đàn ông nhiều khả năng sẽ làm gì tiếp theo?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reach",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đạt được"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "fit",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "vừa vặn"
+      },
+      {
+       "term": "appointment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
+      },
+      {
+       "term": "cancellation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự hủy bỏ"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g5",
@@ -1301,7 +1538,53 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông đề xuất thay đổi thời hạn bằng cách cho phép người phụ nữ hoàn thành bài báo vào tối thứ Tư để đăng vào báo thứ Năm.\nTrích dẫn: \"But if you can have it finished by Wednesday night, I can put it in Thursday's paper.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thay đổi thời hạn\nB. Lên lịch một cuộc họp\nC. Yêu cầu một đồng nghiệp giúp đỡ\nD. Xem xét lại một số tài liệu\nCâu hỏi dịch: Người đàn ông đề xuất giải pháp gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "merger",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sáp nhập"
+      },
+      {
+       "term": "research",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
+      },
+      {
+       "term": "article",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài báo; bài viết"
+      },
+      {
+       "term": "detail",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giải thích chi tiết; chi tiết"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "involve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "liên quan"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g6",
@@ -1365,7 +1648,60 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông nói rằng anh ta có một số hình ảnh về các dự án đã hoàn thành trong quá khứ để cho người phụ nữ xem.\nTrích dẫn: \"I have some pictures of projects I've completed in the past you can look at.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một danh sách giá\nB. Một giấy phép\nC. Một số tham khảo\nD. Một số bức ảnh\nCâu hỏi dịch: Người đàn ông sẽ cho người phụ nữ xem gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "remove",
+       "pos": [
+        "v"
+       ],
+       "meaning": "loại bỏ; gỡ bỏ"
+      },
+      {
+       "term": "retaining",
+       "pos": [],
+       "meaning": "giữ lại"
+      },
+      {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      },
+      {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "complete",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "hoàn thành; hoàn chỉnh"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g7",
@@ -1429,7 +1765,74 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông hỏi về ước tính thời gian xử lý yêu cầu, và người phụ nữ nói rằng cô ấy sẽ nói chuyện với Adem, ngụ ý cô ấy sẽ cung cấp ước tính thời gian sau.\nTrích dẫn: \"Do you have an estimate of how long it will take to process the request?\" và \"I'm not sure, but I can speak to Adem.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bảng phân tích chi phí\nB. Một số tài khoản\nC. Một ước tính thời gian\nD. Một số điện thoại\nCâu hỏi dịch: Người phụ nữ nhiều khả năng sẽ cung cấp thông tin gì sau?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "reach",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đạt được"
+      },
+      {
+       "term": "account",
+       "pos": [],
+       "meaning": "tài khoản"
+      },
+      {
+       "term": "payment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thanh toán"
+      },
+      {
+       "term": "inquire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hỏi thông tin; hỏi"
+      },
+      {
+       "term": "contract",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hợp đồng"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "estimate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g8",
@@ -1493,7 +1896,87 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông hỏi liệu họ có thể thêm nội dung tùy chỉnh của riêng mình vào Video Room.\nTrích dẫn: \"Can we add our own customized content?\"\nCác đáp án dịch sang tiếng Việt:\nA. Mở rộng giờ làm việc\nB. Tham gia một cuộc thi địa phương\nC. Bao gồm nội dung tùy chỉnh\nD. Nâng cấp một số thiết bị\nCâu hỏi dịch: Những người đàn ông muốn làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
+       "term": "eager",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "háo hức"
+      },
+      {
+       "term": "benefit",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lợi ích"
+      },
+      {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      },
+      {
+       "term": "common",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "phổ biến"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
+       "term": "description",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mô tả"
+      },
+      {
+       "term": "exclusive",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "độc quyền"
+      },
+      {
+       "term": "warranty",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bảo hành"
+      },
+      {
+       "term": "advice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lời khuyên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g9",
@@ -1557,7 +2040,38 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng anh ta cần liên hệ với đội quay phim để đảm bảo họ có tất cả thiết bị cần thiết để bắt đầu quay phim.\nTrích dẫn: \"I need to follow up with our camera team to make sure they have all the equipment they need to begin filming\"\nCác đáp án dịch sang tiếng Việt:\nA. Để giải thích quy trình cấp phép\nB. Để xác nhận sự sẵn có của thiết bị\nC. Để giới thiệu một đồng nghiệp\nD. Để lập kế hoạch an toàn\nCâu hỏi dịch: Tại sao người đàn ông cần liên hệ với một đội?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "outline",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phác thảo"
+      },
+      {
+       "term": "concerned",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "lo lắng; quan tâm"
+      },
+      {
+       "term": "equipment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g10",
@@ -1621,7 +2135,80 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Melissa nói rằng cô ấy sẽ gửi ước tính chi phí qua email.\nTrích dẫn: \"I'll send it by lunchtime, and I'll cc you both on the e-mail.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bản tóm tắt các nhiệm vụ công việc\nB. Một lá thư cảm ơn\nC. Một bài báo tin tức\nD. Một ước tính chi phí\nCâu hỏi dịch: Melissa sẽ gửi gì qua email?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "field",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lĩnh vực, cánh đồng; lĩnh vực"
+      },
+      {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "approval",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự ủng hộ; sự chấp thuận"
+      },
+      {
+       "term": "expense",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chi phí"
+      },
+      {
+       "term": "approve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phê duyệt; chấp thuận"
+      },
+      {
+       "term": "estimate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
+      },
+      {
+       "term": "acquisition",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự mua lại; việc mua lại, thu thập"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g11",
@@ -1690,7 +2277,45 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ gửi email cho phụ huynh của các cầu thủ bowling trẻ.\nTrích dẫn: \"I'll e-mail the parents of the junior bowlers and let them know the day will change starting next month.\"\nCác đáp án dịch sang tiếng Việt:\nA. Treo một áp phích\nB. Gửi một email\nC. Giao một gói hàng\nD. Xử lý một khoản thanh toán\nCâu hỏi dịch: Người phụ nữ nói cô ấy sẽ làm gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "junior",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "trẻ hơn, cấp dưới"
+      },
+      {
+       "term": "convenient",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thuận tiện; tiện lợi"
+      },
+      {
+       "term": "available",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "có sẵn; sẵn sàng"
+      },
+      {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g12",
@@ -1759,7 +2384,31 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông không thể tham dự buổi chiếu phim vào thứ Năm, nhưng anh ta bày tỏ sự quan tâm đến buổi ký tặng sách của Sumit Mehta, diễn ra vào thứ Tư theo lịch trình.\nTrích dẫn: \"I do like his novels! Thanks, I'll come back for that.\"\nCác đáp án dịch sang tiếng Việt:\nA. Vào thứ Hai\nB. Vào thứ Ba\nC. Vào thứ Tư\nD. Vào thứ Năm\nCâu hỏi dịch: Nhìn vào hình ảnh. Khi nào người đàn ông có khả năng tham dự một sự kiện thư viện nhất?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
+      },
+      {
+       "term": "election",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc bầu cử"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p3-g13",
@@ -1828,7 +2477,59 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng họ muốn màu sơn gần với màu gốc nhất khi cây cầu được xây dựng lần đầu tiên, mặc dù đó là lựa chọn đắt nhất trong danh sách. Theo bảng giá, màu đắt nhất là Misty Blue.\nTrích dẫn: \"we want it to be as close to the original color as when it was first built, even though that's the most expensive option on the list.\"\nCác đáp án dịch sang tiếng Việt:\nA. Xanh lá cây vườn\nB. Xanh dương sương mù\nC. Đào bình minh\nD. Trắng cổ điển\nCâu hỏi dịch: Nhìn vào hình ảnh. Người phụ nữ chọn màu nào?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "mention",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được đề cập; đề cập, nhắc đến"
+      },
+      {
+       "term": "grant",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cấp, cho phép"
+      },
+      {
+       "term": "protect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bảo vệ"
+      },
+      {
+       "term": "photograph",
+       "pos": [
+        "n"
+       ],
+       "meaning": "những bức ảnh; ảnh"
+      },
+      {
+       "term": "original",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "ban đầu; nguyên bản"
+      },
+      {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },
@@ -1897,7 +2598,50 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết sẽ có một buổi đào tạo ngắn vào thứ Ba tuần sau về cách sử dụng kiosk đăng ký.\nTrích dẫn: \"We'll have a very short training session next Tuesday on how the check-in kiosk works.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một hệ thống bảo mật mới sẽ được lắp đặt.\nB. Một chi nhánh mới sẽ được mở.\nC. Một buổi đào tạo sẽ diễn ra.\nD. Một sản phẩm sẽ được giao.\nCâu hỏi dịch: Điều gì sẽ xảy ra vào thứ Ba tuần sau?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "clinic",
+       "pos": [],
+       "meaning": "phòng khám"
+      },
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
+      },
+      {
+       "term": "hopefully",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "một cách hy vọng; hy vọng là"
+      },
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "buổi; buổi học, phiên họp"
+      },
+      {
+       "term": "appointment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g2",
@@ -1961,7 +2705,59 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người nói cho biết sẽ chia sẻ một số tài nguyên để hướng dẫn quá trình đăng ký xin giấy phép.\nTrích dẫn: \"I'll share some resources at the end of this podcast to guide your application process.\"\nCác đáp án dịch sang tiếng Việt:\nA. Hướng dẫn đăng ký\nB. Địa điểm bán lẻ\nC. Tên của các giảng viên\nD. Đánh giá của người dùng\nCâu hỏi dịch: Người nói sẽ chia sẻ thông tin gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "device",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
+      },
+      {
+       "term": "commercial",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thương mại; quảng cáo (trên TV)"
+      },
+      {
+       "term": "apply",
+       "pos": [
+        "v"
+       ],
+       "meaning": "áp dụng; ứng tuyển"
+      },
+      {
+       "term": "license",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "giấy phép; được cấp phép"
+      },
+      {
+       "term": "share",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chia sẻ; chia sẻ, dùng chung"
+      },
+      {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g3",
@@ -2025,7 +2821,95 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết sẽ có một buổi tiếp tân vào buổi tối tại sảnh chính của tòa nhà.\nTrích dẫn: \"the exhibit hall will close at five p.m. today so that exhibitors can attend this evening's reception. That will be held in the building's main lobby.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc tranh luận\nB. Một buổi lễ trao giải\nC. Một buổi chiếu phim\nD. Một buổi tiếp tân\nCâu hỏi dịch: Điều gì sẽ diễn ra vào buổi tối?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "attention",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự chú ý"
+      },
+      {
+       "term": "digital",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "kỹ thuật số"
+      },
+      {
+       "term": "signage",
+       "pos": [],
+       "meaning": "biển hiệu"
+      },
+      {
+       "term": "representative",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đại diện"
+      },
+      {
+       "term": "display",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thể hiện; trưng bày"
+      },
+      {
+       "term": "directly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "trực tiếp, ngay lập tức; trực tiếp"
+      },
+      {
+       "term": "buyer",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người mua"
+      },
+      {
+       "term": "exhibit",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "vật trưng bày; trưng bày; trưng bày"
+      },
+      {
+       "term": "ensure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đảm bảo"
+      },
+      {
+       "term": "safety",
+       "pos": [
+        "adj",
+        "n"
+       ],
+       "meaning": "sự an toàn; an toàn"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "securely",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "chắc chắn; một cách an toàn"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g4",
@@ -2089,7 +2973,95 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người nói cho biết 100 người nghe đầu tiên sử dụng liên kết tải xuống trên trang web của họ sẽ nhận được vé miễn phí cho lễ hội âm nhạc.\nTrích dẫn: \"the first 100 listeners to use the download link on my Web site will receive free music festival tickets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bằng cách nhấp vào một liên kết\nB. Bằng cách đăng ký nhận bản tin\nC. Bằng cách mua sản phẩm tại cửa hàng\nD. Bằng cách viết đánh giá\nCâu hỏi dịch: Làm thế nào người nghe có thể nhận được một số vé miễn phí?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "smart",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thông minh"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
+      },
+      {
+       "term": "tips",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lời khuyên"
+      },
+      {
+       "term": "amateur",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "nghiệp dư"
+      },
+      {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
+       "term": "software",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phần mềm"
+      },
+      {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
+       "term": "promotional",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "khuyến mãi"
+      },
+      {
+       "term": "apply",
+       "pos": [
+        "v"
+       ],
+       "meaning": "áp dụng; ứng tuyển"
+      },
+      {
+       "term": "automatically",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "tự động; một cách tự động"
+      },
+      {
+       "term": "appear",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xuất hiện"
+      },
+      {
+       "term": "festival",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lễ hội"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g5",
@@ -2153,7 +3125,48 @@
        "explanation": "Đáp án đúng là B.\nGiải thích: Người nói sử dụng cụm từ này để cho biết rằng họ đã thử mọi cách có thể và giờ cần sự trợ giúp của người nghe.\nTrích dẫn: \"I've tried a few different drain cleaning products, but they didn't help. I think I've done all I can do.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để yêu cầu người nghe hoàn tiền cho cô ấy\nB. Để cho biết rằng cô ấy cần sự hỗ trợ của người nghe\nC. Để giải thích tại sao cô ấy đăng ký một khóa đào tạo\nD. Để xác nhận rằng một nhiệm vụ đã được hoàn thành\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ tôi đã làm tất cả những gì có thể\"?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "complex",
+       "pos": [
+        "adj",
+        "n"
+       ],
+       "meaning": "phức tạp; phức hợp"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "drain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thoát nước, làm cạn kiệt"
+      },
+      {
+       "term": "completely",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hoàn toàn; sai vì không phải danh từ"
+      },
+      {
+       "term": "arrange",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sắp xếp"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g6",
@@ -2217,7 +3230,31 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề cập đến các tủ hồ sơ trống ở góc phía nam để gợi ý rằng đó có thể là nơi đặt bàn làm việc cho các nhân viên mới.\nTrích dẫn: \"we need to make space for their desks. Now that our work is mostly paperless, the south corner of the office has a lot of empty file cabinets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để đề xuất một vị trí cho một số bàn làm việc\nB. Để chỉ ra nơi một số tệp nên được lưu trữ\nC. Để giải thích rằng một nhiệm vụ đã được hoàn thành\nD. Để yêu cầu đặt thêm vật tư văn phòng\nCâu hỏi dịch: Tại sao người nói nói \"góc phía nam của văn phòng có rất nhiều tủ hồ sơ trống\"?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      },
+      {
+       "term": "hire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được thuê; thuê"
+      },
+      {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g7",
@@ -2281,7 +3318,93 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết rằng mã giảm giá sẽ được gửi qua email sau khi khách hàng nhập số hóa đơn trên trang web.\nTrích dẫn: \"your discount code will arrive in an e-mail\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số thông tin liên lạc\nB. Một mẫu đơn đặt hàng\nC. Một mã giảm giá\nD. Một bảng giá\nCâu hỏi dịch: Điều gì sẽ đến trong một email?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "supplier",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà cung cấp"
+      },
+      {
+       "term": "condition",
+       "pos": [],
+       "meaning": "tình trạng"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "warehouse",
+       "pos": [],
+       "meaning": "kho hàng"
+      },
+      {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
+       "term": "delay",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "trì hoãn; sự trì hoãn trì hoãn"
+      },
+      {
+       "term": "recent",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "gần đây"
+      },
+      {
+       "term": "order",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn đặt hàng; đặt hàng"
+      },
+      {
+       "term": "however",
+       "pos": [
+        "adv",
+        "conj"
+       ],
+       "meaning": "tuy nhiên; phó từ: tuy nhiên"
+      },
+      {
+       "term": "inconvenience",
+       "pos": [],
+       "meaning": "sự bất tiện"
+      },
+      {
+       "term": "offering",
+       "pos": [
+        "n"
+       ],
+       "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
+      },
+      {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g8",
@@ -2345,7 +3468,92 @@
        "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến giải thưởng của Alvaro Gomez để gợi ý rằng anh ta có thể là một ứng cử viên phù hợp cho công việc tạo tác phẩm nghệ thuật.\nTrích dẫn: \"we'll need to hire a skilled artist for the task. I think Alvaro Gomez has won several awards.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để sửa một số thông tin\nB. Để khen ngợi một triển lãm bảo tàng\nC. Để đề xuất một ứng cử viên phù hợp\nD. Để chúc mừng một đồng nghiệp\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ Alvaro Gomez đã giành được một số giải thưởng\"?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "responsibility",
+       "pos": [
+        "n"
+       ],
+       "meaning": "trách nhiệm"
+      },
+      {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
+       "term": "decision",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quyết định"
+      },
+      {
+       "term": "opportunity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ hội"
+      },
+      {
+       "term": "determine",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xác định"
+      },
+      {
+       "term": "overall",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "nói chung; nhìn chung"
+      },
+      {
+       "term": "addressed",
+       "pos": [],
+       "meaning": "giải quyết"
+      },
+      {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      },
+      {
+       "term": "regarding",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "liên quan đến; về, liên quan đến"
+      },
+      {
+       "term": "resident",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cư dân"
+      },
+      {
+       "term": "preference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự ưa thích; sai vì không phải động từ"
+      },
+      {
+       "term": "diverse",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "đa dạng"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g9",
@@ -2414,7 +3622,61 @@
        "explanation": "Đáp án đúng là A.\nGiải thích: Người nói yêu cầu người nghe gọi lại cho phòng vé càng sớm càng tốt trong vòng 24 giờ để xác nhận liệu họ còn quan tâm đến vé hay không.\nTrích dẫn: \"I can hold this request for 24 hours. Please call our box office as soon as possible to let me know if you're still interested.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thực hiện một cuộc gọi điện thoại\nB. Gửi một khoản thanh toán\nC. Nhận một món đồ\nD. Điền vào một mẫu đơn\nCâu hỏi dịch: Người nghe cần làm gì trong vòng 24 giờ?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "theater",
+       "pos": [
+        "n"
+       ],
+       "meaning": "rạp hát; sân khấu, rạp hát"
+      },
+      {
+       "term": "preference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự ưa thích; sai vì không phải động từ"
+      },
+      {
+       "term": "request",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "yêu cầu"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "completely",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "hoàn toàn; sai vì không phải danh từ"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
+      },
+      {
+       "term": "aside",
+       "pos": [
+        "adv",
+        "prep"
+       ],
+       "meaning": "sang một bên, ngoài; sang một bên"
+      }
+     ],
+     "vocabAuto": true
     },
     {
      "id": "2024-test6-p4-g10",
@@ -2483,7 +3745,76 @@
        "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết họ sẽ cung cấp phiếu ăn miễn phí để bù đắp cho việc không thể ghé thăm bảo tàng.\nTrích dẫn: \"To make up for this, we're providing complimentary meal vouchers so you can enjoy a free lunch, on us\"\nCác đáp án dịch sang tiếng Việt:\nA. Một khoản hoàn tiền\nB. Một món quà lưu niệm\nC. Một bản đồ in\nD. Phiếu ăn\nCâu hỏi dịch: Người nghe sẽ nhận được gì?",
        "tags": []
       }
-     ]
+     ],
+     "vocab": [
+      {
+       "term": "harbor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cảng"
+      },
+      {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
+       "term": "itinerary",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
+       "term": "last",
+       "pos": [
+        "adj",
+        "adv",
+        "v"
+       ],
+       "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "apologize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xin lỗi"
+      },
+      {
+       "term": "forward",
+       "pos": [
+        "v"
+       ],
+       "meaning": "về phía trước; chuyển tiếp (email)"
+      },
+      {
+       "term": "exhibit",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "vật trưng bày; trưng bày; trưng bày"
+      },
+      {
+       "term": "provide",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cung cấp"
+      }
+     ],
+     "vocabAuto": true
     }
    ]
   },

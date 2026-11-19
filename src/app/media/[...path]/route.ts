@@ -66,7 +66,13 @@ function fileStream(file: string, opts?: { start: number; end: number }): Readab
 
 export async function GET(request: Request, ctx: RouteContext<"/media/[...path]">) {
   const { path: segments } = await ctx.params;
-  const file = path.resolve(/*turbopackIgnore: true*/ DATA_DIR, ...segments.map((s) => decodeURIComponent(s)));
+  let decoded: string[];
+  try {
+    decoded = segments.map((s) => decodeURIComponent(s));
+  } catch {
+    return notFound(); // %-encoding sai (vd "%E0")
+  }
+  const file = path.resolve(/*turbopackIgnore: true*/ DATA_DIR, ...decoded);
   if (!file.startsWith(DATA_DIR + path.sep)) return notFound();
   const type = CONTENT_TYPES[path.extname(file).toLowerCase()];
   if (!type) return notFound();
