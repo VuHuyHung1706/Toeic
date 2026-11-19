@@ -7,7 +7,7 @@
 // Cần trong .env.local (KHÔNG commit, không dán vào chat):
 //   B2_KEY_ID=...        # Application Key ID (Backblaze → Application Keys)
 //   B2_APP_KEY=...       # applicationKey (chỉ hiện một lần khi tạo key)
-//   B2_BUCKET=...        # tên bucket (Public)
+//   B2_BUCKET=...        # tên bucket
 // Dùng B2 Native API v2 bằng fetch — không cần cài CLI.
 import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync } from "node:fs";
@@ -105,7 +105,6 @@ async function main() {
     });
     if (!buckets.length) throw new Error(`Không thấy bucket "${bucketName}" (hoặc key không có quyền)`);
     bucketId = buckets[0].bucketId;
-    if (buckets[0].bucketType !== "allPublic") console.warn(`⚠ Bucket đang "${buckets[0].bucketType}" — cần "Public" để trình duyệt phát được.`);
   }
 
   // file đã có trên bucket
@@ -136,8 +135,9 @@ async function main() {
   const totalBytes = todo.reduce((s, f) => s + f.size, 0);
   console.log(`${files.length} file media · đã có ${skipped} · cần tải ${todo.length} (${(totalBytes / 1e6).toFixed(0)} MB)`);
   const base = `${auth.downloadUrl}/file/${bucketName}`;
+  const hint = `Bucket Private → trên Vercel đặt MEDIA_SOURCE=b2 + B2_*; bucket Public → NEXT_PUBLIC_MEDIA_BASE=${base}`;
   if (dryRun || !todo.length) {
-    console.log(`NEXT_PUBLIC_MEDIA_BASE=${base}`);
+    console.log(hint);
     return;
   }
 
@@ -189,7 +189,7 @@ async function main() {
     }
   }
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  console.log(`Xong. Đặt trên Vercel: NEXT_PUBLIC_MEDIA_BASE=${base}`);
+  console.log(`Xong. ${hint}`);
 }
 
 main().catch((e) => {

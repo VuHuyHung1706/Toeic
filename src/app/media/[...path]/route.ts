@@ -1,8 +1,11 @@
-// Phục vụ audio/ảnh từ thư mục Data/ (hỗ trợ HTTP Range để tua audio).
-// Khi deploy thật nên đưa media lên CDN và đặt NEXT_PUBLIC_MEDIA_BASE.
+// Phục vụ audio/ảnh:
+// - Mặc định: đọc từ thư mục Data/ (hỗ trợ HTTP Range để tua audio) — dùng khi chạy trên máy.
+// - MEDIA_SOURCE=b2 (khi deploy): chuyển hướng 302 tới bucket Backblaze B2 riêng tư kèm giấy phép tải có hạn.
+//   Đường dẫn /media/... của trang giữ nguyên → trình duyệt vẫn cache được; Range/tua do B2 xử lý.
 import { createReadStream } from "node:fs";
 import { stat } from "node:fs/promises";
 import path from "node:path";
+import { REDIRECT_MAX_AGE_SEC, b2Enabled, signedMediaUrl } from "@/lib/b2";
 
 // turbopackIgnore: không để bundler "trace" cả thư mục Data (1,7 GB) vào bản build
 const DATA_DIR = path.resolve(/*turbopackIgnore: true*/ process.env.TOEIC_DATA_DIR ?? path.join(process.cwd(), "Data"));
@@ -72,10 +75,24 @@ export async function GET(request: Request, ctx: RouteContext<"/media/[...path]"
   } catch {
     return notFound(); // %-encoding sai (vd "%E0")
   }
+  if (decoded.some((s) => !s || s === "." || s === ".." || s.includes("/") || s.includes("\\"))) return notFound();
   const file = path.resolve(/*turbopackIgnore: true*/ DATA_DIR, ...decoded);
   if (!file.startsWith(DATA_DIR + path.sep)) return notFound();
   const type = CONTENT_TYPES[path.extname(file).toLowerCase()];
   if (!type) return notFound();
+
+  if (b2Enabled()) {
+    try {
+      const location = await signedMediaUrl(decoded.map(encodeURIComponent).join("/"));
+      return new Response(null, {
+        status: 302,
+        headers: { Location: location, "Cache-Control": `private, max-age=${REDIRECT_MAX_AGE_SEC}` },
+      });
+    } catch (e) {
+      console.error("B2 media:", e);
+      return new Response("Media tạm thời không khả dụng", { status: 503, headers: { "Retry-After": "30" } });
+    }
+  }
 
   let size: number;
   try {

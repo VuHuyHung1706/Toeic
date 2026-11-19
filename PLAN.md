@@ -235,8 +235,10 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 
 **Giai đoạn A — Đưa bản hiện tại lên mạng**
 1. ✅ `npm run media:upload` (`scripts/upload_media.ts`, B2 Native API, không cần CLI): tải 3.327 file media (1,76 GB) mà `content/` dùng, giữ nguyên đường dẫn,
-   bỏ qua file đã có (so SHA-1), đặt cache 1 năm. ⏳ Chờ bucket + Application Key. Audio/ảnh phát bằng thẻ `<audio>/<img>` nên không cần CORS.
-2. Đặt `NEXT_PUBLIC_MEDIA_BASE=https://f00X.backblazeb2.com/file/<bucket>` trên Vercel; route `/media` chỉ còn dùng khi chạy local. Thử phát và tua audio, kể cả tên file có dấu cách.
+   bỏ qua file đã có (so SHA-1), đặt cache 1 năm. ✅ Đã tải đủ lên bucket TOEICCC.
+   Bucket để **Private** (bật Public cần thẻ tín dụng): `/media/...` trả 302 tới B2 kèm giấy phép tải 7 ngày (`MEDIA_SOURCE=b2`, `src/lib/b2.ts`).
+   Audio/ảnh phát bằng thẻ `<audio>/<img>` nên không cần CORS. Lưu ý giới hạn tải xuống mỗi ngày của gói B2 miễn phí (xem Caps & Alerts).
+2. ✅ Đã thử bản production với `MEDIA_SOURCE=b2`: audio phát + tua (206), ảnh tên có dấu cách, thiếu giấy phép → 401.
 3. ✅ `check_content.py --skip-media` (tự bỏ qua khi không có `Data/`); ✅ GitHub Actions `.github/workflows/ci.yml` (lint, tsc, vitest, check_content, build) — đã chạy thử trên bản sao sạch.
 4. Kết nối repo với Vercel, deploy; thử toàn bộ luồng trên domain `*.vercel.app` (audio tua được, ảnh hiện, thi thử, luyện tập).
 5. ✅ `robots.txt` chặn toàn bộ + thẻ `noindex`. ⏳ Mã 404 thật cho đường dẫn đề sai: Cache Components bỏ `dynamicParams`, `notFound()` trong Suspense trả 200 → cần đổi cách render, để sau.

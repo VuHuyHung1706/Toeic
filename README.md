@@ -29,15 +29,15 @@ npm run db:studio        # xem dữ liệu (drizzle-kit studio, cần DATABASE_U
 
 ## Deploy (Vercel + Aiven + Backblaze B2)
 
-1. **Media:** tạo bucket B2 **Public** + Application Key (quyền đọc/ghi bucket đó), điền `B2_KEY_ID`, `B2_APP_KEY`, `B2_BUCKET` vào `.env.local`, rồi:
+1. **Media:** ✅ đã tải 3.327 file lên bucket B2 **TOEICCC (Private)**. Tải lại / bổ sung (bỏ qua file đã có):
    ```bash
    npm run media:upload -- --dry-run
    npm run media:upload
    ```
-   Cuối cùng script in ra giá trị `NEXT_PUBLIC_MEDIA_BASE`.
+   Bucket Private nên `/media/...` trả 302 tới B2 kèm giấy phép tải 7 ngày (`src/lib/b2.ts`) khi `MEDIA_SOURCE=b2`.
 2. **CSDL:** `npm run db:migrate` với `DATABASE_URL` của Aiven (chạy lại mỗi khi có migration mới trong `drizzle/`).
 3. **Vercel:** Import repo GitHub → Environment Variables: `DATABASE_URL`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL=https://<domain>`,
-   `NEXT_PUBLIC_MEDIA_BASE` (đặt trước lần build đầu). Settings → Functions → Region: chọn gần region của Aiven.
+   `MEDIA_SOURCE=b2`, `B2_KEY_ID`, `B2_APP_KEY`, `B2_BUCKET=TOEICCC` (nên là key **Read Only**). Settings → Functions → Region: chọn gần region của Aiven.
 4. GitHub Actions (`.github/workflows/ci.yml`) chạy lint, typecheck, test, kiểm tra dữ liệu và build mỗi lần push.
 
 ## Kiểm thử
