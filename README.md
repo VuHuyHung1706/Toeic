@@ -27,11 +27,24 @@ npm run db:migrate       # áp migration lên DATABASE_URL (không có → PGlit
 npm run db:studio        # xem dữ liệu (drizzle-kit studio, cần DATABASE_URL)
 ```
 
+## Deploy (Vercel + Aiven + Backblaze B2)
+
+1. **Media:** tạo bucket B2 **Public** + Application Key (quyền đọc/ghi bucket đó), điền `B2_KEY_ID`, `B2_APP_KEY`, `B2_BUCKET` vào `.env.local`, rồi:
+   ```bash
+   npm run media:upload -- --dry-run
+   npm run media:upload
+   ```
+   Cuối cùng script in ra giá trị `NEXT_PUBLIC_MEDIA_BASE`.
+2. **CSDL:** `npm run db:migrate` với `DATABASE_URL` của Aiven (chạy lại mỗi khi có migration mới trong `drizzle/`).
+3. **Vercel:** Import repo GitHub → Environment Variables: `DATABASE_URL`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL=https://<domain>`,
+   `NEXT_PUBLIC_MEDIA_BASE` (đặt trước lần build đầu). Settings → Functions → Region: chọn gần region của Aiven.
+4. GitHub Actions (`.github/workflows/ci.yml`) chạy lint, typecheck, test, kiểm tra dữ liệu và build mỗi lần push.
+
 ## Kiểm thử
 
 ```bash
 npm test                  # unit test (Vitest): chấm điểm, điểm dự đoán, song ngữ, chép chính tả, sổ câu sai, ghi/đọc CSDL (PGlite trong bộ nhớ)
-npm run check:content     # kiểm tra toàn vẹn content/ (200 câu/đề, đáp án, media tồn tại, ngân hàng câu, từ vựng)
+npm run check:content     # kiểm tra toàn vẹn content/ (200 câu/đề, đáp án, media tồn tại, ngân hàng câu, từ vựng); thêm -- --skip-media khi không có Data/
 npm run lint && npx tsc --noEmit && npm run build
 ```
 

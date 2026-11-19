@@ -13,6 +13,7 @@ const font = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   title: { default: "ToeicLab — Luyện thi TOEIC", template: "%s | ToeicLab" },
   description: "Luyện đề TOEIC Listening & Reading: thi thử 200 câu, luyện từng part, giải thích tiếng Việt.",
+  robots: { index: false, follow: false }, // tạm không cho index (bản quyền nội dung đề)
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

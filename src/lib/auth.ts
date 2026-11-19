@@ -18,6 +18,8 @@ function makeAuth(db: DB) {
     appName: "ToeicLab",
     secret: secret(),
     baseURL: process.env.BETTER_AUTH_URL,
+    // bản preview của Vercel có domain riêng mỗi lần deploy → cho phép thêm domain đó
+    trustedOrigins: [process.env.VERCEL_URL, process.env.VERCEL_BRANCH_URL].filter(Boolean).map((h) => `https://${h}`),
     database: drizzleAdapter(db, {
       provider: "pg",
       schema: {

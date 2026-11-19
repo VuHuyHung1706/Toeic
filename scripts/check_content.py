@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Kiểm tra toàn vẹn dữ liệu đã sinh trong content/ (chạy sau scripts/etl.py).
 
-    python3 scripts/check_content.py        # in lỗi, exit 1 nếu có lỗi
+    python3 scripts/check_content.py                # in lỗi, exit 1 nếu có lỗi
+    python3 scripts/check_content.py --skip-media   # không kiểm tra file trong Data/ (CI, máy không có media)
 """
 from __future__ import annotations
 
@@ -16,6 +17,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enrich import _flex_pattern, option_line_note, question_line_vi  # noqa: E402
 CONTENT = ROOT / "content"
 DATA = ROOT / "Data"
+# Data/ không có trên CI/GitHub → bỏ qua kiểm tra file media
+SKIP_MEDIA = "--skip-media" in sys.argv or not DATA.is_dir()
 PART_COUNTS = {1: 6, 2: 25, 3: 39, 4: 30, 5: 30, 6: 16, 7: 54}
 SECTION_RE = re.compile(r"^\s*(Từ vựng|Ngữ pháp|Bối cảnh|Ngữ cảnh)[^:\n]{0,30}:", re.M)
 
@@ -58,7 +61,7 @@ for entry in index:
             if part == 7 and not any(ps.get("en") for ps in g["passages"]) and not g["images"]:
                 err(f"{tid} {g['id']}: Part 7 không có đoạn văn hay ảnh")
             for ref in ([g["audio"]] if g.get("audio") else []) + g["images"]:
-                if ref.get("src"):
+                if ref.get("src") and not SKIP_MEDIA:
                     media_checked += 1
                     if not (DATA / ref["src"]).is_file():
                         err(f"{tid} {g['id']}: file không tồn tại {ref['src']}")
@@ -97,7 +100,7 @@ for entry in index:
                 all_keys[f"{tid}:{q['number']}"] = q["answer"]
     if sorted(nums) != list(range(1, 201)):
         err(f"{tid}: số câu không phải 1–200 liên tục")
-    if not (t.get("fullAudio") and (DATA / t["fullAudio"]["src"]).is_file()):
+    if not (t.get("fullAudio") and t["fullAudio"].get("src") and (SKIP_MEDIA or (DATA / t["fullAudio"]["src"]).is_file())):
         err(f"{tid}: thiếu audio full đề")
 
 # ngân hàng câu theo dạng
@@ -139,7 +142,7 @@ for v in vocab:
 if len(per_test) != 50 or min(per_test.values()) < 30:
     err(f"vocab: {len(per_test)} đề có từ, ít nhất {min(per_test.values(), default=0)} từ/đề")
 
-print(f"Đề: {len(index)} · câu: {len(all_keys)} · file media kiểm tra: {media_checked}")
+print(f"Đề: {len(index)} · câu: {len(all_keys)} · file media kiểm tra: {'bỏ qua (--skip-media)' if SKIP_MEDIA else media_checked}")
 print(f"Ngân hàng dạng câu: {len(bank_index)} nhóm · Từ vựng: {len(vocab)} từ, "
       f"{min(per_test.values())}–{max(per_test.values())} từ/đề")
 print(f"Cảnh báo: {len(warns)}")

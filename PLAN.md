@@ -233,12 +233,13 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 
 ### 11.3 Các giai đoạn
 
-**Giai đoạn A — Đưa bản hiện tại lên mạng (~1–2 ngày, chưa cần database)**
-1. Script `scripts/upload_media.sh` đồng bộ `Data/` lên bucket Backblaze B2 (`b2 sync` hoặc `aws s3 sync --endpoint-url https://s3.<region>.backblazeb2.com`), giữ nguyên cấu trúc thư mục `<năm>/<testN>/audio|image/…`; đặt bucket Public và CORS cho domain web.
+**Giai đoạn A — Đưa bản hiện tại lên mạng**
+1. ✅ `npm run media:upload` (`scripts/upload_media.ts`, B2 Native API, không cần CLI): tải 3.327 file media (1,76 GB) mà `content/` dùng, giữ nguyên đường dẫn,
+   bỏ qua file đã có (so SHA-1), đặt cache 1 năm. ⏳ Chờ bucket + Application Key. Audio/ảnh phát bằng thẻ `<audio>/<img>` nên không cần CORS.
 2. Đặt `NEXT_PUBLIC_MEDIA_BASE=https://f00X.backblazeb2.com/file/<bucket>` trên Vercel; route `/media` chỉ còn dùng khi chạy local. Thử phát và tua audio, kể cả tên file có dấu cách.
-3. `check_content.py --skip-media` để chạy được khi không có `Data/`; thêm GitHub Actions (lint, tsc, vitest, check_content, build).
+3. ✅ `check_content.py --skip-media` (tự bỏ qua khi không có `Data/`); ✅ GitHub Actions `.github/workflows/ci.yml` (lint, tsc, vitest, check_content, build) — đã chạy thử trên bản sao sạch.
 4. Kết nối repo với Vercel, deploy; thử toàn bộ luồng trên domain `*.vercel.app` (audio tua được, ảnh hiện, thi thử, luyện tập).
-5. Sửa trả mã 404 thật cho đường dẫn đề sai; thêm `robots.txt` (tạm `noindex` — xem 11.5).
+5. ✅ `robots.txt` chặn toàn bộ + thẻ `noindex`. ⏳ Mã 404 thật cho đường dẫn đề sai: Cache Components bỏ `dynamicParams`, `notFound()` trong Suspense trả 200 → cần đổi cách render, để sau.
 
 → Kết quả: web chạy công khai, dữ liệu học vẫn lưu trên trình duyệt như hiện nay.
 
