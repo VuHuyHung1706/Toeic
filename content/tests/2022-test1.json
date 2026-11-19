@@ -359,10 +359,11 @@
         "C": "Let's review the itinerary for our trip."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Tại sao cuộc họp chiều nay bị hủy?",
+       "explanation": "",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao cuộc họp chiều nay bị hủy?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -403,10 +404,11 @@
         "C": "I think it fits you well"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Bạn sử dụng trung tâm thể dục của công ty, phải không?\nC. Tôi nghĩ nó phù hợp với bạn.",
+       "explanation": "C. Tôi nghĩ nó phù hợp với bạn.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Bạn sử dụng trung tâm thể dục của công ty, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -443,10 +445,11 @@
         "C": "No, they're not ready yet"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Bạn có hình ảnh từ bộ phận đồ họa không?",
+       "explanation": "",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn có hình ảnh từ bộ phận đồ họa không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -487,10 +490,11 @@
         "C": "The schedule is being revised."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Khi nào bạn chuyển đến văn phòng mới của mình?",
+       "explanation": "",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào bạn chuyển đến văn phòng mới của mình?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -531,10 +535,11 @@
         "C": "Can I replace the sign"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Bạn có muốn đăng ký tham gia buổi nghỉ dưỡng của công ty không?",
+       "explanation": "",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có muốn đăng ký tham gia buổi nghỉ dưỡng của công ty không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -575,10 +580,11 @@
         "C": "No, I don't usually wear a watch"
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Tôi phải nộp bảng chấm công của mình bao nhiêu lần?",
+       "explanation": "",
        "tags": [
         "how"
        ],
+       "questionVi": "Tôi phải nộp bảng chấm công của mình bao nhiêu lần?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -619,10 +625,11 @@
         "C": "Yes, at the front desk"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Tôi có thể mua thẻ thành viên phòng tập gym hàng tháng, phải không?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Tôi có thể mua thẻ thành viên phòng tập gym hàng tháng, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -663,10 +670,11 @@
         "C": "Where is your name tag?"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Bạn đã dán nhãn giá cho tất cả các mặt hàng giảm giá chưa?",
+       "explanation": "",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn đã dán nhãn giá cho tất cả các mặt hàng giảm giá chưa?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -707,10 +715,11 @@
         "C": "A new computer program."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Chẳng phải chúng ta vẫn cần thay đổi bố cục báo chí sao?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chẳng phải chúng ta vẫn cần thay đổi bố cục báo chí sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -751,10 +760,11 @@
         "C": "In a couple of hours"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Tổng chi phí của công việc sửa chữa là bao nhiêu?",
+       "explanation": "",
        "tags": [
         "what"
        ],
+       "questionVi": "Tổng chi phí của công việc sửa chữa là bao nhiêu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -795,10 +805,11 @@
         "C": "All furniture requests must be approved first."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Tôi có thể mua tủ hồ sơ mới ở đâu?",
+       "explanation": "",
        "tags": [
         "where"
        ],
+       "questionVi": "Tôi có thể mua tủ hồ sơ mới ở đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -839,10 +850,11 @@
         "C": "Thanks for setting the table"
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Làm thế nào để tôi đặt lại mật khẩu?",
+       "explanation": "",
        "tags": [
         "how"
        ],
+       "questionVi": "Làm thế nào để tôi đặt lại mật khẩu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -883,10 +895,11 @@
         "C": "Do you want me to check them all?"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Bạn có thể kiểm tra xem màn hình đó đã được cắm chưa?",
+       "explanation": "",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể kiểm tra xem màn hình đó đã được cắm chưa?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -927,10 +940,11 @@
         "C": "Yes, I'll have the fish"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Quy trình kiểm kê mới có hiệu quả hơn không?",
+       "explanation": "",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Quy trình kiểm kê mới có hiệu quả hơn không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -971,10 +985,11 @@
         "C": "I'm trying to avoid sugar"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Bạn có muốn kem hoặc bánh ngọt làm tráng miệng không?\nA. Bởi vì tôi đói.",
+       "explanation": "A. Bởi vì tôi đói.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có muốn kem hoặc bánh ngọt làm tráng miệng không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1015,10 +1030,11 @@
         "C": "Let me show you a few more"
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Ai sẽ thực hiện buổi trình diễn sản phẩm chiều nay?",
+       "explanation": "",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai sẽ thực hiện buổi trình diễn sản phẩm chiều nay?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1059,10 +1075,11 @@
         "C": "That movie had great reviews"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Bài thuyết trình của bạn đang được xem xét tại cuộc họp của quản lý hôm nay.",
+       "explanation": "",
        "tags": [
         "statement"
        ],
+       "questionVi": "Bài thuyết trình của bạn đang được xem xét tại cuộc họp của quản lý hôm nay.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1103,10 +1120,11 @@
         "C": "I have time to read it now"
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Chẳng phải bạn mang những đôi giày này màu đỏ sao?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chẳng phải bạn mang những đôi giày này màu đỏ sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1147,10 +1165,11 @@
         "C": "Sure, we can go to the café downstairs"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Bạn có muốn ăn trưa với khách hàng không?",
+       "explanation": "",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có muốn ăn trưa với khách hàng không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1191,10 +1210,11 @@
         "C": "There's not much money in the budget"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Thế nào nếu thuê một nhà lập kế hoạch sự kiện để tổ chức bữa tiệc lễ hội?",
+       "explanation": "",
        "tags": [
         "request"
        ],
+       "questionVi": "Thế nào nếu thuê một nhà lập kế hoạch sự kiện để tổ chức bữa tiệc lễ hội?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1235,10 +1255,11 @@
         "C": "Congratulations on your promotion!"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Chẳng phải nhà sản xuất ô tô đó đang lên kế hoạch xuất khẩu xe điện sao?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chẳng phải nhà sản xuất ô tô đó đang lên kế hoạch xuất khẩu xe điện sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1279,10 +1300,11 @@
         "C": "He's good company"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: David đã đào tạo các thực tập sinh sử dụng cơ sở dữ liệu của công ty, phải không?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "David đã đào tạo các thực tập sinh sử dụng cơ sở dữ liệu của công ty, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1323,10 +1345,11 @@
         "C": "Yes, It's on Main Street"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Ai chịu trách nhiệm nghiên cứu thị trường nhà ở ở Ấn Độ?",
+       "explanation": "",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai chịu trách nhiệm nghiên cứu thị trường nhà ở ở Ấn Độ?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1367,10 +1390,11 @@
         "C": "We've accepted credit cards before."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Bạn đã sắp xếp một chuyến đi đưa chúng ta đến trung tâm hội nghị chưa, hay tôi nên làm?",
+       "explanation": "",
        "tags": [
         "choice"
        ],
+       "questionVi": "Bạn đã sắp xếp một chuyến đi đưa chúng ta đến trung tâm hội nghị chưa, hay tôi nên làm?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1411,10 +1435,11 @@
         "C": "I thought I had until Friday to do that"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Những mua sắm này lẽ ra đã được ghi vào báo cáo chi phí của bạn.",
+       "explanation": "",
        "tags": [
         "statement"
        ],
+       "questionVi": "Những mua sắm này lẽ ra đã được ghi vào báo cáo chi phí của bạn.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7739,7 +7764,10 @@
          "pos": [],
          "meaning": "Để quảng cáo các tuyến bay đến một số thành phố mới"
         }
-       }
+       },
+       "evidence": [
+        "a problem with Pelman Technology, the system that handles our airline reservations"
+       ]
       },
       {
        "number": 148,
@@ -7767,7 +7795,10 @@
          "pos": [],
          "meaning": "Giá vé cho các chuyến bay quốc tế"
         }
-       }
+       },
+       "evidence": [
+        "We have added more on-site customer service representatives at airports in all of our destination cities to assist customers with their flights and information"
+       ]
       }
      ]
     },
@@ -7813,7 +7844,10 @@
          "pos": [],
          "meaning": "Một văn phòng có khu vực tiếp tân"
         }
-       }
+       },
+       "evidence": [
+        "Successful applicants must possess strong language skills and have a computer, a headset, and high-speed Internet access"
+       ]
       },
       {
        "number": 150,
@@ -7841,7 +7875,12 @@
          "pos": [],
          "meaning": "Nó liên quan đến một số chuyến đi nước ngoài"
         }
-       }
+       },
+       "evidence": [
+        "Choice of projects— we have work in many types of content",
+        "Flexible hours— you work as much or as little as you want",
+        "our captioners earn $350 to $1,100 a week, depending on the assignment"
+       ]
       }
      ]
     },
@@ -7887,7 +7926,10 @@
          "pos": [],
          "meaning": "Nó diễn ra tại một loạt các buổi hòa nhạc"
         }
-       }
+       },
+       "evidence": [
+        "Testing Dates: January 10-12"
+       ]
       },
       {
        "number": 152,
@@ -7915,7 +7957,11 @@
          "pos": [],
          "meaning": "Đăng đánh giá lên một trang web"
         }
-       }
+       },
+       "evidence": [
+        "Task number 3 proved the most challenging, with three participants unable to complete it in under two minutes",
+        "participants invited friends to a concert"
+       ]
       }
      ]
     },
@@ -7962,7 +8008,10 @@
          "pos": [],
          "meaning": "Nó diễn ra tại Koros Hall"
         }
-       }
+       },
+       "evidence": [
+        "Because you drew a sizeable crowd when you appeared at the conference in the past"
+       ]
       },
       {
        "number": 154,
@@ -7977,7 +8026,10 @@
        "answer": "D",
        "explanation": "Đáp án đúng là D (270). Giải thích:\nEmail nêu rõ: \"The Blue Room at the Debeljak Hotel holds only 120, so this year we are also booking the Koros Hall, which has a capacity of 270\" (Phòng Xanh tại Khách sạn Debeljak chỉ chứa được 120 người, vì vậy năm nay chúng tôi cũng đặt Koros Hall, có sức chứa 270 người). Điều này chỉ ra rõ ràng rằng Koros Hall có thể chứa 270 người.\nCác đáp án khác không chính xác:\nA. 40: Không phải là sức chứa của bất kỳ phòng nào được đề cập.\nB. 50: Không phải là sức chứa của bất kỳ phòng nào được đề cập.\nC. 120: Đây là sức chứa của Phòng Xanh, không phải Koros Hall.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "The Blue Room at the Debeljak Hotel holds only 120, so this year we are also booking the Koros Hall, which has a capacity of 270"
+       ]
       },
       {
        "number": 155,
@@ -7992,7 +8044,10 @@
        "answer": "D",
        "explanation": "Đáp án đúng là D (On September 20 - Vào ngày 20 tháng 9). Giải thích:\n1. Email nêu rõ rằng hội nghị diễn ra từ ngày 17 đến ngày 20 tháng 9.\n2. Alex Chen viết: \"We can offer you a 40-to-50-minute slot on the last day of the conference, when attendance should be at its peak\" (Chúng tôi có thể cung cấp cho bạn một khoảng thời gian 40 đến 50 phút vào ngày cuối cùng của hội nghị, khi số lượng người tham dự dự kiến sẽ đạt đỉnh).\n3. Ngày cuối cùng của hội nghị là ngày 20 tháng 9.\nCác đáp án khác không chính xác vì chúng không phải là ngày cuối cùng của hội nghị.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "We can offer you a 40-to-50-minute slot on the last day of the conference, when attendance should be at its peak"
+       ]
       }
      ]
     },
@@ -8039,7 +8094,10 @@
          "pos": [],
          "meaning": "Một nhà cung cấp dịch vụ tài chính"
         }
-       }
+       },
+       "evidence": [
+        "Saenger, Inc., has been selected by the city of Sudbury to build a monorail system"
+       ]
       },
       {
        "number": 157,
@@ -8067,7 +8125,10 @@
          "pos": [],
          "meaning": "Nó cung cấp vé giảm giá cho cư dân thành phố"
         }
-       }
+       },
+       "evidence": [
+        "Construction is slated to begin in early June and is expected to be completed within four years"
+       ]
       },
       {
        "number": 158,
@@ -8128,7 +8189,11 @@
          "pos": [],
          "meaning": "Cô ấy có thời gian gặp đại diện từ Keyes Elegant Home"
         }
-       }
+       },
+       "evidence": [
+        "I'd like you to read it over",
+        "Would you like me to revise anything, or do you want me to just check that it is all clear?"
+       ]
       },
       {
        "number": 160,
@@ -8156,7 +8221,10 @@
          "pos": [],
          "meaning": "dịch vụ công nghệ thông tin"
         }
-       }
+       },
+       "evidence": [
+        "Feel free to add information to the section \"Advertising Strategies,\" since that is your area of expertise."
+       ]
       }
      ]
     },
@@ -8219,7 +8287,13 @@
        "answer": "A",
        "explanation": "Đáp án đúng là A (Sharing a space with another participant - Chia sẻ không gian với một người tham gia khác). Giải thích:\n1. Việc chia sẻ không gian không được đề cập là yêu cầu bắt buộc. Email chỉ nói \"whether or not they want to share a space with another applicant\" (cho dù họ có muốn chia sẻ không gian với một ứng viên khác hay không), cho thấy đây là tùy chọn.\n2. Các yêu cầu khác đều được đề cập:\nB. Paying a fee to participate: \"all applicants must submit a $25 application fee\"\nC. Submitting images of the crafts: \"all applicants must submit a minimum of four photographs of their work\"\nD. Providing one's own tenting: \"supply their own tenting\" (mặc dù câu này bị lỗi, nhưng nó ngụ ý về việc cung cấp lều riêng)",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "whether or not they want to share a space with another applicant",
+        "all applicants must submit a $25 application fee",
+        "all applicants must submit a minimum of four photographs of their work",
+        "supply their own tenting"
+       ]
       },
       {
        "number": 163,
@@ -8247,7 +8321,10 @@
          "pos": [],
          "meaning": "đồ gốm"
         }
-       }
+       },
+       "evidence": [
+        "please be aware that every year we receive far more applications from jewelry makers than we can accept"
+       ]
       },
       {
        "number": 164,
@@ -8309,7 +8386,12 @@
          "pos": [],
          "meaning": "chuyển đồ đạc"
         }
-       }
+       },
+       "evidence": [
+        "security systems in your home",
+        "residential alarm systems",
+        "your home is protected"
+       ]
       },
       {
        "number": 166,
@@ -8337,7 +8419,11 @@
          "pos": [],
          "meaning": "thiết bị phát hiện cháy"
         }
-       }
+       },
+       "evidence": [
+        "We have also developed a new smartphone application that will notify you of any disturbances wherever you are.",
+        "The app is available for download now"
+       ]
       },
       {
        "number": 167,
@@ -8365,7 +8451,10 @@
          "pos": [],
          "meaning": "trải nghiệm"
         }
-       }
+       },
+       "evidence": [
+        "Using products manufactured by other companies may result in an alarm system that does not meet safety requirements for residential buildings"
+       ]
       }
      ]
     },
@@ -8413,7 +8502,10 @@
          "pos": [],
          "meaning": "Để liệt kê thành tích của một cá nhân"
         }
-       }
+       },
+       "evidence": [
+        "To reflect these and other significant changes that JATA has undergone over time, the Board of Trustees has approved a proposal by the Faculty Senate to rename the institution the Caribbean Academy of Science and Technology"
+       ]
       },
       {
        "number": 169,
@@ -8441,7 +8533,10 @@
          "pos": [],
          "meaning": "định cư"
         }
-       }
+       },
+       "evidence": [
+        "JATA was originally established as a vocational school for agriculture"
+       ]
       },
       {
        "number": 170,
@@ -8469,7 +8564,11 @@
          "pos": [],
          "meaning": "Cô ấy từng là thành viên Hội đồng Quản trị của JATA"
         }
-       }
+       },
+       "evidence": [
+        "All students and faculty members, both current and former, are invited to participate in a logo design contest",
+        "years of service on the faculty"
+       ]
       },
       {
        "number": 171,
@@ -8497,7 +8596,12 @@
          "pos": [],
          "meaning": "Nó có sinh viên quốc tế theo học"
         }
-       }
+       },
+       "evidence": [
+        "Today's students work with sophisticated equipment",
+        "Our student body",
+        "is now culturally diverse, with students from across the Americas and Europe"
+       ]
       }
      ]
     },
@@ -8545,7 +8649,10 @@
          "pos": [],
          "meaning": "một công ty tuyển dụng"
         }
-       }
+       },
+       "evidence": [
+        "freelance writing to in-house news reporting"
+       ]
       },
       {
        "number": 173,
@@ -8573,7 +8680,13 @@
          "pos": [],
          "meaning": "Cô ấy chưa đọc bài viết của ông Erickson"
         }
-       }
+       },
+       "evidence": [
+        "can you contact Mr.",
+        "Erickson to set up the next interview?",
+        "Is that a problem?",
+        "Not at all"
+       ]
       },
       {
        "number": 174,
@@ -8601,7 +8714,11 @@
          "pos": [],
          "meaning": "Ông ấy là cựu đồng nghiệp của bà Montaine"
         }
-       }
+       },
+       "evidence": [
+        "I also see that he has a varied work history.",
+        "That will make him a well-rounded reporter"
+       ]
       },
       {
        "number": 175,
@@ -8629,7 +8746,10 @@
          "pos": [],
          "meaning": "Giao tiếp tốt với đồng nghiệp"
         }
-       }
+       },
+       "evidence": [
+        "Peters will want assurances that he's committed and will stick around for several years"
+       ]
       }
      ]
     },
@@ -8678,7 +8798,12 @@
          "pos": [],
          "meaning": "Trang trí bằng ảnh cá nhân"
         }
-       }
+       },
+       "evidence": [
+        "Add some green plants to the décor",
+        "Take breaks and go outdoors",
+        "Photographs of loved ones and places we have visited for vacation are reminders of our life away from the office"
+       ]
       },
       {
        "number": 177,
@@ -8702,7 +8827,10 @@
          "pos": [],
          "meaning": "Vì chúng hút bụi"
         }
-       }
+       },
+       "evidence": [
+        "Install double-glazed windows instead of blinds to reduce glare while maintaining natural light"
+       ]
       },
       {
        "number": 178,
@@ -8730,7 +8858,10 @@
          "pos": [],
          "meaning": "Nó được tài trợ bởi một công ty nội thất"
         }
-       }
+       },
+       "evidence": [
+        "Dear readers, if you have tips to add to this list, send them in and they will be published in next month's issue"
+       ]
       },
       {
        "number": 179,
@@ -8758,7 +8889,10 @@
          "pos": [],
          "meaning": "Cô ấy thường xuyên đi công tác trong công việc"
         }
-       }
+       },
+       "evidence": [
+        "It may interest your readers to know about the company I work for"
+       ]
       },
       {
        "number": 180,
@@ -8786,7 +8920,11 @@
          "pos": [],
          "meaning": "Chúng được làm từ vật liệu tái chế"
         }
-       }
+       },
+       "evidence": [
+        "your favorite office supplies always travel with you",
+        "Modular Décor Kit"
+       ]
       }
      ]
     },
@@ -8863,7 +9001,12 @@
          "pos": [],
          "meaning": "Vé đến London Eye"
         }
-       }
+       },
+       "evidence": [
+        "LTC's knowledgeable local staff members personally guide each one of our tours",
+        "Meals are not covered, except when noted in the tour description",
+        "All tours can be upgraded for an additional fee to include an open-date ticket to the London Eye"
+       ]
       },
       {
        "number": 183,
@@ -8878,7 +9021,11 @@
        "answer": "A",
        "explanation": "Đáp án đúng là A (Tour 2). Giải thích:\n1. Ms. Bouton nói: \"I wanted someone to help me discover the most interesting places to shop in London\" (Tôi muốn ai đó giúp tôi khám phá những nơi mua sắm thú vị nhất ở London).\n2. Tour 2 được mô tả là \"Full-day walking tour of London's best shopping areas\" (Tour đi bộ cả ngày đến các khu mua sắm tốt nhất của London).\n3. Ms. Bouton cũng đề cập đến Oxford Street, một trong những địa điểm được nêu trong Tour 2.\nCác tour khác không phù hợp với mô tả của Ms. Bouton về trải nghiệm của cô ấy, vì chúng tập trung vào các địa điểm du lịch khác không liên quan đến mua sắm.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "I wanted someone to help me discover the most interesting places to shop in London",
+        "Full-day walking tour of London's best shopping areas"
+       ]
       },
       {
        "number": 184,
@@ -8906,7 +9053,10 @@
          "pos": [],
          "meaning": "Cô ấy đã sử dụng LTC trước đây"
         }
-       }
+       },
+       "evidence": [
+        "My daughter and I were visiting from Paris, and we appreciated being able to communicate in two languages"
+       ]
       },
       {
        "number": 185,
@@ -8926,11 +9076,18 @@
          "pos": [],
          "meaning": "it was expensive : Ngược lại, Ms"
         },
+        "B": {
+         "pos": [],
+         "meaning": "Nó không được tổ chức tốt"
+        },
         "D": {
          "pos": [],
          "meaning": "Nó diễn ra ở một phần không thú vị của thành phố"
         }
-       }
+       },
+       "evidence": [
+        "The only unpleasant part of the tour was that Oxford Street was extremely crowded when we visited, and it was difficult to walk around easily"
+       ]
       }
      ]
     },
@@ -8979,7 +9136,13 @@
          "pos": [],
          "meaning": "viết kinh doanh"
         }
-       }
+       },
+       "evidence": [
+        "Emilio Costa's graphic-design books",
+        "Making Data Visually Appealing",
+        "Logos in the Information Age",
+        "Branding Strategies in Graphic Design"
+       ]
       },
       {
        "number": 187,
@@ -9007,7 +9170,11 @@
          "pos": [],
          "meaning": "Anh ấy trả tiền trước cho một số cuốn sách"
         }
-       }
+       },
+       "evidence": [
+        "For those of you who have ordered it, please give your mailing address to the volunteer at the check-in desk, and the book will be mailed to your home at no cost to you",
+        "Branding Strategies in Graphic Design"
+       ]
       },
       {
        "number": 188,
@@ -9035,7 +9202,10 @@
          "pos": [],
          "meaning": "Để quảng bá một cuốn sách"
         }
-       }
+       },
+       "evidence": [
+        "Unfortunately, we do not have copies of Emilio Costa's book Branding Strategies in Graphic Design with us today"
+       ]
       },
       {
        "number": 189,
@@ -9063,7 +9233,10 @@
          "pos": [],
          "meaning": "Thời gian của một cuộc họp đã lên lịch"
         }
-       }
+       },
+       "evidence": [
+        "Before we submit our final draft, I would like to rethink how we are presenting our data"
+       ]
       },
       {
        "number": 190,
@@ -9078,7 +9251,12 @@
        "answer": "A",
        "explanation": "Đáp án đúng là A ($17.60). Giải thích:\n1. Trong email cuối cùng, Mr. Morgan đề cập đến một cuốn sách của Costa mà anh ấy đã cho Ms. Tsu xem: \"Have you had a chance to look through the Costa book I showed you? He gives great advice on improving the clarity of financial information in marketing materials\" (Bạn đã có cơ hội xem qua cuốn sách của Costa mà tôi đã cho bạn xem chưa? Ông ấy đưa ra lời khuyên tuyệt vời về việc cải thiện sự rõ ràng của thông tin tài chính trong tài liệu tiếp thị).\n2. Dựa vào mô tả này, cuốn sách có khả năng nhất là \"Perfected Figures: Making Data Visually Appealing\" (Hình ảnh hoàn hảo: Làm cho dữ liệu hấp dẫn trực quan), vì nó liên quan đến việc trình bày thông tin tài chính.\n3. Giá được chiết khấu cho cuốn sách này là $17.60.\nCác đáp án khác không phù hợp với cuốn sách được mô tả trong email cuối cùng.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "Have you had a chance to look through the Costa book I showed you?",
+        "He gives great advice on improving the clarity of financial information in marketing materials",
+        "Perfected Figures: Making Data Visually Appealing"
+       ]
       }
      ]
     },
@@ -9155,7 +9333,10 @@
          "pos": [],
          "meaning": "Lượng lớn không gian bán lẻ"
         }
-       }
+       },
+       "evidence": [
+        "the City Council should consider JPD's excellent record of beautifully restoring and maintaining several other historic buildings in Clanton"
+       ]
       },
       {
        "number": 193,
@@ -9183,7 +9364,10 @@
          "pos": [],
          "meaning": "Đó là một công ty tương đối mới"
         }
-       }
+       },
+       "evidence": [
+        "We have been informed that your restoration project of this building will be finished sometime this spring"
+       ]
       },
       {
        "number": 194,
@@ -9211,7 +9395,10 @@
          "pos": [],
          "meaning": "Ngày hoàn thành việc cải tạo"
         }
-       }
+       },
+       "evidence": [
+        "Would there be any reserved parking for our employees if we rented there?"
+       ]
       },
       {
        "number": 195,
@@ -9226,7 +9413,10 @@
        "answer": "D",
        "explanation": "Đáp án đúng là D (Unit 2E). Giải thích:\n1. Ms. Bautista nói trong email: \"We anticipate needing a space at least 300 square metres in size\" (Chúng tôi dự đoán cần một không gian có kích thước ít nhất 300 mét vuông).\n2. Nhìn vào sơ đồ tầng, chúng ta thấy:\n   - Unit 2B: 150 m²\n   - Unit 2C: 100 m²\n   - Unit 2D: 250 m²\n   - Unit 2E: 375 m²\n3. Unit 2E là lựa chọn duy nhất đáp ứng yêu cầu về kích thước của Lenoiva (lớn hơn 300 m²).\n4. Ngoài ra, Unit 2E cũng là không gian lớn nhất có sẵn, phù hợp với một công ty đang mở rộng hoạt động.\nCác đơn vị khác đều nhỏ hơn yêu cầu tối thiểu 300 m² của Lenoiva.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "We anticipate needing a space at least 300 square metres in size"
+       ]
       }
      ]
     },
@@ -9275,7 +9465,11 @@
          "pos": [],
          "meaning": "Cô ấy sở hữu chiếc kayak riêng"
         }
-       }
+       },
+       "evidence": [
+        "Could you please send me information pearing you rates and offeria ya comms seen diac bing sas the ma one\ntime renting from DGC for a group",
+        "one\ntime renting from DGC"
+       ]
       },
       {
        "number": 197,
@@ -9305,7 +9499,11 @@
        "answer": "B",
        "explanation": "Đáp án đúng là B ($13). Giải thích:\n1. Trong email phản hồi, Adam Goldstein nói: \"Incidentally, we recently added a rowboat option that is an excellent choice for adults who wish to boat with their children.\" (Nhân tiện, chúng tôi gần đây đã thêm một lựa chọn thuyền chèo là một lựa chọn tuyệt vời cho người lớn muốn đi thuyền cùng con cái.)\n2. Trong bảng giá, Option 5 là \"3- or 4-person rowboat (3 adults or 2 adults and 2 small children)\" (thuyền chèo 3 hoặc 4 người (3 người lớn hoặc 2 người lớn và 2 trẻ em nhỏ)).\n3. Giá cho Option 5 là $13 mỗi giờ.\nDo đó, giá theo giờ của lựa chọn thuê mới nhất của DGC là $13.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "Incidentally, we recently added a rowboat option that is an excellent choice for adults who wish to boat with their children",
+        "3- or 4-person rowboat (3 adults or 2 adults and 2 small children)"
+       ]
       },
       {
        "number": 199,
@@ -9333,7 +9531,11 @@
          "pos": [],
          "meaning": "Nó chấp nhận đặt chỗ trên trang web của mình"
         }
-       }
+       },
+       "evidence": [
+        "Groups of ten or more qualify for a discount if they book at least one week in advance",
+        "We are open every day from April to October"
+       ]
       },
       {
        "number": 200,
@@ -9356,8 +9558,16 @@
         "B": {
          "pos": [],
          "meaning": "Chúng có thể được thuê qua đêm"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Chúng phù hợp cho trẻ nhỏ"
         }
-       }
+       },
+       "evidence": [
+        "Life jackets and paddles are included in the rental fee",
+        "All boats must be returned by 6:15 P.M. on the day they are rented"
+       ]
       }
      ]
     }

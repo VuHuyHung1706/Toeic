@@ -4,6 +4,7 @@ import type { CSSProperties, ReactNode } from "react";
 import AudioPlayer from "./AudioPlayer";
 import BilingualText from "./BilingualText";
 import { renderBlanks } from "./BlankText";
+import { HL_COLORS, highlightEvidence, highlightPair, jumpToEvidence, type EvidenceItem } from "./Evidence";
 import { setPref, usePref } from "@/lib/storage";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
@@ -54,8 +55,25 @@ export default function GroupView({
   const allRevealed = group.questions.every((q) => isRevealed(q.number));
   const hasVi = passages.some((p) => p.vi);
   // Part 6: chỗ trống hiện thành nhãn số câu; đã chọn thì điền luôn đáp án, bấm để nhảy tới câu
-  const blanks = (text: string, lang: "en" | "vi" = "en"): ReactNode =>
-    part === 6 ? renderBlanks(text, { questions: group.questions, answers, isRevealed, lang }) : text;
+  // Part 7: sau khi làm xong cả đoạn, tô dẫn chứng của mỗi câu một màu (màu của số câu)
+  const hlClass = new Map<number, string>();
+  if (part === 7 && allRevealed)
+    group.questions.forEach((q, i) => {
+      if (q.evidence?.length) hlClass.set(q.number, `hl-${(i % HL_COLORS) + 1}`);
+    });
+  const evidenceItems: EvidenceItem[] = group.questions
+    .filter((q) => hlClass.has(q.number))
+    .map((q) => ({ n: q.number, spans: q.evidence!, cls: hlClass.get(q.number)! }));
+  const blanks = (text: string, lang: "en" | "vi" = "en", pairEn?: string): ReactNode =>
+    part === 6
+      ? renderBlanks(text, { questions: group.questions, answers, isRevealed, lang })
+      : !evidenceItems.length
+        ? text
+        : lang === "en"
+          ? highlightEvidence(text, evidenceItems)
+          : pairEn
+            ? highlightPair(text, pairEn, evidenceItems)
+            : text;
 
   // Màn hình rộng (2 cột): cột trái dính lại và có thanh cuộn riêng, câu hỏi cuộn bên phải.
   // Mặc định: dưới menu (56px) + thanh audio dính của GroupView nếu có.
@@ -139,6 +157,7 @@ export default function GroupView({
               revealed={isRevealed(q.number)}
               flagged={flagged?.has(q.number)}
               onToggleFlag={onToggleFlag}
+              hlClass={hlClass.get(q.number)}
             />
           ))}
         </div>
@@ -154,6 +173,7 @@ function QuestionCard({
   revealed,
   flagged,
   onToggleFlag,
+  hlClass,
 }: {
   q: Question;
   selected?: Letter;
@@ -161,6 +181,8 @@ function QuestionCard({
   revealed: boolean;
   flagged?: boolean;
   onToggleFlag?: (n: number) => void;
+  /** Màu dẫn chứng (Part 7) — số câu tô cùng màu với đoạn dẫn chứng trong bài */
+  hlClass?: string;
 }) {
   // Part 1–2: câu hỏi & đáp án chỉ được đọc trong audio, không in ra đề
   const spokenOnly = q.part <= 2;
@@ -169,15 +191,41 @@ function QuestionCard({
   const locked = !onSelect || revealed;
 
   return (
-    <div id={`q-${q.number}`} className="scroll-mt-24 rounded-xl border border-line bg-surface p-4">
+    <div
+      id={`q-${q.number}`}
+      // Part 7 đã chấm: viền trái cùng màu với dẫn chứng của câu
+      style={hlClass ? { borderLeftColor: `var(--${hlClass})` } : undefined}
+      className={`scroll-mt-24 rounded-xl border border-line bg-surface p-4 ${hlClass ? "border-l-[6px]" : ""}`}
+    >
       <div className="flex items-start gap-3">
-        <span className="grid size-8 shrink-0 place-items-center rounded-full bg-primary-soft text-sm font-bold text-primary">
-          {q.number}
-        </span>
+        {hlClass ? (
+          <button
+            type="button"
+            onClick={() => jumpToEvidence(q.number)}
+            title="Xem dẫn chứng trong bài đọc"
+            className={`grid size-8 shrink-0 place-items-center rounded-full text-sm font-bold text-fg ring-1 ring-fg/20 ${hlClass}`}
+          >
+            {q.number}
+          </button>
+        ) : (
+          <span className="grid size-8 shrink-0 place-items-center rounded-full bg-primary-soft text-sm font-bold text-primary">
+            {q.number}
+          </span>
+        )}
         <div className="flex-1 pt-1 font-medium">
-          {showText && questionText ? <span className="prose-pre">{questionText}</span> : spokenOnly && !revealed ? (
+          {showText && questionText ? (
+            hlClass ? (
+              <mark className={`prose-pre rounded px-1 py-0.5 text-inherit [box-decoration-break:clone] ${hlClass}`}>{questionText}</mark>
+            ) : (
+              <span className="prose-pre">{questionText}</span>
+            )
+          ) : spokenOnly && !revealed ? (
             <span className="text-muted">{q.part === 1 ? "Chọn câu mô tả đúng nhất bức tranh." : "Nghe câu hỏi và chọn câu trả lời phù hợp."}</span>
           ) : null}
+          {/* song ngữ: bản dịch câu hỏi, chỉ hiện khi đã có đáp án */}
+          {revealed && showText && questionText && q.questionVi && (
+            <div className="mt-1 text-sm font-normal text-primary">{q.questionVi}</div>
+          )}
         </div>
         {onToggleFlag && (
           <button

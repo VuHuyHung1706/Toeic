@@ -16,7 +16,7 @@ export default function BilingualText({
   en: string;
   vi: string;
   /** Tuỳ biến cách hiển thị từng câu (vd. điền đáp án vào chỗ trống Part 6) */
-  renderText?: (s: string, lang: "en" | "vi") => ReactNode;
+  renderText?: (s: string, lang: "en" | "vi", pairEn?: string) => ReactNode;
 }) {
   const pairs = useMemo(() => alignBilingual(en, vi), [en, vi]);
   return (
@@ -35,7 +35,7 @@ export default function BilingualText({
                 {renderText(enText, "en")}
               </p>
             )}
-            {viText && <p className="text-primary">{renderText(viText, "vi")}</p>}
+            {viText && <p className="text-primary">{renderText(viText, "vi", enText)}</p>}
           </div>
         );
       })}

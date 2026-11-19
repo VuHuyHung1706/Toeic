@@ -22,6 +22,10 @@ export interface Question {
   /** Nghĩa tiếng Việt (+ loại từ nếu có) của từng phương án — hiện song ngữ dưới đáp án sau khi làm.
    *  meaning có thể rỗng khi giải thích chỉ ghi loại từ. */
   optionNotes?: Partial<Record<Letter, { pos: string[]; meaning: string }>>;
+  /** Part 2, 3, 4, 7: bản dịch tiếng Việt của câu hỏi (hiện song ngữ sau khi làm) */
+  questionVi?: string;
+  /** Part 7: các đoạn nguyên văn trong bài đọc làm dẫn chứng cho câu này */
+  evidence?: string[];
 }
 
 export interface Passage {

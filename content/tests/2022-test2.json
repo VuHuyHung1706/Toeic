@@ -359,10 +359,11 @@
         "C": "At the new corner newsstand."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Ai nên viết bản thông cáo báo chí?",
+       "explanation": "",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai nên viết bản thông cáo báo chí?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -403,10 +404,11 @@
         "C": "In Berlin, Germany."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Trụ sở chính của công ty ở đâu?",
+       "explanation": "",
        "tags": [
         "where"
        ],
+       "questionVi": "Trụ sở chính của công ty ở đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -447,10 +449,11 @@
         "C": "The Dubai airport"
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Tại sao bạn lại đến thăm khách hàng vào ngày mai?",
+       "explanation": "",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao bạn lại đến thăm khách hàng vào ngày mai?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -491,10 +494,11 @@
         "C": "An annual exam."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Tiến sĩ Allen làm việc tại bệnh viện hay tại một phòng khám tư nhân?",
+       "explanation": "",
        "tags": [
         "choice"
        ],
+       "questionVi": "Tiến sĩ Allen làm việc tại bệnh viện hay tại một phòng khám tư nhân?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -535,10 +539,11 @@
         "C": "Let's take a look at the train schedule."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Cách tốt nhất để chúng ta đến phòng hội nghị là gì?",
+       "explanation": "",
        "tags": [
         "what"
        ],
+       "questionVi": "Cách tốt nhất để chúng ta đến phòng hội nghị là gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -579,10 +584,11 @@
         "C": "Several pairs."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Khi nào xe nâng sẽ được sửa chữa?",
+       "explanation": "",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào xe nâng sẽ được sửa chữa?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -623,10 +629,11 @@
         "C": "Do you accept credit cards?"
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Bạn có muốn tôi gửi nhắc nhở cuộc hẹn cho bạn không?",
+       "explanation": "",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có muốn tôi gửi nhắc nhở cuộc hẹn cho bạn không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -667,10 +674,11 @@
         "C": "She should have been here by now."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Bạn có nhớ đặt chụp hình cho buổi khai trương bảo tàng hôm nay không?",
+       "explanation": "",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn có nhớ đặt chụp hình cho buổi khai trương bảo tàng hôm nay không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -711,10 +719,11 @@
         "C": "Next year's computer seminar."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Tại sao máy tính của tôi hôm nay chạy chậm thế?",
+       "explanation": "",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao máy tính của tôi hôm nay chạy chậm thế?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -755,10 +764,11 @@
         "C": "To make room for more items."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Ai sẽ xếp hàng vào những kệ này?",
+       "explanation": "",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai sẽ xếp hàng vào những kệ này?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -799,10 +809,11 @@
         "C": "It stays fresh for a long time."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Những máy này có thể sản xuất bao nhiêu chai mỗi giờ?",
+       "explanation": "",
        "tags": [
         "how"
        ],
+       "questionVi": "Những máy này có thể sản xuất bao nhiêu chai mỗi giờ?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -843,10 +854,11 @@
         "C": "No, we haven't met yet."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Chẳng phải những đôi giày leo núi này nên được giảm giá sao?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chẳng phải những đôi giày leo núi này nên được giảm giá sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -887,10 +899,11 @@
         "C": "It's a beautiful trail."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Chúng ta có đủ thời gian để hoàn thành báo cáo này không?",
+       "explanation": "",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Chúng ta có đủ thời gian để hoàn thành báo cáo này không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -931,10 +944,11 @@
         "C": "They delivered the package."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Bạn thường bắt đầu đóng gói cho chuyến đi vào lúc nào?",
+       "explanation": "",
        "tags": [
         "when"
        ],
+       "questionVi": "Bạn thường bắt đầu đóng gói cho chuyến đi vào lúc nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -975,10 +989,11 @@
         "C": "A copy of the lunch menu."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Tôi sẽ đi bộ vào giờ ăn trưa.",
+       "explanation": "",
        "tags": [
         "statement"
        ],
+       "questionVi": "Tôi sẽ đi bộ vào giờ ăn trưa.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1019,10 +1034,11 @@
         "C": "Sure, no problem."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Bạn có thể đảm bảo rằng chúng ta có một bảng đăng ký sẵn sàng không?\nC. Chắc chắn, không vấn đề gì.",
+       "explanation": "C. Chắc chắn, không vấn đề gì.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể đảm bảo rằng chúng ta có một bảng đăng ký sẵn sàng không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1063,10 +1079,11 @@
         "C": "I'd better remind them about that."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Họ sẽ phát cho mỗi người trong chúng ta bản sao thông cáo báo chí, phải không?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Họ sẽ phát cho mỗi người trong chúng ta bản sao thông cáo báo chí, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1107,10 +1124,11 @@
         "C": "Yes, the living room furniture's new."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Hầu hết mọi người làm nghề gì quanh đây?\nC. Đúng, đồ nội thất phòng khách mới.",
+       "explanation": "C. Đúng, đồ nội thất phòng khách mới.",
        "tags": [
         "what"
        ],
+       "questionVi": "Hầu hết mọi người làm nghề gì quanh đây?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1147,11 +1165,16 @@
         "C": "The instructions are on the box."
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Làm thế nào để bạn thêm mực in vào máy in?\nA. Không, nó không được làm bằng đá.",
+       "explanation": "",
        "tags": [
         "how"
        ],
+       "questionVi": "Làm thế nào để bạn thêm mực in vào máy in?",
        "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Không, nó không được làm bằng đá."
+        },
         "B": {
          "pos": [],
          "meaning": "Bởi vì chúng tôi đã hết."
@@ -1187,10 +1210,11 @@
         "C": "Sure, I'll drive you to the job site."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Bạn có thể gửi cho tôi một liên kết đến Trang web của công ty đó không?",
+       "explanation": "",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể gửi cho tôi một liên kết đến Trang web của công ty đó không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1231,10 +1255,11 @@
         "C": "Hair products are in aisle four."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Điều hòa không được cài đặt để tắt vào ban đêm sao?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Điều hòa không được cài đặt để tắt vào ban đêm sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1275,10 +1300,11 @@
         "C": "They took an early flight."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Ồ, trong phòng này không có đồng hồ.",
+       "explanation": "",
        "tags": [
         "statement"
        ],
+       "questionVi": "Ồ, trong phòng này không có đồng hồ.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1319,10 +1345,11 @@
         "C": "In April of every year."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Tôi có thể đi đâu để kiểm tra động cơ xe của mình?",
+       "explanation": "",
        "tags": [
         "where"
        ],
+       "questionVi": "Tôi có thể đi đâu để kiểm tra động cơ xe của mình?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1363,10 +1390,11 @@
         "C": "The exit is down the hall."
        },
        "answer": "B",
-       "explanation": "Câu hỏi: Để vào tòa nhà, tôi sử dụng thẻ ID hay mã truy cập?",
+       "explanation": "",
        "tags": [
         "choice"
        ],
+       "questionVi": "Để vào tòa nhà, tôi sử dụng thẻ ID hay mã truy cập?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1407,10 +1435,11 @@
         "C": "Yes, he does."
        },
        "answer": "A",
-       "explanation": "Câu hỏi: Đơn hàng vẫn có thể được thay đổi, phải không?",
+       "explanation": "",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Đơn hàng vẫn có thể được thay đổi, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1974,12 +2003,16 @@
         "D": "An e-mail system is not functioning properly"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D (An e-mail system is not functioning properly) vì:\n1. Người phụ nữ nói: \"The system seems to be running very slow. We've been experiencing long delays in receiving e-mails\" (Hệ thống có vẻ đang chạy rất chậm. Chúng tôi đang gặp phải sự chậm trễ lâu trong việc nhận email).\n2. Điều này chỉ ra rõ ràng rằng hệ thống email đang gặp vấn đề.\nDịch các đáp án:\nB. Một lô hàng không được giao đúng hạn",
+       "explanation": "Đáp án đúng là D (An e-mail system is not functioning properly) vì:\n1. Người phụ nữ nói: \"The system seems to be running very slow. We've been experiencing long delays in receiving e-mails\" (Hệ thống có vẻ đang chạy rất chậm. Chúng tôi đang gặp phải sự chậm trễ lâu trong việc nhận email).\n2. Điều này chỉ ra rõ ràng rằng hệ thống email đang gặp vấn đề.",
        "tags": [],
        "optionNotes": {
         "A": {
          "pos": [],
          "meaning": "Một sổ tay công ty chứa một số lỗi"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một lô hàng không được giao đúng hạn"
         },
         "C": {
          "pos": [],
@@ -4644,12 +4677,16 @@
         "D": "A process will be less efficient"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A (A role needs to be filled) vì:\n1. Người nói nói rằng trong quá khứ, Mary Jenkins luôn quản lý gian hàng của họ, nhưng bà ấy đã nghỉ hưu.\n2. Sau đó, cô ấy khuyến khích người nghe liên hệ nếu họ muốn làm việc tại hội chợ.\n3. Điều này ngụ ý rằng vai trò của Ms. Jenkins cần được thay thế.\nDịch các đáp án:\nB. Một email sẽ không được trả lời",
+       "explanation": "Đáp án đúng là A (A role needs to be filled) vì:\n1. Người nói nói rằng trong quá khứ, Mary Jenkins luôn quản lý gian hàng của họ, nhưng bà ấy đã nghỉ hưu.\n2. Sau đó, cô ấy khuyến khích người nghe liên hệ nếu họ muốn làm việc tại hội chợ.\n3. Điều này ngụ ý rằng vai trò của Ms. Jenkins cần được thay thế.",
        "tags": [],
        "optionNotes": {
         "A": {
          "pos": [],
          "meaning": "Một vai trò cần được lấp đầy"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Một email sẽ không được trả lời"
         },
         "C": {
          "pos": [],
@@ -7824,7 +7861,11 @@
          "pos": [],
          "meaning": "Trong một lớp học đại học"
         }
-       }
+       },
+       "evidence": [
+        "WHAT'S GOING ON HERE?",
+        "Work in progress: Commercial"
+       ]
       },
       {
        "number": 148,
@@ -7852,7 +7893,11 @@
          "pos": [],
          "meaning": "Để xác nhận một ngày"
         }
-       }
+       },
+       "evidence": [
+        "To report a problem at this work site, call 919-555-0134",
+        "All work permits are on file with the Department of Planning"
+       ]
       }
      ]
     },
@@ -7927,7 +7972,10 @@
          "pos": [],
          "meaning": "Đăng ký học nhạc"
         }
-       }
+       },
+       "evidence": [
+        "Audience members will have an opportunity to ask questions"
+       ]
       },
       {
        "number": 151,
@@ -7955,7 +8003,10 @@
          "pos": [],
          "meaning": "tin tưởng"
         }
-       }
+       },
+       "evidence": [
+        "The event will conclude with the orchestra performing works by some of today's well-known musicians and song writers"
+       ]
       }
      ]
     },
@@ -8001,7 +8052,10 @@
          "pos": [],
          "meaning": "nhà phát triển phần mềm"
         }
-       }
+       },
+       "evidence": [
+        "Ship With Us"
+       ]
       },
       {
        "number": 153,
@@ -8029,7 +8083,10 @@
          "pos": [],
          "meaning": "Anh ấy đã nhận được email của Ms. Ruiz"
         }
-       }
+       },
+       "evidence": [
+        "Your account number is X58292], right?"
+       ]
       }
      ]
     },
@@ -8075,7 +8132,11 @@
          "pos": [],
          "meaning": "Nó chỉ sửa chữa xe được sản xuất tại địa phương"
         }
-       }
+       },
+       "evidence": [
+        "Serving Manchester for 20 years!",
+        "all makes and models of cars and trucks, both foreign and domestic"
+       ]
       },
       {
        "number": 155,
@@ -8103,7 +8164,11 @@
          "pos": [],
          "meaning": "tài xế xe tải"
         }
-       }
+       },
+       "evidence": [
+        "Interested in selling your car?",
+        "Call us now!"
+       ]
       }
      ]
     },
@@ -8178,7 +8243,10 @@
          "pos": [],
          "meaning": "Một buổi hội thảo thông tin sẽ được tổ chức"
         }
-       }
+       },
+       "evidence": [
+        "They will be securely shredded and recycled on the spot"
+       ]
       },
       {
        "number": 158,
@@ -8193,7 +8261,10 @@
        "answer": "B",
        "explanation": "Đáp án đúng là B ([2]). Giải thích:\n1. Câu \"Simply drive up and drop them off\" (Chỉ cần lái xe đến và bỏ chúng xuống) mô tả cách thức người dân có thể tham gia sự kiện.\n2. Vị trí [2] nằm ngay sau câu \"Bring any unneeded bank statements, tax documents, and bills\" (Mang theo bất kỳ bảng sao kê ngân hàng, tài liệu thuế và hóa đơn không cần thiết nào).\n3. Đặt câu này ở vị trí [2] sẽ tạo ra một luồng thông tin logic: người dân được hướng dẫn mang tài liệu đến, sau đó được chỉ dẫn cách thức giao nộp tài liệu.\nCác vị trí khác không phù hợp:\nA. [1]: Đặt câu này ở vị trí [1] sẽ tách rời nó khỏi thông tin về việc mang tài liệu đến.\nC. [3]: Vị trí này quá xa so với thông tin về việc mang tài liệu đến.\nD. [4]: Vị trí này ở cuối thông báo, không phù hợp với mục đích hướng dẫn cách tham gia sự kiện.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "Bring any unneeded bank statements, tax documents, and bills"
+       ]
       }
      ]
     },
@@ -8239,7 +8310,10 @@
          "pos": [],
          "meaning": "gia hạn một đăng ký"
         }
-       }
+       },
+       "evidence": [
+        "complete a three-minute survey to rate your time with us"
+       ]
       },
       {
        "number": 160,
@@ -8267,7 +8341,10 @@
          "pos": [],
          "meaning": "Cung cấp mã giảm giá cho kỳ nghỉ khách sạn trong tương lai"
         }
-       }
+       },
+       "evidence": [
+        "To thank you for participating, we will enter your name in our monthly raffle to win a complimentary two-night stay at one of our hotels"
+       ]
       }
      ]
     },
@@ -8314,7 +8391,11 @@
          "pos": [],
          "meaning": "Khi có người bảo vệ đi cùng"
         }
-       }
+       },
+       "evidence": [
+        "Your clean, dry storage unit is available to you around the clock",
+        "around the clock"
+       ]
       },
       {
        "number": 162,
@@ -8342,7 +8423,11 @@
          "pos": [],
          "meaning": "Xuất trình giấy tờ tùy thân cho bảo vệ"
         }
-       }
+       },
+       "evidence": [
+        "each customer is given a pass code.",
+        "Our secure electronic gate can be released only by entering this code"
+       ]
       },
       {
        "number": 163,
@@ -8370,7 +8455,10 @@
          "pos": [],
          "meaning": "Bằng cách đồng ý thuê một đơn vị cho năm thứ hai"
         }
-       }
+       },
+       "evidence": [
+        "And now, get 20 percent off with a twelve-month rental of our largest type of unit!"
+       ]
       }
      ]
     },
@@ -8418,7 +8506,10 @@
          "pos": [],
          "meaning": "vào tháng Mười Hai"
         }
-       }
+       },
+       "evidence": [
+        "Gamer Arcades and fast-food franchise Frankie's Burgers have announced a new partnership, which will formally start at the beginning of August"
+       ]
       },
       {
        "number": 165,
@@ -8446,7 +8537,11 @@
          "pos": [],
          "meaning": "Nó đang chờ sự chấp thuận của cổ đông"
         }
-       }
+       },
+       "evidence": [
+        "Until\nnow, there have been no food options on the premises",
+        "At that time, all Gamer Arcades will introduce a Frankic's Burgers to their locations."
+       ]
       },
       {
        "number": 166,
@@ -8474,7 +8569,10 @@
          "pos": [],
          "meaning": "Chủ sở hữu của một công ty sản xuất game"
         }
-       }
+       },
+       "evidence": [
+        "Ingram has made to the company since he took over from Justine Beckerman last November"
+       ]
       },
       {
        "number": 167,
@@ -8502,7 +8600,10 @@
          "pos": [],
          "meaning": "Ông ấy chuyển trụ sở chính đến Đức"
         }
-       }
+       },
+       "evidence": [
+        "A month after assuming the role of president, he brought virtual reality games to Gamer Arcades"
+       ]
       }
      ]
     },
@@ -8550,7 +8651,10 @@
          "pos": [],
          "meaning": "Trở thành giám khảo liên hoan phim"
         }
-       }
+       },
+       "evidence": [
+        "Earthsky Films International is seeking a distributor for our latest production, Project Aerial"
+       ]
       },
       {
        "number": 169,
@@ -8578,7 +8682,10 @@
          "pos": [],
          "meaning": "Nó được tài trợ bởi một hãng hàng không"
         }
-       }
+       },
+       "evidence": [
+        "Our film, Project Aerial, examines an exciting period in aviation history that began more than 150 years ago"
+       ]
       },
       {
        "number": 170,
@@ -8606,7 +8713,12 @@
          "pos": [],
          "meaning": "Họ đã cùng làm việc trong nhiều bộ phim"
         }
-       }
+       },
+       "evidence": [
+        "The two lead roles are played by Winston Halsey and Virgil Golding, figures that are familiar to international audiences",
+        "Golding is known for his role in, among others, The Rigby Conspiracy, and Mr.",
+        "Halsey is recognized for his performance in Whereabouts Unknown"
+       ]
       },
       {
        "number": 171,
@@ -8621,7 +8733,10 @@
        "answer": "C",
        "explanation": "Đáp án đúng là C ([3]). Giải thích:\n1. Câu \"Both have received critical acclaim over the years\" (Cả hai đều đã nhận được sự khen ngợi của giới phê bình trong nhiều năm) nói về Winston Halsey và Virgil Golding.\n2. Vị trí [3] nằm ngay sau câu giới thiệu về hai diễn viên này: \"The two lead roles are played by Winston Halsey and Virgil Golding, figures that are familiar to international audiences.\"\n3. Đặt câu này ở vị trí [3] sẽ tạo ra một luồng thông tin logic: giới thiệu hai diễn viên, nói về sự nổi tiếng của họ, sau đó đưa ra ví dụ cụ thể về các bộ phim họ đã tham gia.\nCác vị trí khác không phù hợp:\nA. [1]: Đặt câu này ở vị trí [1] sẽ tách rời nó khỏi thông tin về hai diễn viên.\nB. [2]: Vị trí này nằm trong phần nói về nội dung của bộ phim, không liên quan đến diễn viên.\nD. [4]: Vị trí này ở cuối thư, quá xa so với phần giới thiệu về diễn viên.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "The two lead roles are played by Winston Halsey and Virgil Golding, figures that are familiar to international audiences"
+       ]
       }
      ]
     },
@@ -8669,7 +8784,10 @@
          "pos": [],
          "meaning": "một studio nhiếp ảnh"
         }
-       }
+       },
+       "evidence": [
+        "what is important to potential customers"
+       ]
       },
       {
        "number": 173,
@@ -8697,7 +8815,10 @@
          "pos": [],
          "meaning": "vào thứ Sáu"
         }
-       }
+       },
+       "evidence": [
+        "I need help with the focus group with the photographers that is taking place on Thursday morning"
+       ]
       },
       {
        "number": 174,
@@ -8725,7 +8846,10 @@
          "pos": [],
          "meaning": "Anh ấy là thành viên có nhiều kinh nghiệm nhất trong nhóm"
         }
-       }
+       },
+       "evidence": [
+        "I've never led a focus group before, but I'm happy to do it"
+       ]
       },
       {
        "number": 175,
@@ -8753,7 +8877,13 @@
          "pos": [],
          "meaning": "Một nhóm tập trung có thể được lên lịch lại"
         }
-       }
+       },
+       "evidence": [
+        "How many copies will be needed?",
+        "Actually, there's no need.",
+        "I have copies left over from another group I ran last Tuesday.",
+        "They re still on my desk"
+       ]
       }
      ]
     },
@@ -8802,7 +8932,11 @@
          "pos": [],
          "meaning": "Cải thiện màu sắc và hương vị của sản phẩm"
         }
-       }
+       },
+       "evidence": [
+        "vacuum-microwave dehydration process",
+        "moisture is removed from the pieces by microwave energy"
+       ]
       },
       {
        "number": 177,
@@ -8830,7 +8964,10 @@
          "pos": [],
          "meaning": "tăng cường"
         }
-       }
+       },
+       "evidence": [
+        "The dried pieces retain their color, taste, and nutrition"
+       ]
       },
       {
        "number": 178,
@@ -8858,7 +8995,10 @@
          "pos": [],
          "meaning": "Nó được thành lập một năm trước"
         }
-       }
+       },
+       "evidence": [
+        "instant stew mixes"
+       ]
       },
       {
        "number": 179,
@@ -8886,7 +9026,11 @@
          "pos": [],
          "meaning": "Để yêu cầu thay thế một máy"
         }
-       }
+       },
+       "evidence": [
+        "Please let me know if you have any suggestions for resolving this issue in a timely manner",
+        "I always prefer to handle minor repairs on my own"
+       ]
       },
       {
        "number": 180,
@@ -8914,7 +9058,10 @@
          "pos": [],
          "meaning": "Nó cần được làm sạch thường xuyên hơn"
         }
-       }
+       },
+       "evidence": [
+        "we began to notice an increase in processing time"
+       ]
       }
      ]
     },
@@ -8963,7 +9110,12 @@
          "pos": [],
          "meaning": "Chúng được xây dựng khắp New Zealand"
         }
-       }
+       },
+       "evidence": [
+        "has built dozens of houses in Gore composed almost entirely of reclaimed, recovered, or found materials",
+        "Old fencing, discarded bottles, corks, mismatched bricks and tiles-nothing gets overlooked",
+        "houses can be built for a fraction of the price"
+       ]
       },
       {
        "number": 182,
@@ -8991,7 +9143,10 @@
          "pos": [],
          "meaning": "nộp các bản thiết kế"
         }
-       }
+       },
+       "evidence": [
+        "He works solely with homeowners who already know how to operate power tools and are willing to do some of the hands-on work themselves"
+       ]
       },
       {
        "number": 183,
@@ -9019,7 +9174,10 @@
          "pos": [],
          "meaning": "Đọc đánh giá từ khách hàng hài lòng"
         }
-       }
+       },
+       "evidence": [
+        "Ybor's Web site, featuring photos of his projects, can be found at yborhabitats.co.nz"
+       ]
       },
       {
        "number": 184,
@@ -9047,7 +9205,10 @@
          "pos": [],
          "meaning": "Xây một ngôi nhà mới"
         }
-       }
+       },
+       "evidence": [
+        "I want to add an extension to my current house"
+       ]
       },
       {
        "number": 185,
@@ -9075,7 +9236,12 @@
          "pos": [],
          "meaning": "Lựa chọn vật liệu"
         }
-       }
+       },
+       "evidence": [
+        "With a waiting list of at least a year, Mr.",
+        "Ybor is able to carefully select his clients",
+        "I would like to start as early as next month"
+       ]
       }
      ]
     },
@@ -9124,7 +9290,10 @@
          "pos": [],
          "meaning": "Để giới thiệu một đồng nghiệp mới"
         }
-       }
+       },
+       "evidence": [
+        "Hagit Caspi will be visiting for a couple of days next week"
+       ]
       },
       {
        "number": 187,
@@ -9152,7 +9321,10 @@
          "pos": [],
          "meaning": "Bữa tối vào ngày 23 tháng 10"
         }
-       }
+       },
+       "evidence": [
+        "add the events marked CFA to your calendar"
+       ]
       },
       {
        "number": 188,
@@ -9180,7 +9352,11 @@
          "pos": [],
          "meaning": "Để hỏi chi tiết về công việc"
         }
-       }
+       },
+       "evidence": [
+        "thank you for your offer, which I received this morning.",
+        "I would be honoured to take on the role of executive vice president of CFA starting in January"
+       ]
       },
       {
        "number": 189,
@@ -9236,7 +9412,11 @@
          "pos": [],
          "meaning": "Nó vẫn cần một bản mô tả công việc"
         }
-       }
+       },
+       "evidence": [
+        "I would be honoured to take on the role of executive vice president of CFA starting in January",
+        "The job description covers everything we discussed"
+       ]
       }
      ]
     },
@@ -9285,7 +9465,10 @@
          "pos": [],
          "meaning": "Nó đã xây dựng 400 trạm PRO dọc theo Đường cao tốc 1"
         }
-       }
+       },
+       "evidence": [
+        "A testing location will open at the beginning of next month in Logred"
+       ]
       },
       {
        "number": 192,
@@ -9324,7 +9507,10 @@
          "pos": [],
          "meaning": "Để đề xuất một quan hệ đối tác mới"
         }
-       }
+       },
+       "evidence": [
+        "I suggest adding air-conditioning to the waiting areas in that region"
+       ]
       },
       {
        "number": 194,
@@ -9352,7 +9538,10 @@
          "pos": [],
          "meaning": "hệ thống chiếu sáng"
         }
-       }
+       },
+       "evidence": [
+        "poor cell service along Highway 1 will make the wireless networks at most PRO stations unreliable, so we will need a technological solution for that as well"
+       ]
       },
       {
        "number": 195,
@@ -9444,7 +9633,11 @@
          "pos": [],
          "meaning": "Một bức ảnh đã được xuất bản trước đó"
         }
-       }
+       },
+       "evidence": [
+        "I will need to get a direct quotation from either of you or from Chef Vaux.",
+        "I know from working with Pinetown Weekly in the past that they will not run a piece like this without at least one quotation"
+       ]
       },
       {
        "number": 198,
@@ -9472,7 +9665,11 @@
          "pos": [],
          "meaning": "một chuỗi siêu thị"
         }
-       }
+       },
+       "evidence": [
+        "an aromatic cup of coffee or steaming espresso, specialty pastries, and savory café fare",
+        "a gathering place that indulges all the senses"
+       ]
       },
       {
        "number": 199,
@@ -9500,7 +9697,10 @@
          "pos": [],
          "meaning": "Để gặp ông Roytenberg"
         }
-       }
+       },
+       "evidence": [
+        "I would like to take photos of the space"
+       ]
       },
       {
        "number": 200,
@@ -9528,7 +9728,11 @@
          "pos": [],
          "meaning": "Nơi ở hiện tại của ông Roytenberg"
         }
-       }
+       },
+       "evidence": [
+        "you have mixed up the location of our corporate office and the café.",
+        "The café is actually on the corner of Avenue C and Maple Street"
+       ]
       }
      ]
     }

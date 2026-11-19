@@ -257,10 +257,11 @@
         "C": "Yes, his flight has been arranged."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về nguồn cung cấp hoa.\nDịch câu hỏi: Ai đang cung cấp các bố trí hoa cho bữa tiệc?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về nguồn cung cấp hoa.",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai đang cung cấp các bố trí hoa cho bữa tiệc?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -301,10 +302,11 @@
         "C": "I was meeting with a client"
        },
        "answer": "C",
-       "explanation": "Đáp án C giải thích lý do không hoàn thành báo cáo ngân sách.\nDịch câu hỏi: Tại sao bạn không hoàn thành báo cáo ngân sách?",
+       "explanation": "Đáp án C giải thích lý do không hoàn thành báo cáo ngân sách.",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao bạn không hoàn thành báo cáo ngân sách?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -345,10 +347,11 @@
         "C": "That painting will look nice there."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về tầng lầu.\nDịch câu hỏi: Bạn đang đi đến tầng nào?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về tầng lầu.",
        "tags": [
         "what"
        ],
+       "questionVi": "Bạn đang đi đến tầng nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -389,10 +392,11 @@
         "C": "There's a manual in the drawer."
        },
        "answer": "C",
-       "explanation": "Đáp án C cung cấp thông tin hữu ích về cách thiết lập máy chiếu.\nDịch câu hỏi: Làm thế nào để tôi cài đặt máy chiếu này?",
+       "explanation": "Đáp án C cung cấp thông tin hữu ích về cách thiết lập máy chiếu.",
        "tags": [
         "how"
        ],
+       "questionVi": "Làm thế nào để tôi cài đặt máy chiếu này?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -433,10 +437,11 @@
         "C": "Polina gave the speech"
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về việc nhận thư thăng chức.\nDịch câu hỏi: Ai đã nhận được thư thăng chức của họ rồi?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về việc nhận thư thăng chức.",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai đã nhận được thư thăng chức của họ rồi?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -477,10 +482,11 @@
         "C": "The switch works fine."
        },
        "answer": "A",
-       "explanation": "Đáp án A gián tiếp giải thích lý do chưa đọc thông cáo báo chí.\nDịch câu hỏi: Bạn đã đọc thông cáo báo chí chưa?",
+       "explanation": "Đáp án A gián tiếp giải thích lý do chưa đọc thông cáo báo chí.",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn đã đọc thông cáo báo chí chưa?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -521,10 +527,11 @@
         "C": "Yes, it was renewed for another six months."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về việc gia hạn đăng ký báo.\nDịch câu hỏi: Chúng ta đã không gia hạn đăng ký báo tháng trước sao?\nDịch đáp án:\nB. Đây là giấy cho bản tin của bạn.",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về việc gia hạn đăng ký báo.\nDịch đáp án:\nB. Đây là giấy cho bản tin của bạn.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chúng ta đã không gia hạn đăng ký báo tháng trước sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -561,10 +568,11 @@
         "C": "Because our accountant is on vacation."
        },
        "answer": "B",
-       "explanation": "Đáp án B gián tiếp trả lời câu hỏi bằng cách cho biết không cần thảo luận về nhu cầu ngân sách.\nDịch câu hỏi: Khi nào chúng ta sẽ đề cập đến nhu cầu ngân sách với điều phối viên tiếp cận?",
+       "explanation": "Đáp án B gián tiếp trả lời câu hỏi bằng cách cho biết không cần thảo luận về nhu cầu ngân sách.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào chúng ta sẽ đề cập đến nhu cầu ngân sách với điều phối viên tiếp cận?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -605,10 +613,11 @@
         "C": "Yes, and she'll see you in a minute"
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp xác nhận cuộc hẹn và cung cấp thông tin thêm.\nDịch câu hỏi: Cuộc hẹn của tôi là với Bác sĩ Hamdi hôm nay, đúng không?\nDịch đáp án:\nC. Đúng vậy, và cô ấy sẽ gặp bạn trong một phút nữa",
+       "explanation": "Đáp án C trực tiếp xác nhận cuộc hẹn và cung cấp thông tin thêm.\nDịch đáp án:\nC. Đúng vậy, và cô ấy sẽ gặp bạn trong một phút nữa",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Cuộc hẹn của tôi là với Bác sĩ Hamdi hôm nay, đúng không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -645,10 +654,11 @@
         "C": "Well, the supply room is full."
        },
        "answer": "C",
-       "explanation": "Đáp án C gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng nơi thường dùng để lưu trữ đã đầy.\nDịch câu hỏi: Tôi nên lưu trữ lô hàng giấy này ở đâu?",
+       "explanation": "Đáp án C gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng nơi thường dùng để lưu trữ đã đầy.",
        "tags": [
         "where"
        ],
+       "questionVi": "Tôi nên lưu trữ lô hàng giấy này ở đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -689,10 +699,11 @@
         "C": "The grass needs cutting."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về việc đổi lịch cắt tóc.\nDịch câu hỏi: Bạn có thể sắp xếp lại lịch cắt tóc của tôi vào thứ Hai được không?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về việc đổi lịch cắt tóc.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể sắp xếp lại lịch cắt tóc của tôi vào thứ Hai được không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -733,10 +744,11 @@
         "C": "No, I went to a training session."
        },
        "answer": "A",
-       "explanation": "Đáp án A cung cấp thông tin về vị trí bến xe buýt, gián tiếp gợi ý rằng tàu hỏa có thể là lựa chọn tốt hơn.\nDịch câu hỏi: Tôi nên đi tàu hay xe buýt đến sân bay?",
+       "explanation": "Đáp án A cung cấp thông tin về vị trí bến xe buýt, gián tiếp gợi ý rằng tàu hỏa có thể là lựa chọn tốt hơn.",
        "tags": [
         "choice"
        ],
+       "questionVi": "Tôi nên đi tàu hay xe buýt đến sân bay?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -777,10 +789,11 @@
         "C": "I'll take the blue jacket."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về thời gian hoàn thành khóa học trực tuyến.\nDịch câu hỏi: Khóa học trực tuyến sẽ mất bao lâu?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về thời gian hoàn thành khóa học trực tuyến.",
        "tags": [
         "how"
        ],
+       "questionVi": "Khóa học trực tuyến sẽ mất bao lâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -821,10 +834,11 @@
         "C": "Those should be printed in color."
        },
        "answer": "B",
-       "explanation": "Đáp án B gián tiếp gợi ý rằng buổi gặp mặt có thể không được tổ chức ở công viên do thời tiết lạnh.\nDịch câu hỏi: Buổi gặp mặt công ty tháng này sẽ được tổ chức ở Công viên Benson phải không?",
+       "explanation": "Đáp án B gián tiếp gợi ý rằng buổi gặp mặt có thể không được tổ chức ở công viên do thời tiết lạnh.",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Buổi gặp mặt công ty tháng này sẽ được tổ chức ở Công viên Benson phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -865,10 +879,11 @@
         "C": "25 euros"
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về thời gian nhận vé.\nDịch câu hỏi: Khi nào vé cho buổi biểu diễn sẽ sẵn sàng để nhận?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về thời gian nhận vé.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào vé cho buổi biểu diễn sẽ sẵn sàng để nhận?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -909,10 +924,11 @@
         "C": "A lunch appointment at 12.30."
        },
        "answer": "A",
-       "explanation": "Đáp án A gián tiếp gợi ý rằng vật liệu đóng gói có thể đã được đặt hàng.\nDịch câu hỏi: Tôi không biết liệu vật liệu đóng gói đã được đặt hàng chưa.",
+       "explanation": "Đáp án A gián tiếp gợi ý rằng vật liệu đóng gói có thể đã được đặt hàng.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Tôi không biết liệu vật liệu đóng gói đã được đặt hàng chưa.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -953,10 +969,11 @@
         "C": "Did you check the weather report?"
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp đáp ứng yêu cầu gửi báo cáo bán hàng.\nDịch câu hỏi: Bạn có thể gửi cho tôi báo cáo bán hàng được không?",
+       "explanation": "Đáp án B trực tiếp đáp ứng yêu cầu gửi báo cáo bán hàng.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể gửi cho tôi báo cáo bán hàng được không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -997,10 +1014,11 @@
         "C": "We're in complete agreement on that."
        },
        "answer": "B",
-       "explanation": "Đáp án B gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng người nói chưa thuê căn hộ.\nDịch câu hỏi: Căn hộ của bạn sẽ có tầm nhìn như thế nào?",
+       "explanation": "Đáp án B gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng người nói chưa thuê căn hộ.",
        "tags": [
         "what"
        ],
+       "questionVi": "Căn hộ của bạn sẽ có tầm nhìn như thế nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1041,10 +1059,11 @@
         "C": "We only use electric appliances."
        },
        "answer": "C",
-       "explanation": "Đáp án C gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng họ không sử dụng lò sưởi dầu.\nDịch câu hỏi: Lò sưởi của bạn sử dụng bao nhiêu dầu vào mùa đông?",
+       "explanation": "Đáp án C gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng họ không sử dụng lò sưởi dầu.",
        "tags": [
         "how"
        ],
+       "questionVi": "Lò sưởi của bạn sử dụng bao nhiêu dầu vào mùa đông?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1085,10 +1104,11 @@
         "C": "The library is closed on Sundays."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về vị trí của vitamin.\nDịch câu hỏi: Tôi có thể tìm vitamin ở đâu?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về vị trí của vitamin.",
        "tags": [
         "where"
        ],
+       "questionVi": "Tôi có thể tìm vitamin ở đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1129,10 +1149,11 @@
         "C": "The crates are still in the warehouse."
        },
        "answer": "A",
-       "explanation": "Đáp án A là phản hồi khiêm tốn và phù hợp nhất cho lời cảm ơn.\nDịch câu hỏi: Cảm ơn bạn đã giúp tôi tạo một cuộc khảo sát.",
+       "explanation": "Đáp án A là phản hồi khiêm tốn và phù hợp nhất cho lời cảm ơn.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Cảm ơn bạn đã giúp tôi tạo một cuộc khảo sát.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1173,10 +1194,11 @@
         "C": "It's about a two-hour drive from here."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian hoàn thành việc kiểm tra ứng dụng.\nDịch câu hỏi: Khi nào bạn sẽ hoàn thành việc kiểm tra ứng dụng di động mới?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian hoàn thành việc kiểm tra ứng dụng.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào bạn sẽ hoàn thành việc kiểm tra ứng dụng di động mới?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1217,10 +1239,11 @@
         "C": "Please distribute these handouts."
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất, hỏi về việc cất máy chiếu sau khi tắt.\nDịch câu hỏi: Đừng quên tắt máy chiếu sau bài thuyết trình của bạn.",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất, hỏi về việc cất máy chiếu sau khi tắt.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Đừng quên tắt máy chiếu sau bài thuyết trình của bạn.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1261,10 +1284,11 @@
         "C": "My car has a flat tire."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về sự tồn tại trước đây của bãi đỗ xe.\nDịch câu hỏi: Trước đây không có một bãi đỗ xe trên con đường này sao?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về sự tồn tại trước đây của bãi đỗ xe.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Trước đây không có một bãi đỗ xe trên con đường này sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1305,10 +1329,11 @@
         "C": "A daily schedule"
        },
        "answer": "A",
-       "explanation": "Đáp án A gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng thứ Sáu không khả dụng do có đào tạo bắt buộc.\nDịch câu hỏi: Bạn có rảnh để làm việc vào thứ Năm hoặc thứ Sáu không?",
+       "explanation": "Đáp án A gián tiếp trả lời câu hỏi bằng cách chỉ ra rằng thứ Sáu không khả dụng do có đào tạo bắt buộc.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có rảnh để làm việc vào thứ Năm hoặc thứ Sáu không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -2865,7 +2890,7 @@
         "D": "A workshop should be postponed."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Khi người phụ nữ đề cập đến việc một phần ba nhân viên sẽ tham gia từ xa, cô ấy ngụ ý rằng nếu tổ chức sự kiện tại một địa điểm cụ thể, những nhân viên làm việc từ xa có thể cảm thấy bị loại trừ.\nTrích dẫn: \"Everyone needs to feel equally included.\"\nCác đáp án dịch sang tiếng Việt:\nC. Một địa điểm không có kích thước phù hợp.\nCâu hỏi dịch: Người phụ nữ ngụ ý gì khi cô ấy nói \"Gần một phần ba nhân viên của chúng ta sẽ tham gia từ xa\"?",
+       "explanation": "Đáp án đúng là B.\nGiải thích: Khi người phụ nữ đề cập đến việc một phần ba nhân viên sẽ tham gia từ xa, cô ấy ngụ ý rằng nếu tổ chức sự kiện tại một địa điểm cụ thể, những nhân viên làm việc từ xa có thể cảm thấy bị loại trừ.\nTrích dẫn: \"Everyone needs to feel equally included.\"\nCác đáp án dịch sang tiếng Việt:\nCâu hỏi dịch: Người phụ nữ ngụ ý gì khi cô ấy nói \"Gần một phần ba nhân viên của chúng ta sẽ tham gia từ xa\"?",
        "tags": [],
        "optionNotes": {
         "A": {
@@ -2875,6 +2900,10 @@
         "B": {
          "pos": [],
          "meaning": "Một số nhân viên có thể cảm thấy bị loại trừ."
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Một địa điểm không có kích thước phù hợp."
         },
         "D": {
          "pos": [],
@@ -6430,7 +6459,7 @@
          "pos": [
           "adj"
          ],
-         "meaning": "tính từ: chính xác"
+         "meaning": "chính xác"
         }
        }
       }
@@ -6917,7 +6946,7 @@
         "D": "dedication"
        },
        "answer": "C",
-       "explanation": "Câu hỏi: Wanner Manufacturing nhận được Giải thưởng Nhà tuyển dụng Hàng đầu năm nay để ---- môi trường làm việc lấy con người làm trung tâm của họ.\nB. accordance (phù hợp - danh từ)\nĐáp án đúng là C (recognition)\nGiải thích ngữ pháp:\n- Câu này yêu cầu một danh từ để hoàn thành cụm giới từ \"in [noun] of\".\n- \"Recognition\" là danh từ có nghĩa là \"sự công nhận\" hoặc \"sự ghi nhận\".\n- Cấu trúc \"in recognition of\" là một cụm giới từ phổ biến được sử dụng để giải thích lý do trao giải hoặc khen ngợi.\n- Nó phù hợp với ngữ cảnh của việc trao giải thưởng để công nhận thành tích hoặc đặc điểm tích cực.\nVai trò trong câu: Một phần của cụm giới từ bổ nghĩa, giải thích lý do nhận giải thưởng.",
+       "explanation": "Câu hỏi: Wanner Manufacturing nhận được Giải thưởng Nhà tuyển dụng Hàng đầu năm nay để ---- môi trường làm việc lấy con người làm trung tâm của họ.\nĐáp án đúng là C (recognition)\nGiải thích ngữ pháp:\n- Câu này yêu cầu một danh từ để hoàn thành cụm giới từ \"in [noun] of\".\n- \"Recognition\" là danh từ có nghĩa là \"sự công nhận\" hoặc \"sự ghi nhận\".\n- Cấu trúc \"in recognition of\" là một cụm giới từ phổ biến được sử dụng để giải thích lý do trao giải hoặc khen ngợi.\n- Nó phù hợp với ngữ cảnh của việc trao giải thưởng để công nhận thành tích hoặc đặc điểm tích cực.\nVai trò trong câu: Một phần của cụm giới từ bổ nghĩa, giải thích lý do nhận giải thưởng.",
        "tags": [
         "vocabulary"
        ],
@@ -6927,6 +6956,12 @@
           "n"
          ],
          "meaning": "phục vụ - danh từ"
+        },
+        "B": {
+         "pos": [
+          "n"
+         ],
+         "meaning": "phù hợp - danh từ"
         },
         "C": {
          "pos": [
@@ -7114,7 +7149,7 @@
         "D": "Your experience and skill set make you a great fit."
        },
        "answer": "D",
-       "explanation": "D. Your experience and skill set make you a great fit. (Kinh nghiệm và kỹ năng của bạn khiến bạn rất phù hợp.)\nĐáp án đúng là D (Your experience and skill set make you a great fit).\nGiải thích: Câu này phù hợp nhất với ngữ cảnh của email. Nó giải thích lý do tại sao công ty muốn đề nghị Naomi Richter một vị trí khác, mặc dù họ đã chọn một ứng viên khác cho vị trí ban đầu. Nó cũng phù hợp với giọng điệu tích cực và khuyến khích của email.\nCác lựa chọn khác không phù hợp với nội dung và mục đích của email, vì chúng hoặc mâu thuẫn với thông tin đã cung cấp (như lựa chọn B), hoặc không liên quan đến ngữ cảnh (như lựa chọn A và C).",
+       "explanation": "Đáp án đúng là D (Your experience and skill set make you a great fit).\nGiải thích: Câu này phù hợp nhất với ngữ cảnh của email. Nó giải thích lý do tại sao công ty muốn đề nghị Naomi Richter một vị trí khác, mặc dù họ đã chọn một ứng viên khác cho vị trí ban đầu. Nó cũng phù hợp với giọng điệu tích cực và khuyến khích của email.\nCác lựa chọn khác không phù hợp với nội dung và mục đích của email, vì chúng hoặc mâu thuẫn với thông tin đã cung cấp (như lựa chọn B), hoặc không liên quan đến ngữ cảnh (như lựa chọn A và C).",
        "tags": [],
        "optionNotes": {
         "A": {
@@ -7128,6 +7163,10 @@
         "C": {
          "pos": [],
          "meaning": "Trợ lý của tôi sẽ lên lịch cho cuộc phỏng vấn thứ hai của bạn."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Kinh nghiệm và kỹ năng của bạn khiến bạn rất phù hợp."
         }
        }
       },
@@ -7675,8 +7714,9 @@
         "D": "Apartment residents"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. Apartment residents (Cư dân căn hộ). Giải thích:\nThông báo này nhắm đến cư dân căn hộ vì các lý do sau:\n1. Nó được đề cập là \"part of our routine maintenance of Selino Apartments\" (một phần bảo trì thường xuyên của Căn hộ Selino), cho thấy đây là thông tin cho người sống trong tòa nhà.\n2. Thông báo cung cấp lịch trình chi tiết về việc sơn các khu vực công cộng, điều này quan trọng đối với cư dân.\n3. Có hướng dẫn cụ thể cho cư dân: \"Please use caution, and do not touch any wet paint\" (Vui lòng cẩn thận và không chạm vào sơn ướt).\n4. Thông báo được ký bởi \"Management, Selino Apartments\" (Ban quản lý, Căn hộ Selino), cho thấy đây là thông tin từ ban quản lý gửi đến cư dân.\nDịch câu hỏi: Thông báo này có khả năng nhất là dành cho ai?",
+       "explanation": "Đáp án đúng là D. Apartment residents (Cư dân căn hộ). Giải thích:\nThông báo này nhắm đến cư dân căn hộ vì các lý do sau:\n1. Nó được đề cập là \"part of our routine maintenance of Selino Apartments\" (một phần bảo trì thường xuyên của Căn hộ Selino), cho thấy đây là thông tin cho người sống trong tòa nhà.\n2. Thông báo cung cấp lịch trình chi tiết về việc sơn các khu vực công cộng, điều này quan trọng đối với cư dân.\n3. Có hướng dẫn cụ thể cho cư dân: \"Please use caution, and do not touch any wet paint\" (Vui lòng cẩn thận và không chạm vào sơn ướt).\n4. Thông báo được ký bởi \"Management, Selino Apartments\" (Ban quản lý, Căn hộ Selino), cho thấy đây là thông tin từ ban quản lý gửi đến cư dân.",
        "tags": [],
+       "questionVi": "Thông báo này có khả năng nhất là dành cho ai?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7694,7 +7734,12 @@
          "pos": [],
          "meaning": "cư dân căn hộ"
         }
-       }
+       },
+       "evidence": [
+        "part of our routine maintenance of Selino Apartments",
+        "Please use caution, and do not touch any wet paint",
+        "Management, Selino Apartments"
+       ]
       },
       {
        "number": 148,
@@ -7707,8 +7752,9 @@
         "D": "On April 15"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. On April 14 (Vào ngày 14 tháng 4). Giải thích:\nTheo lịch trình được cung cấp trong thông báo:\n1. Cầu thang tầng một và hai sẽ được sơn vào ngày 12 tháng 4.\n2. Cầu thang tầng ba và bốn sẽ được sơn vào ngày 14 tháng 4.\nVì vậy, công việc sơn cầu thang ở tất cả các tầng sẽ được hoàn thành vào ngày 14 tháng 4. Đây là ngày cuối cùng được đề cập cho việc sơn cầu thang.\nDịch câu hỏi: Khi nào công việc trên cầu thang của tất cả các tầng có khả năng được hoàn thành nhất?",
+       "explanation": "Đáp án đúng là C. On April 14 (Vào ngày 14 tháng 4). Giải thích:\nTheo lịch trình được cung cấp trong thông báo:\n1. Cầu thang tầng một và hai sẽ được sơn vào ngày 12 tháng 4.\n2. Cầu thang tầng ba và bốn sẽ được sơn vào ngày 14 tháng 4.\nVì vậy, công việc sơn cầu thang ở tất cả các tầng sẽ được hoàn thành vào ngày 14 tháng 4. Đây là ngày cuối cùng được đề cập cho việc sơn cầu thang.",
        "tags": [],
+       "questionVi": "Khi nào công việc trên cầu thang của tất cả các tầng có khả năng được hoàn thành nhất?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7757,8 +7803,9 @@
         "D": "By attending the opening day celebration"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. By ordering two meals (Bằng cách đặt hai bữa ăn). Giải thích:\nTheo thông tin trong văn bản: \"Purchase any two dinners and enjoy a complimentary appetizer platter during the entire month of May.\" (Mua bất kỳ hai bữa tối nào và thưởng thức một đĩa khai vị miễn phí trong suốt tháng 5).\nĐiều này chỉ ra rõ ràng rằng để nhận được lợi ích từ phiếu giảm giá (một đĩa khai vị miễn phí), khách hàng cần đặt hai bữa ăn.\nNgoài ra, văn bản cũng nêu rõ: \"Coupon does not apply to takeout orders.\" (Phiếu giảm giá không áp dụng cho đơn đặt hàng mang đi), loại trừ lựa chọn A.\nDịch câu hỏi: Làm thế nào mọi người có thể nhận được lợi ích từ phiếu giảm giá?",
+       "explanation": "Đáp án đúng là C. By ordering two meals (Bằng cách đặt hai bữa ăn). Giải thích:\nTheo thông tin trong văn bản: \"Purchase any two dinners and enjoy a complimentary appetizer platter during the entire month of May.\" (Mua bất kỳ hai bữa tối nào và thưởng thức một đĩa khai vị miễn phí trong suốt tháng 5).\nĐiều này chỉ ra rõ ràng rằng để nhận được lợi ích từ phiếu giảm giá (một đĩa khai vị miễn phí), khách hàng cần đặt hai bữa ăn.\nNgoài ra, văn bản cũng nêu rõ: \"Coupon does not apply to takeout orders.\" (Phiếu giảm giá không áp dụng cho đơn đặt hàng mang đi), loại trừ lựa chọn A.",
        "tags": [],
+       "questionVi": "Làm thế nào mọi người có thể nhận được lợi ích từ phiếu giảm giá?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7776,7 +7823,11 @@
          "pos": [],
          "meaning": "Bằng cách tham dự lễ khai trương"
         }
-       }
+       },
+       "evidence": [
+        "Purchase any two dinners and enjoy a complimentary appetizer platter during the entire month of May",
+        "Coupon does not apply to takeout orders"
+       ]
       },
       {
        "number": 150,
@@ -7789,8 +7840,9 @@
         "D": "It has expanded its hours of operation."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. It has more than one location (Nó có nhiều hơn một địa điểm). Giải thích:\nThông tin này được suy ra từ câu cuối cùng trong văn bản: \"Visit www.jin-hwagrill.com for a list of all our locations, hours of operation, and menus.\" (Truy cập www.jin-hwagrill.com để xem danh sách tất cả các chi nhánh, giờ hoạt động và thực đơn của chúng tôi).\nViệc đề cập đến \"all our locations\" (tất cả các chi nhánh của chúng tôi) ngụ ý rằng Jin-Hwa Grill có nhiều hơn một địa điểm.\nCác lựa chọn khác không được đề cập trực tiếp hoặc gián tiếp trong văn bản.\nDịch câu hỏi: Điều gì được đề cập về Jin-Hwa Grill?",
+       "explanation": "Đáp án đúng là B. It has more than one location (Nó có nhiều hơn một địa điểm). Giải thích:\nThông tin này được suy ra từ câu cuối cùng trong văn bản: \"Visit www.jin-hwagrill.com for a list of all our locations, hours of operation, and menus.\" (Truy cập www.jin-hwagrill.com để xem danh sách tất cả các chi nhánh, giờ hoạt động và thực đơn của chúng tôi).\nViệc đề cập đến \"all our locations\" (tất cả các chi nhánh của chúng tôi) ngụ ý rằng Jin-Hwa Grill có nhiều hơn một địa điểm.\nCác lựa chọn khác không được đề cập trực tiếp hoặc gián tiếp trong văn bản.",
        "tags": [],
+       "questionVi": "Điều gì được đề cập về Jin-Hwa Grill?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7808,7 +7860,11 @@
          "pos": [],
          "meaning": "Nó đã mở rộng giờ hoạt động."
         }
-       }
+       },
+       "evidence": [
+        "Visit www.jin-hwagrill.com for a list of all our locations, hours of operation, and menus",
+        "all our locations"
+       ]
       }
      ]
     },
@@ -7839,8 +7895,9 @@
         "D": "To confirm some spoken instructions"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. To confirm some spoken instructions (Để xác nhận một số hướng dẫn đã nói). Giải thích:\n1. Trong email, Ms. Balay viết: \"Regarding our telephone conversation earlier today, here in writing is the change I would like to make to Saturday's delivery.\" (Liên quan đến cuộc điện thoại của chúng ta hôm nay, đây là thay đổi tôi muốn thực hiện đối với việc giao hàng vào thứ Bảy.)\n2. Điều này cho thấy Ms. Balay đang xác nhận bằng văn bản những gì đã được thảo luận qua điện thoại trước đó.\n3. Email này không đề cập đến việc sắp xếp lại chuyến đi công tác, mời tham dự tiệc văn phòng hay yêu cầu dịch vụ thợ điện.\nDịch câu hỏi: Tại sao Ms. Balay gửi email cho Ms. Gil?",
+       "explanation": "Đáp án đúng là D. To confirm some spoken instructions (Để xác nhận một số hướng dẫn đã nói). Giải thích:\n1. Trong email, Ms. Balay viết: \"Regarding our telephone conversation earlier today, here in writing is the change I would like to make to Saturday's delivery.\" (Liên quan đến cuộc điện thoại của chúng ta hôm nay, đây là thay đổi tôi muốn thực hiện đối với việc giao hàng vào thứ Bảy.)\n2. Điều này cho thấy Ms. Balay đang xác nhận bằng văn bản những gì đã được thảo luận qua điện thoại trước đó.\n3. Email này không đề cập đến việc sắp xếp lại chuyến đi công tác, mời tham dự tiệc văn phòng hay yêu cầu dịch vụ thợ điện.",
        "tags": [],
+       "questionVi": "Tại sao Ms. Balay gửi email cho Ms. Gil?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7858,7 +7915,10 @@
          "pos": [],
          "meaning": "Để xác nhận một số hướng dẫn đã nói"
         }
-       }
+       },
+       "evidence": [
+        "Regarding our telephone conversation earlier today, here in writing is the change I would like to make to Saturday's delivery"
+       ]
       },
       {
        "number": 152,
@@ -7871,8 +7931,9 @@
         "D": "An updated cost estimate"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. Flowers (Hoa). Giải thích:\n1. Mặc dù không có thông tin trực tiếp về việc Ms. Balay mong đợi nhận được gì, chúng ta có thể suy ra từ ngữ cảnh:\n2. Email đề cập đến \"Saturday's delivery\" (việc giao hàng vào thứ Bảy) và yêu cầu \"receiving the delivery by 4:00 P.M.\" (nhận hàng trước 4:00 chiều).\n3. Nội dung email liên quan đến việc tổ chức một buổi tiệc văn phòng.\n4. Trong các lựa chọn đưa ra, hoa (flowers) là vật phẩm phổ biến nhất được giao cho các sự kiện như vậy.\n5. Các lựa chọn khác (vé, hợp đồng đã ký, ước tính chi phí cập nhật) ít có khả năng yêu cầu giao hàng vật lý vào một thời điểm cụ thể.\nDịch câu hỏi: Ms. Balay mong đợi nhận được gì vào chiều thứ Bảy?",
+       "explanation": "Đáp án đúng là A. Flowers (Hoa). Giải thích:\n1. Mặc dù không có thông tin trực tiếp về việc Ms. Balay mong đợi nhận được gì, chúng ta có thể suy ra từ ngữ cảnh:\n2. Email đề cập đến \"Saturday's delivery\" (việc giao hàng vào thứ Bảy) và yêu cầu \"receiving the delivery by 4:00 P.M.\" (nhận hàng trước 4:00 chiều).\n3. Nội dung email liên quan đến việc tổ chức một buổi tiệc văn phòng.\n4. Trong các lựa chọn đưa ra, hoa (flowers) là vật phẩm phổ biến nhất được giao cho các sự kiện như vậy.\n5. Các lựa chọn khác (vé, hợp đồng đã ký, ước tính chi phí cập nhật) ít có khả năng yêu cầu giao hàng vật lý vào một thời điểm cụ thể.",
        "tags": [],
+       "questionVi": "Ms. Balay mong đợi nhận được gì vào chiều thứ Bảy?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7890,7 +7951,10 @@
          "pos": [],
          "meaning": "Một ước tính chi phí cập nhật"
         }
-       }
+       },
+       "evidence": [
+        "receiving the delivery by 4:00 P.M"
+       ]
       }
      ]
     },
@@ -7921,8 +7985,9 @@
         "D": "An item is missing from her order."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. Her order has not arrived (Đơn hàng của cô ấy chưa đến). Giải thích:\n1. Trong cuộc trò chuyện, Ms. Kim nói: \"I ordered some gloves two weeks ago, and they still haven't arrived.\" (Tôi đã đặt một số đôi găng tay cách đây hai tuần, và chúng vẫn chưa đến.)\n2. Điều này trực tiếp chỉ ra rằng vấn đề của cô ấy là đơn hàng chưa được giao đến.\n3. Không có thông tin nào cho thấy cô ấy nhận sai đơn hàng, hàng bị hỏng trong quá trình vận chuyển, hay thiếu một món hàng nào đó.\nDịch câu hỏi: Vấn đề của cô Kim là gì?",
+       "explanation": "Đáp án đúng là B. Her order has not arrived (Đơn hàng của cô ấy chưa đến). Giải thích:\n1. Trong cuộc trò chuyện, Ms. Kim nói: \"I ordered some gloves two weeks ago, and they still haven't arrived.\" (Tôi đã đặt một số đôi găng tay cách đây hai tuần, và chúng vẫn chưa đến.)\n2. Điều này trực tiếp chỉ ra rằng vấn đề của cô ấy là đơn hàng chưa được giao đến.\n3. Không có thông tin nào cho thấy cô ấy nhận sai đơn hàng, hàng bị hỏng trong quá trình vận chuyển, hay thiếu một món hàng nào đó.",
        "tags": [],
+       "questionVi": "Vấn đề của cô Kim là gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7940,7 +8005,10 @@
          "pos": [],
          "meaning": "Một món hàng bị thiếu trong đơn hàng của cô ấy."
         }
-       }
+       },
+       "evidence": [
+        "I ordered some gloves two weeks ago, and they still haven't arrived"
+       ]
       },
       {
        "number": 154,
@@ -7953,8 +8021,9 @@
         "D": "He is confused about which style of gloves was ordered."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. He is surprised about the warehouse issue (Anh ấy ngạc nhiên về vấn đề ở kho hàng). Giải thích:\n1. Khi Mr. Long nói \"This is very unusual\", anh ấy đang đề cập đến việc đơn hàng đã được xử lý nhưng vẫn chưa rời khỏi kho hàng.\n2. Anh ấy nói: \"The system is showing that the order was fulfilled. I'm not sure why it hasn't left the warehouse yet.\" (Hệ thống đang hiển thị rằng đơn hàng đã được thực hiện. Tôi không chắc tại sao nó vẫn chưa rời khỏi kho.)\n3. Điều này cho thấy anh ấy ngạc nhiên về tình huống không bình thường này tại kho hàng.\nDịch câu hỏi: Lúc 9:26 sáng, ông Long có ý gì khi viết \"Điều này rất không bình thường\"?\nB. He is sorry about taking so long to answer Ms. Kim's question. (Anh ấy xin lỗi vì mất nhiều thời gian để trả lời câu hỏi của cô Kim.)",
+       "explanation": "Đáp án đúng là C. He is surprised about the warehouse issue (Anh ấy ngạc nhiên về vấn đề ở kho hàng). Giải thích:\n1. Khi Mr. Long nói \"This is very unusual\", anh ấy đang đề cập đến việc đơn hàng đã được xử lý nhưng vẫn chưa rời khỏi kho hàng.\n2. Anh ấy nói: \"The system is showing that the order was fulfilled. I'm not sure why it hasn't left the warehouse yet.\" (Hệ thống đang hiển thị rằng đơn hàng đã được thực hiện. Tôi không chắc tại sao nó vẫn chưa rời khỏi kho.)\n3. Điều này cho thấy anh ấy ngạc nhiên về tình huống không bình thường này tại kho hàng.\nB. He is sorry about taking so long to answer Ms. Kim's question. (Anh ấy xin lỗi vì mất nhiều thời gian để trả lời câu hỏi của cô Kim.)",
        "tags": [],
+       "questionVi": "Lúc 9:26 sáng, ông Long có ý gì khi viết \"Điều này rất không bình thường\"?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7968,7 +8037,12 @@
          "pos": [],
          "meaning": "Anh ấy bối rối về việc loại găng tay nào đã được đặt."
         }
-       }
+       },
+       "evidence": [
+        "This is very unusual",
+        "The system is showing that the order was fulfilled.",
+        "I'm not sure why it hasn't left the warehouse yet"
+       ]
       }
      ]
     },
@@ -8000,8 +8074,9 @@
         "D": "To provide information about a bank deposit"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. To ask a customer to confirm personal data (Để yêu cầu khách hàng xác nhận thông tin cá nhân). Giải thích:\n1. Email có tiêu đề \"Customer account security\" (Bảo mật tài khoản khách hàng).\n2. Ngay từ đầu email đã nêu rõ: \"For security reasons we need our customers to review their contact information with Velasco Bank every year.\" (Vì lý do bảo mật, chúng tôi cần khách hàng xem xét lại thông tin liên lạc của họ với Ngân hàng Velasco mỗi năm.)\n3. Email cung cấp hướng dẫn cụ thể về cách khách hàng có thể kiểm tra và cập nhật thông tin liên lạc của họ.\nDịch câu hỏi: Mục đích của email này là gì?",
+       "explanation": "Đáp án đúng là C. To ask a customer to confirm personal data (Để yêu cầu khách hàng xác nhận thông tin cá nhân). Giải thích:\n1. Email có tiêu đề \"Customer account security\" (Bảo mật tài khoản khách hàng).\n2. Ngay từ đầu email đã nêu rõ: \"For security reasons we need our customers to review their contact information with Velasco Bank every year.\" (Vì lý do bảo mật, chúng tôi cần khách hàng xem xét lại thông tin liên lạc của họ với Ngân hàng Velasco mỗi năm.)\n3. Email cung cấp hướng dẫn cụ thể về cách khách hàng có thể kiểm tra và cập nhật thông tin liên lạc của họ.",
        "tags": [],
+       "questionVi": "Mục đích của email này là gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8019,7 +8094,11 @@
          "pos": [],
          "meaning": "Để cung cấp thông tin về khoản tiền gửi ngân hàng"
         }
-       }
+       },
+       "evidence": [
+        "Customer account security",
+        "For security reasons we need our customers to review their contact information with Velasco Bank every year"
+       ]
       },
       {
        "number": 156,
@@ -8032,8 +8111,9 @@
         "D": "Install a mobile app"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. Go to the bank's Web site (Truy cập trang web của ngân hàng). Giải thích:\n1. Email nêu rõ: \"If you are not yet enrolled in digital banking, we recommend doing so online at www.velascobank.com/myaccount.\" (Nếu bạn chưa đăng ký ngân hàng số, chúng tôi khuyên bạn nên làm điều đó trực tuyến tại www.velascobank.com/myaccount.)\n2. Điều này trực tiếp chỉ ra rằng để đăng ký ngân hàng số, khách hàng nên truy cập trang web của ngân hàng.\n3. Không có hướng dẫn nào về việc liên hệ với đại diện dịch vụ khách hàng, ghé thăm chi nhánh ngân hàng địa phương, hay cài đặt ứng dụng di động để đăng ký ngân hàng số.\nDịch câu hỏi: Theo email, khách hàng nên làm gì để đăng ký ngân hàng số?",
+       "explanation": "Đáp án đúng là A. Go to the bank's Web site (Truy cập trang web của ngân hàng). Giải thích:\n1. Email nêu rõ: \"If you are not yet enrolled in digital banking, we recommend doing so online at www.velascobank.com/myaccount.\" (Nếu bạn chưa đăng ký ngân hàng số, chúng tôi khuyên bạn nên làm điều đó trực tuyến tại www.velascobank.com/myaccount.)\n2. Điều này trực tiếp chỉ ra rằng để đăng ký ngân hàng số, khách hàng nên truy cập trang web của ngân hàng.\n3. Không có hướng dẫn nào về việc liên hệ với đại diện dịch vụ khách hàng, ghé thăm chi nhánh ngân hàng địa phương, hay cài đặt ứng dụng di động để đăng ký ngân hàng số.",
        "tags": [],
+       "questionVi": "Theo email, khách hàng nên làm gì để đăng ký ngân hàng số?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8051,7 +8131,10 @@
          "pos": [],
          "meaning": "Cài đặt ứng dụng di động"
         }
-       }
+       },
+       "evidence": [
+        "If you are not yet enrolled in digital banking, we recommend doing so online at www.velascobank.com/myaccount"
+       ]
       },
       {
        "number": 157,
@@ -8066,7 +8149,10 @@
        "answer": "B",
        "explanation": "Đáp án đúng là B. [2]. Giải thích:\n1. Câu \"This can be done in one of two ways.\" (Điều này có thể được thực hiện theo một trong hai cách.) phù hợp nhất ở vị trí [2].\n2. Vị trí này nằm ngay trước câu: \"You may check your information on our Web site at www.velascobank.com, or you can do so on the Velasco Bank mobile app.\" (Bạn có thể kiểm tra thông tin của mình trên trang web của chúng tôi tại www.velascobank.com, hoặc bạn có thể làm điều đó trên ứng dụng di động Velasco Bank.)\n3. Câu này giới thiệu hai cách để khách hàng kiểm tra thông tin của họ, phù hợp với nội dung của câu cần chèn vào.\n4. Các vị trí khác không phù hợp về mặt ngữ cảnh để chèn câu này vào.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "You may check your information on our Web site at www.velascobank.com, or you can do so on the Velasco Bank mobile app"
+       ]
       }
      ]
     },
@@ -8098,8 +8184,9 @@
         "D": "It allows customers to tour its workshop."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Its founder handles telephone inquiries (Người sáng lập xử lý các cuộc gọi điện thoại). Giải thích:\n1. Đoạn văn nêu rõ: \"Now semiretired, Mr. Sumner still takes orders and responds to questions himself through the company's customer-service telephone line at 901-555-0185 on Thursdays and Fridays.\" (Hiện đã nghỉ hưu một phần, ông Sumner vẫn nhận đơn đặt hàng và tự trả lời câu hỏi qua đường dây dịch vụ khách hàng của công ty theo số 901-555-0185 vào Thứ Năm và Thứ Sáu.)\n2. Điều này cho thấy rằng người sáng lập, ông Sumner, vẫn trực tiếp xử lý các cuộc gọi điện thoại từ khách hàng.\n3. Không có thông tin về giá cả cạnh tranh, giao hàng miễn phí ở Memphis, hay cho phép khách hàng tham quan xưởng.\nDịch câu hỏi: Điều gì được đề cập về Sumner Woodcrafting?",
+       "explanation": "Đáp án đúng là C. Its founder handles telephone inquiries (Người sáng lập xử lý các cuộc gọi điện thoại). Giải thích:\n1. Đoạn văn nêu rõ: \"Now semiretired, Mr. Sumner still takes orders and responds to questions himself through the company's customer-service telephone line at 901-555-0185 on Thursdays and Fridays.\" (Hiện đã nghỉ hưu một phần, ông Sumner vẫn nhận đơn đặt hàng và tự trả lời câu hỏi qua đường dây dịch vụ khách hàng của công ty theo số 901-555-0185 vào Thứ Năm và Thứ Sáu.)\n2. Điều này cho thấy rằng người sáng lập, ông Sumner, vẫn trực tiếp xử lý các cuộc gọi điện thoại từ khách hàng.\n3. Không có thông tin về giá cả cạnh tranh, giao hàng miễn phí ở Memphis, hay cho phép khách hàng tham quan xưởng.",
        "tags": [],
+       "questionVi": "Điều gì được đề cập về Sumner Woodcrafting?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8117,7 +8204,11 @@
          "pos": [],
          "meaning": "Nó cho phép khách hàng tham quan xưởng."
         }
-       }
+       },
+       "evidence": [
+        "Now semiretired, Mr.",
+        "Sumner still takes orders and responds to questions himself through the company's customer-service telephone line at 901-555-0185 on Thursdays and Fridays"
+       ]
       },
       {
        "number": 159,
@@ -8130,8 +8221,9 @@
         "D": "agreeable"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. skillful (khéo léo, tài giỏi). Giải thích:\n1. Trong ngữ cảnh của câu \"Because our master crafters do exceptionally fine work, our customers never regret spending a bit more for pieces built to last for generations.\" (Bởi vì các thợ thủ công bậc thầy của chúng tôi làm việc đặc biệt tỉ mỉ, khách hàng của chúng tôi không bao giờ hối tiếc khi chi thêm một chút cho những món đồ được làm để tồn tại qua nhiều thế hệ.)\n2. Từ \"fine\" ở đây được sử dụng để mô tả chất lượng công việc của các thợ thủ công bậc thầy.\n3. Trong ngữ cảnh này, \"fine\" có nghĩa là \"skillful\" (khéo léo, tài giỏi), chỉ ra rằng công việc được thực hiện với kỹ năng và chuyên môn cao.\n4. Các lựa chọn khác không phù hợp với ngữ cảnh: \"small\" (nhỏ), \"sharp\" (sắc nét), \"agreeable\" (dễ chịu).\nDịch câu hỏi: Từ \"fine\" trong đoạn 2, dòng 2, có nghĩa gần nhất với:",
+       "explanation": "Đáp án đúng là C. skillful (khéo léo, tài giỏi). Giải thích:\n1. Trong ngữ cảnh của câu \"Because our master crafters do exceptionally fine work, our customers never regret spending a bit more for pieces built to last for generations.\" (Bởi vì các thợ thủ công bậc thầy của chúng tôi làm việc đặc biệt tỉ mỉ, khách hàng của chúng tôi không bao giờ hối tiếc khi chi thêm một chút cho những món đồ được làm để tồn tại qua nhiều thế hệ.)\n2. Từ \"fine\" ở đây được sử dụng để mô tả chất lượng công việc của các thợ thủ công bậc thầy.\n3. Trong ngữ cảnh này, \"fine\" có nghĩa là \"skillful\" (khéo léo, tài giỏi), chỉ ra rằng công việc được thực hiện với kỹ năng và chuyên môn cao.\n4. Các lựa chọn khác không phù hợp với ngữ cảnh: \"small\" (nhỏ), \"sharp\" (sắc nét), \"agreeable\" (dễ chịu).",
        "tags": [],
+       "questionVi": "Từ \"fine\" trong đoạn 2, dòng 2, có nghĩa gần nhất với:",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8149,7 +8241,10 @@
          "pos": [],
          "meaning": "dễ chịu"
         }
-       }
+       },
+       "evidence": [
+        "Because our master crafters do exceptionally fine work, our customers never regret spending a bit more for pieces built to last for generations"
+       ]
       },
       {
        "number": 160,
@@ -8162,8 +8257,9 @@
         "D": "They are usually ordered for offices."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. They are extremely long-lasting (Chúng cực kỳ bền lâu). Giải thích:\n1. Đoạn văn nêu rõ: \"our customers never regret spending a bit more for pieces built to last for generations.\" (khách hàng của chúng tôi không bao giờ hối tiếc khi chi thêm một chút cho những món đồ được làm để tồn tại qua nhiều thế hệ.)\n2. Cụm từ \"last for generations\" (tồn tại qua nhiều thế hệ) ngụ ý rằng sản phẩm của Sumner Woodcrafting cực kỳ bền lâu.\n3. Không có thông tin nào cho thấy sản phẩm chứa cả vật liệu tự nhiên và nhân tạo, yêu cầu lắp ráp sau khi giao hàng, hay thường được đặt hàng cho văn phòng.\nDịch câu hỏi: Điều gì được gợi ý về sản phẩm của Sumner Woodcrafting?",
+       "explanation": "Đáp án đúng là A. They are extremely long-lasting (Chúng cực kỳ bền lâu). Giải thích:\n1. Đoạn văn nêu rõ: \"our customers never regret spending a bit more for pieces built to last for generations.\" (khách hàng của chúng tôi không bao giờ hối tiếc khi chi thêm một chút cho những món đồ được làm để tồn tại qua nhiều thế hệ.)\n2. Cụm từ \"last for generations\" (tồn tại qua nhiều thế hệ) ngụ ý rằng sản phẩm của Sumner Woodcrafting cực kỳ bền lâu.\n3. Không có thông tin nào cho thấy sản phẩm chứa cả vật liệu tự nhiên và nhân tạo, yêu cầu lắp ráp sau khi giao hàng, hay thường được đặt hàng cho văn phòng.",
        "tags": [],
+       "questionVi": "Điều gì được gợi ý về sản phẩm của Sumner Woodcrafting?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8181,7 +8277,11 @@
          "pos": [],
          "meaning": "Chúng thường được đặt hàng cho văn phòng."
         }
-       }
+       },
+       "evidence": [
+        "our customers never regret spending a bit more for pieces built to last for generations",
+        "last for generations"
+       ]
       }
      ]
     },
@@ -8213,8 +8313,9 @@
         "D": "The changes in costs faced by producers"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. The changes in costs faced by producers (Những thay đổi về chi phí mà các nhà sản xuất phải đối mặt). Giải thích:\n1. Bài báo tập trung vào vấn đề \"instability in the pricing of raw materials\" (sự không ổn định trong giá cả nguyên liệu thô) và tác động của nó đối với các nhà sản xuất.\n2. Nó nêu rõ rằng đây là \"the biggest concern for manufacturers\" (mối quan tâm lớn nhất đối với các nhà sản xuất) trong thập kỷ qua.\n3. Bài viết cũng thảo luận về tác động của việc tăng giá nguyên liệu đối với chi phí sản xuất.\nDịch câu hỏi: Bài báo chủ yếu nói về điều gì?",
+       "explanation": "Đáp án đúng là D. The changes in costs faced by producers (Những thay đổi về chi phí mà các nhà sản xuất phải đối mặt). Giải thích:\n1. Bài báo tập trung vào vấn đề \"instability in the pricing of raw materials\" (sự không ổn định trong giá cả nguyên liệu thô) và tác động của nó đối với các nhà sản xuất.\n2. Nó nêu rõ rằng đây là \"the biggest concern for manufacturers\" (mối quan tâm lớn nhất đối với các nhà sản xuất) trong thập kỷ qua.\n3. Bài viết cũng thảo luận về tác động của việc tăng giá nguyên liệu đối với chi phí sản xuất.",
        "tags": [],
+       "questionVi": "Bài báo chủ yếu nói về điều gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8232,7 +8333,11 @@
          "pos": [],
          "meaning": "Những thay đổi về chi phí mà các nhà sản xuất phải đối mặt"
         }
-       }
+       },
+       "evidence": [
+        "instability in the pricing of raw materials",
+        "the biggest concern for manufacturers"
+       ]
       },
       {
        "number": 162,
@@ -8245,8 +8350,9 @@
         "D": "To make a comparison between industries"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. To make a comparison between industries (Để so sánh giữa các ngành công nghiệp). Giải thích:\n1. Tác giả đề cập đến các nhà sản xuất điện tử và so sánh họ với các nhà sản xuất thực phẩm chế biến.\n2. Cụ thể, bài viết nêu: \"For electronics manufacturers, materials typically represent 20 percent of all expenses, while makers of processed food can spend anywhere between 40 and 60 percent on materials.\" (Đối với các nhà sản xuất điện tử, nguyên liệu thường chiếm 20 phần trăm tổng chi phí, trong khi các nhà sản xuất thực phẩm chế biến có thể chi từ 40 đến 60 phần trăm cho nguyên liệu.)\n3. Mục đích của so sánh này là để minh họa sự khác biệt về tác động của giá nguyên liệu đối với các ngành công nghiệp khác nhau.\nDịch câu hỏi: Tại sao tác giả đề cập đến các nhà sản xuất điện tử?\nC. To explain recent staffing difficulties (Để giải thích những khó khăn gần đây về nhân sự)",
+       "explanation": "Đáp án đúng là D. To make a comparison between industries (Để so sánh giữa các ngành công nghiệp). Giải thích:\n1. Tác giả đề cập đến các nhà sản xuất điện tử và so sánh họ với các nhà sản xuất thực phẩm chế biến.\n2. Cụ thể, bài viết nêu: \"For electronics manufacturers, materials typically represent 20 percent of all expenses, while makers of processed food can spend anywhere between 40 and 60 percent on materials.\" (Đối với các nhà sản xuất điện tử, nguyên liệu thường chiếm 20 phần trăm tổng chi phí, trong khi các nhà sản xuất thực phẩm chế biến có thể chi từ 40 đến 60 phần trăm cho nguyên liệu.)\n3. Mục đích của so sánh này là để minh họa sự khác biệt về tác động của giá nguyên liệu đối với các ngành công nghiệp khác nhau.\nC. To explain recent staffing difficulties (Để giải thích những khó khăn gần đây về nhân sự)",
        "tags": [],
+       "questionVi": "Tại sao tác giả đề cập đến các nhà sản xuất điện tử?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8260,7 +8366,10 @@
          "pos": [],
          "meaning": "Để so sánh giữa các ngành công nghiệp"
         }
-       }
+       },
+       "evidence": [
+        "For electronics manufacturers, materials typically represent 20 percent of all expenses, while makers of processed food can spend anywhere between 40 and 60 percent on materials"
+       ]
       },
       {
        "number": 163,
@@ -8273,8 +8382,9 @@
         "D": "combine"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. moderate (giảm bớt, làm dịu). Giải thích:\n1. Trong ngữ cảnh của câu \"Companies that can predict rising costs may be able to temper the effects of market volatility\" (Các công ty có thể dự đoán chi phí tăng có thể giảm bớt tác động của sự biến động thị trường)\n2. Từ \"temper\" ở đây được sử dụng để mô tả hành động làm giảm bớt hoặc kiểm soát tác động của sự biến động thị trường.\n3. Trong ngữ cảnh này, \"moderate\" (giảm bớt, làm dịu) là từ gần nghĩa nhất với \"temper\".\n4. Các lựa chọn khác không phù hợp với ngữ cảnh: \"set\" (đặt), \"toughen\" (làm cứng rắn), \"combine\" (kết hợp).\nDịch câu hỏi: Từ \"temper\" trong đoạn 2, dòng 9, có nghĩa gần nhất với:",
+       "explanation": "Đáp án đúng là C. moderate (giảm bớt, làm dịu). Giải thích:\n1. Trong ngữ cảnh của câu \"Companies that can predict rising costs may be able to temper the effects of market volatility\" (Các công ty có thể dự đoán chi phí tăng có thể giảm bớt tác động của sự biến động thị trường)\n2. Từ \"temper\" ở đây được sử dụng để mô tả hành động làm giảm bớt hoặc kiểm soát tác động của sự biến động thị trường.\n3. Trong ngữ cảnh này, \"moderate\" (giảm bớt, làm dịu) là từ gần nghĩa nhất với \"temper\".\n4. Các lựa chọn khác không phù hợp với ngữ cảnh: \"set\" (đặt), \"toughen\" (làm cứng rắn), \"combine\" (kết hợp).",
        "tags": [],
+       "questionVi": "Từ \"temper\" trong đoạn 2, dòng 9, có nghĩa gần nhất với:",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8292,7 +8402,10 @@
          "pos": [],
          "meaning": "kết hợp"
         }
-       }
+       },
+       "evidence": [
+        "Companies that can predict rising costs may be able to temper the effects of market volatility"
+       ]
       }
      ]
     },
@@ -8325,8 +8438,9 @@
         "D": "An upcoming movie based on a book"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. A presentation by a book author (Một buổi thuyết trình của tác giả sách). Giải thích:\n1. Thông báo nêu rõ: \"The Lowenstein Bookstore in Mission Bay invites you to this month's book discussion featuring author Hilda Flores.\" (Hiệu sách Lowenstein ở Mission Bay mời bạn tham dự buổi thảo luận sách tháng này có sự góp mặt của tác giả Hilda Flores.)\n2. Nó cũng đề cập: \"Ms. Flores will talk about her new novel, Grinding the Gears.\" (Cô Flores sẽ nói về cuốn tiểu thuyết mới của cô, Grinding the Gears.)\n3. Đây rõ ràng là một buổi thuyết trình của tác giả sách, không phải là việc mở hiệu sách mới, mô tả dự án nghiên cứu, hay thông báo về bộ phim sắp ra mắt.\nDịch câu hỏi: Điều gì đang được thông báo?",
+       "explanation": "Đáp án đúng là B. A presentation by a book author (Một buổi thuyết trình của tác giả sách). Giải thích:\n1. Thông báo nêu rõ: \"The Lowenstein Bookstore in Mission Bay invites you to this month's book discussion featuring author Hilda Flores.\" (Hiệu sách Lowenstein ở Mission Bay mời bạn tham dự buổi thảo luận sách tháng này có sự góp mặt của tác giả Hilda Flores.)\n2. Nó cũng đề cập: \"Ms. Flores will talk about her new novel, Grinding the Gears.\" (Cô Flores sẽ nói về cuốn tiểu thuyết mới của cô, Grinding the Gears.)\n3. Đây rõ ràng là một buổi thuyết trình của tác giả sách, không phải là việc mở hiệu sách mới, mô tả dự án nghiên cứu, hay thông báo về bộ phim sắp ra mắt.",
        "tags": [],
+       "questionVi": "Điều gì đang được thông báo?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8344,7 +8458,11 @@
          "pos": [],
          "meaning": "Một bộ phim sắp ra mắt dựa trên một cuốn sách"
         }
-       }
+       },
+       "evidence": [
+        "The Lowenstein Bookstore in Mission Bay invites you to this month's book discussion featuring author Hilda Flores",
+        "Flores will talk about her new novel, Grinding the Gears"
+       ]
       },
       {
        "number": 165,
@@ -8357,8 +8475,9 @@
         "D": "A mystery novel"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. A mystery novel (Một cuốn tiểu thuyết trinh thám). Giải thích:\n1. Thông báo mô tả Grinding the Gears là \"The latest adventure in the popular Inspector Svensson series\" (Cuộc phiêu lưu mới nhất trong series Inspector Svensson nổi tiếng).\n2. Nó cũng nói rằng cuốn sách \"finds the beloved inspector investigating strange equipment malfunctions at a national physics research laboratory\" (kể về vị thanh tra được yêu mến điều tra các sự cố kỳ lạ của thiết bị tại một phòng thí nghiệm nghiên cứu vật lý quốc gia).\n3. Những mô tả này rõ ràng chỉ ra rằng đây là một cuốn tiểu thuyết trinh thám, không phải là sách phi hư cấu, tiểu sử hay tuyển tập truyện ngắn.\nDịch câu hỏi: Grinding the Gears là loại sách gì?",
+       "explanation": "Đáp án đúng là D. A mystery novel (Một cuốn tiểu thuyết trinh thám). Giải thích:\n1. Thông báo mô tả Grinding the Gears là \"The latest adventure in the popular Inspector Svensson series\" (Cuộc phiêu lưu mới nhất trong series Inspector Svensson nổi tiếng).\n2. Nó cũng nói rằng cuốn sách \"finds the beloved inspector investigating strange equipment malfunctions at a national physics research laboratory\" (kể về vị thanh tra được yêu mến điều tra các sự cố kỳ lạ của thiết bị tại một phòng thí nghiệm nghiên cứu vật lý quốc gia).\n3. Những mô tả này rõ ràng chỉ ra rằng đây là một cuốn tiểu thuyết trinh thám, không phải là sách phi hư cấu, tiểu sử hay tuyển tập truyện ngắn.",
        "tags": [],
+       "questionVi": "Grinding the Gears là loại sách gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8376,7 +8495,11 @@
          "pos": [],
          "meaning": "một cuốn tiểu thuyết trinh thám"
         }
-       }
+       },
+       "evidence": [
+        "The latest adventure in the popular Inspector Svensson series",
+        "finds the beloved inspector investigating strange equipment malfunctions at a national physics research laboratory"
+       ]
       },
       {
        "number": 166,
@@ -8389,8 +8512,9 @@
         "D": "It cannot be completed online."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. It closes on April 9 (Nó kết thúc vào ngày 9 tháng 4). Giải thích:\n1. Thông báo nêu rõ: \"The bookstore requires that attendees register at least one day in advance.\" (Hiệu sách yêu cầu người tham dự đăng ký trước ít nhất một ngày.)\n2. Sự kiện được tổ chức vào ngày 10 tháng 4, vì vậy hạn chót đăng ký sẽ là ngày 9 tháng 4.\n3. Không có thông tin về phí đăng ký, tính tùy chọn của việc đăng ký, hay phương thức đăng ký (online hay không).\nDịch câu hỏi: Điều gì được chỉ ra về việc đăng ký?",
+       "explanation": "Đáp án đúng là A. It closes on April 9 (Nó kết thúc vào ngày 9 tháng 4). Giải thích:\n1. Thông báo nêu rõ: \"The bookstore requires that attendees register at least one day in advance.\" (Hiệu sách yêu cầu người tham dự đăng ký trước ít nhất một ngày.)\n2. Sự kiện được tổ chức vào ngày 10 tháng 4, vì vậy hạn chót đăng ký sẽ là ngày 9 tháng 4.\n3. Không có thông tin về phí đăng ký, tính tùy chọn của việc đăng ký, hay phương thức đăng ký (online hay không).",
        "tags": [],
+       "questionVi": "Điều gì được chỉ ra về việc đăng ký?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8408,7 +8532,10 @@
          "pos": [],
          "meaning": "Nó không thể hoàn thành trực tuyến."
         }
-       }
+       },
+       "evidence": [
+        "The bookstore requires that attendees register at least one day in advance"
+       ]
       },
       {
        "number": 167,
@@ -8456,8 +8583,9 @@
         "D": "He is unsatisfied with the sound quality."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. He cannot move audio files to his computer (Anh ấy không thể chuyển các file âm thanh vào máy tính của mình). Giải thích:\n1. Trong email, ông Petrov nói: \"I am trying to transfer the audio files to my laptop, but I am not having any luck.\" (Tôi đang cố gắng chuyển các file âm thanh vào laptop của mình, nhưng không thành công.)\n2. Ông ấy cũng đề cập rằng đã thử nhiều cách khác nhau nhưng vẫn không thể chuyển file.\n3. Không có thông tin nào về việc không thích hình dạng của thiết bị, không thể đổi tên file, hay không hài lòng với chất lượng âm thanh.\nDịch câu hỏi: Vấn đề gì ông Petrov gặp phải với thiết bị của mình?",
+       "explanation": "Đáp án đúng là A. He cannot move audio files to his computer (Anh ấy không thể chuyển các file âm thanh vào máy tính của mình). Giải thích:\n1. Trong email, ông Petrov nói: \"I am trying to transfer the audio files to my laptop, but I am not having any luck.\" (Tôi đang cố gắng chuyển các file âm thanh vào laptop của mình, nhưng không thành công.)\n2. Ông ấy cũng đề cập rằng đã thử nhiều cách khác nhau nhưng vẫn không thể chuyển file.\n3. Không có thông tin nào về việc không thích hình dạng của thiết bị, không thể đổi tên file, hay không hài lòng với chất lượng âm thanh.",
        "tags": [],
+       "questionVi": "Vấn đề gì ông Petrov gặp phải với thiết bị của mình?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8475,7 +8603,10 @@
          "pos": [],
          "meaning": "Anh ấy không hài lòng với chất lượng âm thanh."
         }
-       }
+       },
+       "evidence": [
+        "I am trying to transfer the audio files to my laptop, but I am not having any luck"
+       ]
       },
       {
        "number": 169,
@@ -8488,8 +8619,9 @@
         "D": "To inquire about compatible accessories"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. To explain that he obtained additional information (Để giải thích rằng anh ấy đã tìm thêm thông tin). Giải thích:\n1. Ông Petrov nói: \"I have followed all the instructions in the user manual as well as the tips found in the FAQ section of the product's Web page.\" (Tôi đã làm theo tất cả các hướng dẫn trong sách hướng dẫn sử dụng cũng như các mẹo được tìm thấy trong phần FAQ của trang web sản phẩm.)\n2. Điều này cho thấy ông ấy đã tìm kiếm thêm thông tin trên trang web sản phẩm, cụ thể là trong phần FAQ.\n3. Không có đề cập nào về hình ảnh gây hiểu nhầm, đề xuất thay đổi mô tả sản phẩm, hay hỏi về phụ kiện tương thích.\nDịch câu hỏi: Tại sao ông Petrov đề cập đến một trang web?\nB. To explain that he obtained additional information (Để giải thích rằng anh ấy đã tìm thêm thông tin)",
+       "explanation": "Đáp án đúng là B. To explain that he obtained additional information (Để giải thích rằng anh ấy đã tìm thêm thông tin). Giải thích:\n1. Ông Petrov nói: \"I have followed all the instructions in the user manual as well as the tips found in the FAQ section of the product's Web page.\" (Tôi đã làm theo tất cả các hướng dẫn trong sách hướng dẫn sử dụng cũng như các mẹo được tìm thấy trong phần FAQ của trang web sản phẩm.)\n2. Điều này cho thấy ông ấy đã tìm kiếm thêm thông tin trên trang web sản phẩm, cụ thể là trong phần FAQ.\n3. Không có đề cập nào về hình ảnh gây hiểu nhầm, đề xuất thay đổi mô tả sản phẩm, hay hỏi về phụ kiện tương thích.\nB. To explain that he obtained additional information (Để giải thích rằng anh ấy đã tìm thêm thông tin)",
        "tags": [],
+       "questionVi": "Tại sao ông Petrov đề cập đến một trang web?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8503,7 +8635,10 @@
          "pos": [],
          "meaning": "Để hỏi về các phụ kiện tương thích"
         }
-       }
+       },
+       "evidence": [
+        "I have followed all the instructions in the user manual as well as the tips found in the FAQ section of the product's Web page"
+       ]
       },
       {
        "number": 170,
@@ -8516,8 +8651,9 @@
         "D": "report on"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. report on (báo cáo về). Giải thích:\n1. Trong ngữ cảnh của câu \"I am supposed to cover the remaining two days of this conference for work\", từ \"cover\" được sử dụng với nghĩa \"báo cáo\" hoặc \"theo dõi và ghi lại thông tin\".\n2. Ông Petrov đang tham dự hội nghị để thu thập thông tin cho công việc, như được thể hiện qua câu tiếp theo: \"My business partners expect me to return with as much information as I can.\"\n3. Các nghĩa khác của \"cover\" như \"bảo vệ\", \"chứa đựng\", hay \"kéo dài\" không phù hợp với ngữ cảnh này.\nDịch câu hỏi: Từ \"cover\" trong đoạn 2, dòng 1, có nghĩa gần nhất với:",
+       "explanation": "Đáp án đúng là D. report on (báo cáo về). Giải thích:\n1. Trong ngữ cảnh của câu \"I am supposed to cover the remaining two days of this conference for work\", từ \"cover\" được sử dụng với nghĩa \"báo cáo\" hoặc \"theo dõi và ghi lại thông tin\".\n2. Ông Petrov đang tham dự hội nghị để thu thập thông tin cho công việc, như được thể hiện qua câu tiếp theo: \"My business partners expect me to return with as much information as I can.\"\n3. Các nghĩa khác của \"cover\" như \"bảo vệ\", \"chứa đựng\", hay \"kéo dài\" không phù hợp với ngữ cảnh này.",
        "tags": [],
+       "questionVi": "Từ \"cover\" trong đoạn 2, dòng 1, có nghĩa gần nhất với:",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8535,7 +8671,11 @@
          "pos": [],
          "meaning": "báo cáo về"
         }
-       }
+       },
+       "evidence": [
+        "I am supposed to cover the remaining two days of this conference for work",
+        "My business partners expect me to return with as much information as I can"
+       ]
       },
       {
        "number": 171,
@@ -8548,8 +8688,9 @@
         "D": "He will soon receive a new laptop from his company."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. He will share conference material with his colleagues (Anh ấy sẽ chia sẻ tài liệu hội nghị với đồng nghiệp). Giải thích:\n1. Ông Petrov nói: \"My business partners expect me to return with as much information as I can.\" (Các đối tác kinh doanh của tôi mong đợi tôi trở về với càng nhiều thông tin càng tốt.)\n2. Điều này ngụ ý rằng ông ấy sẽ chia sẻ thông tin từ hội nghị với đồng nghiệp (đối tác kinh doanh) của mình.\n3. Không có thông tin nào cho thấy ông ấy tình nguyện thử thiết bị, đang đi du lịch với đối tác kinh doanh, hay sẽ nhận laptop mới từ công ty.\nDịch câu hỏi: Điều gì đúng về ông Petrov?",
+       "explanation": "Đáp án đúng là C. He will share conference material with his colleagues (Anh ấy sẽ chia sẻ tài liệu hội nghị với đồng nghiệp). Giải thích:\n1. Ông Petrov nói: \"My business partners expect me to return with as much information as I can.\" (Các đối tác kinh doanh của tôi mong đợi tôi trở về với càng nhiều thông tin càng tốt.)\n2. Điều này ngụ ý rằng ông ấy sẽ chia sẻ thông tin từ hội nghị với đồng nghiệp (đối tác kinh doanh) của mình.\n3. Không có thông tin nào cho thấy ông ấy tình nguyện thử thiết bị, đang đi du lịch với đối tác kinh doanh, hay sẽ nhận laptop mới từ công ty.",
        "tags": [],
+       "questionVi": "Điều gì đúng về ông Petrov?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8567,7 +8708,10 @@
          "pos": [],
          "meaning": "Anh ấy sẽ sớm nhận được một laptop mới từ công ty."
         }
-       }
+       },
+       "evidence": [
+        "My business partners expect me to return with as much information as I can"
+       ]
       }
      ]
     },
@@ -8600,8 +8744,9 @@
         "D": "The amount she was charged for a service"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. The type of device she is trying to buy (Loại thiết bị mà cô ấy đang cố gắng mua). Giải thích:\n1. Trong cuộc trò chuyện, ông Menke hỏi: \"Are you referring to the little unit that attaches to your mobile phone or the larger, stand-alone tablet model?\" (Bạn đang đề cập đến thiết bị nhỏ gắn vào điện thoại di động của bạn hay mẫu máy tính bảng độc lập lớn hơn?)\n2. Câu hỏi này rõ ràng nhằm làm rõ loại thiết bị đọc thẻ tín dụng mà cô Burton đang muốn mua.\n3. Không có thông tin nào liên quan đến trải nghiệm với trang web, cách sạc điện thoại di động, hay số tiền bị tính phí cho một dịch vụ.\nDịch câu hỏi: Ông Menke yêu cầu cô Burton làm rõ điều gì?",
+       "explanation": "Đáp án đúng là A. The type of device she is trying to buy (Loại thiết bị mà cô ấy đang cố gắng mua). Giải thích:\n1. Trong cuộc trò chuyện, ông Menke hỏi: \"Are you referring to the little unit that attaches to your mobile phone or the larger, stand-alone tablet model?\" (Bạn đang đề cập đến thiết bị nhỏ gắn vào điện thoại di động của bạn hay mẫu máy tính bảng độc lập lớn hơn?)\n2. Câu hỏi này rõ ràng nhằm làm rõ loại thiết bị đọc thẻ tín dụng mà cô Burton đang muốn mua.\n3. Không có thông tin nào liên quan đến trải nghiệm với trang web, cách sạc điện thoại di động, hay số tiền bị tính phí cho một dịch vụ.",
        "tags": [],
+       "questionVi": "Ông Menke yêu cầu cô Burton làm rõ điều gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8619,7 +8764,10 @@
          "pos": [],
          "meaning": "Số tiền cô ấy bị tính cho một dịch vụ"
         }
-       }
+       },
+       "evidence": [
+        "Are you referring to the little unit that attaches to your mobile phone or the larger, stand-alone tablet model?"
+       ]
       },
       {
        "number": 173,
@@ -8632,8 +8780,9 @@
         "D": "Furniture"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Jewelry (Đồ trang sức). Giải thích:\n1. Trong cuộc trò chuyện, cô Burton nói: \"I started an online shop using the Atlara Web hosting service and added pictures of the necklaces and rings I create.\" (Tôi đã bắt đầu một cửa hàng trực tuyến sử dụng dịch vụ lưu trữ web của Atlara và thêm hình ảnh của những chiếc vòng cổ và nhẫn tôi tạo ra.)\n2. Vòng cổ (necklaces) và nhẫn (rings) là các loại đồ trang sức.\n3. Không có thông tin nào về việc cô ấy bán đồ dùng nghệ thuật, trò chơi board game hay đồ nội thất.\nDịch câu hỏi: Cô Burton bán gì?",
+       "explanation": "Đáp án đúng là C. Jewelry (Đồ trang sức). Giải thích:\n1. Trong cuộc trò chuyện, cô Burton nói: \"I started an online shop using the Atlara Web hosting service and added pictures of the necklaces and rings I create.\" (Tôi đã bắt đầu một cửa hàng trực tuyến sử dụng dịch vụ lưu trữ web của Atlara và thêm hình ảnh của những chiếc vòng cổ và nhẫn tôi tạo ra.)\n2. Vòng cổ (necklaces) và nhẫn (rings) là các loại đồ trang sức.\n3. Không có thông tin nào về việc cô ấy bán đồ dùng nghệ thuật, trò chơi board game hay đồ nội thất.",
        "tags": [],
+       "questionVi": "Cô Burton bán gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8651,7 +8800,10 @@
          "pos": [],
          "meaning": "đồ nội thất"
         }
-       }
+       },
+       "evidence": [
+        "I started an online shop using the Atlara Web hosting service and added pictures of the necklaces and rings I create"
+       ]
       },
       {
        "number": 174,
@@ -8664,8 +8816,9 @@
         "D": "Creating a separate business account"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Submitting some documentation (Nộp một số tài liệu). Giải thích:\n1. Cô Shroer nói: \"You have to upload scans of your business registration, a government photo ID, and a statement from your business bank account.\" (Bạn phải tải lên bản quét đăng ký kinh doanh, một ID ảnh do chính phủ cấp, và một bản sao kê từ tài khoản ngân hàng doanh nghiệp của bạn.)\n2. Đây rõ ràng là một đề xuất để nộp một số tài liệu cụ thể.\n3. Không có đề cập nào về việc điền đơn yêu cầu dịch vụ, điều chỉnh cài đặt đầu đọc thẻ, hay tạo tài khoản kinh doanh riêng.\nDịch câu hỏi: Cô Shroer đề xuất điều gì?",
+       "explanation": "Đáp án đúng là C. Submitting some documentation (Nộp một số tài liệu). Giải thích:\n1. Cô Shroer nói: \"You have to upload scans of your business registration, a government photo ID, and a statement from your business bank account.\" (Bạn phải tải lên bản quét đăng ký kinh doanh, một ID ảnh do chính phủ cấp, và một bản sao kê từ tài khoản ngân hàng doanh nghiệp của bạn.)\n2. Đây rõ ràng là một đề xuất để nộp một số tài liệu cụ thể.\n3. Không có đề cập nào về việc điền đơn yêu cầu dịch vụ, điều chỉnh cài đặt đầu đọc thẻ, hay tạo tài khoản kinh doanh riêng.",
        "tags": [],
+       "questionVi": "Cô Shroer đề xuất điều gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8683,7 +8836,10 @@
          "pos": [],
          "meaning": "Tạo một tài khoản kinh doanh riêng"
         }
-       }
+       },
+       "evidence": [
+        "You have to upload scans of your business registration, a government photo ID, and a statement from your business bank account"
+       ]
       },
       {
        "number": 175,
@@ -8696,8 +8852,9 @@
         "D": "She has confirmed that the product was shipped."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. She has previously called the support line (Cô ấy đã gọi đến đường dây hỗ trợ trước đó). Giải thích:\n1. Câu nói của cô Burton \"I've spoken with three people already\" (Tôi đã nói chuyện với ba người rồi) là phản hồi trực tiếp cho đề xuất của Cindy Acosta về việc gọi đến đường dây hỗ trợ.\n2. Điều này ngụ ý rằng cô Burton đã gọi đến đường dây hỗ trợ và đã nói chuyện với ba người khác nhau.\n3. Không có thông tin nào cho thấy cô ấy ấn tượng với phản hồi của công ty, nghiên cứu kỹ về thông số kỹ thuật, hay xác nhận việc gửi sản phẩm.\nDịch câu hỏi: Lúc 1:10 chiều, cô Burton có ý gì khi viết \"Tôi đã nói chuyện với ba người rồi\"?\nD. She has confirmed that the product was shipped. (Cô ấy đã xác nhận rằng sản phẩm đã được gửi đi.)",
+       "explanation": "Đáp án đúng là B. She has previously called the support line (Cô ấy đã gọi đến đường dây hỗ trợ trước đó). Giải thích:\n1. Câu nói của cô Burton \"I've spoken with three people already\" (Tôi đã nói chuyện với ba người rồi) là phản hồi trực tiếp cho đề xuất của Cindy Acosta về việc gọi đến đường dây hỗ trợ.\n2. Điều này ngụ ý rằng cô Burton đã gọi đến đường dây hỗ trợ và đã nói chuyện với ba người khác nhau.\n3. Không có thông tin nào cho thấy cô ấy ấn tượng với phản hồi của công ty, nghiên cứu kỹ về thông số kỹ thuật, hay xác nhận việc gửi sản phẩm.\nD. She has confirmed that the product was shipped. (Cô ấy đã xác nhận rằng sản phẩm đã được gửi đi.)",
        "tags": [],
+       "questionVi": "Lúc 1:10 chiều, cô Burton có ý gì khi viết \"Tôi đã nói chuyện với ba người rồi\"?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8711,7 +8868,10 @@
          "pos": [],
          "meaning": "Cô ấy đã nghiên cứu kỹ một số thông số kỹ thuật."
         }
-       }
+       },
+       "evidence": [
+        "I've spoken with three people already"
+       ]
       }
      ]
     },
@@ -8745,8 +8905,9 @@
         "D": "A confirmation number"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Proof of identification (Bằng chứng nhận dạng). Giải thích:\n1. Trang web nêu rõ: \"Guests are required to present a passport or driver's license at the time of check-in.\" (Khách phải xuất trình hộ chiếu hoặc bằng lái xe tại thời điểm nhận phòng.)\n2. Hộ chiếu và bằng lái xe đều là các hình thức chứng minh nhận dạng.\n3. Không có thông tin nào về việc yêu cầu địa chỉ nhà, thanh toán trước hay số xác nhận tại thời điểm nhận phòng.\nDịch câu hỏi: Theo trang web, khách sạn yêu cầu khách cung cấp gì khi nhận phòng?",
+       "explanation": "Đáp án đúng là C. Proof of identification (Bằng chứng nhận dạng). Giải thích:\n1. Trang web nêu rõ: \"Guests are required to present a passport or driver's license at the time of check-in.\" (Khách phải xuất trình hộ chiếu hoặc bằng lái xe tại thời điểm nhận phòng.)\n2. Hộ chiếu và bằng lái xe đều là các hình thức chứng minh nhận dạng.\n3. Không có thông tin nào về việc yêu cầu địa chỉ nhà, thanh toán trước hay số xác nhận tại thời điểm nhận phòng.",
        "tags": [],
+       "questionVi": "Theo trang web, khách sạn yêu cầu khách cung cấp gì khi nhận phòng?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8764,7 +8925,10 @@
          "pos": [],
          "meaning": "số xác nhận"
         }
-       }
+       },
+       "evidence": [
+        "Guests are required to present a passport or driver's license at the time of check-in"
+       ]
       },
       {
        "number": 177,
@@ -8777,8 +8941,9 @@
         "D": "Use of a swimming pool"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. A light breakfast (Bữa sáng nhẹ). Giải thích:\n1. Trang web không đề cập đến việc cung cấp bữa sáng nhẹ miễn phí.\n2. Trang web có đề cập đến đồ uống nóng (cà phê và trà miễn phí trong phòng), dịch vụ đưa đón sân bay miễn phí, và việc sử dụng hồ bơi.\n3. Cụ thể:\n   - \"Each room has a coffeemaker and complimentary coffee and tea.\" (Mỗi phòng đều có máy pha cà phê và cà phê, trà miễn phí.)\n   - \"We offer free shuttle service to the airport.\" (Chúng tôi cung cấp dịch vụ đưa đón sân bay miễn phí.)\n   - \"The swimming pool and children's playground are open during daylight hours.\" (Hồ bơi và sân chơi trẻ em mở cửa trong giờ ban ngày.)\nDịch câu hỏi: Điều gì KHÔNG được bao gồm trong kỳ nghỉ tại Khách sạn Sunny Welcome?",
+       "explanation": "Đáp án đúng là B. A light breakfast (Bữa sáng nhẹ). Giải thích:\n1. Trang web không đề cập đến việc cung cấp bữa sáng nhẹ miễn phí.\n2. Trang web có đề cập đến đồ uống nóng (cà phê và trà miễn phí trong phòng), dịch vụ đưa đón sân bay miễn phí, và việc sử dụng hồ bơi.\n3. Cụ thể:\n   - \"Each room has a coffeemaker and complimentary coffee and tea.\" (Mỗi phòng đều có máy pha cà phê và cà phê, trà miễn phí.)\n   - \"We offer free shuttle service to the airport.\" (Chúng tôi cung cấp dịch vụ đưa đón sân bay miễn phí.)\n   - \"The swimming pool and children's playground are open during daylight hours.\" (Hồ bơi và sân chơi trẻ em mở cửa trong giờ ban ngày.)",
        "tags": [],
+       "questionVi": "Điều gì KHÔNG được bao gồm trong kỳ nghỉ tại Khách sạn Sunny Welcome?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8796,7 +8961,12 @@
          "pos": [],
          "meaning": "Sử dụng hồ bơi"
         }
-       }
+       },
+       "evidence": [
+        "Each room has a coffeemaker and complimentary coffee and tea",
+        "We offer free shuttle service to the airport",
+        "The swimming pool and children's playground are open during daylight hours"
+       ]
       },
       {
        "number": 178,
@@ -8809,8 +8979,9 @@
         "D": "He has stayed at the Sunny Welcome Hotel before."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. He has stayed at the Sunny Welcome Hotel before (Anh ấy đã từng ở tại Khách sạn Sunny Welcome trước đây). Giải thích:\n1. Trong email, ông Ramon viết: \"My family and I were very comfortable in the family suite at the Sunny Welcome Hotel in Kolkata last year\" (Gia đình tôi và tôi đã rất thoải mái trong phòng gia đình tại Khách sạn Sunny Welcome ở Kolkata năm ngoái)\n2. Điều này rõ ràng cho thấy ông ấy đã từng ở tại khách sạn này trước đây.\n3. Không có thông tin nào cho thấy ông ấy thường đi du lịch một mình, có gia đình sống ở Kolkata, hay có kế hoạch chuyển đến Kolkata.\nDịch câu hỏi: Ông Ramon chỉ ra điều gì trong email của mình?",
+       "explanation": "Đáp án đúng là D. He has stayed at the Sunny Welcome Hotel before (Anh ấy đã từng ở tại Khách sạn Sunny Welcome trước đây). Giải thích:\n1. Trong email, ông Ramon viết: \"My family and I were very comfortable in the family suite at the Sunny Welcome Hotel in Kolkata last year\" (Gia đình tôi và tôi đã rất thoải mái trong phòng gia đình tại Khách sạn Sunny Welcome ở Kolkata năm ngoái)\n2. Điều này rõ ràng cho thấy ông ấy đã từng ở tại khách sạn này trước đây.\n3. Không có thông tin nào cho thấy ông ấy thường đi du lịch một mình, có gia đình sống ở Kolkata, hay có kế hoạch chuyển đến Kolkata.",
        "tags": [],
+       "questionVi": "Ông Ramon chỉ ra điều gì trong email của mình?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8828,7 +8999,10 @@
          "pos": [],
          "meaning": "Anh ấy đã từng ở tại Khách sạn Sunny Welcome trước đây."
         }
-       }
+       },
+       "evidence": [
+        "My family and I were very comfortable in the family suite at the Sunny Welcome Hotel in Kolkata last year"
+       ]
       },
       {
        "number": 179,
@@ -8841,8 +9015,9 @@
         "D": "He reserved a work space in the business center."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. He canceled a reservation less than a day before arrival (Anh ấy đã hủy đặt phòng chưa đầy một ngày trước khi đến). Giải thích:\n1. Trang web của khách sạn nêu rõ: \"The deposit will only be refunded if the reservation is cancelled or changed more than 24 hours prior to arrival.\" (Tiền đặt cọc chỉ được hoàn lại nếu việc đặt phòng được hủy hoặc thay đổi hơn 24 giờ trước khi đến.)\n2. Trong email, ông Ramon nói rằng anh ấy đã gọi để thay đổi đặt phòng vào sáng ngày 17 tháng 4, là ngày anh ấy dự định đến.\n3. Điều này có nghĩa là anh ấy đã thay đổi đặt phòng chưa đầy 24 giờ trước khi đến, dẫn đến việc bị tính phí.\n4. Không có thông tin nào về việc yêu cầu giường phụ, trả phòng muộn, hay đặt chỗ làm việc trong trung tâm doanh nhân.\nDịch câu hỏi: Tại sao ông Ramon có thể đã bị Khách sạn Sunny Welcome tính phí?",
+       "explanation": "Đáp án đúng là A. He canceled a reservation less than a day before arrival (Anh ấy đã hủy đặt phòng chưa đầy một ngày trước khi đến). Giải thích:\n1. Trang web của khách sạn nêu rõ: \"The deposit will only be refunded if the reservation is cancelled or changed more than 24 hours prior to arrival.\" (Tiền đặt cọc chỉ được hoàn lại nếu việc đặt phòng được hủy hoặc thay đổi hơn 24 giờ trước khi đến.)\n2. Trong email, ông Ramon nói rằng anh ấy đã gọi để thay đổi đặt phòng vào sáng ngày 17 tháng 4, là ngày anh ấy dự định đến.\n3. Điều này có nghĩa là anh ấy đã thay đổi đặt phòng chưa đầy 24 giờ trước khi đến, dẫn đến việc bị tính phí.\n4. Không có thông tin nào về việc yêu cầu giường phụ, trả phòng muộn, hay đặt chỗ làm việc trong trung tâm doanh nhân.",
        "tags": [],
+       "questionVi": "Tại sao ông Ramon có thể đã bị Khách sạn Sunny Welcome tính phí?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8860,7 +9035,10 @@
          "pos": [],
          "meaning": "Anh ấy đã đặt một chỗ làm việc trong trung tâm doanh nhân."
         }
-       }
+       },
+       "evidence": [
+        "The deposit will only be refunded if the reservation is cancelled or changed more than 24 hours prior to arrival"
+       ]
       },
       {
        "number": 180,
@@ -8873,8 +9051,9 @@
         "D": "An extension of a hotel stay"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. A credit to his account (Hoàn tiền vào tài khoản của anh ấy). Giải thích:\n1. Trong email, ông Ramon viết: \"I believe that an error has been made and that I should be reimbursed. I would appreciate having the money credited to my account.\" (Tôi tin rằng đã có sự nhầm lẫn và tôi nên được hoàn tiền. Tôi sẽ rất cảm kích nếu được hoàn tiền vào tài khoản của mình.)\n2. Điều này rõ ràng cho thấy ông ấy yêu cầu được hoàn tiền vào tài khoản của mình.\n3. Không có đề cập nào về việc yêu cầu giảm giá cho lần lưu trú trong tương lai, nâng cấp phòng, hay gia hạn thời gian lưu trú.\n4. Mặc dù ông Ramon đề cập đến việc quay lại khách sạn trong tương lai, nhưng ông ấy không yêu cầu bất kỳ ưu đãi nào cho lần lưu trú đó.\nDịch câu hỏi: Ông Ramon yêu cầu điều gì?",
+       "explanation": "Đáp án đúng là A. A credit to his account (Hoàn tiền vào tài khoản của anh ấy). Giải thích:\n1. Trong email, ông Ramon viết: \"I believe that an error has been made and that I should be reimbursed. I would appreciate having the money credited to my account.\" (Tôi tin rằng đã có sự nhầm lẫn và tôi nên được hoàn tiền. Tôi sẽ rất cảm kích nếu được hoàn tiền vào tài khoản của mình.)\n2. Điều này rõ ràng cho thấy ông ấy yêu cầu được hoàn tiền vào tài khoản của mình.\n3. Không có đề cập nào về việc yêu cầu giảm giá cho lần lưu trú trong tương lai, nâng cấp phòng, hay gia hạn thời gian lưu trú.\n4. Mặc dù ông Ramon đề cập đến việc quay lại khách sạn trong tương lai, nhưng ông ấy không yêu cầu bất kỳ ưu đãi nào cho lần lưu trú đó.",
        "tags": [],
+       "questionVi": "Ông Ramon yêu cầu điều gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8892,7 +9071,11 @@
          "pos": [],
          "meaning": "Gia hạn thời gian lưu trú tại khách sạn"
         }
-       }
+       },
+       "evidence": [
+        "I believe that an error has been made and that I should be reimbursed.",
+        "I would appreciate having the money credited to my account"
+       ]
       }
      ]
     },
@@ -8926,8 +9109,9 @@
         "D": "It has a conference center."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. It has more than one floor (Nó có nhiều hơn một tầng). Giải thích:\n1. Trong email, ông Abbott đề cập: \"We now need to start thinking about the artwork for the main open-plan office area on the third floor of the building.\" (Chúng ta cần bắt đầu suy nghĩ về tác phẩm nghệ thuật cho khu vực văn phòng mở chính trên tầng 3 của tòa nhà.)\n2. Việc đề cập đến tầng 3 ngụ ý rằng tòa nhà có ít nhất 3 tầng, do đó có nhiều hơn một tầng.\n3. Không có thông tin nào cho thấy tòa nhà đã mở cửa vào tháng 10 năm ngoái, là trụ sở chính của KLX Accountancy, hay có trung tâm hội nghị.\nDịch câu hỏi: Điều gì được gợi ý về tòa nhà văn phòng Fountain Road?",
+       "explanation": "Đáp án đúng là C. It has more than one floor (Nó có nhiều hơn một tầng). Giải thích:\n1. Trong email, ông Abbott đề cập: \"We now need to start thinking about the artwork for the main open-plan office area on the third floor of the building.\" (Chúng ta cần bắt đầu suy nghĩ về tác phẩm nghệ thuật cho khu vực văn phòng mở chính trên tầng 3 của tòa nhà.)\n2. Việc đề cập đến tầng 3 ngụ ý rằng tòa nhà có ít nhất 3 tầng, do đó có nhiều hơn một tầng.\n3. Không có thông tin nào cho thấy tòa nhà đã mở cửa vào tháng 10 năm ngoái, là trụ sở chính của KLX Accountancy, hay có trung tâm hội nghị.",
        "tags": [],
+       "questionVi": "Điều gì được gợi ý về tòa nhà văn phòng Fountain Road?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8945,7 +9129,10 @@
          "pos": [],
          "meaning": "Nó có một trung tâm hội nghị."
         }
-       }
+       },
+       "evidence": [
+        "We now need to start thinking about the artwork for the main open-plan office area on the third floor of the building"
+       ]
       },
       {
        "number": 182,
@@ -8958,8 +9145,9 @@
         "D": "Research interior design options online"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. Research interior design options online (Nghiên cứu các lựa chọn thiết kế nội thất trực tuyến). Giải thích:\n1. Trong email, ông Abbott yêu cầu: \"Could you look at the company's Web site today and find out if any of its services might be suitable for us?\" (Bạn có thể xem trang web của công ty hôm nay và tìm hiểu xem có dịch vụ nào của họ có thể phù hợp với chúng ta không?)\n2. Điều này rõ ràng là một yêu cầu nghiên cứu các lựa chọn thiết kế nội thất trực tuyến.\n3. Không có đề cập nào về việc hoàn thành nhiệm vụ từ tuần trước, phê duyệt kế hoạch bố trí văn phòng, hay đồng ý với giá mua tác phẩm nghệ thuật.\nDịch câu hỏi: Trong email, ông Abbott yêu cầu cô Sosa làm gì?",
+       "explanation": "Đáp án đúng là D. Research interior design options online (Nghiên cứu các lựa chọn thiết kế nội thất trực tuyến). Giải thích:\n1. Trong email, ông Abbott yêu cầu: \"Could you look at the company's Web site today and find out if any of its services might be suitable for us?\" (Bạn có thể xem trang web của công ty hôm nay và tìm hiểu xem có dịch vụ nào của họ có thể phù hợp với chúng ta không?)\n2. Điều này rõ ràng là một yêu cầu nghiên cứu các lựa chọn thiết kế nội thất trực tuyến.\n3. Không có đề cập nào về việc hoàn thành nhiệm vụ từ tuần trước, phê duyệt kế hoạch bố trí văn phòng, hay đồng ý với giá mua tác phẩm nghệ thuật.",
        "tags": [],
+       "questionVi": "Trong email, ông Abbott yêu cầu cô Sosa làm gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -8977,7 +9165,10 @@
          "pos": [],
          "meaning": "Nghiên cứu các lựa chọn thiết kế nội thất trực tuyến"
         }
-       }
+       },
+       "evidence": [
+        "Could you look at the company's Web site today and find out if any of its services might be suitable for us?"
+       ]
       },
       {
        "number": 183,
@@ -8990,9 +9181,13 @@
         "D": "Ms. Sosa"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Mr. Willis. Giải thích:\n1. Trong email, ông Abbott viết: \"I am still waiting to hear back from Maxwell Willis in Finance about the budget for art\" (Tôi vẫn đang chờ phản hồi từ Maxwell Willis ở Bộ phận Tài chính về ngân sách cho nghệ thuật)\n2. Điều này cho thấy Mr. Willis, từ bộ phận Tài chính, chịu trách nhiệm về ngân sách cho tác phẩm nghệ thuật.\n3. Không có thông tin nào cho thấy Mr. Abbott, Ms. Chan hay Ms. Sosa chịu trách nhiệm về ngân sách này.\nDịch câu hỏi: Ai chịu trách nhiệm về ngân sách cho tác phẩm nghệ thuật?\nA. Mr. Abbott\nB. Ms. Chan\nC. Mr. Willis\nD. Ms. Sosa",
+       "explanation": "Đáp án đúng là C. Mr. Willis. Giải thích:\n1. Trong email, ông Abbott viết: \"I am still waiting to hear back from Maxwell Willis in Finance about the budget for art\" (Tôi vẫn đang chờ phản hồi từ Maxwell Willis ở Bộ phận Tài chính về ngân sách cho nghệ thuật)\n2. Điều này cho thấy Mr. Willis, từ bộ phận Tài chính, chịu trách nhiệm về ngân sách cho tác phẩm nghệ thuật.\n3. Không có thông tin nào cho thấy Mr. Abbott, Ms. Chan hay Ms. Sosa chịu trách nhiệm về ngân sách này.\nA. Mr. Abbott\nB. Ms. Chan\nC. Mr. Willis\nD. Ms. Sosa",
        "tags": [],
-       "optionNotes": {}
+       "questionVi": "Ai chịu trách nhiệm về ngân sách cho tác phẩm nghệ thuật?",
+       "optionNotes": {},
+       "evidence": [
+        "I am still waiting to hear back from Maxwell Willis in Finance about the budget for art"
+       ]
       },
       {
        "number": 184,
@@ -9005,8 +9200,9 @@
         "D": "Reframe"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. Align. Giải thích:\n1. Theo email, văn phòng Fountain Road là một tòa nhà mới và họ đang tìm kiếm tác phẩm nghệ thuật cho khu vực văn phòng mở.\n2. Trong danh sách dịch vụ của Red Starling Art, \"Align\" được mô tả như sau: \"For clients looking to incorporate artwork into a new office, we help you find the right pieces (paintings, photographs, prints, or sculptures) for your space.\" (Đối với khách hàng muốn đưa tác phẩm nghệ thuật vào văn phòng mới, chúng tôi giúp bạn tìm những tác phẩm phù hợp (tranh vẽ, ảnh, bản in hoặc tượng) cho không gian của bạn.)\n3. Dịch vụ này phù hợp nhất với nhu cầu của văn phòng Fountain Road.\n4. Các dịch vụ khác không phù hợp vì:\n   - Remake là để thiết kế lại hoàn toàn nội thất\n   - Connect tập trung vào nghệ thuật địa phương\n   - Reframe là để cập nhật tác phẩm nghệ thuật hiện có\nDịch câu hỏi: Dịch vụ nào của Red Starling Art sẽ phù hợp nhất cho tòa nhà văn phòng Fountain Road?\nA. Remake\nB. Align\nC. Connect\nD. Reframe",
+       "explanation": "Đáp án đúng là B. Align. Giải thích:\n1. Theo email, văn phòng Fountain Road là một tòa nhà mới và họ đang tìm kiếm tác phẩm nghệ thuật cho khu vực văn phòng mở.\n2. Trong danh sách dịch vụ của Red Starling Art, \"Align\" được mô tả như sau: \"For clients looking to incorporate artwork into a new office, we help you find the right pieces (paintings, photographs, prints, or sculptures) for your space.\" (Đối với khách hàng muốn đưa tác phẩm nghệ thuật vào văn phòng mới, chúng tôi giúp bạn tìm những tác phẩm phù hợp (tranh vẽ, ảnh, bản in hoặc tượng) cho không gian của bạn.)\n3. Dịch vụ này phù hợp nhất với nhu cầu của văn phòng Fountain Road.\n4. Các dịch vụ khác không phù hợp vì:\n   - Remake là để thiết kế lại hoàn toàn nội thất\n   - Connect tập trung vào nghệ thuật địa phương\n   - Reframe là để cập nhật tác phẩm nghệ thuật hiện có\nA. Remake\nB. Align\nC. Connect\nD. Reframe",
        "tags": [],
+       "questionVi": "Dịch vụ nào của Red Starling Art sẽ phù hợp nhất cho tòa nhà văn phòng Fountain Road?",
        "optionNotes": {}
       },
       {
@@ -9020,8 +9216,9 @@
         "D": "By attending a consultation with Ms. Lowenbruck"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. By attending a consultation with Ms. Lowenbruck (Bằng cách tham dự buổi tư vấn với cô Lowenbruck). Giải thích:\n1. Trang web nêu rõ: \"Please e-mail Birgit Lowenbruck at blowenbruck@redstarlingart.co.uk to book a free consultation. After the consultation, she will provide you with an estimate for the agreed-upon services.\" (Vui lòng gửi email cho Birgit Lowenbruck tại blowenbruck@redstarlingart.co.uk để đặt lịch tư vấn miễn phí. Sau buổi tư vấn, cô ấy sẽ cung cấp cho bạn một ước tính cho các dịch vụ đã thỏa thuận.)\n2. Điều này cho thấy để biết chi phí, người ta cần tham dự buổi tư vấn với cô Lowenbruck.\n3. Không có thông tin về việc gửi thông tin qua trang Liên hệ, đi đến trang web có thông tin chi phí, hay gửi tài liệu cho cô Lowenbruck.\n4. Trang web cũng nêu rõ: \"Our work is always tailored to the specific needs of our clients, so we cannot provide fixed prices.\" (Công việc của chúng tôi luôn được điều chỉnh theo nhu cầu cụ thể của khách hàng, vì vậy chúng tôi không thể cung cấp giá cố định.), điều này củng cố thêm lý do tại sao cần phải có buổi tư vấn để xác định chi phí.\nDịch câu hỏi: Theo trang web, làm thế nào ai đó có thể biết được chi phí dịch vụ của Red Starling Art?",
+       "explanation": "Đáp án đúng là D. By attending a consultation with Ms. Lowenbruck (Bằng cách tham dự buổi tư vấn với cô Lowenbruck). Giải thích:\n1. Trang web nêu rõ: \"Please e-mail Birgit Lowenbruck at blowenbruck@redstarlingart.co.uk to book a free consultation. After the consultation, she will provide you with an estimate for the agreed-upon services.\" (Vui lòng gửi email cho Birgit Lowenbruck tại blowenbruck@redstarlingart.co.uk để đặt lịch tư vấn miễn phí. Sau buổi tư vấn, cô ấy sẽ cung cấp cho bạn một ước tính cho các dịch vụ đã thỏa thuận.)\n2. Điều này cho thấy để biết chi phí, người ta cần tham dự buổi tư vấn với cô Lowenbruck.\n3. Không có thông tin về việc gửi thông tin qua trang Liên hệ, đi đến trang web có thông tin chi phí, hay gửi tài liệu cho cô Lowenbruck.\n4. Trang web cũng nêu rõ: \"Our work is always tailored to the specific needs of our clients, so we cannot provide fixed prices.\" (Công việc của chúng tôi luôn được điều chỉnh theo nhu cầu cụ thể của khách hàng, vì vậy chúng tôi không thể cung cấp giá cố định.), điều này củng cố thêm lý do tại sao cần phải có buổi tư vấn để xác định chi phí.",
        "tags": [],
+       "questionVi": "Theo trang web, làm thế nào ai đó có thể biết được chi phí dịch vụ của Red Starling Art?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9039,7 +9236,12 @@
          "pos": [],
          "meaning": "Bằng cách tham dự buổi tư vấn với cô Lowenbruck"
         }
-       }
+       },
+       "evidence": [
+        "Please e-mail Birgit Lowenbruck at blowenbruck@redstarlingart.co.uk to book a free consultation.",
+        "After the consultation, she will provide you with an estimate for the agreed-upon services",
+        "Our work is always tailored to the specific needs of our clients, so we cannot provide fixed prices"
+       ]
       }
      ]
     },
@@ -9073,8 +9275,9 @@
         "D": "By using specialized software"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. By changing the format of some questions (Bằng cách thay đổi định dạng của một số câu hỏi). Giải thích:\n1. Trong email, cô Hathaway viết: \"I would like to simplify the survey form before we administer it again. The open-ended questions make the data difficult to analyze. I propose incorporating more yes-no questions or rating scales to determine how much a colleague agrees or disagrees with a statement.\" (Tôi muốn đơn giản hóa mẫu khảo sát trước khi chúng ta tiến hành lần nữa. Các câu hỏi mở làm cho việc phân tích dữ liệu trở nên khó khăn. Tôi đề xuất đưa vào nhiều câu hỏi có/không hoặc thang đánh giá để xác định mức độ đồng ý hoặc không đồng ý của đồng nghiệp với một phát biểu.)\n2. Đề xuất này rõ ràng là về việc thay đổi định dạng của một số câu hỏi từ câu hỏi mở sang câu hỏi có/không hoặc thang đánh giá.\n3. Không có đề cập nào về việc thu thập câu trả lời ẩn danh, tiến hành khảo sát thường xuyên hơn, hay sử dụng phần mềm chuyên dụng.\nDịch câu hỏi: Trong email, cô Hathaway đề xuất cải thiện các cuộc khảo sát trong tương lai như thế nào?\nA. By changing the format of some questions (Bằng cách thay đổi định dạng của một số câu hỏi)",
+       "explanation": "Đáp án đúng là A. By changing the format of some questions (Bằng cách thay đổi định dạng của một số câu hỏi). Giải thích:\n1. Trong email, cô Hathaway viết: \"I would like to simplify the survey form before we administer it again. The open-ended questions make the data difficult to analyze. I propose incorporating more yes-no questions or rating scales to determine how much a colleague agrees or disagrees with a statement.\" (Tôi muốn đơn giản hóa mẫu khảo sát trước khi chúng ta tiến hành lần nữa. Các câu hỏi mở làm cho việc phân tích dữ liệu trở nên khó khăn. Tôi đề xuất đưa vào nhiều câu hỏi có/không hoặc thang đánh giá để xác định mức độ đồng ý hoặc không đồng ý của đồng nghiệp với một phát biểu.)\n2. Đề xuất này rõ ràng là về việc thay đổi định dạng của một số câu hỏi từ câu hỏi mở sang câu hỏi có/không hoặc thang đánh giá.\n3. Không có đề cập nào về việc thu thập câu trả lời ẩn danh, tiến hành khảo sát thường xuyên hơn, hay sử dụng phần mềm chuyên dụng.\nA. By changing the format of some questions (Bằng cách thay đổi định dạng của một số câu hỏi)",
        "tags": [],
+       "questionVi": "Trong email, cô Hathaway đề xuất cải thiện các cuộc khảo sát trong tương lai như thế nào?",
        "optionNotes": {
         "B": {
          "pos": [],
@@ -9088,7 +9291,12 @@
          "pos": [],
          "meaning": "Bằng cách sử dụng phần mềm chuyên dụng"
         }
-       }
+       },
+       "evidence": [
+        "I would like to simplify the survey form before we administer it again.",
+        "The open-ended questions make the data difficult to analyze.",
+        "I propose incorporating more yes-no questions or rating scales to determine how much a colleague agrees or disagrees with a statement"
+       ]
       },
       {
        "number": 187,
@@ -9101,8 +9309,9 @@
         "D": "Suggestion 4"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. Suggestion 2 (Đề xuất 2). Giải thích:\n1. Trong email từ Judith Hathaway, Đề xuất 2 được liệt kê là \"An expanded in-office recycling strategy\" (Một chiến lược tái chế trong văn phòng mở rộng).\n2. Trong memo của Jenna Dixon, cô ấy viết: \"I am seeking volunteers to form a committee that will launch an office recycling program. Having such a program was one of the most frequently identified needs mentioned on the recent employee survey.\" (Tôi đang tìm kiếm tình nguyện viên để thành lập một ủy ban sẽ triển khai chương trình tái chế văn phòng. Việc có một chương trình như vậy là một trong những nhu cầu được xác định thường xuyên nhất được đề cập trong cuộc khảo sát nhân viên gần đây.)\n3. Điều này cho thấy rõ ràng rằng Ms. Dixon đang hành động dựa trên Đề xuất 2 từ kết quả khảo sát.\nDịch câu hỏi: Ms. Dixon đang hành động dựa trên đề xuất nào từ kết quả khảo sát?",
+       "explanation": "Đáp án đúng là B. Suggestion 2 (Đề xuất 2). Giải thích:\n1. Trong email từ Judith Hathaway, Đề xuất 2 được liệt kê là \"An expanded in-office recycling strategy\" (Một chiến lược tái chế trong văn phòng mở rộng).\n2. Trong memo của Jenna Dixon, cô ấy viết: \"I am seeking volunteers to form a committee that will launch an office recycling program. Having such a program was one of the most frequently identified needs mentioned on the recent employee survey.\" (Tôi đang tìm kiếm tình nguyện viên để thành lập một ủy ban sẽ triển khai chương trình tái chế văn phòng. Việc có một chương trình như vậy là một trong những nhu cầu được xác định thường xuyên nhất được đề cập trong cuộc khảo sát nhân viên gần đây.)\n3. Điều này cho thấy rõ ràng rằng Ms. Dixon đang hành động dựa trên Đề xuất 2 từ kết quả khảo sát.",
        "tags": [],
+       "questionVi": "Ms. Dixon đang hành động dựa trên đề xuất nào từ kết quả khảo sát?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9120,7 +9329,12 @@
          "pos": [],
          "meaning": "đề xuất 4"
         }
-       }
+       },
+       "evidence": [
+        "An expanded in-office recycling strategy",
+        "I am seeking volunteers to form a committee that will launch an office recycling program.",
+        "Having such a program was one of the most frequently identified needs mentioned on the recent employee survey"
+       ]
       },
       {
        "number": 188,
@@ -9133,8 +9347,9 @@
         "D": "A room had space limitations."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. A room had space limitations (Một phòng có giới hạn về không gian). Giải thích:\n1. Trong memo của mình, ông Asghari viết: \"It took us some time to get this program started because finding containers narrow enough to squeeze three between the door and the refrigerator proved challenging.\" (Chúng tôi mất một thời gian để bắt đầu chương trình này vì việc tìm các thùng đủ hẹp để có thể đặt ba cái giữa cửa và tủ lạnh là một thách thức.)\n2. Điều này chỉ ra rõ ràng rằng giới hạn không gian trong phòng bếp (giữa cửa và tủ lạnh) là nguyên nhân gây ra sự chậm trễ.\n3. Không có đề cập nào về việc xử lý đơn hàng chậm, di chuyển thiết bị, hay cần sự phê duyệt của điều phối viên.\nDịch câu hỏi: Theo ông Asghari, tại sao một chương trình mới bị trì hoãn?",
+       "explanation": "Đáp án đúng là D. A room had space limitations (Một phòng có giới hạn về không gian). Giải thích:\n1. Trong memo của mình, ông Asghari viết: \"It took us some time to get this program started because finding containers narrow enough to squeeze three between the door and the refrigerator proved challenging.\" (Chúng tôi mất một thời gian để bắt đầu chương trình này vì việc tìm các thùng đủ hẹp để có thể đặt ba cái giữa cửa và tủ lạnh là một thách thức.)\n2. Điều này chỉ ra rõ ràng rằng giới hạn không gian trong phòng bếp (giữa cửa và tủ lạnh) là nguyên nhân gây ra sự chậm trễ.\n3. Không có đề cập nào về việc xử lý đơn hàng chậm, di chuyển thiết bị, hay cần sự phê duyệt của điều phối viên.",
        "tags": [],
+       "questionVi": "Theo ông Asghari, tại sao một chương trình mới bị trì hoãn?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9152,7 +9367,10 @@
          "pos": [],
          "meaning": "Một phòng có giới hạn về không gian."
         }
-       }
+       },
+       "evidence": [
+        "It took us some time to get this program started because finding containers narrow enough to squeeze three between the door and the refrigerator proved challenging"
+       ]
       },
       {
        "number": 189,
@@ -9165,8 +9383,9 @@
         "D": "He was acknowledged in a company newsletter."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. He paid for some items using the company's money (Anh ấy đã trả tiền cho một số vật dụng bằng tiền của công ty). Giải thích:\n1. Trong memo của mình, ông Asghari viết: \"But I was finally able to purchase some.\" (Nhưng cuối cùng tôi đã có thể mua được một số.)\n2. Điều này ngụ ý rằng ông đã mua các thùng tái chế.\n3. Trong memo trước đó của Ms. Dixon, cô ấy đã nói: \"A small amount of funds will be made available to be spent on program setup costs.\" (Một khoản tiền nhỏ sẽ được cung cấp để chi tiêu cho chi phí thiết lập chương trình.)\n4. Kết hợp hai thông tin này, chúng ta có thể suy ra rằng ông Asghari đã sử dụng tiền của công ty để mua các thùng tái chế.\n5. Không có thông tin nào về việc ông ấy dẫn dắt một loạt đào tạo về tái chế, gặp Ms. Dixon hàng tuần, hay được ghi nhận trong bản tin công ty.\nDịch câu hỏi: Điều gì được gợi ý về ông Asghari?",
+       "explanation": "Đáp án đúng là B. He paid for some items using the company's money (Anh ấy đã trả tiền cho một số vật dụng bằng tiền của công ty). Giải thích:\n1. Trong memo của mình, ông Asghari viết: \"But I was finally able to purchase some.\" (Nhưng cuối cùng tôi đã có thể mua được một số.)\n2. Điều này ngụ ý rằng ông đã mua các thùng tái chế.\n3. Trong memo trước đó của Ms. Dixon, cô ấy đã nói: \"A small amount of funds will be made available to be spent on program setup costs.\" (Một khoản tiền nhỏ sẽ được cung cấp để chi tiêu cho chi phí thiết lập chương trình.)\n4. Kết hợp hai thông tin này, chúng ta có thể suy ra rằng ông Asghari đã sử dụng tiền của công ty để mua các thùng tái chế.\n5. Không có thông tin nào về việc ông ấy dẫn dắt một loạt đào tạo về tái chế, gặp Ms. Dixon hàng tuần, hay được ghi nhận trong bản tin công ty.",
        "tags": [],
+       "questionVi": "Điều gì được gợi ý về ông Asghari?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9184,7 +9403,11 @@
          "pos": [],
          "meaning": "Anh ấy đã được ghi nhận trong một bản tin công ty."
         }
-       }
+       },
+       "evidence": [
+        "But I was finally able to purchase some",
+        "A small amount of funds will be made available to be spent on program setup costs"
+       ]
       },
       {
        "number": 190,
@@ -9197,8 +9420,9 @@
         "D": "Take inventory"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Display signs (Trưng bày biển hiệu). Giải thích:\n1. Trong memo của mình, ông Asghari viết: \"I am creating illustrated instructions to hang above each bin. Those will be up tomorrow\" (Tôi đang tạo ra các hướng dẫn bằng hình ảnh để treo trên mỗi thùng. Những hướng dẫn đó sẽ được treo vào ngày mai)\n2. Việc treo các hướng dẫn bằng hình ảnh trên các thùng rác tương đương với việc trưng bày biển hiệu.\n3. Không có đề cập nào về việc tuyển tình nguyện viên, liên hệ với nhà cung cấp, hay kiểm kê trong kế hoạch tương lai của ông Asghari.\nDịch câu hỏi: Ông Asghari đang lên kế hoạch làm gì?",
+       "explanation": "Đáp án đúng là C. Display signs (Trưng bày biển hiệu). Giải thích:\n1. Trong memo của mình, ông Asghari viết: \"I am creating illustrated instructions to hang above each bin. Those will be up tomorrow\" (Tôi đang tạo ra các hướng dẫn bằng hình ảnh để treo trên mỗi thùng. Những hướng dẫn đó sẽ được treo vào ngày mai)\n2. Việc treo các hướng dẫn bằng hình ảnh trên các thùng rác tương đương với việc trưng bày biển hiệu.\n3. Không có đề cập nào về việc tuyển tình nguyện viên, liên hệ với nhà cung cấp, hay kiểm kê trong kế hoạch tương lai của ông Asghari.",
        "tags": [],
+       "questionVi": "Ông Asghari đang lên kế hoạch làm gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9216,7 +9440,11 @@
          "pos": [],
          "meaning": "kiểm kê"
         }
-       }
+       },
+       "evidence": [
+        "I am creating illustrated instructions to hang above each bin.",
+        "Those will be up tomorrow"
+       ]
       }
      ]
     },
@@ -9250,8 +9478,9 @@
         "D": "It requires that candidates work on a team."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. It starts at the end of August (Nó bắt đầu vào cuối tháng 8). Giải thích:\n1. Trong quảng cáo việc làm có đoạn: \"Must be available to start during the last week of August.\" (Phải sẵn sàng bắt đầu trong tuần cuối cùng của tháng 8.)\n2. Điều này rõ ràng chỉ ra rằng vị trí công việc bắt đầu vào cuối tháng 8.\n3. Không có thông tin nào về bảo hiểm sức khỏe, đồng phục công ty, hay yêu cầu làm việc nhóm trong quảng cáo việc làm.\nDịch câu hỏi: Theo quảng cáo việc làm, điều gì đúng về vị trí đang mở?",
+       "explanation": "Đáp án đúng là B. It starts at the end of August (Nó bắt đầu vào cuối tháng 8). Giải thích:\n1. Trong quảng cáo việc làm có đoạn: \"Must be available to start during the last week of August.\" (Phải sẵn sàng bắt đầu trong tuần cuối cùng của tháng 8.)\n2. Điều này rõ ràng chỉ ra rằng vị trí công việc bắt đầu vào cuối tháng 8.\n3. Không có thông tin nào về bảo hiểm sức khỏe, đồng phục công ty, hay yêu cầu làm việc nhóm trong quảng cáo việc làm.",
        "tags": [],
+       "questionVi": "Theo quảng cáo việc làm, điều gì đúng về vị trí đang mở?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9269,7 +9498,10 @@
          "pos": [],
          "meaning": "Nó yêu cầu ứng viên làm việc theo nhóm."
         }
-       }
+       },
+       "evidence": [
+        "Must be available to start during the last week of August"
+       ]
       },
       {
        "number": 192,
@@ -9282,8 +9514,9 @@
         "D": "It requires an appointment for an eye exam."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. It requires an appointment for an eye exam (Nó yêu cầu đặt lịch hẹn cho việc khám mắt). Giải thích:\n1. Trên trang web có ghi rõ: \"Call 978-555-0101 today to schedule your annual eye exam. Exams by appointment only.\" (Gọi 978-555-0101 ngay hôm nay để đặt lịch khám mắt hàng năm của bạn. Chỉ khám theo lịch hẹn.)\n2. Điều này chỉ ra rõ ràng rằng Kooper's Vision yêu cầu đặt lịch hẹn cho việc khám mắt.\n3. Trang web không cho biết cửa hàng mở cửa muộn hơn vào thứ Bảy (thực tế là đóng cửa sớm hơn), nó nằm ở tầng trên của trung tâm thương mại (không phải tầng dưới), và không có thông tin về việc cung cấp kính thể thao.\nDịch câu hỏi: Điều gì được chỉ ra về Kooper's Vision trên trang web?",
+       "explanation": "Đáp án đúng là D. It requires an appointment for an eye exam (Nó yêu cầu đặt lịch hẹn cho việc khám mắt). Giải thích:\n1. Trên trang web có ghi rõ: \"Call 978-555-0101 today to schedule your annual eye exam. Exams by appointment only.\" (Gọi 978-555-0101 ngay hôm nay để đặt lịch khám mắt hàng năm của bạn. Chỉ khám theo lịch hẹn.)\n2. Điều này chỉ ra rõ ràng rằng Kooper's Vision yêu cầu đặt lịch hẹn cho việc khám mắt.\n3. Trang web không cho biết cửa hàng mở cửa muộn hơn vào thứ Bảy (thực tế là đóng cửa sớm hơn), nó nằm ở tầng trên của trung tâm thương mại (không phải tầng dưới), và không có thông tin về việc cung cấp kính thể thao.",
        "tags": [],
+       "questionVi": "Điều gì được chỉ ra về Kooper's Vision trên trang web?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9301,7 +9534,11 @@
          "pos": [],
          "meaning": "Nó yêu cầu đặt lịch hẹn cho việc khám mắt."
         }
-       }
+       },
+       "evidence": [
+        "Call 978-555-0101 today to schedule your annual eye exam.",
+        "Exams by appointment only"
+       ]
       },
       {
        "number": 193,
@@ -9314,8 +9551,9 @@
         "D": "She is the new owner of Kooper's Vision."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. She works with Ms. Mosley (Cô ấy làm việc với cô Mosley). Giải thích:\n1. Trong quảng cáo việc làm, Ms. Mosley được đề cập là quản lý cửa hàng của Kooper's Vision.\n2. Trong đánh giá, Mr. Drake nói về Ms. Palmer: \"it was her first day working at the store\" (đó là ngày đầu tiên cô ấy làm việc tại cửa hàng)\n3. Điều này ngụ ý rằng Ms. Palmer là nhân viên mới của Kooper's Vision, và do đó có khả năng cao là làm việc dưới sự quản lý của Ms. Mosley.\n4. Không có thông tin nào về việc cô ấy từng làm việc tại cửa hàng thời trang, thời điểm cô ấy nhận được giấy phép chuyên viên kính mắt, hay việc cô ấy là chủ sở hữu mới của Kooper's Vision.\nDịch câu hỏi: Điều gì có khả năng đúng nhất về cô Palmer?",
+       "explanation": "Đáp án đúng là A. She works with Ms. Mosley (Cô ấy làm việc với cô Mosley). Giải thích:\n1. Trong quảng cáo việc làm, Ms. Mosley được đề cập là quản lý cửa hàng của Kooper's Vision.\n2. Trong đánh giá, Mr. Drake nói về Ms. Palmer: \"it was her first day working at the store\" (đó là ngày đầu tiên cô ấy làm việc tại cửa hàng)\n3. Điều này ngụ ý rằng Ms. Palmer là nhân viên mới của Kooper's Vision, và do đó có khả năng cao là làm việc dưới sự quản lý của Ms. Mosley.\n4. Không có thông tin nào về việc cô ấy từng làm việc tại cửa hàng thời trang, thời điểm cô ấy nhận được giấy phép chuyên viên kính mắt, hay việc cô ấy là chủ sở hữu mới của Kooper's Vision.",
        "tags": [],
+       "questionVi": "Điều gì có khả năng đúng nhất về cô Palmer?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9333,7 +9571,10 @@
          "pos": [],
          "meaning": "Cô ấy là chủ sở hữu mới của Kooper's Vision."
         }
-       }
+       },
+       "evidence": [
+        "it was her first day working at the store"
+       ]
       },
       {
        "number": 194,
@@ -9346,8 +9587,9 @@
         "D": "By upgrading the coating on his eyeglass lenses"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. By recommending frames that fit his face (Bằng cách đề xuất gọng kính phù hợp với khuôn mặt của ông ấy). Giải thích:\n1. Trong đánh giá, Mr. Drake viết: \"She looked at the shape of my face and steered me toward a few pairs of glasses that were perfect for me!\" (Cô ấy nhìn hình dáng khuôn mặt của tôi và hướng tôi đến một vài cặp kính hoàn hảo cho tôi!)\n2. Điều này chỉ ra rõ ràng rằng Ms. Palmer đã đề xuất gọng kính phù hợp với khuôn mặt của Mr. Drake.\n3. Không có thông tin nào về việc kéo dài thời gian hẹn, chọn kính cho con cái của ông ấy, hay nâng cấp lớp phủ trên kính của ông ấy.\nDịch câu hỏi: Theo đánh giá, cô Palmer đã giúp ông Drake như thế nào?\nA. By recommending frames that fit his face (Bằng cách đề xuất gọng kính phù hợp với khuôn mặt của ông ấy)",
+       "explanation": "Đáp án đúng là A. By recommending frames that fit his face (Bằng cách đề xuất gọng kính phù hợp với khuôn mặt của ông ấy). Giải thích:\n1. Trong đánh giá, Mr. Drake viết: \"She looked at the shape of my face and steered me toward a few pairs of glasses that were perfect for me!\" (Cô ấy nhìn hình dáng khuôn mặt của tôi và hướng tôi đến một vài cặp kính hoàn hảo cho tôi!)\n2. Điều này chỉ ra rõ ràng rằng Ms. Palmer đã đề xuất gọng kính phù hợp với khuôn mặt của Mr. Drake.\n3. Không có thông tin nào về việc kéo dài thời gian hẹn, chọn kính cho con cái của ông ấy, hay nâng cấp lớp phủ trên kính của ông ấy.\nA. By recommending frames that fit his face (Bằng cách đề xuất gọng kính phù hợp với khuôn mặt của ông ấy)",
        "tags": [],
+       "questionVi": "Theo đánh giá, cô Palmer đã giúp ông Drake như thế nào?",
        "optionNotes": {
         "B": {
          "pos": [],
@@ -9361,7 +9603,10 @@
          "pos": [],
          "meaning": "Bằng cách nâng cấp lớp phủ trên kính mắt của ông ấy"
         }
-       }
+       },
+       "evidence": [
+        "She looked at the shape of my face and steered me toward a few pairs of glasses that were perfect for me!"
+       ]
       },
       {
        "number": 195,
@@ -9374,8 +9619,9 @@
         "D": "He received a discount on his purchase."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. He received a discount on his purchase (Ông ấy đã nhận được giảm giá cho việc mua hàng của mình). Giải thích:\n1. Trong đánh giá, Mr. Drake nói: \"I could not decide which was my favorite pair of eyeglasses, so I bought two pairs!\" (Tôi không thể quyết định cặp kính nào là yêu thích nhất của mình, vì vậy tôi đã mua hai cặp!)\n2. Trang web của Kooper's Vision có thông tin: \"During the month of August, enjoy 50% off the second pair of eyeglasses.\" (Trong tháng 8, được giảm giá 50% cho cặp kính thứ hai.)\n3. Mr. Drake đã mua hai cặp kính vào ngày 31 tháng 8, điều này ngụ ý rằng ông đã nhận được giảm giá cho cặp kính thứ hai.\n4. Không có thông tin nào về việc ông nghĩ đơn thuốc của mình đã thay đổi, mới bắt đầu đeo kính gần đây, hay thường xuyên mua sắm tại Danvers Mall.\nDịch câu hỏi: Điều gì được gợi ý về ông Drake?",
+       "explanation": "Đáp án đúng là D. He received a discount on his purchase (Ông ấy đã nhận được giảm giá cho việc mua hàng của mình). Giải thích:\n1. Trong đánh giá, Mr. Drake nói: \"I could not decide which was my favorite pair of eyeglasses, so I bought two pairs!\" (Tôi không thể quyết định cặp kính nào là yêu thích nhất của mình, vì vậy tôi đã mua hai cặp!)\n2. Trang web của Kooper's Vision có thông tin: \"During the month of August, enjoy 50% off the second pair of eyeglasses.\" (Trong tháng 8, được giảm giá 50% cho cặp kính thứ hai.)\n3. Mr. Drake đã mua hai cặp kính vào ngày 31 tháng 8, điều này ngụ ý rằng ông đã nhận được giảm giá cho cặp kính thứ hai.\n4. Không có thông tin nào về việc ông nghĩ đơn thuốc của mình đã thay đổi, mới bắt đầu đeo kính gần đây, hay thường xuyên mua sắm tại Danvers Mall.",
        "tags": [],
+       "questionVi": "Điều gì được gợi ý về ông Drake?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9393,7 +9639,11 @@
          "pos": [],
          "meaning": "Ông ấy đã nhận được giảm giá cho việc mua hàng của mình."
         }
-       }
+       },
+       "evidence": [
+        "I could not decide which was my favorite pair of eyeglasses, so I bought two pairs!",
+        "During the month of August, enjoy 50% off the second pair of eyeglasses"
+       ]
       }
      ]
     },
@@ -9427,8 +9677,9 @@
         "D": "It includes shelving for an extra fee."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B. It allows users to pay electronically (Nó cho phép người dùng thanh toán điện tử). Giải thích:\n1. Trong mô tả về Service 1 (Micromarket) có đoạn: \"Micromarkets are self-service and feature electronic payments.\" (Các chợ nhỏ là tự phục vụ và có tính năng thanh toán điện tử.)\n2. Điều này rõ ràng chỉ ra rằng Service 1 cho phép người dùng thanh toán điện tử.\n3. Không có thông tin nào về việc có lựa chọn sản phẩm cố định, yêu cầu hợp đồng hàng năm, hay tính phí thêm cho kệ.\nDịch câu hỏi: Điều gì được đề cập về Dịch vụ 1?",
+       "explanation": "Đáp án đúng là B. It allows users to pay electronically (Nó cho phép người dùng thanh toán điện tử). Giải thích:\n1. Trong mô tả về Service 1 (Micromarket) có đoạn: \"Micromarkets are self-service and feature electronic payments.\" (Các chợ nhỏ là tự phục vụ và có tính năng thanh toán điện tử.)\n2. Điều này rõ ràng chỉ ra rằng Service 1 cho phép người dùng thanh toán điện tử.\n3. Không có thông tin nào về việc có lựa chọn sản phẩm cố định, yêu cầu hợp đồng hàng năm, hay tính phí thêm cho kệ.",
        "tags": [],
+       "questionVi": "Điều gì được đề cập về Dịch vụ 1?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9446,7 +9697,10 @@
          "pos": [],
          "meaning": "Nó bao gồm kệ với một khoản phí bổ sung."
         }
-       }
+       },
+       "evidence": [
+        "Micromarkets are self-service and feature electronic payments"
+       ]
       },
       {
        "number": 197,
@@ -9459,8 +9713,9 @@
         "D": "It is currently empty."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. It is currently empty (Nó hiện đang trống rỗng). Giải thích:\n1. Trong email của mình, Ms. Lewis viết: \"I am looking for a stocking service to fill it so that the staff can start using it.\" (Tôi đang tìm kiếm một dịch vụ cung cấp hàng để lấp đầy nó để nhân viên có thể bắt đầu sử dụng.)\n2. Điều này ngụ ý rằng máy bán hàng tự động hiện đang trống rỗng và cần được lấp đầy để có thể sử dụng.\n3. Ms. Lewis mô tả máy là \"gently used\" (đã qua sử dụng nhẹ), điều này loại trừ khả năng máy đang trong tình trạng kém. Không có thông tin nào về việc máy vừa được bảo dưỡng hay bị mua với giá quá cao.\nDịch câu hỏi: Ms. Lewis gợi ý điều gì về máy bán hàng tự động của công ty cô ấy?",
+       "explanation": "Đáp án đúng là D. It is currently empty (Nó hiện đang trống rỗng). Giải thích:\n1. Trong email của mình, Ms. Lewis viết: \"I am looking for a stocking service to fill it so that the staff can start using it.\" (Tôi đang tìm kiếm một dịch vụ cung cấp hàng để lấp đầy nó để nhân viên có thể bắt đầu sử dụng.)\n2. Điều này ngụ ý rằng máy bán hàng tự động hiện đang trống rỗng và cần được lấp đầy để có thể sử dụng.\n3. Ms. Lewis mô tả máy là \"gently used\" (đã qua sử dụng nhẹ), điều này loại trừ khả năng máy đang trong tình trạng kém. Không có thông tin nào về việc máy vừa được bảo dưỡng hay bị mua với giá quá cao.",
        "tags": [],
+       "questionVi": "Ms. Lewis gợi ý điều gì về máy bán hàng tự động của công ty cô ấy?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9478,7 +9733,10 @@
          "pos": [],
          "meaning": "Nó hiện đang trống rỗng."
         }
-       }
+       },
+       "evidence": [
+        "I am looking for a stocking service to fill it so that the staff can start using it"
+       ]
       },
       {
        "number": 198,
@@ -9491,8 +9749,9 @@
         "D": "A model number"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D. A model number (Một số model). Giải thích:\n1. Trong email trả lời, Mr. Scheibler viết: \"Can you provide me with the model number?\" (Bạn có thể cung cấp cho tôi số model không?)\n2. Đây là yêu cầu trực tiếp từ Mr. Scheibler đối với Ms. Lewis.\n3. Không có đề cập nào về việc yêu cầu hợp đồng đã ký, hình ảnh của máy bán hàng, hay danh sách các bộ phận cần thiết.\nDịch câu hỏi: Ông Scheibler yêu cầu cô Lewis gửi cho ông ấy cái gì?",
+       "explanation": "Đáp án đúng là D. A model number (Một số model). Giải thích:\n1. Trong email trả lời, Mr. Scheibler viết: \"Can you provide me with the model number?\" (Bạn có thể cung cấp cho tôi số model không?)\n2. Đây là yêu cầu trực tiếp từ Mr. Scheibler đối với Ms. Lewis.\n3. Không có đề cập nào về việc yêu cầu hợp đồng đã ký, hình ảnh của máy bán hàng, hay danh sách các bộ phận cần thiết.",
        "tags": [],
+       "questionVi": "Ông Scheibler yêu cầu cô Lewis gửi cho ông ấy cái gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9510,7 +9769,10 @@
          "pos": [],
          "meaning": "một số model"
         }
-       }
+       },
+       "evidence": [
+        "Can you provide me with the model number?"
+       ]
       },
       {
        "number": 199,
@@ -9523,8 +9785,9 @@
         "D": "The costs involved with vending services"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A. The snacks that his company offers (Các đồ ăn nhẹ mà công ty của ông ấy cung cấp). Giải thích:\n1. Trong email ban đầu, Ms. Lewis yêu cầu: \"Could you please send me a list of the products you offer?\" (Bạn có thể gửi cho tôi danh sách các sản phẩm bạn cung cấp được không?)\n2. Trong email trả lời, Mr. Scheibler viết: \"I have attached the list you requested.\" (Tôi đã đính kèm danh sách bạn yêu cầu.)\n3. Điều này cho thấy rõ ràng rằng danh sách đính kèm chứa thông tin về các sản phẩm (đồ ăn nhẹ) mà công ty cung cấp.\n4. Không có thông tin nào về việc danh sách chứa ngày giao hàng, thương hiệu máy bán hàng, hay chi phí dịch vụ.\nDịch câu hỏi: Danh sách mà ông Scheibler đính kèm trong email của ông ấy bao gồm gì?",
+       "explanation": "Đáp án đúng là A. The snacks that his company offers (Các đồ ăn nhẹ mà công ty của ông ấy cung cấp). Giải thích:\n1. Trong email ban đầu, Ms. Lewis yêu cầu: \"Could you please send me a list of the products you offer?\" (Bạn có thể gửi cho tôi danh sách các sản phẩm bạn cung cấp được không?)\n2. Trong email trả lời, Mr. Scheibler viết: \"I have attached the list you requested.\" (Tôi đã đính kèm danh sách bạn yêu cầu.)\n3. Điều này cho thấy rõ ràng rằng danh sách đính kèm chứa thông tin về các sản phẩm (đồ ăn nhẹ) mà công ty cung cấp.\n4. Không có thông tin nào về việc danh sách chứa ngày giao hàng, thương hiệu máy bán hàng, hay chi phí dịch vụ.",
        "tags": [],
+       "questionVi": "Danh sách mà ông Scheibler đính kèm trong email của ông ấy bao gồm gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9542,7 +9805,11 @@
          "pos": [],
          "meaning": "Các chi phí liên quan đến dịch vụ bán hàng tự động"
         }
-       }
+       },
+       "evidence": [
+        "Could you please send me a list of the products you offer?",
+        "I have attached the list you requested"
+       ]
       },
       {
        "number": 200,
@@ -9555,8 +9822,9 @@
         "D": "Service 5"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. Service 4 (Dịch vụ 4). Giải thích:\n1. Trong email trả lời, Mr. Scheibler viết: \"I also recommend renting a drink machine from us, because we find that employees usually enjoy having a cold drink with their snacks.\" (Tôi cũng khuyên bạn nên thuê một máy bán đồ uống từ chúng tôi, vì chúng tôi thấy rằng nhân viên thường thích uống đồ uống lạnh cùng với đồ ăn nhẹ của họ.)\n2. Trong danh sách dịch vụ, Service 4 được mô tả là: \"Traditional Vending-We regularly stock your vending machine with a customized selection of carbonated beverages, juice, and water.\" (Bán hàng tự động truyền thống-Chúng tôi thường xuyên cung cấp cho máy bán hàng tự động của bạn một lựa chọn tùy chỉnh các loại đồ uống có ga, nước ép và nước lọc.)\n3. Đề xuất của Mr. Scheibler về máy bán đồ uống phù hợp nhất với mô tả của Service 4.\nDịch câu hỏi: Ông Scheibler đề xuất dịch vụ bổ sung nào?",
+       "explanation": "Đáp án đúng là C. Service 4 (Dịch vụ 4). Giải thích:\n1. Trong email trả lời, Mr. Scheibler viết: \"I also recommend renting a drink machine from us, because we find that employees usually enjoy having a cold drink with their snacks.\" (Tôi cũng khuyên bạn nên thuê một máy bán đồ uống từ chúng tôi, vì chúng tôi thấy rằng nhân viên thường thích uống đồ uống lạnh cùng với đồ ăn nhẹ của họ.)\n2. Trong danh sách dịch vụ, Service 4 được mô tả là: \"Traditional Vending-We regularly stock your vending machine with a customized selection of carbonated beverages, juice, and water.\" (Bán hàng tự động truyền thống-Chúng tôi thường xuyên cung cấp cho máy bán hàng tự động của bạn một lựa chọn tùy chỉnh các loại đồ uống có ga, nước ép và nước lọc.)\n3. Đề xuất của Mr. Scheibler về máy bán đồ uống phù hợp nhất với mô tả của Service 4.",
        "tags": [],
+       "questionVi": "Ông Scheibler đề xuất dịch vụ bổ sung nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -9574,7 +9842,11 @@
          "pos": [],
          "meaning": "dịch vụ 5"
         }
-       }
+       },
+       "evidence": [
+        "I also recommend renting a drink machine from us, because we find that employees usually enjoy having a cold drink with their snacks",
+        "Service 4 (Traditional Vending)-We regularly stock your vending machine with a customized selection of carbonated beverages, juice, and water."
+       ]
       }
      ]
     }

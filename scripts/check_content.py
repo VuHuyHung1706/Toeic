@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from enrich import option_line_note  # noqa: E402
+from enrich import _flex_pattern, option_line_note, question_line_vi  # noqa: E402
 CONTENT = ROOT / "content"
 DATA = ROOT / "Data"
 PART_COUNTS = {1: 6, 2: 25, 3: 39, 4: 30, 5: 30, 6: 16, 7: 54}
@@ -64,14 +64,22 @@ for entry in index:
                         err(f"{tid} {g['id']}: file không tồn tại {ref['src']}")
             if part in (3, 4) and not g.get("vocab"):
                 err(f"{tid} {g['id']}: Part {part} thiếu danh sách từ vựng")
+            passage_en = "\n".join(ps["en"] for ps in g["passages"] if ps.get("en"))
             for q in g["questions"]:
                 nums.append(q["number"])
+                for span in q.get("evidence", []):
+                    pat = _flex_pattern(span)
+                    if part != 7 or not pat or not pat.search(passage_en):
+                        err(f"{tid} câu {q['number']}: dẫn chứng không tìm thấy trong bài đọc: {span[:40]}")
                 if not isinstance(q.get("optionNotes"), dict):
                     err(f"{tid} câu {q['number']}: thiếu optionNotes")
                 for L, note in (q.get("optionNotes") or {}).items():
                     if L not in q["options"] or not (note.get("meaning") or note.get("pos")):
                         err(f"{tid} câu {q['number']}: optionNotes[{L}] không hợp lệ")
                 for line in q["explanation"].split("\n"):
+                    qv = question_line_vi(line, q["question"]) if part in (2, 3, 4, 7) else None
+                    if qv and qv[1]:
+                        err(f"{tid} câu {q['number']}: giải thích còn dòng chỉ dịch câu hỏi: {line[:50]}")
                     nt = option_line_note(line, q["options"])
                     if nt and nt[3] and (nt[1] or nt[2]):
                         err(f"{tid} câu {q['number']}: giải thích còn dòng chỉ dịch phương án: {line[:50]}")

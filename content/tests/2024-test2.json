@@ -2645,7 +2645,7 @@
         "D": "A project leader will not be hired."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C. A scheduled meeting should take place (Một cuộc họp đã lên lịch nên diễn ra).\nKhi người phụ nữ chỉ ra lỗi trong ngân sách, cô ấy ngụ ý rằng cuộc họp về ngân sách nên được tổ chức để giải quyết vấn đề này.\nDịch các phương án:\nD. Một người lãnh đạo dự án sẽ không được thuê",
+       "explanation": "Đáp án đúng là C. A scheduled meeting should take place (Một cuộc họp đã lên lịch nên diễn ra).\nKhi người phụ nữ chỉ ra lỗi trong ngân sách, cô ấy ngụ ý rằng cuộc họp về ngân sách nên được tổ chức để giải quyết vấn đề này.",
        "tags": [],
        "optionNotes": {
         "A": {
@@ -2659,6 +2659,10 @@
         "C": {
          "pos": [],
          "meaning": "Một cuộc họp đã lên lịch nên diễn ra"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Một người lãnh đạo dự án sẽ không được thuê"
         }
        }
       },
@@ -7112,9 +7116,14 @@
         "D": "safety"
        },
        "answer": "D",
-       "explanation": "D. 'safety' dịch là 'sự an toàn', là danh từ phù hợp để điền vào chỗ trống, vì ngữ cảnh đang nói về việc đảm bảo sự an toàn và thoải mái của khách hàng.\n’safe' (an toàn) là tính từ,\n’safely' (một cách an toàn) là trạng từ,\n’safest’ (an toàn nhất) là tính từ so sánh nhất, nên không phù hợp với cấu trúc cần danh từ.",
+       "explanation": "’safe' (an toàn) là tính từ,\n’safely' (một cách an toàn) là trạng từ,\n’safest’ (an toàn nhất) là tính từ so sánh nhất, nên không phù hợp với cấu trúc cần danh từ.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {
+        "D": {
+         "pos": [],
+         "meaning": "dịch là 'sự an toàn', là danh từ phù hợp để điền vào chỗ trống, vì ngữ cảnh đang nói về việc đảm bảo sự an toàn và thoải mái của khách hàng."
+        }
+       }
       },
       {
        "number": 136,
@@ -7197,9 +7206,14 @@
         "D": "decline"
        },
        "answer": "B",
-       "explanation": "B. 'vary' dịch là 'thay đổi', là động từ phù hợp trong ngữ cảnh này vì giá cả của các sản phẩm khác nhau sẽ thay đổi.\n’agree' (đồng ý),\n’wait' (chờ đợi)\n’decline’ (giảm) không phù hợp với ngữ cảnh nói về giá cả thay đổi.",
+       "explanation": "’agree' (đồng ý),\n’wait' (chờ đợi)\n’decline’ (giảm) không phù hợp với ngữ cảnh nói về giá cả thay đổi.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {
+        "B": {
+         "pos": [],
+         "meaning": "dịch là 'thay đổi', là động từ phù hợp trong ngữ cảnh này vì giá cả của các sản phẩm khác nhau sẽ thay đổi."
+        }
+       }
       },
       {
        "number": 140,
@@ -7242,9 +7256,14 @@
         "D": "exceptionalism"
        },
        "answer": "C",
-       "explanation": "C. 'exceptional' dịch là 'đặc biệt', là tính từ phù hợp để mô tả dịch vụ.\n’exceptionally' (một cách đặc biệt),\n’exception' (ngoại lệ),\n’exceptionalism’ (chủ nghĩa đặc biệt) không phù hợp với ngữ pháp và ngữ cảnh trong câu này.",
+       "explanation": "’exceptionally' (một cách đặc biệt),\n’exception' (ngoại lệ),\n’exceptionalism’ (chủ nghĩa đặc biệt) không phù hợp với ngữ pháp và ngữ cảnh trong câu này.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {
+        "C": {
+         "pos": [],
+         "meaning": "dịch là 'đặc biệt', là tính từ phù hợp để mô tả dịch vụ."
+        }
+       }
       }
      ]
     },
@@ -7322,9 +7341,14 @@
         "D": "these"
        },
        "answer": "A",
-       "explanation": "A. 'us' dịch là 'chúng ta', là từ phù hợp để nói về lợi ích chung của cả hai bên.\nCác đáp án khác như 'you' (bạn), 'we' (chúng tôi), và 'these' (những điều này) không phù hợp.",
+       "explanation": "Các đáp án khác như 'you' (bạn), 'we' (chúng tôi), và 'these' (những điều này) không phù hợp.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "dịch là 'chúng ta', là từ phù hợp để nói về lợi ích chung của cả hai bên."
+        }
+       }
       }
      ]
     }
@@ -7461,7 +7485,10 @@
          "pos": [],
          "meaning": "Nó bao gồm cả bữa trưa và bữa tối"
         }
-       }
+       },
+       "evidence": [
+        "runs this year from June 22 to 28"
+       ]
       },
       {
        "number": 150,
@@ -7543,7 +7570,10 @@
          "pos": [],
          "meaning": "Nó phát triển các chương trình phần mềm máy tính"
         }
-       }
+       },
+       "evidence": [
+        "A data storage and analytics firm"
+       ]
       },
       {
        "number": 152,
@@ -7575,7 +7605,10 @@
          "pos": [],
          "meaning": "Đội ngũ quản lý tài khoản của Rainsy"
         }
-       }
+       },
+       "evidence": [
+        "The office of Rainsy's chief technology officer will remain in Salt Creek, as will the account management team."
+       ]
       }
      ]
     },
@@ -7625,7 +7658,13 @@
          "pos": [],
          "meaning": "Nó đã bị ngừng bán"
         }
-       }
+       },
+       "evidence": [
+        "blue printer paper",
+        "a darker blue",
+        "They also cost more",
+        "out of stock until next week"
+       ]
       },
       {
        "number": 154,
@@ -7657,7 +7696,10 @@
          "pos": [],
          "meaning": "Cô ấy dự định hủy đơn hàng của mình"
         }
-       }
+       },
+       "evidence": [
+        "OK, forget it"
+       ]
       }
      ]
     },
@@ -7704,7 +7746,10 @@
          "pos": [],
          "meaning": "Để xác nhận một số chứng chỉ giáo dục"
         }
-       }
+       },
+       "evidence": [
+        "I have read your inquiry"
+       ]
       },
       {
        "number": 156,
@@ -7736,7 +7781,10 @@
          "pos": [],
          "meaning": "Số điện thoại của ông Croft"
         }
-       }
+       },
+       "evidence": [
+        "If you have a list of library branches that would host the first series of events"
+       ]
       },
       {
        "number": 157,
@@ -7802,7 +7850,10 @@
          "pos": [],
          "meaning": "Để thông báo khai trương địa điểm mới"
         }
-       }
+       },
+       "evidence": [
+        "50% off all eyeglass frames through 30 September"
+       ]
       },
       {
        "number": 159,
@@ -7834,7 +7885,11 @@
          "pos": [],
          "meaning": "Họ nằm gần các trung tâm mua sắm"
         }
-       }
+       },
+       "evidence": [
+        "Free eyeglass fittings and adjustments",
+        "in shopping malls"
+       ]
       },
       {
        "number": 160,
@@ -7866,7 +7921,10 @@
          "pos": [],
          "meaning": "Chúng chỉ được cung cấp vào một số ngày giới hạn"
         }
-       }
+       },
+       "evidence": [
+        "by licensed opticians"
+       ]
       }
      ]
     },
@@ -7945,7 +8003,11 @@
          "pos": [],
          "meaning": "Phí kiểm tra"
         }
-       }
+       },
+       "evidence": [
+        "Parking space fee                      S$50.00",
+        "There will be an inspection of the property"
+       ]
       },
       {
        "number": 163,
@@ -8061,7 +8123,10 @@
          "pos": [],
          "meaning": "Họ mới thiết kế lại thùng vận chuyển"
         }
-       }
+       },
+       "evidence": [
+        "Qualiview Ltd. to be your wholesale supplier of automotive window glass"
+       ]
       },
       {
        "number": 166,
@@ -8093,7 +8158,10 @@
          "pos": [],
          "meaning": "giao hàng"
         }
-       }
+       },
+       "evidence": [
+        "address your concerns"
+       ]
       },
       {
        "number": 167,
@@ -8125,7 +8193,10 @@
          "pos": [],
          "meaning": "sai, ông ấy chỉ có buổi sáng thứ Năm"
         }
-       }
+       },
+       "evidence": [
+        "Would you be available to meet before 11:00 A.M. on either Wednesday or Thursday?"
+       ]
       }
      ]
     },
@@ -8233,7 +8304,10 @@
          "pos": [],
          "meaning": "Đồng phục công sở"
         }
-       }
+       },
+       "evidence": [
+        "athletic apparel and footwear"
+       ]
       },
       {
        "number": 171,
@@ -8360,7 +8434,11 @@
          "pos": [],
          "meaning": "Khách hàng hài lòng với tiến độ"
         }
-       }
+       },
+       "evidence": [
+        "The rain last week delayed pouring the concrete for the sidewalks",
+        "equipment problems and late delivery of building materials"
+       ]
       },
       {
        "number": 175,
@@ -8392,7 +8470,10 @@
          "pos": [],
          "meaning": "Ông ấy sẽ thuê nhân công để giúp tại công trường"
         }
-       }
+       },
+       "evidence": [
+        "Keep me posted"
+       ]
       }
      ]
     },
@@ -8561,7 +8642,10 @@
          "pos": [],
          "meaning": "Người tham gia thích kem có hương vị trái cây"
         }
-       }
+       },
+       "evidence": [
+        "I did not care for them at all"
+       ]
       }
      ]
     },
@@ -8614,7 +8698,10 @@
          "pos": [],
          "meaning": "Chuyển đến Canada"
         }
-       }
+       },
+       "evidence": [
+        "As remote work is permitted for copywriters, residence in Canada is not required"
+       ]
       },
       {
        "number": 182,
@@ -8642,7 +8729,10 @@
          "pos": [],
          "meaning": "Đầu tư"
         }
-       }
+       },
+       "evidence": [
+        "develop brand strategies that suit customer needs"
+       ]
       },
       {
        "number": 183,
@@ -8706,7 +8796,10 @@
          "pos": [],
          "meaning": "Nghiên cứu các tùy chọn quần áo bền vững"
         }
-       }
+       },
+       "evidence": [
+        "I oversee the design production process from initial market research to finished product"
+       ]
       },
       {
        "number": 185,
@@ -8819,7 +8912,10 @@
          "pos": [],
          "meaning": "Một biên lai in"
         }
-       }
+       },
+       "evidence": [
+        "we will provide you with 10 percent off the total price of your next order"
+       ]
       },
       {
        "number": 188,
@@ -8851,7 +8947,10 @@
          "pos": [],
          "meaning": "Kim bấm"
         }
-       }
+       },
+       "evidence": [
+        "included in each of your last few orders was an identical order for ten of a particular item"
+       ]
       },
       {
        "number": 189,
@@ -8915,7 +9014,10 @@
          "pos": [],
          "meaning": "Email xác nhận"
         }
-       }
+       },
+       "evidence": [
+        "the order number"
+       ]
       }
      ]
     },
@@ -9000,7 +9102,10 @@
          "pos": [],
          "meaning": "Họ cung cấp chỗ đậu xe miễn phí tại tất cả các cửa hàng"
         }
-       }
+       },
+       "evidence": [
+        "Each location has an interior designer on staff"
+       ]
       },
       {
        "number": 193,
@@ -9032,7 +9137,10 @@
          "pos": [],
          "meaning": "Nó đi kèm với gối"
         }
-       }
+       },
+       "evidence": [
+        "Machine-washable wool blanket"
+       ]
       },
       {
        "number": 194,
@@ -9064,7 +9172,11 @@
          "pos": [],
          "meaning": "Tại quán cà phê"
         }
-       }
+       },
+       "evidence": [
+        "Last Monday, the company celebrated the grand opening of boutique stores in Causeway Bay, Discovery Bay, and Sheung Wan in addition to a large department store in Central District.",
+        "Moreover, it has a much more extensive selection of the merchandise than what is available through the company's Web site."
+       ]
       },
       {
        "number": 195,
@@ -9144,8 +9256,15 @@
         "B": {
          "pos": [],
          "meaning": "Nó kết thúc với giải thưởng cho người tham gia"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Nó là hoạt động phù hợp trong nhà"
         }
-       }
+       },
+       "evidence": [
+        "Time: 3 hours"
+       ]
       },
       {
        "number": 197,
@@ -9173,7 +9292,10 @@
          "pos": [],
          "meaning": "Xây dựng robot"
         }
-       }
+       },
+       "evidence": [
+        "Group size: 20-500 people"
+       ]
       },
       {
        "number": 198,
@@ -9265,7 +9387,10 @@
          "pos": [],
          "meaning": "Người hướng dẫn không thú vị"
         }
-       }
+       },
+       "evidence": [
+        "They reported that they loved exploring the city, learning about its history, and finding new local attractions, even on a cold and cloudy day."
+       ]
       }
      ]
     }

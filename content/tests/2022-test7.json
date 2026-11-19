@@ -7640,7 +7640,7 @@
         "D": "No food or drinks are permitted on the buses."
        },
        "answer": "D",
-       "explanation": "Đáp án D \"No food or drinks are permitted on the buses.\" là đúng vì nó phù hợp với ngữ cảnh của một thông báo về quy định trên xe buýt.\n\nDịch các đáp án:\nD. No food or drinks are permitted on the buses. (Không được phép mang đồ ăn thức uống lên xe buýt.)",
+       "explanation": "Đáp án D \"No food or drinks are permitted on the buses.\" là đúng vì nó phù hợp với ngữ cảnh của một thông báo về quy định trên xe buýt.",
        "tags": [],
        "optionNotes": {
         "A": {
@@ -7654,6 +7654,10 @@
         "C": {
          "pos": [],
          "meaning": "Chúng tôi hy vọng bạn đã có một kỳ nghỉ vui vẻ tại khách sạn."
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Không được phép mang đồ ăn thức uống lên xe buýt."
         }
        }
       },
@@ -7782,7 +7786,10 @@
          "pos": [],
          "meaning": "gọi cho ông Sommers"
         }
-       }
+       },
+       "evidence": [
+        "be sure to elear out your locker of any personal belongings by this deadline"
+       ]
       }
      ]
     },
@@ -7996,7 +8003,10 @@
          "pos": [],
          "meaning": "Để chọn thành viên cho một ủy ban tuyển dụng"
         }
-       }
+       },
+       "evidence": [
+        "decide who to interview"
+       ]
       },
       {
        "number": 154,
@@ -8143,7 +8153,10 @@
          "pos": [],
          "meaning": "Nó là một doanh nghiệp do gia đình điều hành."
         }
-       }
+       },
+       "evidence": [
+        "Today, the firm continues as a family-owned and family-directed operation"
+       ]
       }
      ]
     },
@@ -8226,7 +8239,10 @@
          "pos": [],
          "meaning": "các tour tham quan thành phố có hướng dẫn"
         }
-       }
+       },
+       "evidence": [
+        "There is also a parking area for guests who wish to travel by car"
+       ]
       },
       {
        "number": 160,
@@ -8258,7 +8274,10 @@
          "pos": [],
          "meaning": "hóa đơn chi tiết"
         }
-       }
+       },
+       "evidence": [
+        "A calendar with details about upcoming events, both at our hotel and in the surrounding area, can be found there"
+       ]
       }
      ]
     },
@@ -8335,7 +8354,10 @@
        "answer": "C",
        "explanation": "Đáp án đúng là C ([3]). Câu \"To do so, please visit our Web site\" (Để làm điều đó, vui lòng truy cập trang web của chúng tôi) phù hợp nhất ở vị trí [3], ngay sau câu \"It is quick and easy to renew online\" (Việc gia hạn trực tuyến nhanh chóng và dễ dàng).\nA. [1]\nB. [2]\nC. [3]\nD. [4]",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "It is quick and easy to renew online"
+       ]
       }
      ]
     },
@@ -8402,7 +8424,10 @@
          "pos": [],
          "meaning": "Lịch trình sẽ bao gồm thêm một ngày họp."
         }
-       }
+       },
+       "evidence": [
+        "there are going to be three"
+       ]
       },
       {
        "number": 166,
@@ -8434,7 +8459,10 @@
          "pos": [],
          "meaning": "một nhà thiết kế bao bì"
         }
-       }
+       },
+       "evidence": [
+        "The packaging designers have been working closely with Marketing on this project"
+       ]
       },
       {
        "number": 167,
@@ -8466,7 +8494,10 @@
          "pos": [],
          "meaning": "Phân công văn phòng cho khách thăm"
         }
-       }
+       },
+       "evidence": [
+        "Jonathan, please update the list of call-in participants' names and numbers and send it to all of us"
+       ]
       }
      ]
     },
@@ -8550,7 +8581,10 @@
          "pos": [],
          "meaning": "Chúng sẽ chỉ cần được lập trình một lần mỗi tháng."
         }
-       }
+       },
+       "evidence": [
+        "display real-time arrival information to bus riders"
+       ]
       },
       {
        "number": 170,
@@ -8582,7 +8616,10 @@
          "pos": [],
          "meaning": "Nhiều chuyến xe buýt đến đúng giờ hơn"
         }
-       }
+       },
+       "evidence": [
+        "studies show that the introduction of such signage has contributed to increased ridership in numerous cities"
+       ]
       },
       {
        "number": 171,
@@ -8666,7 +8703,10 @@
          "pos": [],
          "meaning": "Nó đang phát triển về quy mô."
         }
-       }
+       },
+       "evidence": [
+        "To keep up with our recent rapid expansion, Traskin is now seeking a new junior project manager"
+       ]
       },
       {
        "number": 173,
@@ -8698,7 +8738,10 @@
          "pos": [],
          "meaning": "Nó là một vị trí tạm thời."
         }
-       }
+       },
+       "evidence": [
+        "This training program served as the starting point for several of our current senior project managers"
+       ]
       },
       {
        "number": 174,
@@ -8730,7 +8773,10 @@
          "pos": [],
          "meaning": "Phân công nhiệm vụ cho các thành viên trong nhóm"
         }
-       }
+       },
+       "evidence": [
+        "the successful applicant will create weekly e-mail updates for internal teammates and clients"
+       ]
       },
       {
        "number": 175,
@@ -8798,7 +8844,10 @@
          "pos": [],
          "meaning": "Nó gần đây đã mở các chi nhánh mới."
         }
-       }
+       },
+       "evidence": [
+        "with limited delivery available in some locations"
+       ]
       },
       {
        "number": 177,
@@ -8830,7 +8879,10 @@
          "pos": [],
          "meaning": "Để hoãn một dự án"
         }
-       }
+       },
+       "evidence": [
+        "Would you want to use the machine while I have it?"
+       ]
       },
       {
        "number": 178,
@@ -8962,7 +9014,10 @@
          "pos": [],
          "meaning": "Ông ấy đã là chủ tịch công ty trong ba năm."
         }
-       }
+       },
+       "evidence": [
+        "Invented by Mr."
+       ]
       },
       {
        "number": 182,
@@ -8994,7 +9049,10 @@
          "pos": [],
          "meaning": "Nó là một sản phẩm mới."
         }
-       }
+       },
+       "evidence": [
+        "its ability to regularly gather and update data about the patient's condition"
+       ]
       },
       {
        "number": 183,
@@ -9041,7 +9099,10 @@
          "pos": [],
          "meaning": "vào tháng Sáu"
         }
-       }
+       },
+       "evidence": [
+        "Apply by: 25 April"
+       ]
       },
       {
        "number": 185,
@@ -9073,7 +9134,10 @@
          "pos": [],
          "meaning": "đã làm việc ở nước ngoài"
         }
-       }
+       },
+       "evidence": [
+        "Minimum of three years' experience in managing research teams"
+       ]
       }
      ]
     },
@@ -9126,7 +9190,10 @@
          "pos": [],
          "meaning": "phòng Fredricks"
         }
-       }
+       },
+       "evidence": [
+        "the Avery Room, which has only 20 computer stations"
+       ]
       },
       {
        "number": 187,
@@ -9141,7 +9208,10 @@
        "answer": "B",
        "explanation": "Đáp án đúng là B (Ms. Elgin). Email nêu rõ: \"A highlight is a presentation on Arabic poetry translation, presented by a lecturer who will make her first visit to Ada County Library\" (Một điểm nổi bật là bài thuyết trình về dịch thơ Ả Rập, được trình bày bởi một giảng viên sẽ lần đầu tiên đến thăm Thư viện Quận Ada). Theo lịch trình, Carole Elgin sẽ trình bày về dịch thơ Ả Rập.\nA. Ms. Briggs\nB. Ms. Elgin\nC. Ms. Weiss\nD. Ms. Reynolds",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "A highlight is a presentation on Arabic poetry translation, presented by a lecturer who will make her first visit to Ada County Library"
+       ]
       },
       {
        "number": 188,
@@ -9205,7 +9275,10 @@
          "pos": [],
          "meaning": "Lập trình như một kỹ năng"
         }
-       }
+       },
+       "evidence": [
+        "History of the Dictionary"
+       ]
       },
       {
        "number": 190,
@@ -9237,7 +9310,10 @@
          "pos": [],
          "meaning": "Ông dự định sử dụng công nghệ trong bài thuyết trình của mình."
         }
-       }
+       },
+       "evidence": [
+        "has all the necessary technology for my lecture"
+       ]
       }
      ]
     },
@@ -9290,7 +9366,11 @@
          "pos": [],
          "meaning": "Dẫn các tour giáo dục về sông và suối"
         }
-       }
+       },
+       "evidence": [
+        "conduct periodic water-quality tests",
+        "conduct testing at least once every four weeks to detect any changes in water quality"
+       ]
       },
       {
        "number": 192,
@@ -9322,7 +9402,10 @@
          "pos": [],
          "meaning": "Họ sẽ nhập hồ sơ vào hệ thống máy tính."
         }
-       }
+       },
+       "evidence": [
+        "conduct testing at least once every four weeks"
+       ]
       },
       {
        "number": 193,
@@ -9354,7 +9437,10 @@
          "pos": [],
          "meaning": "Nó sẽ diễn ra tại nhiều địa điểm."
         }
-       }
+       },
+       "evidence": [
+        "from 9:00 A.M. to 12 noon"
+       ]
       },
       {
        "number": 194,
@@ -9401,7 +9487,11 @@
        "answer": "D",
        "explanation": "Đáp án đúng là D (Bring a water-testing kit - Mang theo bộ dụng cụ kiểm tra nước). Trong email thứ hai, Ms. Connors hỏi: \"do you have an extra water-testing kit?\" (bạn có bộ dụng cụ kiểm tra nước dự phòng không?) và đề nghị \"Can we use one of yours until I can get my supplies replaced?\" (Chúng ta có thể sử dụng một trong những bộ của bạn cho đến khi tôi có thể thay thế vật tư của",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "do you have an extra water-testing kit?",
+        "Can we use one of yours until I can get my supplies replaced?"
+       ]
       }
      ]
     },
@@ -9533,7 +9623,10 @@
          "pos": [],
          "meaning": "Nó gần đây đã chuyển đến khu vực thủ đô."
         }
-       }
+       },
+       "evidence": [
+        "To ensure sufficient cooling, much of the roof space is taken up by industrial-sized air-conditioning units"
+       ]
       },
       {
        "number": 200,

@@ -75,3 +75,26 @@ body {
 audio {
   width: 100%;
 }
+
+/* Màu tô dẫn chứng Part 7 — mỗi câu hỏi trong nhóm một màu */
+:root {
+  --hl-1: #cfe1ff;
+  --hl-2: #fde9a3;
+  --hl-3: #c6efd3;
+  --hl-4: #fbd0e3;
+  --hl-5: #e2d6fd;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --hl-1: #23406f;
+    --hl-2: #5b4a12;
+    --hl-3: #1f4b33;
+    --hl-4: #5c2643;
+    --hl-5: #3f306e;
+  }
+}
+.hl-1 { background: var(--hl-1); }
+.hl-2 { background: var(--hl-2); }
+.hl-3 { background: var(--hl-3); }
+.hl-4 { background: var(--hl-4); }
+.hl-5 { background: var(--hl-5); }

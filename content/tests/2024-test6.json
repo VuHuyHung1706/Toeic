@@ -257,10 +257,11 @@
         "C": "No, I thought it started at noon."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về người sẽ mang bánh thừa về nhà.\nDịch câu hỏi: Ai sẽ mang bánh thừa về nhà?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về người sẽ mang bánh thừa về nhà.",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai sẽ mang bánh thừa về nhà?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -301,10 +302,11 @@
         "C": "Because it's after lunch."
        },
        "answer": "A",
-       "explanation": "Đáp án A giải thích lý do người nói không biết vị trí văn phòng an ninh.\nDịch câu hỏi: Bạn có thể cho tôi biết văn phòng an ninh ở đâu không?",
+       "explanation": "Đáp án A giải thích lý do người nói không biết vị trí văn phòng an ninh.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể cho tôi biết văn phòng an ninh ở đâu không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -345,10 +347,11 @@
         "C": "This resume is better."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về cách liên lạc tốt nhất.\nDịch câu hỏi: Cách tốt nhất để liên lạc với bạn là gì?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về cách liên lạc tốt nhất.",
        "tags": [
         "what"
        ],
+       "questionVi": "Cách tốt nhất để liên lạc với bạn là gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -389,10 +392,11 @@
         "C": "Everybody on our team is coming."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về người sẽ tham gia chuyến đi thuyền.\nDịch câu hỏi: Ai sẽ tham gia chúng ta trong chuyến đi thuyền dọc bờ biển?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về người sẽ tham gia chuyến đi thuyền.",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai sẽ tham gia chúng ta trong chuyến đi thuyền dọc bờ biển?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -433,10 +437,11 @@
         "C": "The blue one with gold trim"
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho yêu cầu gọi kỹ thuật viên.\nDịch câu hỏi: Bạn có thể yêu cầu một kỹ thuật viên đến sửa máy đóng gói không?",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho yêu cầu gọi kỹ thuật viên.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể yêu cầu một kỹ thuật viên đến sửa máy đóng gói không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -477,10 +482,11 @@
         "C": "Fifty should be enough for everyone."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về số lượng bản sao cần làm.\nDịch câu hỏi: Tôi nên làm bao nhiêu bản sao của đề xuất?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về số lượng bản sao cần làm.",
        "tags": [
         "how"
        ],
+       "questionVi": "Tôi nên làm bao nhiêu bản sao của đề xuất?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -521,10 +527,11 @@
         "C": "That's where he lives now."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp giải thích lý do Jonathan rời đi sớm.\nDịch câu hỏi: Tại sao Jonathan rời đi sớm?",
+       "explanation": "Đáp án A trực tiếp giải thích lý do Jonathan rời đi sớm.",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao Jonathan rời đi sớm?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -565,10 +572,11 @@
         "C": "At the Chesterville Hotel."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về địa điểm tổ chức tiệc công ty.\nDịch câu hỏi: Tiệc công ty được tổ chức ở đâu?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về địa điểm tổ chức tiệc công ty.",
        "tags": [
         "where"
        ],
+       "questionVi": "Tiệc công ty được tổ chức ở đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -609,10 +617,11 @@
         "C": "Archie Co. works at the front desk."
        },
        "answer": "A",
-       "explanation": "Đáp án A là phản hồi hợp lý nhất cho câu hỏi về đăng ký tạp chí.\nDịch câu hỏi: Bạn có muốn đăng ký tạp chí trong một năm không?",
+       "explanation": "Đáp án A là phản hồi hợp lý nhất cho câu hỏi về đăng ký tạp chí.",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn có muốn đăng ký tạp chí trong một năm không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -653,10 +662,11 @@
         "C": "I like it too."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về món ăn kèm.\nDịch câu hỏi: Món mì ống này có kèm theo salad không?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về món ăn kèm.",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Món mì ống này có kèm theo salad không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -697,10 +707,11 @@
         "C": "Probably on Harold's desk."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian có thể gặp.\nDịch câu hỏi: Khi nào chúng ta có thể gặp nhau về các hóa đơn?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian có thể gặp.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào chúng ta có thể gặp nhau về các hóa đơn?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -741,10 +752,11 @@
         "C": "50 euros each."
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề nghị giúp đỡ mở tài khoản tiết kiệm.\nDịch câu hỏi: Bạn có muốn tôi giúp bạn mở một tài khoản tiết kiệm không?",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề nghị giúp đỡ mở tài khoản tiết kiệm.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có muốn tôi giúp bạn mở một tài khoản tiết kiệm không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -785,10 +797,11 @@
         "C": "Can you close the door?"
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian đăng tin tuyển dụng.\nDịch câu hỏi: Khi nào bạn đăng tin tuyển dụng?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian đăng tin tuyển dụng.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào bạn đăng tin tuyển dụng?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -829,10 +842,11 @@
         "C": "Yes, I hope I get it."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về việc ứng tuyển vị trí quản lý.\nDịch câu hỏi: Bạn có đang ứng tuyển vào vị trí quản lý không?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về việc ứng tuyển vị trí quản lý.",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn có đang ứng tuyển vào vị trí quản lý không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -873,10 +887,11 @@
         "C": "London, then New York."
        },
        "answer": "A",
-       "explanation": "Đáp án A, mặc dù không trực tiếp trả lời câu hỏi, nhưng ngụ ý rằng người nói không còn đi chuyến bay nào nữa.\nDịch câu hỏi: Bạn đi hạng thương gia hay hạng phổ thông?",
+       "explanation": "Đáp án A, mặc dù không trực tiếp trả lời câu hỏi, nhưng ngụ ý rằng người nói không còn đi chuyến bay nào nữa.",
        "tags": [
         "choice"
        ],
+       "questionVi": "Bạn đi hạng thương gia hay hạng phổ thông?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -917,10 +932,11 @@
         "C": "There are six folders on the table."
        },
        "answer": "A",
-       "explanation": "Đáp án A đề xuất một giải pháp có thể giúp tăng số lượng người đăng ký.\nDịch câu hỏi: Số lượng người đăng ký tạp chí của chúng ta đã giảm gần đây.",
+       "explanation": "Đáp án A đề xuất một giải pháp có thể giúp tăng số lượng người đăng ký.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Số lượng người đăng ký tạp chí của chúng ta đã giảm gần đây.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -961,10 +977,11 @@
         "C": "I pay a company to do all the maintenance."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về cách làm sạch các tấm pin mặt trời.\nDịch câu hỏi: Làm thế nào bạn làm sạch các tấm pin mặt trời mà không làm hỏng chúng?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về cách làm sạch các tấm pin mặt trời.",
        "tags": [
         "how"
        ],
+       "questionVi": "Làm thế nào bạn làm sạch các tấm pin mặt trời mà không làm hỏng chúng?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1005,10 +1022,11 @@
         "C": "No, thank you."
        },
        "answer": "A",
-       "explanation": "Đáp án A là phản hồi phù hợp nhất cho câu hỏi về thời gian nhận chứng chỉ.\nDịch câu hỏi: Khi nào tôi sẽ nhận được chứng chỉ qua đường bưu điện?",
+       "explanation": "Đáp án A là phản hồi phù hợp nhất cho câu hỏi về thời gian nhận chứng chỉ.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào tôi sẽ nhận được chứng chỉ qua đường bưu điện?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1049,10 +1067,11 @@
         "C": "I work in the home decor area"
        },
        "answer": "C",
-       "explanation": "Đáp án C ngụ ý rằng người nói không biết về việc bán máy cắt cỏ vì họ làm việc ở khu vực khác.\nDịch câu hỏi: Chúng ta không bán máy cắt cỏ Ramirez sao?",
+       "explanation": "Đáp án C ngụ ý rằng người nói không biết về việc bán máy cắt cỏ vì họ làm việc ở khu vực khác.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chúng ta không bán máy cắt cỏ Ramirez sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1093,10 +1112,11 @@
         "C": "Alphabetical order is fine, I think"
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất gặp mặt thảo luận.\nDịch câu hỏi: Chúng ta có nên gặp nhau để thảo luận về dự án nghiên cứu không?",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất gặp mặt thảo luận.",
        "tags": [
         "request"
        ],
+       "questionVi": "Chúng ta có nên gặp nhau để thảo luận về dự án nghiên cứu không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1137,10 +1157,11 @@
         "C": "The leaves come out in the spring"
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian nhân viên vệ sinh rời đi.\nDịch câu hỏi: Nhân viên vệ sinh rời đi lúc mấy giờ?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian nhân viên vệ sinh rời đi.",
        "tags": [
         "when"
        ],
+       "questionVi": "Nhân viên vệ sinh rời đi lúc mấy giờ?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1181,10 +1202,11 @@
         "C": "A friend recommended them"
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về phương thức thanh toán.\nDịch câu hỏi: Hôm nay bạn muốn thanh toán cho đôi giày này bằng cách nào?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về phương thức thanh toán.",
        "tags": [
         "how"
        ],
+       "questionVi": "Hôm nay bạn muốn thanh toán cho đôi giày này bằng cách nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1225,10 +1247,11 @@
         "C": "Isn't the policy in effect already?"
        },
        "answer": "A",
-       "explanation": "Đáp án A ngụ ý rằng quảng cáo có hiệu quả bằng cách đề cập đến việc tăng doanh số.\nDịch câu hỏi: Đó là một quảng cáo hiệu quả, phải không?",
+       "explanation": "Đáp án A ngụ ý rằng quảng cáo có hiệu quả bằng cách đề cập đến việc tăng doanh số.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Đó là một quảng cáo hiệu quả, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1269,10 +1292,11 @@
         "C": "I'll have spaghetti, please."
        },
        "answer": "A",
-       "explanation": "Đáp án A gián tiếp từ chối đề xuất đi dạo bằng cách đề cập đến một nhiệm vụ cần hoàn thành.\nDịch câu hỏi: Tại sao chúng ta không đi dạo sau bữa trưa?",
+       "explanation": "Đáp án A gián tiếp từ chối đề xuất đi dạo bằng cách đề cập đến một nhiệm vụ cần hoàn thành.",
        "tags": [
         "request"
        ],
+       "questionVi": "Tại sao chúng ta không đi dạo sau bữa trưa?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1313,10 +1337,11 @@
         "C": "The moving van is coming tomorrow"
        },
        "answer": "A",
-       "explanation": "Đáp án A là câu hỏi phù hợp nhất liên quan đến việc di chuyển hàng hóa theo mùa.\nDịch câu hỏi: Tôi đã quyết định chuyển hàng hóa theo mùa ra phía trước cửa hàng.",
+       "explanation": "Đáp án A là câu hỏi phù hợp nhất liên quan đến việc di chuyển hàng hóa theo mùa.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Tôi đã quyết định chuyển hàng hóa theo mùa ra phía trước cửa hàng.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -4950,7 +4975,7 @@
         "D": "To congratulate a colleague"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến giải thưởng của Alvaro Gomez để gợi ý rằng anh ta có thể là một ứng cử viên phù hợp cho công việc tạo tác phẩm nghệ thuật.\nTrích dẫn: \"we'll need to hire a skilled artist for the task. I think Alvaro Gomez has won several awards.\"\nCác đáp án dịch sang tiếng Việt:\nC. Để đề xuất một ứng cử viên phù hợp\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ Alvaro Gomez đã giành được một số giải thưởng\"?",
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến giải thưởng của Alvaro Gomez để gợi ý rằng anh ta có thể là một ứng cử viên phù hợp cho công việc tạo tác phẩm nghệ thuật.\nTrích dẫn: \"we'll need to hire a skilled artist for the task. I think Alvaro Gomez has won several awards.\"\nCác đáp án dịch sang tiếng Việt:\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ Alvaro Gomez đã giành được một số giải thưởng\"?",
        "tags": [],
        "optionNotes": {
         "A": {
@@ -4960,6 +4985,10 @@
         "B": {
          "pos": [],
          "meaning": "Để khen ngợi một triển lãm bảo tàng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Để đề xuất một ứng cử viên phù hợp"
         },
         "D": {
          "pos": [],
@@ -7469,7 +7498,10 @@
          "pos": [],
          "meaning": "Thông báo cho người dùng về các chính sách mới của công ty."
         }
-       }
+       },
+       "evidence": [
+        "Your secret-question option for password recovery was updated at 3:16 P.M. today"
+       ]
       },
       {
        "number": 148,
@@ -7501,7 +7533,10 @@
          "pos": [],
          "meaning": "Nó đã tăng phí người dùng hàng tháng."
         }
-       }
+       },
+       "evidence": [
+        "Make the process even more secure by setting up two-step verification"
+       ]
       }
      ]
     },
@@ -7547,7 +7582,10 @@
          "pos": [],
          "meaning": "truy cập Internet"
         }
-       }
+       },
+       "evidence": [
+        "one of our representatives to install a Global Tech modem at your home"
+       ]
       },
       {
        "number": 150,
@@ -7571,7 +7609,10 @@
          "pos": [],
          "meaning": "Bà ấy sẽ được đại diện của Global Tech đến thăm.n\\D. Bà ấy sẽ nhận được một khảo sát về sự hài lòng của khách hàng qua email."
         }
-       }
+       },
+       "evidence": [
+        "one of our representatives to install a Global Tech modem at your home"
+       ]
       }
      ]
     },
@@ -7617,7 +7658,11 @@
          "pos": [],
          "meaning": "Bà ấy đã điền vào một biểu mẫu."
         }
-       }
+       },
+       "evidence": [
+        "I tried that",
+        "Double-check with Ariana Seltzer first"
+       ]
       },
       {
        "number": 152,
@@ -7641,7 +7686,10 @@
          "pos": [],
          "meaning": "nhà thiết kế trang web"
         }
-       }
+       },
+       "evidence": [
+        "You already have all your designs for their Web site ready, right?"
+       ]
       }
      ]
     },
@@ -7708,7 +7756,10 @@
          "pos": [],
          "meaning": "Những người tham gia sẽ thực hành trả lời phỏng vấn."
         }
-       }
+       },
+       "evidence": [
+        "This session will be interactive, featuring mock interviews with attendees"
+       ]
       },
       {
        "number": 155,
@@ -7740,7 +7791,10 @@
          "pos": [],
          "meaning": "Chúng miễn phí."
         }
-       }
+       },
+       "evidence": [
+        "Note that all January events are virtual"
+       ]
       }
      ]
     },
@@ -7787,7 +7841,10 @@
          "pos": [],
          "meaning": "Nó nằm ở quảng trường trung tâm."
         }
-       }
+       },
+       "evidence": [
+        "an activity complex that includes a gym, theater, and swimming pool"
+       ]
       },
       {
        "number": 157,
@@ -7819,7 +7876,10 @@
          "pos": [],
          "meaning": "Bằng cách gọi cho một chủ nhà hiện tại."
         }
-       }
+       },
+       "evidence": [
+        "Model homes are currently available for tours"
+       ]
       },
       {
        "number": 158,
@@ -7884,7 +7944,10 @@
          "pos": [],
          "meaning": "Để yêu cầu thêm các tài liệu tham khảo công việc."
         }
-       }
+       },
+       "evidence": [
+        "Thank you for sending your estimate"
+       ]
       },
       {
        "number": 160,
@@ -7916,7 +7979,11 @@
          "pos": [],
          "meaning": "vào ngày 5 tháng 3"
         }
-       }
+       },
+       "evidence": [
+        "I will be speaking with Ms.",
+        "Cho about this tomorrow morning"
+       ]
       }
      ]
     },
@@ -7967,7 +8034,10 @@
          "pos": [],
          "meaning": "Thời gian bắt đầu hội thảo."
         }
-       }
+       },
+       "evidence": [
+        "Election Assistant, $18/hour"
+       ]
       },
       {
        "number": 162,
@@ -7999,7 +8069,10 @@
          "pos": [],
          "meaning": "kỹ năng giao tiếp tốt"
         }
-       }
+       },
+       "evidence": [
+        "Is comfortable interacting with the public"
+       ]
       },
       {
        "number": 163,
@@ -8031,7 +8104,10 @@
          "pos": [],
          "meaning": "Nó có sẵn cả trực tuyến và trực tiếp."
         }
-       }
+       },
+       "evidence": [
+        "Workers must attend a four-hour pre-election training workshop"
+       ]
       }
      ]
     },
@@ -8107,7 +8183,10 @@
          "pos": [],
          "meaning": "Nó chỉ có sẵn trong giờ hành chính."
         }
-       }
+       },
+       "evidence": [
+        "VIS is a fast, convenient, and secure way to access and control your bank accounts by phone"
+       ]
       },
       {
        "number": 166,
@@ -8139,7 +8218,10 @@
          "pos": [],
          "meaning": "Gửi email đến dịch vụ khách hàng."
         }
-       }
+       },
+       "evidence": [
+        "simply call to have one of our customer-service representatives delete your identification file"
+       ]
       },
       {
        "number": 167,
@@ -8206,7 +8288,10 @@
          "pos": [],
          "meaning": "Một bản sao miễn phí của danh mục của nhà xuất bản."
         }
-       }
+       },
+       "evidence": [
+        "Buy one, get one 50 percent off when you purchase from our Web site"
+       ]
       },
       {
        "number": 169,
@@ -8234,7 +8319,10 @@
          "pos": [],
          "meaning": "một nhà lãnh đạo công ty"
         }
-       }
+       },
+       "evidence": [
+        "A biography of famous executive Haruto Yamada"
+       ]
       },
       {
        "number": 170,
@@ -8281,7 +8369,11 @@
        "answer": "C",
        "explanation": "Đáp án: C.\nCuốn sách \"The Connections Unseen\" bao gồm các hình ảnh lịch sử.\nDẫn chứng: \"A collection of transcribed lectures and archival photos from Gloria de Leon's 40-year career.”\nDịch nghĩa:\nA. Maestro.\nB. Working Under Moonbeams.\nC. The Connections Unseen.\nD. Flashback.",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "The Connections Unseen",
+        "A collection of transcribed lectures and archival photos from Gloria de Leon's 40-year career"
+       ]
       }
      ]
     },
@@ -8365,7 +8457,10 @@
          "pos": [],
          "meaning": "Bà ấy đang kiểm tra sự sẵn sàng của nhân viên để tổ chức một hội nghị."
         }
-       }
+       },
+       "evidence": [
+        "Where do we stand?"
+       ]
       },
       {
        "number": 174,
@@ -8429,7 +8524,10 @@
          "pos": [],
          "meaning": "Chúng không yêu cầu kết nối Wi-Fi."
         }
-       }
+       },
+       "evidence": [
+        "We won't have to worry about being connected to Wi-Fi"
+       ]
       }
      ]
     },
@@ -8546,7 +8644,10 @@
          "pos": [],
          "meaning": "một tập quảng bá du lịch"
         }
-       }
+       },
+       "evidence": [
+        "yesterday's edition of the Colby Today"
+       ]
       },
       {
        "number": 179,
@@ -8578,7 +8679,10 @@
          "pos": [],
          "meaning": "Ông ấy không thể làm việc vào cuối tuần."
         }
-       }
+       },
+       "evidence": [
+        "Ness Large Animal Clinic as a technician's assistant"
+       ]
       },
       {
        "number": 180,
@@ -8663,7 +8767,10 @@
          "pos": [],
          "meaning": "Một tin nhắn điện thoại từ ông Yoneda."
         }
-       }
+       },
+       "evidence": [
+        "I saw the callout to local growers on your social media feed"
+       ]
       },
       {
        "number": 182,
@@ -8695,7 +8802,10 @@
          "pos": [],
          "meaning": "Bà ấy là chủ tịch của một câu lạc bộ làm vườn ở Helensville."
         }
-       }
+       },
+       "evidence": [
+        "I started a large community food garden with my neighbours"
+       ]
       },
       {
        "number": 183,
@@ -8727,7 +8837,11 @@
          "pos": [],
          "meaning": "Công ty của ông ấy đã hết cây ăn quả để bán."
         }
-       }
+       },
+       "evidence": [
+        "There is a disease affecting certain varieties, so we must be cautious.",
+        "We learned our lesson regarding this last autumn!"
+       ]
       },
       {
        "number": 184,
@@ -8759,7 +8873,10 @@
          "pos": [],
          "meaning": "Mang một số cây đến Pink Fern Gardens."
         }
-       }
+       },
+       "evidence": [
+        "Please stop by at your convenience with samples of* your offerings, and we can discuss our needs further in person."
+       ]
       },
       {
        "number": 185,
@@ -8791,7 +8908,10 @@
          "pos": [],
          "meaning": "2 đô la"
         }
-       }
+       },
+       "evidence": [
+        "herbs for cooking, especially oregano, mint, and rosemary ($2)"
+       ]
       }
      ]
     },
@@ -8844,7 +8964,10 @@
          "pos": [],
          "meaning": "Nó yêu cầu thanh toán đầy đủ trước khi bắt đầu làm việc."
         }
-       }
+       },
+       "evidence": [
+        "a dramatic increase in demand"
+       ]
       },
       {
        "number": 187,
@@ -8908,7 +9031,10 @@
          "pos": [],
          "meaning": "Ông ấy giao thiết bị đã sửa chữa."
         }
-       }
+       },
+       "evidence": [
+        "Within an hour, I received an email directly from the owner: Although the time slot I requested was not available, when I replied to his email to express how urgently I needed the laptop, the owner said that they had an unexpected cancellation and asked if I could bring it in that morning, which I did."
+       ]
       },
       {
        "number": 189,
@@ -8968,7 +9094,10 @@
          "pos": [],
          "meaning": "Nó yêu cầu nâng cấp ổ cứng."
         }
-       }
+       },
+       "evidence": [
+        "Other than a new battery, no other parts were needed and Elektroproof Repair had my laptop fully functional and back to me within 24 hours."
+       ]
       }
      ]
     },
@@ -9021,7 +9150,10 @@
          "pos": [],
          "meaning": "Để thông báo về một địa điểm mới."
         }
-       }
+       },
+       "evidence": [
+        "Alexis Instruments will offer group and individual guitar instruction"
+       ]
       },
       {
        "number": 192,
@@ -9049,7 +9181,10 @@
          "pos": [],
          "meaning": "Nó đã kéo dài giờ hoạt động."
         }
-       }
+       },
+       "evidence": [
+        "Each of our locations has been updated with newly constructed classrooms and practice rooms"
+       ]
       },
       {
        "number": 193,
@@ -9081,7 +9216,10 @@
          "pos": [],
          "meaning": "Nó là chiếc duy nhất của mẫu này còn có sẵn."
         }
-       }
+       },
+       "evidence": [
+        "We have only one guitar of the model you want in stock"
+       ]
       },
       {
        "number": 194,
@@ -9145,7 +9283,10 @@
          "pos": [],
          "meaning": "Nó được thành lập bởi một nhạc sĩ chuyên nghiệp."
         }
-       }
+       },
+       "evidence": [
+        "Three-year repair and maintenance plan, good at any Alexis Instruments location"
+       ]
       }
      ]
     },
@@ -9198,7 +9339,10 @@
          "pos": [],
          "meaning": "Buổi đào tạo nhân viên tiếp theo của nó sẽ diễn ra trong mười ngày nữa."
         }
-       }
+       },
+       "evidence": [
+        "Lead group tour"
+       ]
       },
       {
        "number": 197,
@@ -9262,7 +9406,10 @@
          "pos": [],
          "meaning": "120 phút"
         }
-       }
+       },
+       "evidence": [
+        "Class: Sculpting with Clay"
+       ]
       },
       {
        "number": 199,

@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from enrich import apply_group_vocab, apply_option_notes, tag_question, write_extras
+from enrich import apply_evidence, apply_group_vocab, apply_option_notes, tag_question, write_extras
 
 # ---------------------------------------------------------------------------
 # Hằng số định dạng đề TOEIC
@@ -475,6 +475,8 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 group["questions"].append(q)
             if part in (3, 4):
                 apply_group_vocab(group)
+            if part == 7:
+                apply_evidence(group)
             groups.append(group)
 
         # --- kiểm tra số lượng câu

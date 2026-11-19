@@ -222,6 +222,65 @@ def apply_group_vocab(group: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Part 7: dẫn chứng — câu/đoạn trong bài đọc mà phần giải thích trích dẫn (để tô màu theo câu hỏi)
+# ---------------------------------------------------------------------------
+EVIDENCE_QUOTE_RE = re.compile(r'["“]([^"“”]{8,400})["”]|(?<![A-Za-z])\'([^\']{12,300})\'(?![A-Za-z])')
+PASSAGE_SENT_RE = re.compile(r"[^.!?\n]+[.!?]?")
+SENT_BOUNDARY_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"“(])")
+
+
+def _flex_pattern(span: str) -> re.Pattern | None:
+    words = re.findall(r"\S+", span.strip(" .,;:"))
+    if len(words) < 3:
+        return None
+    # một lượt thay duy nhất (thay hai lượt sẽ thay luôn dấu ’ vừa chèn → hỏng mẫu)
+    parts = [re.sub(r"['’]", lambda _: "['’]", re.escape(w)) for w in words]
+    return re.compile(r"\s+".join(parts), re.I)
+
+
+def _tok(s: str) -> list[str]:
+    return [w for w in (x.lower().strip(".,;:!?()\"'’") for x in re.findall(r"\S+", s)) if w]
+
+
+def find_evidence(question: dict, passage: str) -> list[str]:
+    """Các đoạn nguyên văn trong bài đọc được phần giải thích trích dẫn (khớp chính xác, hoặc khớp ≥75% từ của một câu)."""
+    sents = [m.group(0).strip() for m in PASSAGE_SENT_RE.finditer(passage) if len(m.group(0).split()) >= 3]
+    found: list[str] = []
+    for a, b in EVIDENCE_QUOTE_RE.findall(question.get("explanation", "")):
+        for piece in re.split(r"\s*(?:\.\.\.|…)\s*", a or b):
+            pat = _flex_pattern(piece)
+            if not pat:
+                continue
+            m = pat.search(passage)
+            if m:
+                hit = m.group(0)
+            else:
+                q = set(_tok(piece))
+                if len(q) < 4:
+                    continue
+                best = max(sents, key=lambda st: len(q & set(_tok(st))), default=None)
+                if not best or len(q & set(_tok(best))) / len(q) < 0.75:
+                    continue
+                hit = best
+            # tách theo câu để tô được cả ở chế độ song ngữ (mỗi dòng là một câu)
+            for sub in SENT_BOUNDARY_RE.split(hit):
+                sub = sub.strip()
+                if len(sub.split()) >= 3 and sub not in found:
+                    found.append(sub)
+    return found[:6]
+
+
+def apply_evidence(group: dict) -> None:
+    passage = "\n".join(ps["en"] for ps in group["passages"] if ps.get("en"))
+    if not passage:
+        return
+    for q in group["questions"]:
+        ev = find_evidence(q, passage)
+        if ev:
+            q["evidence"] = ev
+
+
+# ---------------------------------------------------------------------------
 # Từ vựng: trích từ các dòng giải thích dạng "A. modifications (danh từ số nhiều: những sự thay đổi)"
 # ---------------------------------------------------------------------------
 VOCAB_LINE_RE = re.compile(
@@ -373,7 +432,7 @@ def gloss_of_line(line: str, options: dict, relaxed: bool = False) -> tuple[str,
 
 # dấu hiệu dòng có kèm lập luận (giữ lại trong giải thích), không chỉ là bản dịch phương án
 COMMENT_RE = re.compile(r"\s[-–—]\s+\S|phù hợp|\bvì\b|\bkhông\b|nhưng|cấu trúc|dùng để|là đúng|chính xác|ngữ cảnh", re.I)
-OPTION_HEADER_RE = re.compile(r"^\s*(?:dịch\s+)?(?:các\s+)?(?:đáp án|phương án|lựa chọn)[^:\n]{0,40}:\s*$", re.I)
+OPTION_HEADER_RE = re.compile(r"^\s*(?:dịch\s+)?(?:câu hỏi\s+và\s+)?(?:các\s+)?(?:đáp án|phương án|lựa chọn)[^:\n]{0,40}:\s*$", re.I)
 
 
 # --- dịch phương án dạng câu (Part 1–4, 6, 7): "A. Anh ấy đang …", "A: To repair (Để sửa …)" ---
@@ -382,7 +441,8 @@ SENT_OPTION_RE = re.compile(r"^\s*(?:[-•*]\s*)?(Đáp án\s*)?\(?([A-D])\)?([.
 VERDICT_TAIL_RE = re.compile(r"\s*[,;-]?\s*(?:là\s+)?(?:mô tả|câu trả lời|đáp án|lựa chọn)?\s*(?:đúng nhất|chính xác nhất|chính xác|"
                              r"không phù hợp|không đúng|không chính xác|không phải là (?:hình ảnh|mô tả|đáp án) đúng|sai)\.?$", re.I)
 NOT_SENT_MEANING_RE = re.compile(
-    r"^(?:sai|đúng|không đúng|đáp án|là\b|chính xác)|(?:đúng|sai|là) vì\b|là đúng|là chính xác|phù hợp|được nhắc|không được|"
+    r"^(?:sai|đúng|không đúng|đáp án|là\b|chính xác)|(?:đúng|sai|là) vì\b|là đúng|là chính xác|không phù hợp|phù hợp (?:nhất|với|vì)|"
+    r"được nhắc|không được (?:nhắc|đề cập|nói)|"
     r"đề cập đến trong|giải thích|lý do|^đây\b|không phải|nghĩa là|tức là|ngụ ý|gián tiếp|trả lời câu hỏi|người hỏi|"
     r"người nói(?! chuyện)|câu hỏi|được đề cập|xác nhận rằng|^[\"“]", re.I)
 RESIDUAL_OK_RE = re.compile(r"^(?:câu|cụm từ|cụm|đúng|sai|correct|incorrect|đáp án đúng)?$", re.I)
@@ -484,12 +544,43 @@ def option_line_note(line: str, options: dict) -> tuple[str, list[str], str, boo
         pos = g[1] if g else []
         if POS_ONLY_RE.fullmatch(meaning):  # "modify (động từ nguyên thể)" → chỉ có loại từ
             pos, meaning = sorted(set(pos) | set(_pos_of(meaning))), ""
+        mp = re.match(r"^((?:danh|động|tính|trạng|giới|liên|đại) từ[^:]{0,15}|cụm từ)\s*:\s*(.+)$", meaning, re.I)
+        if mp:  # "tính từ: không hoạt động" → loại từ + nghĩa
+            pos = sorted(set(pos) | set(_pos_of(mp.group(1))))
+            meaning = mp.group(2).strip()
         tail = re.search(r"\s*\(([^()]*\b(?:danh|động|tính|trạng|giới|liên|đại) từ[^()]*)\)\s*$", meaning)
         if tail:  # "Một món đồ quần áo (danh từ chỉ vật dụng)" → nhãn loại từ tách ra
             pos = sorted(set(pos) | set(_pos_of(tail.group(1))))
             meaning = meaning[: tail.start()].strip()
         return letter, pos, meaning, pure
     return None
+
+
+QUESTION_LINE_RE = re.compile(r"^\s*(?:[-•*]\s*)?(?:\[Dịch\]\s*)?(?:Dịch\s+)?(?:câu hỏi|question)\s*:\s*(.+?)\s*$", re.I)
+QUESTION_VI_PARTS = (2, 3, 4, 7)
+
+
+def question_line_vi(line: str, question: str) -> tuple[str, bool] | None:
+    """Dòng dịch câu hỏi → (bản dịch, dòng chỉ có bản dịch hay không)."""
+    m = QUESTION_LINE_RE.match(line)
+    if not m:
+        return None
+    c = m.group(1).strip()
+    if not VI_CHARS_RE.search(c):
+        return None
+    en = question.strip()
+    if en and _simplify(en) and _simplify(en) in _simplify(c):
+        # "Question: Why did …? (Tại sao …?)" → bản dịch trong ngoặc
+        inner = [x for x in PAREN_RE.findall(c) if VI_CHARS_RE.search(x)]
+        vi = inner[-1] if inner else c.replace(en, "")
+    else:
+        parens = [x for x in PAREN_RE.findall(c) if _similar(x, en)]
+        vi = PAREN_RE.sub("", c) if parens else c
+    vi = vi.strip().strip("\"“”'").strip()
+    if not vi or len(vi) > 250 or not VI_CHARS_RE.search(vi) or re.search(r"đáp án|giải thích", vi, re.I):
+        return None
+    residual = _simplify(c.replace(vi, " ").replace(en, " "))
+    return vi, residual == ""
 
 
 def apply_option_notes(q: dict) -> None:
@@ -499,6 +590,15 @@ def apply_option_notes(q: dict) -> None:
     notes: dict[str, dict] = {}
     drop: set[int] = set()
     for i, line in enumerate(lines):
+        # bản dịch câu hỏi (Part 2, 3, 4, 7) → q["questionVi"]
+        if q.get("part") in QUESTION_VI_PARTS:
+            qv = question_line_vi(line, q.get("question", ""))
+            if qv:
+                if "questionVi" not in q:
+                    q["questionVi"] = qv[0]
+                if qv[1]:
+                    drop.add(i)
+                continue
         n = option_line_note(line, q["options"])
         if not n:
             continue

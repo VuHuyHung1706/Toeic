@@ -257,10 +257,11 @@
         "C": "The rent is too high."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về cuộc họp sắp diễn ra.\nDịch câu hỏi: Sắp có một cuộc họp trong phòng hội nghị, phải không?\nDịch đáp án:\nA. Đúng, nó dành cho toàn bộ phòng ban.",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về cuộc họp sắp diễn ra.\nDịch đáp án:\nA. Đúng, nó dành cho toàn bộ phòng ban.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Sắp có một cuộc họp trong phòng hội nghị, phải không?",
        "optionNotes": {
         "B": {
          "pos": [],
@@ -297,10 +298,11 @@
         "C": "Because the artist is out of town."
        },
        "answer": "C",
-       "explanation": "Đáp án C giải thích lý do tại sao bức tranh tường chưa được vẽ.\nDịch câu hỏi: Tại sao bức tranh tường ở sảnh vẫn chưa được vẽ?",
+       "explanation": "Đáp án C giải thích lý do tại sao bức tranh tường chưa được vẽ.",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao bức tranh tường ở sảnh vẫn chưa được vẽ?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -341,10 +343,11 @@
         "C": "Mornings are usually better for me."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về thời gian viết ưa thích.\nDịch câu hỏi: Bạn thích viết vào buổi sáng hay buổi chiều hơn?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về thời gian viết ưa thích.",
        "tags": [
         "choice"
        ],
+       "questionVi": "Bạn thích viết vào buổi sáng hay buổi chiều hơn?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -385,10 +388,11 @@
         "C": "I prefer the red jacket"
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất về màu sơn.\nDịch câu hỏi: Tôi đề nghị chúng ta sơn phòng chờ màu xanh nhạt.",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất về màu sơn.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Tôi đề nghị chúng ta sơn phòng chờ màu xanh nhạt.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -429,10 +433,11 @@
         "C": "I saw the piano recital."
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi trực tiếp cho câu hỏi về việc biết thông tin đóng cửa của trường âm nhạc.\nDịch câu hỏi: Bạn có biết rằng trường âm nhạc đóng cửa vào Chủ nhật không?",
+       "explanation": "Đáp án B là phản hồi trực tiếp cho câu hỏi về việc biết thông tin đóng cửa của trường âm nhạc.",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn có biết rằng trường âm nhạc đóng cửa vào Chủ nhật không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -473,10 +478,11 @@
         "C": "Twelve euros."
        },
        "answer": "A",
-       "explanation": "Đáp án A cung cấp thông tin hữu ích về cách tìm người quản lý văn phòng.\nDịch câu hỏi: Làm thế nào để tôi tìm người quản lý văn phòng?",
+       "explanation": "Đáp án A cung cấp thông tin hữu ích về cách tìm người quản lý văn phòng.",
        "tags": [
         "how"
        ],
+       "questionVi": "Làm thế nào để tôi tìm người quản lý văn phòng?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -517,10 +523,11 @@
         "C": "The warehouse on William Street."
        },
        "answer": "B",
-       "explanation": "Đáp án B, mặc dù không trực tiếp trả lời câu hỏi về thời gian đặt hàng, nhưng ngụ ý rằng đơn hàng chưa được đặt vì hàng đang hết.\nDịch câu hỏi: Khi nào bạn đặt hàng gỗ?",
+       "explanation": "Đáp án B, mặc dù không trực tiếp trả lời câu hỏi về thời gian đặt hàng, nhưng ngụ ý rằng đơn hàng chưa được đặt vì hàng đang hết.",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào bạn đặt hàng gỗ?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -561,10 +568,11 @@
         "C": "We decided to keep the old one"
        },
        "answer": "C",
-       "explanation": "Đáp án C ngụ ý rằng không có máy đóng gói mới vì họ quyết định giữ lại máy cũ.\nDịch câu hỏi: Máy đóng gói mới ở đâu?",
+       "explanation": "Đáp án C ngụ ý rằng không có máy đóng gói mới vì họ quyết định giữ lại máy cũ.",
        "tags": [
         "where"
        ],
+       "questionVi": "Máy đóng gói mới ở đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -605,10 +613,11 @@
         "C": "It's right down the hallway"
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho thông báo về việc vắng mặt.\nDịch câu hỏi: Tôi sẽ không có mặt ở văn phòng chiều nay.",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho thông báo về việc vắng mặt.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Tôi sẽ không có mặt ở văn phòng chiều nay.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -649,10 +658,11 @@
         "C": "Blueprints for a high-rise building."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về kế hoạch nghỉ phép.\nDịch câu hỏi: Bạn có đi nghỉ sau khi dự án này kết thúc không?\nDịch đáp án:\nB. Đây là lần thứ hai của bạn, phải không?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về kế hoạch nghỉ phép.\nDịch đáp án:\nB. Đây là lần thứ hai của bạn, phải không?",
        "tags": [
         "yes-no"
        ],
+       "questionVi": "Bạn có đi nghỉ sau khi dự án này kết thúc không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -689,10 +699,11 @@
         "C": "A recent hiring decision."
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất đăng báo cáo bán hàng.\nDịch câu hỏi: Hãy đăng báo cáo bán hàng lên trang web của đội chúng ta.",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất đăng báo cáo bán hàng.",
        "tags": [
         "request"
        ],
+       "questionVi": "Hãy đăng báo cáo bán hàng lên trang web của đội chúng ta.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -733,10 +744,11 @@
         "C": "Yes, you can use mine."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về hãng hàng không được chọn.\nDịch câu hỏi: Bạn dự định sử dụng hãng hàng không nào?",
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về hãng hàng không được chọn.",
        "tags": [
         "what"
        ],
+       "questionVi": "Bạn dự định sử dụng hãng hàng không nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -777,10 +789,11 @@
         "C": "Just half the order."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về địa điểm gửi hàng.\nDịch câu hỏi: Lô hàng linh kiện này đang được gửi đi đâu?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về địa điểm gửi hàng.",
        "tags": [
         "where"
        ],
+       "questionVi": "Lô hàng linh kiện này đang được gửi đi đâu?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -821,10 +834,11 @@
         "C": "Alberto did."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về người đã trả tiền ăn trưa.\nDịch câu hỏi: Ai đã trả tiền cho bữa trưa?",
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về người đã trả tiền ăn trưa.",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai đã trả tiền cho bữa trưa?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -865,10 +879,11 @@
         "C": "It's seven meters long"
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về số lượng nhân viên.\nDịch câu hỏi: Có bao nhiêu nhân viên làm việc trong phòng ban của bạn?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về số lượng nhân viên.",
        "tags": [
         "how"
        ],
+       "questionVi": "Có bao nhiêu nhân viên làm việc trong phòng ban của bạn?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -909,10 +924,11 @@
         "C": "Two sessions per day."
        },
        "answer": "A",
-       "explanation": "Đáp án A là phản hồi hợp lý nhất cho câu hỏi về thời gian rời đi.\nDịch câu hỏi: Chúng ta nên sớm rời đi để đến khóa đào tạo, phải không?",
+       "explanation": "Đáp án A là phản hồi hợp lý nhất cho câu hỏi về thời gian rời đi.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Chúng ta nên sớm rời đi để đến khóa đào tạo, phải không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -953,10 +969,11 @@
         "C": "Next to the travel agency."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về giới hạn chi phí đi lại.\nDịch câu hỏi: Không phải có giới hạn cho chi phí đi lại sao?",
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về giới hạn chi phí đi lại.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Không phải có giới hạn cho chi phí đi lại sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -997,10 +1014,11 @@
         "C": "I'm not on the hiring team."
        },
        "answer": "C",
-       "explanation": "Đáp án C, mặc dù không trực tiếp trả lời câu hỏi, nhưng ngụ ý rằng người nói không phải là người phù hợp để hỏi về vấn đề này.\nDịch câu hỏi: Khi nào tôi nên nói với giám đốc rằng tôi quan tâm đến vị trí quản lý?\nDịch đáp án:\nB. Andre không phải đạo diễn vở kịch sao?",
+       "explanation": "Đáp án C, mặc dù không trực tiếp trả lời câu hỏi, nhưng ngụ ý rằng người nói không phải là người phù hợp để hỏi về vấn đề này.\nDịch đáp án:\nB. Andre không phải đạo diễn vở kịch sao?",
        "tags": [
         "when"
        ],
+       "questionVi": "Khi nào tôi nên nói với giám đốc rằng tôi quan tâm đến vị trí quản lý?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1037,10 +1055,11 @@
         "C": "The store has a new manager."
        },
        "answer": "C",
-       "explanation": "Đáp án C gợi ý lý do có thể dẫn đến sự thay đổi bố trí của bộ phận giày dép.\nDịch câu hỏi: Bố trí của bộ phận giày dép đã thay đổi.",
+       "explanation": "Đáp án C gợi ý lý do có thể dẫn đến sự thay đổi bố trí của bộ phận giày dép.",
        "tags": [
         "statement"
        ],
+       "questionVi": "Bố trí của bộ phận giày dép đã thay đổi.",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1081,10 +1100,11 @@
         "C": "He started that position in July."
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho yêu cầu xem xét báo cáo doanh thu.\nDịch câu hỏi: Bạn có thể xem báo cáo doanh thu tháng này không?",
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho yêu cầu xem xét báo cáo doanh thu.",
        "tags": [
         "request"
        ],
+       "questionVi": "Bạn có thể xem báo cáo doanh thu tháng này không?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1125,10 +1145,11 @@
         "C": "Did you see the cost estimate?"
        },
        "answer": "C",
-       "explanation": "Đáp án C gợi ý rằng chi phí có thể là lý do cho việc chậm trễ thay cửa sổ.\nDịch câu hỏi: Tại sao các cửa sổ vẫn chưa được thay thế?",
+       "explanation": "Đáp án C gợi ý rằng chi phí có thể là lý do cho việc chậm trễ thay cửa sổ.",
        "tags": [
         "why"
        ],
+       "questionVi": "Tại sao các cửa sổ vẫn chưa được thay thế?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1169,10 +1190,11 @@
         "C": "I'll have to pay a little bit extra."
        },
        "answer": "C",
-       "explanation": "Đáp án C ngụ ý rằng vali có thể nặng quá mức cho phép và sẽ phải trả thêm phí.\nDịch câu hỏi: Vali của bạn sẽ không nặng hơn trọng lượng cho phép sao?",
+       "explanation": "Đáp án C ngụ ý rằng vali có thể nặng quá mức cho phép và sẽ phải trả thêm phí.",
        "tags": [
         "negative-tag"
        ],
+       "questionVi": "Vali của bạn sẽ không nặng hơn trọng lượng cho phép sao?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1213,10 +1235,11 @@
         "C": "That's a cargo airplane"
        },
        "answer": "A",
-       "explanation": "Đáp án A gợi ý rằng Koji, người phụ trách hợp đồng nhà cung cấp, có thể biết thông tin về nhà sản xuất động cơ.\nDịch câu hỏi: Ai sản xuất động cơ cho máy móc của chúng ta?",
+       "explanation": "Đáp án A gợi ý rằng Koji, người phụ trách hợp đồng nhà cung cấp, có thể biết thông tin về nhà sản xuất động cơ.",
        "tags": [
         "who"
        ],
+       "questionVi": "Ai sản xuất động cơ cho máy móc của chúng ta?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1257,10 +1280,11 @@
         "C": "How much does it cost?"
        },
        "answer": "A",
-       "explanation": "Đáp án A đề xuất hỏi ý kiến của Patricia trước khi quyết định địa điểm gặp.\nDịch câu hỏi: Chúng ta nên gặp nhau ở cửa hàng bách hóa trên Đường 5 hay cái trên Đường Grover?",
+       "explanation": "Đáp án A đề xuất hỏi ý kiến của Patricia trước khi quyết định địa điểm gặp.",
        "tags": [
         "request"
        ],
+       "questionVi": "Chúng ta nên gặp nhau ở cửa hàng bách hóa trên Đường 5 hay cái trên Đường Grover?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -1301,10 +1325,11 @@
         "C": "Their number one hit"
        },
        "answer": "A",
-       "explanation": "Đáp án A, mặc dù không trực tiếp trả lời câu hỏi về ban nhạc, nhưng cho biết thông tin về chương trình thường diễn ra vào tối thứ Năm.\nDịch câu hỏi: Ban nhạc nào đang biểu diễn ở câu lạc bộ tối nay?",
+       "explanation": "Đáp án A, mặc dù không trực tiếp trả lời câu hỏi về ban nhạc, nhưng cho biết thông tin về chương trình thường diễn ra vào tối thứ Năm.",
        "tags": [
         "what"
        ],
+       "questionVi": "Ban nhạc nào đang biểu diễn ở câu lạc bộ tối nay?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7319,8 +7344,9 @@
         "D": "Automobile accessories"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nSản phẩm đang được quảng cáo là đồ gia dụng, cụ thể là đệm và thảm.\nCâu trích dẫn: 'Buy one mattress, and choose one of our beautiful rugs for free!' (Mua một đệm và chọn một trong những tấm thảm đẹp của chúng tôi miễn phí).\nDịch câu hỏi: 'Những loại sản phẩm nào đang được quảng cáo?'",
+       "explanation": "Đáp án đúng là B.\nSản phẩm đang được quảng cáo là đồ gia dụng, cụ thể là đệm và thảm.\nCâu trích dẫn: 'Buy one mattress, and choose one of our beautiful rugs for free!' (Mua một đệm và chọn một trong những tấm thảm đẹp của chúng tôi miễn phí).",
        "tags": [],
+       "questionVi": "Những loại sản phẩm nào đang được quảng cáo?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7338,7 +7364,10 @@
          "pos": [],
          "meaning": "phụ kiện ô tô"
         }
-       }
+       },
+       "evidence": [
+        "Buy one mattress, and choose one of our beautiful rugs for free!"
+       ]
       },
       {
        "number": 148,
@@ -7351,8 +7380,9 @@
         "D": "It has a yearly sale."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nCông ty chấp nhận trả lại sản phẩm. Câu trích dẫn: 'if you are not happy with it, send it back for a full refund.' (Nếu bạn không hài lòng với nó, hãy gửi lại để được hoàn tiền đầy đủ).\nDịch câu hỏi: 'Điều gì được chỉ ra về công ty?'",
+       "explanation": "Đáp án đúng là B.\nCông ty chấp nhận trả lại sản phẩm. Câu trích dẫn: 'if you are not happy with it, send it back for a full refund.' (Nếu bạn không hài lòng với nó, hãy gửi lại để được hoàn tiền đầy đủ).",
        "tags": [],
+       "questionVi": "Điều gì được chỉ ra về công ty?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7370,7 +7400,10 @@
          "pos": [],
          "meaning": "Công ty có một đợt giảm giá hàng năm."
         }
-       }
+       },
+       "evidence": [
+        "if you are not happy with it, send it back for a full refund"
+       ]
       }
      ]
     },
@@ -7401,8 +7434,9 @@
         "D": "To thank a customer for placing an order"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nMục đích của email là cung cấp các lựa chọn thay thế cho đơn đặt hàng.\nCâu trích dẫn: 'There are several options available to you.' (Có một số tùy chọn cho bạn).\nDịch câu hỏi: 'Mục đích của email là gì?'",
+       "explanation": "Đáp án đúng là C.\nMục đích của email là cung cấp các lựa chọn thay thế cho đơn đặt hàng.\nCâu trích dẫn: 'There are several options available to you.' (Có một số tùy chọn cho bạn).",
        "tags": [],
+       "questionVi": "Mục đích của email là gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7420,7 +7454,10 @@
          "pos": [],
          "meaning": "Cảm ơn khách hàng vì đã đặt hàng."
         }
-       }
+       },
+       "evidence": [
+        "There are several options available to you"
+       ]
       },
       {
        "number": 150,
@@ -7433,8 +7470,9 @@
         "D": "The light gray one"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nMàu túi hiện không có sẵn là màu xám nhạt. Câu trích dẫn: 'Wait until the item you ordered is back in stock in light gray.' (Chờ cho đến khi món hàng bạn đã đặt lại có sẵn màu xám nhạt).\nDịch câu hỏi: 'Màu túi nào hiện KHÔNG có sẵn?'",
+       "explanation": "Đáp án đúng là D.\nMàu túi hiện không có sẵn là màu xám nhạt. Câu trích dẫn: 'Wait until the item you ordered is back in stock in light gray.' (Chờ cho đến khi món hàng bạn đã đặt lại có sẵn màu xám nhạt).",
        "tags": [],
+       "questionVi": "Màu túi nào hiện KHÔNG có sẵn?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7452,7 +7490,10 @@
          "pos": [],
          "meaning": "Màu xám nhạt."
         }
-       }
+       },
+       "evidence": [
+        "Wait until the item you ordered is back in stock in light gray"
+       ]
       }
      ]
     },
@@ -7483,9 +7524,13 @@
         "D": "He works off-site one day a week."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nDẫn chứng: 'you just started working remotely on Tuesdays'. Câu này cho thấy Mr. Nomura làm việc từ xa một ngày trong tuần.\nDịch câu hỏi: Ông Nomura được gợi ý điều gì?\nÔng ấy thường không làm việc vào thứ Ba.\nÔng ấy chia sẻ văn phòng với cô Moroff.\nÔng ấy đã mua văn phòng phẩm gần đây.\nÔng ấy làm việc ngoài văn phòng một ngày trong tuần.",
+       "explanation": "Đáp án đúng là D.\nDẫn chứng: 'you just started working remotely on Tuesdays'. Câu này cho thấy Mr. Nomura làm việc từ xa một ngày trong tuần.\nÔng ấy thường không làm việc vào thứ Ba.\nÔng ấy chia sẻ văn phòng với cô Moroff.\nÔng ấy đã mua văn phòng phẩm gần đây.\nÔng ấy làm việc ngoài văn phòng một ngày trong tuần.",
        "tags": [],
-       "optionNotes": {}
+       "questionVi": "Ông Nomura được gợi ý điều gì?",
+       "optionNotes": {},
+       "evidence": [
+        "you just started working remotely on Tuesdays"
+       ]
       },
       {
        "number": 152,
@@ -7498,9 +7543,14 @@
         "D": "Cheryl knows when a delivery will arrive."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'Check with Cheryl. She is really helpful.' Câu này cho thấy Cheryl có thể có thêm bìa kẹp.\nDịch câu hỏi: Vào lúc 9:51 A.M., ông Nomura có ý gì khi nói 'Check with Cheryl’?\nCheryl có thể có thêm bìa kẹp.\nCheryl phải phê duyệt mua hàng.\nCheryl sẽ có thể tìm Frank.\nCheryl biết khi nào hàng sẽ được giao.",
+       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'Check with Cheryl. She is really helpful.' Câu này cho thấy Cheryl có thể có thêm bìa kẹp.\nCheryl có thể có thêm bìa kẹp.\nCheryl phải phê duyệt mua hàng.\nCheryl sẽ có thể tìm Frank.\nCheryl biết khi nào hàng sẽ được giao.",
        "tags": [],
-       "optionNotes": {}
+       "questionVi": "Vào lúc 9:51 A.M., ông Nomura có ý gì khi nói 'Check with Cheryl’?",
+       "optionNotes": {},
+       "evidence": [
+        "Check with Cheryl.",
+        "She is really helpful"
+       ]
       }
      ]
     },
@@ -7531,8 +7581,9 @@
         "D": "She placed an order for checks."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'Existing account number (if applicable): 190-37580’.\nCâu này cho thấy cô Wilkes đã có tài khoản trước đây với ngân hàng Cortica.\nDịch câu hỏi: Điều gì được chỉ ra về cô Wilkes?\nCô ấy có tài khoản khác với ngân hàng Cortica.\nCô ấy dự định mở tài khoản đầu tư.\nCô ấy đã mất thẻ ghi nợ.\nCô ấy đã đặt hàng séc.",
+       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'Existing account number (if applicable): 190-37580’.\nCâu này cho thấy cô Wilkes đã có tài khoản trước đây với ngân hàng Cortica.\nCô ấy có tài khoản khác với ngân hàng Cortica.\nCô ấy dự định mở tài khoản đầu tư.\nCô ấy đã mất thẻ ghi nợ.\nCô ấy đã đặt hàng séc.",
        "tags": [],
+       "questionVi": "Điều gì được chỉ ra về cô Wilkes?",
        "optionNotes": {}
       },
       {
@@ -7546,9 +7597,13 @@
         "D": "By letter"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nDẫn chứng: 'you will receive monthly paper statements in the mail'.\nCâu này cho thấy ngân hàng sẽ liên hệ với cô Wilkes qua thư giấy.\nDịch câu hỏi: Ngân hàng có khả năng sẽ liên hệ với cô Wilkes như thế nào?\nBằng email\nBằng tin nhắn văn bản\nBằng điện thoại\nBằng thư giấy.",
+       "explanation": "Đáp án đúng là D.\nDẫn chứng: 'you will receive monthly paper statements in the mail'.\nCâu này cho thấy ngân hàng sẽ liên hệ với cô Wilkes qua thư giấy.\nBằng email\nBằng tin nhắn văn bản\nBằng điện thoại\nBằng thư giấy.",
        "tags": [],
-       "optionNotes": {}
+       "questionVi": "Ngân hàng có khả năng sẽ liên hệ với cô Wilkes như thế nào?",
+       "optionNotes": {},
+       "evidence": [
+        "you will receive monthly paper statements in the mail"
+       ]
       }
      ]
     },
@@ -7580,8 +7635,9 @@
         "D": "It specializes in home construction projects."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nDẫn chứng: 'JRC is a full-service general contractor serving clients throughout Winnipeg and the surrounding area'. Câu này cho thấy công ty có trụ sở tại Winnipeg.\nDịch câu hỏi: Điều gì được gợi ý về Jones-Richmond Construction?",
+       "explanation": "Đáp án đúng là C.\nDẫn chứng: 'JRC is a full-service general contractor serving clients throughout Winnipeg and the surrounding area'. Câu này cho thấy công ty có trụ sở tại Winnipeg.",
        "tags": [],
+       "questionVi": "Điều gì được gợi ý về Jones-Richmond Construction?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7595,7 +7651,10 @@
          "pos": [],
          "meaning": "Công ty chuyên về các dự án xây dựng nhà ở."
         }
-       }
+       },
+       "evidence": [
+        "JRC is a full-service general contractor serving clients throughout Winnipeg and the surrounding area"
+       ]
       },
       {
        "number": 156,
@@ -7608,8 +7667,9 @@
         "D": "Ensuring worker safety"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nDẫn chứng: Không có nội dung nào đề cập đến việc 'Training inexperienced workers' trong danh sách trách nhiệm.\nDịch câu hỏi: Điều gì KHÔNG được liệt kê là trách nhiệm của người quản lý xây dựng?",
+       "explanation": "Đáp án đúng là B.\nDẫn chứng: Không có nội dung nào đề cập đến việc 'Training inexperienced workers' trong danh sách trách nhiệm.",
        "tags": [],
+       "questionVi": "Điều gì KHÔNG được liệt kê là trách nhiệm của người quản lý xây dựng?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7640,8 +7700,9 @@
         "D": "The ability to visit construction sites each workday"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nDẫn chứng: 'Willingness to travel to job sites daily (usually within a 50-kilometre radius)'. Điều này cho thấy ứng viên cần có khả năng đi đến các công trường mỗi ngày.\nDịch câu hỏi: Theo quảng cáo, một ứng viên thành công cần phải có điều gì?",
+       "explanation": "Đáp án đúng là D.\nDẫn chứng: 'Willingness to travel to job sites daily (usually within a 50-kilometre radius)'. Điều này cho thấy ứng viên cần có khả năng đi đến các công trường mỗi ngày.",
        "tags": [],
+       "questionVi": "Theo quảng cáo, một ứng viên thành công cần phải có điều gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7659,7 +7720,10 @@
          "pos": [],
          "meaning": "Khả năng đi đến các công trường xây dựng mỗi ngày."
         }
-       }
+       },
+       "evidence": [
+        "• Willingness to travel to job sites daily (typically within a 50 km radius)"
+       ]
       }
      ]
     },
@@ -7691,8 +7755,9 @@
         "D": "It will result in fewer payment errors."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'having to process the payroll by myself has become rather burdensome... provide direct deposit of your wages.' Điều này cho thấy hệ thống mới sẽ giảm tải công việc của Mr. Sledge.\nDịch câu hỏi: Lợi ích nào của hệ thống thanh toán mới được đề cập?",
+       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'having to process the payroll by myself has become rather burdensome... provide direct deposit of your wages.' Điều này cho thấy hệ thống mới sẽ giảm tải công việc của Mr. Sledge.",
        "tags": [],
+       "questionVi": "Lợi ích nào của hệ thống thanh toán mới được đề cập?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7710,7 +7775,11 @@
          "pos": [],
          "meaning": "Nó sẽ giảm thiểu các lỗi thanh toán."
         }
-       }
+       },
+       "evidence": [
+        "having to process the payroll by myself has become rather burdensome",
+        "provide direct deposit of your wages"
+       ]
       },
       {
        "number": 159,
@@ -7723,8 +7792,9 @@
         "D": "Sign up for a professional development class"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nDẫn chứng: 'I am asking everyone to provide me with the necessary banking details.' Điều này cho thấy Mr. Sledge yêu cầu nhân viên cung cấp thông tin tài khoản ngân hàng.\nDịch câu hỏi: Ông Sledge yêu cầu nhân viên làm gì?",
+       "explanation": "Đáp án đúng là C.\nDẫn chứng: 'I am asking everyone to provide me with the necessary banking details.' Điều này cho thấy Mr. Sledge yêu cầu nhân viên cung cấp thông tin tài khoản ngân hàng.",
        "tags": [],
+       "questionVi": "Ông Sledge yêu cầu nhân viên làm gì?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7742,7 +7812,10 @@
          "pos": [],
          "meaning": "Đăng ký một lớp học phát triển chuyên môn."
         }
-       }
+       },
+       "evidence": [
+        "I am asking everyone to provide me with the necessary banking details"
+       ]
       },
       {
        "number": 160,
@@ -7757,7 +7830,10 @@
        "answer": "C",
        "explanation": "Đáp án đúng là C.\nDịch nghĩa câu được cho: Nếu tôi không có ở đây, vui lòng gặp trợ lý của tôi.\nXét những câu trước các chỗ trống, câu trước chỗ trống [3] đang đề cập về việc nộp thông tin về ngân hàng và mang đến văn phòng “Please complete the attached form and bring it to the office with a voided check no later than September 25.” (Vui lòng điền vào mẫu đính kèm và mang đến văn phòng cùng với séc đã bị hủy không muộn hơn ngày 25 tháng 9.) Câu trích dẫn trong câu hỏi nêu thêm thông tin về một đối tượng khác để nộp thông tin là trợ lý của Mr.Sledge.\n Vì vậy, vị trí thứ [3] là phù hợp nhất",
        "tags": [],
-       "optionNotes": {}
+       "optionNotes": {},
+       "evidence": [
+        "Please complete the attached form and bring it to the office with a voided check no later than September 25"
+       ]
       }
      ]
     },
@@ -7789,8 +7865,9 @@
         "D": "modern"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nTừ 'top' trong ngữ cảnh có nghĩa là 'leading', chỉ đứng đầu hoặc hàng đầu trong lĩnh vực.\nDịch câu hỏi: Từ 'top' trong đoạn 1, dòng 3 gần nghĩa nhất với từ nào?",
+       "explanation": "Đáp án đúng là B.\nTừ 'top' trong ngữ cảnh có nghĩa là 'leading', chỉ đứng đầu hoặc hàng đầu trong lĩnh vực.",
        "tags": [],
+       "questionVi": "Từ 'top' trong đoạn 1, dòng 3 gần nghĩa nhất với từ nào?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7821,8 +7898,9 @@
         "D": "Coffeehouse owners"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.n\\Dẫn chứng: Không có thông tin nào về việc các chủ quán cà phê tham gia thuyết trình tại sự kiện.\nDịch câu hỏi: Ai sẽ KHÔNG thực hiện các bài thuyết trình thông tin tại hội chợ?",
+       "explanation": "Đáp án đúng là D.n\\Dẫn chứng: Không có thông tin nào về việc các chủ quán cà phê tham gia thuyết trình tại sự kiện.",
        "tags": [],
+       "questionVi": "Ai sẽ KHÔNG thực hiện các bài thuyết trình thông tin tại hội chợ?",
        "optionNotes": {
         "A": {
          "pos": [],
@@ -7849,8 +7927,9 @@
         "D": "Present a Homewares product receipt"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'registration is required... For information and to register online, go to www.aussiecoffeefair.com'. Câu này cho thấy mọi người phải đăng ký trực tuyến để tham dự.\nDịch câu hỏi: Mọi người phải làm gì để tham dự hội chợ?n\\A) Đăng ký trên trang web",
+       "explanation": "Đáp án đúng là A.\nDẫn chứng: 'registration is required... For information and to register online, go to www.aussiecoffeefair.com'. Câu này cho thấy mọi người phải đăng ký trực tuyến để tham dự.",
        "tags": [],
+       "questionVi": "Mọi người phải làm gì để tham dự hội chợ?n\\A) Đăng ký trên trang web",
        "optionNotes": {
         "B": {
          "pos": [],
@@ -7860,7 +7939,11 @@
          "pos": [],
          "meaning": "Mua vé tại địa điểm tổ chức sự kiệnn\\D) Xuất trình hóa đơn sản phẩm Homewares."
         }
-       }
+       },
+       "evidence": [
+        "registration is required",
+        "For information and to register online, go to www.aussiecoffeefair.com"
+       ]
       }
      ]
     },
@@ -7912,7 +7995,10 @@
          "pos": [],
          "meaning": "Yêu cầu thanh toán đơn hàng."
         }
-       }
+       },
+       "evidence": [
+        "We suggest ordering three dessert pieces per person"
+       ]
       },
       {
        "number": 165,
@@ -7944,7 +8030,10 @@
          "pos": [],
          "meaning": "Chúng không thể được đặt với kích thước lớn hơn."
         }
-       }
+       },
+       "evidence": [
+        "if you order the cheesecakes, they should not be left out for more than two hours"
+       ]
       },
       {
        "number": 166,
@@ -8008,7 +8097,10 @@
          "pos": [],
          "meaning": "Số lượng khách."
         }
-       }
+       },
+       "evidence": [
+        "simply let us know how many guests you expect"
+       ]
       }
      ]
     },
@@ -8060,7 +8152,10 @@
          "pos": [],
          "meaning": "Nó là một doanh nghiệp gia đình."
         }
-       }
+       },
+       "evidence": [
+        "we are the oldest and most successful online design consulting company in the region"
+       ]
       },
       {
        "number": 169,
@@ -8120,7 +8215,10 @@
          "pos": [],
          "meaning": "Danh sách khách hàng sẽ được mở rộng.n\\D. Một ưu đãi đặc biệt sẽ kết thúc."
         }
-       }
+       },
+       "evidence": [
+        "from now until July 1 our online retail partners have agreed to offer a 10 percent discount on products"
+       ]
       },
       {
        "number": 171,
@@ -8183,7 +8281,10 @@
          "pos": [],
          "meaning": "Xin phép làm một số công việc."
         }
-       }
+       },
+       "evidence": [
+        "I promised to check with you before servicing your bicycle"
+       ]
       },
       {
        "number": 173,
@@ -8215,7 +8316,10 @@
          "pos": [],
          "meaning": "vệ sinh truyền động"
         }
-       }
+       },
+       "evidence": [
+        "another $30 for labor charges"
+       ]
       },
       {
        "number": 174,
@@ -8279,7 +8383,10 @@
          "pos": [],
          "meaning": "Bà ấy sẽ sớm tham gia một cuộc đua xe đạp."
         }
-       }
+       },
+       "evidence": [
+        "Especially with that major bicycle race you have ahead of you"
+       ]
       }
      ]
     },
@@ -8360,7 +8467,10 @@
          "pos": [],
          "meaning": "Ông ấy đang chờ phản hồi của Dr. O'Leary về danh mục đầu tư."
         }
-       }
+       },
+       "evidence": [
+        "We have finally finished replacing the plumbing and heating systems at Clary Medical Center's satellite clinic in Cals ald asso thallering ob, what ive droud of our results."
+       ]
       },
       {
        "number": 178,
@@ -8392,7 +8502,10 @@
          "pos": [],
          "meaning": "Các bệnh nhân cũ sẽ được phỏng vấn."
         }
-       }
+       },
+       "evidence": [
+        "local elected officials will begin promptly at 1:00 P.M"
+       ]
       },
       {
        "number": 179,
@@ -8541,7 +8654,10 @@
          "pos": [],
          "meaning": "Nó có bảng điều khiển bị hỏng."
         }
-       }
+       },
+       "evidence": [
+        "the model you requested is on back order and will not be available for three months"
+       ]
       },
       {
        "number": 183,
@@ -8605,7 +8721,10 @@
          "pos": [],
          "meaning": "một miễn thuế"
         }
-       }
+       },
+       "evidence": [
+        "The BF400 unit comes with a two-year warranty"
+       ]
       },
       {
        "number": 185,
@@ -8690,7 +8809,10 @@
          "pos": [],
          "meaning": "Một diễn giả nổi bật đã được thay thế."
         }
-       }
+       },
+       "evidence": [
+        "Morning Social: Complimentary omelets, pastries, coffee, tea"
+       ]
       },
       {
        "number": 187,
@@ -8722,7 +8844,10 @@
          "pos": [],
          "meaning": "Một lịch trình sửa đổi sẽ được phân phát."
         }
-       }
+       },
+       "evidence": [
+        "Claire Song, business columnist and best-selling author"
+       ]
       },
       {
        "number": 188,
@@ -8750,7 +8875,10 @@
          "pos": [],
          "meaning": "Ông ấy đã tổ chức một hội nghị ở London.n\\D. Ông ấy đã thuê công ty của ông Secada cho một dự án."
         }
-       }
+       },
+       "evidence": [
+        "Attached is a link to the video created for us by Grindstone Marketing Group"
+       ]
       },
       {
        "number": 189,
@@ -8778,7 +8906,11 @@
          "pos": [],
          "meaning": "Ông ấy đang lên kế hoạch mua một ngôi nhà ở Sheffield.n\\D. Ông ấy chuyên về vật liệu xây dựng."
         }
-       }
+       },
+       "evidence": [
+        "In case you haven't heard, our next construction project will be a home just a couple of kilometres from your office building!",
+        "Next on the horizon for KD Building Concepts is the construction of a home in Hamburg, Germany"
+       ]
       },
       {
        "number": 190,
@@ -8806,7 +8938,11 @@
          "pos": [],
          "meaning": "Nó sẽ được cảnh quan vào tuần tới.n\\D. Các phòng ngủ của nó đều có cùng kích thước."
         }
-       }
+       },
+       "evidence": [
+        "In just two months, the fully landscaped house",
+        "was ready for market"
+       ]
       }
      ]
     },
@@ -8859,7 +8995,10 @@
          "pos": [],
          "meaning": "Nó sẽ làm việc bán thời gian cho đến ngày 1 tháng 4."
         }
-       }
+       },
+       "evidence": [
+        "must have experience in retail art with an established history of successfully attracting patrons interested in purchasing original works of art"
+       ]
       },
       {
        "number": 192,
@@ -8887,7 +9026,10 @@
          "pos": [],
          "meaning": "Ngân hàng Regents sẽ đóng cửa trong ngày."
         }
-       }
+       },
+       "evidence": [
+        "Starting on May 1, five art galleries in Cromwood will be hosting open houses every Friday from May through August"
+       ]
       },
       {
        "number": 193,
@@ -8919,7 +9061,10 @@
          "pos": [],
          "meaning": "Nó tài trợ một loạt phim mùa hè."
         }
-       }
+       },
+       "evidence": [
+        "The five galleries on the boardwalk overlooking the Wye River"
+       ]
       },
       {
        "number": 194,
@@ -8951,7 +9096,10 @@
          "pos": [],
          "meaning": "Cô ấy gần đây đã được tuyển bởi Richard Lahiri Gallery."
         }
-       }
+       },
+       "evidence": [
+        "Richard Lahiri and his gallery manager, Geetu Gelang"
+       ]
       },
       {
        "number": 195,
@@ -8983,7 +9131,10 @@
          "pos": [],
          "meaning": "ở Melbridge"
         }
-       }
+       },
+       "evidence": [
+        "The popular summer movie series in Herrontown returns on June 16!"
+       ]
       }
      ]
     },
@@ -9028,7 +9179,10 @@
          "pos": [],
          "meaning": "nước hoa"
         }
-       }
+       },
+       "evidence": [
+        "The acquisition is part of Senano's plan to supplement its clothing products with a line of designer watches"
+       ]
       },
       {
        "number": 197,
@@ -9060,7 +9214,10 @@
          "pos": [],
          "meaning": "Để giải quyết tình trạng doanh số bán hàng suy giảm tại một số thành phố."
         }
-       }
+       },
+       "evidence": [
+        "The acquisition is part of Senano's plan to supplement its clothing products with a line of designer watches"
+       ]
       },
       {
        "number": 198,
@@ -9084,7 +9241,11 @@
          "pos": [],
          "meaning": "Đặt cuộc hẹn với một kế toán."
         }
-       }
+       },
+       "evidence": [
+        "will come to our New York office to lead an information session",
+        "at 2:00 P.M"
+       ]
       },
       {
        "number": 199,
@@ -9116,7 +9277,10 @@
          "pos": [],
          "meaning": "ở Los Angeles"
         }
-       }
+       },
+       "evidence": [
+        "Carlie Dawson, an accounting director who works at Senano's headquarters"
+       ]
       },
       {
        "number": 200,
@@ -9148,7 +9312,10 @@
          "pos": [],
          "meaning": "Nhân viên có thể nộp báo cáo chi phí của họ chung với nhau."
         }
-       }
+       },
+       "evidence": [
+        "Senano's requirements for submitting expenses under $50 are simpler than those under current Gendalla policy"
+       ]
       }
      ]
     }
