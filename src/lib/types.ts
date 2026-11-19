@@ -17,6 +17,8 @@ export interface Question {
   answer: Letter | null;
   explanation: string;
   transcript?: string;
+  /** Nhãn dạng câu (Part 2: loại câu hỏi, Part 5: chủ điểm ngữ pháp) — xem scripts/enrich.py */
+  tags?: string[];
 }
 
 export interface Passage {
@@ -83,4 +85,28 @@ export interface Attempt {
   listeningScore?: number;
   readingScore?: number;
   totalScore?: number;
+}
+
+// ---- ngân hàng câu theo dạng & từ vựng (scripts/enrich.py) ----
+export interface BankTag {
+  part: 2 | 5;
+  tag: string;
+  label: string;
+  count: number;
+  /** "testId:số câu:đáp án" */
+  keys: string[];
+}
+
+export interface BankItem {
+  testId: string;
+  testTitle: string;
+  group: QuestionGroup;
+}
+
+export interface VocabEntry {
+  w: string;
+  pos: string[];
+  meanings: string[];
+  freq: number;
+  examples: { text: string; testId: string; number: number }[];
 }

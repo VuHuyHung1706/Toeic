@@ -122,3 +122,59 @@ export function parsePartsParam(v: string | null): PartNo[] {
     .filter((n): n is PartNo => Number.isInteger(n) && n >= 1 && n <= 7);
   return [...new Set(parts)].sort() as PartNo[];
 }
+
+// ---------------------------------------------------------------------------
+// Điểm dự đoán: tỉ lệ đúng từng part trong các bài gần đây × số câu của part trong đề thật,
+// rồi quy đổi theo bảng. Part chưa đủ dữ liệu thì dùng tỉ lệ chung của kỹ năng đó.
+// ---------------------------------------------------------------------------
+export interface SkillPrediction {
+  score: number;
+  expectedCorrect: number;
+  basis: number;
+  /** Các part chưa đủ dữ liệu (dùng tỉ lệ chung của kỹ năng) */
+  estimatedParts: PartNo[];
+}
+
+const PREDICT_WINDOW_DAYS = 60;
+const MIN_SKILL_QUESTIONS = 20;
+const MIN_PART_QUESTIONS = 5;
+
+export function predictScore(attempts: Attempt[], now: number) {
+  const recent = attempts.filter((a) => now - a.submittedAt <= PREDICT_WINDOW_DAYS * 86_400_000);
+  const byPart = new Map<PartNo, PartResult>();
+  for (const a of recent) {
+    for (const [p, r] of Object.entries(a.byPart)) {
+      const cur = byPart.get(Number(p) as PartNo) ?? { correct: 0, total: 0 };
+      cur.correct += r!.correct;
+      cur.total += r!.total;
+      byPart.set(Number(p) as PartNo, cur);
+    }
+  }
+  const skill = (skillName: "listening" | "reading"): SkillPrediction | null => {
+    const parts = PARTS.filter((p) => p.skill === skillName);
+    const total = parts.reduce((s, p) => s + (byPart.get(p.part)?.total ?? 0), 0);
+    if (total < MIN_SKILL_QUESTIONS) return null;
+    const correct = parts.reduce((s, p) => s + (byPart.get(p.part)?.correct ?? 0), 0);
+    const skillAcc = correct / total;
+    const estimatedParts: PartNo[] = [];
+    let expected = 0;
+    for (const p of parts) {
+      const r = byPart.get(p.part);
+      if (r && r.total >= MIN_PART_QUESTIONS) expected += p.count * (r.correct / r.total);
+      else {
+        expected += p.count * skillAcc;
+        estimatedParts.push(p.part);
+      }
+    }
+    const rounded = Math.round(expected);
+    return {
+      score: skillName === "listening" ? scaledListening(rounded) : scaledReading(rounded),
+      expectedCorrect: rounded,
+      basis: total,
+      estimatedParts,
+    };
+  };
+  const listening = skill("listening");
+  const reading = skill("reading");
+  return { listening, reading, total: listening && reading ? listening.score + reading.score : null, windowDays: PREDICT_WINDOW_DAYS };
+}

@@ -62,12 +62,14 @@ Với dữ liệu hiện có, chia làm 3 giai đoạn:
 - **Xem đáp án & giải thích**: đáp án đúng/sai, `Explain` tiếng Việt, hiện script (`Text`) + bản dịch (`Transcript`) cho Part 3/4/6/7.
 - **Tài khoản**: đăng nhập Google, lịch sử bài làm.
 
-### Giai đoạn 2 — phân tích & ôn luyện
-- Dashboard: điểm dự đoán, biểu đồ điểm theo thời gian, heatmap ngày học, tỉ lệ đúng theo part.
-- **Sổ câu sai**: tự gom câu làm sai để luyện lại (spaced repetition đơn giản).
-- **Luyện nghe chép chính tả** (dictation) từ audio + `Text` Part 1–4 (giống "Nghe chép" của ByeTOEIC).
-- Luyện theo dạng câu (tag): Part 5 theo chủ điểm ngữ pháp (từ loại, thì, giới từ…), Part 2 theo loại câu hỏi (Wh-, Yes/No…) — gắn tag bán tự động bằng AI.
-- Từ vựng: trích từ vựng từ các đề, flashcard + ôn tập ngắt quãng.
+### Giai đoạn 2 — phân tích & ôn luyện ✅ (hoàn thành 19/11/2026)
+- ✅ Dashboard (`/history`): điểm dự đoán, biểu đồ điểm theo thời gian, heatmap ngày học, tỉ lệ đúng theo part.
+- ✅ **Sổ câu sai** (`/mistakes`): tự gom câu làm sai; ôn ngắt quãng 1 → 3 → 7 ngày, đúng 3 lần liên tiếp = đã thuộc.
+- ✅ **Luyện nghe chép chính tả** (`/listening`): chế độ điền từ (3 mức độ) và chép cả câu (so khớp từng từ).
+- ✅ Luyện theo dạng câu (`/practice`): Part 2 theo 11 loại câu hỏi, Part 5 theo 7 chủ điểm ngữ pháp — nhãn gắn tự động
+  bằng quy tắc trong `scripts/enrich.py` (chưa dùng AI; có thể lệch ở một số câu).
+- ✅ Từ vựng (`/vocabulary`): ~1.400 từ trích từ phần giải thích Part 5–6 kèm câu ví dụ trong đề; flashcard hộp Leitner
+  (1 → 3 → 7 → 14 → 30 ngày), phát âm bằng giọng đọc của trình duyệt.
 
 ### Giai đoạn 3 — mở rộng (tuỳ chọn)
 - Trang admin: CRUD đề/câu hỏi, upload CSV/media, sửa lỗi dữ liệu.

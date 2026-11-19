@@ -26,7 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div className="flex min-w-0 items-center gap-4 overflow-x-auto text-sm whitespace-nowrap text-muted">
               {[
                 ["/tests", "Đề thi"],
+                ["/practice", "Luyện dạng"],
                 ["/listening", "Luyện nghe"],
+                ["/vocabulary", "Từ vựng"],
                 ["/mistakes", "Sổ câu sai"],
                 ["/history", "Tiến độ"],
               ].map(([href, label]) => (

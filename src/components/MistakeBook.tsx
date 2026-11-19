@@ -3,36 +3,53 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import GroupView from "./GroupView";
-import { computeMistakes, groupsOfMistakes, type MistakeItem } from "@/lib/mistakes";
+import { MASTER_STREAK, REVIEW_INTERVALS, computeMistakes, groupsOfMistakes, mistakeTestIds, type MistakeItem } from "@/lib/mistakes";
 import { questionKey, recordReview, useAttempts, useReviews } from "@/lib/storage";
 import { PARTS } from "@/lib/toeic";
 import { useTests } from "@/lib/useTests";
 import type { Letter, PartNo, QuestionGroup, TestData } from "@/lib/types";
 
-type Tab = "active" | "fixed";
+type Tab = "todo" | "scheduled" | "mastered";
+
+const TABS: { id: Tab; label: string; empty: string }[] = [
+  { id: "todo", label: "Cần ôn", empty: "Không có câu nào cần ôn trong mục này 🎉" },
+  { id: "scheduled", label: "Đang ghi nhớ", empty: "Chưa có câu nào đang chờ ôn lại." },
+  { id: "mastered", label: "Đã thuộc", empty: "Chưa có câu nào đã thuộc." },
+];
+
+function tabOf(i: MistakeItem): Tab {
+  return i.status === "wrong" || i.status === "due" ? "todo" : i.status;
+}
 
 export default function MistakeBook() {
   const attempts = useAttempts();
   const reviews = useReviews();
-  const testIds = useMemo(() => [...new Set(attempts.map((a) => a.testId))], [attempts]);
+  const testIds = useMemo(() => mistakeTestIds(attempts, reviews), [attempts, reviews]);
   const { tests, loading, error } = useTests(testIds);
   const [includeSkipped, setIncludeSkipped] = useState(false);
   const [part, setPart] = useState<PartNo | "all">("all");
-  const [tab, setTab] = useState<Tab>("active");
+  const [tab, setTab] = useState<Tab>("todo");
   const [session, setSession] = useState<{ test: TestData; group: QuestionGroup }[] | null>(null);
+  // "bây giờ" cố định cho lần mở trang, để render thuần
+  const [now] = useState(() => Date.now());
 
   const items = useMemo(
-    () => computeMistakes(attempts, reviews, tests, includeSkipped),
-    [attempts, reviews, tests, includeSkipped],
+    () => computeMistakes(attempts, reviews, tests, includeSkipped, now),
+    [attempts, reviews, tests, includeSkipped, now],
   );
 
-  if (!attempts.length) {
+  if (!testIds.length) {
     return (
       <div className="mt-8 rounded-xl border border-dashed border-line p-10 text-center text-muted">
         Chưa có bài làm nào nên sổ câu sai đang trống.{" "}
         <Link href="/tests" className="text-primary hover:underline">
           Làm một đề
+        </Link>{" "}
+        hoặc{" "}
+        <Link href="/practice" className="text-primary hover:underline">
+          luyện theo dạng câu
         </Link>
+        .
       </div>
     );
   }
@@ -41,32 +58,34 @@ export default function MistakeBook() {
 
   if (session) return <MistakeSession groups={session} onExit={() => setSession(null)} />;
 
-  const active = items.filter((i) => i.active);
-  const fixed = items.filter((i) => !i.active);
-  const list = (tab === "active" ? active : fixed).filter((i) => part === "all" || i.part === part);
-  const countByPart = (p: PartNo) => (tab === "active" ? active : fixed).filter((i) => i.part === p).length;
+  const byTab = (t: Tab) => items.filter((i) => tabOf(i) === t);
+  const inTab = byTab(tab);
+  const list = inTab.filter((i) => part === "all" || i.part === part);
+  const countByPart = (p: PartNo) => inTab.filter((i) => i.part === p).length;
+  const todo = byTab("todo");
+  const dueCount = todo.filter((i) => i.status === "due").length;
 
   return (
     <>
-      <div className="mt-6 grid gap-3 sm:grid-cols-3">
-        <Tile value={active.length} label="Câu cần ôn" tone="danger" />
-        <Tile value={fixed.length} label="Đã khắc phục" tone="success" />
-        <Tile value={new Set(active.map((i) => i.testId)).size} label="Đề có câu cần ôn" />
+      <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4">
+        <Tile value={todo.length - dueCount} label="Đang sai" tone="danger" />
+        <Tile value={dueCount} label="Đến hạn ôn lại" tone="warn" />
+        <Tile value={byTab("scheduled").length} label="Đang ghi nhớ" />
+        <Tile value={byTab("mastered").length} label="Đã thuộc" tone="success" />
       </div>
+      <p className="mt-2 text-xs text-muted">
+        Làm đúng lại một câu → hẹn ôn sau {REVIEW_INTERVALS.join(" → ")} ngày. Đúng {MASTER_STREAK} lần liên tiếp thì coi là
+        đã thuộc; sai lần nào thì quay về “cần ôn”.
+      </p>
 
       <div className="mt-6 flex flex-wrap items-center gap-2">
-        {(
-          [
-            ["active", `Cần ôn (${active.length})`],
-            ["fixed", `Đã khắc phục (${fixed.length})`],
-          ] as const
-        ).map(([t, label]) => (
+        {TABS.map((t) => (
           <button
-            key={t}
-            onClick={() => setTab(t)}
-            className={`rounded-lg px-4 py-2 text-sm font-semibold ${tab === t ? "bg-fg text-bg" : "bg-surface text-muted hover:text-fg"}`}
+            key={t.id}
+            onClick={() => setTab(t.id)}
+            className={`rounded-lg px-4 py-2 text-sm font-semibold ${tab === t.id ? "bg-fg text-bg" : "bg-surface text-muted hover:text-fg"}`}
           >
-            {label}
+            {t.label} ({byTab(t.id).length})
           </button>
         ))}
         <label className="ml-auto flex items-center gap-2 text-sm text-muted">
@@ -83,21 +102,22 @@ export default function MistakeBook() {
             className={`rounded-full border px-3 py-1 text-sm ${part === p ? "border-primary bg-primary-soft text-primary" : "border-line bg-surface"}`}
           >
             {p === "all" ? "Tất cả" : `Part ${p}`}
-            <span className="ml-1 opacity-60">{p === "all" ? list.length : countByPart(p)}</span>
+            <span className="ml-1 opacity-60">{p === "all" ? inTab.length : countByPart(p)}</span>
           </button>
         ))}
       </div>
 
-      {tab === "active" && list.length > 0 && (
+      {list.length > 0 && tab !== "mastered" && (
         <div className="mt-5 flex flex-wrap items-center gap-3 rounded-xl border border-primary/30 bg-primary-soft p-4">
           <div className="flex-1 text-sm">
-            Luyện lại <b>{list.length}</b> câu {part === "all" ? "" : `Part ${part} `}— hiện đáp án và giải thích ngay sau khi chọn.
+            {tab === "todo" ? "Luyện lại" : "Ôn sớm"} <b>{list.length}</b> câu {part === "all" ? "" : `Part ${part} `}— hiện đáp án và
+            giải thích ngay sau khi chọn.
           </div>
           <button
             onClick={() => setSession(groupsOfMistakes(list, tests))}
             className="rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary hover:opacity-90"
           >
-            Bắt đầu luyện lại
+            Bắt đầu
           </button>
         </div>
       )}
@@ -106,25 +126,32 @@ export default function MistakeBook() {
         {list.length ? (
           list.map((i) => <MistakeRow key={i.key} item={i} />)
         ) : (
-          <div className="p-8 text-center text-muted">
-            {tab === "active" ? "Không có câu nào cần ôn trong mục này 🎉" : "Chưa có câu nào được khắc phục."}
-          </div>
+          <div className="p-8 text-center text-muted">{TABS.find((t) => t.id === tab)!.empty}</div>
         )}
       </div>
     </>
   );
 }
 
-function Tile({ value, label, tone }: { value: number; label: string; tone?: "danger" | "success" }) {
+function Tile({ value, label, tone }: { value: number; label: string; tone?: "danger" | "success" | "warn" }) {
+  const color = { danger: "text-danger", success: "text-success", warn: "text-warn" }[tone ?? "danger"];
   return (
     <div className="rounded-xl border border-line bg-surface p-4">
-      <div className={`text-3xl font-bold ${tone === "danger" ? "text-danger" : tone === "success" ? "text-success" : ""}`}>{value}</div>
+      <div className={`text-3xl font-bold ${tone ? color : ""}`}>{value}</div>
       <div className="text-sm text-muted">{label}</div>
     </div>
   );
 }
 
 function MistakeRow({ item }: { item: MistakeItem }) {
+  const badge =
+    item.status === "wrong"
+      ? ["Đang sai", "bg-danger-soft text-danger"]
+      : item.status === "due"
+        ? ["Đến hạn ôn", "bg-warn-soft text-warn"]
+        : item.status === "scheduled"
+          ? [`Ôn lại ${new Date(item.nextDue!).toLocaleDateString("vi-VN")}`, "bg-primary-soft text-primary"]
+          : ["Đã thuộc", "bg-success-soft text-success"];
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-1 border-b border-line px-4 py-3 last:border-0">
       <span className="w-28 font-medium">{item.testTitle.replace(" – ", " · ")}</span>
@@ -133,10 +160,11 @@ function MistakeRow({ item }: { item: MistakeItem }) {
         Part {item.part} · {PARTS[item.part - 1].name}
       </span>
       <span className="flex-1 text-sm text-muted">
-        {item.lastSelected ? `Chọn ${item.lastSelected}` : "Bỏ trống"} · đáp án {item.answer}
+        {!item.inAttempt ? "Từ luyện theo dạng" : item.lastSelected ? `Lần làm bài: chọn ${item.lastSelected}` : "Lần làm bài: bỏ trống"}{" "}
+        · đáp án {item.answer} · sai{" "}
+        {item.wrongCount} lần
       </span>
-      <span className="text-sm text-muted">Sai {item.wrongCount} lần</span>
-      <span className="w-24 text-right text-xs text-muted">{new Date(item.lastAt).toLocaleDateString("vi-VN")}</span>
+      <span className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${badge[1]}`}>{badge[0]}</span>
     </div>
   );
 }

@@ -48,7 +48,8 @@
         "D": "She's drinking from a water bottle."
        },
        "answer": "B",
-       "explanation": "Cô ấy đang xúc tuyết trên lối đi.\nCô ấy đang sử dụng gậy đi bộ.\nCô ấy đang cởi mũ.\nCô ấy đang uống nước từ một chai."
+       "explanation": "Cô ấy đang xúc tuyết trên lối đi.\nCô ấy đang sử dụng gậy đi bộ.\nCô ấy đang cởi mũ.\nCô ấy đang uống nước từ một chai.",
+       "tags": []
       }
      ]
     },
@@ -81,7 +82,8 @@
         "D": "Some diners are looking out a window."
        },
        "answer": "A",
-       "explanation": "Một người phụ nữ đang mang một khay.\nMột người phụ nữ đang đẩy một xe thức ăn.\nMột số người đang rời khỏi nhà hàng.\nMột số thực khách đang nhìn ra cửa sổ."
+       "explanation": "Một người phụ nữ đang mang một khay.\nMột người phụ nữ đang đẩy một xe thức ăn.\nMột số người đang rời khỏi nhà hàng.\nMột số thực khách đang nhìn ra cửa sổ.",
+       "tags": []
       }
      ]
     },
@@ -114,7 +116,8 @@
         "D": "The man is scrubbing the front of a car."
        },
        "answer": "D",
-       "explanation": "Người đàn ông đang cầm một xô nước.\nNgười đàn ông đang thay lốp xe.\nNgười đàn ông đang tưới cây.\nNgười đàn ông đang cọ rửa mặt trước của xe."
+       "explanation": "Người đàn ông đang cầm một xô nước.\nNgười đàn ông đang thay lốp xe.\nNgười đàn ông đang tưới cây.\nNgười đàn ông đang cọ rửa mặt trước của xe.",
+       "tags": []
       }
      ]
     },
@@ -147,7 +150,8 @@
         "D": "Some chairs have been arranged around a fountain."
        },
        "answer": "B",
-       "explanation": "Một số ngói đang được lắp đặt trên mái nhà.\nKhu vực ăn uống ngoài trời không có người.\nHoa đã được đặt trên các bàn.\nMột số ghế đã được sắp xếp quanh đài phun nước."
+       "explanation": "Một số ngói đang được lắp đặt trên mái nhà.\nKhu vực ăn uống ngoài trời không có người.\nHoa đã được đặt trên các bàn.\nMột số ghế đã được sắp xếp quanh đài phun nước.",
+       "tags": []
       }
      ]
     },
@@ -180,7 +184,8 @@
         "D": "A woman is walking across a pedestrian bridge."
        },
        "answer": "C",
-       "explanation": "Một số người đang tụ tập trên nóc một tòa nhà.\nMột số cây đang chắn lối vào cầu thang.\nMột người phụ nữ đang đi xuống cầu thang.\nMột người phụ nữ đang đi qua cầu dành cho người đi bộ."
+       "explanation": "Một số người đang tụ tập trên nóc một tòa nhà.\nMột số cây đang chắn lối vào cầu thang.\nMột người phụ nữ đang đi xuống cầu thang.\nMột người phụ nữ đang đi qua cầu dành cho người đi bộ.",
+       "tags": []
       }
      ]
     },
@@ -213,7 +218,8 @@
         "D": "Some windows are being installed."
        },
        "answer": "A",
-       "explanation": "Một số hộp trồng cây bằng gỗ đã được đặt cạnh nhau.\nMột số khúc gỗ đã được chất đống vào một góc.\nCác bức tường bên ngoài của ngôi nhà được làm bằng gạch.\nMột số cửa sổ đang được lắp đặt."
+       "explanation": "Một số hộp trồng cây bằng gỗ đã được đặt cạnh nhau.\nMột số khúc gỗ đã được chất đống vào một góc.\nCác bức tường bên ngoài của ngôi nhà được làm bằng gạch.\nMột số cửa sổ đang được lắp đặt.",
+       "tags": []
       }
      ]
     }
@@ -245,7 +251,10 @@
         "C": "No, I thought it started at noon."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về người sẽ mang bánh thừa về nhà.\nDịch câu hỏi: Ai sẽ mang bánh thừa về nhà?\nDịch đáp án:\nA. Marcel nói anh ấy sẽ mang về.\nB. Một lựa chọn tuyệt vời các món tráng miệng.\nC. Không, tôi nghĩ nó bắt đầu lúc trưa."
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về người sẽ mang bánh thừa về nhà.\nDịch câu hỏi: Ai sẽ mang bánh thừa về nhà?\nDịch đáp án:\nA. Marcel nói anh ấy sẽ mang về.\nB. Một lựa chọn tuyệt vời các món tráng miệng.\nC. Không, tôi nghĩ nó bắt đầu lúc trưa.",
+       "tags": [
+        "who"
+       ]
       }
      ]
     },
@@ -272,7 +281,10 @@
         "C": "Because it's after lunch."
        },
        "answer": "A",
-       "explanation": "Đáp án A giải thích lý do người nói không biết vị trí văn phòng an ninh.\nDịch câu hỏi: Bạn có thể cho tôi biết văn phòng an ninh ở đâu không?\nDịch đáp án:\nA. Hôm nay là ngày đầu tiên của tôi ở đây.\nB. Một tấm ảnh cho thẻ.\nC. Bởi vì đó là sau bữa trưa."
+       "explanation": "Đáp án A giải thích lý do người nói không biết vị trí văn phòng an ninh.\nDịch câu hỏi: Bạn có thể cho tôi biết văn phòng an ninh ở đâu không?\nDịch đáp án:\nA. Hôm nay là ngày đầu tiên của tôi ở đây.\nB. Một tấm ảnh cho thẻ.\nC. Bởi vì đó là sau bữa trưa.",
+       "tags": [
+        "request"
+       ]
       }
      ]
     },
@@ -299,7 +311,10 @@
         "C": "This resume is better."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về cách liên lạc tốt nhất.\nDịch câu hỏi: Cách tốt nhất để liên lạc với bạn là gì?\nDịch đáp án:\nA. Qua điện thoại di động của tôi.\nB. Không, tôi phải đeo kính.\nC. Bản sơ yếu lý lịch này tốt hơn."
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về cách liên lạc tốt nhất.\nDịch câu hỏi: Cách tốt nhất để liên lạc với bạn là gì?\nDịch đáp án:\nA. Qua điện thoại di động của tôi.\nB. Không, tôi phải đeo kính.\nC. Bản sơ yếu lý lịch này tốt hơn.",
+       "tags": [
+        "what"
+       ]
       }
      ]
     },
@@ -326,7 +341,10 @@
         "C": "Everybody on our team is coming."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về người sẽ tham gia chuyến đi thuyền.\nDịch câu hỏi: Ai sẽ tham gia chúng ta trong chuyến đi thuyền dọc bờ biển?\nDịch đáp án:\nA. Phòng họp số 3.\nB. Phí vào cửa là hợp lý.\nC. Mọi người trong đội của chúng ta đều đến."
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về người sẽ tham gia chuyến đi thuyền.\nDịch câu hỏi: Ai sẽ tham gia chúng ta trong chuyến đi thuyền dọc bờ biển?\nDịch đáp án:\nA. Phòng họp số 3.\nB. Phí vào cửa là hợp lý.\nC. Mọi người trong đội của chúng ta đều đến.",
+       "tags": [
+        "who"
+       ]
       }
      ]
     },
@@ -353,7 +371,10 @@
         "C": "The blue one with gold trim"
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho yêu cầu gọi kỹ thuật viên.\nDịch câu hỏi: Bạn có thể yêu cầu một kỹ thuật viên đến sửa máy đóng gói không?\nDịch đáp án:\nA. Ba năm trường kỹ thuật\nB. Chắc chắn rồi, tôi sẽ làm điều đó\nC. Cái màu xanh với viền vàng"
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho yêu cầu gọi kỹ thuật viên.\nDịch câu hỏi: Bạn có thể yêu cầu một kỹ thuật viên đến sửa máy đóng gói không?\nDịch đáp án:\nA. Ba năm trường kỹ thuật\nB. Chắc chắn rồi, tôi sẽ làm điều đó\nC. Cái màu xanh với viền vàng",
+       "tags": [
+        "request"
+       ]
       }
      ]
     },
@@ -380,7 +401,10 @@
         "C": "Fifty should be enough for everyone."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về số lượng bản sao cần làm.\nDịch câu hỏi: Tôi nên làm bao nhiêu bản sao của đề xuất?\nDịch đáp án:\nA. Có giấy màu xanh trong tủ.\nB. Vâng, đó là ý tưởng của tôi.\nC. Năm mươi bản nên đủ cho mọi người."
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về số lượng bản sao cần làm.\nDịch câu hỏi: Tôi nên làm bao nhiêu bản sao của đề xuất?\nDịch đáp án:\nA. Có giấy màu xanh trong tủ.\nB. Vâng, đó là ý tưởng của tôi.\nC. Năm mươi bản nên đủ cho mọi người.",
+       "tags": [
+        "how"
+       ]
       }
      ]
     },
@@ -407,7 +431,10 @@
         "C": "That's where he lives now."
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp giải thích lý do Jonathan rời đi sớm.\nDịch câu hỏi: Tại sao Jonathan rời đi sớm?\nDịch đáp án:\nA. Để kịp chuyến tàu lúc 6 giờ.\nB. Trên bản tin sáng sớm.\nC. Đó là nơi anh ấy sống bây giờ."
+       "explanation": "Đáp án A trực tiếp giải thích lý do Jonathan rời đi sớm.\nDịch câu hỏi: Tại sao Jonathan rời đi sớm?\nDịch đáp án:\nA. Để kịp chuyến tàu lúc 6 giờ.\nB. Trên bản tin sáng sớm.\nC. Đó là nơi anh ấy sống bây giờ.",
+       "tags": [
+        "why"
+       ]
       }
      ]
     },
@@ -434,7 +461,10 @@
         "C": "At the Chesterville Hotel."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về địa điểm tổ chức tiệc công ty.\nDịch câu hỏi: Tiệc công ty được tổ chức ở đâu?\nDịch đáp án:\nA. Đó là một công ty xuất bản.\nB. Nhóm năm người ở bàn góc.\nC. Tại Khách sạn Chesterville."
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về địa điểm tổ chức tiệc công ty.\nDịch câu hỏi: Tiệc công ty được tổ chức ở đâu?\nDịch đáp án:\nA. Đó là một công ty xuất bản.\nB. Nhóm năm người ở bàn góc.\nC. Tại Khách sạn Chesterville.",
+       "tags": [
+        "where"
+       ]
       }
      ]
     },
@@ -461,7 +491,10 @@
         "C": "Archie Co. works at the front desk."
        },
        "answer": "A",
-       "explanation": "Đáp án A là phản hồi hợp lý nhất cho câu hỏi về đăng ký tạp chí.\nDịch câu hỏi: Bạn có muốn đăng ký tạp chí trong một năm không?\nDịch đáp án:\nA. Nó sẽ tốn bao nhiêu tiền?\nB. Gần trung tâm dịch vụ.\nC. Archie Co. làm việc ở quầy lễ tân."
+       "explanation": "Đáp án A là phản hồi hợp lý nhất cho câu hỏi về đăng ký tạp chí.\nDịch câu hỏi: Bạn có muốn đăng ký tạp chí trong một năm không?\nDịch đáp án:\nA. Nó sẽ tốn bao nhiêu tiền?\nB. Gần trung tâm dịch vụ.\nC. Archie Co. làm việc ở quầy lễ tân.",
+       "tags": [
+        "yes-no"
+       ]
       }
      ]
     },
@@ -488,7 +521,10 @@
         "C": "I like it too."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về món ăn kèm.\nDịch câu hỏi: Món mì ống này có kèm theo salad không?\nDịch đáp án:\nA. Chúng tôi có khăn trải bàn.\nB. Không, tôi e là không.\nC. Tôi cũng thích nó."
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về món ăn kèm.\nDịch câu hỏi: Món mì ống này có kèm theo salad không?\nDịch đáp án:\nA. Chúng tôi có khăn trải bàn.\nB. Không, tôi e là không.\nC. Tôi cũng thích nó.",
+       "tags": [
+        "yes-no"
+       ]
       }
      ]
     },
@@ -515,7 +551,10 @@
         "C": "Probably on Harold's desk."
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian có thể gặp.\nDịch câu hỏi: Khi nào chúng ta có thể gặp nhau về các hóa đơn?\nDịch đáp án:\nA. Vật tư cho văn phòng.\nB. Tôi rảnh sau 2 giờ.\nC. Có lẽ trên bàn của Harold."
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian có thể gặp.\nDịch câu hỏi: Khi nào chúng ta có thể gặp nhau về các hóa đơn?\nDịch đáp án:\nA. Vật tư cho văn phòng.\nB. Tôi rảnh sau 2 giờ.\nC. Có lẽ trên bàn của Harold.",
+       "tags": [
+        "when"
+       ]
       }
      ]
     },
@@ -542,7 +581,10 @@
         "C": "50 euros each."
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề nghị giúp đỡ mở tài khoản tiết kiệm.\nDịch câu hỏi: Bạn có muốn tôi giúp bạn mở một tài khoản tiết kiệm không?\nDịch đáp án:\nA. Tôi đã đếm chúng rồi.\nB. Điều đó thật tuyệt.\nC. 50 euro mỗi cái."
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề nghị giúp đỡ mở tài khoản tiết kiệm.\nDịch câu hỏi: Bạn có muốn tôi giúp bạn mở một tài khoản tiết kiệm không?\nDịch đáp án:\nA. Tôi đã đếm chúng rồi.\nB. Điều đó thật tuyệt.\nC. 50 euro mỗi cái.",
+       "tags": [
+        "request"
+       ]
       }
      ]
     },
@@ -569,7 +611,10 @@
         "C": "Can you close the door?"
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian đăng tin tuyển dụng.\nDịch câu hỏi: Khi nào bạn đăng tin tuyển dụng?\nDịch đáp án:\nA. Trên bảng thông báo ở hành lang.\nB. Nó đã được đăng trên trang web một tháng rồi.\nC. Bạn có thể đóng cửa không?"
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian đăng tin tuyển dụng.\nDịch câu hỏi: Khi nào bạn đăng tin tuyển dụng?\nDịch đáp án:\nA. Trên bảng thông báo ở hành lang.\nB. Nó đã được đăng trên trang web một tháng rồi.\nC. Bạn có thể đóng cửa không?",
+       "tags": [
+        "when"
+       ]
       }
      ]
     },
@@ -596,7 +641,10 @@
         "C": "Yes, I hope I get it."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về việc ứng tuyển vị trí quản lý.\nDịch câu hỏi: Bạn có đang ứng tuyển vào vị trí quản lý không?\nDịch đáp án:\nA. Khoảng 16 nhân viên nữa.\nB. Tôi sẽ kiểm tra lịch của cô ấy lại.\nC. Vâng, tôi hy vọng mình sẽ được nhận."
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về việc ứng tuyển vị trí quản lý.\nDịch câu hỏi: Bạn có đang ứng tuyển vào vị trí quản lý không?\nDịch đáp án:\nA. Khoảng 16 nhân viên nữa.\nB. Tôi sẽ kiểm tra lịch của cô ấy lại.\nC. Vâng, tôi hy vọng mình sẽ được nhận.",
+       "tags": [
+        "yes-no"
+       ]
       }
      ]
     },
@@ -623,7 +671,10 @@
         "C": "London, then New York."
        },
        "answer": "A",
-       "explanation": "Đáp án A, mặc dù không trực tiếp trả lời câu hỏi, nhưng ngụ ý rằng người nói không còn đi chuyến bay nào nữa.\nDịch câu hỏi: Bạn đi hạng thương gia hay hạng phổ thông?\nDịch đáp án:\nA. Chuyến bay của tôi vừa bị hủy.\nB. Tôi tập trung vào lịch sử.\nC. London, sau đó là New York."
+       "explanation": "Đáp án A, mặc dù không trực tiếp trả lời câu hỏi, nhưng ngụ ý rằng người nói không còn đi chuyến bay nào nữa.\nDịch câu hỏi: Bạn đi hạng thương gia hay hạng phổ thông?\nDịch đáp án:\nA. Chuyến bay của tôi vừa bị hủy.\nB. Tôi tập trung vào lịch sử.\nC. London, sau đó là New York.",
+       "tags": [
+        "choice"
+       ]
       }
      ]
     },
@@ -650,7 +701,10 @@
         "C": "There are six folders on the table."
        },
        "answer": "A",
-       "explanation": "Đáp án A đề xuất một giải pháp có thể giúp tăng số lượng người đăng ký.\nDịch câu hỏi: Số lượng người đăng ký tạp chí của chúng ta đã giảm gần đây.\nDịch đáp án:\nA. Có chỗ trong ngân sách cho việc quảng cáo nhiều hơn.\nB. Một khoản phí thành viên hàng năm.\nC. Có sáu tập hồ sơ trên bàn."
+       "explanation": "Đáp án A đề xuất một giải pháp có thể giúp tăng số lượng người đăng ký.\nDịch câu hỏi: Số lượng người đăng ký tạp chí của chúng ta đã giảm gần đây.\nDịch đáp án:\nA. Có chỗ trong ngân sách cho việc quảng cáo nhiều hơn.\nB. Một khoản phí thành viên hàng năm.\nC. Có sáu tập hồ sơ trên bàn.",
+       "tags": [
+        "statement"
+       ]
       }
      ]
     },
@@ -677,7 +731,10 @@
         "C": "I pay a company to do all the maintenance."
        },
        "answer": "C",
-       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về cách làm sạch các tấm pin mặt trời.\nDịch câu hỏi: Làm thế nào bạn làm sạch các tấm pin mặt trời mà không làm hỏng chúng?\nDịch đáp án:\nA. Kính có thể là bất kỳ màu nào bạn muốn.\nB. Không, hôm nay trời không nắng.\nC. Tôi trả tiền cho một công ty để làm tất cả việc bảo trì."
+       "explanation": "Đáp án C trực tiếp trả lời câu hỏi về cách làm sạch các tấm pin mặt trời.\nDịch câu hỏi: Làm thế nào bạn làm sạch các tấm pin mặt trời mà không làm hỏng chúng?\nDịch đáp án:\nA. Kính có thể là bất kỳ màu nào bạn muốn.\nB. Không, hôm nay trời không nắng.\nC. Tôi trả tiền cho một công ty để làm tất cả việc bảo trì.",
+       "tags": [
+        "how"
+       ]
       }
      ]
     },
@@ -704,7 +761,10 @@
         "C": "No, thank you."
        },
        "answer": "A",
-       "explanation": "Đáp án A là phản hồi phù hợp nhất cho câu hỏi về thời gian nhận chứng chỉ.\nDịch câu hỏi: Khi nào tôi sẽ nhận được chứng chỉ qua đường bưu điện?\nDịch đáp án:\nA. Tôi sẽ phải kiểm tra với văn phòng.\nB. Rẽ trái ở đèn giao thông.\nC. Không, cảm ơn."
+       "explanation": "Đáp án A là phản hồi phù hợp nhất cho câu hỏi về thời gian nhận chứng chỉ.\nDịch câu hỏi: Khi nào tôi sẽ nhận được chứng chỉ qua đường bưu điện?\nDịch đáp án:\nA. Tôi sẽ phải kiểm tra với văn phòng.\nB. Rẽ trái ở đèn giao thông.\nC. Không, cảm ơn.",
+       "tags": [
+        "when"
+       ]
       }
      ]
     },
@@ -731,7 +791,10 @@
         "C": "I work in the home decor area"
        },
        "answer": "C",
-       "explanation": "Đáp án C ngụ ý rằng người nói không biết về việc bán máy cắt cỏ vì họ làm việc ở khu vực khác.\nDịch câu hỏi: Chúng ta không bán máy cắt cỏ Ramirez sao?\nDịch đáp án:\nA. Cây cối cần thêm nước\nB. Xin lỗi, không cho phép hoàn tiền\nC. Tôi làm việc ở khu vực trang trí nội thất"
+       "explanation": "Đáp án C ngụ ý rằng người nói không biết về việc bán máy cắt cỏ vì họ làm việc ở khu vực khác.\nDịch câu hỏi: Chúng ta không bán máy cắt cỏ Ramirez sao?\nDịch đáp án:\nA. Cây cối cần thêm nước\nB. Xin lỗi, không cho phép hoàn tiền\nC. Tôi làm việc ở khu vực trang trí nội thất",
+       "tags": [
+        "negative-tag"
+       ]
       }
      ]
     },
@@ -758,7 +821,10 @@
         "C": "Alphabetical order is fine, I think"
        },
        "answer": "B",
-       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất gặp mặt thảo luận.\nDịch câu hỏi: Chúng ta có nên gặp nhau để thảo luận về dự án nghiên cứu không?\nDịch đáp án:\nA. Một cuốn sổ tay xuất bản\nB. Hãy đặt lịch cho tôi\nC. Tôi nghĩ thứ tự bảng chữ cái là được"
+       "explanation": "Đáp án B là phản hồi phù hợp nhất cho đề xuất gặp mặt thảo luận.\nDịch câu hỏi: Chúng ta có nên gặp nhau để thảo luận về dự án nghiên cứu không?\nDịch đáp án:\nA. Một cuốn sổ tay xuất bản\nB. Hãy đặt lịch cho tôi\nC. Tôi nghĩ thứ tự bảng chữ cái là được",
+       "tags": [
+        "request"
+       ]
       }
      ]
     },
@@ -785,7 +851,10 @@
         "C": "The leaves come out in the spring"
        },
        "answer": "B",
-       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian nhân viên vệ sinh rời đi.\nDịch câu hỏi: Nhân viên vệ sinh rời đi lúc mấy giờ?\nDịch đáp án:\nA. Một tủ đựng vật tư ở hành lang\nB. Thường là vào lúc 6 giờ\nC. Lá cây mọc ra vào mùa xuân"
+       "explanation": "Đáp án B trực tiếp trả lời câu hỏi về thời gian nhân viên vệ sinh rời đi.\nDịch câu hỏi: Nhân viên vệ sinh rời đi lúc mấy giờ?\nDịch đáp án:\nA. Một tủ đựng vật tư ở hành lang\nB. Thường là vào lúc 6 giờ\nC. Lá cây mọc ra vào mùa xuân",
+       "tags": [
+        "when"
+       ]
       }
      ]
     },
@@ -812,7 +881,10 @@
         "C": "A friend recommended them"
        },
        "answer": "A",
-       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về phương thức thanh toán.\nDịch câu hỏi: Hôm nay bạn muốn thanh toán cho đôi giày này bằng cách nào?\nDịch đáp án:\nA. Bằng thẻ quà tặng của cửa hàng\nB. Tôi mang size 38\nC. Một người bạn đã giới thiệu chúng"
+       "explanation": "Đáp án A trực tiếp trả lời câu hỏi về phương thức thanh toán.\nDịch câu hỏi: Hôm nay bạn muốn thanh toán cho đôi giày này bằng cách nào?\nDịch đáp án:\nA. Bằng thẻ quà tặng của cửa hàng\nB. Tôi mang size 38\nC. Một người bạn đã giới thiệu chúng",
+       "tags": [
+        "how"
+       ]
       }
      ]
     },
@@ -839,7 +911,10 @@
         "C": "Isn't the policy in effect already?"
        },
        "answer": "A",
-       "explanation": "Đáp án A ngụ ý rằng quảng cáo có hiệu quả bằng cách đề cập đến việc tăng doanh số.\nDịch câu hỏi: Đó là một quảng cáo hiệu quả, phải không?\nDịch đáp án:\nA. Tôi nghe nói doanh số đã tăng\nB. Số tạp chí tiếp theo\nC. Chính sách đó chưa có hiệu lực rồi sao?"
+       "explanation": "Đáp án A ngụ ý rằng quảng cáo có hiệu quả bằng cách đề cập đến việc tăng doanh số.\nDịch câu hỏi: Đó là một quảng cáo hiệu quả, phải không?\nDịch đáp án:\nA. Tôi nghe nói doanh số đã tăng\nB. Số tạp chí tiếp theo\nC. Chính sách đó chưa có hiệu lực rồi sao?",
+       "tags": [
+        "negative-tag"
+       ]
       }
      ]
     },
@@ -866,7 +941,10 @@
         "C": "I'll have spaghetti, please."
        },
        "answer": "A",
-       "explanation": "Đáp án A gián tiếp từ chối đề xuất đi dạo bằng cách đề cập đến một nhiệm vụ cần hoàn thành.\nDịch câu hỏi: Tại sao chúng ta không đi dạo sau bữa trưa?\nDịch đáp án:\nA. Báo cáo doanh số phải nộp lúc 1 giờ.\nB. Không, ở khu vực đỗ xe B.\nC. Tôi sẽ dùng mì Ý, làm ơn."
+       "explanation": "Đáp án A gián tiếp từ chối đề xuất đi dạo bằng cách đề cập đến một nhiệm vụ cần hoàn thành.\nDịch câu hỏi: Tại sao chúng ta không đi dạo sau bữa trưa?\nDịch đáp án:\nA. Báo cáo doanh số phải nộp lúc 1 giờ.\nB. Không, ở khu vực đỗ xe B.\nC. Tôi sẽ dùng mì Ý, làm ơn.",
+       "tags": [
+        "request"
+       ]
       }
      ]
     },
@@ -893,7 +971,10 @@
         "C": "The moving van is coming tomorrow"
        },
        "answer": "A",
-       "explanation": "Đáp án A là câu hỏi phù hợp nhất liên quan đến việc di chuyển hàng hóa theo mùa.\nDịch câu hỏi: Tôi đã quyết định chuyển hàng hóa theo mùa ra phía trước cửa hàng.\nDịch đáp án:\nA. Bạn có đặt một số trong cửa sổ không?\nB. Cho bộ sưu tập quần áo mùa hè của chúng ta.\nC. Xe tải chuyển đồ sẽ đến vào ngày mai"
+       "explanation": "Đáp án A là câu hỏi phù hợp nhất liên quan đến việc di chuyển hàng hóa theo mùa.\nDịch câu hỏi: Tôi đã quyết định chuyển hàng hóa theo mùa ra phía trước cửa hàng.\nDịch đáp án:\nA. Bạn có đặt một số trong cửa sổ không?\nB. Cho bộ sưu tập quần áo mùa hè của chúng ta.\nC. Xe tải chuyển đồ sẽ đến vào ngày mai",
+       "tags": [
+        "statement"
+       ]
       }
      ]
     }
@@ -933,7 +1014,8 @@
         "D": "A promotional gift"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Cuộc trò chuyện tập trung vào việc cải tạo nhà hát.\nTrích dẫn: \"The renovations we're planning for the theater are long overdue.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cải tạo nhà hát\nB. Thay đổi lịch biểu diễn\nC. Lựa chọn giám đốc ánh sáng mới\nD. Một món quà quảng cáo\nCâu hỏi dịch: Các người nói chủ yếu đang thảo luận về điều gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Cuộc trò chuyện tập trung vào việc cải tạo nhà hát.\nTrích dẫn: \"The renovations we're planning for the theater are long overdue.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cải tạo nhà hát\nB. Thay đổi lịch biểu diễn\nC. Lựa chọn giám đốc ánh sáng mới\nD. Một món quà quảng cáo\nCâu hỏi dịch: Các người nói chủ yếu đang thảo luận về điều gì?",
+       "tags": []
       },
       {
        "number": 33,
@@ -946,7 +1028,8 @@
         "D": "Some casting changes were made."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông đề cập rằng buổi diễn nhạc kịch gần đây đã có một đợt diễn thành công.\nTrích dẫn: \"it's great that our latest musical production has had such a successful run\"\nCác đáp án dịch sang tiếng Việt:\nA. Nó dựa trên một cuốn sách\nB. Nó đã thành công\nC. Nó sẽ được biểu diễn ở nước ngoài\nD. Một số thay đổi về diễn viên đã được thực hiện\nCâu hỏi dịch: Người đàn ông nói gì về buổi diễn nhạc kịch?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông đề cập rằng buổi diễn nhạc kịch gần đây đã có một đợt diễn thành công.\nTrích dẫn: \"it's great that our latest musical production has had such a successful run\"\nCác đáp án dịch sang tiếng Việt:\nA. Nó dựa trên một cuốn sách\nB. Nó đã thành công\nC. Nó sẽ được biểu diễn ở nước ngoài\nD. Một số thay đổi về diễn viên đã được thực hiện\nCâu hỏi dịch: Người đàn ông nói gì về buổi diễn nhạc kịch?",
+       "tags": []
       },
       {
        "number": 34,
@@ -959,7 +1042,8 @@
         "D": "An autograph session"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập đến việc tổ chức một buổi gây quỹ vào tháng tới.\nTrích dẫn: \"it gives us time to focus on next month's fund-raiser\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc họp báo\nB. Một buổi gây quỹ\nC. Một buổi thử vai\nD. Một buổi ký tặng\nCâu hỏi dịch: Các người nói đang lên kế hoạch cho sự kiện nào?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập đến việc tổ chức một buổi gây quỹ vào tháng tới.\nTrích dẫn: \"it gives us time to focus on next month's fund-raiser\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc họp báo\nB. Một buổi gây quỹ\nC. Một buổi thử vai\nD. Một buổi ký tặng\nCâu hỏi dịch: Các người nói đang lên kế hoạch cho sự kiện nào?",
+       "tags": []
       }
      ]
     },
@@ -994,7 +1078,8 @@
         "D": "They renovated a space."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập rằng họ vừa chọn một ứng viên hàng đầu cho vị trí chăm sóc khách hàng.\nTrích dẫn: \"the top candidate we chose for the customer-care position just accepted our job offer\"\nCác đáp án dịch sang tiếng Việt:\nA. Họ ra mắt một sản phẩm mới\nB. Họ chọn một ứng viên công việc\nC. Họ chuyển đến một thành phố khác\nD. Họ cải tạo một không gian\nCâu hỏi dịch: Gần đây các người nói đã làm gì?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập rằng họ vừa chọn một ứng viên hàng đầu cho vị trí chăm sóc khách hàng.\nTrích dẫn: \"the top candidate we chose for the customer-care position just accepted our job offer\"\nCác đáp án dịch sang tiếng Việt:\nA. Họ ra mắt một sản phẩm mới\nB. Họ chọn một ứng viên công việc\nC. Họ chuyển đến một thành phố khác\nD. Họ cải tạo một không gian\nCâu hỏi dịch: Gần đây các người nói đã làm gì?",
+       "tags": []
       },
       {
        "number": 36,
@@ -1007,7 +1092,8 @@
         "D": "It uses renewable energy."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói thích tòa nhà mới vì nó sử dụng năng lượng tái tạo thông qua các tấm pin mặt trời.\nTrích dẫn: \"It has solar panels, so all of its energy comes from renewable sources.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nó cung cấp quyền truy cập 24 giờ\nB. Nó có không gian ngoài trời\nC. Nó gần phương tiện giao thông công cộng\nD. Nó sử dụng năng lượng tái tạo\nCâu hỏi dịch: Các người nói thích điều gì về một tòa nhà?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói thích tòa nhà mới vì nó sử dụng năng lượng tái tạo thông qua các tấm pin mặt trời.\nTrích dẫn: \"It has solar panels, so all of its energy comes from renewable sources.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nó cung cấp quyền truy cập 24 giờ\nB. Nó có không gian ngoài trời\nC. Nó gần phương tiện giao thông công cộng\nD. Nó sử dụng năng lượng tái tạo\nCâu hỏi dịch: Các người nói thích điều gì về một tòa nhà?",
+       "tags": []
       },
       {
        "number": 37,
@@ -1020,7 +1106,8 @@
         "D": "An upcoming deadline"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ lo lắng rằng họ có thể không đủ khả năng chi trả tiền thuê.\nTrích dẫn: \"But I'm worried we may not be able to afford the lease.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một đối thủ cạnh tranh mới\nB. Thời gian đi lại dài hơn\nC. Một giá cao\nD. Một thời hạn sắp tới\nCâu hỏi dịch: Người phụ nữ lo lắng về điều gì?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ lo lắng rằng họ có thể không đủ khả năng chi trả tiền thuê.\nTrích dẫn: \"But I'm worried we may not be able to afford the lease.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một đối thủ cạnh tranh mới\nB. Thời gian đi lại dài hơn\nC. Một giá cao\nD. Một thời hạn sắp tới\nCâu hỏi dịch: Người phụ nữ lo lắng về điều gì?",
+       "tags": []
       }
      ]
     },
@@ -1055,7 +1142,8 @@
         "D": "A school festival"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ đề cập rằng cô ấy muốn đặt bánh cho sinh nhật của con trai.\nTrích dẫn: \"I'd like to order a cake for my son's birthday next week.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bữa tiệc nghỉ hưu\nB. Một bữa tiệc sinh nhật\nC. Một hội chợ khoa học\nD. Một lễ hội trường học\nCâu hỏi dịch: Người phụ nữ đang lên kế hoạch cho sự kiện nào?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ đề cập rằng cô ấy muốn đặt bánh cho sinh nhật của con trai.\nTrích dẫn: \"I'd like to order a cake for my son's birthday next week.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bữa tiệc nghỉ hưu\nB. Một bữa tiệc sinh nhật\nC. Một hội chợ khoa học\nD. Một lễ hội trường học\nCâu hỏi dịch: Người phụ nữ đang lên kế hoạch cho sự kiện nào?",
+       "tags": []
       },
       {
        "number": 39,
@@ -1068,7 +1156,8 @@
         "D": "A teacher"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Dựa vào cuộc đối thoại, người đàn ông có vẻ là một thợ làm bánh vì anh ta đang thảo luận về việc làm bánh và có các khuôn bánh.\nTrích dẫn: \"I have several different dinosaur-shaped pans for you to choose from.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một thợ làm bánh\nB. Một nhạc sĩ\nC. Một người làm vườn\nD. Một giáo viên\nCâu hỏi dịch: Người đàn ông nhiều khả năng là ai?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Dựa vào cuộc đối thoại, người đàn ông có vẻ là một thợ làm bánh vì anh ta đang thảo luận về việc làm bánh và có các khuôn bánh.\nTrích dẫn: \"I have several different dinosaur-shaped pans for you to choose from.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một thợ làm bánh\nB. Một nhạc sĩ\nC. Một người làm vườn\nD. Một giáo viên\nCâu hỏi dịch: Người đàn ông nhiều khả năng là ai?",
+       "tags": []
       },
       {
        "number": 40,
@@ -1081,7 +1170,8 @@
         "D": "A request cannot be fulfilled."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông xin lỗi vì không thể đáp ứng yêu cầu làm bánh đứng của người phụ nữ, do nhân viên có thể làm loại bánh đó đã kín lịch.\nTrích dẫn: \"I'm sorry. I do have someone on staff who can make those, but she's all booked up for the next few weeks.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số công cụ không thể tìm thấy\nB. Một số lời mời đã được gửi muộn\nC. Một cửa hàng đóng cửa vì ngày lễ\nD. Một yêu cầu không thể được đáp ứng\nCâu hỏi dịch: Tại sao người đàn ông xin lỗi?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông xin lỗi vì không thể đáp ứng yêu cầu làm bánh đứng của người phụ nữ, do nhân viên có thể làm loại bánh đó đã kín lịch.\nTrích dẫn: \"I'm sorry. I do have someone on staff who can make those, but she's all booked up for the next few weeks.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số công cụ không thể tìm thấy\nB. Một số lời mời đã được gửi muộn\nC. Một cửa hàng đóng cửa vì ngày lễ\nD. Một yêu cầu không thể được đáp ứng\nCâu hỏi dịch: Tại sao người đàn ông xin lỗi?",
+       "tags": []
       }
      ]
     },
@@ -1116,7 +1206,8 @@
         "D": "Cancel a contract"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng anh ta đã cố gắng đặt lịch sửa chữa trực tuyến.\nTrích dẫn: \"I went online to schedule a repair for my mobile phone\"\nCác đáp án dịch sang tiếng Việt:\nA. Mua một chiếc điện thoại mới\nB. Đặt lịch hẹn\nC. Đặt hàng một bộ phận\nD. Hủy một hợp đồng\nCâu hỏi dịch: Người đàn ông đã cố gắng làm gì trực tuyến?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng anh ta đã cố gắng đặt lịch sửa chữa trực tuyến.\nTrích dẫn: \"I went online to schedule a repair for my mobile phone\"\nCác đáp án dịch sang tiếng Việt:\nA. Mua một chiếc điện thoại mới\nB. Đặt lịch hẹn\nC. Đặt hàng một bộ phận\nD. Hủy một hợp đồng\nCâu hỏi dịch: Người đàn ông đã cố gắng làm gì trực tuyến?",
+       "tags": []
       },
       {
        "number": 42,
@@ -1129,7 +1220,8 @@
         "D": "It has limited storage space."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông nói rằng điện thoại của anh ta chỉ dùng được khoảng một giờ trước khi cần sạc lại.\nTrích dẫn: \"The phone only lasts about an hour before it has to be recharged.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nó có thời lượng pin ngắn.\nB. Màn hình bị hỏng.\nC. Một dây cáp bị mất.\nD. Nó có dung lượng lưu trữ hạn chế.\nCâu hỏi dịch: Người đàn ông nói điện thoại di động của anh ta có vấn đề gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông nói rằng điện thoại của anh ta chỉ dùng được khoảng một giờ trước khi cần sạc lại.\nTrích dẫn: \"The phone only lasts about an hour before it has to be recharged.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nó có thời lượng pin ngắn.\nB. Màn hình bị hỏng.\nC. Một dây cáp bị mất.\nD. Nó có dung lượng lưu trữ hạn chế.\nCâu hỏi dịch: Người đàn ông nói điện thoại di động của anh ta có vấn đề gì?",
+       "tags": []
       },
       {
        "number": 43,
@@ -1142,7 +1234,8 @@
         "D": "Restart a device"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ đề nghị người đàn ông đến cửa hàng ngay bây giờ để được sắp xếp một cuộc hẹn không cần đặt trước, và anh ta đồng ý chờ đợi.\nTrích dẫn: \"If you come to the store now, we can try to fit you in as a walk-in appointment.\" và \"I don't mind waiting.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nói chuyện với một người quản lý\nB. Gọi hỗ trợ kỹ thuật\nC. Đến cửa hàng\nD. Khởi động lại thiết bị\nCâu hỏi dịch: Người đàn ông nhiều khả năng sẽ làm gì tiếp theo?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ đề nghị người đàn ông đến cửa hàng ngay bây giờ để được sắp xếp một cuộc hẹn không cần đặt trước, và anh ta đồng ý chờ đợi.\nTrích dẫn: \"If you come to the store now, we can try to fit you in as a walk-in appointment.\" và \"I don't mind waiting.\"\nCác đáp án dịch sang tiếng Việt:\nA. Nói chuyện với một người quản lý\nB. Gọi hỗ trợ kỹ thuật\nC. Đến cửa hàng\nD. Khởi động lại thiết bị\nCâu hỏi dịch: Người đàn ông nhiều khả năng sẽ làm gì tiếp theo?",
+       "tags": []
       }
      ]
     },
@@ -1177,7 +1270,8 @@
         "D": "At a legal firm"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện liên quan đến việc viết một bài báo cho tờ báo sáng hôm sau, cho thấy họ làm việc tại một công ty báo chí.\nTrích dẫn: \"If you want it to be included in tomorrow morning's newspaper\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một ngân hàng\nB. Tại một phòng thí nghiệm nghiên cứu\nC. Tại một công ty báo chí\nD. Tại một công ty luật\nCâu hỏi dịch: Các người nói nhiều khả năng làm việc ở đâu?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện liên quan đến việc viết một bài báo cho tờ báo sáng hôm sau, cho thấy họ làm việc tại một công ty báo chí.\nTrích dẫn: \"If you want it to be included in tomorrow morning's newspaper\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một ngân hàng\nB. Tại một phòng thí nghiệm nghiên cứu\nC. Tại một công ty báo chí\nD. Tại một công ty luật\nCâu hỏi dịch: Các người nói nhiều khả năng làm việc ở đâu?",
+       "tags": []
       },
       {
        "number": 45,
@@ -1190,7 +1284,8 @@
         "D": "Some data are incorrect."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ nói rằng cô ấy đang gặp khó khăn trong việc lấy tất cả các thông tin từ những người liên quan.\nTrích dẫn: \"I'm having trouble getting all the facts from the people involved. They haven't returned my phone calls.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cô ấy cần chữ ký của người quản lý.\nB. Cô ấy không thể truy cập các tệp của mình.\nC. Cô ấy không thể có được thông tin cần thiết.\nD. Một số dữ liệu không chính xác.\nCâu hỏi dịch: Tại sao người phụ nữ không thể hoàn thành một nhiệm vụ?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người phụ nữ nói rằng cô ấy đang gặp khó khăn trong việc lấy tất cả các thông tin từ những người liên quan.\nTrích dẫn: \"I'm having trouble getting all the facts from the people involved. They haven't returned my phone calls.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cô ấy cần chữ ký của người quản lý.\nB. Cô ấy không thể truy cập các tệp của mình.\nC. Cô ấy không thể có được thông tin cần thiết.\nD. Một số dữ liệu không chính xác.\nCâu hỏi dịch: Tại sao người phụ nữ không thể hoàn thành một nhiệm vụ?",
+       "tags": []
       },
       {
        "number": 46,
@@ -1203,7 +1298,8 @@
         "D": "Reviewing some documents"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông đề xuất thay đổi thời hạn bằng cách cho phép người phụ nữ hoàn thành bài báo vào tối thứ Tư để đăng vào báo thứ Năm.\nTrích dẫn: \"But if you can have it finished by Wednesday night, I can put it in Thursday's paper.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thay đổi thời hạn\nB. Lên lịch một cuộc họp\nC. Yêu cầu một đồng nghiệp giúp đỡ\nD. Xem xét lại một số tài liệu\nCâu hỏi dịch: Người đàn ông đề xuất giải pháp gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người đàn ông đề xuất thay đổi thời hạn bằng cách cho phép người phụ nữ hoàn thành bài báo vào tối thứ Tư để đăng vào báo thứ Năm.\nTrích dẫn: \"But if you can have it finished by Wednesday night, I can put it in Thursday's paper.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thay đổi thời hạn\nB. Lên lịch một cuộc họp\nC. Yêu cầu một đồng nghiệp giúp đỡ\nD. Xem xét lại một số tài liệu\nCâu hỏi dịch: Người đàn ông đề xuất giải pháp gì?",
+       "tags": []
       }
      ]
     },
@@ -1238,7 +1334,8 @@
         "D": "Roofing"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Dựa vào cuộc trò chuyện về việc xây dựng vườn, đặt ống thoát nước và xây tường chắn, có thể thấy người đàn ông làm công việc cảnh quan.\nTrích dẫn: \"We'll have to remove the soil from the garden bed and lay down drainpipes that'll take the water out through holes in the retaining wall.\"\nCác đáp án dịch sang tiếng Việt:\nA. Sửa chữa thiết bị\nB. Sơn\nC. Cảnh quan\nD. Lợp mái\nCâu hỏi dịch: Người đàn ông làm công việc gì?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Dựa vào cuộc trò chuyện về việc xây dựng vườn, đặt ống thoát nước và xây tường chắn, có thể thấy người đàn ông làm công việc cảnh quan.\nTrích dẫn: \"We'll have to remove the soil from the garden bed and lay down drainpipes that'll take the water out through holes in the retaining wall.\"\nCác đáp án dịch sang tiếng Việt:\nA. Sửa chữa thiết bị\nB. Sơn\nC. Cảnh quan\nD. Lợp mái\nCâu hỏi dịch: Người đàn ông làm công việc gì?",
+       "tags": []
       },
       {
        "number": 48,
@@ -1251,7 +1348,8 @@
         "D": "She is not happy with a cost estimate."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Khi người phụ nữ nói cô ấy không muốn phải sửa chữa, cô ấy ngụ ý rằng cô ấy muốn sử dụng vật liệu bền hơn (đá) cho tường chắn, mặc dù đắt hơn.\nTrích dẫn: \"stones will last longer. They are more expensive, though.\" và \"I don't want to have to make repairs.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cô ấy không đủ trình độ cho một nhiệm vụ.\nB. Cô ấy thích vật liệu bền.\nC. Cô ấy sẽ mua một thiết bị mới.\nD. Cô ấy không hài lòng với một ước tính chi phí.\nCâu hỏi dịch: Người phụ nữ ngụ ý gì khi cô ấy nói \"Tôi không muốn phải sửa chữa\"?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Khi người phụ nữ nói cô ấy không muốn phải sửa chữa, cô ấy ngụ ý rằng cô ấy muốn sử dụng vật liệu bền hơn (đá) cho tường chắn, mặc dù đắt hơn.\nTrích dẫn: \"stones will last longer. They are more expensive, though.\" và \"I don't want to have to make repairs.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cô ấy không đủ trình độ cho một nhiệm vụ.\nB. Cô ấy thích vật liệu bền.\nC. Cô ấy sẽ mua một thiết bị mới.\nD. Cô ấy không hài lòng với một ước tính chi phí.\nCâu hỏi dịch: Người phụ nữ ngụ ý gì khi cô ấy nói \"Tôi không muốn phải sửa chữa\"?",
+       "tags": []
       },
       {
        "number": 49,
@@ -1264,7 +1362,8 @@
         "D": "Some photographs"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông nói rằng anh ta có một số hình ảnh về các dự án đã hoàn thành trong quá khứ để cho người phụ nữ xem.\nTrích dẫn: \"I have some pictures of projects I've completed in the past you can look at.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một danh sách giá\nB. Một giấy phép\nC. Một số tham khảo\nD. Một số bức ảnh\nCâu hỏi dịch: Người đàn ông sẽ cho người phụ nữ xem gì?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông nói rằng anh ta có một số hình ảnh về các dự án đã hoàn thành trong quá khứ để cho người phụ nữ xem.\nTrích dẫn: \"I have some pictures of projects I've completed in the past you can look at.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một danh sách giá\nB. Một giấy phép\nC. Một số tham khảo\nD. Một số bức ảnh\nCâu hỏi dịch: Người đàn ông sẽ cho người phụ nữ xem gì?",
+       "tags": []
       }
      ]
     },
@@ -1299,7 +1398,8 @@
         "D": "To request computer help"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông gọi để hỏi về khoản thanh toán cho một cộng tác viên tự do chưa nhận được tiền.\nTrích dẫn: \"One of our freelance writers has not received payment yet, so I'm calling to inquire about it.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để theo dõi một lô hàng\nB. Để hỏi về một khoản thanh toán\nC. Để đóng một tài khoản\nD. Để yêu cầu hỗ trợ máy tính\nCâu hỏi dịch: Tại sao người đàn ông gọi điện?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông gọi để hỏi về khoản thanh toán cho một cộng tác viên tự do chưa nhận được tiền.\nTrích dẫn: \"One of our freelance writers has not received payment yet, so I'm calling to inquire about it.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để theo dõi một lô hàng\nB. Để hỏi về một khoản thanh toán\nC. Để đóng một tài khoản\nD. Để yêu cầu hỗ trợ máy tính\nCâu hỏi dịch: Tại sao người đàn ông gọi điện?",
+       "tags": []
       },
       {
        "number": 51,
@@ -1312,7 +1412,8 @@
         "D": "A new policy was implemented."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ nói rằng Adem, người xử lý các yêu cầu thanh toán, đã đi nghỉ, gây ra sự chậm trễ.\nTrích dẫn: \"But Adem handles those requests, and he was on vacation.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một nhân viên vắng mặt tại văn phòng.\nB. Một chương trình phần mềm đã được cập nhật.\nC. Một tài liệu đã bị dán nhãn sai.\nD. Một chính sách mới đã được thực hiện.\nCâu hỏi dịch: Theo người phụ nữ, điều gì đã gây ra sự chậm trễ?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ nói rằng Adem, người xử lý các yêu cầu thanh toán, đã đi nghỉ, gây ra sự chậm trễ.\nTrích dẫn: \"But Adem handles those requests, and he was on vacation.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một nhân viên vắng mặt tại văn phòng.\nB. Một chương trình phần mềm đã được cập nhật.\nC. Một tài liệu đã bị dán nhãn sai.\nD. Một chính sách mới đã được thực hiện.\nCâu hỏi dịch: Theo người phụ nữ, điều gì đã gây ra sự chậm trễ?",
+       "tags": []
       },
       {
        "number": 52,
@@ -1325,7 +1426,8 @@
         "D": "A phone number"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông hỏi về ước tính thời gian xử lý yêu cầu, và người phụ nữ nói rằng cô ấy sẽ nói chuyện với Adem, ngụ ý cô ấy sẽ cung cấp ước tính thời gian sau.\nTrích dẫn: \"Do you have an estimate of how long it will take to process the request?\" và \"I'm not sure, but I can speak to Adem.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bảng phân tích chi phí\nB. Một số tài khoản\nC. Một ước tính thời gian\nD. Một số điện thoại\nCâu hỏi dịch: Người phụ nữ nhiều khả năng sẽ cung cấp thông tin gì sau?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông hỏi về ước tính thời gian xử lý yêu cầu, và người phụ nữ nói rằng cô ấy sẽ nói chuyện với Adem, ngụ ý cô ấy sẽ cung cấp ước tính thời gian sau.\nTrích dẫn: \"Do you have an estimate of how long it will take to process the request?\" và \"I'm not sure, but I can speak to Adem.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bảng phân tích chi phí\nB. Một số tài khoản\nC. Một ước tính thời gian\nD. Một số điện thoại\nCâu hỏi dịch: Người phụ nữ nhiều khả năng sẽ cung cấp thông tin gì sau?",
+       "tags": []
       }
      ]
     },
@@ -1360,7 +1462,8 @@
         "D": "At a parking garage"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện diễn ra tại Rev It Auto Repair, một cửa hàng sửa chữa ô tô.\nTrích dẫn: \"I'm the general manager here at Rev It Auto Repair\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một khu vui chơi điện tử\nB. Tại một cửa hàng tạp hóa\nC. Tại một cửa hàng sửa chữa ô tô\nD. Tại một bãi đậu xe\nCâu hỏi dịch: Cuộc trò chuyện diễn ra ở đâu?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện diễn ra tại Rev It Auto Repair, một cửa hàng sửa chữa ô tô.\nTrích dẫn: \"I'm the general manager here at Rev It Auto Repair\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một khu vui chơi điện tử\nB. Tại một cửa hàng tạp hóa\nC. Tại một cửa hàng sửa chữa ô tô\nD. Tại một bãi đậu xe\nCâu hỏi dịch: Cuộc trò chuyện diễn ra ở đâu?",
+       "tags": []
       },
       {
        "number": 54,
@@ -1373,7 +1476,8 @@
         "D": "A mobile phone application"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ đề cập đến sản phẩm Video Room, một thư viện các video ngắn.\nTrích dẫn: \"my product is called Video Room. It's a library of short videos\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số video\nB. Một số tờ rơi\nC. Một máy quét giá\nD. Một ứng dụng điện thoại di động\nCâu hỏi dịch: Người phụ nữ đề cập đến loại sản phẩm nào?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ đề cập đến sản phẩm Video Room, một thư viện các video ngắn.\nTrích dẫn: \"my product is called Video Room. It's a library of short videos\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số video\nB. Một số tờ rơi\nC. Một máy quét giá\nD. Một ứng dụng điện thoại di động\nCâu hỏi dịch: Người phụ nữ đề cập đến loại sản phẩm nào?",
+       "tags": []
       },
       {
        "number": 55,
@@ -1386,7 +1490,8 @@
         "D": "Upgrade some equipment"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông hỏi liệu họ có thể thêm nội dung tùy chỉnh của riêng mình vào Video Room.\nTrích dẫn: \"Can we add our own customized content?\"\nCác đáp án dịch sang tiếng Việt:\nA. Mở rộng giờ làm việc\nB. Tham gia một cuộc thi địa phương\nC. Bao gồm nội dung tùy chỉnh\nD. Nâng cấp một số thiết bị\nCâu hỏi dịch: Những người đàn ông muốn làm gì?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông hỏi liệu họ có thể thêm nội dung tùy chỉnh của riêng mình vào Video Room.\nTrích dẫn: \"Can we add our own customized content?\"\nCác đáp án dịch sang tiếng Việt:\nA. Mở rộng giờ làm việc\nB. Tham gia một cuộc thi địa phương\nC. Bao gồm nội dung tùy chỉnh\nD. Nâng cấp một số thiết bị\nCâu hỏi dịch: Những người đàn ông muốn làm gì?",
+       "tags": []
       }
      ]
     },
@@ -1421,7 +1526,8 @@
         "D": "Marketing"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện liên quan đến việc làm một bộ phim tài liệu về thiên nhiên, cho thấy họ làm việc trong ngành làm phim.\nTrích dẫn: \"I've just reviewed the outline you gave me for the nature documentary we're making\"\nCác đáp án dịch sang tiếng Việt:\nA. Nhiếp ảnh thời trang\nB. Công nghệ thông tin\nC. Làm phim\nD. Tiếp thị\nCâu hỏi dịch: Các người nói nhiều khả năng làm việc trong ngành nào?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện liên quan đến việc làm một bộ phim tài liệu về thiên nhiên, cho thấy họ làm việc trong ngành làm phim.\nTrích dẫn: \"I've just reviewed the outline you gave me for the nature documentary we're making\"\nCác đáp án dịch sang tiếng Việt:\nA. Nhiếp ảnh thời trang\nB. Công nghệ thông tin\nC. Làm phim\nD. Tiếp thị\nCâu hỏi dịch: Các người nói nhiều khả năng làm việc trong ngành nào?",
+       "tags": []
       },
       {
        "number": 57,
@@ -1434,7 +1540,8 @@
         "D": "Some revisions are needed."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Khi người đàn ông nói anh ta muốn bộ phim ngắn hơn một giờ, anh ta ngụ ý rằng cần phải sửa đổi phác thảo hiện tại để rút ngắn thời lượng.\nTrích dẫn: \"I want it to be less than an hour\" và phản hồi của Carmen \"I'll take another look at it and see where I can take out some unnecessary scenes\"\nCác đáp án dịch sang tiếng Việt:\nA. Anh ta rất bận rộn.\nB. Anh ta phê duyệt một lịch trình.\nC. Một tuyến đường có nhiều giao thông.\nD. Cần một số sửa đổi.\nCâu hỏi dịch: Người đàn ông ngụ ý gì khi anh ta nói \"Tôi muốn nó ngắn hơn một giờ\"?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Khi người đàn ông nói anh ta muốn bộ phim ngắn hơn một giờ, anh ta ngụ ý rằng cần phải sửa đổi phác thảo hiện tại để rút ngắn thời lượng.\nTrích dẫn: \"I want it to be less than an hour\" và phản hồi của Carmen \"I'll take another look at it and see where I can take out some unnecessary scenes\"\nCác đáp án dịch sang tiếng Việt:\nA. Anh ta rất bận rộn.\nB. Anh ta phê duyệt một lịch trình.\nC. Một tuyến đường có nhiều giao thông.\nD. Cần một số sửa đổi.\nCâu hỏi dịch: Người đàn ông ngụ ý gì khi anh ta nói \"Tôi muốn nó ngắn hơn một giờ\"?",
+       "tags": []
       },
       {
        "number": 58,
@@ -1447,7 +1554,8 @@
         "D": "To devise a safety plan"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng anh ta cần liên hệ với đội quay phim để đảm bảo họ có tất cả thiết bị cần thiết để bắt đầu quay phim.\nTrích dẫn: \"I need to follow up with our camera team to make sure they have all the equipment they need to begin filming\"\nCác đáp án dịch sang tiếng Việt:\nA. Để giải thích quy trình cấp phép\nB. Để xác nhận sự sẵn có của thiết bị\nC. Để giới thiệu một đồng nghiệp\nD. Để lập kế hoạch an toàn\nCâu hỏi dịch: Tại sao người đàn ông cần liên hệ với một đội?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người đàn ông nói rằng anh ta cần liên hệ với đội quay phim để đảm bảo họ có tất cả thiết bị cần thiết để bắt đầu quay phim.\nTrích dẫn: \"I need to follow up with our camera team to make sure they have all the equipment they need to begin filming\"\nCác đáp án dịch sang tiếng Việt:\nA. Để giải thích quy trình cấp phép\nB. Để xác nhận sự sẵn có của thiết bị\nC. Để giới thiệu một đồng nghiệp\nD. Để lập kế hoạch an toàn\nCâu hỏi dịch: Tại sao người đàn ông cần liên hệ với một đội?",
+       "tags": []
       }
      ]
     },
@@ -1482,7 +1590,8 @@
         "D": "Some hiring plans"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông nói rằng anh ta đã xem xét kết quả xét nghiệm đất hôm qua.\nTrích dẫn: \"I reviewed the results of the soil tests yesterday\"\nCác đáp án dịch sang tiếng Việt:\nA. Một ngân sách\nB. Một báo cáo thời tiết\nC. Một số kết quả kiểm tra\nD. Một số kế hoạch tuyển dụng\nCâu hỏi dịch: Người đàn ông đã xem xét gì hôm qua?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông nói rằng anh ta đã xem xét kết quả xét nghiệm đất hôm qua.\nTrích dẫn: \"I reviewed the results of the soil tests yesterday\"\nCác đáp án dịch sang tiếng Việt:\nA. Một ngân sách\nB. Một báo cáo thời tiết\nC. Một số kết quả kiểm tra\nD. Một số kế hoạch tuyển dụng\nCâu hỏi dịch: Người đàn ông đã xem xét gì hôm qua?",
+       "tags": []
       },
       {
        "number": 60,
@@ -1495,7 +1604,8 @@
         "D": "Acquire more public land"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Các người nói hy vọng cải thiện tình trạng của sân bóng chày bằng cách sử dụng phân bón đặc biệt.\nTrích dẫn: \"We'll need to order some special fertilizer to put on it.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cải thiện tình trạng của một sân thể thao\nB. Mở rộng các chương trình thể thao của thành phố\nC. Lên kế hoạch cho một sự kiện gây quỹ\nD. Có thêm đất công cộng\nCâu hỏi dịch: Các người nói hy vọng làm gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Các người nói hy vọng cải thiện tình trạng của sân bóng chày bằng cách sử dụng phân bón đặc biệt.\nTrích dẫn: \"We'll need to order some special fertilizer to put on it.\"\nCác đáp án dịch sang tiếng Việt:\nA. Cải thiện tình trạng của một sân thể thao\nB. Mở rộng các chương trình thể thao của thành phố\nC. Lên kế hoạch cho một sự kiện gây quỹ\nD. Có thêm đất công cộng\nCâu hỏi dịch: Các người nói hy vọng làm gì?",
+       "tags": []
       },
       {
        "number": 61,
@@ -1508,7 +1618,8 @@
         "D": "A cost estimate"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Melissa nói rằng cô ấy sẽ gửi ước tính chi phí qua email.\nTrích dẫn: \"I'll send it by lunchtime, and I'll cc you both on the e-mail.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bản tóm tắt các nhiệm vụ công việc\nB. Một lá thư cảm ơn\nC. Một bài báo tin tức\nD. Một ước tính chi phí\nCâu hỏi dịch: Melissa sẽ gửi gì qua email?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Melissa nói rằng cô ấy sẽ gửi ước tính chi phí qua email.\nTrích dẫn: \"I'll send it by lunchtime, and I'll cc you both on the e-mail.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một bản tóm tắt các nhiệm vụ công việc\nB. Một lá thư cảm ơn\nC. Một bài báo tin tức\nD. Một ước tính chi phí\nCâu hỏi dịch: Melissa sẽ gửi gì qua email?",
+       "tags": []
       }
      ]
     },
@@ -1548,7 +1659,8 @@
         "D": "At a baseball field"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Cuộc trò chuyện đề cập đến các giải bowling và đường bowling, cho thấy họ làm việc tại một sân bowling.\nTrích dẫn: \"the schedule for the bowling leagues at our alley\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một sân bowling\nB. Tại một hồ bơi\nC. Tại một sân trượt băng\nD. Tại một sân bóng chày\nCâu hỏi dịch: Các người nói làm việc ở đâu?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Cuộc trò chuyện đề cập đến các giải bowling và đường bowling, cho thấy họ làm việc tại một sân bowling.\nTrích dẫn: \"the schedule for the bowling leagues at our alley\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một sân bowling\nB. Tại một hồ bơi\nC. Tại một sân trượt băng\nD. Tại một sân bóng chày\nCâu hỏi dịch: Các người nói làm việc ở đâu?",
+       "tags": []
       },
       {
        "number": 63,
@@ -1561,7 +1673,8 @@
         "D": "Thursday"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Giải trẻ sẽ được chuyển sang cùng tối với giải người lớn. Theo lịch trình, giải người lớn diễn ra vào thứ Năm.\nTrích dẫn: \"if we moved the junior league to the same night that the adult league plays\"\nCác đáp án dịch sang tiếng Việt:\nA. Thứ Hai\nB. Thứ Ba\nC. Thứ Tư\nD. Thứ Năm\nCâu hỏi dịch: Nhìn vào hình ảnh. Vào ngày nào Giải Trẻ sẽ gặp nhau bắt đầu từ tháng sau?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Giải trẻ sẽ được chuyển sang cùng tối với giải người lớn. Theo lịch trình, giải người lớn diễn ra vào thứ Năm.\nTrích dẫn: \"if we moved the junior league to the same night that the adult league plays\"\nCác đáp án dịch sang tiếng Việt:\nA. Thứ Hai\nB. Thứ Ba\nC. Thứ Tư\nD. Thứ Năm\nCâu hỏi dịch: Nhìn vào hình ảnh. Vào ngày nào Giải Trẻ sẽ gặp nhau bắt đầu từ tháng sau?",
+       "tags": []
       },
       {
        "number": 64,
@@ -1574,7 +1687,8 @@
         "D": "Process a payment"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ gửi email cho phụ huynh của các cầu thủ bowling trẻ.\nTrích dẫn: \"I'll e-mail the parents of the junior bowlers and let them know the day will change starting next month.\"\nCác đáp án dịch sang tiếng Việt:\nA. Treo một áp phích\nB. Gửi một email\nC. Giao một gói hàng\nD. Xử lý một khoản thanh toán\nCâu hỏi dịch: Người phụ nữ nói cô ấy sẽ làm gì?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng cô ấy sẽ gửi email cho phụ huynh của các cầu thủ bowling trẻ.\nTrích dẫn: \"I'll e-mail the parents of the junior bowlers and let them know the day will change starting next month.\"\nCác đáp án dịch sang tiếng Việt:\nA. Treo một áp phích\nB. Gửi một email\nC. Giao một gói hàng\nD. Xử lý một khoản thanh toán\nCâu hỏi dịch: Người phụ nữ nói cô ấy sẽ làm gì?",
+       "tags": []
       }
      ]
     },
@@ -1614,7 +1728,8 @@
         "D": "A national holiday will be observed."
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ nói rằng thư viện sẽ đóng cửa vào thứ Sáu vì nó được sử dụng cho cuộc bầu cử khu vực.\nTrích dẫn: \"We're closed this Friday. The library is being used for the district elections.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc bầu cử sẽ được tổ chức ở đó.\nB. Một số việc cải tạo sẽ diễn ra.\nC. Thời tiết xấu được dự báo.\nD. Một ngày lễ quốc gia sẽ được tổ chức.\nCâu hỏi dịch: Theo người phụ nữ, tại sao thư viện sẽ đóng cửa vào thứ Sáu?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người phụ nữ nói rằng thư viện sẽ đóng cửa vào thứ Sáu vì nó được sử dụng cho cuộc bầu cử khu vực.\nTrích dẫn: \"We're closed this Friday. The library is being used for the district elections.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc bầu cử sẽ được tổ chức ở đó.\nB. Một số việc cải tạo sẽ diễn ra.\nC. Thời tiết xấu được dự báo.\nD. Một ngày lễ quốc gia sẽ được tổ chức.\nCâu hỏi dịch: Theo người phụ nữ, tại sao thư viện sẽ đóng cửa vào thứ Sáu?",
+       "tags": []
       },
       {
        "number": 66,
@@ -1627,7 +1742,8 @@
         "D": "He has a business meeting."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông nói rằng anh ta sẽ đi họp khách hàng vào thứ Năm, trùng với buổi chiếu phim tại thư viện.\nTrích dẫn: \"I'm away for a client meeting on Thursday.\"\nCác đáp án dịch sang tiếng Việt:\nA. Anh ta có một nghĩa vụ gia đình.\nB. Xe của anh ta sẽ ở tiệm sửa xe.\nC. Anh ta sẽ tham dự một buổi biểu diễn.\nD. Anh ta có một cuộc họp kinh doanh.\nCâu hỏi dịch: Người đàn ông đề cập đến xung đột lịch trình nào?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người đàn ông nói rằng anh ta sẽ đi họp khách hàng vào thứ Năm, trùng với buổi chiếu phim tại thư viện.\nTrích dẫn: \"I'm away for a client meeting on Thursday.\"\nCác đáp án dịch sang tiếng Việt:\nA. Anh ta có một nghĩa vụ gia đình.\nB. Xe của anh ta sẽ ở tiệm sửa xe.\nC. Anh ta sẽ tham dự một buổi biểu diễn.\nD. Anh ta có một cuộc họp kinh doanh.\nCâu hỏi dịch: Người đàn ông đề cập đến xung đột lịch trình nào?",
+       "tags": []
       },
       {
        "number": 67,
@@ -1640,7 +1756,8 @@
         "D": "On Thursday"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông không thể tham dự buổi chiếu phim vào thứ Năm, nhưng anh ta bày tỏ sự quan tâm đến buổi ký tặng sách của Sumit Mehta, diễn ra vào thứ Tư theo lịch trình.\nTrích dẫn: \"I do like his novels! Thanks, I'll come back for that.\"\nCác đáp án dịch sang tiếng Việt:\nA. Vào thứ Hai\nB. Vào thứ Ba\nC. Vào thứ Tư\nD. Vào thứ Năm\nCâu hỏi dịch: Nhìn vào hình ảnh. Khi nào người đàn ông có khả năng tham dự một sự kiện thư viện nhất?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người đàn ông không thể tham dự buổi chiếu phim vào thứ Năm, nhưng anh ta bày tỏ sự quan tâm đến buổi ký tặng sách của Sumit Mehta, diễn ra vào thứ Tư theo lịch trình.\nTrích dẫn: \"I do like his novels! Thanks, I'll come back for that.\"\nCác đáp án dịch sang tiếng Việt:\nA. Vào thứ Hai\nB. Vào thứ Ba\nC. Vào thứ Tư\nD. Vào thứ Năm\nCâu hỏi dịch: Nhìn vào hình ảnh. Khi nào người đàn ông có khả năng tham dự một sự kiện thư viện nhất?",
+       "tags": []
       }
      ]
     },
@@ -1680,7 +1797,8 @@
         "D": "Updating an entrance area"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện xoay quanh việc sửa chữa cây cầu bắc qua hồ cá trong công viên.\nTrích dẫn: \"We'll have enough money to make those repairs to the bridge over the fish pond that you mentioned.\"\nCác đáp án dịch sang tiếng Việt:\nA. Mở rộng một hàng rào\nB. Xây dựng một nhà kho\nC. Sửa chữa một cây cầu\nD. Cập nhật khu vực lối vào\nCâu hỏi dịch: Cuộc trò chuyện nói về điều gì?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Cuộc trò chuyện xoay quanh việc sửa chữa cây cầu bắc qua hồ cá trong công viên.\nTrích dẫn: \"We'll have enough money to make those repairs to the bridge over the fish pond that you mentioned.\"\nCác đáp án dịch sang tiếng Việt:\nA. Mở rộng một hàng rào\nB. Xây dựng một nhà kho\nC. Sửa chữa một cây cầu\nD. Cập nhật khu vực lối vào\nCâu hỏi dịch: Cuộc trò chuyện nói về điều gì?",
+       "tags": []
       },
       {
        "number": 69,
@@ -1693,7 +1811,8 @@
         "D": "With proceeds from a charity auction"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng họ đã được trao một khoản tài trợ để thực hiện sửa chữa cho khuôn viên công viên.\nTrích dẫn: \"We've been awarded a grant to make some repairs to the park grounds.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bằng các khoản đóng góp từ khách tham quan\nB. Bằng tiền từ một khoản tài trợ\nC. Bằng doanh thu từ bán vé\nD. Bằng tiền thu được từ một cuộc đấu giá từ thiện\nCâu hỏi dịch: Theo người phụ nữ, dự án đang được tài trợ như thế nào?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng họ đã được trao một khoản tài trợ để thực hiện sửa chữa cho khuôn viên công viên.\nTrích dẫn: \"We've been awarded a grant to make some repairs to the park grounds.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bằng các khoản đóng góp từ khách tham quan\nB. Bằng tiền từ một khoản tài trợ\nC. Bằng doanh thu từ bán vé\nD. Bằng tiền thu được từ một cuộc đấu giá từ thiện\nCâu hỏi dịch: Theo người phụ nữ, dự án đang được tài trợ như thế nào?",
+       "tags": []
       },
       {
        "number": 70,
@@ -1706,7 +1825,8 @@
         "D": "Antique White"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng họ muốn màu sơn gần với màu gốc nhất khi cây cầu được xây dựng lần đầu tiên, mặc dù đó là lựa chọn đắt nhất trong danh sách. Theo bảng giá, màu đắt nhất là Misty Blue.\nTrích dẫn: \"we want it to be as close to the original color as when it was first built, even though that's the most expensive option on the list.\"\nCác đáp án dịch sang tiếng Việt:\nA. Xanh lá cây vườn\nB. Xanh dương sương mù\nC. Đào bình minh\nD. Trắng cổ điển\nCâu hỏi dịch: Nhìn vào hình ảnh. Người phụ nữ chọn màu nào?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người phụ nữ nói rằng họ muốn màu sơn gần với màu gốc nhất khi cây cầu được xây dựng lần đầu tiên, mặc dù đó là lựa chọn đắt nhất trong danh sách. Theo bảng giá, màu đắt nhất là Misty Blue.\nTrích dẫn: \"we want it to be as close to the original color as when it was first built, even though that's the most expensive option on the list.\"\nCác đáp án dịch sang tiếng Việt:\nA. Xanh lá cây vườn\nB. Xanh dương sương mù\nC. Đào bình minh\nD. Trắng cổ điển\nCâu hỏi dịch: Nhìn vào hình ảnh. Người phụ nữ chọn màu nào?",
+       "tags": []
       }
      ]
     }
@@ -1746,7 +1866,8 @@
         "D": "At a bank"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề cập đến \"our clinic\" và nói về bệnh nhân đến khám bệnh, cho thấy cuộc nói chuyện diễn ra tại một phòng khám y tế.\nTrích dẫn: \"Our clinic is getting a check-in kiosk\" và \"patients will be able to check themselves in to their medical appointments\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một phòng khám y tế\nB. Tại một sân bay\nC. Tại một trung tâm thể dục\nD. Tại một ngân hàng\nCâu hỏi dịch: Cuộc nói chuyện nhiều khả năng diễn ra ở đâu?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề cập đến \"our clinic\" và nói về bệnh nhân đến khám bệnh, cho thấy cuộc nói chuyện diễn ra tại một phòng khám y tế.\nTrích dẫn: \"Our clinic is getting a check-in kiosk\" và \"patients will be able to check themselves in to their medical appointments\"\nCác đáp án dịch sang tiếng Việt:\nA. Tại một phòng khám y tế\nB. Tại một sân bay\nC. Tại một trung tâm thể dục\nD. Tại một ngân hàng\nCâu hỏi dịch: Cuộc nói chuyện nhiều khả năng diễn ra ở đâu?",
+       "tags": []
       },
       {
        "number": 72,
@@ -1759,7 +1880,8 @@
         "D": "An electronic check-in system"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Chủ đề chính của cuộc nói chuyện là việc giới thiệu một hệ thống đăng ký điện tử mới (kiosk đăng ký) cho phòng khám.\nTrích dẫn: \"Our clinic is getting a check-in kiosk. What this means is that patients will be able to check themselves in to their medical appointments by clicking through some buttons in the kiosk.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một quyết định tuyển dụng\nB. Một chiến dịch tiếp thị\nC. Một cuộc khảo sát sự hài lòng của khách hàng\nD. Một hệ thống đăng ký điện tử\nCâu hỏi dịch: Điều gì chủ yếu đang được thảo luận?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Chủ đề chính của cuộc nói chuyện là việc giới thiệu một hệ thống đăng ký điện tử mới (kiosk đăng ký) cho phòng khám.\nTrích dẫn: \"Our clinic is getting a check-in kiosk. What this means is that patients will be able to check themselves in to their medical appointments by clicking through some buttons in the kiosk.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một quyết định tuyển dụng\nB. Một chiến dịch tiếp thị\nC. Một cuộc khảo sát sự hài lòng của khách hàng\nD. Một hệ thống đăng ký điện tử\nCâu hỏi dịch: Điều gì chủ yếu đang được thảo luận?",
+       "tags": []
       },
       {
        "number": 73,
@@ -1772,7 +1894,8 @@
         "D": "A product will be delivered."
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết sẽ có một buổi đào tạo ngắn vào thứ Ba tuần sau về cách sử dụng kiosk đăng ký.\nTrích dẫn: \"We'll have a very short training session next Tuesday on how the check-in kiosk works.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một hệ thống bảo mật mới sẽ được lắp đặt.\nB. Một chi nhánh mới sẽ được mở.\nC. Một buổi đào tạo sẽ diễn ra.\nD. Một sản phẩm sẽ được giao.\nCâu hỏi dịch: Điều gì sẽ xảy ra vào thứ Ba tuần sau?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết sẽ có một buổi đào tạo ngắn vào thứ Ba tuần sau về cách sử dụng kiosk đăng ký.\nTrích dẫn: \"We'll have a very short training session next Tuesday on how the check-in kiosk works.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một hệ thống bảo mật mới sẽ được lắp đặt.\nB. Một chi nhánh mới sẽ được mở.\nC. Một buổi đào tạo sẽ diễn ra.\nD. Một sản phẩm sẽ được giao.\nCâu hỏi dịch: Điều gì sẽ xảy ra vào thứ Ba tuần sau?",
+       "tags": []
       }
      ]
     },
@@ -1807,7 +1930,8 @@
         "D": "Carpenters"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Podcast này nói về công nghệ mới (drones) và cung cấp thông tin cho những người quan tâm đến việc mua và sử dụng drones, cho thấy nó hướng đến những người đam mê công nghệ.\nTrích dẫn: \"Welcome to a new episode of Tomorrow's Technology. Today we'll be talking about drones. If you're planning to buy your first drone, here are a few things you need to know.\"\nCác đáp án dịch sang tiếng Việt:\nA. Người tổ chức tiệc\nB. Đại lý du lịch\nC. Người đam mê công nghệ\nD. Thợ mộc\nCâu hỏi dịch: Podcast này dành cho ai?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Podcast này nói về công nghệ mới (drones) và cung cấp thông tin cho những người quan tâm đến việc mua và sử dụng drones, cho thấy nó hướng đến những người đam mê công nghệ.\nTrích dẫn: \"Welcome to a new episode of Tomorrow's Technology. Today we'll be talking about drones. If you're planning to buy your first drone, here are a few things you need to know.\"\nCác đáp án dịch sang tiếng Việt:\nA. Người tổ chức tiệc\nB. Đại lý du lịch\nC. Người đam mê công nghệ\nD. Thợ mộc\nCâu hỏi dịch: Podcast này dành cho ai?",
+       "tags": []
       },
       {
        "number": 75,
@@ -1820,7 +1944,8 @@
         "D": "A license"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết những người muốn sử dụng drone cho mục đích thương mại sẽ cần xin giấy phép.\nTrích dẫn: \"if you want to use the device for commercial purposes, such as photography or videography, then you'll need to apply for a license.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một hợp đồng bảo hiểm\nB. Một thư giới thiệu\nC. Một địa điểm sự kiện\nD. Một giấy phép\nCâu hỏi dịch: Theo người nói, một số người nghe sẽ cần gì?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết những người muốn sử dụng drone cho mục đích thương mại sẽ cần xin giấy phép.\nTrích dẫn: \"if you want to use the device for commercial purposes, such as photography or videography, then you'll need to apply for a license.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một hợp đồng bảo hiểm\nB. Một thư giới thiệu\nC. Một địa điểm sự kiện\nD. Một giấy phép\nCâu hỏi dịch: Theo người nói, một số người nghe sẽ cần gì?",
+       "tags": []
       },
       {
        "number": 76,
@@ -1833,7 +1958,8 @@
         "D": "User reviews"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói cho biết sẽ chia sẻ một số tài nguyên để hướng dẫn quá trình đăng ký xin giấy phép.\nTrích dẫn: \"I'll share some resources at the end of this podcast to guide your application process.\"\nCác đáp án dịch sang tiếng Việt:\nA. Hướng dẫn đăng ký\nB. Địa điểm bán lẻ\nC. Tên của các giảng viên\nD. Đánh giá của người dùng\nCâu hỏi dịch: Người nói sẽ chia sẻ thông tin gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói cho biết sẽ chia sẻ một số tài nguyên để hướng dẫn quá trình đăng ký xin giấy phép.\nTrích dẫn: \"I'll share some resources at the end of this podcast to guide your application process.\"\nCác đáp án dịch sang tiếng Việt:\nA. Hướng dẫn đăng ký\nB. Địa điểm bán lẻ\nC. Tên của các giảng viên\nD. Đánh giá của người dùng\nCâu hỏi dịch: Người nói sẽ chia sẻ thông tin gì?",
+       "tags": []
       }
      ]
     },
@@ -1868,7 +1994,8 @@
         "D": "Laboratory assistants"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đang nói chuyện với các nhà triển lãm tại một hội chợ thương mại về biển hiệu kỹ thuật số.\nTrích dẫn: \"Attention, exhibitors. Welcome to the Digital Signage Expo\"\nCác đáp án dịch sang tiếng Việt:\nA. Kỹ sư cơ khí\nB. Người tham gia hội chợ thương mại\nC. Quan chức chính phủ\nD. Trợ lý phòng thí nghiệm\nCâu hỏi dịch: Những người nghe là ai?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đang nói chuyện với các nhà triển lãm tại một hội chợ thương mại về biển hiệu kỹ thuật số.\nTrích dẫn: \"Attention, exhibitors. Welcome to the Digital Signage Expo\"\nCác đáp án dịch sang tiếng Việt:\nA. Kỹ sư cơ khí\nB. Người tham gia hội chợ thương mại\nC. Quan chức chính phủ\nD. Trợ lý phòng thí nghiệm\nCâu hỏi dịch: Những người nghe là ai?",
+       "tags": []
       },
       {
        "number": 78,
@@ -1881,7 +2008,8 @@
         "D": "Move their vehicles"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói yêu cầu các nhà triển lãm thực hiện các biện pháp an toàn như dọn dẹp khu vực triển lãm và dán chắc chắn các dây cáp và dây điện.\nTrích dẫn: \"To ensure everyone's safety, we request that you clear your exhibit area of boxes and debris and be sure cables and electrical cords are securely taped to the floor.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thực hiện các biện pháp an toàn\nB. Ký vào bảng đăng ký\nC. Đeo thẻ tên\nD. Di chuyển phương tiện của họ\nCâu hỏi dịch: Người nói yêu cầu người nghe làm gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói yêu cầu các nhà triển lãm thực hiện các biện pháp an toàn như dọn dẹp khu vực triển lãm và dán chắc chắn các dây cáp và dây điện.\nTrích dẫn: \"To ensure everyone's safety, we request that you clear your exhibit area of boxes and debris and be sure cables and electrical cords are securely taped to the floor.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thực hiện các biện pháp an toàn\nB. Ký vào bảng đăng ký\nC. Đeo thẻ tên\nD. Di chuyển phương tiện của họ\nCâu hỏi dịch: Người nói yêu cầu người nghe làm gì?",
+       "tags": []
       },
       {
        "number": 79,
@@ -1894,7 +2022,8 @@
         "D": "A reception"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết sẽ có một buổi tiếp tân vào buổi tối tại sảnh chính của tòa nhà.\nTrích dẫn: \"the exhibit hall will close at five p.m. today so that exhibitors can attend this evening's reception. That will be held in the building's main lobby.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc tranh luận\nB. Một buổi lễ trao giải\nC. Một buổi chiếu phim\nD. Một buổi tiếp tân\nCâu hỏi dịch: Điều gì sẽ diễn ra vào buổi tối?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết sẽ có một buổi tiếp tân vào buổi tối tại sảnh chính của tòa nhà.\nTrích dẫn: \"the exhibit hall will close at five p.m. today so that exhibitors can attend this evening's reception. That will be held in the building's main lobby.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một cuộc tranh luận\nB. Một buổi lễ trao giải\nC. Một buổi chiếu phim\nD. Một buổi tiếp tân\nCâu hỏi dịch: Điều gì sẽ diễn ra vào buổi tối?",
+       "tags": []
       }
      ]
     },
@@ -1929,7 +2058,8 @@
         "D": "An event coordinator"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đang giới thiệu một tập podcast về đầu tư, cho thấy họ là người dẫn chương trình podcast.\nTrích dẫn: \"Welcome to Money Reveals, the podcast for smart investors.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một đại diện dịch vụ khách hàng\nB. Một nhà phát triển phần mềm\nC. Một người dẫn chương trình podcast\nD. Một điều phối viên sự kiện\nCâu hỏi dịch: Người nói nhiều khả năng là ai?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đang giới thiệu một tập podcast về đầu tư, cho thấy họ là người dẫn chương trình podcast.\nTrích dẫn: \"Welcome to Money Reveals, the podcast for smart investors.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một đại diện dịch vụ khách hàng\nB. Một nhà phát triển phần mềm\nC. Một người dẫn chương trình podcast\nD. Một điều phối viên sự kiện\nCâu hỏi dịch: Người nói nhiều khả năng là ai?",
+       "tags": []
       },
       {
        "number": 81,
@@ -1942,7 +2072,8 @@
         "D": "Searching for discounts"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói giới thiệu CodeWord như một ứng dụng phần mềm dùng để tìm kiếm mã giảm giá trực tuyến.\nTrích dẫn: \"CodeWord is a software application that scans the Internet for promotional codes and applies them to your online shopping cart.\"\nCác đáp án dịch sang tiếng Việt:\nA. Đặt chỗ du lịch\nB. Tải lên tài liệu\nC. Quản lý đăng ký\nD. Tìm kiếm giảm giá\nCâu hỏi dịch: Theo người nói, một ứng dụng phần mềm có thể được sử dụng để làm gì?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói giới thiệu CodeWord như một ứng dụng phần mềm dùng để tìm kiếm mã giảm giá trực tuyến.\nTrích dẫn: \"CodeWord is a software application that scans the Internet for promotional codes and applies them to your online shopping cart.\"\nCác đáp án dịch sang tiếng Việt:\nA. Đặt chỗ du lịch\nB. Tải lên tài liệu\nC. Quản lý đăng ký\nD. Tìm kiếm giảm giá\nCâu hỏi dịch: Theo người nói, một ứng dụng phần mềm có thể được sử dụng để làm gì?",
+       "tags": []
       },
       {
        "number": 82,
@@ -1955,7 +2086,8 @@
         "D": "By writing a review"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói cho biết 100 người nghe đầu tiên sử dụng liên kết tải xuống trên trang web của họ sẽ nhận được vé miễn phí cho lễ hội âm nhạc.\nTrích dẫn: \"the first 100 listeners to use the download link on my Web site will receive free music festival tickets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bằng cách nhấp vào một liên kết\nB. Bằng cách đăng ký nhận bản tin\nC. Bằng cách mua sản phẩm tại cửa hàng\nD. Bằng cách viết đánh giá\nCâu hỏi dịch: Làm thế nào người nghe có thể nhận được một số vé miễn phí?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói cho biết 100 người nghe đầu tiên sử dụng liên kết tải xuống trên trang web của họ sẽ nhận được vé miễn phí cho lễ hội âm nhạc.\nTrích dẫn: \"the first 100 listeners to use the download link on my Web site will receive free music festival tickets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Bằng cách nhấp vào một liên kết\nB. Bằng cách đăng ký nhận bản tin\nC. Bằng cách mua sản phẩm tại cửa hàng\nD. Bằng cách viết đánh giá\nCâu hỏi dịch: Làm thế nào người nghe có thể nhận được một số vé miễn phí?",
+       "tags": []
       }
      ]
     },
@@ -1990,7 +2122,8 @@
         "D": "A restaurant supplier"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đang gọi về một vấn đề trong căn hộ của mình, cho thấy họ đang liên hệ với người quản lý tài sản.\nTrích dẫn: \"This is So-Jin-in Apartment 2A. 1 just moved into the complex last month. l'm calling about a problem with my kitchen sink.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một chủ cửa hàng\nB. Một người quản lý tài sản\nC. Một tài xế giao hàng\nD. Một nhà cung cấp nhà hàng\nCâu hỏi dịch: Người nói có khả năng đang gọi cho ai nhất?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đang gọi về một vấn đề trong căn hộ của mình, cho thấy họ đang liên hệ với người quản lý tài sản.\nTrích dẫn: \"This is So-Jin-in Apartment 2A. 1 just moved into the complex last month. l'm calling about a problem with my kitchen sink.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một chủ cửa hàng\nB. Một người quản lý tài sản\nC. Một tài xế giao hàng\nD. Một nhà cung cấp nhà hàng\nCâu hỏi dịch: Người nói có khả năng đang gọi cho ai nhất?",
+       "tags": []
       },
       {
        "number": 84,
@@ -2003,7 +2136,8 @@
         "D": "A sink is not draining."
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói đề cập rằng bồn rửa bếp của họ bị tắc và nước không chảy xuống được.\nTrích dẫn: \"The drain is completely clogged, so the water won't go down.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số thiết bị chưa đến.\nB. Một số hộp đã bị hư hỏng.\nC. Một máy lọc nước không hoạt động.\nD. Một bồn rửa không thoát nước.\nCâu hỏi dịch: Người nói gặp vấn đề gì?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói đề cập rằng bồn rửa bếp của họ bị tắc và nước không chảy xuống được.\nTrích dẫn: \"The drain is completely clogged, so the water won't go down.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số thiết bị chưa đến.\nB. Một số hộp đã bị hư hỏng.\nC. Một máy lọc nước không hoạt động.\nD. Một bồn rửa không thoát nước.\nCâu hỏi dịch: Người nói gặp vấn đề gì?",
+       "tags": []
       },
       {
        "number": 85,
@@ -2016,7 +2150,8 @@
         "D": "To confirm that a task has been completed"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói sử dụng cụm từ này để cho biết rằng họ đã thử mọi cách có thể và giờ cần sự trợ giúp của người nghe.\nTrích dẫn: \"I've tried a few different drain cleaning products, but they didn't help. I think I've done all I can do.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để yêu cầu người nghe hoàn tiền cho cô ấy\nB. Để cho biết rằng cô ấy cần sự hỗ trợ của người nghe\nC. Để giải thích tại sao cô ấy đăng ký một khóa đào tạo\nD. Để xác nhận rằng một nhiệm vụ đã được hoàn thành\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ tôi đã làm tất cả những gì có thể\"?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói sử dụng cụm từ này để cho biết rằng họ đã thử mọi cách có thể và giờ cần sự trợ giúp của người nghe.\nTrích dẫn: \"I've tried a few different drain cleaning products, but they didn't help. I think I've done all I can do.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để yêu cầu người nghe hoàn tiền cho cô ấy\nB. Để cho biết rằng cô ấy cần sự hỗ trợ của người nghe\nC. Để giải thích tại sao cô ấy đăng ký một khóa đào tạo\nD. Để xác nhận rằng một nhiệm vụ đã được hoàn thành\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ tôi đã làm tất cả những gì có thể\"?",
+       "tags": []
       }
      ]
     },
@@ -2051,7 +2186,8 @@
         "D": "Greet new clients"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói thông báo rằng thứ Ba tuần sau sẽ là ngày dọn dẹp văn phòng.\nTrích dẫn: \"Next Tuesday the eleventh is our office cleanup.\"\nCác đáp án dịch sang tiếng Việt:\nA. Gia hạn hợp đồng của họ\nB. Dọn dẹp văn phòng của họ\nC. Thăm một trung tâm tái chế\nD. Chào đón khách hàng mới\nCâu hỏi dịch: Người nghe sẽ làm gì vào thứ Ba tuần sau?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói thông báo rằng thứ Ba tuần sau sẽ là ngày dọn dẹp văn phòng.\nTrích dẫn: \"Next Tuesday the eleventh is our office cleanup.\"\nCác đáp án dịch sang tiếng Việt:\nA. Gia hạn hợp đồng của họ\nB. Dọn dẹp văn phòng của họ\nC. Thăm một trung tâm tái chế\nD. Chào đón khách hàng mới\nCâu hỏi dịch: Người nghe sẽ làm gì vào thứ Ba tuần sau?",
+       "tags": []
       },
       {
        "number": 87,
@@ -2064,7 +2200,8 @@
         "D": "Renting some equipment"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cảm ơn Rajeev vì đã thuê thêm máy hủy tài liệu.\nTrích dẫn: \"Our office manager Rajeev has rented some extra document shredders for us to use. Thanks for taking care of that, Rajeev.\"\nCác đáp án dịch sang tiếng Việt:\nA. Trả tiền cho đồ ăn nhẹ\nB. Đặt phòng họp\nC. Sắp xếp phương tiện đi lại\nD. Thuê một số thiết bị\nCâu hỏi dịch: Người nói cảm ơn Rajeev vì đã làm gì?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cảm ơn Rajeev vì đã thuê thêm máy hủy tài liệu.\nTrích dẫn: \"Our office manager Rajeev has rented some extra document shredders for us to use. Thanks for taking care of that, Rajeev.\"\nCác đáp án dịch sang tiếng Việt:\nA. Trả tiền cho đồ ăn nhẹ\nB. Đặt phòng họp\nC. Sắp xếp phương tiện đi lại\nD. Thuê một số thiết bị\nCâu hỏi dịch: Người nói cảm ơn Rajeev vì đã làm gì?",
+       "tags": []
       },
       {
        "number": 88,
@@ -2077,7 +2214,8 @@
         "D": "To ask for more office supplies to be ordered"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề cập đến các tủ hồ sơ trống ở góc phía nam để gợi ý rằng đó có thể là nơi đặt bàn làm việc cho các nhân viên mới.\nTrích dẫn: \"we need to make space for their desks. Now that our work is mostly paperless, the south corner of the office has a lot of empty file cabinets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để đề xuất một vị trí cho một số bàn làm việc\nB. Để chỉ ra nơi một số tệp nên được lưu trữ\nC. Để giải thích rằng một nhiệm vụ đã được hoàn thành\nD. Để yêu cầu đặt thêm vật tư văn phòng\nCâu hỏi dịch: Tại sao người nói nói \"góc phía nam của văn phòng có rất nhiều tủ hồ sơ trống\"?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề cập đến các tủ hồ sơ trống ở góc phía nam để gợi ý rằng đó có thể là nơi đặt bàn làm việc cho các nhân viên mới.\nTrích dẫn: \"we need to make space for their desks. Now that our work is mostly paperless, the south corner of the office has a lot of empty file cabinets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để đề xuất một vị trí cho một số bàn làm việc\nB. Để chỉ ra nơi một số tệp nên được lưu trữ\nC. Để giải thích rằng một nhiệm vụ đã được hoàn thành\nD. Để yêu cầu đặt thêm vật tư văn phòng\nCâu hỏi dịch: Tại sao người nói nói \"góc phía nam của văn phòng có rất nhiều tủ hồ sơ trống\"?",
+       "tags": []
       }
      ]
     },
@@ -2112,7 +2250,8 @@
         "D": "Car parts"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Ziegler Incorporated được mô tả là \"the area's top supplier of office paper\".\nTrích dẫn: \"Ziegler Incorporated, the area's top supplier of office paper\"\nCác đáp án dịch sang tiếng Việt:\nA. Giấy văn phòng\nB. Dụng cụ làm vườn\nC. Máy tính\nD. Phụ tùng ô tô\nCâu hỏi dịch: Ziegler Incorporated bán gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Ziegler Incorporated được mô tả là \"the area's top supplier of office paper\".\nTrích dẫn: \"Ziegler Incorporated, the area's top supplier of office paper\"\nCác đáp án dịch sang tiếng Việt:\nA. Giấy văn phòng\nB. Dụng cụ làm vườn\nC. Máy tính\nD. Phụ tùng ô tô\nCâu hỏi dịch: Ziegler Incorporated bán gì?",
+       "tags": []
       },
       {
        "number": 90,
@@ -2125,7 +2264,8 @@
         "D": "Insufficient inventory"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Công ty đang gặp vấn đề về sự chậm trễ trong giao hàng do thời tiết xấu khiến đường xá bị đóng.\nTrích dẫn: \"customers may be experiencing delays in receiving their recent orders\"\nCác đáp án dịch sang tiếng Việt:\nA. Thiếu nhân viên\nB. Chậm trễ trong vận chuyển\nC. Không gian kho hàng hạn chế\nD. Hàng tồn kho không đủ\nCâu hỏi dịch: Theo người nói, công ty đang gặp vấn đề gì?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Công ty đang gặp vấn đề về sự chậm trễ trong giao hàng do thời tiết xấu khiến đường xá bị đóng.\nTrích dẫn: \"customers may be experiencing delays in receiving their recent orders\"\nCác đáp án dịch sang tiếng Việt:\nA. Thiếu nhân viên\nB. Chậm trễ trong vận chuyển\nC. Không gian kho hàng hạn chế\nD. Hàng tồn kho không đủ\nCâu hỏi dịch: Theo người nói, công ty đang gặp vấn đề gì?",
+       "tags": []
       },
       {
        "number": 91,
@@ -2138,7 +2278,8 @@
         "D": "A price list"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết rằng mã giảm giá sẽ được gửi qua email sau khi khách hàng nhập số hóa đơn trên trang web.\nTrích dẫn: \"your discount code will arrive in an e-mail\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số thông tin liên lạc\nB. Một mẫu đơn đặt hàng\nC. Một mã giảm giá\nD. Một bảng giá\nCâu hỏi dịch: Điều gì sẽ đến trong một email?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết rằng mã giảm giá sẽ được gửi qua email sau khi khách hàng nhập số hóa đơn trên trang web.\nTrích dẫn: \"your discount code will arrive in an e-mail\"\nCác đáp án dịch sang tiếng Việt:\nA. Một số thông tin liên lạc\nB. Một mẫu đơn đặt hàng\nC. Một mã giảm giá\nD. Một bảng giá\nCâu hỏi dịch: Điều gì sẽ đến trong một email?",
+       "tags": []
       }
      ]
     },
@@ -2173,7 +2314,8 @@
         "D": "Provide public art classes"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập đến quyết định của thị trưởng về việc tái phát triển khu vực Hoverton.\nTrích dẫn: \"The mayor's decision to redevelop the Hoverton District\"\nCác đáp án dịch sang tiếng Việt:\nA. Tái tranh cử\nB. Tái phát triển một khu vực của thành phố\nC. Tổ chức một lễ hội nghệ thuật\nD. Cung cấp các lớp học nghệ thuật công cộng\nCâu hỏi dịch: Thị trưởng đã quyết định làm gì?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Người nói đề cập đến quyết định của thị trưởng về việc tái phát triển khu vực Hoverton.\nTrích dẫn: \"The mayor's decision to redevelop the Hoverton District\"\nCác đáp án dịch sang tiếng Việt:\nA. Tái tranh cử\nB. Tái phát triển một khu vực của thành phố\nC. Tổ chức một lễ hội nghệ thuật\nD. Cung cấp các lớp học nghệ thuật công cộng\nCâu hỏi dịch: Thị trưởng đã quyết định làm gì?",
+       "tags": []
       },
       {
        "number": 93,
@@ -2186,7 +2328,8 @@
         "D": "To recruit some volunteers"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề xuất tiến hành một cuộc khảo sát để xác định các chủ đề cộng đồng cần được giải quyết và ưu tiên.\nTrích dẫn: \"We'll need to determine what overall community themes should be addressed and prioritized. So I think it's important that we conduct a survey regarding the residents' preferences.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để quyết định một chủ đề\nB. Để gây quỹ cho một dự án\nC. Để giáo dục công chúng về một vấn đề\nD. Để tuyển một số tình nguyện viên\nCâu hỏi dịch: Mục tiêu của cuộc khảo sát là gì?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói đề xuất tiến hành một cuộc khảo sát để xác định các chủ đề cộng đồng cần được giải quyết và ưu tiên.\nTrích dẫn: \"We'll need to determine what overall community themes should be addressed and prioritized. So I think it's important that we conduct a survey regarding the residents' preferences.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để quyết định một chủ đề\nB. Để gây quỹ cho một dự án\nC. Để giáo dục công chúng về một vấn đề\nD. Để tuyển một số tình nguyện viên\nCâu hỏi dịch: Mục tiêu của cuộc khảo sát là gì?",
+       "tags": []
       },
       {
        "number": 94,
@@ -2199,7 +2342,8 @@
         "D": "To congratulate a colleague"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến giải thưởng của Alvaro Gomez để gợi ý rằng anh ta có thể là một ứng cử viên phù hợp cho công việc tạo tác phẩm nghệ thuật.\nTrích dẫn: \"we'll need to hire a skilled artist for the task. I think Alvaro Gomez has won several awards.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để sửa một số thông tin\nB. Để khen ngợi một triển lãm bảo tàng\nC. Để đề xuất một ứng cử viên phù hợp\nD. Để chúc mừng một đồng nghiệp\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ Alvaro Gomez đã giành được một số giải thưởng\"?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến giải thưởng của Alvaro Gomez để gợi ý rằng anh ta có thể là một ứng cử viên phù hợp cho công việc tạo tác phẩm nghệ thuật.\nTrích dẫn: \"we'll need to hire a skilled artist for the task. I think Alvaro Gomez has won several awards.\"\nCác đáp án dịch sang tiếng Việt:\nA. Để sửa một số thông tin\nB. Để khen ngợi một triển lãm bảo tàng\nC. Để đề xuất một ứng cử viên phù hợp\nD. Để chúc mừng một đồng nghiệp\nCâu hỏi dịch: Tại sao người nói nói \"Tôi nghĩ Alvaro Gomez đã giành được một số giải thưởng\"?",
+       "tags": []
       }
      ]
     },
@@ -2239,7 +2383,8 @@
         "D": "A sales agent"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói giới thiệu mình là từ Nhà hát Smith và đang liên hệ về vé xem kịch, cho thấy đây là một nhân viên bán vé hoặc đại lý bán hàng.\nTrích dẫn: \"this is Olga Popova from the Smith Theater. You're next on the wait list for theater tickets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một nhân viên hướng dẫn chỗ ngồi\nB. Một giám đốc ban nhạc\nC. Một diễn viên sân khấu\nD. Một đại lý bán hàng\nCâu hỏi dịch: Người nói nhiều khả năng là ai?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói giới thiệu mình là từ Nhà hát Smith và đang liên hệ về vé xem kịch, cho thấy đây là một nhân viên bán vé hoặc đại lý bán hàng.\nTrích dẫn: \"this is Olga Popova from the Smith Theater. You're next on the wait list for theater tickets.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một nhân viên hướng dẫn chỗ ngồi\nB. Một giám đốc ban nhạc\nC. Một diễn viên sân khấu\nD. Một đại lý bán hàng\nCâu hỏi dịch: Người nói nhiều khả năng là ai?",
+       "tags": []
       },
       {
        "number": 96,
@@ -2252,7 +2397,8 @@
         "D": "$150"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến vé ở khu vực ban công thấp (lower balcony). Theo hình ảnh, giá vé cho khu vực này là $125.\nTrích dẫn: \"I do have four tickets together in the lower balcony for that date.\"\nCác đáp án dịch sang tiếng Việt:\nA. 75 đô la\nB. 100 đô la\nC. 125 đô la\nD. 150 đô la\nCâu hỏi dịch: Nhìn vào hình ảnh. Vé ở khu vực có sẵn có giá bao nhiêu?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói đề cập đến vé ở khu vực ban công thấp (lower balcony). Theo hình ảnh, giá vé cho khu vực này là $125.\nTrích dẫn: \"I do have four tickets together in the lower balcony for that date.\"\nCác đáp án dịch sang tiếng Việt:\nA. 75 đô la\nB. 100 đô la\nC. 125 đô la\nD. 150 đô la\nCâu hỏi dịch: Nhìn vào hình ảnh. Vé ở khu vực có sẵn có giá bao nhiêu?",
+       "tags": []
       },
       {
        "number": 97,
@@ -2265,7 +2411,8 @@
         "D": "Fill out a form"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói yêu cầu người nghe gọi lại cho phòng vé càng sớm càng tốt trong vòng 24 giờ để xác nhận liệu họ còn quan tâm đến vé hay không.\nTrích dẫn: \"I can hold this request for 24 hours. Please call our box office as soon as possible to let me know if you're still interested.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thực hiện một cuộc gọi điện thoại\nB. Gửi một khoản thanh toán\nC. Nhận một món đồ\nD. Điền vào một mẫu đơn\nCâu hỏi dịch: Người nghe cần làm gì trong vòng 24 giờ?"
+       "explanation": "Đáp án đúng là A.\nGiải thích: Người nói yêu cầu người nghe gọi lại cho phòng vé càng sớm càng tốt trong vòng 24 giờ để xác nhận liệu họ còn quan tâm đến vé hay không.\nTrích dẫn: \"I can hold this request for 24 hours. Please call our box office as soon as possible to let me know if you're still interested.\"\nCác đáp án dịch sang tiếng Việt:\nA. Thực hiện một cuộc gọi điện thoại\nB. Gửi một khoản thanh toán\nC. Nhận một món đồ\nD. Điền vào một mẫu đơn\nCâu hỏi dịch: Người nghe cần làm gì trong vòng 24 giờ?",
+       "tags": []
       }
      ]
     },
@@ -2305,7 +2452,8 @@
         "D": "Stop 4"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết bảo tàng đã bị đóng cửa. Trong hình ảnh, Stop 3 là Museum (Bảo tàng).\nTrích dẫn: \"Unfortunately, one of the stops on our itinerary, the museum, is closed, and we won't be able to visit it.\"\nCác đáp án dịch sang tiếng Việt:\nA. Điểm dừng 1\nB. Điểm dừng 2\nC. Điểm dừng 3\nD. Điểm dừng 4\nCâu hỏi dịch: Nhìn vào hình ảnh. Điểm dừng nào đã bị hủy bỏ?"
+       "explanation": "Đáp án đúng là C.\nGiải thích: Người nói cho biết bảo tàng đã bị đóng cửa. Trong hình ảnh, Stop 3 là Museum (Bảo tàng).\nTrích dẫn: \"Unfortunately, one of the stops on our itinerary, the museum, is closed, and we won't be able to visit it.\"\nCác đáp án dịch sang tiếng Việt:\nA. Điểm dừng 1\nB. Điểm dừng 2\nC. Điểm dừng 3\nD. Điểm dừng 4\nCâu hỏi dịch: Nhìn vào hình ảnh. Điểm dừng nào đã bị hủy bỏ?",
+       "tags": []
       },
       {
        "number": 99,
@@ -2318,7 +2466,8 @@
         "D": "A private event has been scheduled."
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B.\nGiải thích: Bảo tàng đã bị đóng cửa do một ống nước bị vỡ và đang trong quá trình sửa chữa và dọn dẹp.\nTrích dẫn: \"The museum had a water pipe burst overnight. It looks like repair and cleanup work will last this whole week.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một diễn giả khách mời không có mặt.\nB. Một tòa nhà đang được bảo trì.\nC. Một khu vực đã đóng cửa để tổ chức lễ hội.\nD. Một sự kiện riêng tư đã được lên lịch.\nCâu hỏi dịch: Tại sao một điểm dừng đã bị hủy bỏ?"
+       "explanation": "Đáp án đúng là B.\nGiải thích: Bảo tàng đã bị đóng cửa do một ống nước bị vỡ và đang trong quá trình sửa chữa và dọn dẹp.\nTrích dẫn: \"The museum had a water pipe burst overnight. It looks like repair and cleanup work will last this whole week.\"\nCác đáp án dịch sang tiếng Việt:\nA. Một diễn giả khách mời không có mặt.\nB. Một tòa nhà đang được bảo trì.\nC. Một khu vực đã đóng cửa để tổ chức lễ hội.\nD. Một sự kiện riêng tư đã được lên lịch.\nCâu hỏi dịch: Tại sao một điểm dừng đã bị hủy bỏ?",
+       "tags": []
       },
       {
        "number": 100,
@@ -2331,7 +2480,8 @@
         "D": "Meal vouchers"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết họ sẽ cung cấp phiếu ăn miễn phí để bù đắp cho việc không thể ghé thăm bảo tàng.\nTrích dẫn: \"To make up for this, we're providing complimentary meal vouchers so you can enjoy a free lunch, on us\"\nCác đáp án dịch sang tiếng Việt:\nA. Một khoản hoàn tiền\nB. Một món quà lưu niệm\nC. Một bản đồ in\nD. Phiếu ăn\nCâu hỏi dịch: Người nghe sẽ nhận được gì?"
+       "explanation": "Đáp án đúng là D.\nGiải thích: Người nói cho biết họ sẽ cung cấp phiếu ăn miễn phí để bù đắp cho việc không thể ghé thăm bảo tàng.\nTrích dẫn: \"To make up for this, we're providing complimentary meal vouchers so you can enjoy a free lunch, on us\"\nCác đáp án dịch sang tiếng Việt:\nA. Một khoản hoàn tiền\nB. Một món quà lưu niệm\nC. Một bản đồ in\nD. Phiếu ăn\nCâu hỏi dịch: Người nghe sẽ nhận được gì?",
+       "tags": []
       }
      ]
     }
@@ -2361,7 +2511,10 @@
         "D": "themselves"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng: (B) their.\nGiải thích: 'their own' là cụm từ hợp lý để chỉ 'giờ làm việc của họ'.\nDịch: Chính sách mới cho phép nhân viên tự đặt giờ làm việc của riêng họ trong một số điều kiện nhất định.\nCác đáp án khác:\n(A) they - họ (đại từ),\n(C) theirs - của họ (đại từ sở hữu),\n(D) themselves - chính họ (đại từ phản thân)"
+       "explanation": "Đáp án đúng: (B) their.\nGiải thích: 'their own' là cụm từ hợp lý để chỉ 'giờ làm việc của họ'.\nDịch: Chính sách mới cho phép nhân viên tự đặt giờ làm việc của riêng họ trong một số điều kiện nhất định.\nCác đáp án khác:\n(A) they - họ (đại từ),\n(C) theirs - của họ (đại từ sở hữu),\n(D) themselves - chính họ (đại từ phản thân)",
+       "tags": [
+        "pronoun"
+       ]
       }
      ]
     },
@@ -2386,7 +2539,10 @@
         "D": "or"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng: (B) for.\nGiải thích: 'for the current year' là cụm từ chỉ thời gian hợp lý.\nDịch: Dựa trên dữ liệu năm ngoái, Công ty Paik đã tăng dự báo doanh số bán hàng cho năm hiện tại.\nCác đáp án khác:\n(A) when - khi nào (liên từ),\n(C) if - nếu (liên từ),\n(D) or - hoặc (liên từ)"
+       "explanation": "Đáp án đúng: (B) for.\nGiải thích: 'for the current year' là cụm từ chỉ thời gian hợp lý.\nDịch: Dựa trên dữ liệu năm ngoái, Công ty Paik đã tăng dự báo doanh số bán hàng cho năm hiện tại.\nCác đáp án khác:\n(A) when - khi nào (liên từ),\n(C) if - nếu (liên từ),\n(D) or - hoặc (liên từ)",
+       "tags": [
+        "prep-conj"
+       ]
       }
      ]
     },
@@ -2411,7 +2567,10 @@
         "D": "onto"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng: (C) during.\nGiải thích: 'during business hours' là cụm từ chỉ thời gian hợp lý.\nDịch: Cửa hàng bách hóa Harbison phỏng vấn các ứng viên trong giờ làm việc chuẩn.\nCác đáp án khác:\n(A) among - giữa (giới từ),\n(B) beside - bên cạnh (giới từ),\n(D) onto - lên trên (giới từ)"
+       "explanation": "Đáp án đúng: (C) during.\nGiải thích: 'during business hours' là cụm từ chỉ thời gian hợp lý.\nDịch: Cửa hàng bách hóa Harbison phỏng vấn các ứng viên trong giờ làm việc chuẩn.\nCác đáp án khác:\n(A) among - giữa (giới từ),\n(B) beside - bên cạnh (giới từ),\n(D) onto - lên trên (giới từ)",
+       "tags": [
+        "prep-conj"
+       ]
       }
      ]
     },
@@ -2436,7 +2595,10 @@
         "D": "widely"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng: (C) wider.\nGiải thích: 'wider areas' là cụm từ chỉ phạm vi rộng hơn.\nDịch: Máy sưởi propane thương mại của Takealong Industries cung cấp nhiều nhiệt hơn cho các khu vực rộng hơn.\nCác đáp án khác:\n(A) wideness - sự rộng rãi (danh từ),\n(B) widen - mở rộng (động từ),\n(D) widely - rộng rãi (trạng từ)"
+       "explanation": "Đáp án đúng: (C) wider.\nGiải thích: 'wider areas' là cụm từ chỉ phạm vi rộng hơn.\nDịch: Máy sưởi propane thương mại của Takealong Industries cung cấp nhiều nhiệt hơn cho các khu vực rộng hơn.\nCác đáp án khác:\n(A) wideness - sự rộng rãi (danh từ),\n(B) widen - mở rộng (động từ),\n(D) widely - rộng rãi (trạng từ)",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -2461,7 +2623,10 @@
         "D": "greatest"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng: (B) greatly\nGiải thích: 'greatly improved' là cụm từ hợp lý để chỉ sự cải thiện lớn.\nDịch: Bằng cách chuyển sang phần mềm quản lý dự án mới, nhóm biên tập đã cải thiện đáng kể quy trình xuất bản của hơn\\Các đáp án khác:\n(A) great - tuyệt vời (tính từ),\n(C) greater - lớn hơn (tính từ so sánh hơn),\n(D) greatest - lớn nhất (tính từ so sánh nhất)"
+       "explanation": "Đáp án đúng: (B) greatly\nGiải thích: 'greatly improved' là cụm từ hợp lý để chỉ sự cải thiện lớn.\nDịch: Bằng cách chuyển sang phần mềm quản lý dự án mới, nhóm biên tập đã cải thiện đáng kể quy trình xuất bản của hơn\\Các đáp án khác:\n(A) great - tuyệt vời (tính từ),\n(C) greater - lớn hơn (tính từ so sánh hơn),\n(D) greatest - lớn nhất (tính từ so sánh nhất)",
+       "tags": [
+        "comparison"
+       ]
       }
      ]
     },
@@ -2486,7 +2651,10 @@
         "D": "has been nominated"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng: (C) has nominated.\nGiải thích: 'has nominated' là dạng hoàn thành hợp lý để chỉ việc đề cử.\nDịch: Ủy ban tìm kiếm đã đề cử ba ứng viên cho vị trí giám đốc điều hành.\nCác đáp án khác:\n(A) nominating - đề cử (V-ing),\n(B) nomination - sự đề cử (danh từ),\n(D) has been nominated - đã được đề cử (bị động)"
+       "explanation": "Đáp án đúng: (C) has nominated.\nGiải thích: 'has nominated' là dạng hoàn thành hợp lý để chỉ việc đề cử.\nDịch: Ủy ban tìm kiếm đã đề cử ba ứng viên cho vị trí giám đốc điều hành.\nCác đáp án khác:\n(A) nominating - đề cử (V-ing),\n(B) nomination - sự đề cử (danh từ),\n(D) has been nominated - đã được đề cử (bị động)",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -2511,7 +2679,10 @@
         "D": "Furthermore"
        },
        "answer": "C",
-       "explanation": "Đáp án đúng: (C) After.\nGiải thích: 'After a two-month delay' là cụm từ chỉ thời gian hợp lý.\nDịch: Sau hai tháng trì hoãn, thảm mới đã được lắp đặt trong phòng họp phía đông.\nCác đáp án khác:\n(A) Additionally - ngoài ra (trạng từ),\n(B) Although - mặc dù (liên từ),\n(D) Furthermore - hơn nữa (trạng từ)"
+       "explanation": "Đáp án đúng: (C) After.\nGiải thích: 'After a two-month delay' là cụm từ chỉ thời gian hợp lý.\nDịch: Sau hai tháng trì hoãn, thảm mới đã được lắp đặt trong phòng họp phía đông.\nCác đáp án khác:\n(A) Additionally - ngoài ra (trạng từ),\n(B) Although - mặc dù (liên từ),\n(D) Furthermore - hơn nữa (trạng từ)",
+       "tags": [
+        "prep-conj"
+       ]
       }
      ]
     },
@@ -2536,7 +2707,10 @@
         "D": "enrollment"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng: (D) enrollment.\nGiải thích: 'boost enrollment' là cụm từ hợp lý để chỉ việc tăng số lượng ghi danh.\nDịch: Để tăng số lượng ghi danh, Học viện Trang điểm đang cung cấp bộ khởi đầu miễn phí cho sinh viên mới.\nCác đáp án khác:\n(A) enroll - ghi danh (động từ),\n(B) enrolled - đã ghi danh (tính từ),\n(C) enrolling - ghi danh (V-ing)"
+       "explanation": "Đáp án đúng: (D) enrollment.\nGiải thích: 'boost enrollment' là cụm từ hợp lý để chỉ việc tăng số lượng ghi danh.\nDịch: Để tăng số lượng ghi danh, Học viện Trang điểm đang cung cấp bộ khởi đầu miễn phí cho sinh viên mới.\nCác đáp án khác:\n(A) enroll - ghi danh (động từ),\n(B) enrolled - đã ghi danh (tính từ),\n(C) enrolling - ghi danh (V-ing)",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -2561,7 +2735,10 @@
         "D": "delays"
        },
        "answer": "A",
-       "explanation": "A. guarantees (động từ): Động từ 'guarantees' (bảo đảm) là từ chính xác vì câu cần một động từ mô tả hành động đảm bảo thời gian giao hàng. Cấu trúc ngữ pháp của câu yêu cầu động từ ở thì hiện tại đơn để diễn tả một sự kiện hiện tại. Các từ khác như 'advises', 'requires', và 'delays' không phù hợp về nghĩa trong ngữ cảnh này.\nCâu hỏi: Vì Công ty Nội thất Lectula đảm bảo thời gian giao hàng, chúng tôi đã có thể ấn định ngày khai trương chắc chắn cho khách sạn mới.\nB. advises: khuyên\nC. requires: yêu cầu\nD. delays: trì hoãn"
+       "explanation": "A. guarantees (động từ): Động từ 'guarantees' (bảo đảm) là từ chính xác vì câu cần một động từ mô tả hành động đảm bảo thời gian giao hàng. Cấu trúc ngữ pháp của câu yêu cầu động từ ở thì hiện tại đơn để diễn tả một sự kiện hiện tại. Các từ khác như 'advises', 'requires', và 'delays' không phù hợp về nghĩa trong ngữ cảnh này.\nCâu hỏi: Vì Công ty Nội thất Lectula đảm bảo thời gian giao hàng, chúng tôi đã có thể ấn định ngày khai trương chắc chắn cho khách sạn mới.\nB. advises: khuyên\nC. requires: yêu cầu\nD. delays: trì hoãn",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2586,7 +2763,10 @@
         "D": "frequent"
        },
        "answer": "A",
-       "explanation": "A. friendly (tính từ): 'Friendly' (thân thiện) là tính từ mô tả tính cách của kỹ thuật viên. Câu này dùng tính từ để bổ sung ý nghĩa cho danh từ 'technician'. Các lựa chọn khác như 'neutral' hay 'frequent' không phù hợp về mặt ngữ nghĩa để mô tả thái độ.\nCâu hỏi: Kỹ thuật viên máy tính rất thân thiện nhưng không thể giải quyết vấn đề của tôi.\nB. neutral: trung lập\nC. possible: có thể\nD. frequent: thường xuyên"
+       "explanation": "A. friendly (tính từ): 'Friendly' (thân thiện) là tính từ mô tả tính cách của kỹ thuật viên. Câu này dùng tính từ để bổ sung ý nghĩa cho danh từ 'technician'. Các lựa chọn khác như 'neutral' hay 'frequent' không phù hợp về mặt ngữ nghĩa để mô tả thái độ.\nCâu hỏi: Kỹ thuật viên máy tính rất thân thiện nhưng không thể giải quyết vấn đề của tôi.\nB. neutral: trung lập\nC. possible: có thể\nD. frequent: thường xuyên",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2611,7 +2791,10 @@
         "D": "regularity"
        },
        "answer": "A",
-       "explanation": "A. regular (tính từ): 'Regular' (thường xuyên) là tính từ bổ sung nghĩa cho danh từ 'visitors'. Câu cần một tính từ để mô tả nhóm khách thăm viếng, vì vậy các từ khác như 'regularly' (trạng từ), 'regularize' (động từ) không đúng về ngữ pháp.\nCâu hỏi: Để tạo chỗ cho người tham dự hội nghị, khách thăm viếng thường xuyên tại tòa nhà văn phòng nên sử dụng khu vực đỗ xe phía sau vào ngày mai.\nB. regularly: trạng từ\nC. regularize: động từ\nD. regularity: danh từ"
+       "explanation": "A. regular (tính từ): 'Regular' (thường xuyên) là tính từ bổ sung nghĩa cho danh từ 'visitors'. Câu cần một tính từ để mô tả nhóm khách thăm viếng, vì vậy các từ khác như 'regularly' (trạng từ), 'regularize' (động từ) không đúng về ngữ pháp.\nCâu hỏi: Để tạo chỗ cho người tham dự hội nghị, khách thăm viếng thường xuyên tại tòa nhà văn phòng nên sử dụng khu vực đỗ xe phía sau vào ngày mai.\nB. regularly: trạng từ\nC. regularize: động từ\nD. regularity: danh từ",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -2636,7 +2819,10 @@
         "D": "secretly"
        },
        "answer": "A",
-       "explanation": "A. clearly (trạng từ): 'Clearly' (rõ ràng) là trạng từ mô tả cách đeo thẻ phải được thực hiện. Trạng từ này bổ nghĩa cho động từ 'wear'. Các lựa chọn khác như 'recently' (gần đây) hay 'secretly' (bí mật) không phù hợp về nghĩa.\nCâu hỏi: Nhân viên phải đeo thẻ bảo mật của họ một cách rõ ràng khi ở trong tòa nhà.\nB. recently: gần đây\nC. evenly: đồng đều\nD. secretly: bí mật"
+       "explanation": "A. clearly (trạng từ): 'Clearly' (rõ ràng) là trạng từ mô tả cách đeo thẻ phải được thực hiện. Trạng từ này bổ nghĩa cho động từ 'wear'. Các lựa chọn khác như 'recently' (gần đây) hay 'secretly' (bí mật) không phù hợp về nghĩa.\nCâu hỏi: Nhân viên phải đeo thẻ bảo mật của họ một cách rõ ràng khi ở trong tòa nhà.\nB. recently: gần đây\nC. evenly: đồng đều\nD. secretly: bí mật",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2661,7 +2847,10 @@
         "D": "for example"
        },
        "answer": "C",
-       "explanation": "C. however (trạng từ): 'However' (tuy nhiên) phù hợp vì câu này chỉ ra sự đối lập giữa mong muốn và thực tế. Nó giúp nối hai mệnh đề có nghĩa trái ngược. Các từ khác như 'therefore' hay 'for example' không phù hợp vì chúng không chỉ sự đối lập.\nCâu hỏi: Bà Phon muốn tham dự buổi khai mạc phòng trưng bày; tuy nhiên, thời tiết xấu đã khiến điều đó không thể.\nA. therefore: vì thế\nB. following: theo sau\nD. for example: ví dụ"
+       "explanation": "C. however (trạng từ): 'However' (tuy nhiên) phù hợp vì câu này chỉ ra sự đối lập giữa mong muốn và thực tế. Nó giúp nối hai mệnh đề có nghĩa trái ngược. Các từ khác như 'therefore' hay 'for example' không phù hợp vì chúng không chỉ sự đối lập.\nCâu hỏi: Bà Phon muốn tham dự buổi khai mạc phòng trưng bày; tuy nhiên, thời tiết xấu đã khiến điều đó không thể.\nA. therefore: vì thế\nB. following: theo sau\nD. for example: ví dụ",
+       "tags": [
+        "prep-conj"
+       ]
       }
      ]
     },
@@ -2686,7 +2875,10 @@
         "D": "attracts"
        },
        "answer": "C",
-       "explanation": "C. motivates (động từ): 'Motivates' (thúc đẩy) là từ phù hợp vì câu mô tả hành động khuyến khích năng suất làm việc. Cấu trúc câu này yêu cầu động từ diễn tả tác động lên 'them'. Các từ khác như 'adopts' (chấp nhận) hay 'attracts' (thu hút) không phù hợp về ngữ nghĩa.\nCâu hỏi: Giao nhiệm vụ lãnh đạo cho các nhân viên đóng gói hàng hóa thường thúc đẩy họ làm việc hiệu quả hơn.\nA. adopts: chấp nhận\nB. reinforces: củng cố\nD. attracts: thu hút"
+       "explanation": "C. motivates (động từ): 'Motivates' (thúc đẩy) là từ phù hợp vì câu mô tả hành động khuyến khích năng suất làm việc. Cấu trúc câu này yêu cầu động từ diễn tả tác động lên 'them'. Các từ khác như 'adopts' (chấp nhận) hay 'attracts' (thu hút) không phù hợp về ngữ nghĩa.\nCâu hỏi: Giao nhiệm vụ lãnh đạo cho các nhân viên đóng gói hàng hóa thường thúc đẩy họ làm việc hiệu quả hơn.\nA. adopts: chấp nhận\nB. reinforces: củng cố\nD. attracts: thu hút",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2711,7 +2903,10 @@
         "D": "exclusives"
        },
        "answer": "A",
-       "explanation": "A. exclusively (trạng từ): 'Exclusively' (chỉ duy nhất) là trạng từ bổ nghĩa cho động từ 'works', mô tả rằng công ty chỉ làm các dự án thương mại lớn. Câu yêu cầu trạng từ, vì vậy các lựa chọn khác như 'exclusive' (tính từ) hoặc 'exclusivity' (danh từ) không đúng ngữ pháp.\nCâu hỏi: Công ty Kaybing Construction chỉ làm các dự án thương mại lớn trong khu vực Newfoundland.\nB. exclusive: độc quyền\nC. exclusivity: tính độc quyền\nD. exclusives: sản phẩm độc quyền"
+       "explanation": "A. exclusively (trạng từ): 'Exclusively' (chỉ duy nhất) là trạng từ bổ nghĩa cho động từ 'works', mô tả rằng công ty chỉ làm các dự án thương mại lớn. Câu yêu cầu trạng từ, vì vậy các lựa chọn khác như 'exclusive' (tính từ) hoặc 'exclusivity' (danh từ) không đúng ngữ pháp.\nCâu hỏi: Công ty Kaybing Construction chỉ làm các dự án thương mại lớn trong khu vực Newfoundland.\nB. exclusive: độc quyền\nC. exclusivity: tính độc quyền\nD. exclusives: sản phẩm độc quyền",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -2736,7 +2931,10 @@
         "D": "to have resigned"
        },
        "answer": "B",
-       "explanation": "B. to resign (động từ): 'To resign' (dự định từ chức) là cấu trúc hợp lý vì 'plans' đi với động từ nguyên mẫu để diễn tả dự định. Các dạng khác như 'resigning' (danh động từ) hay 'to have resigned' (quá khứ phân từ) không phù hợp với cấu trúc ngữ pháp này.\nCâu hỏi: Carly Logan dự định từ chức, vì vậy Alan Zill đã tình nguyện làm thủ quỹ tiếp theo của câu lạc bộ tem.\nA. resigning: danh động từ\nC. resigns: động từ\nD. to have resigned: quá khứ phân từ"
+       "explanation": "B. to resign (động từ): 'To resign' (dự định từ chức) là cấu trúc hợp lý vì 'plans' đi với động từ nguyên mẫu để diễn tả dự định. Các dạng khác như 'resigning' (danh động từ) hay 'to have resigned' (quá khứ phân từ) không phù hợp với cấu trúc ngữ pháp này.\nCâu hỏi: Carly Logan dự định từ chức, vì vậy Alan Zill đã tình nguyện làm thủ quỹ tiếp theo của câu lạc bộ tem.\nA. resigning: danh động từ\nC. resigns: động từ\nD. to have resigned: quá khứ phân từ",
+       "tags": [
+        "verb"
+       ]
       }
      ]
     },
@@ -2761,7 +2959,10 @@
         "D": "over"
        },
        "answer": "D",
-       "explanation": "D. over (giới từ): 'Over' (trong suốt) là giới từ phù hợp với nghĩa của câu khi mô tả thời gian (during the summer months). Các từ khác như 'apart' (riêng biệt) hay 'only' (chỉ) không hợp với nghĩa của câu.\nCâu hỏi: Mặc dù thị trường nhà ở chậm lại trong suốt những tháng hè, doanh số bán hàng đã bắt đầu tăng trở lại vào mùa thu.\nA. apart: riêng biệt\nB. even: ngay cả\nC. only: chỉ"
+       "explanation": "D. over (giới từ): 'Over' (trong suốt) là giới từ phù hợp với nghĩa của câu khi mô tả thời gian (during the summer months). Các từ khác như 'apart' (riêng biệt) hay 'only' (chỉ) không hợp với nghĩa của câu.\nCâu hỏi: Mặc dù thị trường nhà ở chậm lại trong suốt những tháng hè, doanh số bán hàng đã bắt đầu tăng trở lại vào mùa thu.\nA. apart: riêng biệt\nB. even: ngay cả\nC. only: chỉ",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2786,7 +2987,10 @@
         "D": "openly"
        },
        "answer": "C",
-       "explanation": "C. routinely (trạng từ): 'Routinely' (thường xuyên) bổ nghĩa cho động từ 'cleaned', diễn tả việc bảo dưỡng định kỳ. Trạng từ là từ loại cần thiết trong cấu trúc câu này.\nCâu hỏi: Để duy trì hoạt động đầy đủ, các máy tập cần được vệ sinh thường xuyên.\nA. rather: đúng hơn\nB. almost: hầu như\nD. openly: công khai"
+       "explanation": "C. routinely (trạng từ): 'Routinely' (thường xuyên) bổ nghĩa cho động từ 'cleaned', diễn tả việc bảo dưỡng định kỳ. Trạng từ là từ loại cần thiết trong cấu trúc câu này.\nCâu hỏi: Để duy trì hoạt động đầy đủ, các máy tập cần được vệ sinh thường xuyên.\nA. rather: đúng hơn\nB. almost: hầu như\nD. openly: công khai",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2811,7 +3015,10 @@
         "D": "another"
        },
        "answer": "C",
-       "explanation": "C. whichever (đại từ): 'Whichever' (bất kỳ cái nào) là từ chỉ sự lựa chọn giữa hai khả năng và phù hợp với cấu trúc câu. 'Whichever comes first' là cách diễn đạt chuẩn trong trường hợp này. Các lựa chọn khác không đúng về mặt ngữ nghĩa.\nCâu hỏi: Bảo hành mở rộng có giá trị trong mười năm hoặc 100.000 dặm, tùy theo điều kiện nào đến trước.\nA. whoever: bất kỳ ai\nB. either: hoặc\nD. another: một cái khác"
+       "explanation": "C. whichever (đại từ): 'Whichever' (bất kỳ cái nào) là từ chỉ sự lựa chọn giữa hai khả năng và phù hợp với cấu trúc câu. 'Whichever comes first' là cách diễn đạt chuẩn trong trường hợp này. Các lựa chọn khác không đúng về mặt ngữ nghĩa.\nCâu hỏi: Bảo hành mở rộng có giá trị trong mười năm hoặc 100.000 dặm, tùy theo điều kiện nào đến trước.\nA. whoever: bất kỳ ai\nB. either: hoặc\nD. another: một cái khác",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2836,7 +3043,10 @@
         "D": "hold"
        },
        "answer": "A",
-       "explanation": "A. risk (động từ): 'Risk' (có nguy cơ) là động từ đúng vì nó diễn tả hành động gặp rủi ro nếu không cung cấp tùy chọn mua sắm trực tuyến. Các động từ khác như 'protect' (bảo vệ) hay 'cancel' (hủy) không phù hợp trong ngữ cảnh này.\nCâu hỏi: Atlantic Grocers phải cung cấp các tùy chọn mua sắm trực tuyến nếu không muốn có nguy cơ mất khách hàng vào tay siêu thị khác.\nB. protect: bảo vệ\nC. cancel: hủy\nD. hold: giữ"
+       "explanation": "A. risk (động từ): 'Risk' (có nguy cơ) là động từ đúng vì nó diễn tả hành động gặp rủi ro nếu không cung cấp tùy chọn mua sắm trực tuyến. Các động từ khác như 'protect' (bảo vệ) hay 'cancel' (hủy) không phù hợp trong ngữ cảnh này.\nCâu hỏi: Atlantic Grocers phải cung cấp các tùy chọn mua sắm trực tuyến nếu không muốn có nguy cơ mất khách hàng vào tay siêu thị khác.\nB. protect: bảo vệ\nC. cancel: hủy\nD. hold: giữ",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2861,7 +3071,10 @@
         "D": "Most"
        },
        "answer": "A",
-       "explanation": "A. Each (đại từ): 'Each' (mỗi) được sử dụng để chỉ rõ rằng mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân. Câu hỏi yêu cầu một từ chỉ sự phân bổ cá nhân.\nCâu hỏi: Mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân mà mọi thắc mắc cần được chuyển đến.\nB. All: tất cả\nC. Some: một vài\nD. Most: hầu hết"
+       "explanation": "A. Each (đại từ): 'Each' (mỗi) được sử dụng để chỉ rõ rằng mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân. Câu hỏi yêu cầu một từ chỉ sự phân bổ cá nhân.\nCâu hỏi: Mỗi khách hàng được chỉ định một cố vấn tài chính cá nhân mà mọi thắc mắc cần được chuyển đến.\nB. All: tất cả\nC. Some: một vài\nD. Most: hầu hết",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2886,7 +3099,10 @@
         "D": "committee"
        },
        "answer": "D",
-       "explanation": "D. committee (danh từ): 'Committee' (ủy ban) là danh từ chính xác, vì câu hỏi yêu cầu một danh từ chỉ nhóm người tham gia khám phá các chương trình khen thưởng.\nCâu hỏi: Ông Singh muốn thành lập một ủy ban để khám phá các chương trình khen thưởng cho nhân viên\nA. supervisor: người giám sát\nB. suggestion: gợi ý\nC. notification: thông báo"
+       "explanation": "D. committee (danh từ): 'Committee' (ủy ban) là danh từ chính xác, vì câu hỏi yêu cầu một danh từ chỉ nhóm người tham gia khám phá các chương trình khen thưởng.\nCâu hỏi: Ông Singh muốn thành lập một ủy ban để khám phá các chương trình khen thưởng cho nhân viên\nA. supervisor: người giám sát\nB. suggestion: gợi ý\nC. notification: thông báo",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2911,7 +3127,10 @@
         "D": "in case"
        },
        "answer": "D",
-       "explanation": "D. in case (cụm từ): 'In case' (phòng trường hợp) là cụm từ phù hợp để diễn tả tình huống người lái xe có thể cần liên hệ với bạn.\nCâu hỏi: Vui lòng cung cấp số điện thoại của bạn phòng trường hợp người giao hàng cần liên hệ với bạn\nA. whereas: trong khi\nB. despite: mặc dù\nC. if not: nếu không"
+       "explanation": "D. in case (cụm từ): 'In case' (phòng trường hợp) là cụm từ phù hợp để diễn tả tình huống người lái xe có thể cần liên hệ với bạn.\nCâu hỏi: Vui lòng cung cấp số điện thoại của bạn phòng trường hợp người giao hàng cần liên hệ với bạn\nA. whereas: trong khi\nB. despite: mặc dù\nC. if not: nếu không",
+       "tags": [
+        "prep-conj"
+       ]
       }
      ]
     },
@@ -2936,7 +3155,10 @@
         "D": "Tenants"
        },
        "answer": "D",
-       "explanation": "D. Tenants (danh từ): 'Tenants' (người thuê nhà) là danh từ chỉ những người cần thanh toán tiền thuê nhà. Các lựa chọn khác không phù hợp vì họ không phải là đối tượng thuê nhà\nCâu hỏi: Người thuê nhà ở Pondview Tower phải thanh toán tiền thuê nhà vào hoặc trước ngày đầu tiên của mỗi tháng\nA. Owners: chủ sở hữu\nB. Buyers: người mua\nC. Tourists: du khách"
+       "explanation": "D. Tenants (danh từ): 'Tenants' (người thuê nhà) là danh từ chỉ những người cần thanh toán tiền thuê nhà. Các lựa chọn khác không phù hợp vì họ không phải là đối tượng thuê nhà\nCâu hỏi: Người thuê nhà ở Pondview Tower phải thanh toán tiền thuê nhà vào hoặc trước ngày đầu tiên của mỗi tháng\nA. Owners: chủ sở hữu\nB. Buyers: người mua\nC. Tourists: du khách",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -2961,7 +3183,10 @@
         "D": "consideration"
        },
        "answer": "B",
-       "explanation": "B. considerable (tính từ): 'Considerable' (đáng kể) là tính từ phù hợp vì câu yêu cầu một từ mô tả tác động đáng kể lên nền kinh tế.\nCâu hỏi: Tập đoàn Likoni Hospitality, một trong những nhà tuyển dụng lớn nhất của Mombasa, có tác động đáng kể đến nền kinh tế địa phương\nA. considerably: trạng từ\nC. considering: hiện tại phân từ\nD. consideration: danh từ"
+       "explanation": "B. considerable (tính từ): 'Considerable' (đáng kể) là tính từ phù hợp vì câu yêu cầu một từ mô tả tác động đáng kể lên nền kinh tế.\nCâu hỏi: Tập đoàn Likoni Hospitality, một trong những nhà tuyển dụng lớn nhất của Mombasa, có tác động đáng kể đến nền kinh tế địa phương\nA. considerably: trạng từ\nC. considering: hiện tại phân từ\nD. consideration: danh từ",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -2986,7 +3211,10 @@
         "D": "Becoming"
        },
        "answer": "A",
-       "explanation": "A. Besides (giới từ): 'Besides' (bên cạnh) là giới từ phù hợp vì nó bổ sung ý nghĩa cho cụm từ chỉ các loại sách khác nhau.\nCâu hỏi: Ngoài những sách bán chạy, Booksters còn cung cấp nhiều loại sách kinh điển và tiểu sử\nB. Somewhat: phần nào\nC. Whose: của ai\nD. Becoming: trở thành"
+       "explanation": "A. Besides (giới từ): 'Besides' (bên cạnh) là giới từ phù hợp vì nó bổ sung ý nghĩa cho cụm từ chỉ các loại sách khác nhau.\nCâu hỏi: Ngoài những sách bán chạy, Booksters còn cung cấp nhiều loại sách kinh điển và tiểu sử\nB. Somewhat: phần nào\nC. Whose: của ai\nD. Becoming: trở thành",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -3011,7 +3239,10 @@
         "D": "consuming"
        },
        "answer": "D",
-       "explanation": "D. consuming (danh động từ): 'Consuming' (việc tiêu thụ) là danh động từ phù hợp vì nó kết hợp với cụm danh từ 'undercooked meat' để tạo thành chủ ngữ cho mệnh đề. Câu yêu cầu một danh động từ để diễn tả hành động tiêu thụ thịt sống\nCâu hỏi: Các quy định thực phẩm mới yêu cầu tất cả bao bì của Dean's Burgers phải có thông báo rằng việc tiêu thụ thịt chưa nấu chín có thể gây hại\nA. consumer: người tiêu dùng\nB. consumption: sự tiêu thụ\nC. consumes: tiêu thụ"
+       "explanation": "D. consuming (danh động từ): 'Consuming' (việc tiêu thụ) là danh động từ phù hợp vì nó kết hợp với cụm danh từ 'undercooked meat' để tạo thành chủ ngữ cho mệnh đề. Câu yêu cầu một danh động từ để diễn tả hành động tiêu thụ thịt sống\nCâu hỏi: Các quy định thực phẩm mới yêu cầu tất cả bao bì của Dean's Burgers phải có thông báo rằng việc tiêu thụ thịt chưa nấu chín có thể gây hại\nA. consumer: người tiêu dùng\nB. consumption: sự tiêu thụ\nC. consumes: tiêu thụ",
+       "tags": [
+        "word-form"
+       ]
       }
      ]
     },
@@ -3036,7 +3267,10 @@
         "D": "minus"
        },
        "answer": "A",
-       "explanation": "A. of (giới từ): 'Of' (của) là từ phù hợp về mặt ngữ pháp để chỉ sự thiếu vắng chất béo và cholesterol\nCâu hỏi: Mỗi thanh Genutria chứa lượng protein tương đương hai quả trứng mà không có chất béo và cholesterol\nB. by: bởi\nC. out: ra ngoài\nD. minus: trừ"
+       "explanation": "A. of (giới từ): 'Of' (của) là từ phù hợp về mặt ngữ pháp để chỉ sự thiếu vắng chất béo và cholesterol\nCâu hỏi: Mỗi thanh Genutria chứa lượng protein tương đương hai quả trứng mà không có chất béo và cholesterol\nB. by: bởi\nC. out: ra ngoài\nD. minus: trừ",
+       "tags": [
+        "prep-conj"
+       ]
       }
      ]
     },
@@ -3061,7 +3295,10 @@
         "D": "materials"
        },
        "answer": "C",
-       "explanation": "C. shapes (danh từ): 'Shapes' (hình dạng) là từ mô tả các hình dạng khác nhau của gọng kính\nCâu hỏi: Gọng kính Fisko có nhiều hình dạng khác nhau, bao gồm hình tròn, vuông và oval\nA. sights: tầm nhìn\nB. methods: phương pháp\nD. materials: vật liệu"
+       "explanation": "C. shapes (danh từ): 'Shapes' (hình dạng) là từ mô tả các hình dạng khác nhau của gọng kính\nCâu hỏi: Gọng kính Fisko có nhiều hình dạng khác nhau, bao gồm hình tròn, vuông và oval\nA. sights: tầm nhìn\nB. methods: phương pháp\nD. materials: vật liệu",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     },
@@ -3086,7 +3323,10 @@
         "D": "rationalized"
        },
        "answer": "A",
-       "explanation": "A. allocated (động từ): 'Allocated' (phân bổ) là động từ đúng để diễn tả hành động phân bổ ngân sách cho nghiên cứu và phát triển.\nCâu hỏi: Giám đốc điều hành muốn phân bổ một phần lớn hơn trong ngân sách năm sau cho nghiên cứu và phát triển\nB. imprinted: in dấu\nC. economized: tiết kiệm\nD. rationalized: hợp lý hóa"
+       "explanation": "A. allocated (động từ): 'Allocated' (phân bổ) là động từ đúng để diễn tả hành động phân bổ ngân sách cho nghiên cứu và phát triển.\nCâu hỏi: Giám đốc điều hành muốn phân bổ một phần lớn hơn trong ngân sách năm sau cho nghiên cứu và phát triển\nB. imprinted: in dấu\nC. economized: tiết kiệm\nD. rationalized: hợp lý hóa",
+       "tags": [
+        "vocabulary"
+       ]
       }
      ]
     }
@@ -3124,7 +3364,8 @@
         "D": "from"
        },
        "answer": "B",
-       "explanation": "B. or (hoặc):\n’Or’ là từ nối đúng để diễn tả việc chơi guitar acoustic hoặc electric. Các lựa chọn khác không phù hợp ngữ cảnh.\nA. is (là)\nC. likely (có khả năng)\nD. from (từ)"
+       "explanation": "B. or (hoặc):\n’Or’ là từ nối đúng để diễn tả việc chơi guitar acoustic hoặc electric. Các lựa chọn khác không phù hợp ngữ cảnh.\nA. is (là)\nC. likely (có khả năng)\nD. from (từ)",
+       "tags": []
       },
       {
        "number": 132,
@@ -3137,7 +3378,8 @@
         "D": "us"
        },
        "answer": "A",
-       "explanation": "A. our (của chúng tôi):\n’Our’ là tính từ sở hữu phù hợp, mô tả các giảng viên có kinh nghiệm. Các lựa chọn khác không phù hợp ngữ pháp.\nB. ourselves (chính chúng tôi)\nC. ours (của chúng tôi)\nD. us (chúng tôi)"
+       "explanation": "A. our (của chúng tôi):\n’Our’ là tính từ sở hữu phù hợp, mô tả các giảng viên có kinh nghiệm. Các lựa chọn khác không phù hợp ngữ pháp.\nB. ourselves (chính chúng tôi)\nC. ours (của chúng tôi)\nD. us (chúng tôi)",
+       "tags": []
       },
       {
        "number": 133,
@@ -3150,7 +3392,8 @@
         "D": "It took them several years to master their instruments."
        },
        "answer": "C",
-       "explanation": "C. The best resource for you as a learner is an expert to guide your progress (Nguồn tài nguyên tốt nhất cho bạn là một chuyên gia để hướng dẫn bạn):\nCâu này cung cấp thông tin hữu ích liên quan đến việc học guitar. Các lựa chọn khác không phù hợp với ngữ cảnh.\nA. Contact a technician for questions (Liên hệ với kỹ thuật viên để hỏi về sửa chữa)\nB. A high-quality instrument (Nhạc cụ chất lượng cao)\nD. It took them several years (Mất vài năm)"
+       "explanation": "C. The best resource for you as a learner is an expert to guide your progress (Nguồn tài nguyên tốt nhất cho bạn là một chuyên gia để hướng dẫn bạn):\nCâu này cung cấp thông tin hữu ích liên quan đến việc học guitar. Các lựa chọn khác không phù hợp với ngữ cảnh.\nA. Contact a technician for questions (Liên hệ với kỹ thuật viên để hỏi về sửa chữa)\nB. A high-quality instrument (Nhạc cụ chất lượng cao)\nD. It took them several years (Mất vài năm)",
+       "tags": []
       },
       {
        "number": 134,
@@ -3163,7 +3406,8 @@
         "D": "At that point"
        },
        "answer": "B",
-       "explanation": "B. With that in mind (Với suy nghĩ đó):\nCâu này liên kết tốt với ý tưởng phát triển bản sắc âm nhạc. Các lựa chọn khác không phù hợp.\nA. So far (Cho đến nay)\nC. On a different note (Về một điều khác)\nD. At that point (Vào thời điểm đó)"
+       "explanation": "B. With that in mind (Với suy nghĩ đó):\nCâu này liên kết tốt với ý tưởng phát triển bản sắc âm nhạc. Các lựa chọn khác không phù hợp.\nA. So far (Cho đến nay)\nC. On a different note (Về một điều khác)\nD. At that point (Vào thời điểm đó)",
+       "tags": []
       }
      ]
     },
@@ -3196,7 +3440,8 @@
         "D": "organization"
        },
        "answer": "C",
-       "explanation": "C. residence (nơi ở):\n’Residence’ phù hợp vì nó nói về nơi giao hàng. Các lựa chọn khác không phù hợp.\nA. garden (vườn)\nB. records (hồ sơ)\nD. organization (tổ chức)"
+       "explanation": "C. residence (nơi ở):\n’Residence’ phù hợp vì nó nói về nơi giao hàng. Các lựa chọn khác không phù hợp.\nA. garden (vườn)\nB. records (hồ sơ)\nD. organization (tổ chức)",
+       "tags": []
       },
       {
        "number": 136,
@@ -3209,7 +3454,8 @@
         "D": "that scheduled"
        },
        "answer": "A",
-       "explanation": "A. to schedule (để lên lịch):\n’To schedule' là cụm động từ chính xác trong ngữ cảnh này. Các lựa chọn khác không phù hợp ngữ pháp.\nB. is scheduling (đang lên lịch)\nC. as a schedule (như một lịch trình)\nD. that scheduled (đã lên lịch)"
+       "explanation": "A. to schedule (để lên lịch):\n’To schedule' là cụm động từ chính xác trong ngữ cảnh này. Các lựa chọn khác không phù hợp ngữ pháp.\nB. is scheduling (đang lên lịch)\nC. as a schedule (như một lịch trình)\nD. that scheduled (đã lên lịch)",
+       "tags": []
       },
       {
        "number": 137,
@@ -3222,7 +3468,8 @@
         "D": "in the meantime"
        },
        "answer": "C",
-       "explanation": "C. though (mặc dù):\n’Though’ phù hợp với ngữ cảnh về việc sắp xếp lịch hẹn vào buổi tối. Các lựa chọn khác không đúng về ngữ nghĩa.\nA. if so (nếu vậy)\nB. when (khi)\nD. in the meantime (trong khi đó)"
+       "explanation": "C. though (mặc dù):\n’Though’ phù hợp với ngữ cảnh về việc sắp xếp lịch hẹn vào buổi tối. Các lựa chọn khác không đúng về ngữ nghĩa.\nA. if so (nếu vậy)\nB. when (khi)\nD. in the meantime (trong khi đó)",
+       "tags": []
       },
       {
        "number": 138,
@@ -3235,7 +3482,8 @@
         "D": "All packing materials will be removed."
        },
        "answer": "D",
-       "explanation": "D. All packing materials will be removed (Tất cả các vật liệu đóng gói sẽ được loại bỏ):\nCâu này phù hợp với ngữ cảnh nói về dịch vụ giao hàng tận nhà. Các lựa chọn khác không phù hợp.\nA. When buying a home (Khi mua nhà)\nB. Refinishing furniture (Đánh bóng đồ nội thất)\nC. Furnished apartments (Căn hộ được trang bị đầy đủ)"
+       "explanation": "D. All packing materials will be removed (Tất cả các vật liệu đóng gói sẽ được loại bỏ):\nCâu này phù hợp với ngữ cảnh nói về dịch vụ giao hàng tận nhà. Các lựa chọn khác không phù hợp.\nA. When buying a home (Khi mua nhà)\nB. Refinishing furniture (Đánh bóng đồ nội thất)\nC. Furnished apartments (Căn hộ được trang bị đầy đủ)",
+       "tags": []
       }
      ]
     },
@@ -3268,7 +3516,8 @@
         "D": "Please contact us to update your information."
        },
        "answer": "B",
-       "explanation": "B. We have processed your request (Chúng tôi đã xử lý yêu cầu của bạn):\nCâu này hợp lý vì nó báo cáo rằng yêu cầu đã được xử lý. Các lựa chọn khác không phù hợp với ngữ cảnh của email.\nA. Thank you for your timely order (Cảm ơn bạn đã đặt hàng kịp thời)\nC. This is a payment reminder (Đây là lời nhắc thanh toán)\nD. Please contact us to update your information (Vui lòng liên hệ với chúng tôi để cập nhật thông tin của bạn)"
+       "explanation": "B. We have processed your request (Chúng tôi đã xử lý yêu cầu của bạn):\nCâu này hợp lý vì nó báo cáo rằng yêu cầu đã được xử lý. Các lựa chọn khác không phù hợp với ngữ cảnh của email.\nA. Thank you for your timely order (Cảm ơn bạn đã đặt hàng kịp thời)\nC. This is a payment reminder (Đây là lời nhắc thanh toán)\nD. Please contact us to update your information (Vui lòng liên hệ với chúng tôi để cập nhật thông tin của bạn)",
+       "tags": []
       },
       {
        "number": 140,
@@ -3281,7 +3530,8 @@
         "D": "Starting"
        },
        "answer": "D",
-       "explanation": "D. Starting (Bắt đầu):\n’Starting’ phù hợp với ngữ pháp khi mô tả thời gian bắt đầu. Các lựa chọn khác không đúng về ngữ cảnh hoặc ngữ pháp.\nA. Starts (Bắt đầu)\nB. Started (Đã bắt đầu)\nC. Starter (Người khởi động)"
+       "explanation": "D. Starting (Bắt đầu):\n’Starting’ phù hợp với ngữ pháp khi mô tả thời gian bắt đầu. Các lựa chọn khác không đúng về ngữ cảnh hoặc ngữ pháp.\nA. Starts (Bắt đầu)\nB. Started (Đã bắt đầu)\nC. Starter (Người khởi động)",
+       "tags": []
       },
       {
        "number": 141,
@@ -3294,7 +3544,8 @@
         "D": "teacher"
        },
        "answer": "C",
-       "explanation": "C. reader (độc giả):\n’Reader’ phù hợp với ngữ cảnh vì email đang khuyến khích người nhận trở thành độc giả của tạp chí. Các lựa chọn khác không phù hợp với nghĩa.\nA. distributor (nhà phân phối)\nB. producer (nhà sản xuất)\nD. teacher (giáo viên)"
+       "explanation": "C. reader (độc giả):\n’Reader’ phù hợp với ngữ cảnh vì email đang khuyến khích người nhận trở thành độc giả của tạp chí. Các lựa chọn khác không phù hợp với nghĩa.\nA. distributor (nhà phân phối)\nB. producer (nhà sản xuất)\nD. teacher (giáo viên)",
+       "tags": []
       },
       {
        "number": 142,
@@ -3307,7 +3558,8 @@
         "D": "next"
        },
        "answer": "B",
-       "explanation": "B. upon (khi):\n’Upon’ phù hợp với nghĩa chỉ hành động ngay khi việc thanh toán hoàn tất. Các lựa chọn khác không phù hợp.\nA. until (đến khi)\nC. without (không)\nD. next (kế tiếp)"
+       "explanation": "B. upon (khi):\n’Upon’ phù hợp với nghĩa chỉ hành động ngay khi việc thanh toán hoàn tất. Các lựa chọn khác không phù hợp.\nA. until (đến khi)\nC. without (không)\nD. next (kế tiếp)",
+       "tags": []
       }
      ]
     },
@@ -3340,7 +3592,8 @@
         "D": "ranging"
        },
        "answer": "A",
-       "explanation": "A. ranges (trong khoảng):\n’Ranges' là từ đúng để mô tả sự thay đổi nhiệt độ của nhiệt kế. Các lựa chọn khác không phù hợp.\nB. ranger (người bảo vệ)\nC. ranged (đã thay đổi)\nD. ranging (đang thay đổi)"
+       "explanation": "A. ranges (trong khoảng):\n’Ranges' là từ đúng để mô tả sự thay đổi nhiệt độ của nhiệt kế. Các lựa chọn khác không phù hợp.\nB. ranger (người bảo vệ)\nC. ranged (đã thay đổi)\nD. ranging (đang thay đổi)",
+       "tags": []
       },
       {
        "number": 144,
@@ -3353,7 +3606,8 @@
         "D": "placement"
        },
        "answer": "D",
-       "explanation": "D. placement (vị trí):\n’Placement’ mô tả sự quan trọng của việc đặt nhiệt kế đúng vị trí. Các lựa chọn khác không phù hợp ngữ cảnh.\nA. size (kích thước)\nB. safety (an toàn)\nC. reliability (độ tin cậy)"
+       "explanation": "D. placement (vị trí):\n’Placement’ mô tả sự quan trọng của việc đặt nhiệt kế đúng vị trí. Các lựa chọn khác không phù hợp ngữ cảnh.\nA. size (kích thước)\nB. safety (an toàn)\nC. reliability (độ tin cậy)",
+       "tags": []
       },
       {
        "number": 145,
@@ -3366,7 +3620,8 @@
         "D": "They can also be purchased in bulk."
        },
        "answer": "B",
-       "explanation": "B. This is typically inside the door (Điều này thường ở bên trong cửa):\nCâu này cung cấp thông tin cụ thể về vị trí của nhiệt kế. Các lựa chọn khác không phù hợp với ngữ cảnh.\nA. Remove them carefully (Cẩn thận gỡ chúng ra)\nC. It should be kept cool (Nó nên được giữ mát)\nD. They can also be purchased in bulk (Chúng cũng có thể được mua số lượng lớn)"
+       "explanation": "B. This is typically inside the door (Điều này thường ở bên trong cửa):\nCâu này cung cấp thông tin cụ thể về vị trí của nhiệt kế. Các lựa chọn khác không phù hợp với ngữ cảnh.\nA. Remove them carefully (Cẩn thận gỡ chúng ra)\nC. It should be kept cool (Nó nên được giữ mát)\nD. They can also be purchased in bulk (Chúng cũng có thể được mua số lượng lớn)",
+       "tags": []
       },
       {
        "number": 146,
@@ -3379,7 +3634,8 @@
         "D": "removed"
        },
        "answer": "B",
-       "explanation": "B. seen (nhìn thấy):\n’Seen' là từ chính xác để mô tả nhiệt kế dễ dàng được nhìn thấy khi mở cửa tủ lạnh. Các lựa chọn khác không phù hợp với ngữ cảnh.\nA. sold (bán)\nC. repaired (sửa chữa)\nD. removed (gỡ bỏ)"
+       "explanation": "B. seen (nhìn thấy):\n’Seen' là từ chính xác để mô tả nhiệt kế dễ dàng được nhìn thấy khi mở cửa tủ lạnh. Các lựa chọn khác không phù hợp với ngữ cảnh.\nA. sold (bán)\nC. repaired (sửa chữa)\nD. removed (gỡ bỏ)",
+       "tags": []
       }
      ]
     }
@@ -3415,7 +3671,8 @@
         "D": "To inform a user about new company policies"
        },
        "answer": "C",
-       "explanation": "Đáp án: C.n\\Mục đích của email là xác nhận rằng đã có sự thay đổi đối với tài khoản của người dùng.\nDẫn chứng: \"Your secret-question option for password recovery was updated at 3:16 P.M. today.”\nDịch nghĩa:\nA. Chào đón một người dùng mới đến Rapido Net.\nB. Nhắc nhở người dùng về mật khẩu đã quên.\nC. Xác nhận rằng đã có sự thay đổi đối với tài khoản của người dùng.\nD. Thông báo cho người dùng về các chính sách mới của công ty."
+       "explanation": "Đáp án: C.n\\Mục đích của email là xác nhận rằng đã có sự thay đổi đối với tài khoản của người dùng.\nDẫn chứng: \"Your secret-question option for password recovery was updated at 3:16 P.M. today.”\nDịch nghĩa:\nA. Chào đón một người dùng mới đến Rapido Net.\nB. Nhắc nhở người dùng về mật khẩu đã quên.\nC. Xác nhận rằng đã có sự thay đổi đối với tài khoản của người dùng.\nD. Thông báo cho người dùng về các chính sách mới của công ty.",
+       "tags": []
       },
       {
        "number": 148,
@@ -3428,7 +3685,8 @@
         "D": "It has increased its monthly user fee."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nRapido Net cung cấp thêm bảo mật thông qua xác minh hai bước.\nDẫn chứng: \"Make the process even more secure by setting up two-step verification.”\nDịch nghĩa:\nA. Nó cung cấp tốc độ Internet nhanh hơn so với các đối thủ cạnh tranh.\nB. Nó cung cấp thêm bảo mật thông qua xác minh hai bước.\nC. Nó tự động tạo ra mật khẩu phức tạp cho khách hàng.\nD. Nó đã tăng phí người dùng hàng tháng."
+       "explanation": "Đáp án: B.\nRapido Net cung cấp thêm bảo mật thông qua xác minh hai bước.\nDẫn chứng: \"Make the process even more secure by setting up two-step verification.”\nDịch nghĩa:\nA. Nó cung cấp tốc độ Internet nhanh hơn so với các đối thủ cạnh tranh.\nB. Nó cung cấp thêm bảo mật thông qua xác minh hai bước.\nC. Nó tự động tạo ra mật khẩu phức tạp cho khách hàng.\nD. Nó đã tăng phí người dùng hàng tháng.",
+       "tags": []
       }
      ]
     },
@@ -3459,7 +3717,8 @@
         "D": "Internet access"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nMs. Duberville có khả năng đã đăng ký dịch vụ truy cập Internet.n\\Dẫn chứng: \"one of our representatives to install a Global Tech modem at your home\" cho thấy dịch vụ này liên quan đến việc lắp đặt modem Internet.\nDịch nghĩa:\nA. Lắp đặt cửa Sơn\\B. Dọn dẹp nhà cửa.\nC. Trải thảm toàn bộ.\nD. Truy cập Internet."
+       "explanation": "Đáp án: D.\nMs. Duberville có khả năng đã đăng ký dịch vụ truy cập Internet.n\\Dẫn chứng: \"one of our representatives to install a Global Tech modem at your home\" cho thấy dịch vụ này liên quan đến việc lắp đặt modem Internet.\nDịch nghĩa:\nA. Lắp đặt cửa Sơn\\B. Dọn dẹp nhà cửa.\nC. Trải thảm toàn bộ.\nD. Truy cập Internet.",
+       "tags": []
       },
       {
        "number": 150,
@@ -3472,7 +3731,8 @@
         "D": "She will be e-mailed a customer satisfaction survey."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.n\\Đại diện của Global Tech sẽ đến thăm bà Duberville vào thời gian bà đã chọn.\nDẫn chứng: \"one of our representatives to install a Global Tech modem at your home\" cho thấy đại diện sẽ đến để lắp đặt modem.\nDịch nghĩa:n\\A. Bà ấy sẽ nhận thiết bị tại văn phòng.\nB. Bà ấy sẽ nhận được một điện thoại di động mới từ Global Tech.\nC. Bà ấy sẽ được đại diện của Global Tech đến thăm.n\\D. Bà ấy sẽ nhận được một khảo sát về sự hài lòng của khách hàng qua email."
+       "explanation": "Đáp án: C.n\\Đại diện của Global Tech sẽ đến thăm bà Duberville vào thời gian bà đã chọn.\nDẫn chứng: \"one of our representatives to install a Global Tech modem at your home\" cho thấy đại diện sẽ đến để lắp đặt modem.\nDịch nghĩa:n\\A. Bà ấy sẽ nhận thiết bị tại văn phòng.\nB. Bà ấy sẽ nhận được một điện thoại di động mới từ Global Tech.\nC. Bà ấy sẽ được đại diện của Global Tech đến thăm.n\\D. Bà ấy sẽ nhận được một khảo sát về sự hài lòng của khách hàng qua email.",
+       "tags": []
       }
      ]
     },
@@ -3503,7 +3763,8 @@
         "D": "She filled out a form."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nCâu \"I tried that\" của bà Finton có nghĩa là bà ấy đã liên hệ với bà Seltzer.\nDẫn chứng: Câu trả lời của bà ấy ở đoạn trước đó \"Double-check with Ariana Seltzer first\".\nDịch nghĩa:\nA. Bà ấy đã ký hợp đồng thuê nhân\\B. Bà ấy đã nộp bằng chứng về thu nhập.\nC. Bà ấy đã liên hệ với bà Seltzer.\nD. Bà ấy đã điền vào một biểu mẫu."
+       "explanation": "Đáp án: C.\nCâu \"I tried that\" của bà Finton có nghĩa là bà ấy đã liên hệ với bà Seltzer.\nDẫn chứng: Câu trả lời của bà ấy ở đoạn trước đó \"Double-check with Ariana Seltzer first\".\nDịch nghĩa:\nA. Bà ấy đã ký hợp đồng thuê nhân\\B. Bà ấy đã nộp bằng chứng về thu nhập.\nC. Bà ấy đã liên hệ với bà Seltzer.\nD. Bà ấy đã điền vào một biểu mẫu.",
+       "tags": []
       },
       {
        "number": 152,
@@ -3516,7 +3777,8 @@
         "D": "Web designer"
        },
        "answer": "D",
-       "explanation": "Đáp án:n\\D. Bà Finton có khả năng là một nhà thiết kế trang web.\nDẫn chứng: \"You already have all your designs for their Web site ready, right?\" cho thấy bà ấy đang làm việc với thiết kế trang web.\nDịch nghĩa:n\\A. Quản lý căn hơn\\B. Quản trị viên văn phòng.\nC. Giám đốc nhân sự.\nD. Nhà thiết kế trang web."
+       "explanation": "Đáp án:n\\D. Bà Finton có khả năng là một nhà thiết kế trang web.\nDẫn chứng: \"You already have all your designs for their Web site ready, right?\" cho thấy bà ấy đang làm việc với thiết kế trang web.\nDịch nghĩa:n\\A. Quản lý căn hơn\\B. Quản trị viên văn phòng.\nC. Giám đốc nhân sự.\nD. Nhà thiết kế trang web.",
+       "tags": []
       }
      ]
     },
@@ -3548,7 +3810,8 @@
         "D": "To describe rewarding careers in Web design and creation"
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nMục đích của trang web là quảng bá các dịch vụ hỗ trợ nghề nghiệp.n\\Dẫn chứng: Các sự kiện được tổ chức nhằm giúp mọi người tìm kiếm công việc, quảng bá bản thân và chuẩn bị cho phỏng vấn.\nDịch nghĩa:n\\A. Quảng bá các dịch vụ hỗ trợ nghề nghiệp.n\\B. Thông báo về hội chợ việc làm địa phương cho sinh viên tốt nghiệp gần đây.\nC. Quảng cáo các vị trí tuyển dụng tại các công ty truyền thông xã hội.n\\D. Mô tả các ngành nghề hấp dẫn trong thiết kế và tạo dựng web."
+       "explanation": "Đáp án: A.\nMục đích của trang web là quảng bá các dịch vụ hỗ trợ nghề nghiệp.n\\Dẫn chứng: Các sự kiện được tổ chức nhằm giúp mọi người tìm kiếm công việc, quảng bá bản thân và chuẩn bị cho phỏng vấn.\nDịch nghĩa:n\\A. Quảng bá các dịch vụ hỗ trợ nghề nghiệp.n\\B. Thông báo về hội chợ việc làm địa phương cho sinh viên tốt nghiệp gần đây.\nC. Quảng cáo các vị trí tuyển dụng tại các công ty truyền thông xã hội.n\\D. Mô tả các ngành nghề hấp dẫn trong thiết kế và tạo dựng web.",
+       "tags": []
       },
       {
        "number": 154,
@@ -3561,7 +3824,8 @@
         "D": "Participants will practice responding to interviewers."
        },
        "answer": "D",
-       "explanation": "Đáp án: D.n\\Vào ngày 17 tháng 1, những người tham gia sẽ thực hành trả lời phỏng vấn.\nDẫn chứng: \"This session will be interactive, featuring mock interviews with attendees.”\nDịch nghĩa:n\\A. Các công ty sẽ đăng các cơ hội việc làm.\nB. Các nhà tuyển dụng sẽ đưa ra quyết định tuyển dụng.\nC. Các ứng viên việc làm sẽ tham dự một buổi phỏng vấn nhóm.\nD. Những người tham gia sẽ thực hành trả lời phỏng vấn."
+       "explanation": "Đáp án: D.n\\Vào ngày 17 tháng 1, những người tham gia sẽ thực hành trả lời phỏng vấn.\nDẫn chứng: \"This session will be interactive, featuring mock interviews with attendees.”\nDịch nghĩa:n\\A. Các công ty sẽ đăng các cơ hội việc làm.\nB. Các nhà tuyển dụng sẽ đưa ra quyết định tuyển dụng.\nC. Các ứng viên việc làm sẽ tham dự một buổi phỏng vấn nhóm.\nD. Những người tham gia sẽ thực hành trả lời phỏng vấn.",
+       "tags": []
       },
       {
        "number": 155,
@@ -3574,7 +3838,8 @@
         "D": "They are free of charge."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nCác sự kiện được tổ chức trực tuyến.\nDẫn chứng: \"Note that all January events are virtual.”n\\Dịch nghĩa:\nA. Chúng diễn ra hàng tháng.\nB. Chúng diễn ra trực tuyến.\nC. Chúng dành cho các chuyên gia cấp cao.\nD. Chúng miễn phí."
+       "explanation": "Đáp án: B.\nCác sự kiện được tổ chức trực tuyến.\nDẫn chứng: \"Note that all January events are virtual.”n\\Dịch nghĩa:\nA. Chúng diễn ra hàng tháng.\nB. Chúng diễn ra trực tuyến.\nC. Chúng dành cho các chuyên gia cấp cao.\nD. Chúng miễn phí.",
+       "tags": []
       }
      ]
     },
@@ -3606,7 +3871,8 @@
         "D": "It is located in the central square."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nKhu phức hợp hoạt động có nhiều tính năng mong muốn.n\\Dẫn chứng: \"an activity complex that includes a gym, theater, and swimming pool.”\nDịch nghĩa:n\\A. Nó có nhiều tính năng mong muốn.\nB. Nó đang được xây dựng.\nC. Nó có phí thành viên thấp.\nD. Nó nằm ở quảng trường trung tâm."
+       "explanation": "Đáp án: A.\nKhu phức hợp hoạt động có nhiều tính năng mong muốn.n\\Dẫn chứng: \"an activity complex that includes a gym, theater, and swimming pool.”\nDịch nghĩa:n\\A. Nó có nhiều tính năng mong muốn.\nB. Nó đang được xây dựng.\nC. Nó có phí thành viên thấp.\nD. Nó nằm ở quảng trường trung tâm.",
+       "tags": []
       },
       {
        "number": 157,
@@ -3619,7 +3885,8 @@
         "D": "By calling a current homeowner."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nMột cư dân tiềm năng có thể tìm hiểu thêm về Homestead tại Eston bằng cách đến thăm cộng đồng.\nDẫn chứng: \"Model homes are currently available for tours.”\nDịch nghĩa:\nA. Bằng cách xem một ngôi nhà mẫu trực tuyến.\nB. Bằng cách yêu cầu một tập tài liệu.\nC. Bằng cách đến thăm cộng đồng.\nD. Bằng cách gọi cho một chủ nhà hiện tại."
+       "explanation": "Đáp án: C.\nMột cư dân tiềm năng có thể tìm hiểu thêm về Homestead tại Eston bằng cách đến thăm cộng đồng.\nDẫn chứng: \"Model homes are currently available for tours.”\nDịch nghĩa:\nA. Bằng cách xem một ngôi nhà mẫu trực tuyến.\nB. Bằng cách yêu cầu một tập tài liệu.\nC. Bằng cách đến thăm cộng đồng.\nD. Bằng cách gọi cho một chủ nhà hiện tại.",
+       "tags": []
       },
       {
        "number": 158,
@@ -3632,7 +3899,8 @@
         "D": "[4]"
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nCâu \"Homestead, however, is more than just a pretty place\" phù hợp nhất với vị trí [3], sau khi nhận xét rằng Homestead là một nơi đáng sống."
+       "explanation": "Đáp án: C.\nCâu \"Homestead, however, is more than just a pretty place\" phù hợp nhất với vị trí [3], sau khi nhận xét rằng Homestead là một nơi đáng sống.",
+       "tags": []
       }
      ]
     },
@@ -3663,7 +3931,8 @@
         "D": "To ask for additional work references."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nMột trong những mục đích của email là xác nhận đã nhận được báo giá.\nDẫn chứng: \"Thank you for sending your estimate…\"\nDịch nghĩa:\nA. Để giới thiệu một chủ sở hữu mới.\nB. Để xác nhận đã nhận được báo giá.\nC. Để mời các thành viên trong nhóm tham gia một buổi thuyết trình.\nD. Để yêu cầu thêm các tài liệu tham khảo công việc."
+       "explanation": "Đáp án: B.\nMột trong những mục đích của email là xác nhận đã nhận được báo giá.\nDẫn chứng: \"Thank you for sending your estimate…\"\nDịch nghĩa:\nA. Để giới thiệu một chủ sở hữu mới.\nB. Để xác nhận đã nhận được báo giá.\nC. Để mời các thành viên trong nhóm tham gia một buổi thuyết trình.\nD. Để yêu cầu thêm các tài liệu tham khảo công việc.",
+       "tags": []
       },
       {
        "number": 160,
@@ -3676,7 +3945,8 @@
         "D": "On March 5."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nÔng Fonsman sẽ gặp bà Cho vào ngày 3 tháng 3.\nDẫn chứng: \"I will be speaking with Ms. Cho about this tomorrow morning.”\nDịch nghĩa:\nA. Vào ngày 2 tháng 3.\nB. Vào ngày 3 tháng 3.\nC. Vào ngày 4 tháng 3.\nD. Vào ngày 5 tháng 3."
+       "explanation": "Đáp án: B.\nÔng Fonsman sẽ gặp bà Cho vào ngày 3 tháng 3.\nDẫn chứng: \"I will be speaking with Ms. Cho about this tomorrow morning.”\nDịch nghĩa:\nA. Vào ngày 2 tháng 3.\nB. Vào ngày 3 tháng 3.\nC. Vào ngày 4 tháng 3.\nD. Vào ngày 5 tháng 3.",
+       "tags": []
       }
      ]
     },
@@ -3708,7 +3978,8 @@
         "D": "The training workshop's start time"
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nThông tin về mức lương được bao gồm trong thông báo.\nDẫn chứng: \"Election Assistant, $18/hour”\nDịch nghĩa:\nA. Mức lương.\nB. Địa điểm làm việc.\nC. Hạn chót nộp đơn.\nD. Thời gian bắt đầu hội thảo."
+       "explanation": "Đáp án: A.\nThông tin về mức lương được bao gồm trong thông báo.\nDẫn chứng: \"Election Assistant, $18/hour”\nDịch nghĩa:\nA. Mức lương.\nB. Địa điểm làm việc.\nC. Hạn chót nộp đơn.\nD. Thời gian bắt đầu hội thảo.",
+       "tags": []
       },
       {
        "number": 162,
@@ -3721,7 +3992,8 @@
         "D": "Good communication skills"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nThông báo cho thấy yêu cầu là có kỹ năng giao tiếp tốt.\nDẫn chứng: \"Is comfortable interacting with the public”\nDịch nghĩa:\nA. Quan tâm đến chính trị.\nB. Bằng tốt nghiệp trung học phổ thông.\nC. Thẻ đăng ký cử tri.\nD. Kỹ năng giao tiếp tốt."
+       "explanation": "Đáp án: D.\nThông báo cho thấy yêu cầu là có kỹ năng giao tiếp tốt.\nDẫn chứng: \"Is comfortable interacting with the public”\nDịch nghĩa:\nA. Quan tâm đến chính trị.\nB. Bằng tốt nghiệp trung học phổ thông.\nC. Thẻ đăng ký cử tri.\nD. Kỹ năng giao tiếp tốt.",
+       "tags": []
       },
       {
        "number": 163,
@@ -3734,7 +4006,8 @@
         "D": "It is available both online and in person."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nHội thảo đào tạo là yêu cầu bắt buộc đối với tất cả các nhân viên bầu cử.\nDẫn chứng: \"Workers must attend a four-hour pre-election training workshop”\nDịch nghĩa:\nA. Nó được tổ chức ba lần mỗi năm.\nB. Nó được dẫn dắt bởi một quan chức bầu cử có kinh nghiệm.\nC. Nó là yêu cầu bắt buộc đối với tất cả các nhân viên bầu cử.\nD. Nó có sẵn cả trực tuyến và trực tiếp."
+       "explanation": "Đáp án: C.\nHội thảo đào tạo là yêu cầu bắt buộc đối với tất cả các nhân viên bầu cử.\nDẫn chứng: \"Workers must attend a four-hour pre-election training workshop”\nDịch nghĩa:\nA. Nó được tổ chức ba lần mỗi năm.\nB. Nó được dẫn dắt bởi một quan chức bầu cử có kinh nghiệm.\nC. Nó là yêu cầu bắt buộc đối với tất cả các nhân viên bầu cử.\nD. Nó có sẵn cả trực tuyến và trực tiếp.",
+       "tags": []
       }
      ]
     },
@@ -3767,7 +4040,8 @@
         "D": "To promote a new service"
        },
        "answer": "D",
-       "explanation": "Đáp án: D\n\\Mục đích của email là quảng bá một dịch vụ mới.\nDẫn chứng: Email giới thiệu hệ thống nhận diện giọng nói mới của ngân hàng.\nDịch nghĩa:n\\A. Để chào đón một khách hàng mới.\nB. Để báo cáo lỗi tài khoản.n\\C. Để xác nhận phê duyệt khoản vay.\nD. Để quảng bá một dịch vụ mới."
+       "explanation": "Đáp án: D\n\\Mục đích của email là quảng bá một dịch vụ mới.\nDẫn chứng: Email giới thiệu hệ thống nhận diện giọng nói mới của ngân hàng.\nDịch nghĩa:n\\A. Để chào đón một khách hàng mới.\nB. Để báo cáo lỗi tài khoản.n\\C. Để xác nhận phê duyệt khoản vay.\nD. Để quảng bá một dịch vụ mới.",
+       "tags": []
       },
       {
        "number": 165,
@@ -3780,7 +4054,8 @@
         "D": "It is available only during designated hours."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nVIS cung cấp quyền truy cập tài khoản bằng giọng nói.\nDẫn chứng: \"VIS is a fast, convenient, and secure way to access and control your bank accounts by phone.”\nDịch nghĩa:\nA. Nó cung cấp quyền truy cập tài khoản bằng giọng nói.\nB. Nó có thể được sử dụng tại nhiều tổ chức tài chính.\nC. Nó yêu cầu khách hàng trả một khoản phí.\nD. Nó chỉ có sẵn trong giờ hành chính."
+       "explanation": "Đáp án: A.\nVIS cung cấp quyền truy cập tài khoản bằng giọng nói.\nDẫn chứng: \"VIS is a fast, convenient, and secure way to access and control your bank accounts by phone.”\nDịch nghĩa:\nA. Nó cung cấp quyền truy cập tài khoản bằng giọng nói.\nB. Nó có thể được sử dụng tại nhiều tổ chức tài chính.\nC. Nó yêu cầu khách hàng trả một khoản phí.\nD. Nó chỉ có sẵn trong giờ hành chính.",
+       "tags": []
       },
       {
        "number": 166,
@@ -3793,7 +4068,8 @@
         "D": "Send an e-mail to customer service"
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nKhách hàng nên gọi điện để hủy bỏ VIS.\nDẫn chứng: \"simply call to have one of our customer-service representatives delete your identification file.”\nDịch nghĩa:\nA. Đến một chi nhánh ngân hàng địa phương.\nB. Gọi điện thoại.\nC. Điền vào một biểu mẫu trực tuyến.\nD. Gửi email đến dịch vụ khách hàng."
+       "explanation": "Đáp án: B.\nKhách hàng nên gọi điện để hủy bỏ VIS.\nDẫn chứng: \"simply call to have one of our customer-service representatives delete your identification file.”\nDịch nghĩa:\nA. Đến một chi nhánh ngân hàng địa phương.\nB. Gọi điện thoại.\nC. Điền vào một biểu mẫu trực tuyến.\nD. Gửi email đến dịch vụ khách hàng.",
+       "tags": []
       },
       {
        "number": 167,
@@ -3806,7 +4082,8 @@
         "D": "[4]"
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nCâu \"You can perform numerous specific tasks\" phù hợp nhất với vị trí [1].\nDẫn chứng: Câu này nên xuất hiện sau câu giới thiệu về việc sử dụng hệ thống VIS để thực hiện nhiều tác vụ khác nhau."
+       "explanation": "Đáp án: A.\nCâu \"You can perform numerous specific tasks\" phù hợp nhất với vị trí [1].\nDẫn chứng: Câu này nên xuất hiện sau câu giới thiệu về việc sử dụng hệ thống VIS để thực hiện nhiều tác vụ khác nhau.",
+       "tags": []
       }
      ]
     },
@@ -3839,7 +4116,8 @@
         "D": "A free copy of the publisher's catalog"
        },
        "answer": "B",
-       "explanation": "Đáp án: B.n\\Công ty cung cấp chiết khấu khi mua hai cuốn sách trực tuyến.\nDẫn chứng: \"Buy one, get one 50 percent off when you purchase from our Web site.”\nDịch nghĩa:\nA. Một phiếu giảm giá cho sách của một tác giả cụ thể.\nB. Giảm giá khi mua hai cuốn sách trực tuyến.\nC. Giá giảm cho phí vận chuyển.\nD. Một bản sao miễn phí của danh mục của nhà xuất bản."
+       "explanation": "Đáp án: B.n\\Công ty cung cấp chiết khấu khi mua hai cuốn sách trực tuyến.\nDẫn chứng: \"Buy one, get one 50 percent off when you purchase from our Web site.”\nDịch nghĩa:\nA. Một phiếu giảm giá cho sách của một tác giả cụ thể.\nB. Giảm giá khi mua hai cuốn sách trực tuyến.\nC. Giá giảm cho phí vận chuyển.\nD. Một bản sao miễn phí của danh mục của nhà xuất bản.",
+       "tags": []
       },
       {
        "number": 169,
@@ -3852,7 +4130,8 @@
         "D": "A company leader"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nÔng Yamada là một nhà lãnh đạo công ty.\nDẫn chứng: \"A biography of famous executive Haruto Yamada.”\nDịch nghĩa:\nA. Một đặc vụ chính phùn\\B. Một cố vấn nghề nghiệp.\nC. Một nhà viết tiểu sử.\nD. Một nhà lãnh đạo công ty."
+       "explanation": "Đáp án: D.\nÔng Yamada là một nhà lãnh đạo công ty.\nDẫn chứng: \"A biography of famous executive Haruto Yamada.”\nDịch nghĩa:\nA. Một đặc vụ chính phùn\\B. Một cố vấn nghề nghiệp.\nC. Một nhà viết tiểu sử.\nD. Một nhà lãnh đạo công ty.",
+       "tags": []
       },
       {
        "number": 170,
@@ -3865,7 +4144,8 @@
         "D": "They were translated into several languages."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nĐiểm chung của tất cả các cuốn sách là chúng đều tập trung vào các chủ đề kinh doanh.\nDẫn chứng: Các cuốn sách đều liên quan đến sự nghiệp kinh doanh, thương mại, hoặc quản trị.\nDịch nghĩa:\nA. Chúng được viết bởi cùng một tác giả.\nB. Chúng có thể được đọc ở định dạng kỹ thuật số.\nC. Chúng tập trung vào các chủ đề kinh doanh.\nD. Chúng đã được dịch sang nhiều ngôn ngữ."
+       "explanation": "Đáp án: C.\nĐiểm chung của tất cả các cuốn sách là chúng đều tập trung vào các chủ đề kinh doanh.\nDẫn chứng: Các cuốn sách đều liên quan đến sự nghiệp kinh doanh, thương mại, hoặc quản trị.\nDịch nghĩa:\nA. Chúng được viết bởi cùng một tác giả.\nB. Chúng có thể được đọc ở định dạng kỹ thuật số.\nC. Chúng tập trung vào các chủ đề kinh doanh.\nD. Chúng đã được dịch sang nhiều ngôn ngữ.",
+       "tags": []
       },
       {
        "number": 171,
@@ -3878,7 +4158,8 @@
         "D": "Flashback"
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nCuốn sách \"The Connections Unseen\" bao gồm các hình ảnh lịch sử.\nDẫn chứng: \"A collection of transcribed lectures and archival photos from Gloria de Leon's 40-year career.”\nDịch nghĩa:\nA. Maestro.\nB. Working Under Moonbeams.\nC. The Connections Unseen.\nD. Flashback."
+       "explanation": "Đáp án: C.\nCuốn sách \"The Connections Unseen\" bao gồm các hình ảnh lịch sử.\nDẫn chứng: \"A collection of transcribed lectures and archival photos from Gloria de Leon's 40-year career.”\nDịch nghĩa:\nA. Maestro.\nB. Working Under Moonbeams.\nC. The Connections Unseen.\nD. Flashback.",
+       "tags": []
       }
      ]
     },
@@ -3911,7 +4192,8 @@
         "D": "At a telecommunications firm"
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nNhững người viết có khả năng làm việc tại một văn phòng y tế.\nDẫn chứng: Họ tham gia một hội nghị các bác sĩ gia đình và thảo luận về các chi tiết liên quan đến chuyến đi.\nDịch nghĩa:\nA. Tại một đại lý du lịch.\nB. Tại một văn phòng y tế.\nC. Tại một công ty vận tải.\nD. Tại một công ty viễn thông."
+       "explanation": "Đáp án: B.\nNhững người viết có khả năng làm việc tại một văn phòng y tế.\nDẫn chứng: Họ tham gia một hội nghị các bác sĩ gia đình và thảo luận về các chi tiết liên quan đến chuyến đi.\nDịch nghĩa:\nA. Tại một đại lý du lịch.\nB. Tại một văn phòng y tế.\nC. Tại một công ty vận tải.\nD. Tại một công ty viễn thông.",
+       "tags": []
       },
       {
        "number": 173,
@@ -3924,7 +4206,8 @@
         "D": "She is checking staff readiness to host a conference."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nBà Kapoor đang yêu cầu cập nhật về các công việc chuẩn bị cho chuyến đi.\nDẫn chứng: \"Where do we stand?\" có nghĩa là yêu cầu thông tin về tiến trình.\nDịch nghĩa:\nA. Bà ấy đang yêu cầu cập nhật về các công việc chuẩn bị cho chuyến đi.\nB. Bà ấy muốn đánh giá sự quan tâm của đồng nghiệp đối với việc tham dự sự kiện.\nC. Bà ấy đang hỏi về các hoạt động cuối tuần của đồng nghiệp.\nD. Bà ấy đang kiểm tra sự sẵn sàng của nhân viên để tổ chức một hội nghị."
+       "explanation": "Đáp án: A.\nBà Kapoor đang yêu cầu cập nhật về các công việc chuẩn bị cho chuyến đi.\nDẫn chứng: \"Where do we stand?\" có nghĩa là yêu cầu thông tin về tiến trình.\nDịch nghĩa:\nA. Bà ấy đang yêu cầu cập nhật về các công việc chuẩn bị cho chuyến đi.\nB. Bà ấy muốn đánh giá sự quan tâm của đồng nghiệp đối với việc tham dự sự kiện.\nC. Bà ấy đang hỏi về các hoạt động cuối tuần của đồng nghiệp.\nD. Bà ấy đang kiểm tra sự sẵn sàng của nhân viên để tổ chức một hội nghị.",
+       "tags": []
       },
       {
        "number": 174,
@@ -3937,7 +4220,8 @@
         "D": "They are each attending a conference for the first time."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nNhững người viết sẽ đi du lịch cùng nhau.\nDẫn chứng: Họ thảo luận về việc mua vé máy bay và sắp xếp phương tiện di chuyển.\nDịch nghĩa:\nA. Họ sẽ đi du lịch cùng nhau.\nB. Họ đang chuẩn bị một bài thuyết trình.\nC. Họ có dịch vụ điện thoại di động mới.\nD. Họ lần đầu tiên tham dự một hội nghị."
+       "explanation": "Đáp án: A.\nNhững người viết sẽ đi du lịch cùng nhau.\nDẫn chứng: Họ thảo luận về việc mua vé máy bay và sắp xếp phương tiện di chuyển.\nDịch nghĩa:\nA. Họ sẽ đi du lịch cùng nhau.\nB. Họ đang chuẩn bị một bài thuyết trình.\nC. Họ có dịch vụ điện thoại di động mới.\nD. Họ lần đầu tiên tham dự một hội nghị.",
+       "tags": []
       },
       {
        "number": 175,
@@ -3950,7 +4234,8 @@
         "D": "They do not require a Wi-Fi connection."
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nÔng Kim đề xuất sử dụng thẻ SIM vì chúng không yêu cầu kết nối Wi-Fi.\nDẫn chứng: \"We won't have to worry about being connected to Wi-Fi.”\nDịch nghĩa:\nA. Chúng rẻ hơn các gói quốc tế.\nB. Chúng có thể được sử dụng trên bất kỳ thiết bị nào.\nC. Chúng có sẵn tại một cửa hàng điện tử gần đó.\nD. Chúng không yêu cầu kết nối Wi-Fi."
+       "explanation": "Đáp án: D.\nÔng Kim đề xuất sử dụng thẻ SIM vì chúng không yêu cầu kết nối Wi-Fi.\nDẫn chứng: \"We won't have to worry about being connected to Wi-Fi.”\nDịch nghĩa:\nA. Chúng rẻ hơn các gói quốc tế.\nB. Chúng có thể được sử dụng trên bất kỳ thiết bị nào.\nC. Chúng có sẵn tại một cửa hàng điện tử gần đó.\nD. Chúng không yêu cầu kết nối Wi-Fi.",
+       "tags": []
       }
      ]
     },
@@ -3984,7 +4269,8 @@
         "D": "It is a family-run business."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nKhông có thông tin nào cho biết Blissful Horse Stables yêu cầu thời gian lưu trú tối thiểu ba ngày.\nDẫn chứng: Quảng cáo công việc không đề cập đến yêu cầu này.\nDịch nghĩa:\nA. Nó cung cấp dịch vụ chăm sóc ngựa.\nB. Nó yêu cầu thời gian lưu trú tối thiểu ba ngày.\nC. Nó có một cánh đồng cỏ lớn để chăn thả.\nD. Nó là một doanh nghiệp gia đình."
+       "explanation": "Đáp án: B.\nKhông có thông tin nào cho biết Blissful Horse Stables yêu cầu thời gian lưu trú tối thiểu ba ngày.\nDẫn chứng: Quảng cáo công việc không đề cập đến yêu cầu này.\nDịch nghĩa:\nA. Nó cung cấp dịch vụ chăm sóc ngựa.\nB. Nó yêu cầu thời gian lưu trú tối thiểu ba ngày.\nC. Nó có một cánh đồng cỏ lớn để chăn thả.\nD. Nó là một doanh nghiệp gia đình.",
+       "tags": []
       },
       {
        "number": 177,
@@ -3997,7 +4283,8 @@
         "D": "Center"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nTừ \"facility\" trong đoạn văn có nghĩa gần nhất là \"center\" (trung tâm).\nDịch nghĩa:\nA. Đơn giản.\nB. Cơ hội.\nC. Sự cởi mở.\nD. Trung tâm."
+       "explanation": "Đáp án: D.\nTừ \"facility\" trong đoạn văn có nghĩa gần nhất là \"center\" (trung tâm).\nDịch nghĩa:\nA. Đơn giản.\nB. Cơ hội.\nC. Sự cởi mở.\nD. Trung tâm.",
+       "tags": []
       },
       {
        "number": 178,
@@ -4010,7 +4297,8 @@
         "D": "A tourism brochure"
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nColby Today có khả năng là một tờ báo khu vực.\nDẫn chứng: Ông Ota đã đề cập đến \"yesterday's edition of the Colby Today\", cho thấy đây là một ấn phẩm định kỳ.\nDịch nghĩa:\nA. Một tờ báo khu vực.\nB. Một bản tin cho những người nuôi ngựa.\nC. Một chương trình truyền hình.\nD. Một tập quảng bá du lịch."
+       "explanation": "Đáp án: A.\nColby Today có khả năng là một tờ báo khu vực.\nDẫn chứng: Ông Ota đã đề cập đến \"yesterday's edition of the Colby Today\", cho thấy đây là một ấn phẩm định kỳ.\nDịch nghĩa:\nA. Một tờ báo khu vực.\nB. Một bản tin cho những người nuôi ngựa.\nC. Một chương trình truyền hình.\nD. Một tập quảng bá du lịch.",
+       "tags": []
       },
       {
        "number": 179,
@@ -4023,7 +4311,8 @@
         "D": "He is not able to work on weekends."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nÔng Ota có kinh nghiệm làm việc với động vật.\nDẫn chứng: Ông làm việc cho \"Ness Large Animal Clinic as a technician's assistant”.\nDịch nghĩa:\nA. Ông ấy có kinh nghiệm làm việc với động vật.\nB. Ông ấy tốt nghiệp từ một trường học địa phương.\nC. Ông ấy muốn trở thành một nhà báo.\nD. Ông ấy không thể làm việc vào cuối tuần."
+       "explanation": "Đáp án: A.\nÔng Ota có kinh nghiệm làm việc với động vật.\nDẫn chứng: Ông làm việc cho \"Ness Large Animal Clinic as a technician's assistant”.\nDịch nghĩa:\nA. Ông ấy có kinh nghiệm làm việc với động vật.\nB. Ông ấy tốt nghiệp từ một trường học địa phương.\nC. Ông ấy muốn trở thành một nhà báo.\nD. Ông ấy không thể làm việc vào cuối tuần.",
+       "tags": []
       },
       {
        "number": 180,
@@ -4036,7 +4325,8 @@
         "D": "An article about horse care"
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nÔng Ota rất có thể đã đính kèm bản sơ yếu lý lịch của mình vào email.\nDẫn chứng: Quảng cáo công việc yêu cầu \"attach your résumé.”n\\Dịch nghĩa:\nA. Một bằng tốt nghiệp.\nB. Một bản sơ yếu lý lịch.\nC. Một thư giới thiệu.\nD. Một bài báo về chăm sóc ngựa."
+       "explanation": "Đáp án: B.\nÔng Ota rất có thể đã đính kèm bản sơ yếu lý lịch của mình vào email.\nDẫn chứng: Quảng cáo công việc yêu cầu \"attach your résumé.”n\\Dịch nghĩa:\nA. Một bằng tốt nghiệp.\nB. Một bản sơ yếu lý lịch.\nC. Một thư giới thiệu.\nD. Một bài báo về chăm sóc ngựa.",
+       "tags": []
       }
      ]
     },
@@ -4070,7 +4360,8 @@
         "D": "A phone message from Mr. Yoneda"
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nBà Dixon liên hệ với Pink Fern Gardens vì một bài đăng trực tuyến.\nDẫn chứng: \"I saw the callout to local growers on your social media feed.”\nDịch nghĩa:\nA. Một đánh giá tích cực từ khách hàng.\nB. Một bài đăng trực tuyến từ Pink Fern Gardens.\nC. Một bài báo về Pink Fern Gardens.\nD. Một tin nhắn điện thoại từ ông Yoneda."
+       "explanation": "Đáp án: B.\nBà Dixon liên hệ với Pink Fern Gardens vì một bài đăng trực tuyến.\nDẫn chứng: \"I saw the callout to local growers on your social media feed.”\nDịch nghĩa:\nA. Một đánh giá tích cực từ khách hàng.\nB. Một bài đăng trực tuyến từ Pink Fern Gardens.\nC. Một bài báo về Pink Fern Gardens.\nD. Một tin nhắn điện thoại từ ông Yoneda.",
+       "tags": []
       },
       {
        "number": 182,
@@ -4083,7 +4374,8 @@
         "D": "She is president of a gardening club in Helensville."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nBà Dixon đã thành lập một vườn cộng đồng với hàng xóm.\nDẫn chứng: \"I started a large community food garden with my neighbours.”\nDịch nghĩa:\nA. Bà ấy muốn biến sở thích của mình thành một công việc toàn thời gian.\nB. Bà ấy muốn có một công việc bán thời gian tại Pink Fern Gardens.\nC. Bà ấy đã thành lập một vườn cộng đồng với hàng xóm.\nD. Bà ấy là chủ tịch của một câu lạc bộ làm vườn ở Helensville."
+       "explanation": "Đáp án: C.\nBà Dixon đã thành lập một vườn cộng đồng với hàng xóm.\nDẫn chứng: \"I started a large community food garden with my neighbours.”\nDịch nghĩa:\nA. Bà ấy muốn biến sở thích của mình thành một công việc toàn thời gian.\nB. Bà ấy muốn có một công việc bán thời gian tại Pink Fern Gardens.\nC. Bà ấy đã thành lập một vườn cộng đồng với hàng xóm.\nD. Bà ấy là chủ tịch của một câu lạc bộ làm vườn ở Helensville.",
+       "tags": []
       },
       {
        "number": 183,
@@ -4096,7 +4388,8 @@
         "D": "His company ran out of fruit trees to sell."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nNăm ngoái, công ty đã mua một số cây không khỏe mạnh.\nDẫn chứng: \"There is a disease affecting certain varieties, so we must be cautious. We learned our lesson regarding this last autumn!”\nDịch nghĩa:\nA. Một số nhân viên của ông ấy đã nghỉ việc.\nB. Một số cây mà công ty của ông ấy mua bị bệnh.\nC. Công ty của ông ấy đã nhận được giấy phép xuất khẩu cây cam quýt.\nD. Công ty của ông ấy đã hết cây ăn quả để bán."
+       "explanation": "Đáp án: B.\nNăm ngoái, công ty đã mua một số cây không khỏe mạnh.\nDẫn chứng: \"There is a disease affecting certain varieties, so we must be cautious. We learned our lesson regarding this last autumn!”\nDịch nghĩa:\nA. Một số nhân viên của ông ấy đã nghỉ việc.\nB. Một số cây mà công ty của ông ấy mua bị bệnh.\nC. Công ty của ông ấy đã nhận được giấy phép xuất khẩu cây cam quýt.\nD. Công ty của ông ấy đã hết cây ăn quả để bán.",
+       "tags": []
       },
       {
        "number": 184,
@@ -4109,7 +4402,8 @@
         "D": "Bring some plants to Pink Fern Gardens"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nÔng Yoneda yêu cầu bà Dixon mang một số cây đến Pink Fern Gardens.\nDẫn chứng: \"Please stop by at your convenience with samples of your offerings.”\nDịch nghĩa:\nA. Gửi cho ông ấy một danh sách vật tư.\nB. Liên hệ với một nhà trồng độc lập.\nC. Mua hạt giống từ Pink Fern Gardens.\nD. Mang một số cây đến Pink Fern Gardens."
+       "explanation": "Đáp án: D.\nÔng Yoneda yêu cầu bà Dixon mang một số cây đến Pink Fern Gardens.\nDẫn chứng: \"Please stop by at your convenience with samples of your offerings.”\nDịch nghĩa:\nA. Gửi cho ông ấy một danh sách vật tư.\nB. Liên hệ với một nhà trồng độc lập.\nC. Mua hạt giống từ Pink Fern Gardens.\nD. Mang một số cây đến Pink Fern Gardens.",
+       "tags": []
       },
       {
        "number": 185,
@@ -4122,7 +4416,8 @@
         "D": "$2.00"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nÔng Yoneda sẽ trả 2 đô la cho một cây giống chậu của bà Dixon.\nDẫn chứng: \"herbs for cooking, especially oregano, mint, and rosemary ($2).”\nDịch nghĩa:\nA. 8 đô la.\nB. 6 đô la.\nC. 5 đô la.\nD. 2 đô la."
+       "explanation": "Đáp án: D.\nÔng Yoneda sẽ trả 2 đô la cho một cây giống chậu của bà Dixon.\nDẫn chứng: \"herbs for cooking, especially oregano, mint, and rosemary ($2).”\nDịch nghĩa:\nA. 8 đô la.\nB. 6 đô la.\nC. 5 đô la.\nD. 2 đô la.",
+       "tags": []
       }
      ]
     },
@@ -4156,7 +4451,8 @@
         "D": "It requires full payment before work can begin."
        },
        "answer": "C",
-       "explanation": "Đáp án: C.\nElektroproof Repair đã trải qua sự gia tăng đột ngột về khối lượng công việc.\nDẫn chứng: \"a dramatic increase in demand.”\nDịch nghĩa:\nA. Nó đã tăng giá gần đây.\nB. Nó đang thuê thêm kỹ thuật viên sửa chữa.\nC. Nó đã trải qua sự gia tăng đột ngột về công việc.\nD. Nó yêu cầu thanh toán đầy đủ trước khi bắt đầu làm việc."
+       "explanation": "Đáp án: C.\nElektroproof Repair đã trải qua sự gia tăng đột ngột về khối lượng công việc.\nDẫn chứng: \"a dramatic increase in demand.”\nDịch nghĩa:\nA. Nó đã tăng giá gần đây.\nB. Nó đang thuê thêm kỹ thuật viên sửa chữa.\nC. Nó đã trải qua sự gia tăng đột ngột về công việc.\nD. Nó yêu cầu thanh toán đầy đủ trước khi bắt đầu làm việc.",
+       "tags": []
       },
       {
        "number": 187,
@@ -4169,7 +4465,8 @@
         "D": "On January 19"
        },
        "answer": "D",
-       "explanation": "Đáp án: D\ntừ khóa “earliest date”, trong email có thông tin “The earliest available time slot is 8:00 A.M. on January 19.” (Khoảng thời gian sớm nhất còn trống là 8 giờ sáng ngày 19 tháng 1.) chứa đáp án.→ (D) là phương án phù hợp nhất.tháng 1.\nDịch nghĩa:\nA. Vào ngày 14 tháng 1.\nB. Vào ngày 15 tháng 1.\nC. Vào ngày 18 tháng 1.\nD. Vào ngày 19 tháng 1."
+       "explanation": "Đáp án: D\ntừ khóa “earliest date”, trong email có thông tin “The earliest available time slot is 8:00 A.M. on January 19.” (Khoảng thời gian sớm nhất còn trống là 8 giờ sáng ngày 19 tháng 1.) chứa đáp án.→ (D) là phương án phù hợp nhất.tháng 1.\nDịch nghĩa:\nA. Vào ngày 14 tháng 1.\nB. Vào ngày 15 tháng 1.\nC. Vào ngày 18 tháng 1.\nD. Vào ngày 19 tháng 1.",
+       "tags": []
       },
       {
        "number": 188,
@@ -4182,7 +4479,8 @@
         "D": "He delivers repaired equipment."
        },
        "answer": "A",
-       "explanation": "Đáp án: A\nTrong bài đánh giá, có thông tin “Within an hour, I got an e-mail directly from the owner.” (Trong vòng một giờ, tôi nhận được e-mail trực tiếp từ người chủ.) Vì người ký email là ông Jacquet nên suy ra ông đã viết nó, và bà Nelson nói rằng email bà nhận được là từ ông chủ, điều này có nghĩa là ông Jacquet là chủ sở hữu của doanh nghiệp. Dịch nghĩa:\nA. Ông ấy sở hữu doanh nghiệp.\nB. Ông ấy là một kỹ thuật viên.\nC. Ông ấy là một lễ tân.\nD. Ông ấy giao thiết bị đã sửa chữa."
+       "explanation": "Đáp án: A\nTrong bài đánh giá, có thông tin “Within an hour, I got an e-mail directly from the owner.” (Trong vòng một giờ, tôi nhận được e-mail trực tiếp từ người chủ.) Vì người ký email là ông Jacquet nên suy ra ông đã viết nó, và bà Nelson nói rằng email bà nhận được là từ ông chủ, điều này có nghĩa là ông Jacquet là chủ sở hữu của doanh nghiệp. Dịch nghĩa:\nA. Ông ấy sở hữu doanh nghiệp.\nB. Ông ấy là một kỹ thuật viên.\nC. Ông ấy là một lễ tân.\nD. Ông ấy giao thiết bị đã sửa chữa.",
+       "tags": []
       },
       {
        "number": 189,
@@ -4195,7 +4493,8 @@
         "D": "That its operating system had a virus"
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nMối quan tâm chính của bà Nelson về laptop của bà là các bộ phận bên trong có thể bị hỏng.\nDẫn chứng: \"I was afraid the internal components might have been ruined.”\nDịch nghĩa:\nA. Các bộ phận bên trong có thể bị hỏng.n\\B. Nó quá cũ để sửa chữa.\nC. Nó phản hồi quá chậm.\nD. Hệ điều hành của nó có vi-rút."
+       "explanation": "Đáp án: A.\nMối quan tâm chính của bà Nelson về laptop của bà là các bộ phận bên trong có thể bị hỏng.\nDẫn chứng: \"I was afraid the internal components might have been ruined.”\nDịch nghĩa:\nA. Các bộ phận bên trong có thể bị hỏng.n\\B. Nó quá cũ để sửa chữa.\nC. Nó phản hồi quá chậm.\nD. Hệ điều hành của nó có vi-rút.",
+       "tags": []
       },
       {
        "number": 190,
@@ -4208,7 +4507,8 @@
         "D": "It required an upgrade to the hard drive."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nViệc sửa chữa đã được hoàn thành nhanh hơn so với quảng cáo.\nDẫn chứng: \"Elektroproof Repair had my laptop fully functional and back in my hands within 24 hours.”\nDịch nghĩa:\nA. Nó bao gồm cài đặt phần mềm hệ điều hành mới.\nB. Nó được hoàn thành nhanh hơn so với quảng cáo.\nC. Nó liên quan đến việc thay thế các mạch bên trong.\nD. Nó yêu cầu nâng cấp ổ cứng."
+       "explanation": "Đáp án: B.\nViệc sửa chữa đã được hoàn thành nhanh hơn so với quảng cáo.\nDẫn chứng: \"Elektroproof Repair had my laptop fully functional and back in my hands within 24 hours.”\nDịch nghĩa:\nA. Nó bao gồm cài đặt phần mềm hệ điều hành mới.\nB. Nó được hoàn thành nhanh hơn so với quảng cáo.\nC. Nó liên quan đến việc thay thế các mạch bên trong.\nD. Nó yêu cầu nâng cấp ổ cứng.",
+       "tags": []
       }
      ]
     },
@@ -4242,7 +4542,8 @@
         "D": "To announce a new location"
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nMục đích của quảng cáo là để quảng bá các bài học đàn guitar.\nDẫn chứng: \"Alexis Instruments will offer group and individual guitar instruction.”\nDịch nghĩa:\nA. Để bán đàn guitar.\nB. Để quảng bá các bài học.\nC. Để thu hút giáo viên âm nhạc.\nD. Để thông báo về một địa điểm mới."
+       "explanation": "Đáp án: B.\nMục đích của quảng cáo là để quảng bá các bài học đàn guitar.\nDẫn chứng: \"Alexis Instruments will offer group and individual guitar instruction.”\nDịch nghĩa:\nA. Để bán đàn guitar.\nB. Để quảng bá các bài học.\nC. Để thu hút giáo viên âm nhạc.\nD. Để thông báo về một địa điểm mới.",
+       "tags": []
       },
       {
        "number": 192,
@@ -4255,7 +4556,8 @@
         "D": "It has extended its hours of operation."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nCửa hàng nơi bà Towers làm việc đã được cải tạo.\nDẫn chứng: \"Each of our locations has been updated with newly constructed classrooms and practice rooms.”\nDịch nghĩa:\nA. Nó đã được cải tạo.n\\B. Nó đang tuyển dụng thêm nhân viên.\nC. Nó có nhiều hàng tồn kho hơn các địa điểm khác.\nD. Nó đã kéo dài giờ hoạt động."
+       "explanation": "Đáp án: A.\nCửa hàng nơi bà Towers làm việc đã được cải tạo.\nDẫn chứng: \"Each of our locations has been updated with newly constructed classrooms and practice rooms.”\nDịch nghĩa:\nA. Nó đã được cải tạo.n\\B. Nó đang tuyển dụng thêm nhân viên.\nC. Nó có nhiều hàng tồn kho hơn các địa điểm khác.\nD. Nó đã kéo dài giờ hoạt động.",
+       "tags": []
       },
       {
        "number": 193,
@@ -4268,7 +4570,8 @@
         "D": "It is the only one of its model currently available."
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nChiếc đàn guitar là chiếc duy nhất của mẫu này còn có sẵn.\nDẫn chứng: \"We have only one guitar of the model you want in stock.”\nDịch nghĩa:\nA. Nó cần được sửa chữa.\nB. Nó đã được đặt trên một kệ ở cửa hàng Chico.\nC. Nó đã từng thuộc về một khách hàng của Alexis Instruments.\nD. Nó là chiếc duy nhất của mẫu này còn có sẵn."
+       "explanation": "Đáp án: D.\nChiếc đàn guitar là chiếc duy nhất của mẫu này còn có sẵn.\nDẫn chứng: \"We have only one guitar of the model you want in stock.”\nDịch nghĩa:\nA. Nó cần được sửa chữa.\nB. Nó đã được đặt trên một kệ ở cửa hàng Chico.\nC. Nó đã từng thuộc về một khách hàng của Alexis Instruments.\nD. Nó là chiếc duy nhất của mẫu này còn có sẵn.",
+       "tags": []
       },
       {
        "number": 194,
@@ -4281,7 +4584,8 @@
         "D": "She purchased the floor model."
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nBà Rivera đã mua mô hình trưng bày.\nDẫn chứng: Văn bản không đề cập đến việc bà yêu cầu hoàn lại tiền hoặc hủy đơn hàng, điều này cho thấy bà đã chọn mua mô hình trưng bày.\nDịch nghĩa:\nA. Bà ấy đã làm hỏng cây đàn guitar của mình.\nB. Bà ấy đã yêu cầu hoàn lại tiền.\nC. Bà ấy trước đây đã tham gia một lớp học trực tuyến.\nD. Bà ấy đã mua mô hình trưng bày."
+       "explanation": "Đáp án: D.\nBà Rivera đã mua mô hình trưng bày.\nDẫn chứng: Văn bản không đề cập đến việc bà yêu cầu hoàn lại tiền hoặc hủy đơn hàng, điều này cho thấy bà đã chọn mua mô hình trưng bày.\nDịch nghĩa:\nA. Bà ấy đã làm hỏng cây đàn guitar của mình.\nB. Bà ấy đã yêu cầu hoàn lại tiền.\nC. Bà ấy trước đây đã tham gia một lớp học trực tuyến.\nD. Bà ấy đã mua mô hình trưng bày.",
+       "tags": []
       },
       {
        "number": 195,
@@ -4294,7 +4598,8 @@
         "D": "It was founded by a professional musician."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nAlexis Instruments sửa chữa nhạc cụ trong các cửa hàng của mình.\nDẫn chứng: \"Three-year repair and maintenance plan, good at any Alexis Instruments location.”\nDịch nghĩa:\nA. Nó sửa chữa nhạc cụ tại các cửa hàng của mình.\nB. Nó có hai cửa hàng ở Santa Barbara.\nC. Nó đang tổ chức một đợt giảm giá hàng năm.\nD. Nó được thành lập bởi một nhạc sĩ chuyên nghiệp."
+       "explanation": "Đáp án: A.\nAlexis Instruments sửa chữa nhạc cụ trong các cửa hàng của mình.\nDẫn chứng: \"Three-year repair and maintenance plan, good at any Alexis Instruments location.”\nDịch nghĩa:\nA. Nó sửa chữa nhạc cụ tại các cửa hàng của mình.\nB. Nó có hai cửa hàng ở Santa Barbara.\nC. Nó đang tổ chức một đợt giảm giá hàng năm.\nD. Nó được thành lập bởi một nhạc sĩ chuyên nghiệp.",
+       "tags": []
       }
      ]
     },
@@ -4328,7 +4633,8 @@
         "D": "Its next staff training will take place in ten days."
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nBảo tàng nghệ thuật Mirabel tuyển giáo viên mỹ thuật để dẫn các chuyến tham quan.\nDẫn chứng: \"Lead group tour\" nằm trong lịch trình hoạt động của bảo tàng.\nDịch nghĩa:\nA. Nó thuê giáo viên mỹ thuật để dẫn các chuyến tham quan.\nB. Nó cung cấp các chuyến tham quan riêng cho thành viên bảo tàng.\nC. Các lớp học mỹ thuật của nó miễn phí cho công chúng.\nD. Buổi đào tạo nhân viên tiếp theo của nó sẽ diễn ra trong mười ngày nữa."
+       "explanation": "Đáp án: A.\nBảo tàng nghệ thuật Mirabel tuyển giáo viên mỹ thuật để dẫn các chuyến tham quan.\nDẫn chứng: \"Lead group tour\" nằm trong lịch trình hoạt động của bảo tàng.\nDịch nghĩa:\nA. Nó thuê giáo viên mỹ thuật để dẫn các chuyến tham quan.\nB. Nó cung cấp các chuyến tham quan riêng cho thành viên bảo tàng.\nC. Các lớp học mỹ thuật của nó miễn phí cho công chúng.\nD. Buổi đào tạo nhân viên tiếp theo của nó sẽ diễn ra trong mười ngày nữa.",
+       "tags": []
       },
       {
        "number": 197,
@@ -4341,7 +4647,8 @@
         "D": "Some of his artwork was exhibited in September."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nHóa đơn cho thấy ông Merriweather có chuyên môn trong nhiều loại hình nghệ thuật.\nDẫn chứng: Ông đã dạy một lớp học vẽ và một lớp điêu khắc.\nDịch nghĩa:\nA. Ông ấy đã làm việc tại bảo tàng vào ngày 30 tháng 9.\nB. Ông ấy có chuyên môn trong nhiều loại hình nghệ thuật.\nC. Một trong các lớp học mỹ thuật của ông ấy đã bị hủy.\nD. Một số tác phẩm nghệ thuật của ông ấy đã được triển lãm vào tháng 9."
+       "explanation": "Đáp án: B.\nHóa đơn cho thấy ông Merriweather có chuyên môn trong nhiều loại hình nghệ thuật.\nDẫn chứng: Ông đã dạy một lớp học vẽ và một lớp điêu khắc.\nDịch nghĩa:\nA. Ông ấy đã làm việc tại bảo tàng vào ngày 30 tháng 9.\nB. Ông ấy có chuyên môn trong nhiều loại hình nghệ thuật.\nC. Một trong các lớp học mỹ thuật của ông ấy đã bị hủy.\nD. Một số tác phẩm nghệ thuật của ông ấy đã được triển lãm vào tháng 9.",
+       "tags": []
       },
       {
        "number": 198,
@@ -4354,7 +4661,8 @@
         "D": "120 minutes"
        },
        "answer": "D",
-       "explanation": "Đáp án: D.\nLớp điêu khắc mà ông Merriweather dạy kéo dài 120 phút.\nDẫn chứng: \"Class: Sculpting with Clay\" có thời lượng 120 phút và mức phí tương ứng.\nDịch nghĩa:\nA. 60 phút.\nB. 75 phút.\nC. 90 phút.\nD. 120 phút."
+       "explanation": "Đáp án: D.\nLớp điêu khắc mà ông Merriweather dạy kéo dài 120 phút.\nDẫn chứng: \"Class: Sculpting with Clay\" có thời lượng 120 phút và mức phí tương ứng.\nDịch nghĩa:\nA. 60 phút.\nB. 75 phút.\nC. 90 phút.\nD. 120 phút.",
+       "tags": []
       },
       {
        "number": 199,
@@ -4367,7 +4675,8 @@
         "D": "Director of the Mirabel Museum of Art"
        },
        "answer": "A",
-       "explanation": "Đáp án: A.\nBà Swann rất có thể là một nhân viên kế toán.\nDẫn chứng: Bà Choi cho biết bà Swann đang xử lý hóa đơn của ông Merriweather.\nDịch nghĩa:\nA. Một nhân viên kế toán.\nB. Một giáo viên mỹ thuật.\nC. Trợ lý của ông Merriweather.\nD. Giám đốc bảo tàng nghệ thuật Mirabel."
+       "explanation": "Đáp án: A.\nBà Swann rất có thể là một nhân viên kế toán.\nDẫn chứng: Bà Choi cho biết bà Swann đang xử lý hóa đơn của ông Merriweather.\nDịch nghĩa:\nA. Một nhân viên kế toán.\nB. Một giáo viên mỹ thuật.\nC. Trợ lý của ông Merriweather.\nD. Giám đốc bảo tàng nghệ thuật Mirabel.",
+       "tags": []
       },
       {
        "number": 200,
@@ -4380,7 +4689,8 @@
         "D": "She rejected Mr. Merriweather's October invoice."
        },
        "answer": "B",
-       "explanation": "Đáp án: B.\nBà Choi tin rằng ông Merriweather đang nợ 200 đô la.\nDẫn chứng: Bà yêu cầu ông gửi hóa đơn thứ hai để nhận khoản thanh toán cho phần phát triển chương trình giảng dạy của lớp điêu khắc.\nDịch nghĩa:\nA. Bà ấy quên đọc một số phiếu phản hồi của học sinh.\nB. Bà ấy tin rằng ông Merriweather đang nợ 200 đô la.\nC. Bà ấy gặp các giáo viên một lần mỗi tháng.n\\D. Bà ấy đã từ chối hóa đơn tháng 10 của ông Merriweather."
+       "explanation": "Đáp án: B.\nBà Choi tin rằng ông Merriweather đang nợ 200 đô la.\nDẫn chứng: Bà yêu cầu ông gửi hóa đơn thứ hai để nhận khoản thanh toán cho phần phát triển chương trình giảng dạy của lớp điêu khắc.\nDịch nghĩa:\nA. Bà ấy quên đọc một số phiếu phản hồi của học sinh.\nB. Bà ấy tin rằng ông Merriweather đang nợ 200 đô la.\nC. Bà ấy gặp các giáo viên một lần mỗi tháng.n\\D. Bà ấy đã từ chối hóa đơn tháng 10 của ông Merriweather.",
+       "tags": []
       }
      ]
     }

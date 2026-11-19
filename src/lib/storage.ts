@@ -99,8 +99,52 @@ export interface DictationEvent {
 }
 const dictationStore = createStore<DictationEvent[]>("toeic:dictation", []);
 export const useDictation = dictationStore.useValue;
-export function recordDictation(e: DictationEvent) {
-  dictationStore.write([e, ...dictationStore.read()].slice(0, 1000));
+export function recordDictation(e: Omit<DictationEvent, "at">) {
+  dictationStore.write([{ ...e, at: Date.now() }, ...dictationStore.read()].slice(0, 1000));
+}
+
+// ---- từ vựng: hộp Leitner cho từng từ + số thẻ ôn mỗi ngày ----
+export interface VocabCard {
+  /** 1..VOCAB_INTERVALS.length; vượt quá = đã thuộc */
+  box: number;
+  due: number;
+  lastAt: number;
+  reviews: number;
+  lapses: number;
+}
+/** Khoảng cách ôn (ngày) theo hộp 1..5 */
+export const VOCAB_INTERVALS = [1, 3, 7, 14, 30];
+const DAY = 86_400_000;
+const vocabStore = createStore<Record<string, VocabCard>>("toeic:vocab", {});
+export const useVocabCards = vocabStore.useValue;
+const vocabLogStore = createStore<Record<string, number>>("toeic:vocab-log", {});
+export const useVocabLog = vocabLogStore.useValue;
+
+export function dayKey(t: number) {
+  const d = new Date(t);
+  return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+}
+
+/** Ghi kết quả ôn một thẻ. remembered=false → về hộp 1, ôn lại sau 10 phút */
+export function reviewVocab(word: string, remembered: boolean) {
+  const now = Date.now();
+  const cards = vocabStore.read();
+  const cur = cards[word] ?? { box: 0, due: now, lastAt: now, reviews: 0, lapses: 0 };
+  const box = remembered ? cur.box + 1 : 1;
+  const due = remembered ? now + VOCAB_INTERVALS[Math.min(box, VOCAB_INTERVALS.length) - 1] * DAY : now + 10 * 60_000;
+  vocabStore.write({
+    ...cards,
+    [word]: { box, due, lastAt: now, reviews: cur.reviews + 1, lapses: cur.lapses + (remembered ? 0 : 1) },
+  });
+  const log = vocabLogStore.read();
+  const k = dayKey(now);
+  vocabLogStore.write({ ...log, [k]: (log[k] ?? 0) + 1 });
+}
+
+export function resetVocab(word: string) {
+  const { [word]: _removed, ...rest } = vocabStore.read();
+  void _removed;
+  vocabStore.write(rest);
 }
 
 // ---- tiến độ bài đang làm (tự lưu để reload không mất) ----

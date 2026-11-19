@@ -5,6 +5,8 @@
 Ghi   content/tests/<năm>-<testN>.json   (mỗi đề 1 file, đã chuẩn hoá)
       content/tests/index.json           (danh sách đề + trạng thái dữ liệu)
       content/etl-report.md              (báo cáo lỗi / cảnh báo)
+      content/bank/*.json                (câu Part 2/5 theo dạng — xem scripts/enrich.py)
+      content/vocab.json                 (từ vựng trích từ phần giải thích)
 
 Chỉ dùng thư viện chuẩn của Python 3.9+.
 
@@ -25,6 +27,8 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+
+from enrich import tag_question, write_extras
 
 # ---------------------------------------------------------------------------
 # Hằng số định dạng đề TOEIC
@@ -464,6 +468,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                     "answer": r["answer"],
                     "explanation": r["explanation"],
                 }
+                q["tags"] = tag_question(q)
                 if part not in GROUPED_PARTS and r["transcript"]:
                     q["transcript"] = r["transcript"]
                 group["questions"].append(q)
@@ -589,6 +594,8 @@ def main() -> int:
             for t in tests
         ]
         (out_tests / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
+        extras = write_extras(tests, args.out)
+        print(f"Ngân hàng theo dạng: {len(extras['tags'])} nhóm | Từ vựng: {extras['vocab']} từ")
     report_path = args.out / "etl-report.md"
     write_report(report_path, tests, report)
 

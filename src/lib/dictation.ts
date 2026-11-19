@@ -90,3 +90,49 @@ export function normalizeWord(s: string) {
     .replace(/[’‘]/g, "'")
     .replace(/[^\p{L}\p{N}'-]/gu, "");
 }
+
+// ---------------------------------------------------------------------------
+// Chế độ chép cả câu: so khớp từng từ bằng LCS
+// ---------------------------------------------------------------------------
+export type DiffOp = { type: "ok" | "miss" | "extra"; text: string };
+
+export function diffWords(reference: string, input: string): { ops: DiffOp[]; correct: number; total: number } {
+  const ref = reference.split(/\s+/).filter(Boolean);
+  const inp = input.split(/\s+/).filter(Boolean);
+  const a = ref.map(normalizeWord);
+  const b = inp.map(normalizeWord);
+  const n = a.length;
+  const m = b.length;
+  // bảng LCS
+  const dp: number[][] = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--)
+    for (let j = m - 1; j >= 0; j--) dp[i][j] = a[i] && a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const ops: DiffOp[] = [];
+  let i = 0;
+  let j = 0;
+  while (i < n || j < m) {
+    if (i < n && j < m && a[i] && a[i] === b[j]) {
+      ops.push({ type: "ok", text: ref[i] });
+      i++;
+      j++;
+    } else if (j < m && (i >= n || dp[i][j + 1] >= dp[i + 1][j])) {
+      ops.push({ type: "extra", text: inp[j] });
+      j++;
+    } else {
+      // từ chỉ là dấu câu (normalize rỗng) thì coi như đúng
+      ops.push({ type: a[i] ? "miss" : "ok", text: ref[i] });
+      i++;
+    }
+  }
+  const total = a.filter(Boolean).length;
+  const correct = ops.filter((o) => o.type === "ok" && normalizeWord(o.text)).length;
+  return { ops, correct, total };
+}
+
+/** Gợi ý: giữ chữ cái đầu mỗi từ, phần còn lại thành dấu gạch */
+export function hintOf(text: string) {
+  return text
+    .split(/(\s+)/)
+    .map((w) => w.replace(/^([^\p{L}\p{N}]*[\p{L}\p{N}])([\p{L}\p{N}'’-]*)/u, (_, first: string, rest: string) => first + "_".repeat(rest.length)))
+    .join("");
+}

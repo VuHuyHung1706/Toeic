@@ -1,8 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useAttempts, useDictation, useReviews } from "@/lib/storage";
-import { PARTS, formatDuration } from "@/lib/toeic";
+import { useAttempts, useDictation, useReviews, useVocabLog } from "@/lib/storage";
+import { PARTS, formatDuration, predictScore, type SkillPrediction } from "@/lib/toeic";
 import type { Attempt, PartNo } from "@/lib/types";
 
 const DAY = 86_400_000;
@@ -22,6 +22,7 @@ export default function ProgressDashboard() {
   const attempts = useAttempts();
   const reviews = useReviews();
   const dictation = useDictation();
+  const vocabLog = useVocabLog();
   // "hôm nay" cố định cho lần mở trang (render phải thuần, không gọi Date.now trong render)
   const [today] = useState(() => startOfDay(Date.now()));
 
@@ -49,6 +50,8 @@ export default function ProgressDashboard() {
     }
     for (const list of Object.values(reviews)) for (const r of list) add(r.at, 1);
     for (const d of dictation) add(d.at, 1);
+    // nhật ký ôn thẻ từ vựng đã được gộp theo ngày (khoá "yyyy-m-d")
+    for (const [k, n] of Object.entries(vocabLog)) activity.set(k, (activity.get(k) ?? 0) + n);
 
     // chuỗi ngày học liên tiếp (tính đến hôm nay, hoặc hôm qua nếu hôm nay chưa học)
     let streak = 0;
@@ -59,7 +62,8 @@ export default function ProgressDashboard() {
       t -= DAY;
     }
     return { activity, answered, presented, correct, seconds, byPart, streak };
-  }, [attempts, reviews, dictation, today]);
+  }, [attempts, reviews, dictation, vocabLog, today]);
+  const prediction = useMemo(() => predictScore(attempts, today), [attempts, today]);
 
   const fulls = attempts.filter((a) => a.mode === "full").slice().reverse();
 
@@ -71,6 +75,8 @@ export default function ProgressDashboard() {
         <Stat label="Thời gian làm bài" value={formatDuration(stats.seconds)} />
         <Stat label="Chuỗi ngày học" value={`${stats.streak} ngày`} />
       </div>
+
+      <PredictionCard prediction={prediction} />
 
       <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
         <section className="rounded-xl border border-line bg-surface p-5">
@@ -106,10 +112,50 @@ export default function ProgressDashboard() {
 
       <section className="rounded-xl border border-line bg-surface p-5">
         <h2 className="font-semibold">Lịch học {WEEKS} tuần gần nhất</h2>
-        <p className="text-xs text-muted">Ô càng đậm, ngày đó làm càng nhiều câu (gồm thi thử, luyện tập, ôn câu sai, luyện nghe)</p>
+        <p className="text-xs text-muted">Ô càng đậm, ngày đó học càng nhiều (câu hỏi, đoạn nghe chép, thẻ từ vựng)</p>
         <Heatmap activity={stats.activity} today={today} />
       </section>
     </div>
+  );
+}
+
+function PredictionCard({ prediction }: { prediction: ReturnType<typeof predictScore> }) {
+  const { listening, reading, total, windowDays } = prediction;
+  const note = (p: SkillPrediction | null, name: string) =>
+    !p
+      ? `${name}: cần làm thêm ít nhất 20 câu để dự đoán`
+      : `${name}: ~${p.expectedCorrect}/100 câu đúng, dựa trên ${p.basis} câu` +
+        (p.estimatedParts.length ? ` (Part ${p.estimatedParts.join(", ")} ước theo tỉ lệ chung)` : "");
+  const skills: [string, SkillPrediction | null][] = [
+    ["Listening", listening],
+    ["Reading", reading],
+  ];
+  return (
+    <section className="flex flex-wrap items-center gap-6 rounded-xl border border-line bg-surface p-5">
+      <div>
+        <div className="text-sm text-muted">Điểm dự đoán nếu thi hôm nay</div>
+        <div className="text-4xl font-bold tabular-nums">
+          {total ?? "—"}
+          <span className="text-lg font-medium text-muted"> / 990</span>
+        </div>
+      </div>
+      <div className="flex gap-3">
+        {skills.map(([label, p]) => (
+          <div key={label} className="rounded-lg bg-surface-2 px-4 py-2">
+            <div className="text-xs text-muted">{label}</div>
+            <div className="text-xl font-bold tabular-nums">{p?.score ?? "—"}</div>
+          </div>
+        ))}
+      </div>
+      <div className="min-w-60 flex-1 text-xs leading-5 text-muted">
+        <div>{note(listening, "Listening")}</div>
+        <div>{note(reading, "Reading")}</div>
+        <div>
+          Tính từ bài làm {windowDays} ngày gần nhất: tỉ lệ đúng từng part × số câu của part trong đề thật, quy đổi theo bảng ước
+          lượng.
+        </div>
+      </div>
+    </section>
   );
 }
 

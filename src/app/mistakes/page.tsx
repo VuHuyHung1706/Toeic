@@ -9,8 +9,8 @@ export default function MistakesPage() {
     <main className="mx-auto w-full max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold">Sổ câu sai</h1>
       <p className="mt-2 text-muted">
-        Tự động gom các câu bạn làm sai trong thi thử và luyện tập. Làm đúng lại một câu thì câu đó được chuyển sang “đã khắc
-        phục”.
+        Tự động gom các câu bạn làm sai trong thi thử, luyện tập và luyện theo dạng, rồi hẹn ngày ôn lại theo kiểu ôn tập
+        ngắt quãng cho tới khi thuộc.
       </p>
       <ClientOnly fallback={<p className="mt-8 text-muted">Đang tải…</p>}>
         <MistakeBook />

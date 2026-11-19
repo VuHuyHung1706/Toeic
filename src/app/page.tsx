@@ -47,8 +47,11 @@ export default async function Home() {
       <section className="mt-16 grid gap-3 md:grid-cols-3">
         {[
           ["/tests", "Thi thử & luyện đề", "200 câu bấm giờ như phòng thi, hoặc luyện riêng từng part kèm giải thích."],
-          ["/listening", "Luyện nghe điền từ", "Nghe audio Part 1–4 và điền từ còn thiếu trong script, 3 mức độ khó."],
-          ["/mistakes", "Sổ câu sai", "Tự gom câu làm sai để luyện lại tới khi làm đúng."],
+          ["/practice", "Luyện theo dạng câu", "Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 50 đề."],
+          ["/listening", "Luyện nghe chép chính tả", "Điền từ còn thiếu hoặc chép lại cả câu từ audio Part 1–4."],
+          ["/vocabulary", "Từ vựng TOEIC", "Hơn 1.400 từ trích từ đề, học bằng thẻ ghi nhớ với lịch ôn ngắt quãng."],
+          ["/mistakes", "Sổ câu sai", "Tự gom câu làm sai và hẹn ngày ôn lại tới khi thuộc."],
+          ["/history", "Tiến độ & điểm dự đoán", "Biểu đồ điểm, tỉ lệ đúng từng part, lịch học và điểm dự đoán."],
         ].map(([href, title, desc]) => (
           <Link key={href} href={href} className="rounded-xl border border-line bg-surface p-5 transition hover:border-primary">
             <div className="font-semibold">{title} →</div>
