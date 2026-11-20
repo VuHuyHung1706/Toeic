@@ -143,6 +143,39 @@ function ExamSession({
     return () => window.removeEventListener("beforeunload", h);
   }, [phase]);
 
+  // ---------------- chế độ tập trung ----------------
+  // đang làm bài: ẩn menu trang web (chỉ trong phòng thi; màn giới thiệu và các trang khác vẫn có menu)
+  useEffect(() => {
+    if (phase === "intro") return;
+    document.documentElement.dataset.exam = "1";
+    return () => {
+      delete document.documentElement.dataset.exam;
+    };
+  }, [phase]);
+
+  // chiều cao thanh thi (đổi theo màn hình / có thanh audio) → vị trí dính của bài đọc và bảng câu hỏi
+  const barRef = useRef<HTMLDivElement>(null);
+  const [barH, setBarH] = useState(96);
+  useEffect(() => {
+    const el = barRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setBarH(Math.round(el.getBoundingClientRect().height)));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [phase]);
+
+  // ngăn bảng câu: mở ra thì cuộn tới câu đang làm; Esc để đóng
+  const navPanelRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!navOpen) return;
+    navPanelRef.current?.querySelector("[data-current]")?.scrollIntoView({ block: "center" });
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setNavOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [navOpen]);
+
   // ---------------- điều hướng ----------------
   const goTo = useCallback(
     (gi: number, n?: number) => {
@@ -220,6 +253,10 @@ function ExamSession({
 
   const group = groups[groupIndex];
   const practiceAudio = mode === "practice" && !!group && group.part <= 4;
+  const showScriptNow = !!group && instant && group.questionNumbers.every((n) => answers[n]);
+  // nhóm có cột ảnh/bài đọc (cùng điều kiện với GroupView) → nội dung trải rộng; không có → căn giữa
+  const sideCol =
+    !!group && (group.images.some((i) => i.src) || (group.passages.some((p) => p.en || p.vi) && (group.part > 4 || showScriptNow)));
   const title = mode === "full" ? "Thi thử" : `Luyện tập · Part ${parts.join(", ")}`;
 
   // ---------------- giao diện ----------------
@@ -295,8 +332,18 @@ function ExamSession({
     {audioEl}
     <div className="flex flex-1 flex-col">
       {/* thanh trên */}
-      <div className="sticky top-0 z-20 border-b border-line bg-surface sm:top-14">
+      <div ref={barRef} className="sticky top-0 z-20 border-b border-line bg-surface">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-2.5">
+          <Link
+            href={`/tests/${test.id}`}
+            title="Thoát phòng thi (bài làm đã được lưu, có thể làm tiếp sau)"
+            onClick={(e) => {
+              if (!confirm("Thoát phòng thi? Bài làm đã được lưu, bạn có thể làm tiếp sau.")) e.preventDefault();
+            }}
+            className="hidden shrink-0 text-lg font-bold tracking-tight sm:block"
+          >
+            Toeic<span className="text-primary">Lab</span>
+          </Link>
           <div className="w-full min-w-0 sm:w-auto sm:flex-1">
             <div className="truncate text-sm font-semibold">{test.title}</div>
             <div className="text-xs text-muted">{title}</div>
@@ -313,9 +360,6 @@ function ExamSession({
           >
             {remaining !== null ? formatDuration(remaining) : formatDuration(elapsed)}
           </div>
-          <button onClick={() => setNavOpen((o) => !o)} className="rounded-lg border border-line px-3 py-1.5 text-sm lg:hidden">
-            Câu hỏi
-          </button>
           <button
             onClick={() => setConfirming(true)}
             disabled={phase === "submitting"}
@@ -365,14 +409,8 @@ function ExamSession({
         )}
       </div>
 
-      <div className="mx-auto grid w-full max-w-7xl flex-1 gap-6 px-4 py-6 lg:grid-cols-[1fr_280px]">
+      <div className="mx-auto w-full max-w-7xl flex-1 px-4 pt-6 pb-24">
         <div ref={mainRef} className="min-w-0 scroll-mt-32">
-          {group && instant && group.questionNumbers.length > 1 && !group.questionNumbers.every((n) => answers[n]) && (
-            <div className="mb-3 rounded-lg bg-primary-soft px-3 py-2 text-sm text-primary">
-              Trả lời đủ {group.questionNumbers.length} câu của đoạn này để xem đáp án và giải thích (đã trả lời{" "}
-              {group.questionNumbers.filter((n) => answers[n]).length}/{group.questionNumbers.length}).
-            </div>
-          )}
           {group && (
             <GroupView
               key={group.id}
@@ -380,14 +418,15 @@ function ExamSession({
               answers={answers}
               onSelect={select}
               isRevealed={isRevealed}
-              showScript={instant && group.questionNumbers.every((n) => answers[n])}
+              showScript={showScriptNow}
               showAudio={false}
-              stickyTop={practiceAudio ? 196 : fullAudioUrl ? 152 : 128}
+              stickyTop={barH + 16}
+              center
               flagged={flagged}
               onToggleFlag={toggleFlag}
             />
           )}
-          <div className="mt-6 flex items-center justify-between gap-3">
+          <div className={`mt-6 flex items-center justify-between gap-3 ${sideCol ? "" : "mx-auto max-w-3xl"}`}>
             <button
               onClick={() => goTo(groupIndex - 1)}
               disabled={groupIndex === 0}
@@ -410,27 +449,44 @@ function ExamSession({
           </div>
         </div>
 
-        <aside className="hidden lg:block">
-          <div
-            className={`sticky overflow-y-auto rounded-xl border border-line bg-surface p-4 ${
-              practiceAudio ? "top-48 max-h-[calc(100vh-13rem)]" : "top-40 max-h-[calc(100vh-11rem)]"
-            }`}
-          >
-            {nav}
-          </div>
-        </aside>
       </div>
 
+      {/* bảng câu hỏi: ngăn bật/tắt bằng nút nổi góc dưới phải (điện thoại: trượt từ dưới lên; máy tính: bên phải) */}
       {navOpen && (
-        <div className="fixed inset-0 z-40 bg-black/40 lg:hidden" onClick={() => setNavOpen(false)}>
+        <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setNavOpen(false)}>
           <div
-            className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-y-auto rounded-t-2xl bg-surface p-4"
+            ref={navPanelRef}
+            role="dialog"
+            aria-label="Danh sách câu hỏi"
+            className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-y-auto rounded-t-2xl bg-surface p-4 pb-24 shadow-xl lg:inset-y-0 lg:right-0 lg:left-auto lg:max-h-none lg:w-80 lg:rounded-none lg:rounded-l-2xl"
             onClick={(e) => e.stopPropagation()}
           >
+            <div className="mb-3 flex items-center justify-between">
+              <h2 className="font-semibold">Câu hỏi</h2>
+              <span className="text-sm text-muted">
+                Đã làm <b className="text-fg">{answered}</b>/{total}
+              </span>
+            </div>
             {nav}
           </div>
         </div>
       )}
+      <button
+        onClick={() => setNavOpen((o) => !o)}
+        aria-expanded={navOpen}
+        aria-label={navOpen ? "Đóng danh sách câu hỏi" : "Mở danh sách câu hỏi"}
+        className="fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-[45] flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-on-primary shadow-lg shadow-primary/30 hover:opacity-90"
+      >
+        {navOpen ? (
+          <span aria-hidden className="text-base leading-none">✕</span>
+        ) : (
+          <svg aria-hidden viewBox="0 0 20 20" className="size-4" fill="currentColor">
+            <path d="M3 3h4v4H3zM8 3h4v4H8zM13 3h4v4h-4zM3 8h4v4H3zM8 8h4v4H8zM13 8h4v4h-4zM3 13h4v4H3zM8 13h4v4H8zM13 13h4v4h-4z" />
+          </svg>
+        )}
+        {navOpen ? "Đóng" : "Câu hỏi"}
+        {!navOpen && <span className="rounded-full bg-on-primary/20 px-1.5 text-xs tabular-nums">{answered}/{total}</span>}
+      </button>
 
       {confirming && (
         <div className="fixed inset-0 z-50 grid place-items-center bg-black/50 p-4" role="dialog" aria-modal="true">

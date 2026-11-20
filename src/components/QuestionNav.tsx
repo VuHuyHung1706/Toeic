@@ -40,6 +40,7 @@ export default function QuestionNav({
             {cells.map(({ gi, n }) => (
               <button
                 key={n}
+                data-current={gi === currentGroup || undefined}
                 onClick={() => onJump(gi, n)}
                 className={`relative h-8 rounded-md border text-xs font-semibold ${styles[cellState(n)]} ${
                   gi === currentGroup ? "ring-2 ring-fg/60 ring-offset-1 ring-offset-surface" : ""

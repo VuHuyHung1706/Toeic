@@ -66,6 +66,11 @@ body {
   color: var(--text);
 }
 
+/* Phòng thi: đang làm bài thì ẩn menu trang web để tập trung (ExamRoom đặt html[data-exam]) */
+html[data-exam] .site-header {
+  display: none;
+}
+
 /* Đoạn văn Part 6/7 & script: giữ xuống dòng của dữ liệu */
 .prose-pre {
   white-space: pre-line;

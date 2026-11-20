@@ -33,6 +33,8 @@ interface Props {
    * phải nằm dưới các thanh dính phía trên (menu, thanh phòng thi, thanh audio).
    */
   stickyTop?: number;
+  /** Không có cột bài đọc/ảnh → câu hỏi nằm giữa, rộng vừa phải (phòng thi) */
+  center?: boolean;
 }
 
 export default function GroupView({
@@ -45,6 +47,7 @@ export default function GroupView({
   flagged,
   onToggleFlag,
   stickyTop,
+  center,
 }: Props) {
   const view = usePref<View>("passageView", "bilingual");
   const part = group.part;
@@ -141,7 +144,7 @@ export default function GroupView({
   );
 
   return (
-    <div>
+    <div className={center && !hasLeft ? "mx-auto max-w-3xl" : ""}>
       <div className="mb-3 flex flex-wrap items-baseline gap-x-3">
         <h2 className="text-lg font-semibold">
           Part {part} · {partInfo(part).name}
@@ -157,7 +160,8 @@ export default function GroupView({
           <AudioPlayer src={group.audio?.src ?? null} />
         </div>
       )}
-      <div className={hasLeft ? "grid gap-6 lg:grid-cols-2" : ""}>
+      {/* Part 6/7: bài đọc chiếm ~60% bề ngang; các part khác chia đôi */}
+      <div className={hasLeft ? `grid gap-6 ${part >= 6 ? "lg:grid-cols-[3fr_2fr]" : "lg:grid-cols-2"}` : ""}>
         {left}
         <div className="space-y-5">
           {group.questions.map((q) => (
