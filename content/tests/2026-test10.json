@@ -69,7 +69,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 0,
+     "audioEnd": 23.79
     },
     {
      "id": "2026-test10-p1-g2",
@@ -121,7 +123,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 23.8,
+     "audioEnd": 48.87
     },
     {
      "id": "2026-test10-p1-g3",
@@ -173,7 +177,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 48.87,
+     "audioEnd": 73.37
     },
     {
      "id": "2026-test10-p1-g4",
@@ -225,7 +231,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 73.38,
+     "audioEnd": 100.31
     },
     {
      "id": "2026-test10-p1-g5",
@@ -277,7 +285,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 100.31,
+     "audioEnd": 127.32
     },
     {
      "id": "2026-test10-p1-g6",
@@ -329,7 +339,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 127.32,
+     "audioEnd": 155.11
     }
    ]
   },
@@ -366,7 +378,9 @@
        "questionVi": "Bạn có muốn tôi đặt thêm danh thiếp cho bạn không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 155.12,
+     "audioEnd": 174.39
     },
     {
      "id": "2026-test10-p2-g2",
@@ -398,7 +412,9 @@
        "questionVi": "Sao bạn không nhờ cô Kim giúp?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 174.39,
+     "audioEnd": 194.13
     },
     {
      "id": "2026-test10-p2-g3",
@@ -430,7 +446,9 @@
        "questionVi": "Bạn muốn cùng xem báo cáo hay tự xem?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 194.14,
+     "audioEnd": 215.63
     },
     {
      "id": "2026-test10-p2-g4",
@@ -462,7 +480,9 @@
        "questionVi": "Khi nào hội nghị marketing diễn ra?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 215.64,
+     "audioEnd": 234.68
     },
     {
      "id": "2026-test10-p2-g5",
@@ -494,7 +514,9 @@
        "questionVi": "Kính bảo hộ được để ở đâu?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 234.68,
+     "audioEnd": 254.97
     },
     {
      "id": "2026-test10-p2-g6",
@@ -526,7 +548,9 @@
        "questionVi": "Khi nào nhà hàng này đổi tên?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 254.98,
+     "audioEnd": 274.41
     },
     {
      "id": "2026-test10-p2-g7",
@@ -558,7 +582,9 @@
        "questionVi": "Chúng ta đã kiểm kê xong chưa hay còn việc?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 274.42,
+     "audioEnd": 295.34
     },
     {
      "id": "2026-test10-p2-g8",
@@ -590,7 +616,9 @@
        "questionVi": "Bạn có thể mua cho tôi bánh mì ở quán dưới phố không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 295.34,
+     "audioEnd": 316.05
     },
     {
      "id": "2026-test10-p2-g9",
@@ -622,7 +650,9 @@
        "questionVi": "Làm sao để thu hút khách hàng?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 316.06,
+     "audioEnd": 337.21
     },
     {
      "id": "2026-test10-p2-g10",
@@ -654,7 +684,9 @@
        "questionVi": "Bạn định làm việc ở nhà ngày mai à?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 337.21,
+     "audioEnd": 357.4
     },
     {
      "id": "2026-test10-p2-g11",
@@ -686,7 +718,9 @@
        "questionVi": "Bạn không mang tài liệu quảng cáo sao?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 357.41,
+     "audioEnd": 377.91
     },
     {
      "id": "2026-test10-p2-g12",
@@ -718,7 +752,9 @@
        "questionVi": "Máy chiếu cần được sửa trước buổi thuyết trình",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 377.91,
+     "audioEnd": 399.67
     },
     {
      "id": "2026-test10-p2-g13",
@@ -750,7 +786,9 @@
        "questionVi": "Giá máy in này bao nhiêu?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 399.67,
+     "audioEnd": 418.26
     },
     {
      "id": "2026-test10-p2-g14",
@@ -782,7 +820,9 @@
        "questionVi": "Có bao nhiêu người tham dự buổi định hướng?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 418.27,
+     "audioEnd": 437.8
     },
     {
      "id": "2026-test10-p2-g15",
@@ -814,7 +854,9 @@
        "questionVi": "Có xe buýt miễn phí ra sân bay đúng không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 437.81,
+     "audioEnd": 458.78
     },
     {
      "id": "2026-test10-p2-g16",
@@ -846,7 +888,9 @@
        "questionVi": "Ai có thời gian chỉnh sửa bài viết này?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 458.79,
+     "audioEnd": 477.59
     },
     {
      "id": "2026-test10-p2-g17",
@@ -878,7 +922,9 @@
        "questionVi": "Ca làm ở nhà máy kết thúc lúc mấy giờ?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 477.6,
+     "audioEnd": 497.42
     },
     {
      "id": "2026-test10-p2-g18",
@@ -910,7 +956,9 @@
        "questionVi": "Vé tàu này đắt",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 497.42,
+     "audioEnd": 517.79
     },
     {
      "id": "2026-test10-p2-g19",
@@ -942,7 +990,9 @@
        "questionVi": "Nguyên mẫu TV này không phải nên có tính năng cao hơn sao?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 517.8,
+     "audioEnd": 542.01
     },
     {
      "id": "2026-test10-p2-g20",
@@ -974,7 +1024,9 @@
        "questionVi": "Chúng ta nên làm gì để chuẩn bị họp bán hàng?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 542.02,
+     "audioEnd": 563.17
     },
     {
      "id": "2026-test10-p2-g21",
@@ -1006,7 +1058,9 @@
        "questionVi": "Bạn nghĩ cô Wang có hứng tham gia không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 563.17,
+     "audioEnd": 586.34
     },
     {
      "id": "2026-test10-p2-g22",
@@ -1038,7 +1092,9 @@
        "questionVi": "Tiến sĩ Marino có kết quả khảo sát trên bàn",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 586.34,
+     "audioEnd": 607.44
     },
     {
      "id": "2026-test10-p2-g23",
@@ -1070,7 +1126,9 @@
        "questionVi": "Bài phát biểu chính không hay lắm phải không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 607.45,
+     "audioEnd": 628.81
     },
     {
      "id": "2026-test10-p2-g24",
@@ -1102,7 +1160,9 @@
        "questionVi": "Công ty đang nâng cấp phần mềm kế toán",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 628.82,
+     "audioEnd": 650.73
     },
     {
      "id": "2026-test10-p2-g25",
@@ -1134,7 +1194,9 @@
        "questionVi": "Nên bày bàn buffet trong nhà hay ngoài trời?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 650.74,
+     "audioEnd": 674.14
     }
    ]
   },
@@ -1325,7 +1387,9 @@
        "pos": [],
        "meaning": "vào cuối năm"
       }
-     ]
+     ],
+     "audioStart": 674.14,
+     "audioEnd": 743.78
     },
     {
      "id": "2026-test10-p3-g2",
@@ -1514,7 +1578,9 @@
        "pos": [],
        "meaning": "yêu cầu làm"
       }
-     ]
+     ],
+     "audioStart": 743.78,
+     "audioEnd": 826.79
     },
     {
      "id": "2026-test10-p3-g3",
@@ -1711,7 +1777,9 @@
        ],
        "meaning": "khu vực"
       }
-     ]
+     ],
+     "audioStart": 826.8,
+     "audioEnd": 898.14
     },
     {
      "id": "2026-test10-p3-g4",
@@ -1906,7 +1974,9 @@
        ],
        "meaning": "đóng cửa"
       }
-     ]
+     ],
+     "audioStart": 898.14,
+     "audioEnd": 977.23
     },
     {
      "id": "2026-test10-p3-g5",
@@ -2099,7 +2169,9 @@
        "pos": [],
        "meaning": "giúp đỡ với"
       }
-     ]
+     ],
+     "audioStart": 977.24,
+     "audioEnd": 1060.02
     },
     {
      "id": "2026-test10-p3-g6",
@@ -2298,7 +2370,9 @@
        "pos": [],
        "meaning": "trên đường ra"
       }
-     ]
+     ],
+     "audioStart": 1060.02,
+     "audioEnd": 1139.66
     },
     {
      "id": "2026-test10-p3-g7",
@@ -2495,7 +2569,9 @@
        ],
        "meaning": "ngày mai"
       }
-     ]
+     ],
+     "audioStart": 1139.67,
+     "audioEnd": 1210.69
     },
     {
      "id": "2026-test10-p3-g8",
@@ -2698,7 +2774,9 @@
        "pos": [],
        "meaning": "viết xuống"
       }
-     ]
+     ],
+     "audioStart": 1210.7,
+     "audioEnd": 1289.48
     },
     {
      "id": "2026-test10-p3-g9",
@@ -2892,7 +2970,9 @@
        "pos": [],
        "meaning": "tủ chứa đồ"
       }
-     ]
+     ],
+     "audioStart": 1289.48,
+     "audioEnd": 1362.15
     },
     {
      "id": "2026-test10-p3-g10",
@@ -3087,7 +3167,9 @@
        ],
        "meaning": "bán kính"
       }
-     ]
+     ],
+     "audioStart": 1362.15,
+     "audioEnd": 1441.24
     },
     {
      "id": "2026-test10-p3-g11",
@@ -3291,7 +3373,9 @@
        ],
        "meaning": "người chiến thắng"
       }
-     ]
+     ],
+     "audioStart": 1441.25,
+     "audioEnd": 1524.03
     },
     {
      "id": "2026-test10-p3-g12",
@@ -3469,7 +3553,9 @@
        "pos": [],
        "meaning": "đi kèm"
       }
-     ]
+     ],
+     "audioStart": 1524.04,
+     "audioEnd": 1609.27
     },
     {
      "id": "2026-test10-p3-g13",
@@ -3673,7 +3759,9 @@
        ],
        "meaning": "sấy khô"
       }
-     ]
+     ],
+     "audioStart": 1609.27,
+     "audioEnd": 1701.69
     }
    ]
   },
@@ -3873,7 +3961,9 @@
        ],
        "meaning": "tiếp theo"
       }
-     ]
+     ],
+     "audioStart": 1701.69,
+     "audioEnd": 1779.79
     },
     {
      "id": "2026-test10-p4-g2",
@@ -4072,7 +4162,9 @@
        "pos": [],
        "meaning": "dây an toàn"
       }
-     ]
+     ],
+     "audioStart": 1779.8,
+     "audioEnd": 1851.92
     },
     {
      "id": "2026-test10-p4-g3",
@@ -4275,7 +4367,9 @@
        "pos": [],
        "meaning": "chuyến tham quan video"
       }
-     ]
+     ],
+     "audioStart": 1851.93,
+     "audioEnd": 1933.71
     },
     {
      "id": "2026-test10-p4-g4",
@@ -4465,7 +4559,9 @@
        "pos": [],
        "meaning": "bắt đầu"
       }
-     ]
+     ],
+     "audioStart": 1933.71,
+     "audioEnd": 2013.61
     },
     {
      "id": "2026-test10-p4-g5",
@@ -4653,7 +4749,9 @@
        ],
        "meaning": "phát biểu"
       }
-     ]
+     ],
+     "audioStart": 2013.62,
+     "audioEnd": 2090.78
     },
     {
      "id": "2026-test10-p4-g6",
@@ -4854,7 +4952,9 @@
        ],
        "meaning": "phù hợp"
       }
-     ]
+     ],
+     "audioStart": 2090.79,
+     "audioEnd": 2185.19
     },
     {
      "id": "2026-test10-p4-g7",
@@ -5039,7 +5139,9 @@
        ],
        "meaning": "người phát ngôn"
       }
-     ]
+     ],
+     "audioStart": 2185.19,
+     "audioEnd": 2264.75
     },
     {
      "id": "2026-test10-p4-g8",
@@ -5231,7 +5333,9 @@
        ],
        "meaning": "lựa chọn"
       }
-     ]
+     ],
+     "audioStart": 2264.76,
+     "audioEnd": 2343.54
     },
     {
      "id": "2026-test10-p4-g9",
@@ -5435,7 +5539,9 @@
        ],
        "meaning": "xảy ra"
       }
-     ]
+     ],
+     "audioStart": 2343.55,
+     "audioEnd": 2438.53
     },
     {
      "id": "2026-test10-p4-g10",
@@ -5618,7 +5724,9 @@
        ],
        "meaning": "thời lượng"
       }
-     ]
+     ],
+     "audioStart": 2438.53,
+     "audioEnd": 2522.85
     }
    ]
   },

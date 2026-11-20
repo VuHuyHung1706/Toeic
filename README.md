@@ -54,7 +54,7 @@ npm run lint && npx tsc --noEmit && npm run build
 |---|---|
 | `/tests` | Kho 50 đề, lọc theo năm, hiện điểm lần thi gần nhất |
 | `/tests/[id]` | Chọn **Thi thử** hoặc **Luyện tập** (chọn part, giới hạn giờ, hiện đáp án ngay) |
-| `/tests/[id]/exam?mode=full` | 200 câu, 120 phút, audio full phát liền không tua, tự nộp khi hết giờ |
+| `/tests/[id]/exam?mode=full` | Thi thật, giao diện giống máy thi IIG: 200 câu, 120 phút; Listening tự chuyển câu theo audio, hết audio sang Reading (làm tự do, đánh dấu xem lại); hộp NOTIFICATION khi nộp |
 | `/tests/[id]/exam?mode=practice&parts=…` | Audio từng nhóm câu, chỉnh tốc độ, hiện giải thích ngay |
 | `/tests/[id]/result?attempt=…` | Điểm 990 ước tính, đúng/sai theo part, xem lại từng câu + script + bản dịch |
 | `/practice` | Luyện theo dạng câu: Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp (gom từ 50 đề) |
@@ -74,6 +74,9 @@ Bài làm, lần ôn câu sai, luyện nghe, thẻ từ vựng, bài làm dở v
 ```
 scripts/etl.py              ETL CSV → JSON
 scripts/enrich.py           gắn nhãn dạng câu Part 2/5, trích từ vựng
+scripts/audio_timeline.mjs  tìm mốc thời gian từng nhóm câu nghe trong audio cả đề → content/audio-timeline.json
+                            (thi thật tự chuyển câu theo audio; chạy lại ETL sau đó)
+src/components/CbtRoom.tsx  giao diện thi thật mô phỏng máy thi TOEIC trên máy tính (IIG)
 scripts/passage.py          chuẩn hoá bài đọc Part 6/7 (ký hiệu chèn câu [1]–[4], dòng phân cách giữa các văn bản)
 src/lib/passage.ts          tách bài đọc Part 6/7 thành khối: email/memo, tin nhắn, trang web, bảng, biểu mẫu, danh sách
 src/components/PassageView.tsx hiển thị bài đọc Part 6/7 dạng HTML (song ngữ theo từng dòng khi bản dịch khớp dòng)

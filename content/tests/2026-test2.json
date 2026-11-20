@@ -69,7 +69,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 0,
+     "audioEnd": 25.65
     },
     {
      "id": "2026-test2-p1-g2",
@@ -121,7 +123,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 25.65,
+     "audioEnd": 53.94
     },
     {
      "id": "2026-test2-p1-g3",
@@ -173,7 +177,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 53.94,
+     "audioEnd": 81.15
     },
     {
      "id": "2026-test2-p1-g4",
@@ -225,7 +231,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 81.16,
+     "audioEnd": 107.23
     },
     {
      "id": "2026-test2-p1-g5",
@@ -277,7 +285,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 107.23,
+     "audioEnd": 133.19
     },
     {
      "id": "2026-test2-p1-g6",
@@ -329,7 +339,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 133.2,
+     "audioEnd": 159.79
     }
    ]
   },
@@ -379,7 +391,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 159.79,
+     "audioEnd": 179.09
     },
     {
      "id": "2026-test2-p2-g2",
@@ -424,7 +438,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 179.1,
+     "audioEnd": 199.31
     },
     {
      "id": "2026-test2-p2-g3",
@@ -469,7 +485,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 199.31,
+     "audioEnd": 218.11
     },
     {
      "id": "2026-test2-p2-g4",
@@ -514,7 +532,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 218.12,
+     "audioEnd": 238.44
     },
     {
      "id": "2026-test2-p2-g5",
@@ -559,7 +579,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 238.45,
+     "audioEnd": 258.32
     },
     {
      "id": "2026-test2-p2-g6",
@@ -604,7 +626,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 258.33,
+     "audioEnd": 278.83
     },
     {
      "id": "2026-test2-p2-g7",
@@ -649,7 +673,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 278.83,
+     "audioEnd": 300.66
     },
     {
      "id": "2026-test2-p2-g8",
@@ -694,7 +720,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 300.67,
+     "audioEnd": 321.64
     },
     {
      "id": "2026-test2-p2-g9",
@@ -739,7 +767,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 321.65,
+     "audioEnd": 341
     },
     {
      "id": "2026-test2-p2-g10",
@@ -784,7 +814,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 341,
+     "audioEnd": 359.23
     },
     {
      "id": "2026-test2-p2-g11",
@@ -829,7 +861,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 359.24,
+     "audioEnd": 382.25
     },
     {
      "id": "2026-test2-p2-g12",
@@ -874,7 +908,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 382.25,
+     "audioEnd": 403.22
     },
     {
      "id": "2026-test2-p2-g13",
@@ -919,7 +955,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 403.23,
+     "audioEnd": 425.64
     },
     {
      "id": "2026-test2-p2-g14",
@@ -964,7 +1002,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 425.64,
+     "audioEnd": 444.99
     },
     {
      "id": "2026-test2-p2-g15",
@@ -1009,7 +1049,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 445,
+     "audioEnd": 466.05
     },
     {
      "id": "2026-test2-p2-g16",
@@ -1050,7 +1092,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 466.05,
+     "audioEnd": 486.81
     },
     {
      "id": "2026-test2-p2-g17",
@@ -1095,7 +1139,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 486.82,
+     "audioEnd": 507.77
     },
     {
      "id": "2026-test2-p2-g18",
@@ -1140,7 +1186,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 507.77,
+     "audioEnd": 528.77
     },
     {
      "id": "2026-test2-p2-g19",
@@ -1185,7 +1233,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 528.77,
+     "audioEnd": 552.35
     },
     {
      "id": "2026-test2-p2-g20",
@@ -1230,7 +1280,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 552.36,
+     "audioEnd": 572.1
     },
     {
      "id": "2026-test2-p2-g21",
@@ -1275,7 +1327,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 572.11,
+     "audioEnd": 592.74
     },
     {
      "id": "2026-test2-p2-g22",
@@ -1320,7 +1374,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 592.74,
+     "audioEnd": 613.82
     },
     {
      "id": "2026-test2-p2-g23",
@@ -1365,7 +1421,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 613.83,
+     "audioEnd": 632.92
     },
     {
      "id": "2026-test2-p2-g24",
@@ -1410,7 +1468,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 632.92,
+     "audioEnd": 653.73
     },
     {
      "id": "2026-test2-p2-g25",
@@ -1455,7 +1515,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 653.74,
+     "audioEnd": 673.33
     }
    ]
   },
@@ -1673,7 +1735,9 @@
        "pos": [],
        "meaning": "giờ hoạt động"
       }
-     ]
+     ],
+     "audioStart": 673.33,
+     "audioEnd": 754.72
     },
     {
      "id": "2026-test2-p3-g2",
@@ -1855,7 +1919,9 @@
        "pos": [],
        "meaning": "ngân sách"
       }
-     ]
+     ],
+     "audioStart": 754.73,
+     "audioEnd": 833.07
     },
     {
      "id": "2026-test2-p3-g3",
@@ -2027,7 +2093,9 @@
        "pos": [],
        "meaning": "đào tạo lại"
       }
-     ]
+     ],
+     "audioStart": 833.07,
+     "audioEnd": 918.15
     },
     {
      "id": "2026-test2-p3-g4",
@@ -2199,7 +2267,9 @@
        "pos": [],
        "meaning": "mở thêm địa điểm"
       }
-     ]
+     ],
+     "audioStart": 918.15,
+     "audioEnd": 996.41
     },
     {
      "id": "2026-test2-p3-g5",
@@ -2427,7 +2497,9 @@
        "pos": [],
        "meaning": "địa điểm (tổ chức sự kiện)"
       }
-     ]
+     ],
+     "audioStart": 996.42,
+     "audioEnd": 1073.08
     },
     {
      "id": "2026-test2-p3-g6",
@@ -2660,7 +2732,9 @@
        "pos": [],
        "meaning": "đặt hàng vật tư"
       }
-     ]
+     ],
+     "audioStart": 1073.08,
+     "audioEnd": 1145.98
     },
     {
      "id": "2026-test2-p3-g7",
@@ -2832,7 +2906,9 @@
        "pos": [],
        "meaning": "hoàn thiện hợp đồng"
       }
-     ]
+     ],
+     "audioStart": 1145.99,
+     "audioEnd": 1225.03
     },
     {
      "id": "2026-test2-p3-g8",
@@ -3004,7 +3080,9 @@
        "pos": [],
        "meaning": "tham khảo ý kiến"
       }
-     ]
+     ],
+     "audioStart": 1225.04,
+     "audioEnd": 1302.04
     },
     {
      "id": "2026-test2-p3-g9",
@@ -3227,7 +3305,9 @@
        "pos": [],
        "meaning": "thu thập phản hồi"
       }
-     ]
+     ],
+     "audioStart": 1302.05,
+     "audioEnd": 1387.6
     },
     {
      "id": "2026-test2-p3-g10",
@@ -3445,7 +3525,9 @@
        "pos": [],
        "meaning": "kiểm tra hàng tháng"
       }
-     ]
+     ],
+     "audioStart": 1387.6,
+     "audioEnd": 1469.8
     },
     {
      "id": "2026-test2-p3-g11",
@@ -3641,7 +3723,9 @@
        "pos": [],
        "meaning": "chấp nhận vị trí khác"
       }
-     ]
+     ],
+     "audioStart": 1469.8,
+     "audioEnd": 1556.1
     },
     {
      "id": "2026-test2-p3-g12",
@@ -3818,7 +3902,9 @@
        "pos": [],
        "meaning": "chiều, buổi chiều"
       }
-     ]
+     ],
+     "audioStart": 1556.11,
+     "audioEnd": 1642.86
     },
     {
      "id": "2026-test2-p3-g13",
@@ -4061,7 +4147,9 @@
        "pos": [],
        "meaning": "cung cấp"
       }
-     ]
+     ],
+     "audioStart": 1642.87,
+     "audioEnd": 1732.91
     }
    ]
   },
@@ -4309,7 +4397,9 @@
        "pos": [],
        "meaning": "chính sách an toàn"
       }
-     ]
+     ],
+     "audioStart": 1732.91,
+     "audioEnd": 1813.99
     },
     {
      "id": "2026-test2-p4-g2",
@@ -4532,7 +4622,9 @@
        "pos": [],
        "meaning": "bảng giá"
       }
-     ]
+     ],
+     "audioStart": 1814,
+     "audioEnd": 1887.97
     },
     {
      "id": "2026-test2-p4-g3",
@@ -4714,7 +4806,9 @@
        "pos": [],
        "meaning": "phản hồi cộng đồng"
       }
-     ]
+     ],
+     "audioStart": 1887.97,
+     "audioEnd": 1974.09
     },
     {
      "id": "2026-test2-p4-g4",
@@ -4891,7 +4985,9 @@
        "pos": [],
        "meaning": "thời gian nghỉ phép"
       }
-     ]
+     ],
+     "audioStart": 1974.1,
+     "audioEnd": 2053.9
     },
     {
      "id": "2026-test2-p4-g5",
@@ -5110,7 +5206,9 @@
        "pos": [],
        "meaning": "kiểm tra trạng thái"
       }
-     ]
+     ],
+     "audioStart": 2053.9,
+     "audioEnd": 2130.8
     },
     {
      "id": "2026-test2-p4-g6",
@@ -5329,7 +5427,9 @@
        "pos": [],
        "meaning": "chiếu video"
       }
-     ]
+     ],
+     "audioStart": 2130.81,
+     "audioEnd": 2210.03
     },
     {
      "id": "2026-test2-p4-g7",
@@ -5562,7 +5662,9 @@
        "pos": [],
        "meaning": "bản đồ khu vực"
       }
-     ]
+     ],
+     "audioStart": 2210.04,
+     "audioEnd": 2284.67
     },
     {
      "id": "2026-test2-p4-g8",
@@ -5781,7 +5883,9 @@
        "pos": [],
        "meaning": "tham gia cuộc thi"
       }
-     ]
+     ],
+     "audioStart": 2284.67,
+     "audioEnd": 2362.93
     },
     {
      "id": "2026-test2-p4-g9",
@@ -5953,7 +6057,9 @@
        "pos": [],
        "meaning": "mua vé"
       }
-     ]
+     ],
+     "audioStart": 2362.93,
+     "audioEnd": 2443.41
     },
     {
      "id": "2026-test2-p4-g10",
@@ -6120,7 +6226,9 @@
        "pos": [],
        "meaning": "thông tin đăng ký"
       }
-     ]
+     ],
+     "audioStart": 2443.42,
+     "audioEnd": 2529.36
     }
    ]
   },

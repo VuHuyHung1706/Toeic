@@ -69,7 +69,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 0,
+     "audioEnd": 26.72
     },
     {
      "id": "2026-test9-p1-g2",
@@ -121,7 +123,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 26.72,
+     "audioEnd": 52.63
     },
     {
      "id": "2026-test9-p1-g3",
@@ -173,7 +177,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 52.64,
+     "audioEnd": 78.52
     },
     {
      "id": "2026-test9-p1-g4",
@@ -225,7 +231,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 78.52,
+     "audioEnd": 106.28
     },
     {
      "id": "2026-test9-p1-g5",
@@ -277,7 +285,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 106.29,
+     "audioEnd": 136.04
     },
     {
      "id": "2026-test9-p1-g6",
@@ -329,7 +339,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 136.05,
+     "audioEnd": 165.3
     }
    ]
   },
@@ -366,7 +378,9 @@
        "questionVi": "Bạn có muốn tôi kiểm tra giá của món hàng đó không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 165.3,
+     "audioEnd": 184.21
     },
     {
      "id": "2026-test9-p2-g2",
@@ -398,7 +412,9 @@
        "questionVi": "Lẽ ra chúng ta nên nộp báo cáo chi phí rồi phải không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 184.22,
+     "audioEnd": 205.45
     },
     {
      "id": "2026-test9-p2-g3",
@@ -430,7 +446,9 @@
        "questionVi": "Làm thế nào chúng ta giải quyết vấn đề với khách hàng?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 205.45,
+     "audioEnd": 226.29
     },
     {
      "id": "2026-test9-p2-g4",
@@ -462,7 +480,9 @@
        "questionVi": "Nhà hàng đó có thật sự đắt không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 226.3,
+     "audioEnd": 245.89
     },
     {
      "id": "2026-test9-p2-g5",
@@ -494,7 +514,9 @@
        "questionVi": "Khi nào nguyên mẫu máy rửa bát sẽ sẵn sàng?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 245.89,
+     "audioEnd": 265.24
     },
     {
      "id": "2026-test9-p2-g6",
@@ -526,7 +548,9 @@
        "questionVi": "Hãy hủy cuộc hẹn của chúng ta",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 265.25,
+     "audioEnd": 285.18
     },
     {
      "id": "2026-test9-p2-g7",
@@ -558,7 +582,9 @@
        "questionVi": "Không sao nếu chúng ta kiểm tra hóa đơn sau",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 285.18,
+     "audioEnd": 306.49
     },
     {
      "id": "2026-test9-p2-g8",
@@ -590,7 +616,9 @@
        "questionVi": "Tôi có thể tìm địa chỉ giao hàng ở đâu?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 306.49,
+     "audioEnd": 325.48
     },
     {
      "id": "2026-test9-p2-g9",
@@ -622,7 +650,9 @@
        "questionVi": "Trạm xe buýt nào gần tòa chung cư nhất?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 325.49,
+     "audioEnd": 346.41
     },
     {
      "id": "2026-test9-p2-g10",
@@ -654,7 +684,9 @@
        "questionVi": "Ai là nghệ sĩ chính của lễ hội âm nhạc tuần tới?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 346.41,
+     "audioEnd": 368.61
     },
     {
      "id": "2026-test9-p2-g11",
@@ -686,7 +718,9 @@
        "questionVi": "Khi nào chúng ta gặp lại?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 368.61,
+     "audioEnd": 388.01
     },
     {
      "id": "2026-test9-p2-g12",
@@ -718,7 +752,9 @@
        "questionVi": "Dự án đó đã được phê duyệt rồi đúng không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 388.02,
+     "audioEnd": 407.95
     },
     {
      "id": "2026-test9-p2-g13",
@@ -750,7 +786,9 @@
        "questionVi": "Bạn đã đặt các tờ rơi ở sảnh chưa?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 407.95,
+     "audioEnd": 429.63
     },
     {
      "id": "2026-test9-p2-g14",
@@ -782,7 +820,9 @@
        "questionVi": "Bao lâu nữa chúng ta có thể thay đồ nội thất phòng chờ?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 429.64,
+     "audioEnd": 452.31
     },
     {
      "id": "2026-test9-p2-g15",
@@ -814,7 +854,9 @@
        "questionVi": "Ai là diễn giả chính vào thứ Sáu?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 452.31,
+     "audioEnd": 472.18
     },
     {
      "id": "2026-test9-p2-g16",
@@ -846,7 +888,9 @@
        "questionVi": "Khi nào chúng ta nên đặt giỏ quà?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 472.19,
+     "audioEnd": 492.74
     },
     {
      "id": "2026-test9-p2-g17",
@@ -878,7 +922,9 @@
        "questionVi": "Tại sao chương trình hội thảo bị thay đổi?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 492.75,
+     "audioEnd": 513.25
     },
     {
      "id": "2026-test9-p2-g18",
@@ -910,7 +956,9 @@
        "questionVi": "Bạn đi xe buýt hay taxi đến văn phòng khách hàng?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 513.25,
+     "audioEnd": 533.75
     },
     {
      "id": "2026-test9-p2-g19",
@@ -942,7 +990,9 @@
        "questionVi": "Bạn có thể giúp tôi xếp ghế cho buổi picnic không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 533.76,
+     "audioEnd": 555.04
     },
     {
      "id": "2026-test9-p2-g20",
@@ -974,7 +1024,9 @@
        "questionVi": "Ai sẽ được chọn làm nguyên mẫu?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 555.05,
+     "audioEnd": 575.84
     },
     {
      "id": "2026-test9-p2-g21",
@@ -1006,7 +1058,9 @@
        "questionVi": "Bà Lambert chịu trách nhiệm bảng lương",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 575.84,
+     "audioEnd": 596.84
     },
     {
      "id": "2026-test9-p2-g22",
@@ -1038,7 +1092,9 @@
        "questionVi": "Chúng ta không thể kéo dài chiến dịch quảng cáo sao?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 596.85,
+     "audioEnd": 616.33
     },
     {
      "id": "2026-test9-p2-g23",
@@ -1070,7 +1126,9 @@
        "questionVi": "Làm ơn đóng cửa để buổi thuyết trình bắt đầu",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 616.33,
+     "audioEnd": 637.85
     },
     {
      "id": "2026-test9-p2-g24",
@@ -1102,7 +1160,9 @@
        "questionVi": "Hàng hóa của chúng ta bị hỏng khi giao thường xuyên thế nào?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 637.86,
+     "audioEnd": 660.22
     },
     {
      "id": "2026-test9-p2-g25",
@@ -1134,7 +1194,9 @@
        "questionVi": "Họ đang mang đàn piano vào quán cà phê phải không?",
        "optionNotes": {}
       }
-     ]
+     ],
+     "audioStart": 660.22,
+     "audioEnd": 680.62
     }
    ]
   },
@@ -1331,7 +1393,9 @@
        "pos": [],
        "meaning": "địa chỉ email"
       }
-     ]
+     ],
+     "audioStart": 680.62,
+     "audioEnd": 755.53
     },
     {
      "id": "2026-test9-p3-g2",
@@ -1527,7 +1591,9 @@
        ],
        "meaning": "khử trùng"
       }
-     ]
+     ],
+     "audioStart": 755.54,
+     "audioEnd": 830.61
     },
     {
      "id": "2026-test9-p3-g3",
@@ -1726,7 +1792,9 @@
        "pos": [],
        "meaning": "cập nhật trang web"
       }
-     ]
+     ],
+     "audioStart": 830.62,
+     "audioEnd": 902.77
     },
     {
      "id": "2026-test9-p3-g4",
@@ -1921,7 +1989,9 @@
        "pos": [],
        "meaning": "tìm hiểu thêm"
       }
-     ]
+     ],
+     "audioStart": 902.77,
+     "audioEnd": 984.21
     },
     {
      "id": "2026-test9-p3-g5",
@@ -2118,7 +2188,9 @@
        ],
        "meaning": "văn phòng"
       }
-     ]
+     ],
+     "audioStart": 984.22,
+     "audioEnd": 1057.8
     },
     {
      "id": "2026-test9-p3-g6",
@@ -2322,7 +2394,9 @@
        ],
        "meaning": "hy vọng"
       }
-     ]
+     ],
+     "audioStart": 1057.8,
+     "audioEnd": 1147.24
     },
     {
      "id": "2026-test9-p3-g7",
@@ -2525,7 +2599,9 @@
        ],
        "meaning": "đề xuất"
       }
-     ]
+     ],
+     "audioStart": 1147.25,
+     "audioEnd": 1227.41
     },
     {
      "id": "2026-test9-p3-g8",
@@ -2719,7 +2795,9 @@
        ],
        "meaning": "lấy (informal)"
       }
-     ]
+     ],
+     "audioStart": 1227.42,
+     "audioEnd": 1298.52
     },
     {
      "id": "2026-test9-p3-g9",
@@ -2912,7 +2990,9 @@
        ],
        "meaning": "sự đa dạng"
       }
-     ]
+     ],
+     "audioStart": 1298.52,
+     "audioEnd": 1382.39
     },
     {
      "id": "2026-test9-p3-g10",
@@ -3112,7 +3192,9 @@
        "pos": [],
        "meaning": "đăng ký"
       }
-     ]
+     ],
+     "audioStart": 1382.4,
+     "audioEnd": 1466.25
     },
     {
      "id": "2026-test9-p3-g11",
@@ -3316,7 +3398,9 @@
        "pos": [],
        "meaning": "đảm bảo"
       }
-     ]
+     ],
+     "audioStart": 1466.25,
+     "audioEnd": 1558.38
     },
     {
      "id": "2026-test9-p3-g12",
@@ -3505,7 +3589,9 @@
        ],
        "meaning": "giảm giá"
       }
-     ]
+     ],
+     "audioStart": 1558.39,
+     "audioEnd": 1641.64
     },
     {
      "id": "2026-test9-p3-g13",
@@ -3709,7 +3795,9 @@
        ],
        "meaning": "thăm"
       }
-     ]
+     ],
+     "audioStart": 1641.64,
+     "audioEnd": 1727.13
     }
    ]
   },
@@ -3913,7 +4001,9 @@
        ],
        "meaning": "khởi hành"
       }
-     ]
+     ],
+     "audioStart": 1727.14,
+     "audioEnd": 1798.74
     },
     {
      "id": "2026-test9-p4-g2",
@@ -4110,7 +4200,9 @@
        ],
        "meaning": "ngày mai"
       }
-     ]
+     ],
+     "audioStart": 1798.74,
+     "audioEnd": 1877.81
     },
     {
      "id": "2026-test9-p4-g3",
@@ -4309,7 +4401,9 @@
        "pos": [],
        "meaning": "hình ảnh mang tính biểu tượng"
       }
-     ]
+     ],
+     "audioStart": 1877.81,
+     "audioEnd": 1954.03
     },
     {
      "id": "2026-test9-p4-g4",
@@ -4498,7 +4592,9 @@
        "pos": [],
        "meaning": "lúc một giờ"
       }
-     ]
+     ],
+     "audioStart": 1954.04,
+     "audioEnd": 2027.33
     },
     {
      "id": "2026-test9-p4-g5",
@@ -4693,7 +4789,9 @@
        ],
        "meaning": "chương"
       }
-     ]
+     ],
+     "audioStart": 2027.34,
+     "audioEnd": 2099.75
     },
     {
      "id": "2026-test9-p4-g6",
@@ -4890,7 +4988,9 @@
        ],
        "meaning": "may mắn"
       }
-     ]
+     ],
+     "audioStart": 2099.75,
+     "audioEnd": 2185.27
     },
     {
      "id": "2026-test9-p4-g7",
@@ -5083,7 +5183,9 @@
        ],
        "meaning": "tìm"
       }
-     ]
+     ],
+     "audioStart": 2185.27,
+     "audioEnd": 2261.93
     },
     {
      "id": "2026-test9-p4-g8",
@@ -5278,7 +5380,9 @@
        ],
        "meaning": "tính toán"
       }
-     ]
+     ],
+     "audioStart": 2261.94,
+     "audioEnd": 2340.59
     },
     {
      "id": "2026-test9-p4-g9",
@@ -5462,7 +5566,9 @@
        ],
        "meaning": "cung cấp"
       }
-     ]
+     ],
+     "audioStart": 2340.6,
+     "audioEnd": 2426.59
     },
     {
      "id": "2026-test9-p4-g10",
@@ -5647,7 +5753,9 @@
        "pos": [],
        "meaning": "tuân thủ"
       }
-     ]
+     ],
+     "audioStart": 2426.59,
+     "audioEnd": 2516.42
     }
    ]
   },

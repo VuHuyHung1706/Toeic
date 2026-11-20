@@ -36,6 +36,7 @@ if len(index) != 50:
 
 all_keys: dict[str, str] = {}  # "testId:n" → đáp án
 media_checked = 0
+synced_tests = 0
 for entry in index:
     tid = entry["id"]
     t = json.loads((CONTENT / "tests" / f"{tid}.json").read_text(encoding="utf-8"))
@@ -98,6 +99,18 @@ for entry in index:
                 if part in (2, 5) and len(q.get("tags", [])) != 1:
                     err(f"{tid} câu {q['number']}: Part {part} thiếu nhãn dạng câu")
                 all_keys[f"{tid}:{q['number']}"] = q["answer"]
+    # mốc audio thi thật: có thì phải đủ cho mọi nhóm nghe, tăng dần, không chồng nhau
+    lgroups = [g for p in t["parts"] if p["part"] <= 4 for g in p["groups"]]
+    timed = [g for g in lgroups if "audioStart" in g]
+    if timed:
+        synced_tests += 1
+        if len(timed) != len(lgroups):
+            err(f"{tid}: chỉ {len(timed)}/{len(lgroups)} nhóm nghe có mốc audio")
+        prev_end = 0.0
+        for g in timed:
+            if not g["audioEnd"] > g["audioStart"] >= prev_end - 1:
+                err(f"{tid} {g['id']}: mốc audio sai thứ tự ({g['audioStart']}–{g['audioEnd']}, nhóm trước hết {prev_end})")
+            prev_end = g["audioEnd"]
     if sorted(nums) != list(range(1, 201)):
         err(f"{tid}: số câu không phải 1–200 liên tục")
     if not (t.get("fullAudio") and t["fullAudio"].get("src") and (SKIP_MEDIA or (DATA / t["fullAudio"]["src"]).is_file())):
@@ -142,6 +155,7 @@ for v in vocab:
 if len(per_test) != 50 or min(per_test.values()) < 30:
     err(f"vocab: {len(per_test)} đề có từ, ít nhất {min(per_test.values(), default=0)} từ/đề")
 
+print(f"Đề có mốc audio thi thật: {synced_tests}/{len(index)}")
 print(f"Đề: {len(index)} · câu: {len(all_keys)} · file media kiểm tra: {'bỏ qua (--skip-media)' if SKIP_MEDIA else media_checked}")
 print(f"Ngân hàng dạng câu: {len(bank_index)} nhóm · Từ vựng: {len(vocab)} từ, "
       f"{min(per_test.values())}–{max(per_test.values())} từ/đề")

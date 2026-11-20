@@ -4,8 +4,10 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import AudioPlayer from "./AudioPlayer";
+import CbtRoom from "./CbtRoom";
 import GroupView from "./GroupView";
 import QuestionNav, { answeredCount, type CellState } from "./QuestionNav";
+import { directionsPartAt, hasAudioTimeline, listeningIndexAt } from "@/lib/cbt";
 import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, type Progress } from "@/lib/storage";
 import { formatDuration, gradeAttempt, groupsForParts, mediaUrl, parsePartsParam } from "@/lib/toeic";
 import type { ExamMode, Letter, PartNo, TestData } from "@/lib/types";
@@ -76,6 +78,15 @@ function ExamSession({
   const answered = answeredCount(answers, groups);
   const remaining = timeLimitSec ? timeLimitSec - elapsed : null;
   const fullAudioUrl = mode === "full" ? mediaUrl(test.fullAudio?.src) : null;
+
+  // ---------------- thi thật (giao diện máy thi) ----------------
+  // Có mốc thời gian từng nhóm câu trong audio cả đề → phần nghe tự chuyển câu theo audio, không chuyển tay được;
+  // hết audio → sang Reading (làm tự do, không quay lại phần nghe). Không có mốc → chuyển câu tự do như cũ.
+  const cbt = mode === "full";
+  const listening = groups.filter((g) => g.part <= 4);
+  const firstReading = groups.findIndex((g) => g.part >= 5);
+  const readingStart = firstReading < 0 ? groups.length : firstReading;
+  const synced = cbt && hasAudioTimeline(groups);
 
   const answerOf = useMemo(() => {
     const m = new Map<number, Letter | null>();
@@ -196,12 +207,14 @@ function ExamSession({
       const tag = (e.target as HTMLElement)?.tagName;
       // không bắt phím khi đang ở ô nhập hoặc trình phát audio (← → của audio dùng để tua)
       if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA" || tag === "AUDIO" || e.metaKey || e.ctrlKey || e.altKey) return;
-      if (e.key === "ArrowRight") goTo(groupIndex + 1);
-      if (e.key === "ArrowLeft") goTo(groupIndex - 1);
+      // thi thật: phần nghe tự chạy theo audio, Reading không quay lại phần nghe
+      const ok = (gi: number) => !synced || (groupIndex >= readingStart && gi >= readingStart);
+      if (e.key === "ArrowRight" && ok(groupIndex + 1)) goTo(groupIndex + 1);
+      if (e.key === "ArrowLeft" && ok(groupIndex - 1)) goTo(groupIndex - 1);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [phase, groupIndex, goTo]);
+  }, [phase, groupIndex, goTo, synced, readingStart]);
 
   // ---------------- audio full đề ----------------
   const startAudio = useCallback(() => {
@@ -228,12 +241,22 @@ function ExamSession({
     }
     setPhase("running");
     // phải gọi play() trong chính sự kiện click để trình duyệt cho phép phát
-    if (fullAudioUrl) startAudio();
+    // (thi thật đã sang Reading thì không phát lại phần nghe)
+    if (fullAudioUrl && !(synced && !fresh && groupIndex >= readingStart)) startAudio();
   };
 
   const select = (n: number, l: Letter) => {
     setAnswers((a) => ({ ...a, [n]: l }));
   };
+  const setFlags = (numbers: number[], on: boolean) =>
+    setFlagged((s) => {
+      const next = new Set(s);
+      for (const n of numbers) {
+        if (on) next.add(n);
+        else next.delete(n);
+      }
+      return next;
+    });
   const toggleFlag = (n: number) =>
     setFlagged((s) => {
       const next = new Set(s);
@@ -275,8 +298,18 @@ function ExamSession({
               const a = e.currentTarget;
               audioTimeRef.current = a.currentTime;
               setAudioState({ t: a.currentTime, d: a.duration || 0, ended: a.ended });
+              // thi thật: màn hình đi theo câu audio đang đọc
+              if (synced && groupIndex < readingStart) {
+                const li = listeningIndexAt(listening, a.currentTime);
+                const gi = li < 0 ? 0 : groups.indexOf(listening[li]);
+                if (gi !== groupIndex) setGroupIndex(gi);
+              }
             }}
-            onEnded={() => setAudioState((s) => ({ ...s, ended: true }))}
+            onEnded={() => {
+              setAudioState((s) => ({ ...s, ended: true }));
+              // hết phần nghe → sang Reading
+              if (cbt && groupIndex < readingStart && readingStart < groups.length) setGroupIndex(readingStart);
+            }}
           />
         );
 
@@ -290,9 +323,14 @@ function ExamSession({
           <h1 className="mt-1 text-2xl font-bold">{test.title}</h1>
           <ul className="mt-4 space-y-1.5 text-sm text-muted">
             <li>• {total} câu{timeLimitSec ? ` · ${Math.round(timeLimitSec / 60)} phút, hết giờ tự nộp bài` : " · không giới hạn thời gian"}</li>
-            {mode === "full" && <li>• Audio Listening phát liền một lần (~45 phút), không tua được. Hãy đeo tai nghe.</li>}
-            {mode === "full" && <li>• Trong lúc nghe bạn vẫn có thể chuyển câu tự do, kể cả sang phần Reading.</li>}
-            <li>• Dùng phím ← → để chuyển nhóm câu. Bài làm được tự động lưu.</li>
+            {mode === "full" && <li>• Giao diện giống máy thi TOEIC trên máy tính. Hãy đeo tai nghe.</li>}
+            {mode === "full" && synced && (
+              <li>• Listening: audio phát liền một lần (~45 phút), màn hình tự chuyển theo câu đang đọc, không quay lại được.</li>
+            )}
+            {mode === "full" && !synced && <li>• Listening: audio phát liền một lần, bạn tự chuyển câu.</li>}
+            {mode === "full" && <li>• Hết phần nghe tự sang Reading: làm tự do, đánh dấu câu để xem lại, dùng phím ← →.</li>}
+            {mode !== "full" && <li>• Dùng phím ← → để chuyển nhóm câu.</li>}
+            <li>• Bài làm được tự động lưu.</li>
           </ul>
           {saved ? (
             <div className="mt-6 rounded-lg bg-primary-soft p-4 text-sm">
@@ -319,6 +357,43 @@ function ExamSession({
           </div>
         </div>
       </main>
+      </>
+    );
+  }
+
+  if (cbt && group) {
+    const section = groupIndex >= readingStart ? "reading" : "listening";
+    // audio đang đọc phần hướng dẫn: trước câu đầu, hoặc sau câu cuối của một part mà chưa tới part kế
+    const directionsPart = synced && section === "listening" && !audioState.ended ? directionsPartAt(listening, audioState.t) : null;
+    return (
+      <>
+        {audioEl}
+        <CbtRoom
+          testId={test.id}
+          groups={groups}
+          groupIndex={groupIndex}
+          section={section}
+          directionsPart={directionsPart}
+          locked={synced && section === "listening"}
+          answers={answers}
+          onSelect={select}
+          flagged={flagged}
+          onSetFlags={setFlags}
+          answered={answered}
+          total={total}
+          remaining={remaining}
+          volume={volume}
+          onVolume={(v) => {
+            setVolume(v);
+            if (audioRef.current) audioRef.current.volume = v;
+          }}
+          audioBlocked={audioBlocked}
+          onPlayAudio={startAudio}
+          onGo={(gi, n) => goTo(gi, n)}
+          canGo={(gi) => gi >= 0 && gi < groups.length && (!synced || (section === "reading" && gi >= readingStart))}
+          onSubmit={submit}
+          submitting={phase === "submitting"}
+        />
       </>
     );
   }

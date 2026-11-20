@@ -44,6 +44,9 @@ export interface QuestionGroup {
   /** Part 3/4: từ vựng của đoạn (từ mục "Từ vựng" trong giải thích, hoặc tự lấy từ từ điển nếu vocabAuto) */
   vocab?: { term: string; pos: string[]; meaning: string }[];
   vocabAuto?: boolean;
+  /** Part 1–4: giây bắt đầu / kết thúc của nhóm trong audio cả đề (scripts/audio_timeline.mjs) — thi thật tự chuyển câu */
+  audioStart?: number;
+  audioEnd?: number;
 }
 
 export interface TestAvailability {

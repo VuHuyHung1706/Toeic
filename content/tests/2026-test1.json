@@ -69,7 +69,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 0,
+     "audioEnd": 24.73
     },
     {
      "id": "2026-test1-p1-g2",
@@ -121,7 +123,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 24.74,
+     "audioEnd": 52.71
     },
     {
      "id": "2026-test1-p1-g3",
@@ -173,7 +177,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 52.71,
+     "audioEnd": 81.99
     },
     {
      "id": "2026-test1-p1-g4",
@@ -225,7 +231,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 82,
+     "audioEnd": 110.76
     },
     {
      "id": "2026-test1-p1-g5",
@@ -277,7 +285,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 110.76,
+     "audioEnd": 138.37
     },
     {
      "id": "2026-test1-p1-g6",
@@ -329,7 +339,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 138.37,
+     "audioEnd": 166.94
     }
    ]
   },
@@ -379,7 +391,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 166.95,
+     "audioEnd": 186.07
     },
     {
      "id": "2026-test1-p2-g2",
@@ -424,7 +438,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 186.07,
+     "audioEnd": 205.34
     },
     {
      "id": "2026-test1-p2-g3",
@@ -465,7 +481,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 205.35,
+     "audioEnd": 226.27
     },
     {
      "id": "2026-test1-p2-g4",
@@ -510,7 +528,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 226.27,
+     "audioEnd": 246.14
     },
     {
      "id": "2026-test1-p2-g5",
@@ -555,7 +575,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 246.15,
+     "audioEnd": 267.77
     },
     {
      "id": "2026-test1-p2-g6",
@@ -600,7 +622,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 267.78,
+     "audioEnd": 286.87
     },
     {
      "id": "2026-test1-p2-g7",
@@ -645,7 +669,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 286.88,
+     "audioEnd": 306.83
     },
     {
      "id": "2026-test1-p2-g8",
@@ -690,7 +716,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 306.83,
+     "audioEnd": 328.06
     },
     {
      "id": "2026-test1-p2-g9",
@@ -735,7 +763,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 328.07,
+     "audioEnd": 347.97
     },
     {
      "id": "2026-test1-p2-g10",
@@ -780,7 +810,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 347.98,
+     "audioEnd": 368.19
     },
     {
      "id": "2026-test1-p2-g11",
@@ -825,7 +857,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 368.2,
+     "audioEnd": 388.23
     },
     {
      "id": "2026-test1-p2-g12",
@@ -870,7 +904,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 388.23,
+     "audioEnd": 408.03
     },
     {
      "id": "2026-test1-p2-g13",
@@ -915,7 +951,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 408.03,
+     "audioEnd": 427.67
     },
     {
      "id": "2026-test1-p2-g14",
@@ -960,7 +998,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 427.67,
+     "audioEnd": 449.5
     },
     {
      "id": "2026-test1-p2-g15",
@@ -1005,7 +1045,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 449.52,
+     "audioEnd": 469.66
     },
     {
      "id": "2026-test1-p2-g16",
@@ -1050,7 +1092,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 469.66,
+     "audioEnd": 489.98
     },
     {
      "id": "2026-test1-p2-g17",
@@ -1095,7 +1139,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 489.98,
+     "audioEnd": 509.18
     },
     {
      "id": "2026-test1-p2-g18",
@@ -1140,7 +1186,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 509.18,
+     "audioEnd": 530.67
     },
     {
      "id": "2026-test1-p2-g19",
@@ -1185,7 +1233,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 530.68,
+     "audioEnd": 550.01
     },
     {
      "id": "2026-test1-p2-g20",
@@ -1230,7 +1280,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 550.01,
+     "audioEnd": 571.87
     },
     {
      "id": "2026-test1-p2-g21",
@@ -1271,7 +1323,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 571.87,
+     "audioEnd": 594.07
     },
     {
      "id": "2026-test1-p2-g22",
@@ -1316,7 +1370,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 594.08,
+     "audioEnd": 615.18
     },
     {
      "id": "2026-test1-p2-g23",
@@ -1361,7 +1417,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 615.18,
+     "audioEnd": 637.35
     },
     {
      "id": "2026-test1-p2-g24",
@@ -1406,7 +1464,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 637.36,
+     "audioEnd": 657.99
     },
     {
      "id": "2026-test1-p2-g25",
@@ -1451,7 +1511,9 @@
         }
        }
       }
-     ]
+     ],
+     "audioStart": 658,
+     "audioEnd": 678.84
     }
    ]
   },
@@ -1624,7 +1686,9 @@
        "pos": [],
        "meaning": "yêu cầu"
       }
-     ]
+     ],
+     "audioStart": 678.84,
+     "audioEnd": 754.22
     },
     {
      "id": "2026-test1-p3-g2",
@@ -1787,7 +1851,9 @@
        "pos": [],
        "meaning": "giữ (chỗ)"
       }
-     ]
+     ],
+     "audioStart": 754.23,
+     "audioEnd": 829.27
     },
     {
      "id": "2026-test1-p3-g3",
@@ -1965,7 +2031,9 @@
        "pos": [],
        "meaning": "danh sách"
       }
-     ]
+     ],
+     "audioStart": 829.28,
+     "audioEnd": 896.49
     },
     {
      "id": "2026-test1-p3-g4",
@@ -2133,7 +2201,9 @@
        "pos": [],
        "meaning": "thùng (đơn vị đóng gói hàng hóa)"
       }
-     ]
+     ],
+     "audioStart": 896.5,
+     "audioEnd": 967.81
     },
     {
      "id": "2026-test1-p3-g5",
@@ -2311,7 +2381,9 @@
        "pos": [],
        "meaning": "tuy nhiên (từ nối chỉ sự tương phản)"
       }
-     ]
+     ],
+     "audioStart": 967.81,
+     "audioEnd": 1049.93
     },
     {
      "id": "2026-test1-p3-g6",
@@ -2504,7 +2576,9 @@
        "pos": [],
        "meaning": "chỉ ra"
       }
-     ]
+     ],
+     "audioStart": 1049.94,
+     "audioEnd": 1131.59
     },
     {
      "id": "2026-test1-p3-g7",
@@ -2707,7 +2781,9 @@
        "pos": [],
        "meaning": "vấn đề tương tự"
       }
-     ]
+     ],
+     "audioStart": 1131.6,
+     "audioEnd": 1209.68
     },
     {
      "id": "2026-test1-p3-g8",
@@ -2905,7 +2981,9 @@
        "pos": [],
        "meaning": "dịch vụ (trong ngữ cảnh này là dịch vụ sửa chữa)"
       }
-     ]
+     ],
+     "audioStart": 1209.68,
+     "audioEnd": 1290.26
     },
     {
      "id": "2026-test1-p3-g9",
@@ -3123,7 +3201,9 @@
        "pos": [],
        "meaning": "kiểu thời tiết"
       }
-     ]
+     ],
+     "audioStart": 1290.27,
+     "audioEnd": 1367.35
     },
     {
      "id": "2026-test1-p3-g10",
@@ -3366,7 +3446,9 @@
        "pos": [],
        "meaning": "bảo mật dữ liệu"
       }
-     ]
+     ],
+     "audioStart": 1367.35,
+     "audioEnd": 1456.29
     },
     {
      "id": "2026-test1-p3-g11",
@@ -3574,7 +3656,9 @@
        "pos": [],
        "meaning": "được nâng hạng"
       }
-     ]
+     ],
+     "audioStart": 1456.3,
+     "audioEnd": 1536.1
     },
     {
      "id": "2026-test1-p3-g12",
@@ -3785,7 +3869,9 @@
        "pos": [],
        "meaning": "khách hàng"
       }
-     ]
+     ],
+     "audioStart": 1536.1,
+     "audioEnd": 1626.92
     },
     {
      "id": "2026-test1-p3-g13",
@@ -4018,7 +4104,9 @@
        "pos": [],
        "meaning": "tạo đề xuất"
       }
-     ]
+     ],
+     "audioStart": 1626.93,
+     "audioEnd": 1709.92
     }
    ]
   },
@@ -4221,7 +4309,9 @@
        "pos": [],
        "meaning": "lắp đặt thiết bị"
       }
-     ]
+     ],
+     "audioStart": 1709.92,
+     "audioEnd": 1790.32
     },
     {
      "id": "2026-test1-p4-g2",
@@ -4429,7 +4519,9 @@
        "pos": [],
        "meaning": "được lưu trữ"
       }
-     ]
+     ],
+     "audioStart": 1790.33,
+     "audioEnd": 1877.68
     },
     {
      "id": "2026-test1-p4-g3",
@@ -4617,7 +4709,9 @@
        "pos": [],
        "meaning": "bảo hành"
       }
-     ]
+     ],
+     "audioStart": 1877.68,
+     "audioEnd": 1951.44
     },
     {
      "id": "2026-test1-p4-g4",
@@ -4825,7 +4919,9 @@
        "pos": [],
        "meaning": "quy trình an toàn"
       }
-     ]
+     ],
+     "audioStart": 1951.45,
+     "audioEnd": 2034.83
     },
     {
      "id": "2026-test1-p4-g5",
@@ -5039,7 +5135,9 @@
        "pos": [],
        "meaning": "đặt vé"
       }
-     ]
+     ],
+     "audioStart": 2034.83,
+     "audioEnd": 2116.51
     },
     {
      "id": "2026-test1-p4-g6",
@@ -5272,7 +5370,9 @@
        "pos": [],
        "meaning": "hội nghị ngành"
       }
-     ]
+     ],
+     "audioStart": 2116.52,
+     "audioEnd": 2194.12
     },
     {
      "id": "2026-test1-p4-g7",
@@ -5480,7 +5580,9 @@
        "pos": [],
        "meaning": "vé giảm giá"
       }
-     ]
+     ],
+     "audioStart": 2194.13,
+     "audioEnd": 2288.92
     },
     {
      "id": "2026-test1-p4-g8",
@@ -5713,7 +5815,9 @@
        "pos": [],
        "meaning": "bày tỏ thất vọng"
       }
-     ]
+     ],
+     "audioStart": 2288.93,
+     "audioEnd": 2367.27
     },
     {
      "id": "2026-test1-p4-g9",
@@ -5916,7 +6020,9 @@
        "pos": [],
        "meaning": "sơ đồ mặt bằng"
       }
-     ]
+     ],
+     "audioStart": 2367.27,
+     "audioEnd": 2448.98
     },
     {
      "id": "2026-test1-p4-g10",
@@ -6129,7 +6235,9 @@
        "pos": [],
        "meaning": "cập nhật sổ tay hướng dẫn"
       }
-     ]
+     ],
+     "audioStart": 2448.98,
+     "audioEnd": 2544.61
     }
    ]
   },

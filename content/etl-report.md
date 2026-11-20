@@ -2,7 +2,7 @@
 
 - Số đề: **50**
 - Lỗi (cần sửa tay): **0**
-- Cảnh báo: **0**
+- Cảnh báo: **2**
 - Đã tự sửa: **913**
 
 ## Tổng quan theo đề
@@ -45,8 +45,8 @@
 | 2025-test4 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test5 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test6 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2025-test7 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
-| 2025-test8 | 200 | ✅ | 0 | 0 | 0 | 0 | 4 |
+| 2025-test7 | 200 | ✅ | 0 | 0 | 0 | 1 | 1 |
+| 2025-test8 | 200 | ✅ | 0 | 0 | 0 | 1 | 4 |
 | 2025-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2026-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 67 |
@@ -63,8 +63,18 @@
 ## Lỗi cần sửa tay (0)
 
 
-## Cảnh báo (0)
+## Cảnh báo (2)
 
+<details><summary><b>2025-test7</b> — 1</summary>
+
+- `audio` Mốc thời gian audio khớp kém — thi thật không tự chuyển câu
+
+</details>
+<details><summary><b>2025-test8</b> — 1</summary>
+
+- `audio` Mốc thời gian audio khớp kém — thi thật không tự chuyển câu
+
+</details>
 
 ## Đã tự sửa (913)
 

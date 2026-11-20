@@ -564,6 +564,28 @@ def write_report(path: Path, tests: list[dict], report: Report) -> None:
 
 
 # ---------------------------------------------------------------------------
+def load_audio_timeline(path: Path) -> dict:
+    """Mốc thời gian từng nhóm câu nghe trong audio cả đề (sinh bằng scripts/audio_timeline.mjs)."""
+    if not path.is_file():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def apply_audio_timeline(test: dict, tl: dict | None, report: "Report") -> None:
+    """Gắn audioStart/audioEnd (giây trong audio cả đề) cho nhóm Part 1–4 → thi thật tự chuyển câu theo audio."""
+    if not tl or tl.get("error") or tl.get("minScore", 0) < 0.8:
+        if tl:
+            report.add("warn", test["id"], "audio", "Mốc thời gian audio khớp kém — thi thật không tự chuyển câu")
+        return
+    for p in test["parts"]:
+        if p["part"] > 4:
+            continue
+        for g in p["groups"]:
+            m = tl["groups"].get(g["id"])
+            if m:
+                g["audioStart"], g["audioEnd"] = m["start"], m["end"]
+
+
 def main() -> int:
     root = Path(__file__).resolve().parent.parent
     ap = argparse.ArgumentParser(description="ETL dữ liệu đề TOEIC → JSON")
@@ -589,8 +611,10 @@ def main() -> int:
     out_tests.mkdir(parents=True, exist_ok=True)
     report = Report()
     tests = []
+    timeline = load_audio_timeline(args.out / "audio-timeline.json")
     for d in test_dirs:
         t = build_test(data_root, d, report)
+        apply_audio_timeline(t, timeline.get(t["id"]), report)
         tests.append(t)
         c = report.count(t["id"])
         print(f"{t['id']:<14} {t['questionCount']:>3} câu  lỗi={c['error']:<3} cảnh báo={c['warn']:<3} tự sửa={c['fixed']}")
