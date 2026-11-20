@@ -5,8 +5,10 @@
 // Reading có thanh dưới: "Mark item for review", danh sách câu, trước/sau. Nộp bài → hộp NOTIFICATION.
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
 import { renderBlanks } from "./BlankText";
+import ConfirmDialog, { ExitIcon } from "./ConfirmDialog";
 import PassageView from "./PassageView";
 import { formatDuration, mediaUrl, optionLetters } from "@/lib/toeic";
 import type { Letter, PartNo, QuestionGroup } from "@/lib/types";
@@ -69,6 +71,8 @@ export default function CbtRoom(p: CbtProps) {
   const [soundOpen, setSoundOpen] = useState(false);
   const [listOpen, setListOpen] = useState(false);
   const [notifyOpen, setNotifyOpen] = useState(false);
+  const [exitOpen, setExitOpen] = useState(false);
+  const router = useRouter();
 
   // Esc: đóng hộp thoại / bảng âm lượng đang mở
   useEffect(() => {
@@ -97,7 +101,8 @@ export default function CbtRoom(p: CbtProps) {
           href={`/tests/${p.testId}`}
           title="Thoát phòng thi (bài làm đã được lưu)"
           onClick={(e) => {
-            if (!confirm("Thoát phòng thi? Bài làm đã được lưu, bạn có thể làm tiếp sau.")) e.preventDefault();
+            e.preventDefault();
+            setExitOpen(true);
           }}
           className="shrink-0 rounded-lg bg-white px-3 py-1.5 text-base font-bold tracking-tight text-[#0b2447] sm:text-lg"
         >
@@ -255,6 +260,16 @@ export default function CbtRoom(p: CbtProps) {
         </footer>
       )}
 
+      <ConfirmDialog
+        open={exitOpen}
+        icon={ExitIcon}
+        title="Thoát phòng thi?"
+        confirmLabel="Thoát"
+        onCancel={() => setExitOpen(false)}
+        onConfirm={() => router.push(`/tests/${p.testId}`)}
+      >
+        Bài làm đã được lưu tự động, bạn có thể vào lại và làm tiếp. Đồng hồ vẫn tính từ chỗ đã dừng.
+      </ConfirmDialog>
       {listOpen && (
         <Modal onClose={() => setListOpen(false)} title="QUESTIONS" titleClass="text-[#0b2447] dark:text-fg">
           <QuestionMap

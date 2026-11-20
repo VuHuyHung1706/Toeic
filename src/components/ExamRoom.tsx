@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import AudioPlayer from "./AudioPlayer";
 import CbtRoom from "./CbtRoom";
+import ConfirmDialog, { ExitIcon, SubmitIcon } from "./ConfirmDialog";
 import GroupView from "./GroupView";
 import QuestionDrawer from "./QuestionDrawer";
 import StepNav from "./StepNav";
@@ -69,6 +70,7 @@ function ExamSession({
   const [groupIndex, setGroupIndex] = useState(Math.min(saved?.groupIndex ?? 0, groups.length - 1));
   const [startedAt] = useState(() => saved?.startedAt ?? Date.now());
   const [confirming, setConfirming] = useState(false);
+  const [exiting, setExiting] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
   const [audioBlocked, setAudioBlocked] = useState(false);
   const [audioState, setAudioState] = useState({ t: saved?.audioTime ?? 0, d: 0, ended: false });
@@ -392,7 +394,8 @@ function ExamSession({
             href={`/tests/${test.id}`}
             title="Thoát phòng thi (bài làm đã được lưu, có thể làm tiếp sau)"
             onClick={(e) => {
-              if (!confirm("Thoát phòng thi? Bài làm đã được lưu, bạn có thể làm tiếp sau.")) e.preventDefault();
+              e.preventDefault();
+              setExiting(true);
             }}
             className="hidden shrink-0 rounded-lg bg-white px-3 py-1 text-lg font-bold tracking-tight text-[#0b2447] sm:block"
           >
@@ -519,32 +522,33 @@ function ExamSession({
         {nav}
       </QuestionDrawer>
 
-      {confirming && (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-black/50 p-4" role="dialog" aria-modal="true">
-          <div className="w-full max-w-sm rounded-2xl bg-surface p-6">
-            <h2 className="text-lg font-bold">Nộp bài?</h2>
-            <p className="mt-2 text-sm text-muted">
-              Bạn đã trả lời {answered}/{total} câu.
-              {answered < total && <span className="text-warn"> Còn {total - answered} câu chưa làm.</span>}
-              {flagged.size > 0 && <span> Có {flagged.size} câu đang đánh dấu.</span>}
-            </p>
-            <div className="mt-5 flex justify-end gap-2">
-              <button onClick={() => setConfirming(false)} className="rounded-lg border border-line px-4 py-2 font-medium">
-                Làm tiếp
-              </button>
-              <button
-                onClick={() => {
-                  setConfirming(false);
-                  submit();
-                }}
-                className="rounded-lg bg-primary px-4 py-2 font-semibold text-on-primary"
-              >
-                Nộp bài
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      <ConfirmDialog
+        open={confirming}
+        icon={SubmitIcon}
+        title="Nộp bài?"
+        confirmLabel="Nộp bài"
+        cancelLabel="Làm tiếp"
+        tone="accent"
+        onCancel={() => setConfirming(false)}
+        onConfirm={() => {
+          setConfirming(false);
+          submit();
+        }}
+      >
+        Bạn đã trả lời <b className="text-fg">{answered}/{total}</b> câu.
+        {answered < total && <span className="text-warn"> Còn {total - answered} câu chưa làm.</span>}
+        {flagged.size > 0 && <span> Có {flagged.size} câu đang đánh dấu.</span>}
+      </ConfirmDialog>
+      <ConfirmDialog
+        open={exiting}
+        icon={ExitIcon}
+        title="Thoát phòng thi?"
+        confirmLabel="Thoát"
+        onCancel={() => setExiting(false)}
+        onConfirm={() => router.push(`/tests/${test.id}`)}
+      >
+        Bài làm đã được lưu tự động, bạn có thể vào lại và làm tiếp bất cứ lúc nào.
+      </ConfirmDialog>
     </div>
     </>
   );
