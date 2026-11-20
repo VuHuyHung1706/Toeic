@@ -255,7 +255,8 @@ function QuestionCard({
         )}
       </div>
 
-      <div className={`mt-3 grid gap-2 ${spokenOnly && !revealed ? "grid-cols-4" : ""}`}>
+      {/* các phương án xếp dọc như máy thi (Part 1/2 khi chưa trả lời chỉ có chữ cái) */}
+      <div className="mt-3 grid gap-2">
         {optionLetters(q.part).map((L) => {
           const isSel = selected === L;
           const isAns = q.answer === L;
@@ -268,9 +269,7 @@ function QuestionCard({
               key={L}
               disabled={locked}
               onClick={() => onSelect?.(q.number, L)}
-              className={`flex items-start gap-3 rounded-lg border px-3 py-2 text-left transition disabled:cursor-default ${cls} ${
-                spokenOnly && !revealed ? "justify-center" : ""
-              }`}
+              className={`flex items-start gap-3 rounded-lg border px-3 py-2 text-left transition disabled:cursor-default ${cls}`}
             >
               <span
                 className={`grid size-6 shrink-0 place-items-center rounded-full border text-xs font-bold ${
