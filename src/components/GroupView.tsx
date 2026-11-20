@@ -1,6 +1,6 @@
 "use client";
 
-import type { CSSProperties, ReactNode } from "react";
+import { useState, type CSSProperties, type ReactNode } from "react";
 import AudioPlayer from "./AudioPlayer";
 import BilingualText from "./BilingualText";
 import PassageView from "./PassageView";
@@ -35,6 +35,8 @@ interface Props {
   stickyTop?: number;
   /** Không có cột bài đọc/ảnh → câu hỏi nằm giữa, rộng vừa phải (phòng thi) */
   center?: boolean;
+  /** Máy tính: hai khung cao bằng vùng chứa, mỗi khung tự cuộn (phòng luyện tập) */
+  panes?: boolean;
 }
 
 export default function GroupView({
@@ -48,7 +50,9 @@ export default function GroupView({
   onToggleFlag,
   stickyTop,
   center,
+  panes,
 }: Props) {
+  const [leftTab, setLeftTab] = useState<"script" | "vocab">("script");
   const view = usePref<View>("passageView", "bilingual");
   const part = group.part;
   const listening = part <= 4;
@@ -82,10 +86,15 @@ export default function GroupView({
   // Màn hình rộng (2 cột): cột trái dính lại và có thanh cuộn riêng, câu hỏi cuộn bên phải.
   // Mặc định: dưới menu (56px) + thanh audio dính của GroupView nếu có.
   const top = stickyTop ?? (showAudio && listening ? 128 : 72);
+  // Part 3/4 đã chấm: script và từ vựng của đoạn nằm chung một khung, chuyển bằng tab
+  const vocabTab = showPassages && allRevealed && listening && !!group.vocab?.length;
+  const paneScroll = "lg:h-full lg:min-h-0 lg:overflow-y-auto lg:overscroll-contain lg:pr-2";
   const left = hasLeft && (
     <div
-      style={{ "--sticky-top": `${top}px` } as CSSProperties}
-      className="space-y-4 lg:sticky lg:self-start lg:top-[var(--sticky-top)] lg:max-h-[calc(100vh-var(--sticky-top)-1rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1"
+      style={panes ? undefined : ({ "--sticky-top": `${top}px` } as CSSProperties)}
+      className={`space-y-4 ${
+        panes ? paneScroll : "lg:sticky lg:self-start lg:top-[var(--sticky-top)] lg:max-h-[calc(100vh-var(--sticky-top)-1rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1"
+      }`}
     >
       {images.map((img) => (
         // eslint-disable-next-line @next/next/no-img-element
@@ -96,7 +105,18 @@ export default function GroupView({
           className="mx-auto max-h-[460px] w-auto rounded-lg border border-line bg-white object-contain"
         />
       ))}
-      {showPassages && (
+      {vocabTab && (
+        <Tabs
+          value={leftTab}
+          onChange={setLeftTab}
+          items={[
+            ["script", "Script"],
+            ["vocab", `Từ vựng (${group.vocab!.length})`],
+          ]}
+        />
+      )}
+      {vocabTab && leftTab === "vocab" && <GroupVocab items={group.vocab!} auto={!!group.vocabAuto} />}
+      {showPassages && !(vocabTab && leftTab === "vocab") && (
         <div className={part >= 6 ? "" : "rounded-lg border border-line bg-surface p-4"}>
           {allRevealed && hasVi && (
             <div className="mb-3 flex flex-wrap gap-1 text-sm" role="tablist" aria-label="Cách xem bài đọc">
@@ -137,15 +157,12 @@ export default function GroupView({
           ))}
         </div>
       )}
-      {showPassages && allRevealed && listening && group.vocab && group.vocab.length > 0 && (
-        <GroupVocab items={group.vocab} auto={!!group.vocabAuto} />
-      )}
     </div>
   );
 
   return (
-    <div className={center && !hasLeft ? "mx-auto max-w-3xl" : ""}>
-      <div className="mb-3 flex flex-wrap items-baseline gap-x-3">
+    <div className={`${center && !hasLeft ? "mx-auto max-w-3xl" : ""} ${panes ? "lg:flex lg:h-full lg:flex-col" : ""}`}>
+      <div className="mb-3 flex shrink-0 flex-wrap items-baseline gap-x-3">
         <h2 className="text-lg font-semibold">
           Part {part} · {partInfo(part).name}
         </h2>
@@ -161,9 +178,13 @@ export default function GroupView({
         </div>
       )}
       {/* Part 6/7: bài đọc chiếm ~60% bề ngang; các part khác chia đôi */}
-      <div className={hasLeft ? `grid gap-6 ${part >= 6 ? "lg:grid-cols-[3fr_2fr]" : "lg:grid-cols-2"}` : ""}>
+      <div
+        className={`${hasLeft ? `grid gap-6 ${part >= 6 ? "lg:grid-cols-[3fr_2fr]" : "lg:grid-cols-2"}` : ""} ${
+          panes ? "lg:min-h-0 lg:flex-1" : ""
+        }`}
+      >
         {left}
-        <div className="space-y-5">
+        <div className={`space-y-5 ${panes ? paneScroll : ""}`}>
           {group.questions.map((q) => (
             <QuestionCard
               key={q.number}
@@ -240,7 +261,7 @@ function QuestionCard({
           ) : null}
           {/* song ngữ: bản dịch câu hỏi, chỉ hiện khi đã có đáp án */}
           {revealed && showText && questionText && q.questionVi && (
-            <div className="mt-1 text-sm font-normal text-primary">{q.questionVi}</div>
+            <div className="mt-1 text-sm font-normal text-vi">{q.questionVi}</div>
           )}
         </div>
         {onToggleFlag && (
@@ -283,7 +304,7 @@ function QuestionCard({
                   {q.options[L]}
                   {/* song ngữ: nghĩa (+ loại từ) của phương án, chỉ hiện khi đã có đáp án */}
                   {revealed && q.optionNotes?.[L] && (
-                    <span className="mt-0.5 block text-sm text-primary">
+                    <span className="mt-0.5 block text-sm text-vi">
                       {q.optionNotes[L]!.pos.length > 0 && (
                         <span className="mr-1.5 text-xs font-semibold">({q.optionNotes[L]!.pos.join(", ")})</span>
                       )}
@@ -312,19 +333,82 @@ function QuestionCard({
               <span className="font-semibold text-warn">Chưa trả lời — đáp án đúng là {q.answer}</span>
             )}
           </div>
-          {(q.explanation || q.transcript) && (
-            <details open className="rounded-lg bg-surface-2 p-3 text-sm">
-              <summary className="cursor-pointer font-semibold">Giải thích</summary>
-              {q.transcript && <div className="prose-pre mt-2 text-muted">{q.transcript}</div>}
-              <div className="prose-pre mt-2">{q.explanation}</div>
-            </details>
-          )}
+          {(q.explanation || q.transcript) && <ExplainBox q={q} />}
         </div>
       )}
     </div>
   );
 }
 
+/** Giải thích của một câu (bấm tiêu đề để ẩn/hiện); câu có lời đọc riêng thì thêm tab Script */
+function ExplainBox({ q }: { q: Question }) {
+  const [tab, setTab] = useState<"explain" | "script">("explain");
+  const [open, setOpen] = useState(true);
+  const items: [typeof tab, string][] = [["explain", "Giải thích"]];
+  if (q.transcript) items.push(["script", "Script"]);
+  const toggle = (
+    <button
+      type="button"
+      onClick={() => setOpen((o) => !o)}
+      aria-expanded={open}
+      className="ml-auto flex shrink-0 items-center gap-1 rounded-md px-2 py-1 text-xs font-medium text-muted hover:bg-surface hover:text-fg"
+    >
+      {open ? "Ẩn" : "Hiện"}
+      <svg viewBox="0 0 20 20" className={`size-3.5 transition-transform ${open ? "" : "-rotate-90"}`} fill="currentColor" aria-hidden>
+        <path d="M5.2 7.2a.75.75 0 0 1 1.06 0L10 10.94l3.74-3.74a.75.75 0 1 1 1.06 1.06l-4.27 4.27a.75.75 0 0 1-1.06 0L5.2 8.26a.75.75 0 0 1 0-1.06z" />
+      </svg>
+    </button>
+  );
+  return (
+    <div className="rounded-lg bg-surface-2 p-3 text-sm">
+      <div className="flex items-center gap-2">
+        {items.length > 1 && open ? (
+          <div className="min-w-0 flex-1">
+            <Tabs value={tab} onChange={setTab} items={items} small />
+          </div>
+        ) : (
+          <button type="button" onClick={() => setOpen((o) => !o)} className="font-semibold">
+            Giải thích
+          </button>
+        )}
+        {toggle}
+      </div>
+      {open && <div className="prose-pre mt-2 leading-relaxed">{tab === "script" && q.transcript ? q.transcript : q.explanation}</div>}
+    </div>
+  );
+}
+
+/** Thanh tab nhỏ (gạch chân mục đang chọn) */
+function Tabs<T extends string>({
+  value,
+  onChange,
+  items,
+  small,
+}: {
+  value: T;
+  onChange: (v: T) => void;
+  items: [T, string][];
+  small?: boolean;
+}) {
+  return (
+    <div role="tablist" className={`flex gap-1 border-b border-line ${small ? "-mx-1" : ""}`}>
+      {items.map(([id, label]) => (
+        <button
+          key={id}
+          type="button"
+          role="tab"
+          aria-selected={value === id}
+          onClick={() => onChange(id)}
+          className={`-mb-px border-b-2 px-3 font-semibold transition-colors ${small ? "py-1 text-sm" : "py-2"} ${
+            value === id ? "border-primary text-fg" : "border-transparent text-muted hover:text-fg"
+          }`}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 function speak(text: string) {
   try {

@@ -167,16 +167,6 @@ function ExamSession({
     };
   }, [phase]);
 
-  // chiều cao thanh thi (đổi theo màn hình / có thanh audio) → vị trí dính của bài đọc và bảng câu hỏi
-  const barRef = useRef<HTMLDivElement>(null);
-  const [barH, setBarH] = useState(96);
-  useEffect(() => {
-    const el = barRef.current;
-    if (!el) return;
-    const ro = new ResizeObserver(() => setBarH(Math.round(el.getBoundingClientRect().height)));
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, [phase]);
 
   // ---------------- điều hướng ----------------
   const goTo = useCallback(
@@ -393,40 +383,44 @@ function ExamSession({
   return (
     <>
     {audioEl}
-    <div className="flex flex-1 flex-col">
+    {/* cả màn hình: thanh trên (navy như phòng thi thật) + hai khung cuộn riêng + thanh điều hướng đáy */}
+    <div className="flex h-dvh flex-col overflow-hidden">
       {/* thanh trên */}
-      <div ref={barRef} className="sticky top-0 z-20 border-b border-line bg-surface">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-2.5">
+      <div className="z-20 shrink-0 border-b border-line bg-surface">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 bg-[#0b2447] px-4 py-2.5 text-white sm:px-6">
           <Link
             href={`/tests/${test.id}`}
             title="Thoát phòng thi (bài làm đã được lưu, có thể làm tiếp sau)"
             onClick={(e) => {
               if (!confirm("Thoát phòng thi? Bài làm đã được lưu, bạn có thể làm tiếp sau.")) e.preventDefault();
             }}
-            className="hidden shrink-0 text-lg font-bold tracking-tight sm:block"
+            className="hidden shrink-0 rounded-lg bg-white px-3 py-1 text-lg font-bold tracking-tight text-[#0b2447] sm:block"
           >
-            Toeic<span className="text-primary">Lab</span>
+            Toeic<span className="text-[#2453d6]">Lab</span>
           </Link>
           <div className="w-full min-w-0 sm:w-auto sm:flex-1">
             <div className="truncate text-sm font-semibold">{test.title}</div>
-            <div className="text-xs text-muted">{title}</div>
+            <div className="text-xs text-white/70">{title}</div>
           </div>
-          <div className="mr-auto text-sm text-muted sm:mr-0">
-            <span className="hidden sm:inline">Đã làm </span>
-            <b className="text-fg">{answered}</b>/{total}
+          <div className="mr-auto rounded-md bg-white px-3 py-1 text-sm font-semibold text-[#0b2447] tabular-nums sm:mr-0">
+            {answered}/{total}
           </div>
           <div
-            className={`rounded-lg px-3 py-1 font-mono text-lg font-semibold tabular-nums ${
-              remaining !== null && remaining <= 300 ? "bg-danger-soft text-danger" : "bg-surface-2"
+            className={`flex items-center gap-1.5 rounded-md px-3 py-1 text-sm font-semibold tabular-nums ${
+              remaining !== null && remaining <= 300 ? "bg-danger" : "bg-[#3b8fe5]"
             }`}
             aria-label="Thời gian"
           >
+            <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3 2" />
+            </svg>
             {remaining !== null ? formatDuration(remaining) : formatDuration(elapsed)}
           </div>
           <button
             onClick={() => setConfirming(true)}
             disabled={phase === "submitting"}
-            className="rounded-lg bg-primary px-4 py-1.5 text-sm font-semibold text-on-primary hover:opacity-90"
+            className="rounded-md bg-[#f7941d] px-4 py-1.5 text-sm font-semibold text-white hover:brightness-110"
           >
             Nộp bài
           </button>
@@ -466,16 +460,18 @@ function ExamSession({
         )}
         {/* luyện tập phần nghe: audio của nhóm câu nằm trong thanh dính, luôn thấy khi cuộn */}
         {practiceAudio && group && (
-          <div className="mx-auto max-w-7xl px-4 pb-2">
+          <div className="mx-auto max-w-7xl px-4 py-2">
             <AudioPlayer key={group.id} src={group.audio?.src ?? null} />
           </div>
         )}
       </div>
 
-      <div className="mx-auto w-full max-w-7xl flex-1 px-4 pt-6 pb-24">
-        <div ref={mainRef} className="min-w-0 scroll-mt-32">
+      {/* điện thoại: cả vùng cuộn; máy tính: hai khung trong GroupView tự cuộn */}
+      <main className="min-h-0 flex-1 overflow-y-auto lg:overflow-hidden">
+      <div className="mx-auto w-full max-w-7xl px-4 pt-5 pb-20 lg:h-full lg:pb-[68px]">
+        <div ref={mainRef} className="min-w-0 scroll-mt-32 lg:h-full">
           {group && (
-            <StepTransition index={groupIndex}>
+            <StepTransition index={groupIndex} className="lg:h-full">
             <GroupView
               key={group.id}
               group={group}
@@ -484,7 +480,7 @@ function ExamSession({
               isRevealed={isRevealed}
               showScript={showScriptNow}
               showAudio={false}
-              stickyTop={barH + 16}
+              panes
               center
               flagged={flagged}
               onToggleFlag={toggleFlag}
@@ -492,8 +488,8 @@ function ExamSession({
             </StepTransition>
           )}
         </div>
-
       </div>
+      </main>
 
       {/* thanh điều hướng gọn ở đáy: < [Câu x/y] > */}
       {group && (

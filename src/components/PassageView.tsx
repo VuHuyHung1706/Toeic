@@ -59,7 +59,7 @@ function Bi({ en, vi, ctx }: { en: string; vi?: string | null; ctx: Ctx }) {
     <>
       <T text={en} lang={ctx.lang} ctx={ctx} />
       {vi && vi.trim() && vi.trim() !== en.trim() && (
-        <span className="mt-0.5 block text-primary">
+        <span className="mt-0.5 block text-vi">
           <T text={vi} lang="vi" pairEn={en} ctx={ctx} />
         </span>
       )}
@@ -210,7 +210,7 @@ function BlockView({ b, doc, ctx }: { b: Block; doc: PassageDoc; ctx: Ctx }) {
       return (
         <div>
           {table(grid, null)}
-          <div className="mt-2 space-y-0.5 text-sm text-primary">
+          <div className="mt-2 space-y-0.5 text-sm text-vi">
             {b.rows.map((i) => ctx.pair![i]?.trim() && <p key={i}><T text={ctx.pair![i].trim()} lang="vi" pairEn={L[i]} ctx={ctx} /></p>)}
           </div>
         </div>

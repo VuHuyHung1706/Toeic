@@ -36,7 +36,7 @@ export default function BilingualText({
               </p>
             )}
             {/* bản dịch giống hệt bản gốc (tên riêng, địa chỉ, số) thì không lặp lại */}
-            {viText && viText.trim() !== enText.trim() && <p className="text-primary">{renderText(viText, "vi", enText)}</p>}
+            {viText && viText.trim() !== enText.trim() && <p className="text-vi">{renderText(viText, "vi", enText)}</p>}
           </div>
         );
       })}

@@ -28,6 +28,8 @@
   --danger-soft: #fbe7e7;
   --warn: #b26b00;
   --warn-soft: #fff1d9;
+  /* bản dịch tiếng Việt: xanh dịu, khác màu nút bấm (--primary) */
+  --vi: #46639f;
 }
 
 /* Giao diện tối: theo máy khi chưa chọn, hoặc theo nút bật/tắt (html[data-theme], xem ThemeToggle) */
@@ -48,6 +50,7 @@
     --danger-soft: #3a1c1c;
     --warn: #f0b24a;
     --warn-soft: #3a2c12;
+    --vi: #a3b5e3;
   }
 }
 :root[data-theme="dark"] {
@@ -66,6 +69,7 @@
     --danger-soft: #3a1c1c;
     --warn: #f0b24a;
     --warn-soft: #3a2c12;
+    --vi: #a3b5e3;
   }
 
 @theme inline {
@@ -84,6 +88,7 @@
   --color-danger-soft: var(--danger-soft);
   --color-warn: var(--warn);
   --color-warn-soft: var(--warn-soft);
+  --color-vi: var(--vi);
   --font-sans: var(--font-be-vietnam), ui-sans-serif, system-ui, sans-serif;
 }
 
