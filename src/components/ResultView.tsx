@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import GroupView from "./GroupView";
 import QuestionDrawer from "./QuestionDrawer";
+import StepNav from "./StepNav";
 import QuestionNav, { type CellState } from "./QuestionNav";
 import { useAttempts } from "@/lib/storage";
 import { formatDuration, groupsForParts, partInfo } from "@/lib/toeic";
@@ -48,6 +49,11 @@ export default function ResultView({ test }: { test: TestData }) {
   const wrong = [...answerOf.keys()].filter((n) => cellState(n) === "wrong").length;
   const skipped = [...answerOf.keys()].filter((n) => cellState(n) === "skipped").length;
   const current = groupIndex !== null ? groups[groupIndex] : null;
+  /** chuyển nhóm câu và cuộn lên đầu phần xem lại */
+  const showGroup = (gi: number) => {
+    setGroupIndex(gi);
+    requestAnimationFrame(() => document.getElementById("review")?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  };
   const pos = groupIndex !== null ? visible.indexOf(groupIndex) : -1;
 
   const retryHref =
@@ -138,7 +144,7 @@ export default function ResultView({ test }: { test: TestData }) {
         </div>
       </section>
 
-      <section className="mt-8 pb-20">
+      <section id="review" className="mt-8 scroll-mt-20 pb-20">
         <div className="min-w-0">
           <div className="mb-4 flex flex-wrap items-center gap-2">
             <h2 className="mr-2 text-lg font-semibold">Xem lại đáp án</h2>
@@ -172,28 +178,12 @@ export default function ResultView({ test }: { test: TestData }) {
                 showScript
                 showAudio
               />
-              <div className="mt-6 flex items-center justify-between">
-                <button
-                  disabled={pos <= 0}
-                  onClick={() => setGroupIndex(visible[pos - 1])}
-                  className="rounded-lg border border-line bg-surface px-4 py-2 disabled:opacity-40"
-                >
-                  ← Trước
-                </button>
-                <button
-                  disabled={pos < 0 || pos >= visible.length - 1}
-                  onClick={() => setGroupIndex(visible[pos + 1])}
-                  className="rounded-lg border border-line bg-surface px-4 py-2 disabled:opacity-40"
-                >
-                  Tiếp →
-                </button>
-              </div>
             </>
           ) : (
             <div className="rounded-xl border border-dashed border-line p-8 text-center text-muted">
               {visible.length ? (
                 <>
-                  Bấm nút <b>Câu hỏi</b> ở góc dưới bên phải để chọn câu muốn xem đáp án, giải thích và script.
+                  Bấm <b>Câu hỏi</b> ở góc dưới bên phải để chọn câu, hoặc nút <b>›</b> để xem lần lượt.
                   <div>
                     <button onClick={() => setGroupIndex(visible[0])} className="mt-3 text-primary hover:underline">
                       Bắt đầu từ câu đầu tiên →
@@ -208,8 +198,24 @@ export default function ResultView({ test }: { test: TestData }) {
         </div>
       </section>
 
-      {/* bảng số câu: ẩn/hiện bằng nút nổi như lúc luyện đề */}
+      {/* thanh điều hướng dính đáy: đi theo bộ lọc đang chọn (tất cả / câu sai / bỏ trống) */}
+      <StepNav
+        label={
+          pos >= 0
+            ? `Câu ${visible.slice(0, pos).reduce((n, gi) => n + groups[gi].questions.length, 0) + 1}/${visible.reduce((n, gi) => n + groups[gi].questions.length, 0)}`
+            : `${visible.reduce((n, gi) => n + groups[gi].questions.length, 0)} câu`
+        }
+        canPrev={pos > 0}
+        canNext={visible.length > 0 && pos < visible.length - 1}
+        onPrev={() => showGroup(visible[pos - 1])}
+        onNext={() => showGroup(visible[pos + 1])}
+        listOpen={navOpen}
+        onToggleList={() => setNavOpen((o) => !o)}
+      />
+
+      {/* bảng số câu: mở bằng nút "Câu hỏi" trên thanh điều hướng */}
       <QuestionDrawer
+        showButton={false}
         open={navOpen}
         onOpenChange={setNavOpen}
         summary={
@@ -217,7 +223,6 @@ export default function ResultView({ test }: { test: TestData }) {
             Sai <b className="text-danger">{wrong}</b> · Bỏ trống <b className="text-warn">{skipped}</b>
           </>
         }
-        badge={pos >= 0 ? `${pos + 1}/${visible.length}` : undefined}
       >
         <QuestionNav
           groups={groups}

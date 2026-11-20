@@ -7,6 +7,7 @@ import AudioPlayer from "./AudioPlayer";
 import CbtRoom from "./CbtRoom";
 import GroupView from "./GroupView";
 import QuestionDrawer from "./QuestionDrawer";
+import StepNav from "./StepNav";
 import QuestionNav, { answeredCount, type CellState } from "./QuestionNav";
 import { directionsPartAt, hasAudioTimeline, listeningIndexAt } from "@/lib/cbt";
 import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, type Progress } from "@/lib/storage";
@@ -266,9 +267,6 @@ function ExamSession({
   const group = groups[groupIndex];
   const practiceAudio = mode === "practice" && !!group && group.part <= 4;
   const showScriptNow = !!group && instant && group.questionNumbers.every((n) => answers[n]);
-  // nhóm có cột ảnh/bài đọc (cùng điều kiện với GroupView) → nội dung trải rộng; không có → căn giữa
-  const sideCol =
-    !!group && (group.images.some((i) => i.src) || (group.passages.some((p) => p.en || p.vi) && (group.part > 4 || showScriptNow)));
   const title = mode === "full" ? "Thi thử" : `Luyện tập · Part ${parts.join(", ")}`;
 
   // ---------------- giao diện ----------------
@@ -490,33 +488,26 @@ function ExamSession({
               onToggleFlag={toggleFlag}
             />
           )}
-          <div className={`mt-6 flex items-center justify-between gap-3 ${sideCol ? "" : "mx-auto max-w-3xl"}`}>
-            <button
-              onClick={() => goTo(groupIndex - 1)}
-              disabled={groupIndex === 0}
-              className="rounded-lg border border-line bg-surface px-4 py-2 font-medium disabled:opacity-40"
-            >
-              ← Trước
-            </button>
-            <span className="text-sm text-muted">
-              Nhóm {groupIndex + 1}/{groups.length}
-            </span>
-            {groupIndex < groups.length - 1 ? (
-              <button onClick={() => goTo(groupIndex + 1)} className="rounded-lg border border-line bg-surface px-4 py-2 font-medium">
-                Tiếp →
-              </button>
-            ) : (
-              <button onClick={() => setConfirming(true)} className="rounded-lg bg-primary px-4 py-2 font-semibold text-on-primary">
-                Nộp bài
-              </button>
-            )}
-          </div>
         </div>
 
       </div>
 
-      {/* bảng câu hỏi: ngăn bật/tắt bằng nút nổi góc dưới phải */}
+      {/* thanh điều hướng gọn ở đáy: < [Câu x/y] > */}
+      {group && (
+        <StepNav
+          label={`Câu ${groups.slice(0, groupIndex).reduce((n, g) => n + g.questions.length, 0) + 1}/${total}`}
+          canPrev={groupIndex > 0}
+          canNext={groupIndex < groups.length - 1}
+          onPrev={() => goTo(groupIndex - 1)}
+          onNext={() => goTo(groupIndex + 1)}
+          listOpen={navOpen}
+          onToggleList={() => setNavOpen((o) => !o)}
+        />
+      )}
+
+      {/* bảng câu hỏi: mở bằng nút "Câu hỏi" trên thanh điều hướng */}
       <QuestionDrawer
+        showButton={false}
         open={navOpen}
         onOpenChange={setNavOpen}
         summary={
