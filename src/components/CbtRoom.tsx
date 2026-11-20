@@ -12,6 +12,7 @@ import ConfirmDialog, { ExitIcon } from "./ConfirmDialog";
 import PassageView from "./PassageView";
 import { formatDuration, mediaUrl, optionLetters } from "@/lib/toeic";
 import type { Letter, PartNo, QuestionGroup } from "@/lib/types";
+import Logo from "./Logo";
 
 const INSTRUCTIONS: Record<PartNo, string> = {
   1: "Select the one statement that best describes what you see in the picture.",
@@ -104,9 +105,10 @@ export default function CbtRoom(p: CbtProps) {
             e.preventDefault();
             setExitOpen(true);
           }}
-          className="shrink-0 rounded-lg bg-white px-3 py-1.5 text-base font-bold tracking-tight text-[#0b2447] sm:text-lg"
+          aria-label="Thoát phòng thi"
+          className="shrink-0"
         >
-          Toeic<span className="text-primary">Lab</span>
+          <Logo onDark />
         </Link>
         <h1 className="order-last w-full text-center text-base font-semibold sm:order-none sm:w-auto sm:flex-1 sm:text-xl">
           {title}

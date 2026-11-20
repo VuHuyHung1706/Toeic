@@ -1,4 +1,4 @@
-# ToeicLab — web luyện thi TOEIC
+# ĐMToeic — web luyện thi TOEIC
 
 Next.js 16 (App Router, Cache Components) + Tailwind CSS 4. Kế hoạch tổng thể: [PLAN.md](PLAN.md).
 

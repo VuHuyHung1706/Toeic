@@ -15,7 +15,7 @@ function secret() {
 
 function makeAuth(db: DB) {
   return betterAuth({
-    appName: "ToeicLab",
+    appName: "ĐMToeic",
     secret: secret(),
     baseURL: process.env.BETTER_AUTH_URL,
     // bản preview của Vercel có domain riêng mỗi lần deploy → cho phép thêm domain đó

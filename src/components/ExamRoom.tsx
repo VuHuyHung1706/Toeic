@@ -15,6 +15,7 @@ import { directionsPartAt, hasAudioTimeline, listeningIndexAt } from "@/lib/cbt"
 import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, type Progress } from "@/lib/storage";
 import { formatDuration, gradeAttempt, groupsForParts, mediaUrl, parsePartsParam } from "@/lib/toeic";
 import type { ExamMode, Letter, PartNo, TestData } from "@/lib/types";
+import Logo from "./Logo";
 
 const ALL_PARTS: PartNo[] = [1, 2, 3, 4, 5, 6, 7];
 
@@ -397,9 +398,10 @@ function ExamSession({
               e.preventDefault();
               setExiting(true);
             }}
-            className="hidden shrink-0 rounded-lg bg-white px-3 py-1 text-lg font-bold tracking-tight text-[#0b2447] sm:block"
+            aria-label="Thoát phòng thi"
+            className="hidden shrink-0 sm:block"
           >
-            Toeic<span className="text-[#2453d6]">Lab</span>
+            <Logo onDark />
           </Link>
           <div className="w-full min-w-0 sm:w-auto sm:flex-1">
             <div className="truncate text-sm font-semibold">{test.title}</div>
