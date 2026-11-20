@@ -241,7 +241,7 @@ AttemptAnswer (attemptId, questionId, selected, isCorrect, flagged, timeSpentSec
 2. ✅ Đã thử bản production với `MEDIA_SOURCE=b2`: audio phát + tua (206), ảnh tên có dấu cách, thiếu giấy phép → 401.
 3. ✅ `check_content.py --skip-media` (tự bỏ qua khi không có `Data/`); ✅ GitHub Actions `.github/workflows/ci.yml` (lint, tsc, vitest, check_content, build) — đã chạy thử trên bản sao sạch.
 4. Kết nối repo với Vercel, deploy; thử toàn bộ luồng trên domain `*.vercel.app` (audio tua được, ảnh hiện, thi thử, luyện tập).
-5. ✅ `robots.txt` chặn toàn bộ + thẻ `noindex`. ⏳ Mã 404 thật cho đường dẫn đề sai: Cache Components bỏ `dynamicParams`, `notFound()` trong Suspense trả 200 → cần đổi cách render, để sau.
+5. ✅ `robots.txt` chặn toàn bộ + thẻ `noindex`. ✅ Trang 404 tiếng Việt (`src/app/not-found.tsx`); trình duyệt nhận mã 404 cho mã đề / dạng câu sai.
 
 → Kết quả: web chạy công khai, dữ liệu học vẫn lưu trên trình duyệt như hiện nay.
 

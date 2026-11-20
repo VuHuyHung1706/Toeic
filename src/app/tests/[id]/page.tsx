@@ -51,7 +51,8 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
           <h2 className="text-lg font-semibold">Thi thử full đề</h2>
           <ul className="mt-3 space-y-1.5 text-sm text-muted">
             <li>• 200 câu, đồng hồ 120 phút, tự nộp khi hết giờ</li>
-            <li>• Audio phát liền mạch một lần như phòng thi thật, không tua lại</li>
+            <li>• Giao diện giống máy thi TOEIC trên máy tính (IIG)</li>
+            <li>• Listening: audio phát liền một lần, màn hình tự chuyển theo câu đang đọc; hết audio tự sang Reading</li>
             <li>• Quy đổi điểm ước tính thang 990 sau khi nộp</li>
             <li>• Bài làm được lưu tự động, tải lại trang không mất</li>
           </ul>
