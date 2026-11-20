@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import GroupView from "./GroupView";
+import QuestionDrawer from "./QuestionDrawer";
 import QuestionNav, { type CellState } from "./QuestionNav";
 import { useAttempts } from "@/lib/storage";
 import { formatDuration, groupsForParts, partInfo } from "@/lib/toeic";
@@ -16,6 +17,7 @@ export default function ResultView({ test }: { test: TestData }) {
   const attempt = useAttempts().find((a) => a.id === id && a.testId === test.id);
   const [filter, setFilter] = useState<Filter>("all");
   const [groupIndex, setGroupIndex] = useState<number | null>(null);
+  const [navOpen, setNavOpen] = useState(false);
 
   const groups = useMemo(() => (attempt ? groupsForParts(test, attempt.parts) : []), [test, attempt]);
   const answerOf = useMemo(() => {
@@ -136,7 +138,7 @@ export default function ResultView({ test }: { test: TestData }) {
         </div>
       </section>
 
-      <section className="mt-8 grid gap-6 lg:grid-cols-[1fr_280px]">
+      <section className="mt-8 pb-20">
         <div className="min-w-0">
           <div className="mb-4 flex flex-wrap items-center gap-2">
             <h2 className="mr-2 text-lg font-semibold">Xem lại đáp án</h2>
@@ -191,7 +193,7 @@ export default function ResultView({ test }: { test: TestData }) {
             <div className="rounded-xl border border-dashed border-line p-8 text-center text-muted">
               {visible.length ? (
                 <>
-                  Chọn một câu ở bảng bên phải để xem đáp án, giải thích và script.
+                  Bấm nút <b>Câu hỏi</b> ở góc dưới bên phải để chọn câu muốn xem đáp án, giải thích và script.
                   <div>
                     <button onClick={() => setGroupIndex(visible[0])} className="mt-3 text-primary hover:underline">
                       Bắt đầu từ câu đầu tiên →
@@ -204,20 +206,30 @@ export default function ResultView({ test }: { test: TestData }) {
             </div>
           )}
         </div>
-        <aside>
-          <div className="rounded-xl border border-line bg-surface p-4 lg:sticky lg:top-20 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
-            <QuestionNav
-              groups={groups}
-              currentGroup={groupIndex ?? -1}
-              cellState={cellState}
-              onJump={(gi, n) => {
-                setGroupIndex(gi);
-                requestAnimationFrame(() => document.getElementById(`q-${n}`)?.scrollIntoView({ behavior: "smooth", block: "center" }));
-              }}
-            />
-          </div>
-        </aside>
       </section>
+
+      {/* bảng số câu: ẩn/hiện bằng nút nổi như lúc luyện đề */}
+      <QuestionDrawer
+        open={navOpen}
+        onOpenChange={setNavOpen}
+        summary={
+          <>
+            Sai <b className="text-danger">{wrong}</b> · Bỏ trống <b className="text-warn">{skipped}</b>
+          </>
+        }
+        badge={pos >= 0 ? `${pos + 1}/${visible.length}` : undefined}
+      >
+        <QuestionNav
+          groups={groups}
+          currentGroup={groupIndex ?? -1}
+          cellState={cellState}
+          onJump={(gi, n) => {
+            setGroupIndex(gi);
+            setNavOpen(false);
+            requestAnimationFrame(() => document.getElementById(`q-${n}`)?.scrollIntoView({ behavior: "smooth", block: "center" }));
+          }}
+        />
+      </QuestionDrawer>
     </main>
   );
 }

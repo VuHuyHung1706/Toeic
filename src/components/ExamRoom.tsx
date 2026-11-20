@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import AudioPlayer from "./AudioPlayer";
 import CbtRoom from "./CbtRoom";
 import GroupView from "./GroupView";
+import QuestionDrawer from "./QuestionDrawer";
 import QuestionNav, { answeredCount, type CellState } from "./QuestionNav";
 import { directionsPartAt, hasAudioTimeline, listeningIndexAt } from "@/lib/cbt";
 import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, type Progress } from "@/lib/storage";
@@ -174,18 +175,6 @@ function ExamSession({
     ro.observe(el);
     return () => ro.disconnect();
   }, [phase]);
-
-  // ngăn bảng câu: mở ra thì cuộn tới câu đang làm; Esc để đóng
-  const navPanelRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (!navOpen) return;
-    navPanelRef.current?.querySelector("[data-current]")?.scrollIntoView({ block: "center" });
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setNavOpen(false);
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [navOpen]);
 
   // ---------------- điều hướng ----------------
   const goTo = useCallback(
@@ -526,42 +515,19 @@ function ExamSession({
 
       </div>
 
-      {/* bảng câu hỏi: ngăn bật/tắt bằng nút nổi góc dưới phải (điện thoại: trượt từ dưới lên; máy tính: bên phải) */}
-      {navOpen && (
-        <div className="fixed inset-0 z-40 bg-black/30" onClick={() => setNavOpen(false)}>
-          <div
-            ref={navPanelRef}
-            role="dialog"
-            aria-label="Danh sách câu hỏi"
-            className="absolute inset-x-0 bottom-0 max-h-[75vh] overflow-y-auto rounded-t-2xl bg-surface p-4 pb-24 shadow-xl lg:inset-y-0 lg:right-0 lg:left-auto lg:max-h-none lg:w-80 lg:rounded-none lg:rounded-l-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="mb-3 flex items-center justify-between">
-              <h2 className="font-semibold">Câu hỏi</h2>
-              <span className="text-sm text-muted">
-                Đã làm <b className="text-fg">{answered}</b>/{total}
-              </span>
-            </div>
-            {nav}
-          </div>
-        </div>
-      )}
-      <button
-        onClick={() => setNavOpen((o) => !o)}
-        aria-expanded={navOpen}
-        aria-label={navOpen ? "Đóng danh sách câu hỏi" : "Mở danh sách câu hỏi"}
-        className="fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-[45] flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-on-primary shadow-lg shadow-primary/30 hover:opacity-90"
+      {/* bảng câu hỏi: ngăn bật/tắt bằng nút nổi góc dưới phải */}
+      <QuestionDrawer
+        open={navOpen}
+        onOpenChange={setNavOpen}
+        summary={
+          <>
+            Đã làm <b className="text-fg">{answered}</b>/{total}
+          </>
+        }
+        badge={`${answered}/${total}`}
       >
-        {navOpen ? (
-          <span aria-hidden className="text-base leading-none">✕</span>
-        ) : (
-          <svg aria-hidden viewBox="0 0 20 20" className="size-4" fill="currentColor">
-            <path d="M3 3h4v4H3zM8 3h4v4H8zM13 3h4v4h-4zM3 8h4v4H3zM8 8h4v4H8zM13 8h4v4h-4zM3 13h4v4H3zM8 13h4v4H8zM13 13h4v4h-4z" />
-          </svg>
-        )}
-        {navOpen ? "Đóng" : "Câu hỏi"}
-        {!navOpen && <span className="rounded-full bg-on-primary/20 px-1.5 text-xs tabular-nums">{answered}/{total}</span>}
-      </button>
+        {nav}
+      </QuestionDrawer>
 
       {confirming && (
         <div className="fixed inset-0 z-50 grid place-items-center bg-black/50 p-4" role="dialog" aria-modal="true">
