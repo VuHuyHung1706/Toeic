@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ClientOnly from "@/components/ClientOnly";
 import ListeningPractice from "@/components/ListeningPractice";
 import { getTestIndex } from "@/lib/tests";
+import { TextSkeleton } from "@/components/Skeleton";
 
 export const metadata: Metadata = { title: "Luyện nghe chép chính tả" };
 
@@ -13,7 +14,7 @@ export default async function ListeningPage() {
       <p className="mt-2 text-muted">
         Nghe audio Part 1–4 rồi điền từ bị ẩn hoặc chép lại cả câu. Có thể nghe lại, chỉnh tốc độ và chọn độ khó.
       </p>
-      <ClientOnly fallback={<p className="mt-8 text-muted">Đang tải…</p>}>
+      <ClientOnly fallback={<TextSkeleton label="Đang tải bài nghe" />}>
         <ListeningPractice tests={tests.map((t) => ({ id: t.id, year: t.year, number: t.number }))} />
       </ClientOnly>
     </main>

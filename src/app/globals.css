@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+/* dark: của Tailwind đi theo cùng quy tắc: chọn tối, hoặc máy đang tối mà chưa chọn sáng */
+@custom-variant dark {
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme="light"]), :root:not([data-theme="light"]) *) {
+      @slot;
+    }
+  }
+}
+
 :root {
   --bg: #f6f7fb;
   --surface: #ffffff;
@@ -18,8 +30,9 @@
   --warn-soft: #fff1d9;
 }
 
+/* Giao diện tối: theo máy khi chưa chọn, hoặc theo nút bật/tắt (html[data-theme], xem ThemeToggle) */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #0e1016;
     --surface: #171a23;
     --surface-2: #1f2330;
@@ -37,6 +50,23 @@
     --warn-soft: #3a2c12;
   }
 }
+:root[data-theme="dark"] {
+    --bg: #0e1016;
+    --surface: #171a23;
+    --surface-2: #1f2330;
+    --line: #2c3142;
+    --text: #e9ebf2;
+    --muted: #9aa1b4;
+    --primary: #7d9bff;
+    --primary-soft: #1f2a4a;
+    --on-primary: #0e1016;
+    --success: #4cc584;
+    --success-soft: #16301f;
+    --danger: #ff7b7b;
+    --danger-soft: #3a1c1c;
+    --warn: #f0b24a;
+    --warn-soft: #3a2c12;
+  }
 
 @theme inline {
   --color-bg: var(--bg);
@@ -59,6 +89,12 @@
 
 html {
   color-scheme: light dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 body {
@@ -90,7 +126,7 @@ audio {
   --hl-5: #e2d6fd;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --hl-1: #23406f;
     --hl-2: #5b4a12;
     --hl-3: #1f4b33;
@@ -98,8 +134,45 @@ audio {
     --hl-5: #3f306e;
   }
 }
+:root[data-theme="dark"] {
+    --hl-1: #23406f;
+    --hl-2: #5b4a12;
+    --hl-3: #1f4b33;
+    --hl-4: #5c2643;
+    --hl-5: #3f306e;
+  }
 .hl-1 { background: var(--hl-1); }
 .hl-2 { background: var(--hl-2); }
 .hl-3 { background: var(--hl-3); }
 .hl-4 { background: var(--hl-4); }
 .hl-5 { background: var(--hl-5); }
+
+/* Chuyển câu (StepTransition): trượt 24px + hiện dần, cùng đường cong với ngăn bảng câu */
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateX(var(--step-from, 0));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.step-enter-next {
+  --step-from: 24px;
+  animation: step-in 280ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+.step-enter-prev {
+  --step-from: -24px;
+  animation: step-in 280ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+.step-fade {
+  animation: step-in 220ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .step-enter-next,
+  .step-enter-prev,
+  .step-fade {
+    animation: none;
+  }
+}

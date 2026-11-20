@@ -8,6 +8,7 @@ import CbtRoom from "./CbtRoom";
 import GroupView from "./GroupView";
 import QuestionDrawer from "./QuestionDrawer";
 import StepNav from "./StepNav";
+import StepTransition from "./StepTransition";
 import QuestionNav, { answeredCount, type CellState } from "./QuestionNav";
 import { directionsPartAt, hasAudioTimeline, listeningIndexAt } from "@/lib/cbt";
 import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, type Progress } from "@/lib/storage";
@@ -474,6 +475,7 @@ function ExamSession({
       <div className="mx-auto w-full max-w-7xl flex-1 px-4 pt-6 pb-24">
         <div ref={mainRef} className="min-w-0 scroll-mt-32">
           {group && (
+            <StepTransition index={groupIndex}>
             <GroupView
               key={group.id}
               group={group}
@@ -487,6 +489,7 @@ function ExamSession({
               flagged={flagged}
               onToggleFlag={toggleFlag}
             />
+            </StepTransition>
           )}
         </div>
 

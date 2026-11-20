@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import ClientOnly from "@/components/ClientOnly";
 import TagSession from "@/components/TagSession";
 import { getBankIndex } from "@/lib/tests";
+import { QuestionSkeleton } from "@/components/Skeleton";
 
 export async function generateStaticParams() {
   return (await getBankIndex()).map((t) => ({ part: String(t.part), tag: t.tag }));
@@ -11,7 +12,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = { title: "Luyện theo dạng câu" };
 
-const loading = <div className="grid flex-1 place-items-center p-10 text-muted">Đang tải câu hỏi…</div>;
+const loading = <QuestionSkeleton />;
 
 export default function TagPracticePage({ params }: PageProps<"/practice/[part]/[tag]">) {
   return (

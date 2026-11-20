@@ -8,6 +8,7 @@ import { recordDictation } from "@/lib/storage";
 import { PARTS } from "@/lib/toeic";
 import { useTests } from "@/lib/useTests";
 import type { PartNo, QuestionGroup } from "@/lib/types";
+import { TextSkeleton } from "./Skeleton";
 
 type TestRef = { id: string; year: number; number: number };
 const LISTEN_PARTS: PartNo[] = [1, 2, 3, 4];
@@ -82,7 +83,7 @@ export default function ListeningPractice({ tests }: { tests: TestRef[] }) {
       </div>
 
       {error && <p className="mt-6 text-danger">{error}</p>}
-      {loading && <p className="mt-6 text-muted">Đang tải đề…</p>}
+      {loading && <TextSkeleton label="Đang tải đề" />}
       {!loading && !group && <p className="mt-6 text-muted">Part này của đề chưa có audio.</p>}
 
       {group && test && (

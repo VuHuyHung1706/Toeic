@@ -3,10 +3,11 @@ import { Suspense } from "react";
 import ClientOnly from "@/components/ClientOnly";
 import VocabTrainer from "@/components/VocabTrainer";
 import { getTestIndex, getVocab } from "@/lib/tests";
+import { CardsSkeleton } from "@/components/Skeleton";
 
 export const metadata: Metadata = { title: "Từ vựng" };
 
-const loading = <p className="mt-8 text-muted">Đang tải…</p>;
+const loading = <CardsSkeleton label="Đang tải từ vựng" cards={6} />;
 
 export default async function VocabularyPage() {
   const [vocab, tests] = await Promise.all([getVocab(), getTestIndex()]);

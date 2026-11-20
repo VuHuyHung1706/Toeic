@@ -168,7 +168,7 @@ export default function CbtRoom(p: CbtProps) {
       {/* ---------- hai khung ---------- */}
       <main className="min-h-0 flex-1 overflow-y-auto p-3 sm:p-6 lg:overflow-hidden">
         {/* key theo nhóm câu: sang câu mới thì hai khung cuộn lại từ đầu */}
-        <div key={directionsPart ? `dir-${directionsPart}` : group.id} className="mx-auto grid max-w-[1600px] grid-cols-1 gap-4 lg:h-full lg:grid-cols-2 lg:gap-6">
+        <div key={directionsPart ? `dir-${directionsPart}` : group.id} className="step-fade mx-auto grid max-w-[1600px] grid-cols-1 gap-4 lg:h-full lg:grid-cols-2 lg:gap-6">
           <section className="min-h-0 min-w-0 rounded-md border border-[#d9dee8] bg-white p-4 sm:p-6 lg:overflow-y-auto dark:border-line dark:bg-surface">
             {directionsPart ? (
               <>

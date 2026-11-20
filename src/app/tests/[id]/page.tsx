@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import { getTest, getTestIndex, getVocab } from "@/lib/tests";
 import PracticeSetup from "@/components/PracticeSetup";
 import TestHistory from "@/components/TestHistory";
+import { DetailSkeleton } from "@/components/Skeleton";
 
 export async function generateStaticParams() {
   return (await getTestIndex()).map((t) => ({ id: t.id }));
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: PageProps<"/tests/[id]">): Pr
 
 export default function TestDetailPage({ params }: PageProps<"/tests/[id]">) {
   return (
-    <Suspense fallback={<div className="grid flex-1 place-items-center p-10 text-muted">Đang tải…</div>}>
+    <Suspense fallback={<DetailSkeleton label="Đang tải đề" />}>
       <TestDetail params={params} />
     </Suspense>
   );

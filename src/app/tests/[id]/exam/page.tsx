@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import ClientOnly from "@/components/ClientOnly";
 import ExamRoom from "@/components/ExamRoom";
 import { getTest, getTestIndex } from "@/lib/tests";
+import { ExamSkeleton } from "@/components/Skeleton";
 
 export async function generateStaticParams() {
   return (await getTestIndex()).map((t) => ({ id: t.id }));
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }: PageProps<"/tests/[id]/exam">
   return { title: test ? `Làm bài · ${test.title}` : "Không tìm thấy đề" };
 }
 
-const loading = <div className="grid flex-1 place-items-center p-10 text-muted">Đang tải đề…</div>;
+const loading = <ExamSkeleton />;
 
 // params được đọc bên trong <Suspense> để điều hướng hiển thị ngay khung trang
 export default function ExamPage({ params }: PageProps<"/tests/[id]/exam">) {

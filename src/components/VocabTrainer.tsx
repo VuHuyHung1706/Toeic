@@ -4,6 +4,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { VOCAB_INTERVALS, resetVocab, reviewVocab, setPref, usePref, useVocabCards, type VocabCard } from "@/lib/storage";
 import type { VocabEntry } from "@/lib/types";
+import { CardsSkeleton } from "./Skeleton";
 
 const POS_LABEL: Record<string, string> = {
   n: "danh từ",
@@ -69,7 +70,7 @@ export default function VocabTrainer({ tests }: { tests: TestRef[] }) {
   }, []);
 
   if (error) return <p className="mt-8 text-danger">{error}</p>;
-  if (!allVocab) return <p className="mt-8 text-muted">Đang tải từ vựng…</p>;
+  if (!allVocab) return <CardsSkeleton label="Đang tải từ vựng" cards={6} />;
   return <Trainer allVocab={allVocab} tests={tests} />;
 }
 

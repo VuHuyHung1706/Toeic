@@ -3,11 +3,13 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import GroupView from "./GroupView";
+import StepTransition from "./StepTransition";
 import { MASTER_STREAK, REVIEW_INTERVALS, computeMistakes, groupsOfMistakes, mistakeTestIds, type MistakeItem } from "@/lib/mistakes";
 import { questionKey, recordReview, useAttempts, useReviews } from "@/lib/storage";
 import { PARTS } from "@/lib/toeic";
 import { useTests } from "@/lib/useTests";
 import type { Letter, PartNo, QuestionGroup, TestData } from "@/lib/types";
+import { CardsSkeleton } from "./Skeleton";
 
 type Tab = "todo" | "scheduled" | "mastered";
 
@@ -54,7 +56,7 @@ export default function MistakeBook() {
     );
   }
   if (error) return <p className="mt-8 text-danger">{error}</p>;
-  if (loading) return <p className="mt-8 text-muted">Đang tải dữ liệu đề…</p>;
+  if (loading) return <CardsSkeleton label="Đang tải dữ liệu đề" cards={4} />;
 
   if (session) return <MistakeSession groups={session} onExit={() => setSession(null)} />;
 
@@ -218,7 +220,7 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
           <div className="h-full bg-primary" style={{ width: `${(index / groups.length) * 100}%` }} />
         </div>
       </div>
-      <div className="rounded-xl border border-line bg-surface p-4 sm:p-6">
+      <StepTransition index={index} className="rounded-xl border border-line bg-surface p-4 sm:p-6">
         <GroupView
           key={group.id}
           group={group}
@@ -237,7 +239,7 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
           showScript={allAnswered}
           showAudio
         />
-      </div>
+      </StepTransition>
       <div className="mt-6 flex justify-between">
         <button
           disabled={index === 0}

@@ -6,6 +6,7 @@ import { useMemo, useState } from "react";
 import GroupView from "./GroupView";
 import QuestionDrawer from "./QuestionDrawer";
 import StepNav from "./StepNav";
+import StepTransition from "./StepTransition";
 import QuestionNav, { type CellState } from "./QuestionNav";
 import { useAttempts } from "@/lib/storage";
 import { formatDuration, groupsForParts, partInfo } from "@/lib/toeic";
@@ -170,6 +171,7 @@ export default function ResultView({ test }: { test: TestData }) {
 
           {current ? (
             <>
+              <StepTransition index={groupIndex ?? -1}>
               <GroupView
                 key={current.id}
                 group={current}
@@ -178,6 +180,7 @@ export default function ResultView({ test }: { test: TestData }) {
                 showScript
                 showAudio
               />
+              </StepTransition>
             </>
           ) : (
             <div className="rounded-xl border border-dashed border-line p-8 text-center text-muted">

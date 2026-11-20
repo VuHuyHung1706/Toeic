@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import GroupView from "./GroupView";
+import StepTransition from "./StepTransition";
 import { bankKeyStatus, latestOutcomes } from "@/lib/outcomes";
 import { questionKey, recordReview, useAttempts, useReviews } from "@/lib/storage";
 import type { BankItem, Letter } from "@/lib/types";
@@ -132,7 +133,7 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
         </div>
         <span>{it.testTitle}</span>
       </div>
-      <div className="rounded-xl border border-line bg-surface p-4 sm:p-6">
+      <StepTransition index={index} className="rounded-xl border border-line bg-surface p-4 sm:p-6">
         <GroupView
           key={`${it.testId}:${it.group.id}`}
           group={it.group}
@@ -147,7 +148,7 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
           showScript={answeredHere}
           showAudio
         />
-      </div>
+      </StepTransition>
       <div className="mt-6 flex justify-between">
         <button
           disabled={index === 0}

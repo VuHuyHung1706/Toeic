@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import ClientOnly from "@/components/ClientOnly";
 import ResultView from "@/components/ResultView";
 import { getTest, getTestIndex } from "@/lib/tests";
+import { DetailSkeleton } from "@/components/Skeleton";
 
 export async function generateStaticParams() {
   return (await getTestIndex()).map((t) => ({ id: t.id }));
@@ -11,7 +12,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = { title: "Kết quả" };
 
-const loading = <div className="grid flex-1 place-items-center p-10 text-muted">Đang tải kết quả…</div>;
+const loading = <DetailSkeleton label="Đang tải kết quả" />;
 
 export default function ResultPage({ params }: PageProps<"/tests/[id]/result">) {
   return (

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ClientOnly from "@/components/ClientOnly";
 import PracticeHub from "@/components/PracticeHub";
 import { getBankIndex } from "@/lib/tests";
+import { CardsSkeleton } from "@/components/Skeleton";
 
 export const metadata: Metadata = { title: "Luyện theo dạng câu" };
 
@@ -14,7 +15,7 @@ export default async function PracticePage() {
         Câu hỏi Part 2 được nhóm theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 50 đề. Chọn một dạng để luyện
         tập trung; câu làm sai tự động vào sổ câu sai.
       </p>
-      <ClientOnly fallback={<p className="mt-8 text-muted">Đang tải…</p>}>
+      <ClientOnly fallback={<CardsSkeleton label="Đang tải dạng câu" cards={9} />}>
         <PracticeHub index={index} />
       </ClientOnly>
     </main>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import LoginForm from "@/components/LoginForm";
+import { TextSkeleton } from "@/components/Skeleton";
 
 export const metadata: Metadata = { title: "Đăng nhập" };
 
@@ -12,7 +13,7 @@ export default function LoginPage() {
         Đăng nhập để lưu bài làm, sổ câu sai và từ vựng lên tài khoản, học tiếp trên mọi thiết bị. Không đăng nhập vẫn
         dùng được — dữ liệu khi đó chỉ nằm trên trình duyệt này.
       </p>
-      <Suspense fallback={<p className="mt-8 text-muted">Đang tải…</p>}>
+      <Suspense fallback={<TextSkeleton label="Đang tải" lines={3} className="mt-8" />}>
         <LoginForm />
       </Suspense>
     </main>
