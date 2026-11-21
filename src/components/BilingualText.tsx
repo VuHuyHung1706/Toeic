@@ -1,11 +1,9 @@
 "use client";
 
 import { useMemo, type ReactNode } from "react";
+import SpeakerBadge from "./SpeakerBadge";
 import { alignBilingual } from "@/lib/bilingual";
-
-// Nhãn người nói ở đầu lượt lời: "W-Am:", "M-Cn", "Man:", "W" …
-// (chấp nhận cả mã vùng gõ sai trong dữ liệu như "M-Al")
-const SPEAKER_RE = /^((?:[WMwm]-[A-Za-z]{2})|(?:Man|Woman)\s*\d?|[WM]\d?)\s*:?\s+/;
+import { speakerTones, splitSpeaker } from "@/lib/speaker";
 
 /** Song ngữ: mỗi câu tiếng Anh gốc ở trên, bản dịch tiếng Việt màu xanh ngay bên dưới */
 export default function BilingualText({
@@ -19,19 +17,21 @@ export default function BilingualText({
   renderText?: (s: string, lang: "en" | "vi", pairEn?: string) => ReactNode;
 }) {
   const pairs = useMemo(() => alignBilingual(en, vi), [en, vi]);
+  // màu người nói tính theo cả đoạn hội thoại tiếng Anh (nhãn giữ nguyên chữ như trong đề)
+  const toneOf = useMemo(() => speakerTones(en.split("\n")), [en]);
   return (
     <div className="text-[15px] leading-relaxed">
       {pairs.map((p, i) => {
-        const m = p.en.match(SPEAKER_RE);
-        const label = m?.[1];
-        const enText = label ? p.en.slice(m![0].length) : p.en;
-        const vm = label ? p.vi.match(SPEAKER_RE) : null;
-        const viText = vm ? p.vi.slice(vm[0].length) : p.vi;
+        // nhãn người nói ở đầu lượt lời (bản dịch bỏ nhãn, dùng chung nhãn của câu tiếng Anh)
+        const who = splitSpeaker(p.en);
+        const enText = who ? who.rest : p.en.replace(/\*\*/g, "");
+        const vs = splitSpeaker(p.vi);
+        const viText = vs ? vs.rest : p.vi.replace(/\*\*/g, "").replace(/^["“]\s*/, "");
         return (
           <div key={i} className={i === 0 ? "" : p.newParagraph ? "mt-4" : "mt-2"}>
             {p.en && (
               <p>
-                {label && <b className="mr-1.5">{label}:</b>}
+                {who && <SpeakerBadge speaker={who.speaker} tone={toneOf(who.speaker)} />}
                 {renderText(enText, "en")}
               </p>
             )}

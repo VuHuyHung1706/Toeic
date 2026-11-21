@@ -3,6 +3,7 @@
 import { useState, type CSSProperties, type ReactNode } from "react";
 import AudioPlayer from "./AudioPlayer";
 import BilingualText from "./BilingualText";
+import ScriptLines from "./ScriptLines";
 import PassageView from "./PassageView";
 import { renderBlanks } from "./BlankText";
 import { HL_COLORS, highlightEvidence, highlightPair, jumpToEvidence, type EvidenceItem } from "./Evidence";
@@ -146,9 +147,18 @@ export default function GroupView({
               {allRevealed && view === "bilingual" && p.en && p.vi ? (
                 <BilingualText en={p.en} vi={p.vi} renderText={blanks} />
               ) : (
-                <div className="prose-pre text-[15px]">
-                  {allRevealed && view === "vi" && p.vi ? blanks(p.vi, "vi") : blanks(p.en || p.vi)}
-                </div>
+                // script nghe: mỗi lượt lời một dòng, nhãn người nói tô màu
+                listening ? (
+                  allRevealed && view === "vi" && p.vi ? (
+                    <ScriptLines text={p.vi} en={p.en} render={(t) => blanks(t, "vi")} />
+                  ) : (
+                    <ScriptLines text={p.en || p.vi} render={(t) => blanks(t)} />
+                  )
+                ) : (
+                  <div className="prose-pre text-[15px]">
+                    {allRevealed && view === "vi" && p.vi ? blanks(p.vi, "vi") : blanks(p.en || p.vi)}
+                  </div>
+                )
               )}
             </div>
           ))}
