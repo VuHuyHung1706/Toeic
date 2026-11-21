@@ -1,9 +1,10 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { VOCAB_INTERVALS, resetVocab, reviewVocab, setPref, usePref, useVocabCards, type VocabCard } from "@/lib/storage";
 import type { VocabEntry } from "@/lib/types";
+import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
 
 const POS_LABEL: Record<string, string> = {
@@ -21,7 +22,7 @@ const NEW_OPTIONS = [5, 10, 20, 30];
 type Status = "new" | "learning" | "mastered";
 type Source = "all" | "r" | "l";
 type TestRef = { id: string; year: number; number: number };
-type Tab = "tests" | "learn" | "list";
+type Tab = "learn" | "list";
 
 function statusOf(c: VocabCard | undefined): Status {
   if (!c) return "new";
@@ -101,7 +102,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
         ? `y:${initialYear}`
         : "all",
   );
-  const [tab, setTab] = useState<Tab>(initialTest ? "learn" : "tests");
+  const [tab, setTab] = useState<Tab>("learn");
   const source = usePref<Source>("vocabSource", "all");
   const showBasic = usePref<"0" | "1">("vocabBasic", "0") === "1";
   const [newPerSession, setNewPerSession] = useState(10);
@@ -142,6 +143,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
     const t = tests.find((x) => x.id === id);
     return t ? `ETS ${t.year} · Test ${t.number}` : id;
   };
+  const countFor = (scope: string) => pool.filter((v) => inScope(v, scope, source)).length;
   // năm đang mở trong bộ lọc: năm đã chọn, hoặc năm của đề đã chọn
   const openYear = yearOfScope(testId) ?? tests.find((t) => t.id === testId)?.year ?? null;
 
@@ -149,58 +151,48 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
 
   return (
     <>
-      <div className="mt-6 rounded-xl border border-line bg-surface p-3 text-sm">
-        {/* lọc theo đề: chọn năm → chọn đề (hoặc cả năm) */}
-        <div className="flex flex-wrap items-center gap-1.5">
-          <span className="w-14 shrink-0 text-muted">Năm:</span>
-          <Chip active={testId === "all"} onClick={() => setTestId("all")}>
-            Tất cả
-          </Chip>
-          {years.map((y) => (
-            <Chip key={y} active={openYear === y} onClick={() => setTestId(`y:${y}`)}>
-              ETS {y}
-            </Chip>
-          ))}
-        </div>
+      {/* lọc theo đề (giống Kho đề): chọn năm → chọn đề hoặc cả năm; số là số từ của bộ đó */}
+      <div className="mt-6 space-y-2">
+        <SegmentedTabs
+          label="Lọc từ vựng theo năm"
+          items={[
+            { key: "all" as const, label: "Tất cả", count: countFor("all") },
+            ...years.map((y) => ({ key: y, label: `ETS ${y}`, count: countFor(`y:${y}`) })),
+          ]}
+          value={openYear ?? "all"}
+          onChange={(k) => setTestId(k === "all" ? "all" : `y:${k}`)}
+        />
         {openYear !== null && (
-          <div className="mt-2 flex flex-wrap items-center gap-1.5">
-            <span className="w-14 shrink-0 text-muted">Đề:</span>
-            <Chip active={testId === `y:${openYear}`} onClick={() => setTestId(`y:${openYear}`)}>
-              Cả năm
-            </Chip>
-            {tests
-              .filter((t) => t.year === openYear)
-              .map((t) => (
-                <Chip key={t.id} active={testId === t.id} onClick={() => setTestId(t.id)}>
-                  Test {t.number}
-                </Chip>
-              ))}
-          </div>
+          <SegmentedTabs
+            label="Lọc từ vựng theo đề"
+            items={[
+              { key: `y:${openYear}`, label: "Cả năm" },
+              ...tests.filter((t) => t.year === openYear).map((t) => ({ key: t.id, label: `Test ${t.number}`, count: countFor(t.id) })),
+            ]}
+            value={testId}
+            onChange={setTestId}
+          />
         )}
-        <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-line pt-3">
+      </div>
+
+      <div className="mt-3 rounded-xl border border-line bg-surface p-3 text-sm">
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
           <span className="font-semibold">
             {testLabel(testId)}
             <span className="font-normal text-muted"> · {vocab.length.toLocaleString("vi-VN")} từ</span>
           </span>
           <div className="flex items-center gap-2">
             <span className="text-muted">Phần:</span>
-            <div className="inline-flex rounded-md border border-line p-0.5">
-              {(
-                [
-                  ["all", "Tất cả"],
-                  ["l", "🎧 Nghe"],
-                  ["r", "📖 Đọc"],
-                ] as const
-              ).map(([s, label]) => (
-                <button
-                  key={s}
-                  onClick={() => setPref("vocabSource", s)}
-                  className={`rounded px-3 py-1 ${source === s ? "bg-primary text-on-primary" : "hover:bg-surface-2"}`}
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
+            <SegmentedTabs
+              label="Phần"
+              items={[
+                { key: "all" as const, label: "Tất cả" },
+                { key: "l" as const, label: "🎧 Nghe" },
+                { key: "r" as const, label: "📖 Đọc" },
+              ]}
+              value={source}
+              onChange={(k) => setPref("vocabSource", k)}
+            />
           </div>
           <label className="flex items-center gap-2 text-muted">
             <input type="checkbox" checked={showBasic} onChange={(e) => setPref("vocabBasic", e.target.checked ? "1" : "0")} className="size-4" />
@@ -216,38 +208,17 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
         <Tile value={fresh.length} label="Chưa học" />
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2">
-        {(
-          [
-            ["tests", "Theo đề"],
-            ["learn", "Học thẻ"],
-            ["list", "Danh sách từ"],
-          ] as const
-        ).map(([t, label]) => (
-          <button
-            key={t}
-            onClick={() => setTab(t)}
-            className={`rounded-lg px-4 py-2 text-sm font-semibold ${tab === t ? "bg-fg text-bg" : "bg-surface text-muted hover:text-fg"}`}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
-
-      {tab === "tests" && (
-        <TestGrid
-          tests={tests}
-          years={openYear !== null ? [openYear] : years}
-          vocab={pool}
-          source={source}
-          cards={cards}
-          selected={testId}
-          onPick={(id) => {
-            setTestId(id);
-            setTab("learn");
-          }}
+      <div className="mt-6">
+        <SegmentedTabs
+          label="Chế độ"
+          items={[
+            { key: "learn" as const, label: "Học thẻ" },
+            { key: "list" as const, label: "Danh sách từ" },
+          ]}
+          value={tab}
+          onChange={setTab}
         />
-      )}
+      </div>
 
       {tab === "learn" && (
         <div className="mt-5 rounded-xl border border-line bg-surface p-6">
@@ -290,90 +261,6 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
 
       {tab === "list" && <WordList vocab={vocab} cards={cards} testId={isSingleTest(testId) ? testId : null} />}
     </>
-  );
-}
-
-function TestGrid({
-  tests,
-  years,
-  vocab,
-  source,
-  cards,
-  selected,
-  onPick,
-}: {
-  tests: TestRef[];
-  years: number[];
-  vocab: VocabEntry[];
-  source: Source;
-  cards: Record<string, VocabCard>;
-  selected: string;
-  onPick: (id: string) => void;
-}) {
-  const stats = useMemo(() => {
-    const m = new Map<string, { total: number; learned: number; mastered: number }>();
-    for (const v of vocab) {
-      const st = statusOf(cards[v.w]);
-      for (const id of Object.keys(v.tests)) {
-        if (!inScope(v, id, source)) continue;
-        const cur = m.get(id) ?? { total: 0, learned: 0, mastered: 0 };
-        cur.total++;
-        if (st !== "new") cur.learned++;
-        if (st === "mastered") cur.mastered++;
-        m.set(id, cur);
-      }
-    }
-    return m;
-  }, [vocab, source, cards]);
-
-  return (
-    <div className="mt-5 space-y-6">
-      {years.map((y) => (
-        <section key={y}>
-          <h3 className="mb-2 font-semibold">ETS {y}</h3>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-            {tests
-              .filter((t) => t.year === y)
-              .map((t) => {
-                const s = stats.get(t.id) ?? { total: 0, learned: 0, mastered: 0 };
-                const pct = s.total ? (s.learned / s.total) * 100 : 0;
-                return (
-                  <button
-                    key={t.id}
-                    onClick={() => onPick(t.id)}
-                    className={`rounded-xl border bg-surface p-3 text-left transition hover:border-primary ${
-                      selected === t.id ? "border-primary" : "border-line"
-                    }`}
-                  >
-                    <div className="font-semibold">Test {t.number}</div>
-                    <div className="text-xs text-muted">
-                      {s.total} từ · đã học {s.learned}
-                      {s.mastered > 0 && ` · thuộc ${s.mastered}`}
-                    </div>
-                    <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-surface-2">
-                      <div className="h-full bg-primary" style={{ width: `${pct}%` }} />
-                    </div>
-                  </button>
-                );
-              })}
-          </div>
-        </section>
-      ))}
-    </div>
-  );
-}
-
-function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
-  return (
-    <button
-      onClick={onClick}
-      aria-pressed={active}
-      className={`rounded-full border px-3 py-1 transition-colors ${
-        active ? "border-primary bg-primary text-on-primary" : "border-line hover:bg-surface-2"
-      }`}
-    >
-      {children}
-    </button>
   );
 }
 
