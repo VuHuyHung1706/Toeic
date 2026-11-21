@@ -1,8 +1,8 @@
 # Báo cáo ETL dữ liệu TOEIC
 
-- Số đề: **50**
+- Số đề: **48**
 - Lỗi (cần sửa tay): **0**
-- Cảnh báo: **2**
+- Cảnh báo: **0**
 - Đã tự sửa: **913**
 
 ## Tổng quan theo đề
@@ -29,26 +29,24 @@
 | 2023-test8 | 200 | ✅ | 0 | 0 | 0 | 0 | 4 |
 | 2023-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 25 |
 | 2023-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 26 |
-| 2024-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2024-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
 | 2024-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 4 |
 | 2024-test3 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2024-test4 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2024-test5 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2024-test5 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
 | 2024-test6 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2024-test7 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2024-test8 | 200 | ✅ | 0 | 0 | 0 | 0 | 5 |
 | 2024-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2024-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2025-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2025-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 2 |
 | 2025-test3 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test4 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test5 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test6 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2025-test7 | 200 | ✅ | 0 | 0 | 0 | 1 | 1 |
-| 2025-test8 | 200 | ✅ | 0 | 0 | 0 | 1 | 4 |
 | 2025-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2025-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2025-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
 | 2026-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 67 |
 | 2026-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 67 |
 | 2026-test3 | 200 | ✅ | 0 | 0 | 0 | 0 | 66 |
@@ -63,18 +61,8 @@
 ## Lỗi cần sửa tay (0)
 
 
-## Cảnh báo (2)
+## Cảnh báo (0)
 
-<details><summary><b>2025-test7</b> — 1</summary>
-
-- `audio` Mốc thời gian audio khớp kém — thi thật không tự chuyển câu
-
-</details>
-<details><summary><b>2025-test8</b> — 1</summary>
-
-- `audio` Mốc thời gian audio khớp kém — thi thật không tự chuyển câu
-
-</details>
 
 ## Đã tự sửa (913)
 
@@ -89,8 +77,7 @@
 | URL image → file local im…t…p….png | 9 |
 | URL image → file local im…-…t…p….png | 9 |
 | URL image → file local test…-image-….jpg | 6 |
+| Audio riêng cắt lại từ audio cả đề (file gốc sai) | 5 |
 | Header thiếu cột Transcript — gán cột thừa làm Transcript | 4 |
-| URL image → file local test…-p…-image-….jpg | 4 |
-| Trùng số câu … (đã có ở test…-part….csv:…) — cùng câu hỏi & đáp án, bỏ dòng lặp | 1 |
 | URL image → file local im…-… test…-p….png | 1 |
 | URL image → file local im…-… (…) test…-p….png | 1 |

@@ -52,12 +52,12 @@ npm run lint && npx tsc --noEmit && npm run build
 
 | Trang | Mô tả |
 |---|---|
-| `/tests` | Kho 50 đề, lọc theo năm, hiện điểm lần thi gần nhất |
+| `/tests` | Kho 48 đề (bỏ 2025 test 7, 8 vì audio lệch), lọc theo năm, hiện điểm lần thi gần nhất |
 | `/tests/[id]` | Chọn **Thi thử** hoặc **Luyện tập** (chọn part, giới hạn giờ, hiện đáp án ngay) |
 | `/tests/[id]/exam?mode=full` | Thi thật, giao diện giống máy thi IIG: 200 câu, 120 phút; Listening tự chuyển câu theo audio, hết audio sang Reading (làm tự do, đánh dấu xem lại); hộp NOTIFICATION khi nộp |
 | `/tests/[id]/exam?mode=practice&parts=…` | Audio từng nhóm câu, chỉnh tốc độ, hiện giải thích ngay |
 | `/tests/[id]/result?attempt=…` | Điểm 990 ước tính, đúng/sai theo part, xem lại từng câu + script + bản dịch |
-| `/practice` | Luyện theo dạng câu: Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp (gom từ 50 đề) |
+| `/practice` | Luyện theo dạng câu: Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp (gom từ 48 đề) |
 | `/listening` | Luyện nghe Part 1–4: điền từ (3 mức độ) hoặc chép cả câu, so khớp từng từ, xem bản dịch |
 | `/vocabulary` | ~2.100 từ (kèm dạng danh/động/tính/trạng từ và nghĩa, ẩn từ cơ bản) từ phần nghe và đọc, chia theo từng đề (`?test=2026-test1`), lọc Nghe/Đọc, flashcard ôn ngắt quãng |
 | `/mistakes` | Sổ câu sai: gom câu sai từ mọi nguồn, hẹn ôn lại 1 → 3 → 7 ngày tới khi thuộc |
@@ -76,6 +76,8 @@ scripts/etl.py              ETL CSV → JSON
 scripts/enrich.py           gắn nhãn dạng câu Part 2/5, trích từ vựng
 scripts/audio_timeline.mjs  tìm mốc thời gian từng nhóm câu nghe trong audio cả đề → content/audio-timeline.json
                             (thi thật tự chuyển câu theo audio; chạy lại ETL sau đó)
+scripts/fix_group_audio.mjs cắt lại audio riêng của nhóm câu bị gán nhầm file, từ audio cả đề
+                            → Data/<năm>/<testN>/audio/fixed/ (chạy sau audio_timeline, trước ETL; rồi media:upload)
 src/components/CbtRoom.tsx  giao diện thi thật mô phỏng máy thi TOEIC trên máy tính (IIG)
 scripts/passage.py          chuẩn hoá bài đọc Part 6/7 (ký hiệu chèn câu [1]–[4], dòng phân cách giữa các văn bản)
 src/lib/passage.ts          tách bài đọc Part 6/7 thành khối: email/memo, tin nhắn, trang web, bảng, biểu mẫu, danh sách

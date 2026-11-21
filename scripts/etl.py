@@ -43,6 +43,10 @@ PART_RANGES = {
     6: range(131, 147),
     7: range(147, 201),
 }
+# Đề bỏ khỏi kho: audio riêng của quá nhiều nhóm câu không khớp audio cả đề (18 và 11 / 54 nhóm),
+# không đồng bộ được với audio full → thi thử không tự chuyển câu, luyện tập phát nhầm audio.
+# Vẫn đọc để lấy nghĩa từ cho từ điển (bỏ đi thì các đề khác mất vài từ vựng), nhưng không xuất ra content/.
+EXCLUDED_TESTS = {"2025/test7", "2025/test8"}
 PART_OPTIONS = {1: "ABCD", 2: "ABC", 3: "ABCD", 4: "ABCD", 5: "ABCD", 6: "ABCD", 7: "ABCD"}
 GROUPED_PARTS = {3, 4, 6, 7}
 LISTENING_PARTS = {1, 2, 3, 4}
@@ -418,6 +422,11 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 audio = media.resolve("audio", raw_audio, part, numbers, gwhere)
                 if audio is None:
                     report.add("warn", test_id, gwhere, "Không có audio riêng cho câu/nhóm này")
+                # file audio riêng bị gán nhầm/lẫn nhóm sau → bản cắt lại từ audio cả đề (scripts/fix_group_audio.mjs)
+                fixed = test_dir / "audio" / "fixed" / f"{test_id}-p{part}-g{gi}.mp3"
+                if fixed.is_file():
+                    audio = {"src": media._rel(fixed), "remoteUrl": None}
+                    report.add("fixed", test_id, gwhere, "Audio riêng cắt lại từ audio cả đề (file gốc sai)")
 
             images: list[dict] = []
             seen_raw: set[str] = set()
@@ -612,10 +621,15 @@ def main() -> int:
     report = Report()
     tests = []
     timeline = load_audio_timeline(args.out / "audio-timeline.json")
+    dictionary_tests = []  # mọi đề theo thứ tự, kể cả đề bị loại: nguồn nghĩa cho từ điển từ vựng
     for d in test_dirs:
+        if f"{d.parent.name}/{d.name}" in EXCLUDED_TESTS:
+            dictionary_tests.append(build_test(data_root, d, Report()))
+            continue
         t = build_test(data_root, d, report)
         apply_audio_timeline(t, timeline.get(t["id"]), report)
         tests.append(t)
+        dictionary_tests.append(t)
         c = report.count(t["id"])
         print(f"{t['id']:<14} {t['questionCount']:>3} câu  lỗi={c['error']:<3} cảnh báo={c['warn']:<3} tự sửa={c['fixed']}")
 
@@ -626,7 +640,7 @@ def main() -> int:
         ]
         (out_tests / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
         # chạy trước khi ghi đề: bổ sung danh sách từ vựng cho các đoạn Part 3/4
-        extras = write_extras(tests, args.out)
+        extras = write_extras(tests, args.out, dictionary_tests=dictionary_tests)
         print(f"Ngân hàng theo dạng: {len(extras['tags'])} nhóm | Từ vựng: {extras['vocab']} từ")
     for t in tests:
         (out_tests / f"{t['id']}.json").write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding="utf-8")

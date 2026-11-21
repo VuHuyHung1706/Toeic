@@ -644,8 +644,9 @@ def _option_glosses(q: dict, part: int):
             yield g[0], re.sub(r"\s+", " ", q["options"][g[0]].strip()), g[1], g[2]
 
 
-def _collect_forms(tests: list[dict]) -> list[dict]:
-    """Từng dạng từ (chưa gộp) kèm nghĩa, lấy từ dòng giải thích phương án Part 5–6."""
+def _collect_forms(tests: list[dict], source_only: frozenset[str] = frozenset()) -> list[dict]:
+    """Từng dạng từ (chưa gộp) kèm nghĩa, lấy từ dòng giải thích phương án Part 5–6.
+    source_only: đề chỉ góp nghĩa, không lấy câu ví dụ (đề không xuất ra)."""
     entries: dict[str, dict] = {}
     for t in tests:
         for p in t["parts"]:
@@ -676,6 +677,7 @@ def _collect_forms(tests: list[dict]) -> list[dict]:
                             e["freq"] += 1
                         # câu ví dụ: chỉ lấy Part 5 khi từ này là đáp án đúng → điền vào chỗ trống
                         if (p["part"] == 5 and q.get("answer") == letter and len(e["examples"]) < 2
+                                and t["id"] not in source_only
                                 and BLANK_RE.search(q.get("question", ""))):
                             sent = BLANK_RE.sub(q["options"][letter], q["question"], count=1)
                             sent = re.sub(r"\s+([,.;:?!])", r"\1", re.sub(r"\s+", " ", sent)).strip()
@@ -829,8 +831,8 @@ def _derivation_stems(w: str) -> list[str]:
     return out
 
 
-def build_vocab(tests: list[dict]) -> list[dict]:
-    forms = _collect_forms(tests)
+def build_vocab(tests: list[dict], source_only: frozenset[str] = frozenset()) -> list[dict]:
+    forms = _collect_forms(tests, source_only)
     known = {f["w"]: set(f["pos"]) for f in forms}
     lemma_map = {f["w"]: lemma_of(f["w"], known) for f in forms}
     # lemma của lemma (vd lasted → last → last)
@@ -949,7 +951,7 @@ def build_vocab(tests: list[dict]) -> list[dict]:
                             ls = entries[lem]["tests"].setdefault(t["id"], {}).setdefault("l", [])
                             if n0 not in ls:
                                 ls.append(n0)
-                            if lem not in listen_example and 30 <= len(sent) <= 220:
+                            if lem not in listen_example and 30 <= len(sent) <= 220 and t["id"] not in source_only:
                                 listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
     # mục "Từ vựng" trong giải thích Part 3/4: thêm nghĩa cho từ phần nghe chưa có trong từ điển
     for t in tests:
@@ -980,7 +982,7 @@ def build_vocab(tests: list[dict]) -> list[dict]:
                     ls = e["tests"].setdefault(t["id"], {}).setdefault("l", [])
                     if n0 not in ls:
                         ls.append(n0)
-                    if lem not in listen_example:
+                    if lem not in listen_example and t["id"] not in source_only:
                         for sent in SENT_SPLIT_RE.split(re.sub(r"\s+", " ", script.replace("**", ""))):
                             if term in sent.lower() and 20 <= len(sent) <= 240:
                                 listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
@@ -1028,7 +1030,8 @@ def build_bank(tests: list[dict]) -> tuple[list[dict], dict[tuple[int, str], lis
     return index, banks
 
 
-def write_extras(tests: list[dict], out_dir: Path) -> dict:
+def write_extras(tests: list[dict], out_dir: Path, dictionary_tests: list[dict] | None = None) -> dict:
+    """dictionary_tests: thêm đề chỉ dùng để lấy nghĩa từ (không xuất ra) — từ điển chỉ giữ tham chiếu tới `tests`."""
     index, banks = build_bank(tests)
     bank_dir = out_dir / "bank"
     bank_dir.mkdir(parents=True, exist_ok=True)
@@ -1037,7 +1040,13 @@ def write_extras(tests: list[dict], out_dir: Path) -> dict:
     for (part, tag), items in banks.items():
         (bank_dir / f"p{part}-{tag}.json").write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
     (bank_dir / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
-    vocab = build_vocab(tests)
+    keep = {t["id"] for t in tests}
+    source_only = frozenset(t["id"] for t in dictionary_tests or [] if t["id"] not in keep)
+    vocab = build_vocab(dictionary_tests or tests, source_only)
+    if source_only:  # bỏ tham chiếu tới đề không xuất ra; từ chỉ có ở các đề đó thì bỏ luôn
+        for e in vocab:
+            e["tests"] = {k: v for k, v in e["tests"].items() if k in keep}
+        vocab = [e for e in vocab if e["tests"]]
     (out_dir / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     fill_group_vocab(tests, vocab)
     return {"tags": {f"p{i['part']}-{i['tag']}": i["count"] for i in index}, "vocab": len(vocab)}

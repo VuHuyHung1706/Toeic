@@ -30,9 +30,11 @@ def err(msg: str) -> None:
     errors.append(msg)
 
 
+# 50 đề trong Data/, bỏ 2025-test7 và 2025-test8 (xem EXCLUDED_TESTS trong scripts/etl.py)
+EXPECTED_TESTS = 48
 index = json.loads((CONTENT / "tests" / "index.json").read_text(encoding="utf-8"))
-if len(index) != 50:
-    err(f"index.json có {len(index)} đề (cần 50)")
+if len(index) != EXPECTED_TESTS:
+    err(f"index.json có {len(index)} đề (cần {EXPECTED_TESTS})")
 
 all_keys: dict[str, str] = {}  # "testId:n" → đáp án
 media_checked = 0
@@ -128,8 +130,8 @@ for b in bank_index:
         if all_keys.get(f"{tid}:{n}") != ans:
             err(f"bank p{b['part']}-{b['tag']}: khoá {k} không khớp đáp án")
         tagged[b["part"]] += 1
-if tagged[2] != 50 * 25 or tagged[5] != 50 * 30:
-    err(f"bank: Part 2 có {tagged[2]} câu, Part 5 có {tagged[5]} câu (cần 1250 / 1500)")
+if tagged[2] != EXPECTED_TESTS * 25 or tagged[5] != EXPECTED_TESTS * 30:
+    err(f"bank: Part 2 có {tagged[2]} câu, Part 5 có {tagged[5]} câu (cần {EXPECTED_TESTS * 25} / {EXPECTED_TESTS * 30})")
 
 # từ vựng
 vocab = json.loads((CONTENT / "vocab.json").read_text(encoding="utf-8"))
@@ -152,7 +154,7 @@ for v in vocab:
             err(f"vocab {v['w']}: đề {tid} không có số câu")
         if not v["basic"]:
             per_test[tid] += 1
-if len(per_test) != 50 or min(per_test.values()) < 30:
+if len(per_test) != EXPECTED_TESTS or min(per_test.values()) < 30:
     err(f"vocab: {len(per_test)} đề có từ, ít nhất {min(per_test.values(), default=0)} từ/đề")
 
 print(f"Đề có mốc audio thi thật: {synced_tests}/{len(index)}")

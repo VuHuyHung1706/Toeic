@@ -7,7 +7,7 @@ export default function Home() {
       <section className="grid gap-3 md:grid-cols-3">
         {[
           ["/tests", "Thi thử & luyện đề", "200 câu bấm giờ như phòng thi, hoặc luyện riêng từng part kèm giải thích."],
-          ["/practice", "Luyện theo dạng câu", "Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 50 đề."],
+          ["/practice", "Luyện theo dạng câu", "Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 48 đề."],
           ["/listening", "Luyện nghe chép chính tả", "Điền từ còn thiếu hoặc chép lại cả câu từ audio Part 1–4."],
           ["/vocabulary", "Từ vựng TOEIC", "Hơn 1.400 từ trích từ đề, học bằng thẻ ghi nhớ với lịch ôn ngắt quãng."],
           ["/mistakes", "Sổ câu sai", "Tự gom câu làm sai và hẹn ngày ôn lại tới khi thuộc."],

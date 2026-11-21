@@ -12,7 +12,7 @@ export default async function PracticePage() {
     <main className="mx-auto w-full max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold">Luyện theo dạng câu</h1>
       <p className="mt-2 max-w-3xl text-muted">
-        Câu hỏi Part 2 được nhóm theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 50 đề. Chọn một dạng để luyện
+        Câu hỏi Part 2 được nhóm theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 48 đề. Chọn một dạng để luyện
         tập trung; câu làm sai tự động vào sổ câu sai.
       </p>
       <ClientOnly fallback={<CardsSkeleton label="Đang tải dạng câu" cards={9} />}>

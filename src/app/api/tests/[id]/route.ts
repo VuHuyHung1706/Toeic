@@ -1,4 +1,4 @@
-// JSON của một đề cho các trang phía client (sổ câu sai, luyện nghe) — prerender sẵn cả 50 đề
+// JSON của một đề cho các trang phía client (sổ câu sai, luyện nghe) — prerender sẵn mọi đề trong kho
 import { getTest, getTestIndex } from "@/lib/tests";
 
 export async function generateStaticParams() {

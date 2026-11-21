@@ -9,7 +9,7 @@ export function fetchTest(id: string): Promise<TestData> {
   let p = cache.get(id);
   if (!p) {
     p = fetch(`/api/tests/${encodeURIComponent(id)}`).then((r) => {
-      if (!r.ok) throw new Error(`Không tải được đề ${id}`);
+      if (!r.ok) throw Object.assign(new Error(`Không tải được đề ${id}`), { status: r.status });
       return r.json() as Promise<TestData>;
     });
     p.catch(() => cache.delete(id));
@@ -30,8 +30,13 @@ export function useTests(ids: string[]) {
   useEffect(() => {
     let alive = true;
     const list = key ? key.split("|") : [];
-    Promise.all(list.map(fetchTest)).then(
-      (arr) => alive && setState({ key, tests: Object.fromEntries(arr.map((t) => [t.id, t])), error: null }),
+    // đề đã bị gỡ khỏi kho (404) → bỏ qua, các đề khác vẫn hiện; lỗi khác (mạng…) → báo lỗi
+    const load = (id: string) =>
+      fetchTest(id).catch((e: Error & { status?: number }) => (e.status === 404 ? null : Promise.reject(e)));
+    Promise.all(list.map(load)).then(
+      (arr) =>
+        alive &&
+        setState({ key, tests: Object.fromEntries(arr.filter((t) => t !== null).map((t) => [t.id, t])), error: null }),
       (e: Error) => alive && setState({ key, tests: {}, error: e.message }),
     );
     return () => {
