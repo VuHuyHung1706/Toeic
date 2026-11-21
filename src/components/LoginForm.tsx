@@ -3,6 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { signIn, signUp, useSession } from "@/lib/auth-client";
+import SegmentedTabs from "./SegmentedTabs";
 
 /** Chỉ cho quay về đường dẫn nội bộ (chống chuyển hướng ra ngoài) */
 function safeNext(v: string | null) {
@@ -66,27 +67,21 @@ export default function LoginForm() {
     else router.push(next);
   }
 
-  const tab = (m: typeof mode, label: string) => (
-    <button
-      type="button"
-      role="tab"
-      aria-selected={mode === m}
-      onClick={() => {
-        setMode(m);
-        setError(null);
-      }}
-      className={`flex-1 rounded-lg px-3 py-2 text-sm font-semibold ${mode === m ? "bg-surface shadow-sm" : "text-muted hover:text-fg"}`}
-    >
-      {label}
-    </button>
-  );
-
   return (
     <form onSubmit={submit} className="mt-8 rounded-xl border border-line bg-surface p-5">
-      <div role="tablist" className="flex gap-1 rounded-xl bg-surface-2 p-1">
-        {tab("signin", "Đăng nhập")}
-        {tab("signup", "Tạo tài khoản")}
-      </div>
+      <SegmentedTabs
+        label="Đăng nhập hoặc tạo tài khoản"
+        stretch
+        items={[
+          { key: "signin" as const, label: "Đăng nhập" },
+          { key: "signup" as const, label: "Tạo tài khoản" },
+        ]}
+        value={mode}
+        onChange={(m) => {
+          setMode(m);
+          setError(null);
+        }}
+      />
 
       {mode === "signup" && (
         <label className="mt-4 block text-sm">

@@ -16,6 +16,7 @@ import { clearProgress, loadProgress, progressKey, saveAttempt, saveProgress, ty
 import { formatDuration, gradeAttempt, groupsForParts, mediaUrl, parsePartsParam } from "@/lib/toeic";
 import type { ExamMode, Letter, PartNo, TestData } from "@/lib/types";
 import Logo from "./Logo";
+import SmoothWidth from "./SmoothWidth";
 
 const ALL_PARTS: PartNo[] = [1, 2, 3, 4, 5, 6, 7];
 
@@ -408,7 +409,9 @@ function ExamSession({
             <div className="text-xs text-white/70">{title}</div>
           </div>
           <div className="mr-auto rounded-md bg-white px-3 py-1 text-sm font-semibold text-[#0b2447] tabular-nums sm:mr-0">
-            {answered}/{total}
+            <SmoothWidth>
+              {answered}/{total}
+            </SmoothWidth>
           </div>
           <div
             className={`flex items-center gap-1.5 rounded-md px-3 py-1 text-sm font-semibold tabular-nums ${

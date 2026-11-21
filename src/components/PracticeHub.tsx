@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { bankKeyStatus, latestOutcomes } from "@/lib/outcomes";
 import { useAttempts, useReviews } from "@/lib/storage";
 import type { BankTag } from "@/lib/types";
+import SegmentedTabs from "./SegmentedTabs";
 
 const SIZES = [10, 20, 30];
 
@@ -29,15 +30,7 @@ export default function PracticeHub({ index }: { index: BankTag[] }) {
     <>
       <div className="mt-6 flex items-center gap-2 text-sm">
         <span className="text-muted">Số câu mỗi lượt:</span>
-        {SIZES.map((n) => (
-          <button
-            key={n}
-            onClick={() => setSize(n)}
-            className={`rounded-full border px-3 py-1 ${size === n ? "border-primary bg-primary-soft text-primary" : "border-line bg-surface"}`}
-          >
-            {n}
-          </button>
-        ))}
+        <SegmentedTabs label="Số câu mỗi lượt" size="sm" items={SIZES.map((n) => ({ key: n, label: `${n}` }))} value={size} onChange={setSize} />
       </div>
 
       {([2, 5] as const).map((part) => (

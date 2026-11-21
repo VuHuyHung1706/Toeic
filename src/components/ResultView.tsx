@@ -12,6 +12,7 @@ import QuestionNav, { type CellState } from "./QuestionNav";
 import { useAttempts } from "@/lib/storage";
 import { formatDuration, groupsForParts, partInfo } from "@/lib/toeic";
 import type { PartNo, TestData } from "@/lib/types";
+import SegmentedTabs from "./SegmentedTabs";
 
 type Filter = "all" | "wrong" | "skipped";
 
@@ -151,24 +152,20 @@ export default function ResultView({ test }: { test: TestData }) {
         <div className="min-w-0">
           <div className="mb-4 flex flex-wrap items-center gap-2">
             <h2 className="mr-2 text-lg font-semibold">Xem lại đáp án</h2>
-            {(
-              [
-                ["all", "Tất cả"],
-                ["wrong", `Câu sai (${wrong})`],
-                ["skipped", `Bỏ trống (${skipped})`],
-              ] as const
-            ).map(([f, label]) => (
-              <button
-                key={f}
-                onClick={() => {
-                  setFilter(f);
-                  setGroupIndex(null);
-                }}
-                className={`rounded-full border px-3 py-1 text-sm ${filter === f ? "border-primary bg-primary-soft text-primary" : "border-line"}`}
-              >
-                {label}
-              </button>
-            ))}
+            <SegmentedTabs
+              label="Lọc câu"
+              size="sm"
+              items={[
+                { key: "all" as const, label: "Tất cả" },
+                { key: "wrong" as const, label: "Câu sai", count: wrong },
+                { key: "skipped" as const, label: "Bỏ trống", count: skipped },
+              ]}
+              value={filter}
+              onChange={(f) => {
+                setFilter(f);
+                setGroupIndex(null);
+              }}
+            />
           </div>
 
           {current ? (

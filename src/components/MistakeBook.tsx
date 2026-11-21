@@ -10,6 +10,7 @@ import { PARTS } from "@/lib/toeic";
 import { useTests } from "@/lib/useTests";
 import type { Letter, PartNo, QuestionGroup, TestData } from "@/lib/types";
 import { CardsSkeleton } from "./Skeleton";
+import SegmentedTabs from "./SegmentedTabs";
 
 type Tab = "todo" | "scheduled" | "mastered";
 
@@ -81,15 +82,12 @@ export default function MistakeBook() {
       </p>
 
       <div className="mt-6 flex flex-wrap items-center gap-2">
-        {TABS.map((t) => (
-          <button
-            key={t.id}
-            onClick={() => setTab(t.id)}
-            className={`rounded-lg px-4 py-2 text-sm font-semibold ${tab === t.id ? "bg-fg text-bg" : "bg-surface text-muted hover:text-fg"}`}
-          >
-            {t.label} ({byTab(t.id).length})
-          </button>
-        ))}
+        <SegmentedTabs
+          label="Trạng thái"
+          items={TABS.map((t) => ({ key: t.id, label: t.label, count: byTab(t.id).length }))}
+          value={tab}
+          onChange={setTab}
+        />
         <label className="ml-auto flex items-center gap-2 text-sm text-muted">
           <input type="checkbox" checked={includeSkipped} onChange={(e) => setIncludeSkipped(e.target.checked)} className="size-4" />
           Tính cả câu bỏ trống
@@ -97,16 +95,17 @@ export default function MistakeBook() {
       </div>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        {(["all", ...PARTS.map((p) => p.part)] as const).map((p) => (
-          <button
-            key={p}
-            onClick={() => setPart(p)}
-            className={`rounded-full border px-3 py-1 text-sm ${part === p ? "border-primary bg-primary-soft text-primary" : "border-line bg-surface"}`}
-          >
-            {p === "all" ? "Tất cả" : `Part ${p}`}
-            <span className="ml-1 opacity-60">{p === "all" ? inTab.length : countByPart(p)}</span>
-          </button>
-        ))}
+        <SegmentedTabs
+          label="Lọc theo part"
+          size="sm"
+          items={(["all", ...PARTS.map((p) => p.part)] as const).map((p) => ({
+            key: p,
+            label: p === "all" ? "Tất cả" : `Part ${p}`,
+            count: p === "all" ? inTab.length : countByPart(p),
+          }))}
+          value={part}
+          onChange={setPart}
+        />
       </div>
 
       {list.length > 0 && tab !== "mastered" && (

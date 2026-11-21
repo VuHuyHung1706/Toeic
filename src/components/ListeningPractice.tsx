@@ -9,6 +9,7 @@ import { PARTS } from "@/lib/toeic";
 import { useTests } from "@/lib/useTests";
 import type { PartNo, QuestionGroup } from "@/lib/types";
 import { TextSkeleton } from "./Skeleton";
+import SegmentedTabs from "./SegmentedTabs";
 
 type TestRef = { id: string; year: number; number: number };
 const LISTEN_PARTS: PartNo[] = [1, 2, 3, 4];
@@ -145,18 +146,13 @@ function Segmented<T extends string | number>({
   return (
     <div className="text-sm">
       <div className="mb-1 text-muted">{label}</div>
-      <div className="inline-flex rounded-md border border-line p-0.5">
-        {options.map((o) => (
-          <button
-            key={o.value}
-            title={o.title}
-            onClick={() => onChange(o.value)}
-            className={`rounded px-3 py-1 ${value === o.value ? "bg-primary text-on-primary" : "hover:bg-surface-2"}`}
-          >
-            {o.label}
-          </button>
-        ))}
-      </div>
+      <SegmentedTabs
+        label={label}
+        size="sm"
+        items={options.map((o) => ({ key: o.value, label: o.label, title: o.title }))}
+        value={value}
+        onChange={onChange}
+      />
     </div>
   );
 }

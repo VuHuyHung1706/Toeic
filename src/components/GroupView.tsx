@@ -10,6 +10,7 @@ import { setPref, usePref } from "@/lib/storage";
 import { isTextSelectGesture } from "@/lib/textSelection";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
+import SegmentedTabs from "./SegmentedTabs";
 
 type View = "en" | "bilingual" | "vi";
 const VIEWS: [View, string][] = [
@@ -120,19 +121,14 @@ export default function GroupView({
       {showPassages && !(vocabTab && leftTab === "vocab") && (
         <div className={part >= 6 ? "" : "rounded-lg border border-line bg-surface p-4"}>
           {allRevealed && hasVi && (
-            <div className="mb-3 flex flex-wrap gap-1 text-sm" role="tablist" aria-label="Cách xem bài đọc">
-              {VIEWS.map(([id, label]) => (
-                <button
-                  key={id}
-                  role="tab"
-                  aria-selected={view === id}
-                  onClick={() => setPref("passageView", id)}
-                  className={`rounded-md px-3 py-1 ${view === id ? "bg-primary-soft font-semibold text-primary" : "text-muted hover:bg-surface-2"}`}
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
+            <SegmentedTabs
+              label="Cách xem bài đọc"
+              size="sm"
+              className="mb-3"
+              items={VIEWS.map(([id, label]) => ({ key: id, label }))}
+              value={view}
+              onChange={(id) => setPref("passageView", id)}
+            />
           )}
           {part >= 6 &&
             passages.map((p, i) => (
@@ -430,23 +426,17 @@ function Tabs<T extends string>({
   items: [T, string][];
   small?: boolean;
 }) {
+  // tab gạch chân, vạch xanh trượt sang tab vừa chọn
   return (
-    <div role="tablist" className={`flex gap-1 border-b border-line ${small ? "-mx-1" : ""}`}>
-      {items.map(([id, label]) => (
-        <button
-          key={id}
-          type="button"
-          role="tab"
-          aria-selected={value === id}
-          onClick={() => onChange(id)}
-          className={`-mb-px border-b-2 px-3 font-semibold transition-colors ${small ? "py-1 text-sm" : "py-2"} ${
-            value === id ? "border-primary text-fg" : "border-transparent text-muted hover:text-fg"
-          }`}
-        >
-          {label}
-        </button>
-      ))}
-    </div>
+    <SegmentedTabs
+      label="Chọn nội dung"
+      variant="underline"
+      size={small ? "sm" : "md"}
+      className={small ? "-mx-1" : ""}
+      items={items.map(([id, label]) => ({ key: id, label }))}
+      value={value}
+      onChange={onChange}
+    />
   );
 }
 

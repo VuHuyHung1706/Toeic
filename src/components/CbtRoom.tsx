@@ -14,6 +14,7 @@ import { isTextSelectGesture } from "@/lib/textSelection";
 import { formatDuration, mediaUrl, optionLetters } from "@/lib/toeic";
 import type { Letter, PartNo, QuestionGroup } from "@/lib/types";
 import Logo from "./Logo";
+import SmoothWidth from "./SmoothWidth";
 
 const INSTRUCTIONS: Record<PartNo, string> = {
   1: "Select the one statement that best describes what you see in the picture.",
@@ -149,7 +150,9 @@ export default function CbtRoom(p: CbtProps) {
             </button>
           )}
           <span className="rounded-md bg-white px-3 py-1.5 text-sm font-semibold text-[#0b2447] tabular-nums">
-            {p.answered}/{p.total}
+            <SmoothWidth>
+              {p.answered}/{p.total}
+            </SmoothWidth>
           </span>
           <span
             className={`flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-semibold tabular-nums ${

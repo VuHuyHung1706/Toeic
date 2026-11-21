@@ -2,6 +2,8 @@
 // Thanh điều hướng gọn ở đáy màn hình (luyện tập, xem lại đáp án):  [<]  [▦ Câu x/y]  [>]  — căn phải.
 // Nút giữa bật/tắt bảng số câu.
 
+import SmoothWidth from "./SmoothWidth";
+
 export default function StepNav({
   label,
   canPrev,
@@ -48,7 +50,7 @@ export default function StepNav({
               <rect x="11.5" y="11.5" width="5.5" height="5.5" rx="1" />
             </svg>
           )}
-          {label}
+          <SmoothWidth>{label}</SmoothWidth>
         </button>
         <button onClick={onNext} disabled={!canNext} aria-label="Câu sau" title="Câu sau (phím →)" className={arrow}>
           <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>

@@ -6,6 +6,7 @@ import { VOCAB_INTERVALS, resetVocab, reviewVocab, setPref, usePref, useVocabCar
 import type { VocabEntry } from "@/lib/types";
 import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
+import SmoothWidth from "./SmoothWidth";
 
 const POS_LABEL: Record<string, string> = {
   n: "danh từ",
@@ -230,30 +231,25 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
             <span className="text-muted">Số từ mới:</span>
-            {NEW_OPTIONS.map((n) => (
-              <button
-                key={n}
-                onClick={() => setNewPerSession(n)}
-                className={`rounded-full border px-3 py-1 ${newPerSession === n ? "border-primary bg-primary-soft text-primary" : "border-line"}`}
-              >
-                {n}
-              </button>
-            ))}
-            {isSingleTest(testId) && (
-              <button
-                onClick={() => setNewPerSession(fresh.length)}
-                className={`rounded-full border px-3 py-1 ${newPerSession === fresh.length && !NEW_OPTIONS.includes(fresh.length) ? "border-primary bg-primary-soft text-primary" : "border-line"}`}
-              >
-                Cả đề ({fresh.length})
-              </button>
-            )}
+            <SegmentedTabs
+              label="Số từ mới"
+              size="sm"
+              items={[
+                ...NEW_OPTIONS.map((n) => ({ key: `${n}`, label: `${n}` })),
+                ...(isSingleTest(testId) ? [{ key: "test", label: "Cả đề", count: fresh.length }] : []),
+              ]}
+              value={newPerSession === fresh.length && isSingleTest(testId) && !NEW_OPTIONS.includes(fresh.length) ? "test" : `${newPerSession}`}
+              onChange={(k) => setNewPerSession(k === "test" ? fresh.length : Number(k))}
+            />
           </div>
           <button
             disabled={!due.length && !fresh.length}
             onClick={() => setSession([...due, ...fresh.slice(0, newPerSession)])}
             className="mt-5 rounded-lg bg-primary px-5 py-2.5 font-semibold text-on-primary hover:opacity-90 disabled:opacity-40"
           >
-            Bắt đầu ({due.length} ôn + {Math.min(newPerSession, fresh.length)} mới)
+            <SmoothWidth>
+              Bắt đầu ({due.length} ôn + {Math.min(newPerSession, fresh.length)} mới)
+            </SmoothWidth>
           </button>
           {!due.length && !fresh.length && <p className="mt-3 text-sm text-success">Bạn đã học hết từ của bộ này 🎉</p>}
         </div>
@@ -512,15 +508,17 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
         </select>
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
-        {(["all", ...Object.keys(POS_LABEL)] as const).map((p) => (
-          <button
-            key={p}
-            onClick={() => setPos(p)}
-            className={`rounded-full border px-3 py-1 text-sm ${pos === p ? "border-primary bg-primary-soft text-primary" : "border-line bg-surface"}`}
-          >
-            {p === "all" ? "Tất cả" : <span title={POS_LABEL[p]}>{p}</span>}
-          </button>
-        ))}
+        <SegmentedTabs
+          label="Loại từ"
+          size="sm"
+          items={["all", ...Object.keys(POS_LABEL)].map((p) => ({
+            key: p,
+            label: p === "all" ? "Tất cả" : p,
+            title: p === "all" ? undefined : POS_LABEL[p],
+          }))}
+          value={pos}
+          onChange={setPos}
+        />
       </div>
       <div className="mt-2 text-sm text-muted">{list.length.toLocaleString("vi-VN")} từ · bấm vào từ để xem các dạng khác của từ</div>
 
