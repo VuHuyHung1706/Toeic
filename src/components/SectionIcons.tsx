@@ -25,6 +25,14 @@ const ICONS = {
       <circle cx="12" cy="12" r="1.6" fill="currentColor" />
     </>
   ),
+  // ngữ pháp: chữ "Aa"
+  grammar: (
+    <>
+      <path {...stroke} d="M3 19L8 5l5 14M4.8 14.5h6.4" />
+      <circle {...stroke} cx="17.5" cy="15.5" r="3.5" />
+      <path {...stroke} d="M21 12v7" />
+    </>
+  ),
   // luyện nghe: tai nghe
   listening: (
     <path
@@ -77,6 +85,7 @@ export interface Section {
 export const SECTIONS: Section[] = [
   { href: "/tests", icon: "tests", label: "Đề thi", short: "Đề thi", color: "text-orange-500 dark:text-orange-400", tint: "bg-orange-500/10" },
   { href: "/practice", icon: "practice", label: "Luyện dạng", short: "Dạng câu", color: "text-violet-500 dark:text-violet-400", tint: "bg-violet-500/10" },
+  { href: "/grammar", icon: "grammar", label: "Ngữ pháp", short: "Ngữ pháp", color: "text-amber-500 dark:text-amber-400", tint: "bg-amber-500/10" },
   { href: "/listening", icon: "listening", label: "Luyện nghe", short: "Nghe", color: "text-sky-500 dark:text-sky-400", tint: "bg-sky-500/10" },
   { href: "/vocabulary", icon: "vocabulary", label: "Từ vựng", short: "Từ vựng", color: "text-emerald-500 dark:text-emerald-400", tint: "bg-emerald-500/10" },
   { href: "/mistakes", icon: "mistakes", label: "Sổ câu sai", short: "Câu sai", color: "text-rose-500 dark:text-rose-400", tint: "bg-rose-500/10" },
