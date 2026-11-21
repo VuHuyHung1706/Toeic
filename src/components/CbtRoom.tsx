@@ -10,6 +10,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { renderBlanks } from "./BlankText";
 import ConfirmDialog, { ExitIcon } from "./ConfirmDialog";
 import PassageView from "./PassageView";
+import { isTextSelectGesture } from "@/lib/textSelection";
 import { formatDuration, mediaUrl, optionLetters } from "@/lib/toeic";
 import type { Letter, PartNo, QuestionGroup } from "@/lib/types";
 import Logo from "./Logo";
@@ -205,6 +206,10 @@ export default function CbtRoom(p: CbtProps) {
                           return (
                             <label
                               key={l}
+                              // kéo chuột / bấm đúp để bôi đen chữ trong phương án (để copy) → không đổi lựa chọn
+                              onClick={(e) => {
+                                if (isTextSelectGesture(e)) e.preventDefault();
+                              }}
                               className={`flex cursor-pointer items-start gap-3 rounded-md border px-4 py-3 transition-colors ${
                                 checked
                                   ? "border-[#3b8fe5] bg-[#eaf3fd] dark:bg-primary-soft"

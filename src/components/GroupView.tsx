@@ -7,6 +7,7 @@ import PassageView from "./PassageView";
 import { renderBlanks } from "./BlankText";
 import { HL_COLORS, highlightEvidence, highlightPair, jumpToEvidence, type EvidenceItem } from "./Evidence";
 import { setPref, usePref } from "@/lib/storage";
+import { isTextSelectGesture } from "@/lib/textSelection";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
 
@@ -280,12 +281,13 @@ function QuestionCard({
         )}
       </div>
 
-      {/* các phương án xếp dọc như máy thi (Part 1/2 khi chưa trả lời chỉ có chữ cái) */}
-      <div className="mt-3 grid gap-2">
+      {/* các phương án xếp dọc như máy thi (Part 1/2 khi chưa trả lời chỉ có chữ cái).
+          Dùng khối role="radio" thay cho <button> để bôi đen / copy được chữ trong phương án. */}
+      <div className="mt-3 grid gap-2" role="radiogroup" aria-label={`Câu ${q.number}`}>
         {optionLetters(q.part).map((L) => {
           const isSel = selected === L;
           const isAns = q.answer === L;
-          let cls = "border-line hover:bg-surface-2";
+          let cls = locked ? "border-line" : "border-line hover:bg-surface-2";
           if (revealed && isAns) cls = "border-success bg-success-soft";
           else if (revealed && isSel) cls = "border-danger bg-danger-soft";
           else if (isSel) cls = "border-primary bg-primary-soft";
@@ -297,16 +299,31 @@ function QuestionCard({
           if (fresh && L === picked) anim = isAns ? "answer-pop" : "answer-shake";
           else if (pickedWrong && isAns) anim = "answer-reveal";
           const mark = revealed && (isAns || isSel) ? (isAns ? "✓" : "✗") : null;
+          const choose = () => {
+            if (locked) return;
+            setPicked(L);
+            onSelect?.(q.number, L);
+          };
           return (
-            <button
+            <div
               key={L}
-              disabled={locked}
-              onClick={() => {
-                if (locked) return;
-                setPicked(L);
-                onSelect?.(q.number, L);
+              role="radio"
+              aria-checked={isSel}
+              aria-disabled={locked}
+              tabIndex={locked ? -1 : 0}
+              onClick={(e) => {
+                // kéo chuột / bấm đúp để bôi đen chữ trong phương án → chỉ copy, không chọn đáp án
+                if (!isTextSelectGesture(e)) choose();
               }}
-              className={`flex items-start gap-3 rounded-lg border px-3 py-2 text-left transition disabled:cursor-default ${cls} ${anim}`}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  choose();
+                }
+              }}
+              className={`flex items-start gap-3 rounded-lg border px-3 py-2 text-left transition outline-offset-2 focus-visible:outline-2 focus-visible:outline-primary ${
+                locked ? "cursor-text" : "cursor-pointer"
+              } ${cls} ${anim}`}
             >
               <span className={`grid size-6 shrink-0 place-items-center rounded-full border text-xs font-bold ${badge}`}>
                 {L}
@@ -318,7 +335,8 @@ function QuestionCard({
                   {revealed && q.optionNotes?.[L] && (
                     <span className="mt-0.5 block text-sm text-vi">
                       {q.optionNotes[L]!.pos.length > 0 && (
-                        <span className="mr-1.5 text-xs font-semibold">({q.optionNotes[L]!.pos.join(", ")})</span>
+                        // dấu cách thật (không chỉ margin) để copy ra "(n) nghĩa" thay vì "(n)nghĩa"
+                        <span className="mr-0.5 text-xs font-semibold">({q.optionNotes[L]!.pos.join(", ")}) </span>
                       )}
                       {q.optionNotes[L]!.meaning}
                     </span>
@@ -335,7 +353,7 @@ function QuestionCard({
                   {mark}
                 </span>
               )}
-            </button>
+            </div>
           );
         })}
       </div>
