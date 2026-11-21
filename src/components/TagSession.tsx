@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import GroupView from "./GroupView";
+import QuestionDrawer from "./QuestionDrawer";
+import StepNav from "./StepNav";
 import StepTransition from "./StepTransition";
 import { bankKeyStatus, latestOutcomes } from "@/lib/outcomes";
 import { questionKey, recordReview, useAttempts, useReviews } from "@/lib/storage";
@@ -34,6 +36,21 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
   const [state, setState] = useState<{ round: number; items: BankItem[] | null; error?: string }>({ round: -1, items: null });
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, Letter>>({});
+  const [navOpen, setNavOpen] = useState(false);
+
+  // ← → chuyển câu (như phòng luyện thi); → ở câu cuối = xem kết quả
+  const count = state.round === round && state.items ? state.items.length : 0;
+  useEffect(() => {
+    if (!count || index >= count) return;
+    const onKey = (e: KeyboardEvent) => {
+      const t = (e.target as HTMLElement)?.tagName;
+      if (t === "INPUT" || t === "SELECT" || t === "TEXTAREA" || t === "AUDIO" || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === "ArrowRight") setIndex((i) => Math.min(i + 1, count));
+      if (e.key === "ArrowLeft") setIndex((i) => Math.max(i - 1, 0));
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [count, index]);
 
   // tải ngân hàng câu rồi chọn: câu từng sai → câu chưa làm → câu đã đúng
   useEffect(() => {
@@ -122,9 +139,16 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
     if (v) local[q.number] = v;
   }
   const answeredHere = it.group.questions.every((q) => local[q.number]);
+  const answeredCount = items.filter((x) => answers[keyOf(x)]).length;
+  // ô trong bảng câu: chưa làm / đúng / sai (luyện theo dạng: mỗi mục là một câu)
+  const cellCls = (x: BankItem) => {
+    const sel = answers[keyOf(x)];
+    if (!sel) return "border-line bg-surface text-muted hover:bg-surface-2";
+    return sel === x.group.questions[0].answer ? "border-success bg-success-soft text-success" : "border-danger bg-danger-soft text-danger";
+  };
 
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-8">
+    <main className="mx-auto w-full max-w-5xl px-4 pt-8 pb-24">
       {header}
       <div className="mb-3 flex items-center gap-3 text-sm text-muted">
         <span>
@@ -151,18 +175,60 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
           showAudio
         />
       </StepTransition>
-      <div className="mt-6 flex justify-between">
-        <button
-          disabled={index === 0}
-          onClick={() => setIndex(index - 1)}
-          className="rounded-lg border border-line bg-surface px-4 py-2 disabled:opacity-40"
-        >
-          ← Trước
-        </button>
+      <div className="mt-6 flex justify-end">
         <button onClick={() => setIndex(index + 1)} className="rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary">
           {index === items.length - 1 ? "Xem kết quả" : answeredHere ? "Tiếp →" : "Bỏ qua →"}
         </button>
       </div>
+
+      {/* thanh điều hướng ở đáy + bảng câu (như phòng luyện thi) */}
+      <StepNav
+        label={`Câu ${index + 1}/${items.length}`}
+        canPrev={index > 0}
+        canNext={index < items.length - 1}
+        onPrev={() => setIndex(index - 1)}
+        onNext={() => setIndex(index + 1)}
+        listOpen={navOpen}
+        onToggleList={() => setNavOpen((o) => !o)}
+      />
+      <QuestionDrawer
+        showButton={false}
+        open={navOpen}
+        onOpenChange={setNavOpen}
+        summary={
+          <>
+            Đã làm <b className="text-fg">{answeredCount}</b>/{items.length}
+          </>
+        }
+      >
+        <div className="grid grid-cols-6 gap-1.5 sm:grid-cols-8 lg:grid-cols-6">
+          {items.map((x, i) => (
+            <button
+              key={keyOf(x)}
+              data-current={i === index || undefined}
+              title={`${x.testTitle} · câu ${x.group.questions[0].number}`}
+              onClick={() => {
+                setIndex(i);
+                setNavOpen(false);
+              }}
+              className={`h-8 rounded-md border text-xs font-semibold ${cellCls(x)} ${
+                i === index ? "ring-2 ring-fg/60 ring-offset-1 ring-offset-surface" : ""
+              }`}
+            >
+              {i + 1}
+            </button>
+          ))}
+        </div>
+        <button
+          onClick={() => {
+            setIndex(items.length);
+            setNavOpen(false);
+          }}
+          className="mt-4 w-full rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-on-primary hover:opacity-90"
+        >
+          Xem kết quả
+        </button>
+      </QuestionDrawer>
     </main>
   );
 }

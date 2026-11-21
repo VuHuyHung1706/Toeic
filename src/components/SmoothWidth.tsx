@@ -13,7 +13,8 @@ export default function SmoothWidth({ children, className = "" }: { children: Re
     const i = inner.current;
     if (!o || !i) return;
     const ro = new ResizeObserver(() => {
-      o.style.width = `${i.offsetWidth}px`;
+      // làm tròn lên: offsetWidth làm tròn xuống có thể cắt mất một phần chữ cuối
+      o.style.width = `${Math.ceil(i.getBoundingClientRect().width)}px`;
     });
     ro.observe(i);
     return () => ro.disconnect();
