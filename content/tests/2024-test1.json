@@ -1629,6 +1629,13 @@
        "meaning": "mọi người"
       },
       {
+       "term": "deserve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xứng đáng"
+      },
+      {
        "term": "share",
        "pos": [
         "v"
@@ -1641,13 +1648,6 @@
         "v"
        ],
        "meaning": "đề xuất; đề nghị"
-      },
-      {
-       "term": "deserve",
-       "pos": [
-        "v"
-       ],
-       "meaning": "xứng đáng"
       }
      ],
      "audioStart": 846.58,
@@ -1812,6 +1812,11 @@
        "meaning": "phê duyệt; chấp thuận"
       },
       {
+       "term": "accommodation",
+       "pos": [],
+       "meaning": "chỗ ở"
+      },
+      {
        "term": "submit",
        "pos": [
         "v"
@@ -1838,11 +1843,6 @@
         "n"
        ],
        "meaning": "người giám sát"
-      },
-      {
-       "term": "accommodation",
-       "pos": [],
-       "meaning": "chỗ ở"
       }
      ],
      "audioStart": 922.21,
@@ -1985,6 +1985,13 @@
        "meaning": "cảng"
       },
       {
+       "term": "lift",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nâng"
+      },
+      {
        "term": "improve",
        "pos": [
         "v"
@@ -2017,13 +2024,6 @@
         "v"
        ],
        "meaning": "cập nhật; thông tin cập nhật"
-      },
-      {
-       "term": "lift",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nâng"
       }
      ],
      "audioStart": 1002.35,
@@ -2461,6 +2461,13 @@
        "meaning": "doanh số; doanh số bán hàng"
       },
       {
+       "term": "concentrate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung"
+      },
+      {
        "term": "forward",
        "pos": [
         "v"
@@ -2494,6 +2501,13 @@
        "meaning": "nguyên liệu"
       },
       {
+       "term": "supplier",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà cung cấp"
+      },
+      {
        "term": "recently",
        "pos": [
         "adv"
@@ -2520,18 +2534,6 @@
         "v"
        ],
        "meaning": "so sánh"
-      },
-      {
-       "term": "investigation",
-       "pos": [],
-       "meaning": "cuộc điều tra"
-      },
-      {
-       "term": "available",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "có sẵn; sẵn sàng"
       }
      ],
      "audioStart": 1240.84,
@@ -2684,6 +2686,13 @@
        "meaning": "quan tâm"
       },
       {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
        "term": "experience",
        "pos": [
         "n"
@@ -2703,13 +2712,6 @@
         "n"
        ],
        "meaning": "mô tả"
-      },
-      {
-       "term": "create",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra; tạo"
       }
      ],
      "audioStart": 1328.29,
@@ -3174,6 +3176,13 @@
        "meaning": "sự sáp nhập"
       },
       {
+       "term": "advantage",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lợi thế; lợi thế, ưu điểm"
+      },
+      {
        "term": "merge",
        "pos": [
         "v"
@@ -3210,13 +3219,6 @@
         "conj"
        ],
        "meaning": "liệu; liệu rằng"
-      },
-      {
-       "term": "advantage",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lợi thế; lợi thế, ưu điểm"
       }
      ],
      "audioStart": 1562.3,
@@ -3499,6 +3501,13 @@
        "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       },
       {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
        "term": "modern",
        "pos": [
         "adj"
@@ -3512,6 +3521,13 @@
         "v"
        ],
        "meaning": "vật trưng bày; trưng bày; trưng bày"
+      },
+      {
+       "term": "device",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết bị"
       },
       {
        "term": "unfortunately",
@@ -3528,6 +3544,13 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      },
+      {
        "term": "piece",
        "pos": [
         "n"
@@ -3540,27 +3563,6 @@
         "v"
        ],
        "meaning": "loại bỏ; gỡ bỏ"
-      },
-      {
-       "term": "include",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bao gồm"
-      },
-      {
-       "term": "promise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hứa"
-      },
-      {
-       "term": "device",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thiết bị"
       }
      ],
      "audioStart": 1740.29,
@@ -3716,11 +3718,25 @@
        "meaning": "hội nghị"
       },
       {
+       "term": "count",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đếm"
+      },
+      {
        "term": "major",
        "pos": [
         "adj"
        ],
        "meaning": "quan trọng; lớn, quan trọng"
+      },
+      {
+       "term": "network",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mạng lưới"
       },
       {
        "term": "addition",
@@ -3763,20 +3779,6 @@
         "n"
        ],
        "meaning": "xây dựng; việc xây dựng"
-      },
-      {
-       "term": "focus",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tập trung; trọng tâm"
-      },
-      {
-       "term": "related",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "liên quan"
       }
      ],
      "audioStart": 1830.75,
@@ -4111,6 +4113,13 @@
        "meaning": "nhỏ, không đáng kể"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "invest",
        "pos": [
         "v"
@@ -4156,13 +4165,6 @@
        "term": "condition",
        "pos": [],
        "meaning": "tình trạng"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 2029.75,
@@ -4291,6 +4293,13 @@
      ],
      "vocab": [
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "beginning",
        "pos": [
         "n",
@@ -4318,6 +4327,11 @@
        "meaning": "tham dự"
       },
       {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
        "term": "purchase",
        "pos": [
         "v"
@@ -4330,18 +4344,6 @@
         "adv"
        ],
        "meaning": "gần đây; gần đây, mới đây"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
-      },
-      {
-       "term": "feature",
-       "pos": [],
-       "meaning": "giới thiệu; đặc điểm, tính năng"
       }
      ],
      "audioStart": 2115.11,
@@ -4485,6 +4487,20 @@
        "meaning": "hỗ trợ"
       },
       {
+       "term": "facility",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "while",
        "pos": [
         "conj"
@@ -4539,20 +4555,6 @@
         "v"
        ],
        "meaning": "tiến hành; tiền thu được"
-      },
-      {
-       "term": "construction",
-       "pos": [
-        "n"
-       ],
-       "meaning": "xây dựng; việc xây dựng"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 2195.66,
@@ -4747,11 +4749,11 @@
        "meaning": "bài thuyết trình"
       },
       {
-       "term": "packet",
+       "term": "refer",
        "pos": [
-        "n"
+        "v"
        ],
-       "meaning": "gói"
+       "meaning": "tham khảo; tham chiếu"
       },
       {
        "term": "document",
@@ -5090,6 +5092,13 @@
        "meaning": "hợp đồng"
       },
       {
+       "term": "develop",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phát triển; phát triển, phát minh"
+      },
+      {
        "term": "release",
        "pos": [
         "n"
@@ -5132,13 +5141,6 @@
         "adv"
        ],
        "meaning": "nội bộ; một cách nội bộ"
-      },
-      {
-       "term": "develop",
-       "pos": [
-        "v"
-       ],
-       "meaning": "phát triển; phát triển, phát minh"
       }
      ],
      "audioStart": 2434.1,

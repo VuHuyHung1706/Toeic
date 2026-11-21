@@ -4568,6 +4568,14 @@
        "meaning": "sản xuất; sản xuất (công nghiệp)"
       },
       {
+       "term": "exhibit",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "vật trưng bày; trưng bày; trưng bày"
+      },
+      {
        "term": "sales",
        "pos": [
         "n"
@@ -4592,6 +4600,14 @@
         "adv"
        ],
        "meaning": "hiện tại"
+      },
+      {
+       "term": "fit",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "vừa vặn"
       },
       {
        "term": "create",
@@ -4628,22 +4644,6 @@
         "v"
        ],
        "meaning": "tham dự"
-      },
-      {
-       "term": "exhibit",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "vật trưng bày; trưng bày; trưng bày"
-      },
-      {
-       "term": "fit",
-       "pos": [
-        "adj",
-        "v"
-       ],
-       "meaning": "vừa vặn"
       }
      ],
      "audioStart": 1780.92,
@@ -4785,18 +4785,18 @@
        "meaning": "sản xuất/nông sản; sản xuất"
       },
       {
-       "term": "forward",
-       "pos": [
-        "v"
-       ],
-       "meaning": "về phía trước; chuyển tiếp (email)"
-      },
-      {
        "term": "assignment",
        "pos": [
         "n"
        ],
        "meaning": "nhiệm vụ được giao"
+      },
+      {
+       "term": "forward",
+       "pos": [
+        "v"
+       ],
+       "meaning": "về phía trước; chuyển tiếp (email)"
       },
       {
        "term": "communicate",
@@ -5019,6 +5019,13 @@
        "meaning": "vấn đề; vấn đề, số báo"
       },
       {
+       "term": "replacement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thay thế; người thay thế"
+      },
+      {
        "term": "unfortunately",
        "pos": [
         "adv"
@@ -5068,13 +5075,6 @@
         "v"
        ],
        "meaning": "bao quát; bìa"
-      },
-      {
-       "term": "proceed",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tiến hành"
       }
      ],
      "audioStart": 2029.06,
@@ -5173,6 +5173,13 @@
        "meaning": "tài khoản"
       },
       {
+       "term": "transaction",
+       "pos": [
+        "n"
+       ],
+       "meaning": "giao dịch"
+      },
+      {
        "term": "individual",
        "pos": [
         "n"
@@ -5229,13 +5236,6 @@
         "n"
        ],
        "meaning": "người giám sát"
-      },
-      {
-       "term": "strategy",
-       "pos": [
-        "n"
-       ],
-       "meaning": "chiến lược"
       }
      ],
      "audioStart": 2112.18,

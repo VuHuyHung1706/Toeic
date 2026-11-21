@@ -2374,6 +2374,13 @@
        "meaning": "việc giao hàng; các chuyến giao hàng"
       },
       {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "vehicle",
        "pos": [],
        "meaning": "phương tiện"
@@ -2407,13 +2414,6 @@
         "n"
        ],
        "meaning": "lộ trình; tuyến đường"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
       }
      ],
      "audioStart": 1243.73,
@@ -2546,6 +2546,13 @@
        "meaning": "giải thích"
       },
       {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
        "term": "experience",
        "pos": [
         "n"
@@ -2577,13 +2584,6 @@
        "term": "system",
        "pos": [],
        "meaning": "hệ thống"
-      },
-      {
-       "term": "process",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quy trình"
       }
      ],
      "audioStart": 1312.51,
@@ -3075,19 +3075,19 @@
        "meaning": "một cách bình đẳng; như nhau"
       },
       {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
        "term": "effective",
        "pos": [
         "adj",
         "prep"
        ],
        "meaning": "hiệu quả; có hiệu lực"
-      },
-      {
-       "term": "include",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bao gồm"
       }
      ],
      "audioStart": 1538.31,
@@ -3381,6 +3381,13 @@
      ],
      "vocab": [
       {
+       "term": "investor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà đầu tư"
+      },
+      {
        "term": "update",
        "pos": [
         "n",
@@ -3430,13 +3437,6 @@
         "v"
        ],
        "meaning": "giải thích chi tiết; chi tiết"
-      },
-      {
-       "term": "investor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà đầu tư"
       }
      ],
      "audioStart": 1707.98,
@@ -5099,6 +5099,13 @@
        "meaning": "thảo luận"
       },
       {
+       "term": "represent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đại diện; hiện tại đơn, ít dùng cho sự kiện đã lên lịch cụ thể"
+      },
+      {
        "term": "efficient",
        "pos": [
         "adj"
@@ -5118,6 +5125,13 @@
         "v"
        ],
        "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
+       "term": "panel",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội đồng"
       },
       {
        "term": "reduce",
@@ -5154,20 +5168,6 @@
         "n"
        ],
        "meaning": "kiến thức"
-      },
-      {
-       "term": "advantage",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lợi thế; lợi thế, ưu điểm"
-      },
-      {
-       "term": "submit",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nộp, đệ trình; nộp"
       }
      ],
      "audioStart": 2474.52,

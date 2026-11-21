@@ -2270,6 +2270,13 @@
        "meaning": "tự do"
       },
       {
+       "term": "roll",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lăn"
+      },
+      {
        "term": "particularly",
        "pos": [],
        "meaning": "đặc biệt"
@@ -2280,13 +2287,6 @@
         "adj"
        ],
        "meaning": "tự hào"
-      },
-      {
-       "term": "roll",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lăn"
       }
      ],
      "audioStart": 1151.62,
@@ -2634,6 +2634,13 @@
        "meaning": "lựa chọn"
       },
       {
+       "term": "introduce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giới thiệu; giới thiệu, đưa vào"
+      },
+      {
        "term": "system",
        "pos": [],
        "meaning": "hệ thống"
@@ -2651,13 +2658,6 @@
         "n"
        ],
        "meaning": "phương pháp"
-      },
-      {
-       "term": "introduce",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giới thiệu; giới thiệu, đưa vào"
       }
      ],
      "audioStart": 1326.4,
@@ -2802,6 +2802,13 @@
        "meaning": "chuyên môn hóa"
       },
       {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
        "term": "affordable",
        "pos": [
         "adj"
@@ -2835,13 +2842,6 @@
         "n"
        ],
        "meaning": "bộ sưu tập"
-      },
-      {
-       "term": "create",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra; tạo"
       }
      ],
      "audioStart": 1404.74,
@@ -3006,18 +3006,18 @@
        "meaning": "phản hồi; trả lời"
       },
       {
-       "term": "conference",
-       "pos": [
-        "n"
-       ],
-       "meaning": "hội nghị"
-      },
-      {
        "term": "host",
        "pos": [
         "v"
        ],
        "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
       }
      ],
      "audioStart": 1480.58,
@@ -3157,11 +3157,37 @@
        "meaning": "tăng; tăng lên"
       },
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "interested",
        "pos": [
         "adj"
        ],
        "meaning": "quan tâm"
+      },
+      {
+       "term": "promote",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quảng bá; quảng bá, thúc đẩy"
+      },
+      {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
+       "term": "specialize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chuyên môn hóa"
       },
       {
        "term": "touch",
@@ -3176,32 +3202,6 @@
         "adj"
        ],
        "meaning": "có sẵn; sẵn sàng"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
-      },
-      {
-       "term": "feature",
-       "pos": [],
-       "meaning": "giới thiệu; đặc điểm, tính năng"
-      },
-      {
-       "term": "promote",
-       "pos": [
-        "v"
-       ],
-       "meaning": "quảng bá; quảng bá, thúc đẩy"
-      },
-      {
-       "term": "specialize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "chuyên môn hóa"
       }
      ],
      "audioStart": 1552.45,
@@ -3701,6 +3701,13 @@
        "meaning": "mặt hàng, sản phẩm; vật phẩm"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "wide",
        "pos": [
         "adj"
@@ -3727,13 +3734,6 @@
         "n"
        ],
        "meaning": "đơn đặt hàng; đặt hàng"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1814.14,
@@ -4589,6 +4589,13 @@
      ],
      "vocab": [
       {
+       "term": "assignment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhiệm vụ được giao"
+      },
+      {
        "term": "issue",
        "pos": [
         "n"
@@ -4620,13 +4627,6 @@
        "term": "reviewing",
        "pos": [],
        "meaning": "xem xét"
-      },
-      {
-       "term": "assignment",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhiệm vụ được giao"
       }
      ],
      "audioStart": 2238.85,
@@ -4949,6 +4949,20 @@
        "meaning": "vật liệu; tài liệu"
       },
       {
+       "term": "select",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
+       "term": "overwhelm",
+       "pos": [
+        "v"
+       ],
+       "meaning": "áp đảo, làm ngập"
+      },
+      {
        "term": "share",
        "pos": [
         "v"
@@ -4984,13 +4998,6 @@
        "meaning": "ví dụ"
       },
       {
-       "term": "select",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lựa chọn"
-      },
-      {
        "term": "recommend",
        "pos": [
         "v"
@@ -5003,13 +5010,6 @@
         "v"
        ],
        "meaning": "bảo vệ"
-      },
-      {
-       "term": "warranty",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bảo hành"
       }
      ],
      "audioStart": 2393.92,
@@ -5209,18 +5209,19 @@
        "meaning": "phạm vi"
       },
       {
-       "term": "available",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "có sẵn; sẵn sàng"
-      },
-      {
        "term": "choice",
        "pos": [
         "n"
        ],
        "meaning": "lựa chọn"
+      },
+      {
+       "term": "balance",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "cân bằng; sự cân bằng"
       }
      ],
      "audioStart": 2478.08,
@@ -5571,6 +5572,13 @@
        "meaning": "có khả năng"
       },
       {
+       "term": "choice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "goal",
        "pos": [
         "n"
@@ -5605,13 +5613,6 @@
         "n"
        ],
        "meaning": "phiên; buổi học, phiên họp"
-      },
-      {
-       "term": "necessary",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "cần thiết"
       }
      ],
      "audioStart": 2659.65,

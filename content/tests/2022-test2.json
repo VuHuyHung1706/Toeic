@@ -1817,6 +1817,11 @@
      ],
      "vocab": [
       {
+       "term": "accommodation",
+       "pos": [],
+       "meaning": "chỗ ở"
+      },
+      {
        "term": "within",
        "pos": [
         "prep"
@@ -1843,11 +1848,6 @@
         "adj"
        ],
        "meaning": "thuận tiện; tiện lợi"
-      },
-      {
-       "term": "accommodation",
-       "pos": [],
-       "meaning": "chỗ ở"
       }
      ],
      "audioStart": 914.05,
@@ -2022,18 +2022,18 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
-       "term": "smoothly",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "suôn sẻ"
-      },
-      {
        "term": "deadline",
        "pos": [
         "n"
        ],
        "meaning": "hạn chót; thời hạn"
+      },
+      {
+       "term": "smoothly",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "suôn sẻ"
       }
      ],
      "audioStart": 985.73,
@@ -2179,6 +2179,13 @@
        "meaning": "trì hoãn; sự trì hoãn trì hoãn"
       },
       {
+       "term": "deadline",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hạn chót; thời hạn"
+      },
+      {
        "term": "sensitive",
        "pos": [
         "adj"
@@ -2191,13 +2198,6 @@
         "n"
        ],
        "meaning": "ưu tiên"
-      },
-      {
-       "term": "deadline",
-       "pos": [
-        "n"
-       ],
-       "meaning": "hạn chót; thời hạn"
       }
      ],
      "audioStart": 1060.86,
@@ -2330,6 +2330,13 @@
        "meaning": "liên kết"
       },
       {
+       "term": "colleague",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đồng nghiệp"
+      },
+      {
        "term": "replace",
        "pos": [
         "v"
@@ -2365,13 +2372,6 @@
         "n"
        ],
        "meaning": "đặt chỗ"
-      },
-      {
-       "term": "colleague",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đồng nghiệp"
       }
      ],
      "audioStart": 1140.73,
@@ -2684,6 +2684,20 @@
        "meaning": "bảo hiểm"
       },
       {
+       "term": "official",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quan chức"
+      },
+      {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      },
+      {
        "term": "interest",
        "pos": [
         "n"
@@ -2728,18 +2742,6 @@
         "v"
        ],
        "meaning": "đã giảm; giảm"
-      },
-      {
-       "term": "rate",
-       "pos": [
-        "n"
-       ],
-       "meaning": "giá"
-      },
-      {
-       "term": "final",
-       "pos": [],
-       "meaning": "cuối cùng"
       }
      ],
      "audioStart": 1317.5,
@@ -3443,6 +3445,13 @@
        "meaning": "hội nghị"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "save",
        "pos": [
         "v"
@@ -3455,13 +3464,6 @@
         "n"
        ],
        "meaning": "chỗ ngồi"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 1655.94,
@@ -3962,6 +3964,13 @@
        "meaning": "tạo ra; tạo"
       },
       {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
        "term": "range",
        "pos": [
         "n",
@@ -3975,13 +3984,6 @@
         "v"
        ],
        "meaning": "phỏng vấn"
-      },
-      {
-       "term": "position",
-       "pos": [
-        "v"
-       ],
-       "meaning": "định vị; vị trí (công việc)"
       }
      ],
      "audioStart": 1948.03,
@@ -4114,6 +4116,13 @@
        "meaning": "lễ kỷ niệm"
       },
       {
+       "term": "rely",
+       "pos": [
+        "v"
+       ],
+       "meaning": "dựa vào; tin cậy"
+      },
+      {
        "term": "capture",
        "pos": [
         "v"
@@ -4140,13 +4149,6 @@
         "adj"
        ],
        "meaning": "ấn tượng"
-      },
-      {
-       "term": "rely",
-       "pos": [
-        "v"
-       ],
-       "meaning": "dựa vào; tin cậy"
       }
      ],
      "audioStart": 2026.69,
@@ -4288,6 +4290,13 @@
        "meaning": "chương trình nghị sự; chương trình"
       },
       {
+       "term": "maintain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "duy trì"
+      },
+      {
        "term": "environment",
        "pos": [],
        "meaning": "môi trường"
@@ -4307,11 +4316,11 @@
        "meaning": "phòng thí nghiệm"
       },
       {
-       "term": "maintain",
+       "term": "chemical",
        "pos": [
-        "v"
+        "adj"
        ],
-       "meaning": "duy trì"
+       "meaning": "hóa chất"
       },
       {
        "term": "safety",
@@ -4341,13 +4350,6 @@
         "adj"
        ],
        "meaning": "nội bộ"
-      },
-      {
-       "term": "chemical",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "hóa chất"
       }
      ],
      "audioStart": 2098.18,
@@ -4869,13 +4871,6 @@
        "meaning": "có sẵn; sẵn sàng"
       },
       {
-       "term": "touch",
-       "pos": [
-        "v"
-       ],
-       "meaning": "chạm"
-      },
-      {
        "term": "presentation",
        "pos": [
         "n"
@@ -4883,18 +4878,25 @@
        "meaning": "bài thuyết trình"
       },
       {
-       "term": "promise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hứa"
-      },
-      {
        "term": "maintain",
        "pos": [
         "v"
        ],
        "meaning": "duy trì"
+      },
+      {
+       "term": "touch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chạm"
+      },
+      {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
       }
      ],
      "audioStart": 2335.74,
@@ -5012,6 +5014,13 @@
      ],
      "vocab": [
       {
+       "term": "industry",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngành công nghiệp; ngành"
+      },
+      {
        "term": "advertising",
        "pos": [
         "n",
@@ -5025,6 +5034,13 @@
         "v"
        ],
        "meaning": "giao hàng, phân phát; giao hàng"
+      },
+      {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
       },
       {
        "term": "hesitation",
@@ -5067,20 +5083,6 @@
         "conj"
        ],
        "meaning": "trong khi, mặc dù"
-      },
-      {
-       "term": "industry",
-       "pos": [
-        "n"
-       ],
-       "meaning": "ngành công nghiệp; ngành"
-      },
-      {
-       "term": "express",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bày tỏ"
       }
      ],
      "audioStart": 2421.38,

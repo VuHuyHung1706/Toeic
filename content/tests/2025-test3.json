@@ -2223,6 +2223,13 @@
        "meaning": "thương mại; quảng cáo (trên TV)"
       },
       {
+       "term": "athletic",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thể thao"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -2278,13 +2285,6 @@
        "term": "final",
        "pos": [],
        "meaning": "cuối cùng"
-      },
-      {
-       "term": "approval",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự ủng hộ; sự chấp thuận"
       }
      ],
      "audioStart": 1044.03,
@@ -2420,18 +2420,18 @@
        "meaning": "bản thảo; soạn thảo"
       },
       {
-       "term": "degree",
-       "pos": [
-        "n"
-       ],
-       "meaning": "mức độ; bằng cấp"
-      },
-      {
        "term": "release",
        "pos": [
         "n"
        ],
        "meaning": "sự phát hành; phát hành"
+      },
+      {
+       "term": "degree",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mức độ; bằng cấp"
       }
      ],
      "audioStart": 1123.68,
@@ -2774,18 +2774,18 @@
        "meaning": "làm phấn khích"
       },
       {
-       "term": "share",
-       "pos": [
-        "v"
-       ],
-       "meaning": "chia sẻ; chia sẻ, dùng chung"
-      },
-      {
        "term": "resource",
        "pos": [
         "n"
        ],
        "meaning": "nguồn lực"
+      },
+      {
+       "term": "share",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chia sẻ; chia sẻ, dùng chung"
       }
      ],
      "audioStart": 1272.38,
@@ -2933,6 +2933,13 @@
        "meaning": "tài khoản"
       },
       {
+       "term": "renew",
+       "pos": [
+        "v"
+       ],
+       "meaning": "gia hạn; gia hạn, làm mới"
+      },
+      {
        "term": "contract",
        "pos": [
         "n"
@@ -2959,13 +2966,6 @@
         "adv"
        ],
        "meaning": "kỹ lưỡng"
-      },
-      {
-       "term": "renew",
-       "pos": [
-        "v"
-       ],
-       "meaning": "gia hạn; gia hạn, làm mới"
       },
       {
        "term": "term",
@@ -3159,6 +3159,13 @@
        "meaning": "ngành công nghiệp; ngành"
       },
       {
+       "term": "style",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phong cách"
+      },
+      {
        "term": "appeal",
        "pos": [
         "v"
@@ -3171,13 +3178,6 @@
         "adj"
        ],
        "meaning": "trẻ hơn, cấp dưới"
-      },
-      {
-       "term": "pass",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thông qua; đi qua"
       },
       {
        "term": "colleague",
@@ -3341,6 +3341,13 @@
        "meaning": "sự tham gia"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "expect",
        "pos": [
         "v"
@@ -3361,13 +3368,6 @@
         "n"
        ],
        "meaning": "quyết định"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1525.67,
@@ -4067,6 +4067,13 @@
        "meaning": "sự quan tâm"
       },
       {
+       "term": "ability",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khả năng"
+      },
+      {
        "term": "recently",
        "pos": [
         "adv"
@@ -4100,13 +4107,6 @@
         "n"
        ],
        "meaning": "tư cách thành viên; thẻ thành viên"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1897.26,
@@ -4465,6 +4465,11 @@
        "meaning": "chắc chắn"
       },
       {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
        "term": "expert",
        "pos": [
         "adj"
@@ -4505,13 +4510,6 @@
         "n"
        ],
        "meaning": "chủ đề"
-      },
-      {
-       "term": "hopefully",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "một cách hy vọng; hy vọng là"
       }
      ],
      "audioStart": 2067.05,
@@ -4672,6 +4670,13 @@
        "meaning": "sự khôi phục; sự phục hồi, khôi phục"
       },
       {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      },
+      {
        "term": "research",
        "pos": [
         "n"
@@ -4696,13 +4701,6 @@
         "n"
        ],
        "meaning": "phong cách"
-      },
-      {
-       "term": "conduct",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tiến hành/tổ chức; chỉ huy"
       }
      ],
      "audioStart": 2143.21,
@@ -5035,6 +5033,13 @@
        "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
       },
       {
+       "term": "refresh",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm mới"
+      },
+      {
        "term": "message",
        "pos": [
         "n"
@@ -5047,13 +5052,6 @@
         "n"
        ],
        "meaning": "nhà tài trợ; tài trợ"
-      },
-      {
-       "term": "refresh",
-       "pos": [
-        "v"
-       ],
-       "meaning": "làm mới"
       }
      ],
      "audioStart": 2312.02,
@@ -5449,6 +5447,13 @@
        "meaning": "bảo mật, kín đáo; bảo mật"
       },
       {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      },
+      {
        "term": "remain",
        "pos": [
         "v"
@@ -5461,13 +5466,6 @@
         "v"
        ],
        "meaning": "bị thu hút"
-      },
-      {
-       "term": "major",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "quan trọng; lớn, quan trọng"
       }
      ],
      "audioStart": 2470.91,
@@ -5615,6 +5613,13 @@
        "meaning": "bao gồm"
       },
       {
+       "term": "accessory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phụ kiện"
+      },
+      {
        "term": "unfortunately",
        "pos": [
         "adv"
@@ -5634,6 +5639,13 @@
         "v"
        ],
        "meaning": "thể hiện; trưng bày"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
       },
       {
        "term": "highly",
@@ -5667,20 +5679,6 @@
         "n"
        ],
        "meaning": "bộ sưu tập"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
-      },
-      {
-       "term": "accessory",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phụ kiện"
       }
      ],
      "audioStart": 2553.69,

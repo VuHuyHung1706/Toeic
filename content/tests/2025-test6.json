@@ -1655,6 +1655,20 @@
        "meaning": "tức thì"
       },
       {
+       "term": "message",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông điệp"
+      },
+      {
+       "term": "reply",
+       "pos": [
+        "v"
+       ],
+       "meaning": "trả lời"
+      },
+      {
        "term": "update",
        "pos": [
         "n",
@@ -1675,20 +1689,6 @@
         "n"
        ],
        "meaning": "sự phát hành; phát hành"
-      },
-      {
-       "term": "message",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thông điệp"
-      },
-      {
-       "term": "reply",
-       "pos": [
-        "v"
-       ],
-       "meaning": "trả lời"
       }
      ],
      "audioStart": 837.65,
@@ -2124,6 +2124,13 @@
        "meaning": "phản hồi; sự đáp lại"
       },
       {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
        "term": "appreciate",
        "pos": [
         "v"
@@ -2161,33 +2168,25 @@
        "meaning": "loại bỏ; gỡ bỏ"
       },
       {
+       "term": "loop",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quay vòng"
+      },
+      {
+       "term": "reply",
+       "pos": [
+        "v"
+       ],
+       "meaning": "trả lời"
+      },
+      {
        "term": "express",
        "pos": [
         "v"
        ],
        "meaning": "bày tỏ"
-      },
-      {
-       "term": "frustration",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự thất vọng"
-      },
-      {
-       "term": "direct",
-       "pos": [
-        "adj",
-        "v"
-       ],
-       "meaning": "trực tiếp; chỉ đạo"
-      },
-      {
-       "term": "review",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc đánh giá; xem xét, đánh giá"
       }
      ],
      "audioStart": 1065.5,
@@ -3561,6 +3560,13 @@
      ],
      "vocab": [
       {
+       "term": "packet",
+       "pos": [
+        "n"
+       ],
+       "meaning": "gói"
+      },
+      {
        "term": "junior",
        "pos": [
         "adj"
@@ -3582,11 +3588,25 @@
        "meaning": "liệu; liệu rằng"
       },
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "necessary",
        "pos": [
         "adj"
        ],
        "meaning": "cần thiết"
+      },
+      {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
       },
       {
        "term": "notice",
@@ -3623,27 +3643,6 @@
         "v"
        ],
        "meaning": "nhầm lẫn"
-      },
-      {
-       "term": "suggest",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đề xuất; gợi ý"
-      },
-      {
-       "term": "visual",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "trực quan"
-      },
-      {
-       "term": "equipment",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thiết bị"
       }
      ],
      "audioStart": 1748.52,
@@ -3986,6 +3985,13 @@
        "meaning": "lời khuyên"
       },
       {
+       "term": "basic",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cơ bản"
+      },
+      {
        "term": "concerned",
        "pos": [
         "adj"
@@ -4007,11 +4013,25 @@
        "meaning": "vận chuyển"
       },
       {
+       "term": "competitor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đối thủ cạnh tranh"
+      },
+      {
        "term": "prefer",
        "pos": [
         "v"
        ],
        "meaning": "thích; thích hơn, muốn"
+      },
+      {
+       "term": "confuse",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhầm lẫn"
       },
       {
        "term": "discuss",
@@ -4026,27 +4046,6 @@
         "n"
        ],
        "meaning": "lựa chọn"
-      },
-      {
-       "term": "competitor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đối thủ cạnh tranh"
-      },
-      {
-       "term": "basic",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "cơ bản"
-      },
-      {
-       "term": "confuse",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhầm lẫn"
       }
      ],
      "audioStart": 1978.45,
@@ -4614,6 +4613,13 @@
        "meaning": "kỹ năng"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "detailed",
        "pos": [
         "adj"
@@ -4640,13 +4646,6 @@
         "adv"
        ],
        "meaning": "rộng rãi; một cách mở rộng"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 2215.74,
@@ -5115,6 +5114,20 @@
      ],
      "vocab": [
       {
+       "term": "gather",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập hợp"
+      },
+      {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "transparency",
        "pos": [
         "n"
@@ -5143,6 +5156,13 @@
        "meaning": "khu vực; thuộc khu vực"
       },
       {
+       "term": "cause",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã gây ra; gây ra"
+      },
+      {
        "term": "proud",
        "pos": [
         "adj"
@@ -5162,27 +5182,6 @@
         "adj"
        ],
        "meaning": "hào phóng"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
-      },
-      {
-       "term": "cause",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã gây ra; gây ra"
-      },
-      {
-       "term": "gather",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tập hợp"
       }
      ],
      "audioStart": 2482.45,
@@ -5556,6 +5555,13 @@
        "meaning": "sự tham dự; số lượng người tham dự"
       },
       {
+       "term": "workshop",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội thảo"
+      },
+      {
        "term": "schedule",
        "pos": [
         "n"
@@ -5578,13 +5584,6 @@
         "prep"
        ],
        "meaning": "ngoại trừ"
-      },
-      {
-       "term": "workshop",
-       "pos": [
-        "n"
-       ],
-       "meaning": "hội thảo"
       },
       {
        "term": "introduce",

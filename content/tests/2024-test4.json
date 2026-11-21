@@ -1537,6 +1537,13 @@
        "meaning": "chính quyền, nhà chức trách; thẩm quyền, quyền hạn"
       },
       {
+       "term": "suspend",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hoãn lại"
+      },
+      {
        "term": "cancel",
        "pos": [
         "v"
@@ -1591,13 +1598,6 @@
         "v"
        ],
        "meaning": "đề xuất; đề nghị"
-      },
-      {
-       "term": "suspend",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hoãn lại"
       }
      ],
      "audioStart": 845.59,
@@ -2788,6 +2788,13 @@
        "meaning": "kiểm tra"
       },
       {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      },
+      {
        "term": "damage",
        "pos": [],
        "meaning": "thiệt hại; bị hư hỏng"
@@ -2815,13 +2822,6 @@
        "meaning": "quan trọng; lớn, quan trọng"
       },
       {
-       "term": "while",
-       "pos": [
-        "conj"
-       ],
-       "meaning": "trong khi, mặc dù"
-      },
-      {
        "term": "repair",
        "pos": [
         "v"
@@ -2829,11 +2829,11 @@
        "meaning": "sửa chữa"
       },
       {
-       "term": "conduct",
+       "term": "while",
        "pos": [
-        "v"
+        "conj"
        ],
-       "meaning": "tiến hành/tổ chức; chỉ huy"
+       "meaning": "trong khi, mặc dù"
       }
      ],
      "audioStart": 1372.16,
@@ -2959,11 +2959,6 @@
      ],
      "vocab": [
       {
-       "term": "system",
-       "pos": [],
-       "meaning": "hệ thống"
-      },
-      {
        "term": "direction",
        "pos": [
         "n"
@@ -2983,6 +2978,11 @@
         "adj"
        ],
        "meaning": "nhận thức"
+      },
+      {
+       "term": "system",
+       "pos": [],
+       "meaning": "hệ thống"
       }
      ],
      "audioStart": 1470.63,
@@ -3235,6 +3235,14 @@
        "meaning": "trong khi, mặc dù"
       },
       {
+       "term": "direct",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "trực tiếp; chỉ đạo"
+      },
+      {
        "term": "rehearsal",
        "pos": [
         "n"
@@ -3287,14 +3295,6 @@
         "n"
        ],
        "meaning": "khán giả"
-      },
-      {
-       "term": "direct",
-       "pos": [
-        "adj",
-        "v"
-       ],
-       "meaning": "trực tiếp; chỉ đạo"
       }
      ],
      "audioStart": 1630.3,
@@ -3697,6 +3697,13 @@
        "meaning": "đảm bảo"
       },
       {
+       "term": "technician",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỹ thuật viên"
+      },
+      {
        "term": "fully",
        "pos": [
         "adv"
@@ -3731,13 +3738,6 @@
         "v"
        ],
        "meaning": "hoàn thành; hoàn chỉnh"
-      },
-      {
-       "term": "technician",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kỹ thuật viên"
       }
      ],
      "audioStart": 1936.98,
@@ -3863,6 +3863,13 @@
      ],
      "vocab": [
       {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
        "term": "security",
        "pos": [
         "n"
@@ -3882,6 +3889,13 @@
         "adj"
        ],
        "meaning": "nội bộ"
+      },
+      {
+       "term": "server",
+       "pos": [
+        "n"
+       ],
+       "meaning": "máy chủ"
       },
       {
        "term": "involve",
@@ -3930,20 +3944,6 @@
         "v"
        ],
        "meaning": "giải thích"
-      },
-      {
-       "term": "install",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lắp đặt; được lắp đặt"
-      },
-      {
-       "term": "device",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thiết bị"
       }
      ],
      "audioStart": 2016.38,
@@ -4090,6 +4090,13 @@
        "meaning": "trong khi, mặc dù"
       },
       {
+       "term": "widen",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; làm rộng ra"
+      },
+      {
        "term": "usual",
        "pos": [
         "adj"
@@ -4139,13 +4146,6 @@
         "adv"
        ],
        "meaning": "thường xuyên; một cách thường xuyên"
-      },
-      {
-       "term": "widen",
-       "pos": [
-        "v"
-       ],
-       "meaning": "mở rộng; làm rộng ra"
       }
      ],
      "audioStart": 2090.86,
@@ -4460,6 +4460,13 @@
        "meaning": "liên tục"
       },
       {
+       "term": "expectation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỳ vọng"
+      },
+      {
        "term": "prefer",
        "pos": [
         "v"
@@ -4500,13 +4507,6 @@
         "n"
        ],
        "meaning": "nhà phát triển"
-      },
-      {
-       "term": "software",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phần mềm"
       }
      ],
      "audioStart": 2219.95,
@@ -4646,6 +4646,13 @@
        "meaning": "phản hồi; sự đáp lại"
       },
       {
+       "term": "network",
+       "pos": [
+        "n"
+       ],
+       "meaning": "mạng lưới"
+      },
+      {
        "term": "interview",
        "pos": [
         "v"
@@ -4707,14 +4714,6 @@
         "v"
        ],
        "meaning": "kiểm soát"
-      },
-      {
-       "term": "volunteer",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "tình nguyện; người tình nguyện"
       }
      ],
      "audioStart": 2290.26,
@@ -4854,6 +4853,13 @@
        "meaning": "doanh số; doanh số bán hàng"
       },
       {
+       "term": "expectation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỳ vọng"
+      },
+      {
        "term": "celebrate",
        "pos": [
         "v"
@@ -4866,13 +4872,6 @@
         "n"
        ],
        "meaning": "phương tiện vận chuyển; phương tiện đi lại"
-      },
-      {
-       "term": "expectation",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kỳ vọng"
       }
      ],
      "audioStart": 2413.55,
@@ -5005,11 +5004,25 @@
        "meaning": "thông báo; được công bố"
       },
       {
+       "term": "expand",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; được mở rộng"
+      },
+      {
        "term": "offering",
        "pos": [
         "n"
        ],
        "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
+      },
+      {
+       "term": "launch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ra mắt; khởi động"
       },
       {
        "term": "focus",
@@ -5045,32 +5058,18 @@
        "meaning": "du khách"
       },
       {
-       "term": "including",
-       "pos": [
-        "prep"
-       ],
-       "meaning": "bao gồm"
-      },
-      {
-       "term": "expand",
-       "pos": [
-        "v"
-       ],
-       "meaning": "mở rộng; được mở rộng"
-      },
-      {
-       "term": "launch",
-       "pos": [
-        "v"
-       ],
-       "meaning": "ra mắt; khởi động"
-      },
-      {
        "term": "exhibition",
        "pos": [
         "n"
        ],
        "meaning": "cuộc triển lãm; triển lãm"
+      },
+      {
+       "term": "including",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "bao gồm"
       }
      ],
      "audioStart": 2493.52,
@@ -5228,6 +5227,13 @@
        "meaning": "trực tiếp; chỉ đạo"
       },
       {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      },
+      {
        "term": "initially",
        "pos": [
         "adv"
@@ -5275,13 +5281,6 @@
         "adj"
        ],
        "meaning": "tiết kiệm; tiết kiệm, có hiệu quả về mặt kinh tế"
-      },
-      {
-       "term": "completion",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự hoàn thành; sau khi hoàn thành"
       }
      ],
      "audioStart": 2576.79,

@@ -4133,11 +4133,25 @@
        "meaning": "bảo vệ"
       },
       {
+       "term": "effort",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nỗ lực"
+      },
+      {
        "term": "description",
        "pos": [
         "n"
        ],
        "meaning": "mô tả"
+      },
+      {
+       "term": "reader",
+       "pos": [
+        "n"
+       ],
+       "meaning": "độc giả"
       },
       {
        "term": "however",
@@ -4167,6 +4181,13 @@
        "meaning": "quy định"
       },
       {
+       "term": "impact",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tác động; bị ảnh hưởng"
+      },
+      {
        "term": "include",
        "pos": [
         "v"
@@ -4180,27 +4201,6 @@
         "prep"
        ],
        "meaning": "ngoài ra; sang một bên"
-      },
-      {
-       "term": "effort",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nỗ lực"
-      },
-      {
-       "term": "impact",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tác động; bị ảnh hưởng"
-      },
-      {
-       "term": "reader",
-       "pos": [
-        "n"
-       ],
-       "meaning": "độc giả"
       }
      ],
      "audioStart": 2005.77,
@@ -4529,6 +4529,13 @@
        "meaning": "vật liệu; tài liệu"
       },
       {
+       "term": "exhibitor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người trưng bày"
+      },
+      {
        "term": "designated",
        "pos": [],
        "meaning": "đã chỉ định"
@@ -4540,13 +4547,6 @@
         "v"
        ],
        "meaning": "trực tiếp; chỉ đạo"
-      },
-      {
-       "term": "exhibitor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người trưng bày"
       }
      ],
      "audioStart": 2180.37,
@@ -4671,11 +4671,6 @@
      ],
      "vocab": [
       {
-       "term": "account",
-       "pos": [],
-       "meaning": "tài khoản"
-      },
-      {
        "term": "produce",
        "pos": [
         "v"
@@ -4695,6 +4690,11 @@
         "v"
        ],
        "meaning": "làm hài lòng"
+      },
+      {
+       "term": "account",
+       "pos": [],
+       "meaning": "tài khoản"
       },
       {
        "term": "recent",
@@ -5271,18 +5271,18 @@
        "meaning": "cung cấp; nguồn cung"
       },
       {
+       "term": "supplier",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà cung cấp"
+      },
+      {
        "term": "recently",
        "pos": [
         "adv"
        ],
        "meaning": "gần đây; gần đây, mới đây"
-      },
-      {
-       "term": "used",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
       }
      ],
      "audioStart": 2500.93,

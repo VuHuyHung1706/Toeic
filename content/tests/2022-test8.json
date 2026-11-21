@@ -1629,6 +1629,13 @@
        "meaning": "thông qua; đi qua"
       },
       {
+       "term": "introduce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giới thiệu; giới thiệu, đưa vào"
+      },
+      {
        "term": "resident",
        "pos": [
         "n"
@@ -1648,13 +1655,6 @@
         "adj"
        ],
        "meaning": "giấy phép; được cấp phép"
-      },
-      {
-       "term": "introduce",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giới thiệu; giới thiệu, đưa vào"
       }
      ],
      "audioStart": 836.61,
@@ -1966,6 +1966,11 @@
      ],
      "vocab": [
       {
+       "term": "block",
+       "pos": [],
+       "meaning": "ngăn chặn"
+      },
+      {
        "term": "while",
        "pos": [
         "conj"
@@ -2014,11 +2019,6 @@
         "prep"
        ],
        "meaning": "cộng; cộng với"
-      },
-      {
-       "term": "block",
-       "pos": [],
-       "meaning": "ngăn chặn"
       }
      ],
      "audioStart": 988.29,
@@ -2476,11 +2476,25 @@
        "meaning": "giá trị"
       },
       {
+       "term": "appraisal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đánh giá"
+      },
+      {
        "term": "colleague",
        "pos": [
         "n"
        ],
        "meaning": "đồng nghiệp"
+      },
+      {
+       "term": "assess",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đánh giá"
       },
       {
        "term": "condition",
@@ -2520,20 +2534,6 @@
         "adj"
        ],
        "meaning": "quan tâm"
-      },
-      {
-       "term": "appraisal",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đánh giá"
-      },
-      {
-       "term": "assess",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đánh giá"
       }
      ],
      "audioStart": 1222.66,
@@ -2667,6 +2667,13 @@
        "meaning": "thông báo; thông báo/chú ý"
       },
       {
+       "term": "indicate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chỉ ra; chỉ ra, cho thấy"
+      },
+      {
        "term": "delivery",
        "pos": [
         "n"
@@ -2714,13 +2721,6 @@
         "n"
        ],
        "meaning": "đơn xin việc; ứng dụng"
-      },
-      {
-       "term": "indicate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "chỉ ra; chỉ ra, cho thấy"
       },
       {
        "term": "notification",
@@ -3593,6 +3593,13 @@
        "meaning": "đã trồng"
       },
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "deposit",
        "pos": [],
        "meaning": "tiền đặt cọc"
@@ -3603,13 +3610,6 @@
         "adj"
        ],
        "meaning": "khuyến mãi"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
       }
      ],
      "audioStart": 1724.03,
@@ -3768,6 +3768,13 @@
        "meaning": "sự đề xuất; lời giới thiệu"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "interested",
        "pos": [
         "adj"
@@ -3816,13 +3823,6 @@
         "adj"
        ],
        "meaning": "kỹ thuật số"
-      },
-      {
-       "term": "subscription",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đăng ký; sự đăng ký"
       }
      ],
      "audioStart": 1806.14,
@@ -4332,6 +4332,13 @@
      ],
      "vocab": [
       {
+       "term": "official",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quan chức"
+      },
+      {
        "term": "action",
        "pos": [
         "n"
@@ -4369,6 +4376,11 @@
        "meaning": "nhiều"
       },
       {
+       "term": "damage",
+       "pos": [],
+       "meaning": "thiệt hại; bị hư hỏng"
+      },
+      {
        "term": "share",
        "pos": [
         "v"
@@ -4383,6 +4395,13 @@
        "meaning": "chuyên môn; chuyên môn, kiến thức chuyên sâu"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "available",
        "pos": [
         "adj"
@@ -4395,25 +4414,6 @@
         "n"
        ],
        "meaning": "ngân sách"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
-      },
-      {
-       "term": "damage",
-       "pos": [],
-       "meaning": "thiệt hại; bị hư hỏng"
-      },
-      {
-       "term": "official",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quan chức"
       }
      ],
      "audioStart": 2086.46,
@@ -5037,6 +5037,13 @@
      ],
      "vocab": [
       {
+       "term": "roll",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lăn"
+      },
+      {
        "term": "prompt",
        "pos": [
         "adj",
@@ -5074,6 +5081,13 @@
        "meaning": "tự động; một cách tự động"
       },
       {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
        "term": "system",
        "pos": [],
        "meaning": "hệ thống"
@@ -5106,20 +5120,6 @@
         "n"
        ],
        "meaning": "sự cải thiện"
-      },
-      {
-       "term": "accordingly",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "theo đó"
-      },
-      {
-       "term": "experience",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kinh nghiệm; trải nghiệm"
       }
      ],
      "audioStart": 2415.68,
@@ -5301,6 +5301,20 @@
        "meaning": "liên tục; một cách liên tục"
       },
       {
+       "term": "gather",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập hợp"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
        "term": "data",
        "pos": [
         "n"
@@ -5313,20 +5327,6 @@
         "n"
        ],
        "meaning": "vấn đề; vấn đề, số báo"
-      },
-      {
-       "term": "perform",
-       "pos": [
-        "v"
-       ],
-       "meaning": "biểu diễn, trình diễn; biểu diễn"
-      },
-      {
-       "term": "task",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhiệm vụ"
       }
      ],
      "audioStart": 2497.66,

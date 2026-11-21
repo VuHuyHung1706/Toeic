@@ -16,8 +16,9 @@ export default async function VocabularyPage() {
     <main className="mx-auto w-full max-w-5xl px-4 py-10">
       <h1 className="text-3xl font-bold">Từ vựng TOEIC</h1>
       <p className="mt-2 max-w-3xl text-muted">
-        {learnable.toLocaleString("vi-VN")} từ (kèm các dạng danh từ, động từ, tính từ…) từ phần nghe và phần đọc của {tests.length} đề, chia theo
-        từng đề, kèm câu ví dụ lấy từ chính đề thi. Học bằng thẻ ghi nhớ với lịch ôn ngắt quãng.
+        {learnable.toLocaleString("vi-VN")} từ TOEIC chia theo {tests.length} đề, mỗi đề khoảng 50–90 từ: phần đọc lấy các phương án của câu
+        hỏi từ vựng Part 5 (và đáp án câu từ loại, liên từ – giới từ), phần nghe lấy những từ trong lời thoại thường được hỏi trong đề thi.
+        Kèm câu ví dụ từ chính đề, học bằng thẻ ghi nhớ với lịch ôn ngắt quãng.
       </p>
       <Suspense fallback={loading}>
         <ClientOnly fallback={loading}>

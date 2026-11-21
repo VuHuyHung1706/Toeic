@@ -1797,6 +1797,13 @@
      ],
      "vocab": [
       {
+       "term": "recording",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
+      },
+      {
        "term": "performance",
        "pos": [
         "n"
@@ -1823,13 +1830,6 @@
         "v"
        ],
        "meaning": "định vị; vị trí (công việc)"
-      },
-      {
-       "term": "recording",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       }
      ],
      "audioStart": 901.31,
@@ -1962,6 +1962,13 @@
        "meaning": "bộ"
       },
       {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
        "term": "increase",
        "pos": [
         "v"
@@ -2010,13 +2017,6 @@
         "n"
        ],
        "meaning": "đơn đặt hàng; đặt hàng"
-      },
-      {
-       "term": "host",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tổ chức; tổ chức, đăng cai"
       }
      ],
      "audioStart": 980.16,
@@ -2288,6 +2288,13 @@
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
       },
       {
+       "term": "resume",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiếp tục lại"
+      },
+      {
        "term": "junior",
        "pos": [
         "adj"
@@ -2300,6 +2307,13 @@
         "v"
        ],
        "meaning": "định vị; vị trí (công việc)"
+      },
+      {
+       "term": "sum",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tổng"
       },
       {
        "term": "separate",
@@ -2335,20 +2349,6 @@
         "n"
        ],
        "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
-      },
-      {
-       "term": "sum",
-       "pos": [
-        "n"
-       ],
-       "meaning": "tổng"
-      },
-      {
-       "term": "resume",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tiếp tục lại"
       }
      ],
      "audioStart": 1145.02,
@@ -2523,6 +2523,20 @@
        "meaning": "quảng bá; quảng bá, thúc đẩy"
       },
       {
+       "term": "effort",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nỗ lực"
+      },
+      {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
+      },
+      {
        "term": "article",
        "pos": [
         "n"
@@ -2542,20 +2556,6 @@
         "adj"
        ],
        "meaning": "cao hơn"
-      },
-      {
-       "term": "consultant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "chuyên gia tư vấn; tư vấn viên"
-      },
-      {
-       "term": "hire",
-       "pos": [
-        "v"
-       ],
-       "meaning": "được thuê; thuê"
       }
      ],
      "audioStart": 1223.42,
@@ -3213,6 +3213,13 @@
      ],
      "vocab": [
       {
+       "term": "industry",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngành công nghiệp; ngành"
+      },
+      {
        "term": "select",
        "pos": [
         "v"
@@ -3262,6 +3269,13 @@
        "meaning": "sự ưa thích"
       },
       {
+       "term": "assignment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhiệm vụ được giao"
+      },
+      {
        "term": "consideration",
        "pos": [
         "n"
@@ -3274,20 +3288,6 @@
         "v"
        ],
        "meaning": "chỉ ra; chỉ ra, cho thấy"
-      },
-      {
-       "term": "industry",
-       "pos": [
-        "n"
-       ],
-       "meaning": "ngành công nghiệp; ngành"
-      },
-      {
-       "term": "assignment",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhiệm vụ được giao"
       }
      ],
      "audioStart": 1551.17,
@@ -3917,6 +3917,13 @@
        "meaning": "tài sản"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "temporarily",
        "pos": [
         "adv"
@@ -3980,13 +3987,6 @@
         "v"
        ],
        "meaning": "trì hoãn; sự trì hoãn trì hoãn"
-      },
-      {
-       "term": "advance",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đang tiến bộ"
       }
      ],
      "audioStart": 1940.22,
@@ -4112,6 +4112,13 @@
      ],
      "vocab": [
       {
+       "term": "announcement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông báo"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -4128,6 +4135,13 @@
        "meaning": "có sẵn; sẵn sàng"
       },
       {
+       "term": "server",
+       "pos": [
+        "n"
+       ],
+       "meaning": "máy chủ"
+      },
+      {
        "term": "encourage",
        "pos": [
         "v"
@@ -4140,20 +4154,6 @@
         "v"
        ],
        "meaning": "cung cấp"
-      },
-      {
-       "term": "announcement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thông báo"
-      },
-      {
-       "term": "server",
-       "pos": [
-        "n"
-       ],
-       "meaning": "máy chủ"
       }
      ],
      "audioStart": 2017.66,
@@ -4488,6 +4488,13 @@
      ],
      "vocab": [
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "advanced",
        "pos": [
         "adj",
@@ -4529,13 +4536,6 @@
         "n"
        ],
        "meaning": "giấy tờ"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
       }
      ],
      "audioStart": 2182.98,
@@ -4685,6 +4685,13 @@
        "meaning": "bất ngờ"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "promotional",
        "pos": [
         "adj"
@@ -4697,13 +4704,6 @@
         "n"
        ],
        "meaning": "vật liệu; tài liệu"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 2265.02,
@@ -5024,6 +5024,13 @@
        "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       },
       {
+       "term": "reporter",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phóng viên"
+      },
+      {
        "term": "organization",
        "pos": [
         "n"
@@ -5084,13 +5091,6 @@
         "v"
        ],
        "meaning": "nhận ra; nhận ra, hiện thực hóa"
-      },
-      {
-       "term": "involve",
-       "pos": [
-        "v"
-       ],
-       "meaning": "liên quan"
       }
      ],
      "audioStart": 2424.06,

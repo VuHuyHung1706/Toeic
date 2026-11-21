@@ -1997,6 +1997,13 @@
        "meaning": "cung cấp"
       },
       {
+       "term": "appraisal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đánh giá"
+      },
+      {
        "term": "available",
        "pos": [
         "adj"
@@ -2021,13 +2028,6 @@
         "n"
        ],
        "meaning": "sự khôi phục; sự phục hồi, khôi phục"
-      },
-      {
-       "term": "appraisal",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đánh giá"
       }
      ],
      "audioStart": 1147.2,
@@ -2213,6 +2213,20 @@
        "meaning": "xem xét; xem xét, cân nhắc"
       },
       {
+       "term": "automate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tự động hóa"
+      },
+      {
+       "term": "reminder",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lời nhắc nhở"
+      },
+      {
        "term": "software",
        "pos": [
         "n"
@@ -2225,20 +2239,6 @@
         "v"
        ],
        "meaning": "đầu tư"
-      },
-      {
-       "term": "recommendation",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đề xuất; lời giới thiệu"
-      },
-      {
-       "term": "reminder",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lời nhắc nhở"
       }
      ],
      "audioStart": 1226.62,
@@ -2388,6 +2388,13 @@
        "meaning": "hoàn toàn"
       },
       {
+       "term": "pull",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kéo"
+      },
+      {
        "term": "repair",
        "pos": [
         "v"
@@ -2408,13 +2415,6 @@
         "v"
        ],
        "meaning": "vừa vặn"
-      },
-      {
-       "term": "pull",
-       "pos": [
-        "v"
-       ],
-       "meaning": "kéo"
       }
      ],
      "audioStart": 1307.39,
@@ -2590,6 +2590,13 @@
        "meaning": "thiết bị"
       },
       {
+       "term": "presentation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài thuyết trình"
+      },
+      {
        "term": "receipt",
        "pos": [
         "n"
@@ -2602,13 +2609,6 @@
         "v"
        ],
        "meaning": "quản lý"
-      },
-      {
-       "term": "presentation",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bài thuyết trình"
       }
      ],
      "audioStart": 1386.69,
@@ -2946,6 +2946,13 @@
        "meaning": "đánh giá cao"
       },
       {
+       "term": "recording",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -2981,13 +2988,6 @@
         "adv"
        ],
        "meaning": "hoàn toàn"
-      },
-      {
-       "term": "recording",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       }
      ],
      "audioStart": 1552.06,
@@ -3902,18 +3902,18 @@
        "meaning": "cập nhật; thông tin cập nhật"
       },
       {
-       "term": "digital",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "kỹ thuật số"
-      },
-      {
        "term": "menu",
        "pos": [
         "n"
        ],
        "meaning": "thực đơn"
+      },
+      {
+       "term": "digital",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "kỹ thuật số"
       },
       {
        "term": "owner",
@@ -4679,6 +4679,13 @@
      ],
      "vocab": [
       {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
        "term": "productivity",
        "pos": [
         "n"
@@ -4719,13 +4726,6 @@
         "n"
        ],
        "meaning": "giáo dục"
-      },
-      {
-       "term": "manage",
-       "pos": [
-        "v"
-       ],
-       "meaning": "quản lý"
       }
      ],
      "audioStart": 2332.54,
@@ -5067,6 +5067,13 @@
        "meaning": "bao gồm"
       },
       {
+       "term": "automate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tự động hóa"
+      },
+      {
        "term": "vehicle",
        "pos": [],
        "meaning": "phương tiện"
@@ -5087,19 +5094,11 @@
        "meaning": "bất cứ khi nào; phó từ: bất cứ khi nào"
       },
       {
-       "term": "setting",
+       "term": "introduce",
        "pos": [
-        "n"
+        "v"
        ],
-       "meaning": "cài đặt"
-      },
-      {
-       "term": "aside",
-       "pos": [
-        "adv",
-        "prep"
-       ],
-       "meaning": "ngoài ra; sang một bên"
+       "meaning": "giới thiệu; giới thiệu, đưa vào"
       }
      ],
      "audioStart": 2493.82,
@@ -5409,6 +5408,13 @@
        "meaning": "tham khảo; tham chiếu"
       },
       {
+       "term": "bright",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "sáng sủa; sáng"
+      },
+      {
        "term": "regular",
        "pos": [
         "adj"
@@ -5470,13 +5476,6 @@
         "n"
        ],
        "meaning": "đại lộ"
-      },
-      {
-       "term": "bright",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "sáng sủa; sáng"
       }
      ],
      "audioStart": 2669.12,

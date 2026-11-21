@@ -1639,6 +1639,13 @@
      ],
      "vocab": [
       {
+       "term": "register",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
        "term": "agency",
        "pos": [],
        "meaning": "cơ quan, đại lý"
@@ -1714,13 +1721,6 @@
         "adj"
        ],
        "meaning": "thoải mái"
-      },
-      {
-       "term": "shortly",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "chẳng bao lâu; sắp"
       }
      ],
      "audioStart": 834.3,
@@ -1872,18 +1872,18 @@
        "meaning": "cơ hội"
       },
       {
-       "term": "discuss",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thảo luận"
-      },
-      {
        "term": "presentation",
        "pos": [
         "n"
        ],
        "meaning": "bài thuyết trình"
+      },
+      {
+       "term": "discuss",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thảo luận"
       }
      ],
      "audioStart": 917.89,
@@ -2026,6 +2026,13 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      },
+      {
        "term": "policy",
        "pos": [
         "n"
@@ -2058,13 +2065,6 @@
         "v"
        ],
        "meaning": "yêu cầu"
-      },
-      {
-       "term": "explain",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giải thích"
       }
      ],
      "audioStart": 992.96,
@@ -2212,6 +2212,13 @@
        "meaning": "tài chính"
       },
       {
+       "term": "investor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà đầu tư"
+      },
+      {
        "term": "smoothly",
        "pos": [
         "adv"
@@ -2252,13 +2259,6 @@
         "n"
        ],
        "meaning": "hội đồng"
-      },
-      {
-       "term": "investor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà đầu tư"
       }
      ],
      "audioStart": 1081.79,
@@ -2428,18 +2428,18 @@
        "meaning": "ngừng; bị ngừng"
       },
       {
-       "term": "realize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhận ra; nhận ra, hiện thực hóa"
-      },
-      {
        "term": "replace",
        "pos": [
         "v"
        ],
        "meaning": "thay thế"
+      },
+      {
+       "term": "realize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận ra; nhận ra, hiện thực hóa"
       },
       {
        "term": "revision",
@@ -2785,6 +2785,13 @@
        "meaning": "cuối cùng"
       },
       {
+       "term": "decision",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quyết định"
+      },
+      {
        "term": "supply",
        "pos": [
         "n",
@@ -2805,13 +2812,6 @@
         "v"
        ],
        "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
-      },
-      {
-       "term": "decision",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quyết định"
       }
      ],
      "audioStart": 1326.91,
@@ -2968,6 +2968,13 @@
        "meaning": "đồ nội thất; bàn ghế"
       },
       {
+       "term": "industry",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngành công nghiệp; ngành"
+      },
+      {
        "term": "lately",
        "pos": [
         "adv"
@@ -3009,13 +3016,6 @@
         "v"
        ],
        "meaning": "đã gây ra; gây ra"
-      },
-      {
-       "term": "conduct",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tiến hành/tổ chức; chỉ huy"
       }
      ],
      "audioStart": 1408.77,
@@ -3534,6 +3534,13 @@
        "meaning": "sản xuất; sản xuất (công nghiệp)"
       },
       {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
+      },
+      {
        "term": "far",
        "pos": [
         "adv"
@@ -3546,6 +3553,13 @@
         "n"
        ],
        "meaning": "hướng dẫn; hướng dẫn, chỉ dẫn"
+      },
+      {
+       "term": "label",
+       "pos": [
+        "n"
+       ],
+       "meaning": "dán nhãn; nhãn"
       },
       {
        "term": "industry",
@@ -3567,20 +3581,6 @@
         "adj"
        ],
        "meaning": "nghiêm ngặt"
-      },
-      {
-       "term": "process",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quy trình"
-      },
-      {
-       "term": "label",
-       "pos": [
-        "n"
-       ],
-       "meaning": "dán nhãn; nhãn"
       }
      ],
      "audioStart": 1651.01,
@@ -3711,6 +3711,13 @@
      ],
      "vocab": [
       {
+       "term": "server",
+       "pos": [
+        "n"
+       ],
+       "meaning": "máy chủ"
+      },
+      {
        "term": "collect",
        "pos": [
         "v"
@@ -3758,13 +3765,6 @@
         "v"
        ],
        "meaning": "về phía trước; chuyển tiếp (email)"
-      },
-      {
-       "term": "server",
-       "pos": [
-        "n"
-       ],
-       "meaning": "máy chủ"
       }
      ],
      "audioStart": 1748.03,
@@ -4251,6 +4251,11 @@
        "meaning": "tham dự"
       },
       {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
        "term": "signature",
        "pos": [
         "n"
@@ -4298,11 +4303,6 @@
         "n"
        ],
        "meaning": "sự đảm bảo, cam kết"
-      },
-      {
-       "term": "feature",
-       "pos": [],
-       "meaning": "giới thiệu; đặc điểm, tính năng"
       }
      ],
      "audioStart": 2021.5,
@@ -4797,6 +4797,13 @@
        "meaning": "mục tiêu"
       },
       {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
        "term": "base",
        "pos": [
         "v"
@@ -4837,13 +4844,6 @@
         "adj"
        ],
        "meaning": "tiếp cận, phương pháp; đang đến gần"
-      },
-      {
-       "term": "task",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhiệm vụ"
       }
      ],
      "audioStart": 2261.5,
@@ -5389,18 +5389,18 @@
        "meaning": "tạo ra; tạo"
       },
       {
+       "term": "presentation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bài thuyết trình"
+      },
+      {
        "term": "useful",
        "pos": [
         "adj"
        ],
        "meaning": "hữu ích"
-      },
-      {
-       "term": "accommodate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thu xếp; chứa, tiếp đón"
       }
      ],
      "audioStart": 2506.43,
@@ -5718,6 +5718,13 @@
      ],
      "vocab": [
       {
+       "term": "topic",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ đề"
+      },
+      {
        "term": "cover",
        "pos": [
         "n",
@@ -5793,13 +5800,6 @@
         "n"
        ],
        "meaning": "ánh sáng"
-      },
-      {
-       "term": "factor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "yếu tố"
       }
      ],
      "audioStart": 2677.06,

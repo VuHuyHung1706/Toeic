@@ -654,6 +654,8 @@ def _collect_forms(tests: list[dict], source_only: frozenset[str] = frozenset())
                 continue
             for g in p["groups"]:
                 for q in g["questions"]:
+                    tags = q.get("tags") or tag_question(q)
+                    vocab_q = p["part"] == 5 and "vocabulary" in tags
                     for letter, word, pos, meaning in _option_glosses(q, p["part"]):
                         if len(word.split()) > 3:
                             continue
@@ -667,14 +669,23 @@ def _collect_forms(tests: list[dict], source_only: frozenset[str] = frozenset())
                         if meaning and not _valid_meaning(meaning):
                             meaning = ""
                         e = entries.setdefault(key, {"w": word.lower() if not word.isupper() else word, "pos": set(),
-                                                     "meanings": [], "freq": 0, "examples": [], "_seen": set()})
+                                                     "meanings": [], "freq": 0, "examples": [], "_seen": set(),
+                                                     "_occ": set(), "_vq": set()})
                         e["pos"].update(pos)
                         if meaning and meaning.lower() not in (m_.lower() for m_ in e["meanings"]) and len(e["meanings"]) < 3:
                             e["meanings"].append(meaning)
-                        src = (t["id"], q["number"])
-                        if src not in e["_seen"]:
-                            e["_seen"].add(src)
+                        # từ được đưa vào bộ thẻ của đề: cả 4 phương án câu hỏi từ vựng Part 5 (chính là từ ETS kiểm tra);
+                        # câu từ loại / liên từ–giới từ Part 5 và câu Part 6: chỉ đáp án đúng;
+                        # câu đại từ, chia động từ, so sánh…: không lấy (là bài ngữ pháp, không phải từ cần học).
+                        # Mọi phương án vẫn góp nghĩa cho từ điển.
+                        if (t["id"], q["number"]) not in e["_occ"]:
+                            e["_occ"].add((t["id"], q["number"]))
                             e["freq"] += 1
+                        if vocab_q:
+                            e["_vq"].add(t["id"])
+                        is_answer = letter == q.get("answer")
+                        if vocab_q or (is_answer and (p["part"] == 6 or {"word-form", "prep-conj"} & set(tags))):
+                            e["_seen"].add((t["id"], q["number"]))
                         # câu ví dụ: chỉ lấy Part 5 khi từ này là đáp án đúng → điền vào chỗ trống
                         if (p["part"] == 5 and q.get("answer") == letter and len(e["examples"]) < 2
                                 and t["id"] not in source_only
@@ -691,6 +702,8 @@ def _collect_forms(tests: list[dict], source_only: frozenset[str] = frozenset())
         for tid, num in sorted(e.pop("_seen")):
             by_test[tid].append(num)
         e["tests"] = dict(by_test)
+        e["vq"] = sorted(e.pop("_vq"))  # các đề có từ này làm phương án câu hỏi từ vựng
+        del e["_occ"]
         e["pos"] = sorted(e["pos"])
         out.append(e)
     out.sort(key=lambda e: (-e["freq"], e["w"]))
@@ -831,7 +844,11 @@ def _derivation_stems(w: str) -> list[str]:
     return out
 
 
-def build_vocab(tests: list[dict], source_only: frozenset[str] = frozenset()) -> list[dict]:
+def build_vocab(
+    tests: list[dict], source_only: frozenset[str] = frozenset(), group_words: dict | None = None
+) -> list[dict]:
+    """group_words (nếu truyền vào) nhận từ của từng đoạn Part 3/4: {(id đề, câu đầu): [{term, pos, meaning}, …]}
+    — dùng cho tab "Từ vựng" khi xem lại câu hỏi, rộng hơn bộ thẻ học."""
     forms = _collect_forms(tests, source_only)
     known = {f["w"]: set(f["pos"]) for f in forms}
     lemma_map = {f["w"]: lemma_of(f["w"], known) for f in forms}
@@ -845,7 +862,8 @@ def build_vocab(tests: list[dict], source_only: frozenset[str] = frozenset()) ->
     for f in forms:
         lemma = lemma_map[f["w"]]
         e = entries.setdefault(lemma, {"w": lemma, "pos": [], "meanings": [], "forms": [], "family": [],
-                                       "basic": False, "freq": 0, "examples": [], "tests": {}})
+                                       "basic": False, "freq": 0, "examples": [], "tests": {}, "_vq": set()})
+        e["_vq"].update(f["vq"])
         if f["w"] == lemma:
             e["pos"], e["meanings"] = f["pos"], f["meanings"]
         else:
@@ -919,16 +937,22 @@ def build_vocab(tests: list[dict], source_only: frozenset[str] = frozenset()) ->
         del e["forms"]
         del e["family"]
 
-    # từ trong phần nghe (Part 1–4): chỉ những từ đã có nghĩa trong từ điển và không phải từ cơ bản
+    # từ trong phần nghe (Part 1–4): chỉ lấy "từ TOEIC hay hỏi" — từng là phương án câu hỏi từ vựng Part 5
+    # ở ít nhất CORE_MIN_TESTS đề, không phải từ cơ bản. Lấy mọi từ có trong từ điển thì mỗi đề có vài trăm từ,
+    # đa phần là từ dễ (order, recently, however…) không cần học.
+    core = {w for w, e in entries.items() if len(e["_vq"]) >= CORE_MIN_TESTS and not e["basic"]}
     token_lemma: dict[str, str | None] = {}
 
     def to_entry(tok: str) -> str | None:
+        """từ gốc có trong từ điển (không cơ bản) — chưa xét có thuộc "từ hay hỏi" không"""
         if tok not in token_lemma:
             lem = lemma_map.get(tok) or lemma_of(tok, known)
             lem = lemma_map.get(lem, lem)
             ok = lem in entries and not entries[lem]["basic"] and lem not in BASIC_WORDS and tok not in BASIC_WORDS
             token_lemma[tok] = lem if ok else None
         return token_lemma[tok]
+
+    hits: dict[tuple[str, int], list[str]] = {}  # từ (có trong từ điển) của từng đoạn Part 3/4, theo thứ tự xuất hiện
 
     listen_example: dict[str, dict] = {}
     for t in tests:
@@ -948,12 +972,19 @@ def build_vocab(tests: list[dict], source_only: frozenset[str] = frozenset()) ->
                             lem = to_entry(tok.lower().replace("’", "'"))
                             if not lem:
                                 continue
+                            if p["part"] in (3, 4):
+                                h = hits.setdefault((t["id"], n0), [])
+                                if lem not in h:
+                                    h.append(lem)
+                            if lem not in core:
+                                continue
                             ls = entries[lem]["tests"].setdefault(t["id"], {}).setdefault("l", [])
                             if n0 not in ls:
                                 ls.append(n0)
                             if lem not in listen_example and 30 <= len(sent) <= 220 and t["id"] not in source_only:
                                 listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
-    # mục "Từ vựng" trong giải thích Part 3/4: thêm nghĩa cho từ phần nghe chưa có trong từ điển
+    # mục "Từ vựng" trong giải thích Part 3/4: chỉ bổ sung nghĩa cho từ đã có; danh sách này vẫn hiện trong tab
+    # "Từ vựng" khi xem lại câu hỏi, nhưng không đưa vào bộ thẻ của đề (quá dài, nhiều cụm ghép đơn giản)
     for t in tests:
         for p in t["parts"]:
             if p["part"] not in (3, 4):
@@ -979,17 +1010,25 @@ def build_vocab(tests: list[dict], source_only: frozenset[str] = frozenset()) ->
                         e["meanings"].append(item["meaning"])
                     if not e["pos"] and item["pos"]:
                         e["pos"] = item["pos"]
-                    ls = e["tests"].setdefault(t["id"], {}).setdefault("l", [])
-                    if n0 not in ls:
-                        ls.append(n0)
-                    if lem not in listen_example and t["id"] not in source_only:
+                    if lem in core and lem not in listen_example and t["id"] not in source_only:
                         for sent in SENT_SPLIT_RE.split(re.sub(r"\s+", " ", script.replace("**", ""))):
                             if term in sent.lower() and 20 <= len(sent) <= 240:
                                 listen_example[lem] = {"text": sent.strip(), "testId": t["id"], "number": n0, "part": p["part"]}
                                 break
 
+    if group_words is not None:
+        for key, lems in hits.items():
+            group_words[key] = [
+                {"term": w, "pos": entries[w]["pos"], "meaning": "; ".join(entries[w]["meanings"][:2])}
+                for w in lems
+                if entries[w]["meanings"]
+            ]
+
     out = []
     for e in entries.values():
+        e.pop("_vq", None)
+        if not e["tests"]:  # không thuộc bộ thẻ của đề nào → không xuất ra
+            continue
         if e["w"] in listen_example:
             e["listenExample"] = listen_example[e["w"]]
         for v in e["tests"].values():
@@ -1042,29 +1081,25 @@ def write_extras(tests: list[dict], out_dir: Path, dictionary_tests: list[dict] 
     (bank_dir / "index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
     keep = {t["id"] for t in tests}
     source_only = frozenset(t["id"] for t in dictionary_tests or [] if t["id"] not in keep)
-    vocab = build_vocab(dictionary_tests or tests, source_only)
+    group_words: dict[tuple[str, int], list[dict]] = {}
+    vocab = build_vocab(dictionary_tests or tests, source_only, group_words)
     if source_only:  # bỏ tham chiếu tới đề không xuất ra; từ chỉ có ở các đề đó thì bỏ luôn
         for e in vocab:
             e["tests"] = {k: v for k, v in e["tests"].items() if k in keep}
         vocab = [e for e in vocab if e["tests"]]
     (out_dir / "vocab.json").write_text(json.dumps(vocab, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    fill_group_vocab(tests, vocab)
+    fill_group_vocab(tests, group_words)
     return {"tags": {f"p{i['part']}-{i['tag']}": i["count"] for i in index}, "vocab": len(vocab)}
 
 
 AUTO_VOCAB_LIMIT = 12
+# "từ TOEIC hay hỏi": từng là phương án câu hỏi từ vựng Part 5 ở ít nhất bấy nhiêu đề
+CORE_MIN_TESTS = 3
 
 
-def fill_group_vocab(tests: list[dict], vocab: list[dict]) -> None:
+def fill_group_vocab(tests: list[dict], group_words: dict[tuple[str, int], list[dict]]) -> None:
     """Đoạn Part 3/4 không có mục "Từ vựng" trong giải thích: lấy các từ (không cơ bản) của từ điển
-    xuất hiện trong lời thoại, theo thứ tự xuất hiện."""
-    by_test: dict[str, list[dict]] = defaultdict(list)
-    for e in vocab:
-        if e["basic"]:
-            continue
-        for tid, src in e["tests"].items():
-            if src.get("l"):
-                by_test[tid].append(e)
+    xuất hiện trong lời thoại, theo thứ tự xuất hiện (tab "Từ vựng" khi xem lại câu — không phải bộ thẻ học)."""
     for t in tests:
         for p in t["parts"]:
             if p["part"] not in (3, 4):
@@ -1072,20 +1107,8 @@ def fill_group_vocab(tests: list[dict], vocab: list[dict]) -> None:
             for g in p["groups"]:
                 if g.get("vocab"):
                     continue
-                n0 = g["questionNumbers"][0]
-                script = " ".join(ps["en"] for ps in g["passages"] if ps.get("en")).lower()
-                found = []
-                for e in by_test.get(t["id"], []):
-                    if n0 not in e["tests"][t["id"]]["l"]:
-                        continue
-                    pos_in = [m.start() for w in [e["w"], *e["inflections"]]
-                              for m in [re.search(rf"\b{re.escape(w)}\b", script)] if m]
-                    found.append((min(pos_in) if pos_in else 10**6, e))
-                found.sort(key=lambda x: x[0])
-                g["vocab"] = [{"term": e["w"], "pos": e["pos"], "meaning": "; ".join(e["meanings"][:2])}
-                              for _, e in found[:AUTO_VOCAB_LIMIT]]
+                g["vocab"] = group_words.get((t["id"], g["questionNumbers"][0]), [])[:AUTO_VOCAB_LIMIT]
                 g["vocabAuto"] = True
-
 
 if __name__ == "__main__":
     root = Path(__file__).resolve().parent.parent

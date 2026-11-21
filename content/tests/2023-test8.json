@@ -1323,6 +1323,13 @@
        "meaning": "đáng tiếc là"
       },
       {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      },
+      {
        "term": "available",
        "pos": [
         "adj"
@@ -1335,13 +1342,6 @@
         "n"
        ],
        "meaning": "khu phố; khu phố, khu vực"
-      },
-      {
-       "term": "rent",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thuê"
       }
      ],
      "audioStart": 855.74,
@@ -1629,6 +1629,13 @@
      ],
      "vocab": [
       {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
        "term": "while",
        "pos": [
         "conj"
@@ -1677,13 +1684,6 @@
         "v"
        ],
        "meaning": "giải thích chi tiết; chi tiết"
-      },
-      {
-       "term": "position",
-       "pos": [
-        "v"
-       ],
-       "meaning": "định vị; vị trí (công việc)"
       }
      ],
      "audioStart": 1008.58,
@@ -1812,6 +1812,13 @@
      ],
      "vocab": [
       {
+       "term": "expand",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; được mở rộng"
+      },
+      {
        "term": "additional",
        "pos": [
         "adj"
@@ -1863,13 +1870,6 @@
         "n"
        ],
        "meaning": "đơn xin việc; ứng dụng"
-      },
-      {
-       "term": "expand",
-       "pos": [
-        "v"
-       ],
-       "meaning": "mở rộng; được mở rộng"
       }
      ],
      "audioStart": 1089.66,
@@ -2012,23 +2012,18 @@
        "meaning": "bài báo; bài viết"
       },
       {
+       "term": "reader",
+       "pos": [
+        "n"
+       ],
+       "meaning": "độc giả"
+      },
+      {
        "term": "pleasure",
        "pos": [
         "n"
        ],
        "meaning": "niềm vui"
-      },
-      {
-       "term": "amount",
-       "pos": [],
-       "meaning": "số lượng"
-      },
-      {
-       "term": "include",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bao gồm"
       },
       {
        "term": "plant",
@@ -2038,16 +2033,21 @@
        "meaning": "nhà máy; trồng"
       },
       {
+       "term": "amount",
+       "pos": [],
+       "meaning": "số lượng"
+      },
+      {
        "term": "surprise",
        "pos": [],
        "meaning": "ngạc nhiên"
       },
       {
-       "term": "reader",
+       "term": "include",
        "pos": [
-        "n"
+        "v"
        ],
-       "meaning": "độc giả"
+       "meaning": "bao gồm"
       }
      ],
      "audioStart": 1171.84,
@@ -2190,6 +2190,13 @@
        "meaning": "ứng viên"
       },
       {
+       "term": "panel",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội đồng"
+      },
+      {
        "term": "install",
        "pos": [
         "v"
@@ -2210,13 +2217,6 @@
         "v"
        ],
        "meaning": "vừa vặn"
-      },
-      {
-       "term": "panel",
-       "pos": [
-        "n"
-       ],
-       "meaning": "hội đồng"
       }
      ],
      "audioStart": 1253.5,
@@ -2572,6 +2572,13 @@
        "meaning": "đồ họa"
       },
       {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      },
+      {
        "term": "closely",
        "pos": [
         "adv"
@@ -2579,18 +2586,11 @@
        "meaning": "kỹ lưỡng; gần, chặt chẽ"
       },
       {
-       "term": "attract",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bị thu hút"
-      },
-      {
-       "term": "strategy",
+       "term": "competitor",
        "pos": [
         "n"
        ],
-       "meaning": "chiến lược"
+       "meaning": "đối thủ cạnh tranh"
       }
      ],
      "audioStart": 1417.6,
@@ -2740,6 +2740,20 @@
        "meaning": "việc giao hàng; các chuyến giao hàng"
       },
       {
+       "term": "pull",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kéo"
+      },
+      {
+       "term": "apology",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lời xin lỗi với"
+      },
+      {
        "term": "delay",
        "pos": [
         "n",
@@ -2779,20 +2793,6 @@
        "term": "sight",
        "pos": [],
        "meaning": "tầm nhìn"
-      },
-      {
-       "term": "pull",
-       "pos": [
-        "v"
-       ],
-       "meaning": "kéo"
-      },
-      {
-       "term": "apology",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lời xin lỗi với"
       }
      ],
      "audioStart": 1498.43,
@@ -2920,6 +2920,13 @@
        "meaning": "trọng lượng"
       },
       {
+       "term": "lift",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nâng"
+      },
+      {
        "term": "studio",
        "pos": [
         "n"
@@ -2947,13 +2954,6 @@
         "n"
        ],
        "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
-      },
-      {
-       "term": "lift",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nâng"
       }
      ],
      "audioStart": 1582.08,
@@ -3422,6 +3422,13 @@
        "meaning": "thực đơn"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "offering",
        "pos": [
         "n"
@@ -3448,13 +3455,6 @@
         "v"
        ],
        "meaning": "tính phí; khoản phí, khoản tính phí"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1825.28,
@@ -4317,6 +4317,13 @@
        "meaning": "nhiệm vụ"
       },
       {
+       "term": "ensure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đảm bảo"
+      },
+      {
        "term": "equipment",
        "pos": [
         "n"
@@ -4356,13 +4363,6 @@
         "v"
        ],
        "meaning": "phạm vi"
-      },
-      {
-       "term": "ensure",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đảm bảo"
       },
       {
        "term": "indicate",
@@ -4867,6 +4867,13 @@
        "meaning": "đường mòn"
       },
       {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      },
+      {
        "term": "consider",
        "pos": [
         "v"
@@ -4879,13 +4886,6 @@
         "v"
        ],
        "meaning": "thông qua; đi qua"
-      },
-      {
-       "term": "express",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bày tỏ"
       }
      ],
      "audioStart": 2492.74,
@@ -5029,6 +5029,13 @@
        "meaning": "nhận diện; xác định, nhận diện"
       },
       {
+       "term": "smart",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thông minh"
+      },
+      {
        "term": "purchase",
        "pos": [
         "v"
@@ -5056,11 +5063,11 @@
        "meaning": "tuy nhiên; phó từ: tuy nhiên"
       },
       {
-       "term": "charge",
+       "term": "approach",
        "pos": [
-        "v"
+        "adj"
        ],
-       "meaning": "tính phí; khoản phí, khoản tính phí"
+       "meaning": "tiếp cận, phương pháp; đang đến gần"
       },
       {
        "term": "supplier",
@@ -5070,25 +5077,18 @@
        "meaning": "nhà cung cấp"
       },
       {
-       "term": "approach",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "tiếp cận, phương pháp; đang đến gần"
-      },
-      {
-       "term": "smart",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "thông minh"
-      },
-      {
        "term": "investigate",
        "pos": [
         "v"
        ],
        "meaning": "điều tra"
+      },
+      {
+       "term": "charge",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tính phí; khoản phí, khoản tính phí"
       }
      ],
      "audioStart": 2579.26,

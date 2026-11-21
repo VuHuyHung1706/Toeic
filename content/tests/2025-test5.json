@@ -2236,6 +2236,13 @@
        "meaning": "các lượt đặt giá"
       },
       {
+       "term": "competitor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đối thủ cạnh tranh"
+      },
+      {
        "term": "charge",
        "pos": [
         "v"
@@ -2248,13 +2255,6 @@
         "adj"
        ],
        "meaning": "hấp dẫn"
-      },
-      {
-       "term": "competitor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đối thủ cạnh tranh"
       }
      ],
      "audioStart": 1066.27,
@@ -2906,6 +2906,13 @@
        "meaning": "lễ kỷ niệm"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "consider",
        "pos": [
         "v"
@@ -2946,13 +2953,6 @@
         "v"
        ],
        "meaning": "hủy bỏ; hủy"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1403.3,
@@ -3772,6 +3772,11 @@
      ],
      "vocab": [
       {
+       "term": "condition",
+       "pos": [],
+       "meaning": "tình trạng"
+      },
+      {
        "term": "expect",
        "pos": [
         "v"
@@ -3784,11 +3789,6 @@
         "n"
        ],
        "meaning": "thiết bị"
-      },
-      {
-       "term": "condition",
-       "pos": [],
-       "meaning": "tình trạng"
       }
      ],
      "audioStart": 1838.83,
@@ -3938,6 +3938,13 @@
        "meaning": "thảo luận"
       },
       {
+       "term": "ensure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đảm bảo"
+      },
+      {
        "term": "while",
        "pos": [
         "conj"
@@ -3995,13 +4002,6 @@
         "n"
        ],
        "meaning": "sự hợp tác"
-      },
-      {
-       "term": "ensure",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đảm bảo"
       }
      ],
      "audioStart": 1951.68,
@@ -4468,6 +4468,13 @@
      ],
      "vocab": [
       {
+       "term": "official",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quan chức"
+      },
+      {
        "term": "sponsor",
        "pos": [
         "n"
@@ -4501,13 +4508,6 @@
         "n"
        ],
        "meaning": "hoạt động"
-      },
-      {
-       "term": "official",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quan chức"
       }
      ],
      "audioStart": 2186.99,
@@ -4645,6 +4645,13 @@
        "meaning": "kéo dài; cuối cùng"
       },
       {
+       "term": "facility",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
+      },
+      {
        "term": "increase",
        "pos": [
         "v"
@@ -4686,13 +4693,6 @@
         "v"
        ],
        "meaning": "phục vụ"
-      },
-      {
-       "term": "facility",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
       }
      ],
      "audioStart": 2263.01,
@@ -5051,6 +5051,13 @@
        "meaning": "mặc dù"
       },
       {
+       "term": "effort",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nỗ lực"
+      },
+      {
        "term": "struggle",
        "pos": [
         "v"
@@ -5098,13 +5105,6 @@
         "v"
        ],
        "meaning": "bị thu hút"
-      },
-      {
-       "term": "share",
-       "pos": [
-        "v"
-       ],
-       "meaning": "chia sẻ; chia sẻ, dùng chung"
       }
      ],
      "audioStart": 2433.3,

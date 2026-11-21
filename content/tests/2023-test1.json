@@ -2516,6 +2516,13 @@
        "meaning": "quảng cáo"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "maximum",
        "pos": [
         "adj",
@@ -2560,13 +2567,6 @@
         "v"
        ],
        "meaning": "ảnh hưởng; ảnh hưởng đến"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1219.14,
@@ -2861,6 +2861,13 @@
        "meaning": "hội nghị"
       },
       {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
        "term": "damage",
        "pos": [],
        "meaning": "thiệt hại; bị hư hỏng"
@@ -2871,13 +2878,6 @@
         "v"
        ],
        "meaning": "sửa chữa"
-      },
-      {
-       "term": "host",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tổ chức; tổ chức, đăng cai"
       }
      ],
      "audioStart": 1366.59,
@@ -3035,13 +3035,6 @@
        "meaning": "vấn đề; vấn đề, số báo"
       },
       {
-       "term": "patient",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bệnh nhân"
-      },
-      {
        "term": "central",
        "pos": [
         "adj"
@@ -3073,6 +3066,13 @@
         "v"
        ],
        "meaning": "nhận được"
+      },
+      {
+       "term": "patient",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bệnh nhân"
       }
      ],
      "audioStart": 1442.43,
@@ -4266,6 +4266,13 @@
        "meaning": "bao quát; bìa"
       },
       {
+       "term": "basic",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "cơ bản"
+      },
+      {
        "term": "advise",
        "pos": [
         "v"
@@ -4284,13 +4291,6 @@
         "v"
        ],
        "meaning": "hỗ trợ"
-      },
-      {
-       "term": "basic",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "cơ bản"
       }
      ],
      "audioStart": 2081.79,
@@ -4426,6 +4426,27 @@
        "meaning": "hội thảo"
       },
       {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
+       "term": "register",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
+       "term": "realize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận ra; nhận ra, hiện thực hóa"
+      },
+      {
        "term": "attend",
        "pos": [
         "v"
@@ -4445,27 +4466,6 @@
         "v"
        ],
        "meaning": "bao gồm"
-      },
-      {
-       "term": "register",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đăng ký"
-      },
-      {
-       "term": "host",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tổ chức; tổ chức, đăng cai"
-      },
-      {
-       "term": "realize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhận ra; nhận ra, hiện thực hóa"
       }
      ],
      "audioStart": 2166.34,
@@ -4601,6 +4601,13 @@
        "meaning": "nhà máy; trồng"
       },
       {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
        "term": "available",
        "pos": [
         "adj"
@@ -4635,13 +4642,6 @@
         "adj"
        ],
        "meaning": "sắp tới; sắp tới, sắp diễn ra"
-      },
-      {
-       "term": "application",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đơn xin việc; ứng dụng"
       }
      ],
      "audioStart": 2244.8,
@@ -4815,6 +4815,13 @@
        "meaning": "khác với; không giống"
       },
       {
+       "term": "firm",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "chắc chắn; công ty"
+      },
+      {
        "term": "connect",
        "pos": [
         "v"
@@ -4842,13 +4849,6 @@
         "adj"
        ],
        "meaning": "ngắn gọn"
-      },
-      {
-       "term": "specialist",
-       "pos": [
-        "n"
-       ],
-       "meaning": "chuyên gia"
       }
      ],
      "audioStart": 2326.59,
@@ -5218,6 +5218,13 @@
        "meaning": "hàng đầu"
       },
       {
+       "term": "hire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "được thuê; thuê"
+      },
+      {
        "term": "provide",
        "pos": [
         "v"
@@ -5246,6 +5253,13 @@
        "meaning": "quy trình"
       },
       {
+       "term": "panel",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội đồng"
+      },
+      {
        "term": "various",
        "pos": [
         "adj"
@@ -5258,18 +5272,6 @@
         "prep"
        ],
        "meaning": "bao gồm"
-      },
-      {
-       "term": "inspection",
-       "pos": [],
-       "meaning": "kiểm tra"
-      },
-      {
-       "term": "colleague",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đồng nghiệp"
       }
      ],
      "audioStart": 2497.15,

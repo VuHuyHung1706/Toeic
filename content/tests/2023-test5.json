@@ -1462,6 +1462,13 @@
        "meaning": "hợp đồng"
       },
       {
+       "term": "expire",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hết hạn"
+      },
+      {
        "term": "discuss",
        "pos": [
         "v"
@@ -1474,6 +1481,13 @@
         "n"
        ],
        "meaning": "sự gia hạn"
+      },
+      {
+       "term": "term",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thuật ngữ"
       },
       {
        "term": "honestly",
@@ -1516,20 +1530,6 @@
         "n"
        ],
        "meaning": "đồng nghiệp"
-      },
-      {
-       "term": "expire",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hết hạn"
-      },
-      {
-       "term": "term",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thuật ngữ"
       }
      ],
      "audioStart": 895.62,
@@ -3000,6 +3000,13 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "appointment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
+      },
+      {
        "term": "operate",
        "pos": [
         "v"
@@ -3010,13 +3017,6 @@
        "term": "agency",
        "pos": [],
        "meaning": "cơ quan, đại lý"
-      },
-      {
-       "term": "appointment",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc hẹn; cuộc hẹn, sự bổ nhiệm"
       },
       {
        "term": "specialize",
@@ -3328,6 +3328,20 @@
        "meaning": "nhà sản xuất"
       },
       {
+       "term": "introduce",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giới thiệu; giới thiệu, đưa vào"
+      },
+      {
+       "term": "confuse",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhầm lẫn"
+      },
+      {
        "term": "previous",
        "pos": [
         "adj"
@@ -3355,20 +3369,6 @@
         "n"
        ],
        "meaning": "vấn đề; vấn đề, số báo"
-      },
-      {
-       "term": "introduce",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giới thiệu; giới thiệu, đưa vào"
-      },
-      {
-       "term": "confuse",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhầm lẫn"
       }
      ],
      "audioStart": 1730.05,
@@ -3540,19 +3540,19 @@
        "meaning": "mở rộng; kéo dài"
       },
       {
-       "term": "originally",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "ban đầu"
-      },
-      {
        "term": "discount",
        "pos": [
         "n",
         "v"
        ],
        "meaning": "giảm giá"
+      },
+      {
+       "term": "originally",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "ban đầu"
       },
       {
        "term": "account",
@@ -4325,6 +4325,13 @@
        "meaning": "sự cạnh tranh; cuộc cạnh tranh"
       },
       {
+       "term": "specialize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chuyên môn hóa"
+      },
+      {
        "term": "user",
        "pos": [
         "n"
@@ -4346,6 +4353,13 @@
        "meaning": "thực đơn"
       },
       {
+       "term": "choice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "advance",
        "pos": [
         "v"
@@ -4365,20 +4379,6 @@
         "v"
        ],
        "meaning": "mô tả"
-      },
-      {
-       "term": "specification",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đặc điểm kỹ thuật; thông số kỹ thuật"
-      },
-      {
-       "term": "choice",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 2256.06,
@@ -4514,6 +4514,13 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "install",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp đặt; được lắp đặt"
+      },
+      {
        "term": "avenue",
        "pos": [
         "n"
@@ -4526,13 +4533,6 @@
         "adv"
        ],
        "meaning": "ban đầu"
-      },
-      {
-       "term": "install",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lắp đặt; được lắp đặt"
       },
       {
        "term": "supplier",
@@ -4715,6 +4715,13 @@
        "meaning": "cập nhật; thông tin cập nhật"
       },
       {
+       "term": "facility",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
+      },
+      {
        "term": "while",
        "pos": [
         "conj"
@@ -4747,13 +4754,6 @@
         "v"
        ],
        "meaning": "lắp đặt; được lắp đặt"
-      },
-      {
-       "term": "facility",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
       }
      ],
      "audioStart": 2418.82,
@@ -5268,6 +5268,13 @@
        "meaning": "đánh dấu; dấu, vết"
       },
       {
+       "term": "energize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm tăng sinh lực"
+      },
+      {
        "term": "influence",
        "pos": [
         "v"
@@ -5280,13 +5287,6 @@
         "n"
        ],
        "meaning": "lựa chọn"
-      },
-      {
-       "term": "energize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "làm tăng sinh lực"
       }
      ],
      "audioStart": 2667.71,

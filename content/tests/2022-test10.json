@@ -2166,18 +2166,18 @@
        "meaning": "lối vào"
       },
       {
-       "term": "receipt",
-       "pos": [
-        "n"
-       ],
-       "meaning": "biên nhận; hóa đơn"
-      },
-      {
        "term": "initial",
        "pos": [
         "adj"
        ],
        "meaning": "ban đầu"
+      },
+      {
+       "term": "receipt",
+       "pos": [
+        "n"
+       ],
+       "meaning": "biên nhận; hóa đơn"
       }
      ],
      "audioStart": 1065.92,
@@ -2467,6 +2467,13 @@
        "meaning": "thảo luận"
       },
       {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
        "term": "neighborhood",
        "pos": [
         "n"
@@ -2513,13 +2520,6 @@
         "v"
        ],
        "meaning": "đề xuất; gợi ý"
-      },
-      {
-       "term": "create",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra; tạo"
       },
       {
        "term": "signature",
@@ -3232,6 +3232,13 @@
        "meaning": "khá"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "construction",
        "pos": [
         "n"
@@ -3266,13 +3273,6 @@
         "v"
        ],
        "meaning": "tiến triển"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 1551.49,
@@ -3580,6 +3580,20 @@
        "meaning": "tham dự"
       },
       {
+       "term": "explain",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giải thích"
+      },
+      {
+       "term": "expand",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; được mở rộng"
+      },
+      {
        "term": "figure",
        "pos": [
         "v"
@@ -3641,20 +3655,6 @@
         "n"
        ],
        "meaning": "quỹ, tiền; tiền"
-      },
-      {
-       "term": "expand",
-       "pos": [
-        "v"
-       ],
-       "meaning": "mở rộng; được mở rộng"
-      },
-      {
-       "term": "explain",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giải thích"
       }
      ],
      "audioStart": 1713.02,
@@ -3963,6 +3963,14 @@
        "meaning": "gần đây; gần đây, mới đây"
       },
       {
+       "term": "exchange",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "trao đổi; đổi"
+      },
+      {
        "term": "correct",
        "pos": [
         "v"
@@ -3982,14 +3990,6 @@
         "n"
        ],
        "meaning": "thay thế; người thay thế"
-      },
-      {
-       "term": "exchange",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "trao đổi; đổi"
       }
      ],
      "audioStart": 1934.21,
@@ -5100,6 +5100,13 @@
        "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
       },
       {
+       "term": "develop",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phát triển; phát triển, phát minh"
+      },
+      {
        "term": "delivery",
        "pos": [
         "n"
@@ -5119,13 +5126,6 @@
         "adj"
        ],
        "meaning": "cạnh tranh"
-      },
-      {
-       "term": "session",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phiên; buổi học, phiên họp"
       }
      ],
      "audioStart": 2407.1,
@@ -5290,6 +5290,11 @@
        "meaning": "trì hoãn; sự trì hoãn trì hoãn"
       },
       {
+       "term": "average",
+       "pos": [],
+       "meaning": "trung bình"
+      },
+      {
        "term": "repair",
        "pos": [
         "v"
@@ -5330,13 +5335,6 @@
         "v"
        ],
        "meaning": "chạy"
-      },
-      {
-       "term": "property",
-       "pos": [
-        "n"
-       ],
-       "meaning": "tài sản"
       }
      ],
      "audioStart": 2484.93,
@@ -5702,6 +5700,13 @@
        "meaning": "sản xuất; sự sản xuất"
       },
       {
+       "term": "assemble",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp ráp; tập hợp, xây dựng"
+      },
+      {
        "term": "average",
        "pos": [],
        "meaning": "trung bình"
@@ -5712,13 +5717,6 @@
         "v"
        ],
        "meaning": "sửa chữa"
-      },
-      {
-       "term": "technician",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kỹ thuật viên"
       }
      ],
      "audioStart": 2661.82,

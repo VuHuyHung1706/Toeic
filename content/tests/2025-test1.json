@@ -1649,6 +1649,13 @@
        "meaning": "doanh số; doanh số bán hàng"
       },
       {
+       "term": "figure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hình dung, tính toán"
+      },
+      {
        "term": "appointment",
        "pos": [
         "n"
@@ -1682,13 +1689,6 @@
         "v"
        ],
        "meaning": "phỏng vấn"
-      },
-      {
-       "term": "figure",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hình dung, tính toán"
       }
      ],
      "audioStart": 802.69,
@@ -1837,11 +1837,26 @@
        "meaning": "hiệu suất; buổi biểu diễn"
       },
       {
+       "term": "exchange",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "trao đổi; đổi"
+      },
+      {
        "term": "policy",
        "pos": [
         "n"
        ],
        "meaning": "chính sách"
+      },
+      {
+       "term": "apply",
+       "pos": [
+        "v"
+       ],
+       "meaning": "áp dụng; ứng tuyển"
       },
       {
        "term": "however",
@@ -1878,21 +1893,6 @@
         "adv"
        ],
        "meaning": "thường xuyên; một cách thường xuyên"
-      },
-      {
-       "term": "apply",
-       "pos": [
-        "v"
-       ],
-       "meaning": "áp dụng; ứng tuyển"
-      },
-      {
-       "term": "exchange",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "trao đổi; đổi"
       }
      ],
      "audioStart": 874.66,
@@ -2576,11 +2576,32 @@
      ],
      "vocab": [
       {
+       "term": "figure",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hình dung, tính toán"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "basic",
        "pos": [
         "adj"
        ],
        "meaning": "cơ bản"
+      },
+      {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
       },
       {
        "term": "replacement",
@@ -2595,27 +2616,6 @@
         "conj"
        ],
        "meaning": "trong khi, mặc dù"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
-      },
-      {
-       "term": "figure",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hình dung, tính toán"
       }
      ],
      "audioStart": 1190.28,
@@ -2751,12 +2751,26 @@
        "meaning": "giải thưởng"
       },
       {
+       "term": "winner",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người chiến thắng"
+      },
+      {
        "term": "support",
        "pos": [
         "n",
         "v"
        ],
        "meaning": "hỗ trợ"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
       },
       {
        "term": "improvement",
@@ -2807,20 +2821,6 @@
         "n"
        ],
        "meaning": "thanh toán"
-      },
-      {
-       "term": "process",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quy trình"
-      },
-      {
-       "term": "winner",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người chiến thắng"
       }
      ],
      "audioStart": 1272.76,
@@ -2973,6 +2973,13 @@
        "meaning": "giáo dục"
       },
       {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
        "term": "regular",
        "pos": [
         "adj"
@@ -3006,13 +3013,6 @@
         "n"
        ],
        "meaning": "giải pháp"
-      },
-      {
-       "term": "manage",
-       "pos": [
-        "v"
-       ],
-       "meaning": "quản lý"
       }
      ],
      "audioStart": 1353.83,
@@ -3693,18 +3693,18 @@
        "meaning": "ngân sách"
       },
       {
-       "term": "production",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sản xuất; sự sản xuất"
-      },
-      {
        "term": "administrator",
        "pos": [
         "n"
        ],
        "meaning": "quản trị viên"
+      },
+      {
+       "term": "production",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sản xuất; sự sản xuất"
       }
      ],
      "audioStart": 1701.85,
@@ -4421,6 +4421,13 @@
        "meaning": "hiện tại"
       },
       {
+       "term": "operator",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người vận hành"
+      },
+      {
        "term": "familiar",
        "pos": [
         "adj"
@@ -4440,13 +4447,6 @@
         "n"
        ],
        "meaning": "người dùng"
-      },
-      {
-       "term": "operator",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người vận hành"
       }
      ],
      "audioStart": 2063.42,
@@ -5433,6 +5433,13 @@
        "meaning": "lợi ích"
       },
       {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      },
+      {
        "term": "frustration",
        "pos": [
         "n"
@@ -5468,18 +5475,11 @@
        "meaning": "khắp; suốt"
       },
       {
-       "term": "available",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "có sẵn; sẵn sàng"
-      },
-      {
-       "term": "share",
+       "term": "document",
        "pos": [
         "v"
        ],
-       "meaning": "chia sẻ; chia sẻ, dùng chung"
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
       }
      ],
      "audioStart": 2462.08,
@@ -5613,6 +5613,13 @@
      ],
      "vocab": [
       {
+       "term": "industry",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngành công nghiệp; ngành"
+      },
+      {
        "term": "protective",
        "pos": [
         "adj"
@@ -5630,13 +5637,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "industry",
-       "pos": [
-        "n"
-       ],
-       "meaning": "ngành công nghiệp; ngành"
       }
      ],
      "audioStart": 2555.77,
@@ -5784,6 +5784,13 @@
        "meaning": "nói chung; nhìn chung"
       },
       {
+       "term": "include",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bao gồm"
+      },
+      {
        "term": "display",
        "pos": [
         "v"
@@ -5810,6 +5817,13 @@
        "meaning": "sự phân loại, tập hợp"
       },
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "however",
        "pos": [
         "adv",
@@ -5825,13 +5839,6 @@
        "meaning": "kho, sự lưu trữ"
       },
       {
-       "term": "include",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bao gồm"
-      },
-      {
        "term": "piece",
        "pos": [
         "n"
@@ -5844,13 +5851,6 @@
         "n"
        ],
        "meaning": "thiết bị"
-      },
-      {
-       "term": "require",
-       "pos": [
-        "v"
-       ],
-       "meaning": "yêu cầu; bắt buộc, cần thiết"
       }
      ],
      "audioStart": 2639.37,

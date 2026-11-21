@@ -1865,6 +1865,13 @@
        "meaning": "quảng cáo"
       },
       {
+       "term": "consult",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tham khảo ý kiến; tham khảo"
+      },
+      {
        "term": "retail",
        "pos": [
         "n"
@@ -1905,13 +1912,6 @@
         "v"
        ],
        "meaning": "đánh giá cao"
-      },
-      {
-       "term": "consult",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tham khảo ý kiến; tham khảo"
       }
      ],
      "audioStart": 929.2,
@@ -2711,6 +2711,13 @@
        "meaning": "doanh số; doanh số bán hàng"
       },
       {
+       "term": "connect",
+       "pos": [
+        "v"
+       ],
+       "meaning": "kết nối"
+      },
+      {
        "term": "existing",
        "pos": [
         "adj"
@@ -2730,6 +2737,13 @@
         "v"
        ],
        "meaning": "quảng cáo"
+      },
+      {
+       "term": "expand",
+       "pos": [
+        "v"
+       ],
+       "meaning": "mở rộng; được mở rộng"
       },
       {
        "term": "advertising",
@@ -2759,20 +2773,6 @@
         "n"
        ],
        "meaning": "lựa chọn"
-      },
-      {
-       "term": "expand",
-       "pos": [
-        "v"
-       ],
-       "meaning": "mở rộng; được mở rộng"
-      },
-      {
-       "term": "connect",
-       "pos": [
-        "v"
-       ],
-       "meaning": "kết nối"
       }
      ],
      "audioStart": 1349.93,
@@ -2945,6 +2945,13 @@
        "meaning": "đạt được"
       },
       {
+       "term": "contractor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà thầu"
+      },
+      {
        "term": "seek",
        "pos": [
         "v"
@@ -2971,13 +2978,6 @@
         "n"
        ],
        "meaning": "phương tiện vận chuyển; phương tiện đi lại"
-      },
-      {
-       "term": "contractor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà thầu"
       }
      ],
      "audioStart": 1428.95,
@@ -3473,6 +3473,13 @@
        "meaning": "đặt chỗ"
       },
       {
+       "term": "accommodate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thu xếp; chứa, tiếp đón"
+      },
+      {
        "term": "available",
        "pos": [
         "adj"
@@ -3485,13 +3492,6 @@
         "n"
        ],
        "meaning": "sự sắp xếp"
-      },
-      {
-       "term": "accommodate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thu xếp; chứa, tiếp đón"
       }
      ],
      "audioStart": 1671.83,
@@ -4110,6 +4110,13 @@
        "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
       },
       {
+       "term": "decoration",
+       "pos": [
+        "n"
+       ],
+       "meaning": "trang trí; đồ trang trí"
+      },
+      {
        "term": "volunteer",
        "pos": [
         "n",
@@ -4145,13 +4152,6 @@
         "n"
        ],
        "meaning": "mặt hàng, sản phẩm; vật phẩm"
-      },
-      {
-       "term": "decoration",
-       "pos": [
-        "n"
-       ],
-       "meaning": "trang trí; đồ trang trí"
       }
      ],
      "audioStart": 2045.52,
@@ -4682,6 +4682,13 @@
        "meaning": "lựa chọn"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "charge",
        "pos": [
         "v"
@@ -4694,13 +4701,6 @@
         "n"
        ],
        "meaning": "bộ"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 2283.22,
@@ -4892,6 +4892,13 @@
        "meaning": "tham khảo; tham chiếu"
       },
       {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
        "term": "continue",
        "pos": [
         "v"
@@ -4904,13 +4911,6 @@
         "v"
        ],
        "meaning": "áp dụng; ứng tuyển"
-      },
-      {
-       "term": "current",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "hiện tại"
       }
      ],
      "audioStart": 2363.57,
@@ -5039,6 +5039,13 @@
      ],
      "vocab": [
       {
+       "term": "announcement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông báo"
+      },
+      {
        "term": "safety",
        "pos": [
         "adj",
@@ -5092,13 +5099,6 @@
        "term": "designated",
        "pos": [],
        "meaning": "đã chỉ định"
-      },
-      {
-       "term": "announcement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thông báo"
       }
      ],
      "audioStart": 2445.16,
@@ -5437,6 +5437,20 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "registration",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
+       "term": "focus",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung; trọng tâm"
+      },
+      {
        "term": "ingredient",
        "pos": [],
        "meaning": "nguyên liệu"
@@ -5461,20 +5475,6 @@
         "n"
        ],
        "meaning": "xây dựng; việc xây dựng"
-      },
-      {
-       "term": "focus",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tập trung; trọng tâm"
-      },
-      {
-       "term": "registration",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đăng ký"
       }
      ],
      "audioStart": 2596.38,
@@ -5662,18 +5662,18 @@
        "meaning": "cuộc bầu cử"
       },
       {
-       "term": "candidate",
+       "term": "approach",
        "pos": [
-        "n"
+        "adj"
        ],
-       "meaning": "ứng viên"
+       "meaning": "tiếp cận, phương pháp; đang đến gần"
       },
       {
-       "term": "debate",
+       "term": "affect",
        "pos": [
-        "n"
+        "v"
        ],
-       "meaning": "cuộc tranh luận"
+       "meaning": "ảnh hưởng; ảnh hưởng đến"
       }
      ],
      "audioStart": 2685.52,

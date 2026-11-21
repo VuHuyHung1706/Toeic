@@ -1964,6 +1964,13 @@
        "meaning": "kéo dài; cuối cùng"
       },
       {
+       "term": "technician",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỹ thuật viên"
+      },
+      {
        "term": "set",
        "pos": [
         "n"
@@ -2019,13 +2026,6 @@
         "n"
        ],
        "meaning": "tình huống"
-      },
-      {
-       "term": "technician",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kỹ thuật viên"
       }
      ],
      "audioStart": 966.78,
@@ -2532,19 +2532,19 @@
        "meaning": "đề xuất; đề nghị"
       },
       {
+       "term": "chemical",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "hóa chất"
+      },
+      {
        "term": "safety",
        "pos": [
         "adj",
         "n"
        ],
        "meaning": "sự an toàn; an toàn"
-      },
-      {
-       "term": "chemical",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "hóa chất"
       }
      ],
      "audioStart": 1191.92,
@@ -2989,6 +2989,13 @@
        "meaning": "chia sẻ; chia sẻ, dùng chung"
       },
       {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      },
+      {
        "term": "collaborate",
        "pos": [
         "v"
@@ -3017,25 +3024,18 @@
        "meaning": "đề xuất"
       },
       {
-       "term": "suggestion",
-       "pos": [
-        "n"
-       ],
-       "meaning": "gợi ý; sự gợi ý"
-      },
-      {
-       "term": "document",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
-      },
-      {
        "term": "resource",
        "pos": [
         "n"
        ],
        "meaning": "nguồn lực"
+      },
+      {
+       "term": "suggestion",
+       "pos": [
+        "n"
+       ],
+       "meaning": "gợi ý; sự gợi ý"
       }
      ],
      "audioStart": 1424.08,
@@ -3206,16 +3206,16 @@
        "meaning": "sự hiện diện"
       },
       {
-       "term": "account",
-       "pos": [],
-       "meaning": "tài khoản"
-      },
-      {
        "term": "manage",
        "pos": [
         "v"
        ],
        "meaning": "quản lý"
+      },
+      {
+       "term": "account",
+       "pos": [],
+       "meaning": "tài khoản"
       }
      ],
      "audioStart": 1506.47,
@@ -3557,6 +3557,11 @@
        "meaning": "lên tàu/máy bay; ván, tấm gỗ"
       },
       {
+       "term": "block",
+       "pos": [],
+       "meaning": "ngăn chặn"
+      },
+      {
        "term": "condition",
        "pos": [],
        "meaning": "tình trạng"
@@ -3588,11 +3593,6 @@
         "adj"
        ],
        "meaning": "riêng biệt, tách rời; riêng biệt"
-      },
-      {
-       "term": "block",
-       "pos": [],
-       "meaning": "ngăn chặn"
       }
      ],
      "audioStart": 1681.67,
@@ -3729,18 +3729,18 @@
        "meaning": "phỏng vấn"
       },
       {
-       "term": "entrance",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lối vào"
-      },
-      {
        "term": "afterward",
        "pos": [
         "adv"
        ],
        "meaning": "sau đó"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
       }
      ],
      "audioStart": 1766.55,
@@ -4271,6 +4271,13 @@
        "meaning": "sự phấn khích"
       },
       {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
        "term": "revealing",
        "pos": [],
        "meaning": "v-ing, không làm động từ chính"
@@ -4279,13 +4286,6 @@
        "term": "feature",
        "pos": [],
        "meaning": "giới thiệu; đặc điểm, tính năng"
-      },
-      {
-       "term": "review",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc đánh giá; xem xét, đánh giá"
       }
      ],
      "audioStart": 2027.23,
@@ -4435,6 +4435,13 @@
        "meaning": "định vị; vị trí (công việc)"
       },
       {
+       "term": "sum",
+       "pos": [
+        "n"
+       ],
+       "meaning": "tổng"
+      },
+      {
        "term": "impressive",
        "pos": [
         "adj"
@@ -4471,6 +4478,13 @@
        "meaning": "những đóng góp"
       },
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "interview",
        "pos": [
         "v"
@@ -4483,20 +4497,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "expect",
-       "pos": [
-        "v"
-       ],
-       "meaning": "kỳ vọng; mong đợi, dự kiến"
-      },
-      {
-       "term": "material",
-       "pos": [
-        "n"
-       ],
-       "meaning": "vật liệu; tài liệu"
       }
      ],
      "audioStart": 2111,
@@ -4820,6 +4820,13 @@
        "meaning": "quản lý"
       },
       {
+       "term": "difficulty",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khó khăn"
+      },
+      {
        "term": "range",
        "pos": [
         "n",
@@ -4835,6 +4842,13 @@
        "meaning": "người tham gia"
       },
       {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
+      },
+      {
        "term": "succeed",
        "pos": [
         "v"
@@ -4847,20 +4861,6 @@
         "n"
        ],
        "meaning": "hướng dẫn"
-      },
-      {
-       "term": "conduct",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tiến hành/tổ chức; chỉ huy"
-      },
-      {
-       "term": "difficulty",
-       "pos": [
-        "n"
-       ],
-       "meaning": "khó khăn"
       }
      ],
      "audioStart": 2277.67,
@@ -5010,20 +5010,6 @@
        "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
       },
       {
-       "term": "register",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đăng ký"
-      },
-      {
-       "term": "process",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quy trình"
-      },
-      {
        "term": "replace",
        "pos": [
         "v"
@@ -5036,6 +5022,20 @@
         "n"
        ],
        "meaning": "độc giả"
+      },
+      {
+       "term": "register",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
+       "term": "process",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy trình"
       }
      ],
      "audioStart": 2359.7,
@@ -5185,6 +5185,13 @@
        "meaning": "hàng tồn kho"
       },
       {
+       "term": "lift",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nâng"
+      },
+      {
        "term": "colleague",
        "pos": [
         "n"
@@ -5214,13 +5221,6 @@
        "term": "risk",
        "pos": [],
        "meaning": "rủi ro"
-      },
-      {
-       "term": "lift",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nâng"
       }
      ],
      "audioStart": 2434.39,
@@ -5383,6 +5383,13 @@
        "meaning": "chính; chính, chủ yếu"
       },
       {
+       "term": "construct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xây dựng"
+      },
+      {
        "term": "powerful",
        "pos": [
         "adj"
@@ -5428,13 +5435,6 @@
         "n"
        ],
        "meaning": "xây dựng; việc xây dựng"
-      },
-      {
-       "term": "construct",
-       "pos": [
-        "v"
-       ],
-       "meaning": "xây dựng"
       }
      ],
      "audioStart": 2512.89,

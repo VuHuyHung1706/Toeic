@@ -1674,6 +1674,13 @@
        "meaning": "nghiên cứu; nghiên cứu, tìm hiểu"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "refer",
        "pos": [
         "v"
@@ -1700,13 +1707,6 @@
         "n"
        ],
        "meaning": "nguồn vốn; nguồn tài trợ, nguồn vốn"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       },
       {
        "term": "investor",
@@ -1877,6 +1877,13 @@
        "meaning": "tiềm năng; tiềm năng, có khả năng"
       },
       {
+       "term": "cause",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã gây ra; gây ra"
+      },
+      {
        "term": "issue",
        "pos": [
         "n"
@@ -1896,13 +1903,6 @@
         "n"
        ],
        "meaning": "kỹ thuật viên"
-      },
-      {
-       "term": "cause",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã gây ra; gây ra"
       }
      ],
      "audioStart": 913.05,
@@ -2040,11 +2040,25 @@
        "meaning": "kéo dài; cuối cùng"
       },
       {
+       "term": "serve",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phục vụ"
+      },
+      {
        "term": "equipment",
        "pos": [
         "n"
        ],
        "meaning": "thiết bị"
+      },
+      {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
       },
       {
        "term": "refreshment",
@@ -2059,20 +2073,6 @@
         "v"
        ],
        "meaning": "tập trung"
-      },
-      {
-       "term": "remind",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhắc nhở"
-      },
-      {
-       "term": "serve",
-       "pos": [
-        "v"
-       ],
-       "meaning": "phục vụ"
       }
      ],
      "audioStart": 988.64,
@@ -2409,6 +2409,13 @@
        "meaning": "năng lực, công suất; năng lực"
       },
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "passenger",
        "pos": [
         "n"
@@ -2436,13 +2443,6 @@
         "v"
        ],
        "meaning": "tình nguyện; người tình nguyện"
-      },
-      {
-       "term": "arrangement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự sắp xếp"
       }
      ],
      "audioStart": 1153.29,
@@ -2909,11 +2909,9 @@
        "meaning": "sự an toàn; an toàn"
       },
       {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
+       "term": "condition",
+       "pos": [],
+       "meaning": "tình trạng"
       },
       {
        "term": "facility",
@@ -2923,9 +2921,11 @@
        "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
       },
       {
-       "term": "condition",
-       "pos": [],
-       "meaning": "tình trạng"
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 1391.96,
@@ -3264,6 +3264,13 @@
        "meaning": "đại diện"
       },
       {
+       "term": "match",
+       "pos": [
+        "v"
+       ],
+       "meaning": "khớp; khớp, ngang bằng"
+      },
+      {
        "term": "official",
        "pos": [
         "n"
@@ -3314,25 +3321,18 @@
        "meaning": "hợp đồng"
       },
       {
-       "term": "design",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
-      },
-      {
-       "term": "match",
-       "pos": [
-        "v"
-       ],
-       "meaning": "khớp; khớp, ngang bằng"
-      },
-      {
        "term": "term",
        "pos": [
         "n"
        ],
        "meaning": "thuật ngữ"
+      },
+      {
+       "term": "design",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       }
      ],
      "audioStart": 1544.73,
@@ -3931,6 +3931,13 @@
      ],
      "vocab": [
       {
+       "term": "contractor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà thầu"
+      },
+      {
        "term": "renovation",
        "pos": [
         "n"
@@ -3962,13 +3969,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "contractor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà thầu"
       }
      ],
      "audioStart": 1903.67,
@@ -4157,6 +4157,13 @@
        "meaning": "xem xét"
       },
       {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
        "term": "revise",
        "pos": [
         "v"
@@ -4169,13 +4176,6 @@
         "n"
        ],
        "meaning": "mô tả"
-      },
-      {
-       "term": "candidate",
-       "pos": [
-        "n"
-       ],
-       "meaning": "ứng viên"
       }
      ],
      "audioStart": 2005.11,
@@ -4536,6 +4536,13 @@
        "meaning": "cuối cùng"
       },
       {
+       "term": "theater",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà hát; rạp hát"
+      },
+      {
        "term": "release",
        "pos": [
         "n"
@@ -4556,13 +4563,6 @@
         "conj"
        ],
        "meaning": "tuy nhiên; phó từ: tuy nhiên"
-      },
-      {
-       "term": "theater",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà hát; rạp hát"
       },
       {
        "term": "announce",
@@ -5124,6 +5124,13 @@
        "meaning": "năng suất"
       },
       {
+       "term": "automate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tự động hóa"
+      },
+      {
        "term": "material",
        "pos": [
         "n"
@@ -5141,13 +5148,6 @@
        "term": "wood",
        "pos": [],
        "meaning": "gỗ"
-      },
-      {
-       "term": "automate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tự động hóa"
       }
      ],
      "audioStart": 2409.98,
@@ -5528,6 +5528,13 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "estimate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
+      },
+      {
        "term": "safety",
        "pos": [
         "adj",
@@ -5541,13 +5548,6 @@
         "conj"
        ],
        "meaning": "trong khi, mặc dù"
-      },
-      {
-       "term": "estimate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
       }
      ],
      "audioStart": 2566.23,
@@ -5682,6 +5682,13 @@
        "meaning": "kỹ năng"
       },
       {
+       "term": "production",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sản xuất; sự sản xuất"
+      },
+      {
        "term": "topic",
        "pos": [
         "n"
@@ -5710,13 +5717,6 @@
         "v"
        ],
        "meaning": "yêu cầu"
-      },
-      {
-       "term": "production",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sản xuất; sự sản xuất"
       }
      ],
      "audioStart": 2644.88,

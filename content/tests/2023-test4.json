@@ -1667,6 +1667,13 @@
        "meaning": "sự lây lan"
       },
       {
+       "term": "coordinator",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người điều phối"
+      },
+      {
        "term": "arrange",
        "pos": [
         "v"
@@ -1693,13 +1700,6 @@
         "adj"
        ],
        "meaning": "xa xôi"
-      },
-      {
-       "term": "coordinator",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người điều phối"
       }
      ],
      "audioStart": 977.79,
@@ -1822,6 +1822,13 @@
        "meaning": "giải thích chi tiết; chi tiết"
       },
       {
+       "term": "assignment",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhiệm vụ được giao"
+      },
+      {
        "term": "provide",
        "pos": [
         "v"
@@ -1844,11 +1851,11 @@
        "meaning": "doanh số; doanh số bán hàng"
       },
       {
-       "term": "assignment",
+       "term": "release",
        "pos": [
         "n"
        ],
-       "meaning": "nhiệm vụ được giao"
+       "meaning": "sự phát hành; phát hành"
       },
       {
        "term": "regional",
@@ -1861,6 +1868,13 @@
        "term": "trade",
        "pos": [],
        "meaning": "giao dịch, thương mại"
+      },
+      {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
       },
       {
        "term": "create",
@@ -1883,21 +1897,6 @@
         "prep"
        ],
        "meaning": "cộng; cộng với"
-      },
-      {
-       "term": "support",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "hỗ trợ"
-      },
-      {
-       "term": "remind",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhắc nhở"
       }
      ],
      "audioStart": 1056.77,
@@ -2249,18 +2248,18 @@
        "meaning": "cơ quan, đại lý"
       },
       {
+       "term": "specialize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chuyên môn hóa"
+      },
+      {
        "term": "temporary",
        "pos": [
         "adj"
        ],
        "meaning": "tạm thời"
-      },
-      {
-       "term": "used",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
       }
      ],
      "audioStart": 1217.86,
@@ -2748,6 +2747,13 @@
        "meaning": "đồ nội thất; bàn ghế"
       },
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "hire",
        "pos": [
         "v"
@@ -2760,13 +2766,6 @@
         "n"
        ],
        "meaning": "trách nhiệm"
-      },
-      {
-       "term": "arrangement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự sắp xếp"
       }
      ],
      "audioStart": 1457.22,
@@ -2949,6 +2948,13 @@
        "meaning": "hiện tại"
       },
       {
+       "term": "certification",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chứng chỉ; chứng nhận"
+      },
+      {
        "term": "none",
        "pos": [],
        "meaning": "từ phủ định"
@@ -2966,13 +2972,6 @@
         "adj"
        ],
        "meaning": "quan tâm"
-      },
-      {
-       "term": "explain",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giải thích"
       }
      ],
      "audioStart": 1536.77,
@@ -3114,6 +3113,13 @@
        "meaning": "cung cấp; nguồn cung"
       },
       {
+       "term": "distribute",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phân phối"
+      },
+      {
        "term": "issue",
        "pos": [
         "n"
@@ -3160,13 +3166,6 @@
         "v"
        ],
        "meaning": "đánh giá cao"
-      },
-      {
-       "term": "distribute",
-       "pos": [
-        "v"
-       ],
-       "meaning": "phân phối"
       }
      ],
      "audioStart": 1618.69,
@@ -3290,6 +3289,13 @@
        "meaning": "hội nghị"
       },
       {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
        "term": "set",
        "pos": [
         "n"
@@ -3332,13 +3338,6 @@
         "v"
        ],
        "meaning": "kéo dài; cuối cùng"
-      },
-      {
-       "term": "host",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tổ chức; tổ chức, đăng cai"
       }
      ],
      "audioStart": 1711.87,
@@ -3842,6 +3841,13 @@
        "meaning": "đề xuất; đề nghị"
       },
       {
+       "term": "enthusiast",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người đam mê; người nhiệt tình"
+      },
+      {
        "term": "invest",
        "pos": [
         "v"
@@ -3903,13 +3909,6 @@
         "v"
        ],
        "meaning": "cung cấp; nguồn cung"
-      },
-      {
-       "term": "electricity",
-       "pos": [
-        "n"
-       ],
-       "meaning": "điện"
       }
      ],
      "audioStart": 1989.76,
@@ -4742,6 +4741,13 @@
      ],
      "vocab": [
       {
+       "term": "investor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà đầu tư"
+      },
+      {
        "term": "perspective",
        "pos": [
         "n"
@@ -4816,13 +4822,6 @@
         "adj"
        ],
        "meaning": "cao nhất"
-      },
-      {
-       "term": "priority",
-       "pos": [
-        "n"
-       ],
-       "meaning": "ưu tiên"
       }
      ],
      "audioStart": 2396.74,
@@ -5111,6 +5110,13 @@
      ],
      "vocab": [
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "dramatically",
        "pos": [
         "adv"
@@ -5137,13 +5143,6 @@
         "adj"
        ],
        "meaning": "có sẵn; sẵn sàng"
-      },
-      {
-       "term": "arrangement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự sắp xếp"
       }
      ],
      "audioStart": 2570.5,
@@ -5287,6 +5286,13 @@
        "meaning": "tham khảo ý kiến; tham khảo"
       },
       {
+       "term": "specialize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "chuyên môn hóa"
+      },
+      {
        "term": "process",
        "pos": [
         "n"
@@ -5349,13 +5355,6 @@
         "n"
        ],
        "meaning": "giải pháp"
-      },
-      {
-       "term": "recommendation",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đề xuất; lời giới thiệu"
       }
      ],
      "audioStart": 2651.58,

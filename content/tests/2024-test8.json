@@ -1990,6 +1990,13 @@
        "meaning": "phát triển; phát triển, phát minh"
       },
       {
+       "term": "rise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vươn lên"
+      },
+      {
        "term": "planted",
        "pos": [],
        "meaning": "đã trồng"
@@ -2003,13 +2010,6 @@
        "term": "feature",
        "pos": [],
        "meaning": "giới thiệu; đặc điểm, tính năng"
-      },
-      {
-       "term": "rise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "vươn lên"
       }
      ],
      "audioStart": 984.95,
@@ -2177,18 +2177,18 @@
        "meaning": "hợp lý"
       },
       {
-       "term": "used",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
-      },
-      {
        "term": "review",
        "pos": [
         "n"
        ],
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "used",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
       }
      ],
      "audioStart": 1061.58,
@@ -2314,6 +2314,13 @@
      ],
      "vocab": [
       {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
        "term": "sales",
        "pos": [
         "n"
@@ -2340,13 +2347,6 @@
         "n"
        ],
        "meaning": "vai trò"
-      },
-      {
-       "term": "application",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đơn xin việc; ứng dụng"
       },
       {
        "term": "impressive",
@@ -2550,6 +2550,13 @@
        "meaning": "thông báo"
       },
       {
+       "term": "reader",
+       "pos": [
+        "n"
+       ],
+       "meaning": "độc giả"
+      },
+      {
        "term": "used",
        "pos": [
         "v"
@@ -2584,13 +2591,6 @@
         "n"
        ],
        "meaning": "chủ sở hữu"
-      },
-      {
-       "term": "concerned",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "lo lắng; quan tâm"
       }
      ],
      "audioStart": 1225.07,
@@ -3097,6 +3097,13 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "reschedule",
        "pos": [
         "v"
@@ -3139,13 +3146,6 @@
         "v"
        ],
        "meaning": "yêu cầu"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 1466.98,
@@ -3612,6 +3612,13 @@
      ],
      "vocab": [
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "unfortunately",
        "pos": [
         "adv"
@@ -3667,13 +3674,6 @@
         "n"
        ],
        "meaning": "ngân sách"
-      },
-      {
-       "term": "arrangement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự sắp xếp"
       }
      ],
      "audioStart": 1724.27,
@@ -3840,6 +3840,13 @@
        "meaning": "xác minh"
       },
       {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -3856,20 +3863,6 @@
        "meaning": "người mua"
       },
       {
-       "term": "major",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "quan trọng; lớn, quan trọng"
-      },
-      {
-       "term": "factor",
-       "pos": [
-        "n"
-       ],
-       "meaning": "yếu tố"
-      },
-      {
        "term": "property",
        "pos": [
         "n"
@@ -3877,11 +3870,11 @@
        "meaning": "tài sản"
       },
       {
-       "term": "character",
+       "term": "major",
        "pos": [
-        "n"
+        "adj"
        ],
-       "meaning": "nhân vật; nhân vật (trong game)"
+       "meaning": "quan trọng; lớn, quan trọng"
       },
       {
        "term": "repair",
@@ -3889,6 +3882,13 @@
         "v"
        ],
        "meaning": "sửa chữa"
+      },
+      {
+       "term": "factor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "yếu tố"
       }
      ],
      "audioStart": 1816.31,
@@ -4033,6 +4033,13 @@
        "meaning": "nhỏ gọn"
       },
       {
+       "term": "save",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiết kiệm"
+      },
+      {
        "term": "set",
        "pos": [
         "n"
@@ -4066,13 +4073,6 @@
         "adj"
        ],
        "meaning": "rộng rãi"
-      },
-      {
-       "term": "save",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tiết kiệm"
       }
      ],
      "audioStart": 1930.84,
@@ -4220,6 +4220,13 @@
        "meaning": "bắt đầu"
       },
       {
+       "term": "temperature",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhiệt độ"
+      },
+      {
        "term": "cover",
        "pos": [
         "n",
@@ -4249,13 +4256,6 @@
         "v"
        ],
        "meaning": "kéo dài; cuối cùng"
-      },
-      {
-       "term": "temperature",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhiệt độ"
       }
      ],
      "audioStart": 2010.63,
@@ -4395,6 +4395,13 @@
        "meaning": "thường xuyên"
       },
       {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "issue",
        "pos": [
         "n"
@@ -4443,13 +4450,6 @@
         "adj"
        ],
        "meaning": "nhận thức"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
       }
      ],
      "audioStart": 2084.83,
@@ -4611,6 +4611,13 @@
        "meaning": "phần lớn"
       },
       {
+       "term": "effort",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nỗ lực"
+      },
+      {
        "term": "produce",
        "pos": [
         "v"
@@ -4630,13 +4637,6 @@
         "v"
        ],
        "meaning": "chia sẻ; chia sẻ, dùng chung"
-      },
-      {
-       "term": "effort",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nỗ lực"
       }
      ],
      "audioStart": 2164.11,
@@ -5162,6 +5162,13 @@
        "meaning": "cập nhật; thông tin cập nhật"
       },
       {
+       "term": "consume",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiêu thụ"
+      },
+      {
        "term": "environment",
        "pos": [],
        "meaning": "môi trường"
@@ -5188,18 +5195,11 @@
        "meaning": "thêm, bổ sung; thêm"
       },
       {
-       "term": "significant",
+       "term": "option",
        "pos": [
-        "adj"
+        "n"
        ],
-       "meaning": "đáng kể; quan trọng"
-      },
-      {
-       "term": "increase",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tăng; tăng lên"
+       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 2398.96,
@@ -5374,6 +5374,13 @@
        "meaning": "mục tiêu"
       },
       {
+       "term": "term",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thuật ngữ"
+      },
+      {
        "term": "existing",
        "pos": [
         "adj"
@@ -5402,13 +5409,6 @@
         "v"
        ],
        "meaning": "giảm giá"
-      },
-      {
-       "term": "referral",
-       "pos": [
-        "n"
-       ],
-       "meaning": "giới thiệu"
       }
      ],
      "audioStart": 2481.86,
@@ -5546,6 +5546,13 @@
        "meaning": "lễ hội"
       },
       {
+       "term": "announcement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thông báo"
+      },
+      {
        "term": "select",
        "pos": [
         "v"
@@ -5591,13 +5598,6 @@
         "adj"
        ],
        "meaning": "có sẵn; sẵn sàng"
-      },
-      {
-       "term": "announcement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thông báo"
       }
      ],
      "audioStart": 2569.48,
@@ -5728,13 +5728,6 @@
      ],
      "vocab": [
       {
-       "term": "conference",
-       "pos": [
-        "n"
-       ],
-       "meaning": "hội nghị"
-      },
-      {
        "term": "interested",
        "pos": [
         "adj"
@@ -5747,6 +5740,20 @@
         "n"
        ],
        "meaning": "bán hàng"
+      },
+      {
+       "term": "engage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "gài; tham gia, thu hút"
+      },
+      {
+       "term": "conference",
+       "pos": [
+        "n"
+       ],
+       "meaning": "hội nghị"
       },
       {
        "term": "excite",
@@ -5803,13 +5810,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "board",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lên tàu/máy bay; ván, tấm gỗ"
       }
      ],
      "audioStart": 2667.76,

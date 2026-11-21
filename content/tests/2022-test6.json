@@ -1798,11 +1798,25 @@
      ],
      "vocab": [
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "entertainment",
        "pos": [
         "n"
        ],
        "meaning": "giải trí"
+      },
+      {
+       "term": "seller",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người bán"
       },
       {
        "term": "seat",
@@ -1845,20 +1859,6 @@
         "adj"
        ],
        "meaning": "thuận tiện; tiện lợi"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
-      },
-      {
-       "term": "seller",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người bán"
       }
      ],
      "audioStart": 905.22,
@@ -3238,6 +3238,13 @@
      ],
      "vocab": [
       {
+       "term": "renew",
+       "pos": [
+        "v"
+       ],
+       "meaning": "gia hạn; gia hạn, làm mới"
+      },
+      {
        "term": "lease",
        "pos": [
         "n"
@@ -3293,13 +3300,6 @@
         "n"
        ],
        "meaning": "quan chức"
-      },
-      {
-       "term": "renew",
-       "pos": [
-        "v"
-       ],
-       "meaning": "gia hạn; gia hạn, làm mới"
       }
      ],
      "audioStart": 1534.91,
@@ -4094,6 +4094,11 @@
        "meaning": "vai trò"
       },
       {
+       "term": "ranger",
+       "pos": [],
+       "meaning": "người bảo vệ"
+      },
+      {
        "term": "assign",
        "pos": [
         "v"
@@ -4135,21 +4140,16 @@
        "meaning": "ví dụ"
       },
       {
-       "term": "trail",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đường mòn"
-      },
-      {
        "term": "block",
        "pos": [],
        "meaning": "ngăn chặn"
       },
       {
-       "term": "ranger",
-       "pos": [],
-       "meaning": "người bảo vệ"
+       "term": "trail",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đường mòn"
       }
      ],
      "audioStart": 2001.86,
@@ -4289,12 +4289,26 @@
        "meaning": "thông báo; được công bố"
       },
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "whenever",
        "pos": [
         "adv",
         "conj"
        ],
        "meaning": "bất cứ khi nào; phó từ: bất cứ khi nào"
+      },
+      {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
       },
       {
        "term": "productivity",
@@ -4345,20 +4359,6 @@
         "v"
        ],
        "meaning": "giải thích chi tiết; chi tiết"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
-      },
-      {
-       "term": "arrangement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự sắp xếp"
       }
      ],
      "audioStart": 2082.18,
@@ -4836,6 +4836,11 @@
        "meaning": "kéo dài; cuối cùng"
       },
       {
+       "term": "credential",
+       "pos": [],
+       "meaning": "thông tin xác thực"
+      },
+      {
        "term": "expense",
        "pos": [
         "n"
@@ -4855,11 +4860,6 @@
         "n"
        ],
        "meaning": "biên nhận; hóa đơn"
-      },
-      {
-       "term": "credential",
-       "pos": [],
-       "meaning": "thông tin xác thực"
       }
      ],
      "audioStart": 2332.99,
@@ -4981,6 +4981,27 @@
      ],
      "vocab": [
       {
+       "term": "focus",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tập trung; trọng tâm"
+      },
+      {
+       "term": "aspect",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khía cạnh"
+      },
+      {
+       "term": "investor",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà đầu tư"
+      },
+      {
        "term": "fund",
        "pos": [
         "n"
@@ -4993,6 +5014,13 @@
         "v"
        ],
        "meaning": "đề xuất; gợi ý"
+      },
+      {
+       "term": "firm",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "chắc chắn; công ty"
       },
       {
        "term": "specialize",
@@ -5032,34 +5060,6 @@
         "v"
        ],
        "meaning": "an toàn; đảm bảo an toàn"
-      },
-      {
-       "term": "investment",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đầu tư; sự đầu tư"
-      },
-      {
-       "term": "funding",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn vốn; nguồn tài trợ, nguồn vốn"
-      },
-      {
-       "term": "firm",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "chắc chắn; công ty"
-      },
-      {
-       "term": "focus",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tập trung; trọng tâm"
       }
      ],
      "audioStart": 2418.24,
@@ -5628,6 +5628,11 @@
        "meaning": "công nhận"
       },
       {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -5635,13 +5640,6 @@
         "v"
        ],
        "meaning": "kéo dài; cuối cùng"
-      },
-      {
-       "term": "article",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bài báo; bài viết"
       }
      ],
      "audioStart": 2666.94,

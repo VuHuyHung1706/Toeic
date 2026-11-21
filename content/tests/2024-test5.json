@@ -1547,6 +1547,13 @@
        "meaning": "hội nghị"
       },
       {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "connect",
        "pos": [
         "v"
@@ -1566,13 +1573,6 @@
         "n"
        ],
        "meaning": "hội đồng"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
       }
      ],
      "audioStart": 854.14,
@@ -2056,6 +2056,13 @@
        "meaning": "đơn xin việc; ứng dụng"
       },
       {
+       "term": "identify",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận diện; xác định, nhận diện"
+      },
+      {
        "term": "operation",
        "pos": [
         "n"
@@ -2063,11 +2070,25 @@
        "meaning": "hoạt động"
       },
       {
+       "term": "generate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra"
+      },
+      {
        "term": "efficiency",
        "pos": [
         "n"
        ],
        "meaning": "hiệu quả"
+      },
+      {
+       "term": "operator",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người vận hành"
       },
       {
        "term": "involve",
@@ -2089,27 +2110,6 @@
         "n"
        ],
        "meaning": "hướng dẫn; hướng dẫn, chỉ dẫn"
-      },
-      {
-       "term": "identify",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhận diện; xác định, nhận diện"
-      },
-      {
-       "term": "operator",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người vận hành"
-      },
-      {
-       "term": "generate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra"
       }
      ],
      "audioStart": 1083.24,
@@ -2434,6 +2434,13 @@
        "meaning": "mở rộng; được mở rộng"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "particularly",
        "pos": [],
        "meaning": "đặc biệt"
@@ -2444,13 +2451,6 @@
         "adj"
        ],
        "meaning": "có kiến thức; am hiểu, có kiến thức"
-      },
-      {
-       "term": "somewhere",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "đâu đó"
       }
      ],
      "audioStart": 1241.15,
@@ -2791,6 +2791,13 @@
        "meaning": "mua/ : sự mua, việc mua sắm; mua lại"
       },
       {
+       "term": "seller",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người bán"
+      },
+      {
        "term": "comfortable",
        "pos": [
         "adj"
@@ -2857,13 +2864,6 @@
         "n"
        ],
        "meaning": "bộ"
-      },
-      {
-       "term": "license",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "giấy phép; được cấp phép"
       }
      ],
      "audioStart": 1404.69,
@@ -2996,6 +2996,13 @@
        "meaning": "đơn đặt hàng; đặt hàng"
       },
       {
+       "term": "assemble",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp ráp; tập hợp, xây dựng"
+      },
+      {
        "term": "specialize",
        "pos": [
         "v"
@@ -3009,13 +3016,6 @@
         "v"
        ],
        "meaning": "mô tả điều gì đó đáng ngạc nhiên hay tuyệt vời"
-      },
-      {
-       "term": "assemble",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lắp ráp; tập hợp, xây dựng"
       }
      ],
      "audioStart": 1491.63,
@@ -3183,6 +3183,13 @@
        "meaning": "hàng đầu"
       },
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "description",
        "pos": [
         "n"
@@ -3195,13 +3202,6 @@
         "n"
        ],
        "meaning": "kinh nghiệm; trải nghiệm"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
       }
      ],
      "audioStart": 1568.95,
@@ -4572,6 +4572,13 @@
        "meaning": "phần"
       },
       {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      },
+      {
        "term": "concern",
        "pos": [
         "n"
@@ -4607,18 +4614,11 @@
        "meaning": "yêu cầu; bắt buộc, cần thiết"
       },
       {
-       "term": "coordinator",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người điều phối"
-      },
-      {
-       "term": "discuss",
+       "term": "conduct",
        "pos": [
         "v"
        ],
-       "meaning": "thảo luận"
+       "meaning": "tiến hành/tổ chức; chỉ huy"
       }
      ],
      "audioStart": 2257.81,
@@ -5309,6 +5309,13 @@
        "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
       },
       {
+       "term": "surface",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bề mặt"
+      },
+      {
        "term": "tile",
        "pos": [
         "n"
@@ -5342,13 +5349,6 @@
         "n"
        ],
        "meaning": "việc giao hàng; các chuyến giao hàng"
-      },
-      {
-       "term": "surface",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bề mặt"
       }
      ],
      "audioStart": 2558.98,

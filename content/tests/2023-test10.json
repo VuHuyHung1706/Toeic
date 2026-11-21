@@ -1300,6 +1300,13 @@
      ],
      "vocab": [
       {
+       "term": "arrangement",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự sắp xếp"
+      },
+      {
        "term": "create",
        "pos": [
         "v"
@@ -1320,13 +1327,6 @@
         "v"
        ],
        "meaning": "bao quát; bìa"
-      },
-      {
-       "term": "arrangement",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự sắp xếp"
       }
      ],
      "audioStart": 849.86,
@@ -1644,6 +1644,13 @@
        "meaning": "đại diện; đại lý"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "select",
        "pos": [
         "v"
@@ -1663,13 +1670,6 @@
         "v"
        ],
        "meaning": "hoàn thiện; hoàn thành, hoàn thiện"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       },
       {
        "term": "arrangement",
@@ -1833,6 +1833,13 @@
        "meaning": "giải thưởng"
       },
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "require",
        "pos": [
         "v"
@@ -1867,13 +1874,6 @@
         "n"
        ],
        "meaning": "khu vực"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
       }
      ],
      "audioStart": 1065.98,
@@ -2023,6 +2023,13 @@
        "meaning": "đã gây ra; gây ra"
       },
       {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      },
+      {
        "term": "affect",
        "pos": [
         "v"
@@ -2035,13 +2042,6 @@
         "n"
        ],
        "meaning": "hội nghị"
-      },
-      {
-       "term": "rent",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thuê"
       }
      ],
      "audioStart": 1146.56,
@@ -3029,6 +3029,13 @@
        "meaning": "thông qua; đi qua"
       },
       {
+       "term": "unfortunately",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "đáng tiếc là"
+      },
+      {
        "term": "delay",
        "pos": [
         "n",
@@ -3068,13 +3075,6 @@
        "term": "surprise",
        "pos": [],
        "meaning": "ngạc nhiên"
-      },
-      {
-       "term": "unfortunately",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "đáng tiếc là"
       }
      ],
      "audioStart": 1627.78,
@@ -3430,6 +3430,11 @@
        "meaning": "du khách"
       },
       {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
        "term": "notice",
        "pos": [
         "n",
@@ -3450,11 +3455,6 @@
         "n"
        ],
        "meaning": "địa điểm; vị trí"
-      },
-      {
-       "term": "feature",
-       "pos": [],
-       "meaning": "giới thiệu; đặc điểm, tính năng"
       }
      ],
      "audioStart": 1811.39,
@@ -4053,6 +4053,13 @@
      ],
      "vocab": [
       {
+       "term": "reporter",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phóng viên"
+      },
+      {
        "term": "announce",
        "pos": [
         "v"
@@ -4093,6 +4100,13 @@
        "meaning": "ngành công nghiệp; ngành"
       },
       {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      },
+      {
        "term": "reduce",
        "pos": [
         "adj",
@@ -4118,20 +4132,6 @@
         "n"
        ],
        "meaning": "sự phát hành; phát hành"
-      },
-      {
-       "term": "proud",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "tự hào"
-      },
-      {
-       "term": "promise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hứa"
       }
      ],
      "audioStart": 2155.33,
@@ -4681,6 +4681,20 @@
        "meaning": "phần mềm"
       },
       {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
+       "term": "collection",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ sưu tập"
+      },
+      {
        "term": "data",
        "pos": [
         "n"
@@ -4728,20 +4742,6 @@
         "v"
        ],
        "meaning": "đề xuất; gợi ý"
-      },
-      {
-       "term": "device",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thiết bị"
-      },
-      {
-       "term": "function",
-       "pos": [
-        "n"
-       ],
-       "meaning": "chức năng"
       }
      ],
      "audioStart": 2407.04,
@@ -4898,6 +4898,13 @@
        "meaning": "thách thức"
       },
       {
+       "term": "topic",
+       "pos": [
+        "n"
+       ],
+       "meaning": "chủ đề"
+      },
+      {
        "term": "share",
        "pos": [
         "v"
@@ -4924,13 +4931,6 @@
         "n"
        ],
        "meaning": "sự lãnh đạo"
-      },
-      {
-       "term": "topic",
-       "pos": [
-        "n"
-       ],
-       "meaning": "chủ đề"
       }
      ],
      "audioStart": 2487.62,
@@ -5054,11 +5054,25 @@
        "meaning": "việc giao hàng; các chuyến giao hàng"
       },
       {
+       "term": "assemble",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp ráp; tập hợp, xây dựng"
+      },
+      {
        "term": "variety",
        "pos": [
         "n"
        ],
        "meaning": "sự đa dạng; giống, loại"
+      },
+      {
+       "term": "deliver",
+       "pos": [
+        "v"
+       ],
+       "meaning": "giao hàng, phân phát; giao hàng"
       },
       {
        "term": "container",
@@ -5106,20 +5120,6 @@
         "v"
        ],
        "meaning": "đăng ký"
-      },
-      {
-       "term": "deliver",
-       "pos": [
-        "v"
-       ],
-       "meaning": "giao hàng, phân phát; giao hàng"
-      },
-      {
-       "term": "assemble",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lắp ráp; tập hợp, xây dựng"
       }
      ],
      "audioStart": 2577.47,
@@ -5291,6 +5291,13 @@
        "meaning": "xem xét; xem xét, cân nhắc"
       },
       {
+       "term": "subscribe",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đăng ký"
+      },
+      {
        "term": "release",
        "pos": [
         "n"
@@ -5308,13 +5315,6 @@
        "term": "subscriber",
        "pos": [],
        "meaning": "người đăng ký"
-      },
-      {
-       "term": "subscribe",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đăng ký"
       }
      ],
      "audioStart": 2673.09,

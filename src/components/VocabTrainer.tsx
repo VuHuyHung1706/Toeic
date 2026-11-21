@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { VOCAB_INTERVALS, resetVocab, reviewVocab, setPref, usePref, useVocabCards, type VocabCard } from "@/lib/storage";
 import type { VocabEntry } from "@/lib/types";
 import { CardsSkeleton } from "./Skeleton";
@@ -40,9 +40,23 @@ function speak(text: string) {
   }
 }
 
-/** Từ có thuộc đề / nguồn đang chọn không */
-function inScope(v: VocabEntry, testId: string, source: Source) {
-  const sets = testId === "all" ? Object.values(v.tests) : v.tests[testId] ? [v.tests[testId]] : [];
+/** Phạm vi bộ từ: "all" (mọi đề), "y:2026" (mọi đề của một năm) hoặc id một đề */
+const yearOfScope = (scope: string) => (scope.startsWith("y:") ? Number(scope.slice(2)) : null);
+const isSingleTest = (scope: string) => scope !== "all" && !scope.startsWith("y:");
+
+/** Từ có thuộc phạm vi / nguồn đang chọn không */
+function inScope(v: VocabEntry, scope: string, source: Source) {
+  const year = yearOfScope(scope);
+  const sets =
+    scope === "all"
+      ? Object.values(v.tests)
+      : year !== null
+        ? Object.entries(v.tests)
+            .filter(([id]) => id.startsWith(`${year}-`))
+            .map(([, s]) => s)
+        : v.tests[scope]
+          ? [v.tests[scope]]
+          : [];
   return sets.some((s) => (source === "all" ? s.r || s.l : s[source]));
 }
 
@@ -77,9 +91,15 @@ export default function VocabTrainer({ tests }: { tests: TestRef[] }) {
 function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[] }) {
   const cards = useVocabCards();
   const router = useRouter();
-  const initialTest = useSearchParams().get("test");
+  const params = useSearchParams();
+  const initialTest = params.get("test");
+  const initialYear = Number(params.get("year"));
   const [testId, setTestIdState] = useState<string>(
-    initialTest && tests.some((t) => t.id === initialTest) ? initialTest : "all",
+    initialTest && tests.some((t) => t.id === initialTest)
+      ? initialTest
+      : tests.some((t) => t.year === initialYear)
+        ? `y:${initialYear}`
+        : "all",
   );
   const [tab, setTab] = useState<Tab>(initialTest ? "learn" : "tests");
   const source = usePref<Source>("vocabSource", "all");
@@ -90,14 +110,17 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
 
   const setTestId = (id: string) => {
     setTestIdState(id);
-    router.replace(id === "all" ? "/vocabulary" : `/vocabulary?test=${id}`, { scroll: false });
+    const year = yearOfScope(id);
+    router.replace(id === "all" ? "/vocabulary" : year !== null ? `/vocabulary?year=${year}` : `/vocabulary?test=${id}`, {
+      scroll: false,
+    });
   };
 
   const pool = useMemo(() => allVocab.filter((v) => showBasic || !v.basic), [allVocab, showBasic]);
   // từ của đề đang chọn, theo thứ tự câu hỏi trong đề; "tất cả" thì theo số đề có từ đó
   const vocab = useMemo(() => {
     const list = pool.filter((v) => inScope(v, testId, source));
-    if (testId === "all") return list;
+    if (!isSingleTest(testId)) return list;
     return list.sort((a, b) => firstNumber(a, testId, source) - firstNumber(b, testId, source) || a.w.localeCompare(b.w));
   }, [pool, testId, source]);
 
@@ -113,66 +136,77 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
   const mastered = vocab.filter((v) => statusOf(cards[v.w]) === "mastered").length;
   const years = [...new Set(tests.map((t) => t.year))].sort((a, b) => b - a);
   const testLabel = (id: string) => {
+    if (id === "all") return `Tất cả ${tests.length} đề`;
+    const year = yearOfScope(id);
+    if (year !== null) return `ETS ${year} (${tests.filter((t) => t.year === year).length} đề)`;
     const t = tests.find((x) => x.id === id);
     return t ? `ETS ${t.year} · Test ${t.number}` : id;
   };
-  const countFor = (id: string) => pool.filter((v) => inScope(v, id, source)).length;
+  // năm đang mở trong bộ lọc: năm đã chọn, hoặc năm của đề đã chọn
+  const openYear = yearOfScope(testId) ?? tests.find((t) => t.id === testId)?.year ?? null;
 
   if (session) return <FlashcardSession cards={session} testId={testId} onExit={() => setSession(null)} />;
 
   return (
     <>
-      <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3 rounded-xl border border-line bg-surface p-3 text-sm">
-        <label className="flex items-center gap-2">
-          <span className="text-muted">Bộ từ:</span>
-          <select
-            value={testId}
-            onChange={(e) => setTestId(e.target.value)}
-            className="rounded-md border border-line bg-surface px-2 py-1.5 font-medium"
-          >
-            <option value="all">Tất cả {tests.length} đề ({countFor("all").toLocaleString("vi-VN")} từ)</option>
-            {years.map((y) => (
-              <optgroup key={y} label={`ETS ${y}`}>
-                {tests
-                  .filter((t) => t.year === y)
-                  .map((t) => (
-                    <option key={t.id} value={t.id}>
-                      ETS {y} · Test {t.number} ({countFor(t.id)} từ)
-                    </option>
-                  ))}
-              </optgroup>
-            ))}
-          </select>
-        </label>
-        <div className="flex items-center gap-2">
-          <span className="text-muted">Phần:</span>
-          <div className="inline-flex rounded-md border border-line p-0.5">
-            {(
-              [
-                ["all", "Tất cả"],
-                ["l", "🎧 Nghe"],
-                ["r", "📖 Đọc"],
-              ] as const
-            ).map(([s, label]) => (
-              <button
-                key={s}
-                onClick={() => setPref("vocabSource", s)}
-                className={`rounded px-3 py-1 ${source === s ? "bg-primary text-on-primary" : "hover:bg-surface-2"}`}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
+      <div className="mt-6 rounded-xl border border-line bg-surface p-3 text-sm">
+        {/* lọc theo đề: chọn năm → chọn đề (hoặc cả năm) */}
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="w-14 shrink-0 text-muted">Năm:</span>
+          <Chip active={testId === "all"} onClick={() => setTestId("all")}>
+            Tất cả
+          </Chip>
+          {years.map((y) => (
+            <Chip key={y} active={openYear === y} onClick={() => setTestId(`y:${y}`)}>
+              ETS {y}
+            </Chip>
+          ))}
         </div>
-        <label className="flex items-center gap-2 text-muted">
-          <input type="checkbox" checked={showBasic} onChange={(e) => setPref("vocabBasic", e.target.checked ? "1" : "0")} className="size-4" />
-          Hiện cả từ cơ bản
-        </label>
-        {testId !== "all" && (
-          <button onClick={() => setTestId("all")} className="ml-auto text-muted hover:text-fg">
-            ✕ Bỏ chọn đề
-          </button>
+        {openYear !== null && (
+          <div className="mt-2 flex flex-wrap items-center gap-1.5">
+            <span className="w-14 shrink-0 text-muted">Đề:</span>
+            <Chip active={testId === `y:${openYear}`} onClick={() => setTestId(`y:${openYear}`)}>
+              Cả năm
+            </Chip>
+            {tests
+              .filter((t) => t.year === openYear)
+              .map((t) => (
+                <Chip key={t.id} active={testId === t.id} onClick={() => setTestId(t.id)}>
+                  Test {t.number}
+                </Chip>
+              ))}
+          </div>
         )}
+        <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-line pt-3">
+          <span className="font-semibold">
+            {testLabel(testId)}
+            <span className="font-normal text-muted"> · {vocab.length.toLocaleString("vi-VN")} từ</span>
+          </span>
+          <div className="flex items-center gap-2">
+            <span className="text-muted">Phần:</span>
+            <div className="inline-flex rounded-md border border-line p-0.5">
+              {(
+                [
+                  ["all", "Tất cả"],
+                  ["l", "🎧 Nghe"],
+                  ["r", "📖 Đọc"],
+                ] as const
+              ).map(([s, label]) => (
+                <button
+                  key={s}
+                  onClick={() => setPref("vocabSource", s)}
+                  className={`rounded px-3 py-1 ${source === s ? "bg-primary text-on-primary" : "hover:bg-surface-2"}`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+          <label className="flex items-center gap-2 text-muted">
+            <input type="checkbox" checked={showBasic} onChange={(e) => setPref("vocabBasic", e.target.checked ? "1" : "0")} className="size-4" />
+            Hiện cả từ cơ bản
+          </label>
+        </div>
       </div>
 
       <div className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-4">
@@ -203,7 +237,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
       {tab === "tests" && (
         <TestGrid
           tests={tests}
-          years={years}
+          years={openYear !== null ? [openYear] : years}
           vocab={pool}
           source={source}
           cards={cards}
@@ -220,7 +254,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
           <h2 className="text-lg font-semibold">{testId === "all" ? "Phiên học hôm nay" : `Từ vựng ${testLabel(testId)}`}</h2>
           <p className="mt-1 text-sm text-muted">
             Ôn {due.length} thẻ đến hạn trước, sau đó học từ mới{" "}
-            {testId === "all" ? "theo số đề có từ đó (từ hay gặp trước)" : "theo thứ tự xuất hiện trong đề"}. Mỗi thẻ là một từ gốc
+            {isSingleTest(testId) ? "theo thứ tự xuất hiện trong đề" : "theo số đề có từ đó (từ hay gặp trước)"}. Mỗi thẻ là một từ gốc
             kèm các dạng khác (danh từ, động từ, tính từ…). Nhớ → thẻ lên hộp tiếp theo, ôn lại sau {VOCAB_INTERVALS.join(" → ")} ngày; quên → về hộp 1.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
@@ -234,7 +268,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
                 {n}
               </button>
             ))}
-            {testId !== "all" && (
+            {isSingleTest(testId) && (
               <button
                 onClick={() => setNewPerSession(fresh.length)}
                 className={`rounded-full border px-3 py-1 ${newPerSession === fresh.length && !NEW_OPTIONS.includes(fresh.length) ? "border-primary bg-primary-soft text-primary" : "border-line"}`}
@@ -254,7 +288,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
         </div>
       )}
 
-      {tab === "list" && <WordList vocab={vocab} cards={cards} testId={testId === "all" ? null : testId} />}
+      {tab === "list" && <WordList vocab={vocab} cards={cards} testId={isSingleTest(testId) ? testId : null} />}
     </>
   );
 }
@@ -326,6 +360,20 @@ function TestGrid({
         </section>
       ))}
     </div>
+  );
+}
+
+function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
+  return (
+    <button
+      onClick={onClick}
+      aria-pressed={active}
+      className={`rounded-full border px-3 py-1 transition-colors ${
+        active ? "border-primary bg-primary text-on-primary" : "border-line hover:bg-surface-2"
+      }`}
+    >
+      {children}
+    </button>
   );
 }
 

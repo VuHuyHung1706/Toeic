@@ -1954,6 +1954,13 @@
        "meaning": "bao gồm"
       },
       {
+       "term": "menu",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thực đơn"
+      },
+      {
        "term": "convenient",
        "pos": [
         "adj"
@@ -1981,13 +1988,6 @@
         "adj"
        ],
        "meaning": "thường xuyên; regular'  là tính từ bổ sung nghĩa cho danh từ 'visitors"
-      },
-      {
-       "term": "menu",
-       "pos": [
-        "n"
-       ],
-       "meaning": "thực đơn"
       }
      ],
      "audioStart": 980.8,
@@ -2139,6 +2139,11 @@
        "meaning": "yêu cầu"
       },
       {
+       "term": "communicate",
+       "pos": [],
+       "meaning": "giao tiếp"
+      },
+      {
        "term": "process",
        "pos": [
         "n"
@@ -2173,11 +2178,6 @@
         "n"
        ],
        "meaning": "tiếp thị"
-      },
-      {
-       "term": "communicate",
-       "pos": [],
-       "meaning": "giao tiếp"
       }
      ],
      "audioStart": 1054.59,
@@ -2315,6 +2315,13 @@
        "meaning": "sau đây; tuân theo"
       },
       {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "tile",
        "pos": [
         "n"
@@ -2329,11 +2336,11 @@
        "meaning": "đạt được"
       },
       {
-       "term": "replace",
+       "term": "remind",
        "pos": [
         "v"
        ],
-       "meaning": "thay thế"
+       "meaning": "nhắc nhở"
       },
       {
        "term": "possibly",
@@ -2355,13 +2362,6 @@
         "v"
        ],
        "meaning": "làm hài lòng"
-      },
-      {
-       "term": "remind",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhắc nhở"
       }
      ],
      "audioStart": 1133.06,
@@ -2679,6 +2679,14 @@
        "meaning": "các hạn chế, quy định"
       },
       {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
        "term": "range",
        "pos": [
         "n",
@@ -2706,14 +2714,6 @@
         "adj"
        ],
        "meaning": "cụ thể"
-      },
-      {
-       "term": "discount",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "giảm giá"
       }
      ],
      "audioStart": 1296.26,
@@ -2870,6 +2870,13 @@
        "meaning": "nhà cung cấp"
       },
       {
+       "term": "match",
+       "pos": [
+        "v"
+       ],
+       "meaning": "khớp; khớp, ngang bằng"
+      },
+      {
        "term": "occasion",
        "pos": [
         "n"
@@ -2897,13 +2904,6 @@
         "v"
        ],
        "meaning": "thay thế"
-      },
-      {
-       "term": "match",
-       "pos": [
-        "v"
-       ],
-       "meaning": "khớp; khớp, ngang bằng"
       }
      ],
      "audioStart": 1366.78,
@@ -3046,6 +3046,13 @@
        "meaning": "phát triển; sự phát triển"
       },
       {
+       "term": "develop",
+       "pos": [
+        "v"
+       ],
+       "meaning": "phát triển; phát triển, phát minh"
+      },
+      {
        "term": "delay",
        "pos": [
         "n",
@@ -3102,13 +3109,6 @@
         "n"
        ],
        "meaning": "vấn đề; vấn đề, số báo"
-      },
-      {
-       "term": "develop",
-       "pos": [
-        "v"
-       ],
-       "meaning": "phát triển; phát triển, phát minh"
       }
      ],
      "audioStart": 1446.85,
@@ -3428,6 +3428,13 @@
        "meaning": "thiết kế; thiết kế (trong ngữ cảnh này là hình ảnh thiết kế)"
       },
       {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
        "term": "supply",
        "pos": [
         "n",
@@ -3441,13 +3448,6 @@
         "n"
        ],
        "meaning": "gạch, ngói"
-      },
-      {
-       "term": "create",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra; tạo"
       }
      ],
      "audioStart": 1607.49,
@@ -3774,6 +3774,13 @@
        "meaning": "nộp, đệ trình; nộp"
       },
       {
+       "term": "nominee",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người được đề cử"
+      },
+      {
        "term": "award",
        "pos": [
         "n"
@@ -3816,6 +3823,13 @@
        "meaning": "đại diện"
       },
       {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -3830,20 +3844,6 @@
         "n"
        ],
        "meaning": "sự đề cử"
-      },
-      {
-       "term": "review",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc đánh giá; xem xét, đánh giá"
-      },
-      {
-       "term": "nominee",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người được đề cử"
       }
      ],
      "audioStart": 1782.98,
@@ -3998,6 +3998,13 @@
        "meaning": "bình tĩnh"
       },
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "typically",
        "pos": [
         "adv"
@@ -4031,13 +4038,6 @@
         "n"
        ],
        "meaning": "niềm vui"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
       }
      ],
      "audioStart": 1902.53,
@@ -4180,6 +4180,13 @@
        "meaning": "hiệu suất; buổi biểu diễn"
       },
       {
+       "term": "evaluation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đánh giá; đánh giá"
+      },
+      {
        "term": "announce",
        "pos": [
         "v"
@@ -4223,6 +4230,13 @@
        "meaning": "vào"
       },
       {
+       "term": "appraisal",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đánh giá"
+      },
+      {
        "term": "introduce",
        "pos": [
         "v"
@@ -4236,20 +4250,6 @@
         "v"
        ],
        "meaning": "hoàn thành; hoàn chỉnh"
-      },
-      {
-       "term": "appraisal",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đánh giá"
-      },
-      {
-       "term": "evaluation",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đánh giá; đánh giá"
       }
      ],
      "audioStart": 1982.14,
@@ -4559,18 +4559,18 @@
        "meaning": "sản xuất; sự sản xuất"
       },
       {
-       "term": "guarantee",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự đảm bảo, cam kết"
-      },
-      {
        "term": "review",
        "pos": [
         "n"
        ],
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
+       "term": "guarantee",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đảm bảo, cam kết"
       }
      ],
      "audioStart": 2138.82,
@@ -4734,6 +4734,13 @@
        "meaning": "chia sẻ; chia sẻ, dùng chung"
       },
       {
+       "term": "launch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ra mắt; khởi động"
+      },
+      {
        "term": "action",
        "pos": [
         "n"
@@ -4775,15 +4782,6 @@
         "v"
        ],
        "meaning": "tính phí; khoản phí, khoản tính phí"
-      },
-      {
-       "term": "last",
-       "pos": [
-        "adj",
-        "adv",
-        "v"
-       ],
-       "meaning": "kéo dài; cuối cùng"
       }
      ],
      "audioStart": 2234.5,

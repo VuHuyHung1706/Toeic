@@ -2875,6 +2875,13 @@
      ],
      "vocab": [
       {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+      },
+      {
        "term": "satisfy",
        "pos": [
         "v"
@@ -2909,13 +2916,6 @@
         "adj"
        ],
        "meaning": "rộng"
-      },
-      {
-       "term": "review",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc đánh giá; xem xét, đánh giá"
       }
      ],
      "audioStart": 1392.97,
@@ -3278,6 +3278,13 @@
        "meaning": "nỗ lực"
       },
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "celebrate",
        "pos": [
         "v"
@@ -3311,13 +3318,6 @@
         "n"
        ],
        "meaning": "thông báo"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
       }
      ],
      "audioStart": 1545.86,
@@ -3801,6 +3801,13 @@
        "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
       },
       {
+       "term": "accessory",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phụ kiện"
+      },
+      {
        "term": "storage",
        "pos": [
         "n"
@@ -3813,13 +3820,6 @@
         "n"
        ],
        "meaning": "vấn đề; vấn đề, số báo"
-      },
-      {
-       "term": "accessory",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phụ kiện"
       }
      ],
      "audioStart": 1808.39,
@@ -4143,6 +4143,13 @@
        "meaning": "hoạt động"
       },
       {
+       "term": "appear",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xuất hiện"
+      },
+      {
        "term": "draw",
        "pos": [
         "v"
@@ -4195,13 +4202,6 @@
         "n"
        ],
        "meaning": "các nhà bán lẻ; nhà bán lẻ"
-      },
-      {
-       "term": "rent",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thuê"
       }
      ],
      "audioStart": 2004.95,
@@ -4359,6 +4359,13 @@
        "meaning": "quyền truy cập, sự vào; quyền truy cập"
       },
       {
+       "term": "effort",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nỗ lực"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -4366,6 +4373,13 @@
         "v"
        ],
        "meaning": "kéo dài; cuối cùng"
+      },
+      {
+       "term": "conduct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tiến hành/tổ chức; chỉ huy"
       },
       {
        "term": "research",
@@ -4382,6 +4396,13 @@
        "meaning": "mạng lưới"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "major",
        "pos": [
         "adj"
@@ -4394,27 +4415,6 @@
         "n"
        ],
        "meaning": "vấn đề; vấn đề, số báo"
-      },
-      {
-       "term": "organization",
-       "pos": [
-        "n"
-       ],
-       "meaning": "tổ chức"
-      },
-      {
-       "term": "funding",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn vốn; nguồn tài trợ, nguồn vốn"
-      },
-      {
-       "term": "perform",
-       "pos": [
-        "v"
-       ],
-       "meaning": "biểu diễn, trình diễn; biểu diễn"
       }
      ],
      "audioStart": 2083.61,
@@ -4560,6 +4560,13 @@
        "meaning": "xem xét; xem xét, cân nhắc"
       },
       {
+       "term": "create",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra; tạo"
+      },
+      {
        "term": "specialize",
        "pos": [
         "v"
@@ -4601,25 +4608,18 @@
        "meaning": "thảo luận"
       },
       {
+       "term": "experience",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kinh nghiệm; trải nghiệm"
+      },
+      {
        "term": "industry",
        "pos": [
         "n"
        ],
        "meaning": "ngành công nghiệp; ngành"
-      },
-      {
-       "term": "compensate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bù đắp"
-      },
-      {
-       "term": "interested",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "quan tâm"
       }
      ],
      "audioStart": 2169.63,
@@ -4826,11 +4826,11 @@
        "meaning": "dựa trên"
       },
       {
-       "term": "experience",
+       "term": "resource",
        "pos": [
         "n"
        ],
-       "meaning": "kinh nghiệm; trải nghiệm"
+       "meaning": "nguồn lực"
       }
      ],
      "audioStart": 2256.59,
@@ -4984,18 +4984,18 @@
        "meaning": "háo hức"
       },
       {
-       "term": "match",
-       "pos": [
-        "v"
-       ],
-       "meaning": "khớp; khớp, ngang bằng"
-      },
-      {
        "term": "player",
        "pos": [
         "n"
        ],
        "meaning": "người chơi"
+      },
+      {
+       "term": "match",
+       "pos": [
+        "v"
+       ],
+       "meaning": "khớp; khớp, ngang bằng"
       }
      ],
      "audioStart": 2327.94,
@@ -5322,6 +5322,13 @@
        "meaning": "thách thức"
       },
       {
+       "term": "player",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người chơi"
+      },
+      {
        "term": "budget",
        "pos": [
         "n"
@@ -5341,13 +5348,6 @@
         "v"
        ],
        "meaning": "làm phấn khích"
-      },
-      {
-       "term": "announce",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thông báo; được công bố"
       }
      ],
      "audioStart": 2481.95,
@@ -5509,6 +5509,13 @@
        "meaning": "mặt hàng, sản phẩm; vật phẩm"
       },
       {
+       "term": "quantity",
+       "pos": [
+        "n"
+       ],
+       "meaning": "số lượng"
+      },
+      {
        "term": "enter",
        "pos": [
         "v"
@@ -5556,13 +5563,6 @@
         "v"
        ],
        "meaning": "đếm"
-      },
-      {
-       "term": "quantity",
-       "pos": [
-        "n"
-       ],
-       "meaning": "số lượng"
       }
      ],
      "audioStart": 2562.91,
@@ -5717,6 +5717,14 @@
        "meaning": "quầy"
       },
       {
+       "term": "discount",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giảm giá"
+      },
+      {
        "term": "while",
        "pos": [
         "conj"
@@ -5729,14 +5737,6 @@
         "n"
        ],
        "meaning": "bán hàng"
-      },
-      {
-       "term": "discount",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "giảm giá"
       }
      ],
      "audioStart": 2648.82,

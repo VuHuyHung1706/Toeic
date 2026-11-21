@@ -2638,18 +2638,18 @@
        "meaning": "ảnh hưởng; ảnh hưởng đến"
       },
       {
-       "term": "review",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc đánh giá; xem xét, đánh giá"
-      },
-      {
        "term": "deadline",
        "pos": [
         "n"
        ],
        "meaning": "hạn chót; thời hạn"
+      },
+      {
+       "term": "review",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc đánh giá; xem xét, đánh giá"
       }
      ],
      "audioStart": 1311.3,
@@ -2789,6 +2789,13 @@
        "meaning": "hợp đồng"
       },
       {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
        "term": "conference",
        "pos": [
         "n"
@@ -2837,13 +2844,6 @@
         "v"
        ],
        "meaning": "giảm giá"
-      },
-      {
-       "term": "host",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tổ chức; tổ chức, đăng cai"
       }
      ],
      "audioStart": 1396.1,
@@ -3472,6 +3472,13 @@
        "meaning": "cập nhật; thông tin cập nhật"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "promote",
        "pos": [
         "v"
@@ -3498,13 +3505,6 @@
         "v"
        ],
        "meaning": "thể hiện; trưng bày"
-      },
-      {
-       "term": "option",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1726.14,
@@ -3836,18 +3836,18 @@
        "meaning": "chi phí"
       },
       {
-       "term": "estimate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
-      },
-      {
        "term": "arrangement",
        "pos": [
         "n"
        ],
        "meaning": "sự sắp xếp"
+      },
+      {
+       "term": "estimate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
       }
      ],
      "audioStart": 1929.92,
@@ -4169,6 +4169,13 @@
        "meaning": "gần đây; gần đây, mới đây"
       },
       {
+       "term": "launch",
+       "pos": [
+        "v"
+       ],
+       "meaning": "ra mắt; khởi động"
+      },
+      {
        "term": "initiative",
        "pos": [
         "n"
@@ -4195,13 +4202,6 @@
         "v"
        ],
        "meaning": "thể hiện; trưng bày"
-      },
-      {
-       "term": "launch",
-       "pos": [
-        "v"
-       ],
-       "meaning": "ra mắt; khởi động"
       }
      ],
      "audioStart": 2083.01,
@@ -4327,6 +4327,13 @@
      ],
      "vocab": [
       {
+       "term": "server",
+       "pos": [
+        "n"
+       ],
+       "meaning": "máy chủ"
+      },
+      {
        "term": "host",
        "pos": [
         "v"
@@ -4374,13 +4381,6 @@
         "n"
        ],
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
-      },
-      {
-       "term": "server",
-       "pos": [
-        "n"
-       ],
-       "meaning": "máy chủ"
       }
      ],
      "audioStart": 2158.46,
@@ -4697,6 +4697,20 @@
        "meaning": "hội thảo"
       },
       {
+       "term": "exist",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã tồn tại"
+      },
+      {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "successfully",
        "pos": [
         "adv"
@@ -4732,32 +4746,18 @@
        "meaning": "phiên; buổi học, phiên họp"
       },
       {
+       "term": "construct",
+       "pos": [
+        "v"
+       ],
+       "meaning": "xây dựng"
+      },
+      {
        "term": "detailed",
        "pos": [
         "adj"
        ],
        "meaning": "chi tiết"
-      },
-      {
-       "term": "proposal",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đề xuất; đề xuất, đề nghị"
-      },
-      {
-       "term": "submit",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nộp, đệ trình; nộp"
-      },
-      {
-       "term": "fortunate",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "may mắn"
       }
      ],
      "audioStart": 2330.94,
@@ -4916,6 +4916,13 @@
        "meaning": "cạnh tranh"
       },
       {
+       "term": "salary",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lương"
+      },
+      {
        "term": "benefit",
        "pos": [
         "n"
@@ -4937,6 +4944,13 @@
        "meaning": "gần đây; gần đây, mới đây"
       },
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "consultant",
        "pos": [
         "n"
@@ -4949,21 +4963,6 @@
         "adv"
        ],
        "meaning": "hiện tại"
-      },
-      {
-       "term": "request",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "yêu cầu"
-      },
-      {
-       "term": "create",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra; tạo"
       }
      ],
      "audioStart": 2425.41,
@@ -5303,6 +5302,13 @@
        "meaning": "hiện tại"
       },
       {
+       "term": "repair",
+       "pos": [
+        "v"
+       ],
+       "meaning": "sửa chữa"
+      },
+      {
        "term": "expect",
        "pos": [
         "v"
@@ -5329,13 +5335,6 @@
         "adj"
        ],
        "meaning": "đáng khuyên"
-      },
-      {
-       "term": "repair",
-       "pos": [
-        "v"
-       ],
-       "meaning": "sửa chữa"
       }
      ],
      "audioStart": 2593.98,
@@ -5503,6 +5502,13 @@
        "meaning": "chương trình nghị sự; chương trình"
       },
       {
+       "term": "election",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cuộc bầu cử"
+      },
+      {
        "term": "board",
        "pos": [
         "v"
@@ -5515,13 +5521,6 @@
         "v"
        ],
        "meaning": "thông qua; đi qua"
-      },
-      {
-       "term": "election",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc bầu cử"
       }
      ],
      "audioStart": 2684.42,

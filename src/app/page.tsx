@@ -9,7 +9,7 @@ const CARDS: [href: string, title: string, desc: string][] = [
   ["/tests", "Thi thử & luyện đề", "200 câu bấm giờ như phòng thi, hoặc luyện riêng từng part kèm giải thích."],
   ["/practice", "Luyện theo dạng câu", "Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp — gom từ cả 48 đề."],
   ["/listening", "Luyện nghe chép chính tả", "Điền từ còn thiếu hoặc chép lại cả câu từ audio Part 1–4."],
-  ["/vocabulary", "Từ vựng TOEIC", "Hơn 1.400 từ trích từ đề, học bằng thẻ ghi nhớ với lịch ôn ngắt quãng."],
+  ["/vocabulary", "Từ vựng TOEIC", "50–90 từ TOEIC hay gặp mỗi đề, học bằng thẻ ghi nhớ với lịch ôn ngắt quãng."],
   ["/mistakes", "Sổ câu sai", "Tự gom câu làm sai và hẹn ngày ôn lại tới khi thuộc."],
   ["/history", "Tiến độ & điểm dự đoán", "Biểu đồ điểm, tỉ lệ đúng từng part, lịch học và điểm dự đoán."],
 ];

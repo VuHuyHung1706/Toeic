@@ -1664,6 +1664,13 @@
        "meaning": "hàng đầu"
       },
       {
+       "term": "colleague",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đồng nghiệp"
+      },
+      {
        "term": "block",
        "pos": [],
        "meaning": "ngăn chặn"
@@ -1689,13 +1696,6 @@
         "n"
        ],
        "meaning": "bộ"
-      },
-      {
-       "term": "colleague",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đồng nghiệp"
       }
      ],
      "audioStart": 843.46,
@@ -1835,6 +1835,13 @@
        "meaning": "có khả năng"
       },
       {
+       "term": "realize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận ra; nhận ra, hiện thực hóa"
+      },
+      {
        "term": "contract",
        "pos": [
         "n"
@@ -1857,6 +1864,13 @@
        "meaning": "giải thích chi tiết; chi tiết"
       },
       {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
        "term": "including",
        "pos": [
         "prep"
@@ -1869,20 +1883,6 @@
         "v"
        ],
        "meaning": "kỳ vọng; mong đợi, dự kiến"
-      },
-      {
-       "term": "position",
-       "pos": [
-        "v"
-       ],
-       "meaning": "định vị; vị trí (công việc)"
-      },
-      {
-       "term": "realize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhận ra; nhận ra, hiện thực hóa"
       },
       {
        "term": "salary",
@@ -3230,6 +3230,13 @@
        "meaning": "hợp pháp; pháp lý"
       },
       {
+       "term": "term",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thuật ngữ"
+      },
+      {
        "term": "reward",
        "pos": [
         "v"
@@ -3277,25 +3284,18 @@
        "meaning": "tài khoản"
       },
       {
-       "term": "regulation",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quy định"
-      },
-      {
-       "term": "notify",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thông báo"
-      },
-      {
        "term": "suspend",
        "pos": [
         "v"
        ],
        "meaning": "hoãn lại"
+      },
+      {
+       "term": "regulation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quy định"
       }
      ],
      "audioStart": 1575.74,
@@ -4185,11 +4185,25 @@
        "meaning": "thông báo; thông báo/chú ý"
       },
       {
+       "term": "difficulty",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khó khăn"
+      },
+      {
        "term": "seriously",
        "pos": [
         "adv"
        ],
        "meaning": "nghiêm túc; nghiêm trọng"
+      },
+      {
+       "term": "technician",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỹ thuật viên"
       },
       {
        "term": "resolve",
@@ -4206,18 +4220,6 @@
        "meaning": "vấn đề; vấn đề, số báo"
       },
       {
-       "term": "inconvenience",
-       "pos": [],
-       "meaning": "sự bất tiện"
-      },
-      {
-       "term": "technician",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kỹ thuật viên"
-      },
-      {
        "term": "apology",
        "pos": [
         "n"
@@ -4225,11 +4227,9 @@
        "meaning": "lời xin lỗi với"
       },
       {
-       "term": "difficulty",
-       "pos": [
-        "n"
-       ],
-       "meaning": "khó khăn"
+       "term": "inconvenience",
+       "pos": [],
+       "meaning": "sự bất tiện"
       }
      ],
      "audioStart": 2107.9,
@@ -4383,20 +4383,6 @@
        "meaning": "chủ yếu"
       },
       {
-       "term": "throughout",
-       "pos": [
-        "prep"
-       ],
-       "meaning": "khắp; suốt"
-      },
-      {
-       "term": "location",
-       "pos": [
-        "n"
-       ],
-       "meaning": "địa điểm; vị trí"
-      },
-      {
        "term": "presentation",
        "pos": [
         "n"
@@ -4404,11 +4390,25 @@
        "meaning": "bài thuyết trình"
       },
       {
+       "term": "throughout",
+       "pos": [
+        "prep"
+       ],
+       "meaning": "khắp; suốt"
+      },
+      {
        "term": "topic",
        "pos": [
         "n"
        ],
        "meaning": "chủ đề"
+      },
+      {
+       "term": "location",
+       "pos": [
+        "n"
+       ],
+       "meaning": "địa điểm; vị trí"
       }
      ],
      "audioStart": 2179.9,
@@ -4571,6 +4571,13 @@
        "meaning": "phí; phí, lệ phí"
       },
       {
+       "term": "enter",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vào"
+      },
+      {
        "term": "however",
        "pos": [
         "adv",
@@ -4598,13 +4605,6 @@
         "v"
        ],
        "meaning": "tiếp tục"
-      },
-      {
-       "term": "enter",
-       "pos": [
-        "v"
-       ],
-       "meaning": "vào"
       }
      ],
      "audioStart": 2263.49,
@@ -5086,6 +5086,13 @@
      ],
      "vocab": [
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "supervisor",
        "pos": [
         "n"
@@ -5150,13 +5157,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
       }
      ],
      "audioStart": 2506.69,
@@ -5323,18 +5323,18 @@
        "meaning": "quyền truy cập, sự vào; quyền truy cập"
       },
       {
-       "term": "excite",
-       "pos": [
-        "v"
-       ],
-       "meaning": "làm phấn khích"
-      },
-      {
        "term": "device",
        "pos": [
         "n"
        ],
        "meaning": "thiết bị"
+      },
+      {
+       "term": "excite",
+       "pos": [
+        "v"
+       ],
+       "meaning": "làm phấn khích"
       }
      ],
      "audioStart": 2584.06,
@@ -5493,19 +5493,11 @@
        "meaning": "tiêu chuẩn"
       },
       {
-       "term": "detail",
+       "term": "accessory",
        "pos": [
-        "n",
-        "v"
+        "n"
        ],
-       "meaning": "giải thích chi tiết; chi tiết"
-      },
-      {
-       "term": "register",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đăng ký"
+       "meaning": "phụ kiện"
       },
       {
        "term": "panel",
@@ -5515,16 +5507,24 @@
        "meaning": "hội đồng"
       },
       {
-       "term": "accessory",
+       "term": "register",
        "pos": [
-        "n"
+        "v"
        ],
-       "meaning": "phụ kiện"
+       "meaning": "đăng ký"
       },
       {
        "term": "thick",
        "pos": [],
        "meaning": "dày"
+      },
+      {
+       "term": "detail",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "giải thích chi tiết; chi tiết"
       }
      ],
      "audioStart": 2668.1,

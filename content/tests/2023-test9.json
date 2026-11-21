@@ -1480,6 +1480,13 @@
        "meaning": "tài sản"
       },
       {
+       "term": "cause",
+       "pos": [
+        "v"
+       ],
+       "meaning": "đã gây ra; gây ra"
+      },
+      {
        "term": "damage",
        "pos": [],
        "meaning": "thiệt hại; bị hư hỏng"
@@ -1511,13 +1518,6 @@
         "n"
        ],
        "meaning": "tình huống"
-      },
-      {
-       "term": "cause",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã gây ra; gây ra"
       }
      ],
      "audioStart": 918.78,
@@ -1988,6 +1988,13 @@
        "meaning": "quảng cáo"
       },
       {
+       "term": "commercial",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "thương mại; quảng cáo (trên TV)"
+      },
+      {
        "term": "concerned",
        "pos": [
         "adj"
@@ -2005,13 +2012,6 @@
         "n"
        ],
        "meaning": "sự cạnh tranh; cuộc cạnh tranh"
-      },
-      {
-       "term": "commercial",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "thương mại; quảng cáo (trên TV)"
       },
       {
        "term": "competitor",
@@ -2189,6 +2189,13 @@
        "meaning": "cải thiện"
       },
       {
+       "term": "recording",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
+      },
+      {
        "term": "server",
        "pos": [
         "n"
@@ -2201,13 +2208,6 @@
         "v"
        ],
        "meaning": "nhắc nhở"
-      },
-      {
-       "term": "recording",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bản ghi âm/đang ghi; bản ghi âm"
       }
      ],
      "audioStart": 1225.6,
@@ -2365,18 +2365,18 @@
        "meaning": "phục vụ"
       },
       {
-       "term": "schedule",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lịch trình; lên lịch"
-      },
-      {
        "term": "server",
        "pos": [
         "n"
        ],
        "meaning": "máy chủ"
+      },
+      {
+       "term": "schedule",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lịch trình; lên lịch"
       }
      ],
      "audioStart": 1305.92,
@@ -3058,6 +3058,13 @@
        "meaning": "liên kết"
       },
       {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
        "term": "account",
        "pos": [],
        "meaning": "tài khoản"
@@ -3077,26 +3084,19 @@
        "meaning": "sự sẵn có; sự có mặt, khả năng sẵn có"
       },
       {
+       "term": "afterward",
+       "pos": [
+        "adv"
+       ],
+       "meaning": "sau đó"
+      },
+      {
        "term": "contact",
        "pos": [
         "n",
         "v"
        ],
        "meaning": "hãy liên hệ; liên hệ"
-      },
-      {
-       "term": "manage",
-       "pos": [
-        "v"
-       ],
-       "meaning": "quản lý"
-      },
-      {
-       "term": "afterward",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "sau đó"
       }
      ],
      "audioStart": 1617.22,
@@ -3566,6 +3566,13 @@
        "meaning": "đáng tiếc là"
       },
       {
+       "term": "grower",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người trồng trọt"
+      },
+      {
        "term": "produce",
        "pos": [
         "v"
@@ -3585,13 +3592,6 @@
         "adj"
        ],
        "meaning": "có thể chấp nhận"
-      },
-      {
-       "term": "grower",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người trồng trọt"
       }
      ],
      "audioStart": 1907.14,
@@ -3912,11 +3912,25 @@
        "meaning": "sau đây; tuân theo"
       },
       {
+       "term": "express",
+       "pos": [
+        "v"
+       ],
+       "meaning": "bày tỏ"
+      },
+      {
        "term": "interest",
        "pos": [
         "n"
        ],
        "meaning": "sự quan tâm"
+      },
+      {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
       },
       {
        "term": "location",
@@ -3931,6 +3945,13 @@
         "n"
        ],
        "meaning": "chủ sở hữu"
+      },
+      {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
       },
       {
        "term": "eager",
@@ -3966,27 +3987,6 @@
         "adv"
        ],
        "meaning": "thông thường"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
-      },
-      {
-       "term": "rent",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thuê"
-      },
-      {
-       "term": "express",
-       "pos": [
-        "v"
-       ],
-       "meaning": "bày tỏ"
       }
      ],
      "audioStart": 2067.9,
@@ -4129,6 +4129,13 @@
        "meaning": "gần đây; gần đây, mới đây"
       },
       {
+       "term": "require",
+       "pos": [
+        "v"
+       ],
+       "meaning": "yêu cầu; bắt buộc, cần thiết"
+      },
+      {
        "term": "earn",
        "pos": [
         "v"
@@ -4176,13 +4183,6 @@
         "n"
        ],
        "meaning": "các món ăn, dịch vụ cung cấp; cung cấp"
-      },
-      {
-       "term": "require",
-       "pos": [
-        "v"
-       ],
-       "meaning": "yêu cầu; bắt buộc, cần thiết"
       }
      ],
      "audioStart": 2144.45,
@@ -4311,6 +4311,13 @@
      ],
      "vocab": [
       {
+       "term": "reporter",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phóng viên"
+      },
+      {
        "term": "construction",
        "pos": [
         "n"
@@ -4323,6 +4330,13 @@
         "n"
        ],
        "meaning": "phương tiện vận chuyển; phương tiện đi lại"
+      },
+      {
+       "term": "official",
+       "pos": [
+        "n"
+       ],
+       "meaning": "quan chức"
       },
       {
        "term": "share",
@@ -4365,20 +4379,6 @@
         "v"
        ],
        "meaning": "tưởng tượng"
-      },
-      {
-       "term": "official",
-       "pos": [
-        "n"
-       ],
-       "meaning": "quan chức"
-      },
-      {
-       "term": "reporter",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phóng viên"
       }
      ],
      "audioStart": 2236.86,
@@ -4507,6 +4507,13 @@
      ],
      "vocab": [
       {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
        "term": "develop",
        "pos": [
         "v"
@@ -4582,13 +4589,6 @@
         "n"
        ],
        "meaning": "nỗ lực"
-      },
-      {
-       "term": "current",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "hiện tại"
       }
      ],
      "audioStart": 2317.89,
@@ -5129,6 +5129,13 @@
        "meaning": "sản phẩm được sản xuất; sản xuất"
       },
       {
+       "term": "assemble",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lắp ráp; tập hợp, xây dựng"
+      },
+      {
        "term": "represent",
        "pos": [
         "v"
@@ -5148,13 +5155,6 @@
         "v"
        ],
        "meaning": "nâng"
-      },
-      {
-       "term": "assemble",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lắp ráp; tập hợp, xây dựng"
       }
      ],
      "audioStart": 2565.89,

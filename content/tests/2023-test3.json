@@ -1656,13 +1656,6 @@
        "meaning": "lịch trình; lên lịch"
       },
       {
-       "term": "session",
-       "pos": [
-        "n"
-       ],
-       "meaning": "phiên; buổi học, phiên họp"
-      },
-      {
        "term": "cancel",
        "pos": [
         "v"
@@ -1689,6 +1682,13 @@
         "v"
        ],
        "meaning": "đăng ký"
+      },
+      {
+       "term": "session",
+       "pos": [
+        "n"
+       ],
+       "meaning": "phiên; buổi học, phiên họp"
       },
       {
        "term": "seat",
@@ -1824,11 +1824,11 @@
      ],
      "vocab": [
       {
-       "term": "entrance",
+       "term": "estimate",
        "pos": [
-        "n"
+        "v"
        ],
-       "meaning": "lối vào"
+       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
       },
       {
        "term": "repair",
@@ -1836,6 +1836,13 @@
         "v"
        ],
        "meaning": "sửa chữa"
+      },
+      {
+       "term": "entrance",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lối vào"
       },
       {
        "term": "retaining",
@@ -1884,13 +1891,6 @@
         "adj"
        ],
        "meaning": "chắc chắn; công ty"
-      },
-      {
-       "term": "estimate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "ước tính; báo giá, dự toán (số tiền ước tính để hoàn thành công việc)"
       }
      ],
      "audioStart": 905.79,
@@ -2426,19 +2426,19 @@
        "meaning": "một cách rõ ràng; rõ ràng"
       },
       {
+       "term": "brief",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "ngắn gọn"
+      },
+      {
        "term": "direct",
        "pos": [
         "adj",
         "v"
        ],
        "meaning": "trực tiếp; chỉ đạo"
-      },
-      {
-       "term": "former",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "cũ; trước đây"
       }
      ],
      "audioStart": 1151.04,
@@ -2574,6 +2574,14 @@
        "meaning": "sự cải tạo; tu sửa, cải tạo"
       },
       {
+       "term": "notice",
+       "pos": [
+        "n",
+        "v"
+       ],
+       "meaning": "thông báo; thông báo/chú ý"
+      },
+      {
        "term": "conference",
        "pos": [
         "n"
@@ -2591,14 +2599,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "notice",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "thông báo; thông báo/chú ý"
       }
      ],
      "audioStart": 1232.38,
@@ -4247,6 +4247,13 @@
        "meaning": "phạm vi"
       },
       {
+       "term": "option",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "financial",
        "pos": [
         "adj"
@@ -4280,14 +4287,6 @@
         "n"
        ],
        "meaning": "công thức"
-      },
-      {
-       "term": "support",
-       "pos": [
-        "n",
-        "v"
-       ],
-       "meaning": "hỗ trợ"
       }
      ],
      "audioStart": 2003.58,
@@ -4815,6 +4814,20 @@
      ],
      "vocab": [
       {
+       "term": "investigate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "điều tra"
+      },
+      {
+       "term": "technician",
+       "pos": [
+        "n"
+       ],
+       "meaning": "kỹ thuật viên"
+      },
+      {
        "term": "determine",
        "pos": [
         "v"
@@ -4864,20 +4877,6 @@
         "v"
        ],
        "meaning": "bao quát; bìa"
-      },
-      {
-       "term": "technician",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kỹ thuật viên"
-      },
-      {
-       "term": "investigate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "điều tra"
       }
      ],
      "audioStart": 2256.77,
@@ -5061,6 +5060,13 @@
        "meaning": "nhiều"
       },
       {
+       "term": "sponsorship",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự tài trợ"
+      },
+      {
        "term": "remind",
        "pos": [
         "v"
@@ -5073,13 +5079,6 @@
         "n"
        ],
        "meaning": "những bức ảnh; ảnh"
-      },
-      {
-       "term": "attendance",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sự tham dự; số lượng người tham dự"
       },
       {
        "term": "prohibit",
@@ -5549,6 +5548,13 @@
      ],
      "vocab": [
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "item",
        "pos": [
         "n"
@@ -5619,13 +5625,6 @@
         "n"
        ],
        "meaning": "đơn đặt hàng; đặt hàng"
-      },
-      {
-       "term": "plant",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nhà máy; trồng"
       }
      ],
      "audioStart": 2577.79,
@@ -5825,18 +5824,18 @@
        "meaning": "sức mạnh"
       },
       {
+       "term": "role",
+       "pos": [
+        "n"
+       ],
+       "meaning": "vai trò"
+      },
+      {
        "term": "character",
        "pos": [
         "n"
        ],
        "meaning": "nhân vật; nhân vật (trong game)"
-      },
-      {
-       "term": "involve",
-       "pos": [
-        "v"
-       ],
-       "meaning": "liên quan"
       }
      ],
      "audioStart": 2664.58,

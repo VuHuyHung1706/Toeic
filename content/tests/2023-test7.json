@@ -2433,6 +2433,13 @@
        "meaning": "thoát nước, làm cạn kiệt"
       },
       {
+       "term": "replace",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thay thế"
+      },
+      {
        "term": "request",
        "pos": [
         "n",
@@ -2491,13 +2498,6 @@
         "v"
        ],
        "meaning": "kéo dài; cuối cùng"
-      },
-      {
-       "term": "replace",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thay thế"
       }
      ],
      "audioStart": 1319.1,
@@ -2659,18 +2659,18 @@
        "meaning": "đồ nội thất; bàn ghế"
       },
       {
-       "term": "afford",
-       "pos": [
-        "v"
-       ],
-       "meaning": "có khả năng"
-      },
-      {
        "term": "facility",
        "pos": [
         "n"
        ],
        "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
+      },
+      {
+       "term": "afford",
+       "pos": [
+        "v"
+       ],
+       "meaning": "có khả năng"
       }
      ],
      "audioStart": 1398.91,
@@ -2805,6 +2805,13 @@
        "meaning": "có sẵn; sẵn sàng"
       },
       {
+       "term": "position",
+       "pos": [
+        "v"
+       ],
+       "meaning": "định vị; vị trí (công việc)"
+      },
+      {
        "term": "graphic",
        "pos": [
         "n"
@@ -2853,13 +2860,6 @@
         "v"
        ],
        "meaning": "bao quát; bìa"
-      },
-      {
-       "term": "position",
-       "pos": [
-        "v"
-       ],
-       "meaning": "định vị; vị trí (công việc)"
       }
      ],
      "audioStart": 1479.36,
@@ -2995,6 +2995,13 @@
        "meaning": "hỏi thông tin; hỏi"
       },
       {
+       "term": "host",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tổ chức; tổ chức, đăng cai"
+      },
+      {
        "term": "gathering",
        "pos": [],
        "meaning": "sự tụ họp; sự kiện tập trung"
@@ -3021,13 +3028,6 @@
        "meaning": "lựa chọn"
       },
       {
-       "term": "advance",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đang tiến bộ"
-      },
-      {
        "term": "review",
        "pos": [
         "n"
@@ -3035,11 +3035,11 @@
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
       },
       {
-       "term": "host",
+       "term": "advance",
        "pos": [
         "v"
        ],
-       "meaning": "tổ chức; tổ chức, đăng cai"
+       "meaning": "đang tiến bộ"
       }
      ],
      "audioStart": 1558.85,
@@ -4070,6 +4070,13 @@
        "meaning": "tham dự"
       },
       {
+       "term": "operator",
+       "pos": [
+        "n"
+       ],
+       "meaning": "người vận hành"
+      },
+      {
        "term": "shipping",
        "pos": [
         "n"
@@ -4087,6 +4094,13 @@
        "term": "warehouse",
        "pos": [],
        "meaning": "kho hàng"
+      },
+      {
+       "term": "measure",
+       "pos": [
+        "n"
+       ],
+       "meaning": "biện pháp"
       },
       {
        "term": "while",
@@ -4129,20 +4143,6 @@
         "n"
        ],
        "meaning": "lịch trình; lên lịch"
-      },
-      {
-       "term": "promptly",
-       "pos": [
-        "adv"
-       ],
-       "meaning": "đúng giờ; nhanh chóng"
-      },
-      {
-       "term": "operator",
-       "pos": [
-        "n"
-       ],
-       "meaning": "người vận hành"
       }
      ],
      "audioStart": 2081.92,
@@ -5259,6 +5259,13 @@
        "meaning": "sửa chữa"
       },
       {
+       "term": "rent",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thuê"
+      },
+      {
        "term": "success",
        "pos": [
         "n"
@@ -5293,13 +5300,6 @@
         "v"
        ],
        "meaning": "lắp đặt; được lắp đặt"
-      },
-      {
-       "term": "rent",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thuê"
       }
      ],
      "audioStart": 2577.22,
@@ -5479,18 +5479,18 @@
        "meaning": "cá nhân"
       },
       {
-       "term": "set",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bộ"
-      },
-      {
        "term": "example",
        "pos": [
         "n"
        ],
        "meaning": "ví dụ"
+      },
+      {
+       "term": "set",
+       "pos": [
+        "n"
+       ],
+       "meaning": "bộ"
       }
      ],
      "audioStart": 2666.82,

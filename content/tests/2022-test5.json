@@ -1823,6 +1823,13 @@
        "meaning": "cư dân"
       },
       {
+       "term": "neighborhood",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khu phố; khu phố, khu vực"
+      },
+      {
        "term": "concern",
        "pos": [
         "n"
@@ -1863,13 +1870,6 @@
         "n"
        ],
        "meaning": "địa điểm; vị trí"
-      },
-      {
-       "term": "neighborhood",
-       "pos": [
-        "n"
-       ],
-       "meaning": "khu phố; khu phố, khu vực"
       }
      ],
      "audioStart": 903.1,
@@ -2009,6 +2009,13 @@
        "meaning": "quản lý; ban quản lý"
       },
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "provide",
        "pos": [
         "v"
@@ -2072,13 +2079,6 @@
         "n"
        ],
        "meaning": "biên nhận; hóa đơn"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
       }
      ],
      "audioStart": 988.67,
@@ -3259,6 +3259,13 @@
        "meaning": "cuộc đánh giá; xem xét, đánh giá"
       },
       {
+       "term": "application",
+       "pos": [
+        "n"
+       ],
+       "meaning": "đơn xin việc; ứng dụng"
+      },
+      {
        "term": "assistant",
        "pos": [
         "n"
@@ -3304,13 +3311,6 @@
         "n"
        ],
        "meaning": "thay thế; người thay thế"
-      },
-      {
-       "term": "application",
-       "pos": [
-        "n"
-       ],
-       "meaning": "đơn xin việc; ứng dụng"
       }
      ],
      "audioStart": 1566.85,
@@ -3424,6 +3424,13 @@
      ],
      "vocab": [
       {
+       "term": "rise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vươn lên"
+      },
+      {
        "term": "interested",
        "pos": [
         "adj"
@@ -3480,13 +3487,6 @@
         "n"
        ],
        "meaning": "đơn đặt hàng; đặt hàng"
-      },
-      {
-       "term": "rise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "vươn lên"
       }
      ],
      "audioStart": 1647.04,
@@ -3746,6 +3746,13 @@
        "meaning": "lắp đặt; được lắp đặt"
       },
       {
+       "term": "server",
+       "pos": [
+        "n"
+       ],
+       "meaning": "máy chủ"
+      },
+      {
        "term": "last",
        "pos": [
         "adj",
@@ -3772,13 +3779,6 @@
        "term": "feature",
        "pos": [],
        "meaning": "giới thiệu; đặc điểm, tính năng"
-      },
-      {
-       "term": "server",
-       "pos": [
-        "n"
-       ],
-       "meaning": "máy chủ"
       }
      ],
      "audioStart": 1831.3,
@@ -4093,6 +4093,13 @@
        "meaning": "hợp đồng"
       },
       {
+       "term": "term",
+       "pos": [
+        "n"
+       ],
+       "meaning": "thuật ngữ"
+      },
+      {
        "term": "propose",
        "pos": [
         "v"
@@ -4105,6 +4112,13 @@
         "adj"
        ],
        "meaning": "thuận lợi; tích cực, thuận lợi"
+      },
+      {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
       },
       {
        "term": "payment",
@@ -4126,20 +4140,6 @@
         "v"
        ],
        "meaning": "được thương lượng"
-      },
-      {
-       "term": "document",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
-      },
-      {
-       "term": "promise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hứa"
       }
      ],
      "audioStart": 2023.87,
@@ -4475,6 +4475,13 @@
        "meaning": "kỹ năng"
       },
       {
+       "term": "ability",
+       "pos": [
+        "n"
+       ],
+       "meaning": "khả năng"
+      },
+      {
        "term": "currently",
        "pos": [
         "adv"
@@ -4515,13 +4522,6 @@
         "n"
        ],
        "meaning": "xưởng"
-      },
-      {
-       "term": "ability",
-       "pos": [
-        "n"
-       ],
-       "meaning": "khả năng"
       }
      ],
      "audioStart": 2178.69,
@@ -4670,11 +4670,31 @@
        "meaning": "kéo dài; cuối cùng"
       },
       {
+       "term": "direct",
+       "pos": [
+        "adj",
+        "v"
+       ],
+       "meaning": "trực tiếp; chỉ đạo"
+      },
+      {
+       "term": "feature",
+       "pos": [],
+       "meaning": "giới thiệu; đặc điểm, tính năng"
+      },
+      {
        "term": "discuss",
        "pos": [
         "v"
        ],
        "meaning": "thảo luận"
+      },
+      {
+       "term": "background",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nền tảng"
       },
       {
        "term": "concerned",
@@ -4689,20 +4709,6 @@
        "meaning": "số lượng"
       },
       {
-       "term": "storage",
-       "pos": [
-        "n"
-       ],
-       "meaning": "kho, sự lưu trữ"
-      },
-      {
-       "term": "flexible",
-       "pos": [
-        "adj"
-       ],
-       "meaning": "linh hoạt"
-      },
-      {
        "term": "create",
        "pos": [
         "v"
@@ -4710,24 +4716,18 @@
        "meaning": "tạo ra; tạo"
       },
       {
-       "term": "feature",
-       "pos": [],
-       "meaning": "giới thiệu; đặc điểm, tính năng"
-      },
-      {
-       "term": "direct",
-       "pos": [
-        "adj",
-        "v"
-       ],
-       "meaning": "trực tiếp; chỉ đạo"
-      },
-      {
-       "term": "background",
+       "term": "storage",
        "pos": [
         "n"
        ],
-       "meaning": "nền tảng"
+       "meaning": "kho, sự lưu trữ"
+      },
+      {
+       "term": "relative",
+       "pos": [
+        "adj"
+       ],
+       "meaning": "tương đối"
       }
      ],
      "audioStart": 2264.19,
@@ -4853,6 +4853,13 @@
      ],
      "vocab": [
       {
+       "term": "industry",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ngành công nghiệp; ngành"
+      },
+      {
        "term": "coordinator",
        "pos": [
         "n"
@@ -4895,6 +4902,13 @@
        "meaning": "gói"
       },
       {
+       "term": "document",
+       "pos": [
+        "v"
+       ],
+       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
+      },
+      {
        "term": "include",
        "pos": [
         "v"
@@ -4921,20 +4935,6 @@
         "n"
        ],
        "meaning": "quy trình; thủ tục"
-      },
-      {
-       "term": "security",
-       "pos": [
-        "n"
-       ],
-       "meaning": "bảo mật; an ninh, bảo vệ"
-      },
-      {
-       "term": "document",
-       "pos": [
-        "v"
-       ],
-       "meaning": "lập tài liệu; ghi chép, lập tài liệu"
       }
      ],
      "audioStart": 2346.82,
@@ -5097,13 +5097,6 @@
        "meaning": "khu vực"
       },
       {
-       "term": "example",
-       "pos": [
-        "n"
-       ],
-       "meaning": "ví dụ"
-      },
-      {
        "term": "discussion",
        "pos": [
         "n"
@@ -5117,6 +5110,13 @@
         "v"
        ],
        "meaning": "trao đổi; đổi"
+      },
+      {
+       "term": "example",
+       "pos": [
+        "n"
+       ],
+       "meaning": "ví dụ"
       }
      ],
      "audioStart": 2427.2,

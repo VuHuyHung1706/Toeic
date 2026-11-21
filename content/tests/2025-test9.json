@@ -2031,6 +2031,13 @@
        "meaning": "xa, rất"
       },
       {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      },
+      {
        "term": "option",
        "pos": [
         "n"
@@ -2064,13 +2071,6 @@
         "n"
        ],
        "meaning": "ngân sách"
-      },
-      {
-       "term": "promise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hứa"
       }
      ],
      "audioStart": 993.54,
@@ -2726,6 +2726,13 @@
        "meaning": "dựa trên"
       },
       {
+       "term": "resource",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nguồn lực"
+      },
+      {
        "term": "benefit",
        "pos": [
         "n"
@@ -2743,13 +2750,6 @@
         "adj"
        ],
        "meaning": "quan tâm"
-      },
-      {
-       "term": "resource",
-       "pos": [
-        "n"
-       ],
-       "meaning": "nguồn lực"
       },
       {
        "term": "rate",
@@ -2920,6 +2920,13 @@
        "meaning": "chi tiết"
       },
       {
+       "term": "remind",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhắc nhở"
+      },
+      {
        "term": "digital",
        "pos": [
         "adj"
@@ -2932,13 +2939,6 @@
         "n"
        ],
        "meaning": "phiên bản"
-      },
-      {
-       "term": "remind",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhắc nhở"
       }
      ],
      "audioStart": 1384.16,
@@ -3464,6 +3464,13 @@
      ],
      "vocab": [
       {
+       "term": "facility",
+       "pos": [
+        "n"
+       ],
+       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
+      },
+      {
        "term": "except",
        "pos": [
         "conj",
@@ -3484,6 +3491,13 @@
        "meaning": "kỹ thuật viên"
       },
       {
+       "term": "pass",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thông qua; đi qua"
+      },
+      {
        "term": "underground",
        "pos": [
         "adj"
@@ -3496,20 +3510,6 @@
         "v"
        ],
        "meaning": "thu thập; đang lấy"
-      },
-      {
-       "term": "pass",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thông qua; đi qua"
-      },
-      {
-       "term": "facility",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cơ sở vật chất; cơ sở vật chất, các cơ sở"
       }
      ],
      "audioStart": 1639.88,
@@ -3828,6 +3828,13 @@
        "meaning": "tiềm năng; tiềm năng, có khả năng"
       },
       {
+       "term": "realize",
+       "pos": [
+        "v"
+       ],
+       "meaning": "nhận ra; nhận ra, hiện thực hóa"
+      },
+      {
        "term": "presentation",
        "pos": [
         "n"
@@ -3845,13 +3852,6 @@
         "adj"
        ],
        "meaning": "sáng sủa; sáng"
-      },
-      {
-       "term": "realize",
-       "pos": [
-        "v"
-       ],
-       "meaning": "nhận ra; nhận ra, hiện thực hóa"
       }
      ],
      "audioStart": 1814.62,
@@ -4575,6 +4575,13 @@
        "meaning": "đã sử dụng; quá khứ phân từ, không diễn tả cách thức chủ động"
       },
       {
+       "term": "generate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "tạo ra"
+      },
+      {
        "term": "create",
        "pos": [
         "v"
@@ -4609,13 +4616,6 @@
         "n"
        ],
        "meaning": "diễn viên"
-      },
-      {
-       "term": "generate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "tạo ra"
       }
      ],
      "audioStart": 2167.56,
@@ -5133,6 +5133,13 @@
        "meaning": "bao gồm"
       },
       {
+       "term": "evaluation",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sự đánh giá; đánh giá"
+      },
+      {
        "term": "exchange",
        "pos": [
         "n",
@@ -5144,6 +5151,11 @@
        "term": "understanding",
        "pos": [],
        "meaning": "sự hiểu biết"
+      },
+      {
+       "term": "strength",
+       "pos": [],
+       "meaning": "sức mạnh"
       },
       {
        "term": "improvement",
@@ -5164,20 +5176,6 @@
        "term": "system",
        "pos": [],
        "meaning": "hệ thống"
-      },
-      {
-       "term": "selection",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
-      },
-      {
-       "term": "guideline",
-       "pos": [
-        "n"
-       ],
-       "meaning": "hướng dẫn"
       }
      ],
      "audioStart": 2420.13,
@@ -5352,6 +5350,13 @@
        "meaning": "bao gồm"
       },
       {
+       "term": "plant",
+       "pos": [
+        "n"
+       ],
+       "meaning": "nhà máy; trồng"
+      },
+      {
        "term": "display",
        "pos": [
         "v"
@@ -5386,13 +5391,6 @@
         "conj"
        ],
        "meaning": "tuy nhiên; phó từ: tuy nhiên"
-      },
-      {
-       "term": "draw",
-       "pos": [
-        "v"
-       ],
-       "meaning": "đã vẽ"
       }
      ],
      "audioStart": 2504.27,

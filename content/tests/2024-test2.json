@@ -1870,6 +1870,13 @@
        "meaning": "sự khôi phục; sự phục hồi, khôi phục"
       },
       {
+       "term": "investigate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "điều tra"
+      },
+      {
        "term": "style",
        "pos": [
         "n"
@@ -1899,13 +1906,6 @@
        "term": "unveil",
        "pos": [],
        "meaning": "tiết lộ"
-      },
-      {
-       "term": "investigate",
-       "pos": [
-        "v"
-       ],
-       "meaning": "điều tra"
       }
      ],
      "audioStart": 979.99,
@@ -2053,6 +2053,13 @@
        "meaning": "tiếp thị"
       },
       {
+       "term": "prefer",
+       "pos": [
+        "v"
+       ],
+       "meaning": "thích; thích hơn, muốn"
+      },
+      {
        "term": "impact",
        "pos": [
         "v"
@@ -2065,13 +2072,6 @@
         "n"
        ],
        "meaning": "doanh số; doanh số bán hàng"
-      },
-      {
-       "term": "prefer",
-       "pos": [
-        "v"
-       ],
-       "meaning": "thích; thích hơn, muốn"
       },
       {
        "term": "conversation",
@@ -2246,6 +2246,13 @@
        "meaning": "định vị; vị trí (công việc)"
       },
       {
+       "term": "manage",
+       "pos": [
+        "v"
+       ],
+       "meaning": "quản lý"
+      },
+      {
        "term": "entire",
        "pos": [
         "adj"
@@ -2258,13 +2265,6 @@
         "n"
        ],
        "meaning": "kinh nghiệm; trải nghiệm"
-      },
-      {
-       "term": "manage",
-       "pos": [
-        "v"
-       ],
-       "meaning": "quản lý"
       }
      ],
      "audioStart": 1141.23,
@@ -2597,6 +2597,13 @@
        "meaning": "về phía trước; chuyển tiếp (email)"
       },
       {
+       "term": "initiative",
+       "pos": [
+        "n"
+       ],
+       "meaning": "sáng kiến"
+      },
+      {
        "term": "article",
        "pos": [
         "n"
@@ -2645,13 +2652,6 @@
         "n"
        ],
        "meaning": "những bức ảnh; ảnh"
-      },
-      {
-       "term": "initiative",
-       "pos": [
-        "n"
-       ],
-       "meaning": "sáng kiến"
       }
      ],
      "audioStart": 1310.01,
@@ -3175,6 +3175,13 @@
        "meaning": "hệ thống"
       },
       {
+       "term": "rise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "vươn lên"
+      },
+      {
        "term": "figure",
        "pos": [
         "v"
@@ -3187,13 +3194,6 @@
         "n"
        ],
        "meaning": "vật liệu; tài liệu"
-      },
-      {
-       "term": "rise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "vươn lên"
       }
      ],
      "audioStart": 1566.13,
@@ -3965,6 +3965,13 @@
        "meaning": "đơn đặt hàng; đặt hàng"
       },
       {
+       "term": "choice",
+       "pos": [
+        "n"
+       ],
+       "meaning": "lựa chọn"
+      },
+      {
        "term": "guarantee",
        "pos": [
         "n"
@@ -3982,13 +3989,6 @@
        "term": "damage",
        "pos": [],
        "meaning": "thiệt hại; bị hư hỏng"
-      },
-      {
-       "term": "choice",
-       "pos": [
-        "n"
-       ],
-       "meaning": "lựa chọn"
       }
      ],
      "audioStart": 1998.76,
@@ -4692,6 +4692,13 @@
        "meaning": "phương tiện"
       },
       {
+       "term": "promise",
+       "pos": [
+        "v"
+       ],
+       "meaning": "hứa"
+      },
+      {
        "term": "directly",
        "pos": [
         "adv"
@@ -4746,13 +4753,6 @@
         "v"
        ],
        "meaning": "thể hiện; trưng bày"
-      },
-      {
-       "term": "promise",
-       "pos": [
-        "v"
-       ],
-       "meaning": "hứa"
       }
      ],
      "audioStart": 2321.95,
@@ -4885,6 +4885,13 @@
        "meaning": "người tổ chức; người tổ chức, nhà tổ chức"
       },
       {
+       "term": "adjust",
+       "pos": [
+        "v"
+       ],
+       "meaning": "điều chỉnh"
+      },
+      {
        "term": "wide",
        "pos": [
         "adj"
@@ -4905,13 +4912,6 @@
         "v"
        ],
        "meaning": "giảm giá"
-      },
-      {
-       "term": "adjust",
-       "pos": [
-        "v"
-       ],
-       "meaning": "điều chỉnh"
       }
      ],
      "audioStart": 2406.67,
@@ -5065,6 +5065,13 @@
        "meaning": "thông báo; được công bố"
       },
       {
+       "term": "collaborate",
+       "pos": [
+        "v"
+       ],
+       "meaning": "cộng tác"
+      },
+      {
        "term": "supply",
        "pos": [
         "n",
@@ -5108,18 +5115,11 @@
        "meaning": "gần đây; gần đây, mới đây"
       },
       {
-       "term": "far",
+       "term": "launch",
        "pos": [
-        "adv"
+        "v"
        ],
-       "meaning": "xa, rất"
-      },
-      {
-       "term": "review",
-       "pos": [
-        "n"
-       ],
-       "meaning": "cuộc đánh giá; xem xét, đánh giá"
+       "meaning": "ra mắt; khởi động"
       }
      ],
      "audioStart": 2481.1,
