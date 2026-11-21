@@ -1,8 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { DAY, buildActivity, startOfDay, streakOf } from "@/lib/activity";
-import { dayKey, useAttempts, useDictation, useReviews, useVocabLog } from "@/lib/storage";
+import { buildActivity, startOfDay, streakOf } from "@/lib/activity";
+import { useAttempts, useDictation, useReviews, useVocabLog } from "@/lib/storage";
+import StudyHeatmap from "./StudyHeatmap";
 import { PARTS, formatDuration, predictScore, type SkillPrediction } from "@/lib/toeic";
 import type { Attempt, PartNo } from "@/lib/types";
 
@@ -89,7 +90,7 @@ export default function ProgressDashboard() {
       <section className="rounded-xl border border-line bg-surface p-5">
         <h2 className="font-semibold">Lịch học {WEEKS} tuần gần nhất</h2>
         <p className="text-xs text-muted">Ô càng đậm, ngày đó học càng nhiều (câu hỏi, đoạn nghe chép, thẻ từ vựng)</p>
-        <Heatmap activity={stats.activity} today={today} />
+        <StudyHeatmap activity={stats.activity} today={today} weeks={WEEKS} />
       </section>
     </div>
   );
@@ -229,58 +230,6 @@ function ScoreChart({ attempts }: { attempts: Attempt[] }) {
           </div>
         </div>
       )}
-    </div>
-  );
-}
-
-// ---------------------------------------------------------------------------
-// Heatmap hoạt động: tuần theo cột, thứ theo hàng, thang tuần tự một màu
-// ---------------------------------------------------------------------------
-function Heatmap({ activity, today }: { activity: Map<string, number>; today: number }) {
-  // cột cuối là tuần hiện tại, hàng 0 = thứ Hai
-  const dow = (new Date(today).getDay() + 6) % 7;
-  const start = today - (dow + (WEEKS - 1) * 7) * DAY;
-  const days = Array.from({ length: WEEKS * 7 }, (_, i) => start + i * DAY);
-  const max = Math.max(1, ...days.map((d) => activity.get(dayKey(d)) ?? 0));
-  const level = (n: number) => (n <= 0 ? 0 : Math.min(4, Math.ceil((n / max) * 4)));
-  const shade = ["var(--surface-2)", "25%", "50%", "75%", "100%"];
-  const fill = (l: number) => (l === 0 ? shade[0] : `color-mix(in oklab, var(--primary) ${shade[l]}, var(--surface))`);
-  const total = days.reduce((s, d) => s + (activity.get(dayKey(d)) ?? 0), 0);
-
-  return (
-    <div className="mt-4">
-      <div className="flex gap-3 overflow-x-auto pb-1">
-        <div className="grid shrink-0 grid-rows-7 gap-[3px] pt-0 text-[10px] leading-3 text-muted">
-          {["T2", "", "T4", "", "T6", "", "CN"].map((d, i) => (
-            <span key={i} className="h-3">
-              {d}
-            </span>
-          ))}
-        </div>
-        <div className="grid shrink-0 grid-flow-col grid-rows-7 gap-[3px]">
-          {days.map((d) => {
-            const n = activity.get(dayKey(d)) ?? 0;
-            const future = d > today;
-            return (
-              <div
-                key={d}
-                title={`${new Date(d).toLocaleDateString("vi-VN")}: ${n} câu`}
-                aria-label={`${new Date(d).toLocaleDateString("vi-VN")}: ${n} câu`}
-                className="size-3 rounded-[3px]"
-                style={{ background: future ? "transparent" : fill(level(n)) }}
-              />
-            );
-          })}
-        </div>
-      </div>
-      <div className="mt-3 flex items-center gap-2 text-xs text-muted">
-        <span>{total.toLocaleString("vi-VN")} câu trong {WEEKS} tuần</span>
-        <span className="ml-auto">Ít</span>
-        {[0, 1, 2, 3, 4].map((l) => (
-          <span key={l} className="size-3 rounded-[3px]" style={{ background: fill(l) }} />
-        ))}
-        <span>Nhiều</span>
-      </div>
     </div>
   );
 }

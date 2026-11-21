@@ -217,7 +217,18 @@ audio {
   transform-origin: left;
   animation: bar-grow 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
+/* Vòng tròn trang chủ: vòng điểm tô dần từ 0; các đoạn ngày sáng lần lượt */
+@keyframes ring-fill {
+  from { stroke-dashoffset: var(--ring-c); }
+}
+@keyframes ring-seg {
+  from { opacity: 0; }
+}
+.ring-fill { animation: ring-fill 1100ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+.ring-seg { animation: ring-seg 400ms ease-out both; }
 @media (prefers-reduced-motion: reduce) {
+  .ring-fill,
+  .ring-seg,
   .answer-pop,
   .answer-shake,
   .answer-reveal,

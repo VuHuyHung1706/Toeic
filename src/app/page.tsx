@@ -2,7 +2,6 @@ import Link from "next/link";
 import ClientOnly from "@/components/ClientOnly";
 import HomeToday from "@/components/HomeToday";
 import { Icon, sectionOf } from "@/components/SectionIcons";
-import { getTestIndex } from "@/lib/tests";
 import { PARTS } from "@/lib/toeic";
 
 const CARDS: [href: string, title: string, desc: string][] = [
@@ -14,15 +13,11 @@ const CARDS: [href: string, title: string, desc: string][] = [
   ["/history", "Tiến độ & điểm dự đoán", "Biểu đồ điểm, tỉ lệ đúng từng part, lịch học và điểm dự đoán."],
 ];
 
-export default async function Home() {
-  // đề mới nhất trước — dùng để gợi ý đề chưa làm trong khối "Hôm nay"
-  const tests = (await getTestIndex())
-    .map(({ id, year, number }) => ({ id, year, number }))
-    .sort((a, b) => b.year - a.year || a.number - b.number);
+export default function Home() {
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-10">
       <ClientOnly>
-        <HomeToday tests={tests} />
+        <HomeToday />
       </ClientOnly>
 
       <section className="grid gap-3 md:grid-cols-3">
