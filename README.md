@@ -58,7 +58,7 @@ npm run lint && npx tsc --noEmit && npm run build
 | `/tests/[id]/exam?mode=practice&parts=…` | Audio từng nhóm câu, chỉnh tốc độ, hiện giải thích ngay |
 | `/tests/[id]/result?attempt=…` | Điểm 990 ước tính, đúng/sai theo part, xem lại từng câu + script + bản dịch |
 | `/practice` | Luyện theo dạng câu: Part 2 theo loại câu hỏi, Part 5 theo chủ điểm ngữ pháp (gom từ 48 đề) |
-| `/grammar` | 16 bài ngữ pháp TOEIC (viết riêng): công thức, dấu hiệu nhận biết, bẫy, ví dụ song ngữ + câu thật trong đề, nút luyện ngay dạng câu Part 5 |
+| `/grammar` | 17 bài ngữ pháp TOEIC (viết riêng): công thức, dấu hiệu nhận biết, bẫy, ví dụ song ngữ + câu thật trong đề, nút luyện ngay dạng câu Part 5 |
 | `/listening` | Luyện nghe Part 1–4: điền từ (3 mức độ) hoặc chép cả câu, so khớp từng từ, xem bản dịch |
 | `/vocabulary` | ~2.100 từ (kèm dạng danh/động/tính/trạng từ và nghĩa, ẩn từ cơ bản) từ phần nghe và đọc, chia theo từng đề (`?test=2026-test1`), lọc Nghe/Đọc, flashcard ôn ngắt quãng |
 | `/mistakes` | Sổ câu sai: gom câu sai từ mọi nguồn, hẹn ôn lại 1 → 3 → 7 ngày tới khi thuộc |

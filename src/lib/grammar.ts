@@ -757,6 +757,72 @@ export const TOPICS: GrammarTopic[] = [
     ],
   },
   {
+    slug: "lien-tu-ket-hop",
+    group: "Mệnh đề & liên kết",
+    title: "Liên từ kết hợp: and, but, or, so, yet, for, nor",
+    summary: "7 liên từ nối hai thành phần ngang hàng — nhớ bằng chữ FANBOYS.",
+    practice: "prep-conj",
+    examples: { tags: ["prep-conj"], match: inSet(["and", "but", "or", "so", "yet", "nor"]) },
+    sources: [
+      { label: "Cambridge — Conjunctions", url: CAM + 'conjunctions' },
+      { label: "Cambridge — Neither, neither … nor", url: CAM + 'neither-neither-nor-and-not-either' },
+    ],
+    sections: [
+      {
+        heading: "7 liên từ kết hợp",
+        blocks: [
+          {
+            kind: "p",
+            text: "Liên từ kết hợp nối hai thành phần **cùng loại**: hai từ, hai cụm hoặc hai mệnh đề độc lập. Nhớ nhanh bằng chữ cái đầu **F-A-N-B-O-Y-S**: *for, and, nor, but, or, yet, so*.",
+          },
+          {
+            kind: "table",
+            head: ["Liên từ", "Nghĩa", "Lưu ý"],
+            rows: [
+              ["for", "vì (giải thích lý do)", "văn viết trang trọng; chỉ đứng **giữa câu**, sau dấu phẩy, theo sau là mệnh đề"],
+              ["and", "và (thêm ý)", "nối từ, cụm hoặc mệnh đề"],
+              ["nor", "và cũng không", "dùng sau một ý phủ định; nếu theo sau là mệnh đề thì **đảo trợ động từ**"],
+              ["but", "nhưng (đối lập)", ""],
+              ["or", "hoặc; nếu không thì", "*Hurry,* **or** *you will miss the bus.*"],
+              ["yet", "nhưng (mà lại, trái với mong đợi)", "nghĩa đối lập mạnh hơn *but* một chút"],
+              ["so", "vì vậy (kết quả)", "theo sau là **mệnh đề kết quả**"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Dấu câu & cách nhận biết",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Nối **hai mệnh đề độc lập** → thường có **dấu phẩy trước** liên từ: *The hotel was full,* **so** *we stayed at a guesthouse.*",
+              "Nối hai từ/cụm → không cần dấu phẩy: *fast* **and** *reliable*, *by phone* **or** *by e-mail*.",
+              "Đảo ngữ sau **nor** + mệnh đề: *The supplier did not call,* **nor did it** *send an e-mail.*",
+              "Hai vế phải **cùng dạng**: *reviewing the data* **and** *writing the report* (không trộn *reviewing* với *to write*).",
+            ],
+          },
+          { kind: "trap", text: "**so** (vì vậy, chỉ kết quả) ≠ **so that** (để, chỉ mục đích): *The road was closed,* **so** *we took the train.* — *We left early* **so that** *we could catch the train.*" },
+          { kind: "trap", text: "**for** còn là giới từ (*for two hours, for the staff*). Chỉ khi đứng sau dấu phẩy và trước một mệnh đề đầy đủ thì *for* mới là liên từ “vì”." },
+        ],
+      },
+      {
+        heading: "Ví dụ",
+        blocks: [
+          {
+            kind: "examples",
+            items: [
+              { en: "The workshop is free, **but** seating is limited.", vi: "Buổi hội thảo miễn phí, nhưng số chỗ ngồi có hạn." },
+              { en: "Sales rose sharply, **yet** profits remained flat.", vi: "Doanh số tăng mạnh, vậy mà lợi nhuận vẫn đứng yên." },
+              { en: "The office will be closed on Monday, **for** the building is being repainted.", vi: "Văn phòng sẽ đóng cửa vào thứ Hai, vì tòa nhà đang được sơn lại." },
+              { en: "The client did not reply to our e-mail, **nor did she** return our call.", vi: "Khách hàng không trả lời e-mail của chúng tôi, cũng không gọi lại." },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "lien-tu-gioi-tu",
     group: "Mệnh đề & liên kết",
     title: "Liên từ hay giới từ?",
@@ -764,12 +830,15 @@ export const TOPICS: GrammarTopic[] = [
     practice: "prep-conj",
     examples: {
       tags: ["prep-conj"],
-      match: inSet(["because", "because of", "due to", "owing to", "since", "although", "though", "even though", "despite", "in spite of", "while", "whereas", "during", "unless", "once", "until", "as soon as", "so that", "in order to", "now that", "as long as", "provided that"]),
+      match: inSet(["because", "because of", "due to", "owing to", "since", "although", "though", "even though", "even if", "despite", "in spite of", "while", "whereas", "during", "unless", "once", "until", "as soon as", "so that", "in order to", "now that", "as long as", "provided that", "providing that", "in case", "in the event that", "whenever", "wherever", "as if", "as though", "except that", "regardless of"]),
     },
     sources: [
       { label: "Cambridge — Because, because of", url: CAM + 'because-because-of-and-cos-cos-of' },
       { label: "Cambridge — Although or though", url: CAM + 'although-or-though' },
       { label: "Cambridge — Conjunctions: contrasting", url: CAM_US + 'conjunctions-contrasting' },
+      { label: "Cambridge — In case (of)", url: CAM + 'in-case-of' },
+      { label: "Cambridge — Even", url: CAM + 'even' },
+      { label: "Cambridge — So that or in order that?", url: CAM + 'so-that-or-in-order-that' },
     ],
     sections: [
       {
@@ -783,15 +852,39 @@ export const TOPICS: GrammarTopic[] = [
             kind: "table",
             head: ["Nghĩa", "Liên từ (+ S + V)", "Giới từ (+ N / V-ing)"],
             rows: [
-              ["Vì, do", "because, since, as, now that", "because of, due to, owing to, on account of"],
+              ["Vì, do", "because, since, as, now that (vì giờ đây)", "because of, due to, owing to, on account of, as a result of"],
               ["Mặc dù", "although, though, even though, while", "despite, in spite of, notwithstanding"],
               ["Trong khi", "while, whereas (tương phản)", "during"],
-              ["Nếu / trừ khi", "if, unless, provided (that), as long as", "in case of, in the event of, without"],
-              ["Để", "so that, in order that", "in order to / so as to + V; for + N"],
-              ["Ngay khi / sau khi", "once, as soon as, after, before, until", "after, before, until, upon + N/V-ing"],
+              ["Nếu / trừ khi", "if, even if, unless", "without (nếu không có)"],
+              ["Miễn là", "as long as, so long as, provided (that), providing (that), on condition that", "—"],
+              ["Giả sử", "supposing (that), assuming (that)", "—"],
+              ["Phòng khi / trong trường hợp", "in case, in the event that", "in case of, in the event of"],
+              ["Để", "so that, in order that (+ S + can/will/could…)", "in order to / so as to + V; for + N"],
+              ["Ngay khi / sau khi / cho đến khi", "once, as soon as, after, before, until (till)", "after, before, until, upon + N/V-ing"],
+              ["Bất cứ khi nào / ở đâu", "whenever, wherever", "—"],
+              ["Như thể", "as if, as though", "like + N (thân mật)"],
+              ["Ngoại trừ", "except that", "except (for), apart from"],
             ],
           },
           { kind: "tip", text: "*after, before, until, since* vừa là liên từ vừa là giới từ — lúc này phải dựa vào **nghĩa**." },
+        ],
+      },
+      {
+        heading: "Cặp dễ nhầm",
+        blocks: [
+          {
+            kind: "table",
+            head: ["Cặp", "Khác nhau", "Ví dụ"],
+            rows: [
+              ["even though / even if", "*even though* = dù **thực tế** là; *even if* = dù **giả sử** có xảy ra", "We went out **even though** it was raining. · We will go **even if** it rains."],
+              ["in case / if", "*in case* = làm trước **để phòng** khả năng xảy ra; *if* = chỉ làm **khi** điều đó xảy ra", "Bring an umbrella **in case** it rains."],
+              ["so that / so", "*so that* = để (mục đích); *so* = vì vậy (kết quả)", "Arrive early **so that** you can get a seat."],
+              ["while / whereas", "*while* = trong khi (cùng lúc) **hoặc** trong khi đó (đối lập); *whereas* chỉ dùng cho đối lập", "Sales rose in Asia, **whereas** they fell in Europe."],
+              ["despite / regardless of", "*despite* = bất chấp (một trở ngại có thật); *regardless of* = bất kể (yếu tố đó ra sao cũng không quan trọng)", "Prices are fixed **regardless of** the season."],
+            ],
+          },
+          { kind: "tip", text: "**however + tính từ/trạng từ + S + V** = dù … đến đâu (= *no matter how*): **However** *hard we tried, we could not finish on time.*" },
+          { kind: "trap", text: "*in that case* (nếu vậy thì) là trạng từ liên kết, **không** giống *in case* (phòng khi)." },
         ],
       },
       {
@@ -813,13 +906,14 @@ export const TOPICS: GrammarTopic[] = [
     slug: "lien-tu-tuong-quan",
     group: "Mệnh đề & liên kết",
     title: "Liên từ tương quan",
-    summary: "both … and, either … or, neither … nor, not only … but also, whether … or.",
+    summary: "both … and, either … or, neither … nor, not only … but also, whether … or, so/such … that.",
     practice: "prep-conj",
     examples: { tags: ["prep-conj"], match: (q) => /\b(both|either|neither|not only|whether|nor|but also)\b/i.test(`${q.question} ${ans(q)}`) && inSet(["and", "or", "nor", "both", "either", "neither", "but also", "whether", "not only"])(q) },
     sources: [
       { label: "Cambridge — Either … or", url: CAM_US + 'either-or' },
       { label: "Cambridge — Neither … nor", url: CAM + 'neither-neither-nor-and-not-either' },
       { label: "Cambridge — Both", url: CAM_US + 'both' },
+      { label: "Cambridge — Such or so?", url: CAM + 'such-or-so' },
     ],
     sections: [
       {
@@ -838,6 +932,22 @@ export const TOPICS: GrammarTopic[] = [
           },
           { kind: "trap", text: "Thấy một nửa của cặp ở trong câu thì chỗ trống là **nửa còn lại**: *Neither the manager ____ the assistant* → **nor** (không phải *or*)." },
           { kind: "tip", text: "A và B phải **cùng loại** (cùng danh từ, cùng tính từ, cùng cụm giới từ…)." },
+        ],
+      },
+      {
+        heading: "so … that, such … that (quá … đến nỗi)",
+        blocks: [
+          {
+            kind: "table",
+            head: ["Cấu trúc", "Ví dụ"],
+            rows: [
+              ["**so** + tính từ / trạng từ + that + S + V", "The demand was **so** high **that** we ran out of stock."],
+              ["**so many / much / few / little** + danh từ + that …", "There were **so many** applicants **that** the deadline was extended."],
+              ["**such** (a/an) + (tính từ) + danh từ + that …", "It was **such a** popular product **that** we ran out of stock."],
+            ],
+          },
+          { kind: "trap", text: "**so** đi với tính từ/trạng từ; **such** đi với cụm danh từ, và *a/an* đứng **sau** *such*: *such a long meeting* (không phải *a such*, cũng không phải *so a long meeting*)." },
+          { kind: "tip", text: "*as … as* (so sánh bằng) cũng là một cặp đi đôi — xem bài **So sánh**." },
         ],
       },
     ],
@@ -911,12 +1021,15 @@ export const TOPICS: GrammarTopic[] = [
             kind: "table",
             head: ["Ý", "Trạng từ liên kết"],
             rows: [
-              ["Thêm ý", "in addition, moreover, furthermore, also, besides"],
-              ["Đối lập", "however, nevertheless, nonetheless, on the other hand, instead"],
-              ["Kết quả", "therefore, thus, consequently, as a result, accordingly"],
+              ["Thêm ý", "in addition, additionally, moreover, furthermore, what's more, also, besides"],
+              ["Đối lập", "however, nevertheless, nonetheless, still, on the other hand, in contrast, conversely, instead"],
+              ["Bác bỏ ý trước", "on the contrary"],
+              ["Kết quả", "therefore, thus, consequently, as a result, accordingly, hence"],
               ["Nếu không thì", "otherwise"],
               ["Ví dụ / nhấn mạnh", "for example, for instance, in fact, indeed"],
-              ["Trình tự / đồng thời", "then, afterward, meanwhile, in the meantime, finally"],
+              ["Trình tự / đồng thời", "then, afterward, meanwhile, in the meantime"],
+              ["Cuối cùng", "finally, eventually, in the end, at last (sau khi chờ đợi lâu)"],
+              ["Tóm lại / kết luận", "in short, in brief, in summary, to sum up, in conclusion, overall, on the whole"],
             ],
           },
         ],
@@ -932,6 +1045,8 @@ export const TOPICS: GrammarTopic[] = [
             ],
           },
           { kind: "trap", text: "*however* (trạng từ) ≠ *although* (liên từ): *Although sales rose, profits fell.* — *Sales rose.* **However**, *profits fell.*" },
+          { kind: "trap", text: "**in contrast** = so sánh hai điều khác nhau; **on the contrary** = phủ nhận ý vừa nói (\"không phải vậy, mà ngược lại\"): *The plan isn't too expensive.* **On the contrary**, *it will save money.*" },
+          { kind: "tip", text: "**besides** vừa là giới từ (+ N / V-ing: *besides the price*) vừa là trạng từ liên kết đứng đầu câu (**Besides**, *the hotel is close to the venue.*)." },
         ],
       },
       {
