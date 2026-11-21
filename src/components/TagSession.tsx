@@ -19,7 +19,9 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function TagSession({ part, tag, label }: { part: number; tag: string; label: string }) {
-  const n = Math.max(5, Math.min(50, Number(useSearchParams().get("n")) || 20));
+  // ?n=10|20|30 câu mỗi lượt, ?n=all = cả dạng
+  const nParam = useSearchParams().get("n");
+  const n = nParam === "all" ? Infinity : Math.max(5, Math.min(50, Number(nParam) || 20));
   const attempts = useAttempts();
   const reviews = useReviews();
   const outcomes = useMemo(() => latestOutcomes(attempts, reviews), [attempts, reviews]);

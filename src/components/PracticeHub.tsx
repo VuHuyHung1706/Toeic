@@ -7,12 +7,12 @@ import { useAttempts, useReviews } from "@/lib/storage";
 import type { BankTag } from "@/lib/types";
 import SegmentedTabs from "./SegmentedTabs";
 
-const SIZES = [10, 20, 30];
+const SIZES = ["10", "20", "30", "all"] as const;
 
 export default function PracticeHub({ index }: { index: BankTag[] }) {
   const attempts = useAttempts();
   const reviews = useReviews();
-  const [size, setSize] = useState(20);
+  const [size, setSize] = useState<(typeof SIZES)[number]>("20");
   const outcomes = useMemo(() => latestOutcomes(attempts, reviews), [attempts, reviews]);
 
   const stats = (t: BankTag) => {
@@ -30,7 +30,7 @@ export default function PracticeHub({ index }: { index: BankTag[] }) {
     <>
       <div className="mt-6 flex items-center gap-2 text-sm">
         <span className="text-muted">Số câu mỗi lượt:</span>
-        <SegmentedTabs label="Số câu mỗi lượt" size="sm" items={SIZES.map((n) => ({ key: n, label: `${n}` }))} value={size} onChange={setSize} />
+        <SegmentedTabs label="Số câu mỗi lượt" size="sm" items={SIZES.map((n) => ({ key: n, label: n === "all" ? "Tất cả" : n }))} value={size} onChange={setSize} />
       </div>
 
       {([2, 5] as const).map((part) => (

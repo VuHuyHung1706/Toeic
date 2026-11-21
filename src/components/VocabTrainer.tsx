@@ -107,6 +107,8 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
   const source = usePref<Source>("vocabSource", "all");
   const showBasic = usePref<"0" | "1">("vocabBasic", "0") === "1";
   const [newPerSession, setNewPerSession] = useState(10);
+  // "Tất cả": học mọi từ mới của bộ đang chọn (số lượng đổi theo bộ lọc)
+  const [allNew, setAllNew] = useState(false);
   const [session, setSession] = useState<VocabEntry[] | null>(null);
   const [now] = useState(() => Date.now());
 
@@ -134,6 +136,7 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
     [vocab, cards, now],
   );
   const fresh = useMemo(() => vocab.filter((v) => !cards[v.w]), [vocab, cards]);
+  const newCount = allNew ? fresh.length : Math.min(newPerSession, fresh.length);
   const learning = vocab.filter((v) => statusOf(cards[v.w]) === "learning").length;
   const mastered = vocab.filter((v) => statusOf(cards[v.w]) === "mastered").length;
   const years = [...new Set(tests.map((t) => t.year))].sort((a, b) => b - a);
@@ -236,19 +239,22 @@ function Trainer({ allVocab, tests }: { allVocab: VocabEntry[]; tests: TestRef[]
               size="sm"
               items={[
                 ...NEW_OPTIONS.map((n) => ({ key: `${n}`, label: `${n}` })),
-                ...(isSingleTest(testId) ? [{ key: "test", label: "Cả đề", count: fresh.length }] : []),
+                { key: "all", label: "Tất cả", count: fresh.length },
               ]}
-              value={newPerSession === fresh.length && isSingleTest(testId) && !NEW_OPTIONS.includes(fresh.length) ? "test" : `${newPerSession}`}
-              onChange={(k) => setNewPerSession(k === "test" ? fresh.length : Number(k))}
+              value={allNew ? "all" : `${newPerSession}`}
+              onChange={(k) => {
+                setAllNew(k === "all");
+                if (k !== "all") setNewPerSession(Number(k));
+              }}
             />
           </div>
           <button
             disabled={!due.length && !fresh.length}
-            onClick={() => setSession([...due, ...fresh.slice(0, newPerSession)])}
+            onClick={() => setSession([...due, ...fresh.slice(0, newCount)])}
             className="mt-5 rounded-lg bg-primary px-5 py-2.5 font-semibold text-on-primary hover:opacity-90 disabled:opacity-40"
           >
             <SmoothWidth>
-              Bắt đầu ({due.length} ôn + {Math.min(newPerSession, fresh.length)} mới)
+              Bắt đầu ({due.length.toLocaleString("vi-VN")} ôn + {newCount.toLocaleString("vi-VN")} mới)
             </SmoothWidth>
           </button>
           {!due.length && !fresh.length && <p className="mt-3 text-sm text-success">Bạn đã học hết từ của bộ này 🎉</p>}
