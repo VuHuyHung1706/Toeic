@@ -6,6 +6,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import { THEME_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 import Logo from "@/components/Logo";
+import SiteNav from "@/components/SiteNav";
 
 const font = Be_Vietnam_Pro({
   variable: "--font-be-vietnam",
@@ -30,7 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {/* site-header: ẩn khi đang làm bài trong phòng thi (html[data-exam], xem ExamRoom) */}
         <header className="site-header z-30 border-b border-line bg-surface/90 backdrop-blur sm:sticky sm:top-0">
           {/* điện thoại: menu xuống dòng thứ hai, cuộn ngang được; máy tính: cùng hàng với logo */}
-          <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-5 gap-y-1 px-4 py-2 sm:h-14 sm:flex-nowrap sm:py-0">
+          <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-1 px-4 py-2 sm:h-14 sm:flex-nowrap sm:py-0">
             <Link href="/" aria-label="ĐMToeic — trang chủ" className="shrink-0">
               <Logo />
             </Link>
@@ -38,21 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <ThemeToggle />
               <AccountMenu />
             </div>
-            <div className="-mx-4 flex w-[calc(100%+2rem)] min-w-0 items-center gap-3 overflow-x-auto px-4 pb-1 text-[13px] whitespace-nowrap text-muted sm:mx-0 sm:w-auto sm:gap-4 sm:px-0 sm:pb-0 sm:text-sm">
-              {[
-                ["/tests", "Đề thi", "Đề thi"],
-                ["/practice", "Luyện dạng", "Dạng câu"],
-                ["/listening", "Luyện nghe", "Nghe"],
-                ["/vocabulary", "Từ vựng", "Từ vựng"],
-                ["/mistakes", "Sổ câu sai", "Câu sai"],
-                ["/history", "Tiến độ", "Tiến độ"],
-              ].map(([href, label, short]) => (
-                <Link key={href} href={href} className="hover:text-fg">
-                  <span className="sm:hidden">{short}</span>
-                  <span className="hidden sm:inline">{label}</span>
-                </Link>
-              ))}
-            </div>
+            <SiteNav />
           </nav>
         </header>
         <ImportBanner />
