@@ -175,17 +175,13 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
           showAudio
         />
       </StepTransition>
-      <div className="mt-6 flex justify-end">
-        <button onClick={() => setIndex(index + 1)} className="rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary">
-          {index === items.length - 1 ? "Xem kết quả" : answeredHere ? "Tiếp →" : "Bỏ qua →"}
-        </button>
-      </div>
 
       {/* thanh điều hướng ở đáy + bảng câu (như phòng luyện thi) */}
       <StepNav
         label={`Câu ${index + 1}/${items.length}`}
         canPrev={index > 0}
-        canNext={index < items.length - 1}
+        // › ở câu cuối = xem kết quả (nút "Xem kết quả" cũng có trong bảng câu)
+        canNext
         onPrev={() => setIndex(index - 1)}
         onNext={() => setIndex(index + 1)}
         listOpen={navOpen}

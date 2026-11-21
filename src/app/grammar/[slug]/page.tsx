@@ -87,12 +87,8 @@ export default async function GrammarTopicPage({ params }: PageProps<"/grammar/[
 
       {/* nguồn đã dùng để đối chiếu nội dung bài */}
       <section className="mt-10 rounded-2xl border border-line bg-surface p-5 text-sm">
-        <h2 className="font-semibold">Nguồn đối chiếu</h2>
-        <p className="mt-1 text-muted">
-          Nội dung bài do ĐMToeic tự viết và đã đối chiếu với các trang ngữ pháp dưới đây. Nếu thấy chỗ nào chưa đúng, hãy kiểm tra lại
-          theo nguồn.
-        </p>
-        <ul className="mt-3 space-y-1.5">
+        <h2 className="font-semibold">Nguồn</h2>
+        <ul className="mt-2 space-y-1.5">
           {topic.sources.map((s) => (
             <li key={s.url}>
               <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
