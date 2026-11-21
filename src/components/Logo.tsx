@@ -24,7 +24,7 @@ export function LogoMark({ className = "size-8" }: { className?: string }) {
 /** Biểu tượng + chữ. onDark: dùng trên nền tối/navy (chữ trắng) */
 export default function Logo({ onDark = false, className = "" }: { onDark?: boolean; className?: string }) {
   return (
-    <span className={`inline-flex items-center gap-2 ${className}`}>
+    <span className={`inline-flex items-center gap-2 leading-none ${className}`}>
       {/* nền tối/navy: viền sáng mảnh để ô vuông không hoà vào nền */}
       <LogoMark className={`size-8 shrink-0 ${onDark ? "rounded-[23%] ring-1 ring-white/40" : ""}`} />
       <span className={`text-lg font-extrabold tracking-tight ${onDark ? "text-white" : "text-fg"}`}>

@@ -32,7 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <header className="site-header z-30 border-b border-line bg-surface/90 backdrop-blur sm:sticky sm:top-0">
           {/* điện thoại: menu xuống dòng thứ hai, cuộn ngang được; máy tính: cùng hàng với logo */}
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-1 px-4 py-2 sm:h-14 sm:flex-nowrap sm:py-0">
-            <Link href="/" aria-label="ĐMToeic — trang chủ" className="shrink-0">
+            <Link href="/" aria-label="ĐMToeic — trang chủ" className="flex shrink-0 items-center">
               <Logo />
             </Link>
             <div className="ml-auto flex items-center gap-1 sm:order-3">
