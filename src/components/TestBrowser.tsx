@@ -2,7 +2,7 @@
 // Kho đề: lọc theo năm + thẻ đề (năm, tên đề, điểm thi thử gần nhất, hai nút Thi thử / Luyện tập).
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useAttempts } from "@/lib/storage";
 import { ExamIcon, PracticeIcon } from "./ActionIcons";
 import type { Attempt, TestSummary } from "@/lib/types";
@@ -34,23 +34,14 @@ export default function TestBrowser({ tests }: { tests: TestSummary[] }) {
   return (
     <>
       <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
-        {/* lọc năm: nhóm nút liền khối, nút đang chọn nổi lên */}
-        <div className="flex max-w-full gap-1 overflow-x-auto rounded-2xl border border-line bg-surface p-1" role="tablist" aria-label="Lọc theo năm">
-          {(["all", ...years] as const).map((y) => (
-            <button
-              key={y}
-              role="tab"
-              aria-selected={year === y}
-              onClick={() => setYear(y)}
-              className={`shrink-0 rounded-xl px-4 py-1.5 text-sm font-medium whitespace-nowrap transition ${
-                year === y ? "bg-primary text-on-primary shadow-sm" : "text-muted hover:bg-surface-2 hover:text-fg"
-              }`}
-            >
-              {y === "all" ? "Tất cả" : `ETS ${y}`}
-              <span className="ml-1.5 text-xs opacity-70">{y === "all" ? tests.length : tests.filter((t) => t.year === y).length}</span>
-            </button>
-          ))}
-        </div>
+        <YearTabs
+          items={[
+            { key: "all" as const, label: "Tất cả", count: tests.length },
+            ...years.map((y) => ({ key: y, label: `ETS ${y}`, count: tests.filter((t) => t.year === y).length })),
+          ]}
+          value={year}
+          onChange={setYear}
+        />
         {done > 0 && (
           <div className="flex gap-4 text-sm text-muted">
             <span>
@@ -76,6 +67,82 @@ export default function TestBrowser({ tests }: { tests: TestSummary[] }) {
         ))}
       </div>
     </>
+  );
+}
+
+/** Lọc năm: nhóm nút liền khối; nền xanh của nút đang chọn trượt sang nút mới */
+function YearTabs<K extends string | number>({
+  items,
+  value,
+  onChange,
+}: {
+  items: { key: K; label: string; count: number }[];
+  value: K;
+  onChange: (k: K) => void;
+}) {
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const pillRef = useRef<HTMLSpanElement>(null);
+  const placed = useRef(false);
+
+  // đặt nền dưới nút đang chọn (chỉnh thẳng style, không qua state → không render lại)
+  const place = (animate: boolean) => {
+    const wrap = wrapRef.current;
+    const pill = pillRef.current;
+    const el = wrap?.querySelector<HTMLElement>("[aria-selected=true]");
+    if (!pill || !el) return;
+    pill.style.transition = animate ? "" : "none";
+    pill.style.width = `${el.offsetWidth}px`;
+    pill.style.transform = `translateX(${el.offsetLeft}px)`;
+    pill.style.opacity = "1";
+  };
+  const placeRef = useRef(place);
+  useLayoutEffect(() => {
+    placeRef.current = place;
+  });
+
+  // đổi lựa chọn → trượt (lần đầu thì đặt ngay)
+  useLayoutEffect(() => {
+    placeRef.current(placed.current);
+    placed.current = true;
+  }, [value]);
+
+  // đổi kích thước (xoay màn hình, đổi phông…) → đặt lại ngay, không trượt. Tạo một lần duy nhất:
+  // ResizeObserver gọi ngay khi bắt đầu theo dõi, tạo lại mỗi lần đổi lựa chọn sẽ cắt mất hiệu ứng trượt.
+  useLayoutEffect(() => {
+    const wrap = wrapRef.current;
+    if (!wrap) return;
+    const ro = new ResizeObserver(() => placeRef.current(false));
+    ro.observe(wrap);
+    return () => ro.disconnect();
+  }, []);
+
+  return (
+    <div
+      ref={wrapRef}
+      className="relative flex max-w-full gap-1 overflow-x-auto rounded-2xl border border-line bg-surface p-1"
+      role="tablist"
+      aria-label="Lọc theo năm"
+    >
+      <span
+        ref={pillRef}
+        aria-hidden
+        className="absolute top-1 bottom-1 left-0 rounded-xl bg-primary opacity-0 shadow-sm transition-[transform,width] duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none"
+      />
+      {items.map((it) => (
+        <button
+          key={it.key}
+          role="tab"
+          aria-selected={value === it.key}
+          onClick={() => onChange(it.key)}
+          className={`relative shrink-0 rounded-xl px-4 py-1.5 text-sm font-medium whitespace-nowrap transition-colors duration-300 ${
+            value === it.key ? "text-on-primary" : "text-muted hover:text-fg"
+          }`}
+        >
+          {it.label}
+          <span className="ml-1.5 text-xs opacity-70">{it.count}</span>
+        </button>
+      ))}
+    </div>
   );
 }
 
