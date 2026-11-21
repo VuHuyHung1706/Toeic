@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { PARTS } from "@/lib/toeic";
 import type { PartNo } from "@/lib/types";
+import { PracticeIcon } from "./ActionIcons";
 
 const TIME_OPTIONS = [0, 5, 10, 15, 20, 30, 45, 60, 75];
 
@@ -82,10 +83,11 @@ export default function PracticeSetup({ testId, partCounts }: { testId: string; 
       <Link
         href={href}
         aria-disabled={!parts.length}
-        className={`mt-5 inline-block rounded-lg px-5 py-2.5 font-semibold ${
+        className={`group mt-5 inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-semibold ${
           parts.length ? "bg-primary text-on-primary hover:opacity-90" : "pointer-events-none bg-surface-2 text-muted"
         }`}
       >
+        <PracticeIcon />
         Luyện {total} câu
       </Link>
     </section>

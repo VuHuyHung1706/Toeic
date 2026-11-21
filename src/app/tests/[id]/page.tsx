@@ -6,6 +6,7 @@ import { getTest, getTestIndex, getVocab } from "@/lib/tests";
 import PracticeSetup from "@/components/PracticeSetup";
 import TestHistory from "@/components/TestHistory";
 import { DetailSkeleton } from "@/components/Skeleton";
+import { ExamIcon } from "@/components/ActionIcons";
 
 export async function generateStaticParams() {
   return (await getTestIndex()).map((t) => ({ id: t.id }));
@@ -59,13 +60,14 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
           </ul>
           <Link
             href={`/tests/${test.id}/exam?mode=full`}
-            className={`mt-5 inline-block rounded-lg px-5 py-2.5 font-semibold ${
+            className={`group mt-5 inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-semibold ${
               test.availability.fullTest
                 ? "bg-primary text-on-primary hover:opacity-90"
                 : "pointer-events-none bg-surface-2 text-muted"
             }`}
             aria-disabled={!test.availability.fullTest}
           >
+            <ExamIcon />
             Bắt đầu thi thử
           </Link>
           {!test.availability.fullTest && <p className="mt-2 text-sm text-danger">Đề này thiếu audio full nên chưa thi thử được.</p>}

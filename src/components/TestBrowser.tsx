@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useAttempts } from "@/lib/storage";
+import { ExamIcon, PracticeIcon } from "./ActionIcons";
 import type { Attempt, TestSummary } from "@/lib/types";
 
 export default function TestBrowser({ tests }: { tests: TestSummary[] }) {
@@ -68,14 +69,16 @@ export default function TestBrowser({ tests }: { tests: TestSummary[] }) {
               <div className="mt-4 flex gap-2">
                 <Link
                   href={`/tests/${t.id}/exam?mode=full`}
-                  className="flex-1 rounded-lg bg-primary px-3 py-2 text-center text-sm font-semibold text-on-primary hover:opacity-90"
+                  className="group flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2 text-sm font-semibold text-on-primary hover:opacity-90"
                 >
+                  <ExamIcon />
                   Thi thử
                 </Link>
                 <Link
                   href={`/tests/${t.id}`}
-                  className="flex-1 rounded-lg border border-line px-3 py-2 text-center text-sm font-semibold hover:bg-surface-2"
+                  className="group flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-line px-3 py-2 text-sm font-semibold hover:bg-surface-2"
                 >
+                  <PracticeIcon className="text-violet-500 dark:text-violet-400" />
                   Luyện tập
                 </Link>
               </div>
