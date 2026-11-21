@@ -181,3 +181,48 @@ audio {
     animation: none;
   }
 }
+
+/* Phản hồi khi chọn đáp án (luyện tập): đúng → nảy nhẹ; sai → rung ngang; đáp án đúng loé sáng khi chọn sai */
+@keyframes answer-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.025); }
+  100% { transform: scale(1); }
+}
+@keyframes answer-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(2px); }
+}
+@keyframes answer-glow {
+  0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--success) 45%, transparent); }
+  100% { box-shadow: 0 0 0 10px transparent; }
+}
+@keyframes badge-in {
+  from { transform: scale(0.4); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.answer-pop { animation: answer-pop 360ms cubic-bezier(0.34, 1.56, 0.64, 1), answer-glow 700ms ease-out; }
+.answer-shake { animation: answer-shake 380ms ease-in-out; }
+.answer-reveal { animation: answer-glow 800ms ease-out 200ms; }
+.badge-in { animation: badge-in 260ms cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+/* Thanh tỉ lệ (trang kết quả, trang chủ): chạy từ trái sang khi hiện */
+@keyframes bar-grow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+.bar-grow {
+  transform-origin: left;
+  animation: bar-grow 800ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .answer-pop,
+  .answer-shake,
+  .answer-reveal,
+  .badge-in,
+  .bar-grow {
+    animation: none;
+  }
+}

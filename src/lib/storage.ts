@@ -4,7 +4,7 @@
 // - Đã đăng nhập: lưu ở vùng riêng của tài khoản ("toeic:u:<userId>:<tên>") để giao diện đọc tức thì,
 //   mọi thay đổi được xếp hàng và đẩy lên /api/me/sync; khi mở trang/quay lại tab thì kéo dữ liệu mới nhất về.
 import { useSyncExternalStore } from "react";
-import type { Attempt } from "./types";
+import type { Attempt, ExamMode, PartNo } from "./types";
 import {
   MAX_OPS_PER_REQUEST,
   coalesceOps,
@@ -212,6 +212,21 @@ export function saveProgress(key: string, p: Progress) {
 export function clearProgress(key: string) {
   safeSet(fullKey(PROGRESS + key), null);
   enqueue({ t: "progress.del", key });
+}
+
+export interface ProgressEntry {
+  testId: string;
+  mode: ExamMode;
+  parts: PartNo[];
+  progress: Progress;
+}
+/** Các bài đang làm dở của người dùng hiện tại (khoá testId:mode:parts, xem progressKey) */
+export function listProgress(): ProgressEntry[] {
+  return Object.entries(progressFor(account)).flatMap(([k, progress]) => {
+    const [testId, mode, parts] = k.split(":");
+    if (!testId || (mode !== "full" && mode !== "practice")) return [];
+    return [{ testId, mode, parts: (parts ?? "").split(",").map(Number).filter(Boolean) as PartNo[], progress }];
+  });
 }
 function progressFor(acc: string | null): Record<string, Progress> {
   const prefix = prefixFor(acc) + PROGRESS;

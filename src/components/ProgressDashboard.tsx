@@ -1,22 +1,12 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useAttempts, useDictation, useReviews, useVocabLog } from "@/lib/storage";
+import { DAY, buildActivity, startOfDay, streakOf } from "@/lib/activity";
+import { dayKey, useAttempts, useDictation, useReviews, useVocabLog } from "@/lib/storage";
 import { PARTS, formatDuration, predictScore, type SkillPrediction } from "@/lib/toeic";
 import type { Attempt, PartNo } from "@/lib/types";
 
-const DAY = 86_400_000;
 const WEEKS = 16;
-
-function dayKey(t: number) {
-  const d = new Date(t);
-  return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
-}
-function startOfDay(t: number) {
-  const d = new Date(t);
-  d.setHours(0, 0, 0, 0);
-  return d.getTime();
-}
 
 export default function ProgressDashboard() {
   const attempts = useAttempts();
@@ -27,8 +17,7 @@ export default function ProgressDashboard() {
   const [today] = useState(() => startOfDay(Date.now()));
 
   const stats = useMemo(() => {
-    const activity = new Map<string, number>();
-    const add = (t: number, n: number) => activity.set(dayKey(t), (activity.get(dayKey(t)) ?? 0) + n);
+    const activity = buildActivity(attempts, reviews, dictation, vocabLog);
     let answered = 0;
     let presented = 0;
     let correct = 0;
@@ -40,7 +29,6 @@ export default function ProgressDashboard() {
       presented += a.total;
       correct += a.correct;
       seconds += a.durationSec;
-      add(a.submittedAt, n);
       for (const [p, r] of Object.entries(a.byPart)) {
         const cur = byPart.get(Number(p) as PartNo) ?? { correct: 0, total: 0 };
         cur.correct += r!.correct;
@@ -48,19 +36,7 @@ export default function ProgressDashboard() {
         byPart.set(Number(p) as PartNo, cur);
       }
     }
-    for (const list of Object.values(reviews)) for (const r of list) add(r.at, 1);
-    for (const d of dictation) add(d.at, 1);
-    // nhật ký ôn thẻ từ vựng đã được gộp theo ngày (khoá "yyyy-m-d")
-    for (const [k, n] of Object.entries(vocabLog)) activity.set(k, (activity.get(k) ?? 0) + n);
-
-    // chuỗi ngày học liên tiếp (tính đến hôm nay, hoặc hôm qua nếu hôm nay chưa học)
-    let streak = 0;
-    let t = today;
-    if (!activity.get(dayKey(t))) t -= DAY;
-    while (activity.get(dayKey(t))) {
-      streak += 1;
-      t -= DAY;
-    }
+    const streak = streakOf(activity, today);
     return { activity, answered, presented, correct, seconds, byPart, streak };
   }, [attempts, reviews, dictation, vocabLog, today]);
   const prediction = useMemo(() => predictScore(attempts, today), [attempts, today]);

@@ -226,6 +226,10 @@ function QuestionCard({
   const showText = !spokenOnly || revealed;
   const questionText = q.part === 1 ? "" : q.question;
   const locked = !onSelect || revealed;
+  // đáp án vừa bấm trong lần hiển thị này → chỉ phát hiệu ứng đúng/sai một lần, không phát lại khi quay lại câu cũ
+  const [picked, setPicked] = useState<Letter | null>(null);
+  const fresh = revealed && picked !== null;
+  const pickedWrong = fresh && picked !== q.answer;
 
   return (
     <div
@@ -285,18 +289,26 @@ function QuestionCard({
           if (revealed && isAns) cls = "border-success bg-success-soft";
           else if (revealed && isSel) cls = "border-danger bg-danger-soft";
           else if (isSel) cls = "border-primary bg-primary-soft";
+          // vòng chữ cái: đã có đáp án → xanh (đúng) / đỏ (chọn sai)
+          let badge = isSel ? "border-primary bg-primary text-on-primary" : "border-line";
+          if (revealed && isAns) badge = "border-success bg-success text-bg";
+          else if (revealed && isSel) badge = "border-danger bg-danger text-bg";
+          let anim = "";
+          if (fresh && L === picked) anim = isAns ? "answer-pop" : "answer-shake";
+          else if (pickedWrong && isAns) anim = "answer-reveal";
+          const mark = revealed && (isAns || isSel) ? (isAns ? "✓" : "✗") : null;
           return (
             <button
               key={L}
               disabled={locked}
-              onClick={() => onSelect?.(q.number, L)}
-              className={`flex items-start gap-3 rounded-lg border px-3 py-2 text-left transition disabled:cursor-default ${cls}`}
+              onClick={() => {
+                if (locked) return;
+                setPicked(L);
+                onSelect?.(q.number, L);
+              }}
+              className={`flex items-start gap-3 rounded-lg border px-3 py-2 text-left transition disabled:cursor-default ${cls} ${anim}`}
             >
-              <span
-                className={`grid size-6 shrink-0 place-items-center rounded-full border text-xs font-bold ${
-                  isSel ? "border-primary bg-primary text-on-primary" : "border-line"
-                }`}
-              >
+              <span className={`grid size-6 shrink-0 place-items-center rounded-full border text-xs font-bold ${badge}`}>
                 {L}
               </span>
               {showText && (
@@ -313,6 +325,16 @@ function QuestionCard({
                   )}
                 </span>
               )}
+              {mark && (
+                <span
+                  aria-hidden
+                  className={`ml-auto shrink-0 pt-0.5 text-sm font-bold ${isAns ? "text-success" : "text-danger"} ${
+                    fresh && (L === picked || isAns) ? "badge-in" : ""
+                  }`}
+                >
+                  {mark}
+                </span>
+              )}
             </button>
           );
         })}
@@ -320,7 +342,7 @@ function QuestionCard({
 
       {revealed && (
         <div className="mt-3 space-y-2">
-          <div className="text-sm">
+          <div className={`text-sm ${fresh ? "step-fade" : ""}`}>
             {selected ? (
               selected === q.answer ? (
                 <span className="font-semibold text-success">✓ Chính xác</span>
