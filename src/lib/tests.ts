@@ -2,7 +2,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { cacheLife } from "next/cache";
-import type { BankItem, BankTag, TestData, TestSummary, VocabEntry } from "./types";
+import type { BankItem, BankTag, PhraseGroup, TestData, TestSummary, VocabEntry } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "tests");
 const ID_RE = /^\d{4}-test\d{1,2}$/;
@@ -51,4 +51,14 @@ export async function getVocab(): Promise<VocabEntry[]> {
   "use cache";
   cacheLife("max");
   return JSON.parse(await readFile(path.join(process.cwd(), "content", "vocab.json"), "utf8")) as VocabEntry[];
+}
+
+export async function getPhrases(): Promise<PhraseGroup[]> {
+  "use cache";
+  cacheLife("max");
+  try {
+    return (JSON.parse(await readFile(path.join(process.cwd(), "content", "phrases.json"), "utf8")) as { groups: PhraseGroup[] }).groups;
+  } catch {
+    return [];
+  }
 }

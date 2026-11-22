@@ -1,0 +1,2353 @@
+{
+ "groups": [
+  {
+   "key": "noun",
+   "label": "Danh từ + giới từ",
+   "items": [
+    {
+     "phrase": "access to",
+     "meaning": "quyền/khả năng tiếp cận, sử dụng",
+     "example": "Additionally, residents have access to an outdoor pool and a playground on the property."
+    },
+    {
+     "phrase": "advice on",
+     "meaning": "lời khuyên về",
+     "example": "It features advice on creating promotional content."
+    },
+    {
+     "phrase": "agreement with",
+     "meaning": "thỏa thuận với",
+     "example": "He said that he has been offered another property, also on Grove Street, and will proceed to rent that property if he cannot finalize his agreement with us by the end of office hours today."
+    },
+    {
+     "phrase": "answer to",
+     "meaning": "câu trả lời cho",
+     "example": "Judging from other interviews she's given, I'm sure that she'll have fun answers to the questions."
+    },
+    {
+     "phrase": "applicant for",
+     "meaning": "ứng viên cho (vị trí)",
+     "example": "Applicants for the position of flight attendant at Joyous Airlines need to ..."
+    },
+    {
+     "phrase": "application for",
+     "meaning": "đơn xin, đơn đăng ký",
+     "example": "Applications for permits will no longer be accepted on Fridays or Saturdays."
+    },
+    {
+     "phrase": "appointment with",
+     "meaning": "cuộc hẹn với",
+     "example": "She needs to reschedule an appointment with them."
+    },
+    {
+     "phrase": "appreciation for",
+     "meaning": "sự trân trọng, biết ơn đối với",
+     "example": "As a token of our appreciation for your suggestions, you will receive a 10 percent discount on a future bill."
+    },
+    {
+     "phrase": "approach to",
+     "meaning": "cách tiếp cận đối với",
+     "example": "This year there is sure to be great interest in your unique approach to healthy eating."
+    },
+    {
+     "phrase": "approval of",
+     "meaning": "sự phê duyệt, chấp thuận",
+     "example": "Expenses submitted after this time will require the approval of the department head."
+    },
+    {
+     "phrase": "assistance with",
+     "meaning": "sự hỗ trợ về",
+     "example": "Except for the assistance with tax paperwork, these offerings are provided at no expense to BASA holders."
+    },
+    {
+     "phrase": "attendance at",
+     "meaning": "sự tham dự (sự kiện)",
+     "example": "Attendance at the planetarium has been up in recent years."
+    },
+    {
+     "phrase": "attention to",
+     "meaning": "sự chú ý đến",
+     "example": "Please pay attention to your inbox for your first assignment, which will be due by our first class meeting."
+    },
+    {
+     "phrase": "award for",
+     "meaning": "giải thưởng cho",
+     "example": "Both buildings have won international awards for their sleek, innovative designs."
+    },
+    {
+     "phrase": "awareness of",
+     "meaning": "nhận thức về",
+     "example": "The position requires excellent customer service skills and a strong awareness of current fashion trends in the industry."
+    },
+    {
+     "phrase": "background in",
+     "meaning": "nền tảng (học vấn, kinh nghiệm) về",
+     "example": "She is highly qualified, and her background in international finance makes her particularly well suited for this role."
+    },
+    {
+     "phrase": "budget for",
+     "meaning": "ngân sách cho",
+     "example": "We just need one of you to clarify a few quick points about the budget for the next advertising campaign."
+    },
+    {
+     "phrase": "candidate for",
+     "meaning": "ứng viên cho",
+     "example": "In May, we interviewed several candidates for the managing director position."
+    },
+    {
+     "phrase": "career in",
+     "meaning": "sự nghiệp trong lĩnh vực",
+     "example": "When she went to university, however, she put the camera down to pursue a career in print journalism."
+    },
+    {
+     "phrase": "change in",
+     "meaning": "sự thay đổi về",
+     "example": "If you have made such a change in careers, we would like to hear about it."
+    },
+    {
+     "phrase": "change to",
+     "meaning": "sự thay đổi đối với",
+     "example": "My understanding is that you will now document these changes to the contract so that I can sign off on them this week."
+    },
+    {
+     "phrase": "charge for",
+     "meaning": "phí cho",
+     "example": "To satisfy a new company policy, I must give my supervisor a receipt with the charges for each item listed separately."
+    },
+    {
+     "phrase": "commitment to",
+     "meaning": "sự cam kết với",
+     "example": "Her achievements demonstrate her commitment to colleagues and product users."
+    },
+    {
+     "phrase": "complaint about",
+     "meaning": "lời phàn nàn về",
+     "example": "My only complaint about Momentum is that the automatic time-tracking feature seems to use up a lot of processing power."
+    },
+    {
+     "phrase": "compliance with",
+     "meaning": "sự tuân thủ",
+     "example": "Could you explain the revisions we need to make to be in compliance with the law?"
+    },
+    {
+     "phrase": "concern about",
+     "meaning": "mối lo ngại về",
+     "example": "Nearby tenants, however, have raised some valid concerns about the construction noise."
+    },
+    {
+     "phrase": "congratulations on",
+     "meaning": "lời chúc mừng về",
+     "example": "Congratulations on creating such a successful marketing campaign for our Heritage Mill cookies."
+    },
+    {
+     "phrase": "connection to",
+     "meaning": "sự kết nối với",
+     "example": "Locally owned and operated for over 50 years, the theater retains its strong connection to the city."
+    },
+    {
+     "phrase": "contract for",
+     "meaning": "hợp đồng về",
+     "example": "I am attaching your contract for a booth space and your invoice at the discounted member rate."
+    },
+    {
+     "phrase": "contract with",
+     "meaning": "hợp đồng với",
+     "example": "You will receive one free month of storage if someone you recommend signs a contract with us."
+    },
+    {
+     "phrase": "contribution to",
+     "meaning": "sự đóng góp cho",
+     "example": "I'd be very interested in learning more about your contributions to the making of that show."
+    },
+    {
+     "phrase": "coupon for",
+     "meaning": "phiếu giảm giá cho",
+     "example": "By way of apology, please come to the box office on your way out to receive a coupon for ten percent off your next ticket purchase."
+    },
+    {
+     "phrase": "damage to",
+     "meaning": "thiệt hại đối với",
+     "example": "It closed three months ago after a water leak caused extensive damage to the kitchen."
+    },
+    {
+     "phrase": "deadline for",
+     "meaning": "hạn chót cho",
+     "example": "The town council should extend the deadline for public comment."
+    },
+    {
+     "phrase": "decrease in",
+     "meaning": "sự giảm về",
+     "example": "To offset the decrease in sales, many ice cream stores are stocking alternative desserts that do not contain dairy."
+    },
+    {
+     "phrase": "degree in",
+     "meaning": "bằng cấp về (chuyên ngành)",
+     "example": "Qualifications include a degree in biology, environmental science, or a related subject."
+    },
+    {
+     "phrase": "delay in",
+     "meaning": "sự chậm trễ trong",
+     "example": "It had several delays in its project plans."
+    },
+    {
+     "phrase": "demand for",
+     "meaning": "nhu cầu về",
+     "example": "Demand for our quality product is higher than ever, our market share is increasing, and we are not finished expanding!"
+    },
+    {
+     "phrase": "details about",
+     "meaning": "chi tiết về",
+     "example": "A calendar with details about upcoming events, both at our hotel and in the surrounding area, can be found there."
+    },
+    {
+     "phrase": "directions to",
+     "meaning": "chỉ dẫn đường đến",
+     "example": "Follow directions to the express drop-off kiosk and place your items on the scales."
+    },
+    {
+     "phrase": "discount for",
+     "meaning": "giảm giá dành cho (đối tượng)",
+     "example": "I saw the prices on your Web site, but I was wondering if you have any discounts for large orders."
+    },
+    {
+     "phrase": "discount on",
+     "meaning": "giảm giá cho (mặt hàng)",
+     "example": "To mark this occasion, members of our rewards club will receive a 20% discount on all office furniture."
+    },
+    {
+     "phrase": "entrance to",
+     "meaning": "lối vào",
+     "example": "The entrance to a shop has been closed."
+    },
+    {
+     "phrase": "estimate for",
+     "meaning": "bảng báo giá, ước tính cho",
+     "example": "After the consultation, she will provide you with an estimate for the agreed-upon services."
+    },
+    {
+     "phrase": "experience in",
+     "meaning": "kinh nghiệm trong (lĩnh vực)",
+     "example": "Applicants must have a bachelor's degree and at least two years of work experience in a relevant area."
+    },
+    {
+     "phrase": "experience with",
+     "meaning": "kinh nghiệm với",
+     "example": "OK, well, none of our Web developers have experience with pop-up boxes, but if some of yours do, we'd be interested."
+    },
+    {
+     "phrase": "expert in",
+     "meaning": "chuyên gia về",
+     "example": "They needed an expert in ancient Egypt, and they found me."
+    },
+    {
+     "phrase": "fee for",
+     "meaning": "phí cho",
+     "example": "The fee for the entire day of workshops is $85, and this includes an on-site catered lunch."
+    },
+    {
+     "phrase": "feedback about",
+     "meaning": "ý kiến phản hồi về",
+     "example": "To help us improve our customer service, we ask that you fill out a brief questionnaire to provide honest feedback about your experience."
+    },
+    {
+     "phrase": "feedback on",
+     "meaning": "ý kiến phản hồi về",
+     "example": "Anyway, the feedback on our mentoring and the networking opportunities was quite good, at least."
+    },
+    {
+     "phrase": "focus on",
+     "meaning": "sự tập trung vào",
+     "example": "With our focus on exceptional customer service, we guarantee that your time in our store will be both pleasant and worthwhile!"
+    },
+    {
+     "phrase": "funding for",
+     "meaning": "kinh phí, nguồn vốn cho",
+     "example": "The city will be able to generate extra funding for its social services."
+    },
+    {
+     "phrase": "growth in",
+     "meaning": "sự tăng trưởng về",
+     "example": "The company's entry into North American markets is a promising sign of expected growth in the coming years."
+    },
+    {
+     "phrase": "guidelines for",
+     "meaning": "hướng dẫn cho",
+     "example": "This manual provides guidelines for inventory control at Malanta facilities."
+    },
+    {
+     "phrase": "impact on",
+     "meaning": "tác động đến",
+     "example": "You might explain, for instance, how a person you respect had a positive impact on your life."
+    },
+    {
+     "phrase": "improvement in",
+     "meaning": "sự cải thiện về",
+     "example": "that one of the major benefits of using these games is significant improvement in customer service."
+    },
+    {
+     "phrase": "improvement to",
+     "meaning": "sự cải tiến đối với",
+     "example": "However, users will be impressed by a significant improvement to the camera."
+    },
+    {
+     "phrase": "increase in",
+     "meaning": "sự gia tăng về",
+     "example": "NOTE: Because of a dramatic increase in demand, we now require appointments for all services."
+    },
+    {
+     "phrase": "information about",
+     "meaning": "thông tin về",
+     "example": "I have attached information about both companies to help you decide which one we might use."
+    },
+    {
+     "phrase": "information on",
+     "meaning": "thông tin về",
+     "example": "And don't forget to look for more information on our classes in the weeks to come!"
+    },
+    {
+     "phrase": "inquiry about",
+     "meaning": "câu hỏi, yêu cầu thông tin về",
+     "example": "I have read your inquiry about offering financial management courses at libraries across Queensland."
+    },
+    {
+     "phrase": "insight into",
+     "meaning": "hiểu biết sâu về",
+     "example": "Check our Web site for more information about this service as well as for insights into topics related to farming and gardening in the Northern Great Plains region."
+    },
+    {
+     "phrase": "instructions for",
+     "meaning": "hướng dẫn cho",
+     "example": "There are also instructions for requesting reimbursement for any expenses you incur."
+    },
+    {
+     "phrase": "interest in",
+     "meaning": "sự quan tâm, hứng thú với",
+     "example": "This year there is sure to be great interest in your unique approach to healthy eating."
+    },
+    {
+     "phrase": "interview with",
+     "meaning": "cuộc phỏng vấn với",
+     "example": "The film includes an interview with Helen Ortiz, a professor at Damon University."
+    },
+    {
+     "phrase": "introduction to",
+     "meaning": "phần giới thiệu, nhập môn về",
+     "example": "Orientations are an important introduction to the company."
+    },
+    {
+     "phrase": "invitation to",
+     "meaning": "lời mời đến",
+     "example": "To issue an invitation to an event"
+    },
+    {
+     "phrase": "issue with",
+     "meaning": "vấn đề với",
+     "example": "However, the Web developers are still dealing with issues with the billing system."
+    },
+    {
+     "phrase": "key to",
+     "meaning": "chìa khóa (mở cái gì); bí quyết của",
+     "example": "Now more than ever, English proficiency is a key to success in our increasingly globalized world."
+    },
+    {
+     "phrase": "knowledge of",
+     "meaning": "kiến thức về",
+     "example": "Therefore, we are seeking an auto mechanic with knowledge of this area."
+    },
+    {
+     "phrase": "lack of",
+     "meaning": "sự thiếu",
+     "example": "The company chosen for the award this year was frustrated by the lack of qualified job applicants and decided to do something about it."
+    },
+    {
+     "phrase": "leader in",
+     "meaning": "đơn vị dẫn đầu trong",
+     "example": "The executives in the group are leaders in the field of electronics development and manufacturing."
+    },
+    {
+     "phrase": "link to",
+     "meaning": "đường dẫn đến; mối liên kết với",
+     "example": "Please do not forward this e-mail to others or post the link to the survey elsewhere."
+    },
+    {
+     "phrase": "need for",
+     "meaning": "nhu cầu, sự cần thiết về",
+     "example": "I remember seeing his interview on television about the need for quality sleep."
+    },
+    {
+     "phrase": "opportunity for",
+     "meaning": "cơ hội cho",
+     "example": "This year, several opportunities for professional networking will be added."
+    },
+    {
+     "phrase": "overview of",
+     "meaning": "tổng quan về",
+     "example": "But first, let me give you an overview of this amazing property."
+    },
+    {
+     "phrase": "participation in",
+     "meaning": "sự tham gia vào",
+     "example": "Additionally, participation in the event may increase our company's profile, opening up new markets for our products."
+    },
+    {
+     "phrase": "partnership with",
+     "meaning": "quan hệ đối tác với",
+     "example": "In my role, I work in close partnership with the marketing and production teams."
+    },
+    {
+     "phrase": "payment for",
+     "meaning": "khoản thanh toán cho",
+     "example": "We accept payment for the remaining fees by credit card over the phone or by bank transfer."
+    },
+    {
+     "phrase": "preparation for",
+     "meaning": "sự chuẩn bị cho",
+     "example": "In preparation for the event, please note that we offer several unique branding opportunities."
+    },
+    {
+     "phrase": "problem with",
+     "meaning": "vấn đề với",
+     "example": "I just noticed we have a problem with some promotional materials I packed for the trade show."
+    },
+    {
+     "phrase": "proof of",
+     "meaning": "bằng chứng về",
+     "example": "After reviewing the guidelines on documents that we will accept as proof of your relationship, upload eligible documents."
+    },
+    {
+     "phrase": "proposal for",
+     "meaning": "đề xuất cho",
+     "example": "We need to put together a proposal for next month's budget meeting."
+    },
+    {
+     "phrase": "question about",
+     "meaning": "câu hỏi về",
+     "example": "If you have questions about this process, please call our Customer Support Team at 555-0176."
+    },
+    {
+     "phrase": "range of",
+     "meaning": "nhiều loại, một loạt",
+     "example": "We also wanted to be able to choose from a range of cuisines and price points."
+    },
+    {
+     "phrase": "reason for",
+     "meaning": "lý do cho",
+     "example": "For each listed item, write a brief note about the reason for the spending."
+    },
+    {
+     "phrase": "receipt for",
+     "meaning": "biên lai cho",
+     "example": "A receipt for the uniforms."
+    },
+    {
+     "phrase": "recommendation for",
+     "meaning": "đề xuất, gợi ý cho",
+     "example": "My only recommendation for the Forklift Training Academy is that they offer more variety in course days and times."
+    },
+    {
+     "phrase": "refund for",
+     "meaning": "khoản hoàn tiền cho",
+     "example": "A full refund for your ticket or tickets has been issued via your chosen payment method."
+    },
+    {
+     "phrase": "relationship with",
+     "meaning": "mối quan hệ với",
+     "example": "My position has enabled me to develop long-term collaborative relationships with clients."
+    },
+    {
+     "phrase": "repairs to",
+     "meaning": "việc sửa chữa đối với",
+     "example": "She has made repairs to the bicycle by herself."
+    },
+    {
+     "phrase": "report on",
+     "meaning": "báo cáo về",
+     "example": "I'll be sure to have a report on current projects ready for the next bulletin."
+    },
+    {
+     "phrase": "request for",
+     "meaning": "yêu cầu về",
+     "example": "In the meantime, you will receive a request for professional references via e-mail."
+    },
+    {
+     "phrase": "requirement for",
+     "meaning": "yêu cầu, điều kiện đối với",
+     "example": "The only requirement for maintaining your membership is to make at least one purchase per year."
+    },
+    {
+     "phrase": "research on",
+     "meaning": "nghiên cứu về",
+     "example": "I did some research on your products, and I was very impressed with your process."
+    },
+    {
+     "phrase": "reservation for",
+     "meaning": "việc đặt chỗ cho",
+     "example": "A nonrefundable deposit of $5 per person is required to hold a reservation for groups."
+    },
+    {
+     "phrase": "response to",
+     "meaning": "sự phản hồi đối với",
+     "example": "In your response to this e-mail, please attach a high resolution picture of yourself."
+    },
+    {
+     "phrase": "revision to",
+     "meaning": "sự chỉnh sửa đối với",
+     "example": "Please review it with your legal team and let me know of any desired revisions to its terms and conditions."
+    },
+    {
+     "phrase": "rise in",
+     "meaning": "sự gia tăng về",
+     "example": "Modern Salon Academy has had a substantial rise in enrollment over the past few years."
+    },
+    {
+     "phrase": "role in",
+     "meaning": "vai trò trong",
+     "example": "To apply, business owners must submit a description of their business's role in the community"
+    },
+    {
+     "phrase": "search for",
+     "meaning": "sự tìm kiếm",
+     "example": "The board of directors is committed to taking its time in its search for a permanent artistic director."
+    },
+    {
+     "phrase": "selection of",
+     "meaning": "tuyển tập, sự lựa chọn (đa dạng) về",
+     "example": "She hopes to find a greater selection of sportswear."
+    },
+    {
+     "phrase": "seminar on",
+     "meaning": "hội thảo về",
+     "example": "We offer free seminars on management, public relations, grant writing, and various types of application software to nonprofit organizations in Lalortown."
+    },
+    {
+     "phrase": "series of",
+     "meaning": "chuỗi, loạt",
+     "example": "I am pleased to inform you of your acceptance to our next series of classes."
+    },
+    {
+     "phrase": "shortage of",
+     "meaning": "sự thiếu hụt",
+     "example": "There is a shortage of supplies."
+    },
+    {
+     "phrase": "solution to",
+     "meaning": "giải pháp cho",
+     "example": "You said you would take charge of this, and I hope to hear that you have found a solution to the problem."
+    },
+    {
+     "phrase": "subscription to",
+     "meaning": "việc đăng ký dài hạn (báo, dịch vụ)",
+     "example": "Your subscription to Medical Innovations Quarterly has been canceled."
+    },
+    {
+     "phrase": "success in",
+     "meaning": "thành công trong",
+     "example": "I have had a job advertisement posted for a while now but have not had success in finding the right candidate."
+    },
+    {
+     "phrase": "suggestion for",
+     "meaning": "gợi ý cho",
+     "example": "Please let me know if you have any suggestions for resolving this issue in a timely manner."
+    },
+    {
+     "phrase": "support for",
+     "meaning": "sự ủng hộ, hỗ trợ cho",
+     "example": "They will receive advertising support for six months."
+    },
+    {
+     "phrase": "tip for",
+     "meaning": "mẹo cho",
+     "example": "So, here are some tips for developing a great Web site for your food truck."
+    },
+    {
+     "phrase": "tip on",
+     "meaning": "mẹo về",
+     "example": "The latest rule updates will be addressed as will tips on how to organize an effective training program."
+    },
+    {
+     "phrase": "tour of",
+     "meaning": "chuyến tham quan",
+     "example": "However, I'm hoping that we could have a brief tour of the whole museum before we begin our work."
+    },
+    {
+     "phrase": "trend in",
+     "meaning": "xu hướng trong",
+     "example": "My posts focus on trends in women's fashion and how to make clothing and cosmetics more sustainable."
+    },
+    {
+     "phrase": "trouble with",
+     "meaning": "rắc rối với",
+     "example": "I am trying to set up my Motman Motors portal account, but I seem to be having trouble with my employee ID number."
+    },
+    {
+     "phrase": "understanding of",
+     "meaning": "sự hiểu biết về",
+     "example": "This live webinar offers attendees a better understanding of how to improve the role that project management plays in their organizations."
+    },
+    {
+     "phrase": "update on",
+     "meaning": "thông tin cập nhật về",
+     "example": "I would like an update on the grand opening at the Carter Street Mall."
+    },
+    {
+     "phrase": "update to",
+     "meaning": "bản cập nhật cho",
+     "example": "Doing so will ensure that you get advance notice of any updates to our policies."
+    },
+    {
+     "phrase": "upgrade to",
+     "meaning": "sự nâng cấp lên/cho",
+     "example": "They proposed upgrades to a recreation center."
+    },
+    {
+     "phrase": "variety of",
+     "meaning": "nhiều loại, đa dạng",
+     "example": "Each shipment will contain a variety of individually packaged items in attractive and reusable containers."
+    },
+    {
+     "phrase": "visit to",
+     "meaning": "chuyến thăm đến",
+     "example": "We have a number of tours scheduled during your short visit to our city during the week of 24 May."
+    },
+    {
+     "phrase": "voucher for",
+     "meaning": "phiếu ưu đãi cho",
+     "example": "Those who return a completed survey after that date will receive a voucher for 15 percent off of their next purchase."
+    },
+    {
+     "phrase": "warranty on",
+     "meaning": "bảo hành cho",
+     "example": "That's why we offer a lifetime warranty on tire maintenance for every tire you purchase from us."
+    },
+    {
+     "phrase": "workshop on",
+     "meaning": "buổi tập huấn về",
+     "example": "Visiting artists from these countries will provide art workshops on select dates in July."
+    }
+   ]
+  },
+  {
+   "key": "verb",
+   "label": "Động từ + giới từ",
+   "items": [
+    {
+     "phrase": "add A to B",
+     "meaning": "thêm (A) vào (B)",
+     "example": "Just add your name to the sign-up sheet at the check-in kiosk, located near the park entrance."
+    },
+    {
+     "phrase": "agree with",
+     "meaning": "đồng ý với",
+     "example": "He does not agree with the restaurant recommendations."
+    },
+    {
+     "phrase": "allow for",
+     "meaning": "tính đến, cho phép có",
+     "example": "To allow for these changes, I am asking everyone to provide me with the necessary banking details."
+    },
+    {
+     "phrase": "apologize for",
+     "meaning": "xin lỗi về",
+     "example": "We apologize for the technical difficulty you are experiencing with your online purchase."
+    },
+    {
+     "phrase": "appeal to",
+     "meaning": "thu hút, hấp dẫn (ai)",
+     "example": "And since I usually see other staff members at the games, I think this will appeal to most of our group."
+    },
+    {
+     "phrase": "apply for",
+     "meaning": "nộp đơn xin, ứng tuyển",
+     "example": "Walter actually interviewed me when I first applied for a job with the company fifteen years ago."
+    },
+    {
+     "phrase": "apply to",
+     "meaning": "áp dụng cho; nộp đơn vào",
+     "example": "They can be applied to the purchase of products offered online as well as those offered in our retail stores."
+    },
+    {
+     "phrase": "arrange for",
+     "meaning": "sắp xếp cho",
+     "example": "I believe that Green City Tours has arranged for all meals to be included for the participants."
+    },
+    {
+     "phrase": "arrive at",
+     "meaning": "đến (địa điểm cụ thể)",
+     "example": "I just arrived at the north entrance and will take down the sign we hung here."
+    },
+    {
+     "phrase": "arrive in",
+     "meaning": "đến (thành phố, quốc gia)",
+     "example": "Since I paid an additional fee for three-day shipping, I was expecting that my order would arrive in a timely fashion."
+    },
+    {
+     "phrase": "ask about",
+     "meaning": "hỏi về",
+     "example": "During the operations inspection, the inspector may visit workstations and ask about machines."
+    },
+    {
+     "phrase": "ask for",
+     "meaning": "yêu cầu, xin",
+     "example": "All you have to do is ask for the pass when you check in and return the pass when you check out."
+    },
+    {
+     "phrase": "assist with",
+     "meaning": "hỗ trợ về",
+     "example": "We are looking for people to donate their time to assist with one-on-one practice interviews."
+    },
+    {
+     "phrase": "attach A to B",
+     "meaning": "đính kèm (A) vào (B)",
+     "example": "Grady, I have drawn up the revisions we discussed to the June 5 contract and attached it to this message."
+    },
+    {
+     "phrase": "begin with",
+     "meaning": "bắt đầu bằng",
+     "example": "Your automatic payments will begin with the next billing cycle on ..."
+    },
+    {
+     "phrase": "belong to",
+     "meaning": "thuộc về",
+     "example": "It used to belong to one of her relatives."
+    },
+    {
+     "phrase": "benefit from",
+     "meaning": "hưởng lợi từ",
+     "example": "Your department manager mentioned that your team would greatly benefit from having an intern."
+    },
+    {
+     "phrase": "call for",
+     "meaning": "kêu gọi, đòi hỏi",
+     "example": "Some have called for construction of a second parking garage in the next two years."
+    },
+    {
+     "phrase": "care for",
+     "meaning": "chăm sóc",
+     "example": "He does not care for the taste of the signature pizzas."
+    },
+    {
+     "phrase": "charge A for B",
+     "meaning": "tính phí (ai) cho",
+     "example": "Apparently, I am being charged $300 for my documents."
+    },
+    {
+     "phrase": "check in",
+     "meaning": "làm thủ tục nhận phòng/lên máy bay",
+     "example": "All you have to do is ask for the pass when you check in and return the pass when you check out."
+    },
+    {
+     "phrase": "check on",
+     "meaning": "kiểm tra tình hình",
+     "example": "I'll check on the delivery status."
+    },
+    {
+     "phrase": "check with",
+     "meaning": "hỏi lại, xác nhận với",
+     "example": "You might want to check with the print shop on the ground floor."
+    },
+    {
+     "phrase": "choose from",
+     "meaning": "chọn từ",
+     "example": "We also wanted to be able to choose from a range of cuisines and price points."
+    },
+    {
+     "phrase": "collaborate with",
+     "meaning": "hợp tác với",
+     "example": "I am looking forward to collaborating with you to turn your ideas into reality."
+    },
+    {
+     "phrase": "come up with",
+     "meaning": "nghĩ ra, đưa ra",
+     "example": "But I would also appreciate it if you could come up with some creative ways to improve our referral rate."
+    },
+    {
+     "phrase": "come with",
+     "meaning": "đi kèm với",
+     "example": "It comes with the same features as the item you ordered."
+    },
+    {
+     "phrase": "communicate with",
+     "meaning": "giao tiếp, liên lạc với",
+     "example": "The customer has communicated with us a lot on this project."
+    },
+    {
+     "phrase": "complain about",
+     "meaning": "phàn nàn về",
+     "example": "Customers have been complaining about how dry the current ones are."
+    },
+    {
+     "phrase": "comply with",
+     "meaning": "tuân thủ",
+     "example": "Employees need to comply with specific dress codes."
+    },
+    {
+     "phrase": "consist of",
+     "meaning": "bao gồm",
+     "example": "The RRVK care system consists of kiosks loaded with specialized software designed to do just that."
+    },
+    {
+     "phrase": "consult with",
+     "meaning": "tham khảo ý kiến, trao đổi với",
+     "example": "Each location has an interior designer on staff, so you can consult with an expert in person while you browse our popular items."
+    },
+    {
+     "phrase": "contribute to",
+     "meaning": "đóng góp cho; góp phần vào",
+     "example": "Also, I am not much of a cook, but I do want to contribute to the success of the picnic."
+    },
+    {
+     "phrase": "deal with",
+     "meaning": "giải quyết, xử lý",
+     "example": "Although I really enjoy gardening, this garden is too much for me to deal with initially."
+    },
+    {
+     "phrase": "decide on",
+     "meaning": "quyết định chọn",
+     "example": "Please decide on the number of units needed, determine the cost, and report back to me as soon as you have set up the purchase."
+    },
+    {
+     "phrase": "depart from",
+     "meaning": "khởi hành từ",
+     "example": "The flight departs from terminal six."
+    },
+    {
+     "phrase": "depend on",
+     "meaning": "phụ thuộc, trông cậy vào",
+     "example": "Depending on the size of the project, installation can take two to eight hours."
+    },
+    {
+     "phrase": "disagree with",
+     "meaning": "không đồng ý với",
+     "example": "She disagrees with the decision."
+    },
+    {
+     "phrase": "dispose of",
+     "meaning": "vứt bỏ, xử lý",
+     "example": "Due to the large number of items found by our drivers, we have no choice but to limit storage time to 7 days only, after which we dispose of the item."
+    },
+    {
+     "phrase": "donate to",
+     "meaning": "quyên góp cho",
+     "example": "A friend suggested that this inventory could be donated to your organization."
+    },
+    {
+     "phrase": "enroll in",
+     "meaning": "ghi danh, đăng ký học",
+     "example": "To enroll in the program, employees must submit a Mobile Phone Allowance form with their supervisor's signature."
+    },
+    {
+     "phrase": "exchange A for B",
+     "meaning": "đổi (A) lấy (B)",
+     "example": "Please let me know if you would like to exchange your boots for any of the above options."
+    },
+    {
+     "phrase": "expand into",
+     "meaning": "mở rộng sang",
+     "example": "Our company has officially decided to expand into France."
+    },
+    {
+     "phrase": "focus on",
+     "meaning": "tập trung vào",
+     "example": "We confirm the background and experience of the workers, so you can focus on your business."
+    },
+    {
+     "phrase": "follow up on",
+     "meaning": "theo dõi tiếp, xử lý tiếp",
+     "example": "While at home, though, continue to follow up on project leads and to support your customer accounts."
+    },
+    {
+     "phrase": "follow up with",
+     "meaning": "liên hệ lại với",
+     "example": "We need to follow up with that meeting to advise our client about what is important to potential customers."
+    },
+    {
+     "phrase": "get in touch with",
+     "meaning": "liên lạc với",
+     "example": "I can get in touch with them and see if they're interested."
+    },
+    {
+     "phrase": "get rid of",
+     "meaning": "loại bỏ",
+     "example": "How can I get rid of this noise?"
+    },
+    {
+     "phrase": "go over",
+     "meaning": "xem lại, rà soát",
+     "example": "On that occasion we will go over our earnings and revenue of the previous quarter."
+    },
+    {
+     "phrase": "go through",
+     "meaning": "xem kỹ; trải qua",
+     "example": "Please take a moment to go through it and let us know if you have any questions."
+    },
+    {
+     "phrase": "graduate from",
+     "meaning": "tốt nghiệp từ",
+     "example": "They will graduate from university this year."
+    },
+    {
+     "phrase": "head to",
+     "meaning": "đi đến",
+     "example": "As a fellow Silen Consultants employee, I am thrilled to be part of the team headed to Edmonton to open our first branch there."
+    },
+    {
+     "phrase": "hear about",
+     "meaning": "nghe nói về",
+     "example": "If you have made such a change in careers, we would like to hear about it."
+    },
+    {
+     "phrase": "hear from",
+     "meaning": "nhận được tin từ",
+     "example": "I'll stay available until I've heard from you to make sure that you've accessed your account."
+    },
+    {
+     "phrase": "inform A of B",
+     "meaning": "thông báo cho (ai) về",
+     "example": "Please let us know whether you accept the offer by 29 November and inform us of your preferred start date."
+    },
+    {
+     "phrase": "inquire about",
+     "meaning": "hỏi thông tin về",
+     "example": "I wanted to inquire about breakfast times."
+    },
+    {
+     "phrase": "interact with",
+     "meaning": "tương tác với",
+     "example": "This will allow him to learn more about the various departments he will eventually be interacting with."
+    },
+    {
+     "phrase": "introduce A to B",
+     "meaning": "giới thiệu (A) với (B)",
+     "example": "I will meet you there, show you to your office, and then take you on a tour of the building to introduce you to your colleagues."
+    },
+    {
+     "phrase": "invest in",
+     "meaning": "đầu tư vào",
+     "example": "Yes, we'd like to use the money to invest in a fast, wide-format printer."
+    },
+    {
+     "phrase": "keep track of",
+     "meaning": "theo dõi",
+     "example": "It has a new system for keeping track of inventory."
+    },
+    {
+     "phrase": "keep up with",
+     "meaning": "theo kịp",
+     "example": "But our technicians can't keep up with the high demand."
+    },
+    {
+     "phrase": "lead to",
+     "meaning": "dẫn đến",
+     "example": "Your previous in-depth report that led to the repair work on that bridge was excellent."
+    },
+    {
+     "phrase": "listen to",
+     "meaning": "lắng nghe",
+     "example": "They will listen to your needs, negotiate on your behalf, and get you the best home for your hard-earned money."
+    },
+    {
+     "phrase": "log in to",
+     "meaning": "đăng nhập vào",
+     "example": "If you would prefer to use reward points at one of our retail locations, you can do so by logging in to your account on our Web site."
+    },
+    {
+     "phrase": "look at",
+     "meaning": "nhìn, xem xét",
+     "example": "Additionally, we will be looking at some recent trends in sustainable building design and construction."
+    },
+    {
+     "phrase": "look for",
+     "meaning": "tìm kiếm",
+     "example": "I looked for one that I could download from your Web site, but I could not find anything."
+    },
+    {
+     "phrase": "look forward to",
+     "meaning": "mong đợi",
+     "example": "As always, we appreciate your business and look forward to serving you again in the future."
+    },
+    {
+     "phrase": "look into",
+     "meaning": "xem xét, điều tra",
+     "example": "I will try to look into it next weekend when my wife and I go up to view some housing options."
+    },
+    {
+     "phrase": "look over",
+     "meaning": "xem qua, rà soát",
+     "example": "Please look over the attached schedule and go to the company training Web site to sign up."
+    },
+    {
+     "phrase": "look through",
+     "meaning": "xem lướt qua",
+     "example": "I just looked through your preliminary design plans for the Miller house on Greenwood Lane."
+    },
+    {
+     "phrase": "make up for",
+     "meaning": "bù đắp cho",
+     "example": "We should give them some extra snacks to make up for it."
+    },
+    {
+     "phrase": "meet with",
+     "meaning": "gặp gỡ, họp với",
+     "example": "It was good to meet with you last week and to hear about your vision for the woodworking business you hope to create."
+    },
+    {
+     "phrase": "merge with",
+     "meaning": "sáp nhập với",
+     "example": "It recently merged with another organization."
+    },
+    {
+     "phrase": "notify A of B",
+     "meaning": "thông báo cho (ai) về",
+     "example": "Notify the division director of the issue."
+    },
+    {
+     "phrase": "participate in",
+     "meaning": "tham gia vào",
+     "example": "She noted as well that she will be participating in the City Art Museum's craft fair next month."
+    },
+    {
+     "phrase": "partner with",
+     "meaning": "hợp tác, làm đối tác với",
+     "example": "I have also arranged for us to partner with Moonray Airways for special flight and car travel packages."
+    },
+    {
+     "phrase": "pay for",
+     "meaning": "trả tiền cho",
+     "example": "Well, we need to make sure our customers still get the experience they've paid for."
+    },
+    {
+     "phrase": "plan on",
+     "meaning": "dự định",
+     "example": "Just so you know, we plan on addressing it by following your recommendation."
+    },
+    {
+     "phrase": "prepare for",
+     "meaning": "chuẩn bị cho",
+     "example": "That way I'll have a little more time to prepare for the presentation."
+    },
+    {
+     "phrase": "prevent A from B",
+     "meaning": "ngăn (ai/cái gì) khỏi",
+     "example": "It prevents water from leaking into a house."
+    },
+    {
+     "phrase": "proceed to",
+     "meaning": "đi tiếp đến",
+     "example": "Our agent will tag your bags and return your papers so you can proceed to Security without delay."
+    },
+    {
+     "phrase": "protect A from B",
+     "meaning": "bảo vệ (A) khỏi (B)",
+     "example": "It's a good idea to use a plastic cover to protect a book like this from exposure to the sunlight."
+    },
+    {
+     "phrase": "provide A with B",
+     "meaning": "cung cấp cho (ai) (cái gì)",
+     "example": "This modest increase will allow us to provide visitors with a much better outdoor running track."
+    },
+    {
+     "phrase": "qualify for",
+     "meaning": "đủ điều kiện cho",
+     "example": "However, those purchases do not currently qualify for the rewards program."
+    },
+    {
+     "phrase": "reach out to",
+     "meaning": "liên hệ với",
+     "example": "I will reach out to its management and ensure that your repair is handled properly."
+    },
+    {
+     "phrase": "refer to",
+     "meaning": "nhắc đến; tham khảo",
+     "example": "Please refer to these numbers when contacting us with questions about a product."
+    },
+    {
+     "phrase": "refrain from",
+     "meaning": "tránh, không làm (việc gì)",
+     "example": "Please refrain from making phone calls or texting at all times."
+    },
+    {
+     "phrase": "register for",
+     "meaning": "đăng ký (tham gia)",
+     "example": "By registering for this event, you will automatically be added to our e-mail list."
+    },
+    {
+     "phrase": "relocate to",
+     "meaning": "chuyển địa điểm đến",
+     "example": "She is relocating to be closer to her relatives."
+    },
+    {
+     "phrase": "rely on",
+     "meaning": "dựa vào, trông cậy vào",
+     "example": "Marketing professionals in particular rely on accurate data about potential customers to be successful."
+    },
+    {
+     "phrase": "remind A about B",
+     "meaning": "nhắc (ai) về",
+     "example": "I hope that my work reminds people about this."
+    },
+    {
+     "phrase": "remove A from B",
+     "meaning": "lấy, loại (A) ra khỏi (B)",
+     "example": "In fact, you will not even need to remove your card from a physical wallet; simply hold it near a point of sale for it to be read!"
+    },
+    {
+     "phrase": "replace A with B",
+     "meaning": "thay (A) bằng (B)",
+     "example": "Let our certified technicians save you the time and expense involved in replacing your phone with a new one."
+    },
+    {
+     "phrase": "reply to",
+     "meaning": "trả lời",
+     "example": "Please reply to this e-mail by 16 February to let me know if you plan to attend."
+    },
+    {
+     "phrase": "report on",
+     "meaning": "báo cáo về",
+     "example": "What news is reported on the second Web page?"
+    },
+    {
+     "phrase": "report to",
+     "meaning": "báo cáo với; có mặt tại",
+     "example": "Please report to Human Resources to begin your orientation as a Coldings Home Store team member."
+    },
+    {
+     "phrase": "respond to",
+     "meaning": "phản hồi, trả lời",
+     "example": "We would like to respond to your complaint and provide a suggestion regarding your concerns."
+    },
+    {
+     "phrase": "result in",
+     "meaning": "dẫn đến (kết quả)",
+     "example": "We anticipate that this change will result in a noticeable increase in repeat customers for our clients."
+    },
+    {
+     "phrase": "retire from",
+     "meaning": "nghỉ hưu khỏi",
+     "example": "It contained a lot of information about his work and life, including some surprising information about what he has been doing since he retired from filmmaking."
+    },
+    {
+     "phrase": "run into",
+     "meaning": "tình cờ gặp; gặp phải",
+     "example": "We became friends after running into each other at trade shows around the country."
+    },
+    {
+     "phrase": "run out of",
+     "meaning": "hết, cạn",
+     "example": "Also, I was informed our handheld scanners run out of battery power very quickly."
+    },
+    {
+     "phrase": "search for",
+     "meaning": "tìm kiếm",
+     "example": "If you prefer to search for polls by subject, go to our Subject Guide page."
+    },
+    {
+     "phrase": "serve as",
+     "meaning": "đảm nhiệm vai trò; dùng làm",
+     "example": "This training program served as the starting point for several of our current senior project managers."
+    },
+    {
+     "phrase": "share A with B",
+     "meaning": "chia sẻ (A) với (B)",
+     "example": "Now with the click of a button, you can share your dining experience with the world!"
+    },
+    {
+     "phrase": "shop for",
+     "meaning": "đi mua sắm (món gì)",
+     "example": "She is shopping for a new bicycle."
+    },
+    {
+     "phrase": "sign up for",
+     "meaning": "đăng ký (tham gia)",
+     "example": "To be fair, each employee should sign up for only two fifteen-minute blocks per day."
+    },
+    {
+     "phrase": "speak to",
+     "meaning": "nói chuyện với",
+     "example": "It was great to speak to you about the security systems manager position."
+    },
+    {
+     "phrase": "speak with",
+     "meaning": "nói chuyện với",
+     "example": "We enjoyed speaking with you on Monday and are thrilled to invite you to join our technical writing team."
+    },
+    {
+     "phrase": "specialize in",
+     "meaning": "chuyên về",
+     "example": "Sky-High Roofing specializes in solar panel installation."
+    },
+    {
+     "phrase": "spend A on B",
+     "meaning": "dành (tiền, thời gian) cho",
+     "example": "Can you think of anything we could spend it on?"
+    },
+    {
+     "phrase": "start with",
+     "meaning": "bắt đầu bằng",
+     "example": "As we discussed at our lunch meeting in the cafeteria in February, we're starting with nutrition."
+    },
+    {
+     "phrase": "stop by",
+     "meaning": "ghé qua",
+     "example": "A real estate agent is stopping by her house tomorrow morning with some prospective buyers."
+    },
+    {
+     "phrase": "submit A to B",
+     "meaning": "nộp (A) cho (B)",
+     "example": "In April, we submitted our project budget proposal to the city council for approval."
+    },
+    {
+     "phrase": "subscribe to",
+     "meaning": "đăng ký dài hạn (báo, dịch vụ)",
+     "example": "Should you wish to subscribe to one by May 31, we can offer you a two-year subscription at the annual rate."
+    },
+    {
+     "phrase": "switch to",
+     "meaning": "chuyển sang",
+     "example": "So, you'll be calling potential clients on this list to talk about switching to solar energy."
+    },
+    {
+     "phrase": "take advantage of",
+     "meaning": "tận dụng",
+     "example": "A lot of people traveling to East Asia on business will be happy to take advantage of this."
+    },
+    {
+     "phrase": "take care of",
+     "meaning": "lo liệu, chăm sóc",
+     "example": "If something needs to be done, she will point it out to a manager and volunteer to take care of it herself."
+    },
+    {
+     "phrase": "take part in",
+     "meaning": "tham gia vào",
+     "example": "He took part in two conferences in October."
+    },
+    {
+     "phrase": "talk about",
+     "meaning": "nói về",
+     "example": "Please give me a call as it is convenient so that we can talk about next steps."
+    },
+    {
+     "phrase": "talk to",
+     "meaning": "nói chuyện với",
+     "example": "Thank you for taking the time to talk to me after your speech and for agreeing to the video meeting on 5 January."
+    },
+    {
+     "phrase": "thank A for B",
+     "meaning": "cảm ơn (ai) về",
+     "example": "The event was held as a way to thank the community for supporting the clinic over the past 15 years."
+    },
+    {
+     "phrase": "think about",
+     "meaning": "suy nghĩ về",
+     "example": "Please be sure to mention this to anyone you know who is thinking about taking a class with us."
+    },
+    {
+     "phrase": "think of",
+     "meaning": "nghĩ đến, nghĩ ra",
+     "example": "Please let me know what you think of the plan I have outlined above."
+    },
+    {
+     "phrase": "transfer to",
+     "meaning": "chuyển sang, thuyên chuyển đến",
+     "example": "Given your recent move, your membership has been transferred to the chapter located in the city of Perth."
+    },
+    {
+     "phrase": "tune in to",
+     "meaning": "đón xem/nghe (chương trình)",
+     "example": "Good morning, and thanks for tuning in to News at Four."
+    },
+    {
+     "phrase": "turn A into B",
+     "meaning": "biến (A) thành (B)",
+     "example": "I am looking forward to collaborating with you to turn your ideas into reality."
+    },
+    {
+     "phrase": "turn to",
+     "meaning": "chuyển sang; tìm đến (ai) để nhờ giúp",
+     "example": "If you turn to page four, you'll see the cost ..."
+    },
+    {
+     "phrase": "vote on",
+     "meaning": "biểu quyết về",
+     "example": "The city council will vote on a parking plan for River Avenue."
+    },
+    {
+     "phrase": "wait for",
+     "meaning": "chờ đợi",
+     "example": "The books will be waiting for you at the check-in desk on the day of the seminar."
+    },
+    {
+     "phrase": "work as",
+     "meaning": "làm việc với vai trò",
+     "example": "He worked as an irrigation consultant for many years."
+    },
+    {
+     "phrase": "work for",
+     "meaning": "làm việc cho",
+     "example": "A friend of mine, who works for the same Chicago-based company that I used to work for, will be visiting me that day."
+    },
+    {
+     "phrase": "work on",
+     "meaning": "làm, thực hiện (việc gì)",
+     "example": "When we work on an upgrade, the software is unavailable for just a few minutes, if at all."
+    },
+    {
+     "phrase": "work with",
+     "meaning": "làm việc với",
+     "example": "I am especially grateful for all the coworkers and mentors I have worked with over the years."
+    },
+    {
+     "phrase": "worry about",
+     "meaning": "lo lắng về",
+     "example": "I'm glad to see the increase in orders, but I'm worried about meeting the demands."
+    },
+    {
+     "phrase": "write to",
+     "meaning": "viết thư cho",
+     "example": "I am writing to let you know about a maintenance issue."
+    }
+   ]
+  },
+  {
+   "key": "adj",
+   "label": "Tính từ + giới từ",
+   "items": [
+    {
+     "phrase": "adjacent to",
+     "meaning": "liền kề với",
+     "example": "The property boasts a fitness center and a swimming pool and is adjacent to a community park."
+    },
+    {
+     "phrase": "appropriate for",
+     "meaning": "phù hợp với",
+     "example": "It is appropriate for use in other parts of the country."
+    },
+    {
+     "phrase": "associated with",
+     "meaning": "gắn với, liên quan đến",
+     "example": "I've sent a new password to the e-mail address associated with that account number, and you should receive it within the next two minutes."
+    },
+    {
+     "phrase": "attached to",
+     "meaning": "được đính kèm vào",
+     "example": "Alternatively, you may complete the order form attached to this e-mail and return it to me."
+    },
+    {
+     "phrase": "available for",
+     "meaning": "có sẵn cho; rảnh để",
+     "example": "Additional coffee products and pastries will be available for purchase."
+    },
+    {
+     "phrase": "available to",
+     "meaning": "dành cho, có sẵn cho (ai)",
+     "example": "Complimentary refreshments will be available to the workers in the lobby."
+    },
+    {
+     "phrase": "aware of",
+     "meaning": "biết, nhận thức về",
+     "example": "We will also send an e-mail to our existing customers so that they are aware of the new rule."
+    },
+    {
+     "phrase": "based in",
+     "meaning": "đặt trụ sở tại",
+     "example": "The successful candidate will be based in our print division."
+    },
+    {
+     "phrase": "based on",
+     "meaning": "dựa trên",
+     "example": "We ship anywhere in the world, with charges that are based on the weight of the order."
+    },
+    {
+     "phrase": "busy with",
+     "meaning": "bận rộn với",
+     "example": "I've been so busy with all the artwork that we've been receiving that I haven't had time to focus on cleaning."
+    },
+    {
+     "phrase": "close to",
+     "meaning": "gần với",
+     "example": "It is located close to an area for shopping."
+    },
+    {
+     "phrase": "committed to",
+     "meaning": "cam kết, tận tâm với",
+     "example": "The board of directors is committed to taking its time in its search for a permanent artistic director."
+    },
+    {
+     "phrase": "compatible with",
+     "meaning": "tương thích với",
+     "example": "As a reminder, Liu Web Works performed a major upgrade in June to ensure that your Web site is compatible with the latest devices."
+    },
+    {
+     "phrase": "concerned about",
+     "meaning": "lo ngại về",
+     "example": "Specifically, they were concerned about noise and on-street parking."
+    },
+    {
+     "phrase": "connected to",
+     "meaning": "được kết nối với",
+     "example": "Despite living in urban areas, we can still find ways to stay connected to the environment."
+    },
+    {
+     "phrase": "convenient for",
+     "meaning": "thuận tiện cho",
+     "example": "It was not convenient for international clients."
+    },
+    {
+     "phrase": "covered by",
+     "meaning": "được chi trả, bảo hiểm bởi",
+     "example": "Please remember that your purchase is covered by a three-year warranty."
+    },
+    {
+     "phrase": "covered with",
+     "meaning": "được phủ bởi",
+     "example": "The pavement is covered with leaves."
+    },
+    {
+     "phrase": "decorated with",
+     "meaning": "được trang trí bằng",
+     "example": "It's vanilla-flavored and should be decorated with frosting in the shape of roses."
+    },
+    {
+     "phrase": "designed for",
+     "meaning": "được thiết kế cho",
+     "example": "This Web site is designed for sharing ideas, photos, and resources to create and maintain a green roof."
+    },
+    {
+     "phrase": "different from",
+     "meaning": "khác với",
+     "example": "How is the new store different from the old store?"
+    },
+    {
+     "phrase": "disappointed with",
+     "meaning": "thất vọng với",
+     "example": "That day finally came, though, and I was disappointed with the customer service I received."
+    },
+    {
+     "phrase": "eligible for",
+     "meaning": "đủ điều kiện nhận, hưởng",
+     "example": "Unfortunately, only items purchased on the official sale dates are eligible for the sale prices."
+    },
+    {
+     "phrase": "entitled to",
+     "meaning": "có quyền được hưởng",
+     "example": "As a Vacation Siteseer customer, you are entitled to a discount of 20% if you book your car now."
+    },
+    {
+     "phrase": "equipped with",
+     "meaning": "được trang bị",
+     "example": "This is one of the most fuel-efficient vehicles on the market, and it comes equipped with the latest technological advances."
+    },
+    {
+     "phrase": "excited about",
+     "meaning": "hào hứng về",
+     "example": "Until now, we have not had high-end brands supply our uniforms, so we are excited about this collaboration."
+    },
+    {
+     "phrase": "familiar with",
+     "meaning": "quen thuộc, am hiểu về",
+     "example": "However, customers may not be familiar with our intensive special cleaning services."
+    },
+    {
+     "phrase": "famous for",
+     "meaning": "nổi tiếng về",
+     "example": "It's famous for its collection of twentieth-century paintings."
+    },
+    {
+     "phrase": "filled with",
+     "meaning": "đầy, được lấp đầy bởi",
+     "example": "Office Nature delivers a box filled with delicious food right to your break room."
+    },
+    {
+     "phrase": "focused on",
+     "meaning": "tập trung vào",
+     "example": "Her individual contributions have focused on how magnetic fields influence the efficiency of components within electrical devices."
+    },
+    {
+     "phrase": "followed by",
+     "meaning": "tiếp theo là",
+     "example": "Your first trip will be to our headquarters next week, followed by visits to the rest of our facilities at the end of the month."
+    },
+    {
+     "phrase": "full of",
+     "meaning": "đầy",
+     "example": "Each exhibit was different but full of interesting pieces."
+    },
+    {
+     "phrase": "grateful for",
+     "meaning": "biết ơn về",
+     "example": "I am especially grateful for all the coworkers and mentors I have worked with over the years."
+    },
+    {
+     "phrase": "happy with",
+     "meaning": "hài lòng với",
+     "example": "The quality of the work was fine; the haircut was fairly priced at just $15, and I was happy with my standard men's cut."
+    },
+    {
+     "phrase": "headquartered in",
+     "meaning": "có trụ sở chính tại",
+     "example": "It is no longer headquartered in Lakeside."
+    },
+    {
+     "phrase": "ideal for",
+     "meaning": "lý tưởng cho",
+     "example": "Marshall Plaza would be ideal for my business because of the anticipated foot traffic."
+    },
+    {
+     "phrase": "important for",
+     "meaning": "quan trọng cho",
+     "example": "Travel is important for maintaining relationships with clients."
+    },
+    {
+     "phrase": "important to",
+     "meaning": "quan trọng đối với",
+     "example": "Customer satisfaction is very important to us, and we would appreciate your feedback."
+    },
+    {
+     "phrase": "impressed by",
+     "meaning": "ấn tượng bởi",
+     "example": "However, users will be impressed by a significant improvement to the camera."
+    },
+    {
+     "phrase": "impressed with",
+     "meaning": "ấn tượng với",
+     "example": "I was impressed with the knowledge you displayed at the time you interviewed at our offices."
+    },
+    {
+     "phrase": "intended for",
+     "meaning": "dành cho",
+     "example": "Then there's our grand dining room, intended for more formal parties."
+    },
+    {
+     "phrase": "interested in",
+     "meaning": "quan tâm, hứng thú với",
+     "example": "Please let me know if you are interested in these plans for your new printers."
+    },
+    {
+     "phrase": "involved in",
+     "meaning": "tham gia, liên quan đến",
+     "example": "SOA International has long been involved in rail projects throughout Brazil, Spain, and the Middle East."
+    },
+    {
+     "phrase": "known as",
+     "meaning": "được biết đến với tên gọi/vai trò",
+     "example": "Dumbbells, also known as free weights, are ..."
+    },
+    {
+     "phrase": "known for",
+     "meaning": "được biết đến, nổi tiếng về",
+     "example": "Taylor is widely known for her ability to correctly predict trends in the real estate market."
+    },
+    {
+     "phrase": "late for",
+     "meaning": "trễ",
+     "example": "He arrived 25 minutes late for a luncheon."
+    },
+    {
+     "phrase": "limited to",
+     "meaning": "giới hạn ở, chỉ dành cho",
+     "example": "At your current basic membership level, your ability to save recipes is limited to five per day."
+    },
+    {
+     "phrase": "located at",
+     "meaning": "nằm tại (địa chỉ)",
+     "example": "My office is on the second floor of our main building, which is located at the end of Elkton Street."
+    },
+    {
+     "phrase": "located in",
+     "meaning": "nằm ở (khu vực, thành phố)",
+     "example": "Given your recent move, your membership has been transferred to the chapter located in the city of Perth."
+    },
+    {
+     "phrase": "located on",
+     "meaning": "nằm trên (đường, tầng)",
+     "example": "Guests may purchase snacks and other beverages in the vending areas located on each floor."
+    },
+    {
+     "phrase": "made from",
+     "meaning": "làm từ (nguyên liệu)",
+     "example": "They are made from a variety of materials."
+    },
+    {
+     "phrase": "made of",
+     "meaning": "làm bằng (chất liệu)",
+     "example": "We want to go with Urban Retreat because its shelters are made of durable materials."
+    },
+    {
+     "phrase": "new to",
+     "meaning": "mới đối với",
+     "example": "Your store is in an area that is new to us, and we are looking forward to our quality produce entering a new market."
+    },
+    {
+     "phrase": "open to",
+     "meaning": "mở cửa cho; sẵn sàng đón nhận",
+     "example": "The bistro faces the street and will be open to the public even when no performances are scheduled."
+    },
+    {
+     "phrase": "perfect for",
+     "meaning": "hoàn hảo cho",
+     "example": "Perfect for large, high-foot-traffic areas."
+    },
+    {
+     "phrase": "pleased with",
+     "meaning": "hài lòng với",
+     "example": "The hours you noted for the position seem appropriate, and I am very pleased with the benefits."
+    },
+    {
+     "phrase": "popular with",
+     "meaning": "được (ai) ưa chuộng",
+     "example": "It is popular with small-business owners."
+    },
+    {
+     "phrase": "prepared for",
+     "meaning": "sẵn sàng cho",
+     "example": "Although I know you are fully prepared to deliver the lecture on your own, I have attached a copy of the notes I had prepared for the presentation."
+    },
+    {
+     "phrase": "proud of",
+     "meaning": "tự hào về",
+     "example": "OK Paul, just say something about how attendance was great, and the team should feel proud of themselves for their hard work."
+    },
+    {
+     "phrase": "ready for",
+     "meaning": "sẵn sàng cho",
+     "example": "And maybe we could hire instructors to train our inspectors so they're ready for the transition."
+    },
+    {
+     "phrase": "related to",
+     "meaning": "liên quan đến",
+     "example": "Our president notified me that he would like to receive all reports related to this transition."
+    },
+    {
+     "phrase": "reserved for",
+     "meaning": "dành riêng cho",
+     "example": "We have arrangements with hotels in several cities around the world in which rooms are reserved for our crews in advance."
+    },
+    {
+     "phrase": "responsible for",
+     "meaning": "chịu trách nhiệm về",
+     "example": "Since the cafe has only recently been opened, I am responsible for preparing nearly all menu items."
+    },
+    {
+     "phrase": "satisfied with",
+     "meaning": "hài lòng với",
+     "example": "We will discuss adjustments until you are satisfied with every aspect of the plan."
+    },
+    {
+     "phrase": "scheduled for",
+     "meaning": "được lên lịch vào",
+     "example": "We have a huge order to fill, and two of the forklift drivers scheduled for today have called in sick."
+    },
+    {
+     "phrase": "similar to",
+     "meaning": "tương tự với",
+     "example": "Visitors may see items similar to those that they have in their homes."
+    },
+    {
+     "phrase": "sorry about",
+     "meaning": "xin lỗi, tiếc về",
+     "example": "I'm sorry about that - e-mail lists usually take 24 hours to update."
+    },
+    {
+     "phrase": "sorry for",
+     "meaning": "xin lỗi, tiếc về",
+     "example": "We are sorry for the inconvenience."
+    },
+    {
+     "phrase": "subject to",
+     "meaning": "tùy thuộc vào; phải chịu",
+     "example": "Checkout after noon on the day of departure is subject to an additional charge."
+    },
+    {
+     "phrase": "suitable for",
+     "meaning": "phù hợp cho",
+     "example": "Our products are suitable for both commercial and residential projects, and our mission is to be the best quality supplier in the region!"
+    },
+    {
+     "phrase": "surprised by",
+     "meaning": "ngạc nhiên bởi",
+     "example": "He is surprised by the long answers clients gave."
+    },
+    {
+     "phrase": "tired of",
+     "meaning": "chán",
+     "example": "I got tired of listening to sports talk and turned the dial."
+    },
+    {
+     "phrase": "unfamiliar with",
+     "meaning": "không quen với",
+     "example": "Second, I am unfamiliar with the roads and the traffic on the island, so I would like to add a navigation system to my order."
+    },
+    {
+     "phrase": "unhappy with",
+     "meaning": "không hài lòng với",
+     "example": "She is unhappy with the quality of a repair."
+    },
+    {
+     "phrase": "valid for",
+     "meaning": "có hiệu lực trong, cho",
+     "example": "After 10 days you may return an order for a credit that is valid for up to one year."
+    },
+    {
+     "phrase": "worried about",
+     "meaning": "lo lắng về",
+     "example": "I'm glad to see the increase in orders, but I'm worried about meeting the demands."
+    }
+   ]
+  },
+  {
+   "key": "prep",
+   "label": "Giới từ + danh từ",
+   "items": [
+    {
+     "phrase": "according to",
+     "meaning": "theo, dựa theo",
+     "example": "According to the confirmation I received at the time of my purchase, my order should have arrived yesterday."
+    },
+    {
+     "phrase": "ahead of time",
+     "meaning": "trước, sớm",
+     "example": "While we do allow walk-ins, it is best to book a space ahead of time to ensure that one will be available."
+    },
+    {
+     "phrase": "along with",
+     "meaning": "cùng với",
+     "example": "I will e-mail you more details later this week, along with a request that you join us here."
+    },
+    {
+     "phrase": "apart from",
+     "meaning": "ngoài ra, ngoại trừ",
+     "example": "Apart from that piece, we will only accept sculptures under 50 centimeters tall."
+    },
+    {
+     "phrase": "around the corner",
+     "meaning": "gần ngay đây; sắp đến",
+     "example": "Keep in mind that there are no restaurants near the hotel, but there is a small grocery store around the corner."
+    },
+    {
+     "phrase": "as a result",
+     "meaning": "kết quả là, do đó",
+     "example": "As a result, we will no longer be printing the directory on paper and will offer it online instead."
+    },
+    {
+     "phrase": "as a result of",
+     "meaning": "do, vì",
+     "example": "He added that no workers are expected to lose their jobs as a result of the acquisition."
+    },
+    {
+     "phrase": "as for",
+     "meaning": "về phần, còn về",
+     "example": "As for your citrus saplings, we are currently purchasing those from licensed growers only."
+    },
+    {
+     "phrase": "as of",
+     "meaning": "kể từ, tính đến",
+     "example": "As of this week, construction on the new regional airport is proceeding on schedule for two of the three terminals."
+    },
+    {
+     "phrase": "as part of",
+     "meaning": "như một phần của, trong khuôn khổ",
+     "example": "The exhibit will open on 7 June as part of the museum's ongoing Arts Around the World programme."
+    },
+    {
+     "phrase": "as usual",
+     "meaning": "như thường lệ",
+     "example": "As usual, let's start today's planning meeting by sharing updates on our assigned tasks."
+    },
+    {
+     "phrase": "at a discount / at a discounted rate",
+     "meaning": "với giá ưu đãi",
+     "example": "Also, Thursday, 16 November is available at a discounted rate."
+    },
+    {
+     "phrase": "at all times",
+     "meaning": "mọi lúc, luôn luôn",
+     "example": "It is available to do maintenance service at all times."
+    },
+    {
+     "phrase": "at any time",
+     "meaning": "bất cứ lúc nào",
+     "example": "You can also use this feature to add information to the ticket at any time."
+    },
+    {
+     "phrase": "at first",
+     "meaning": "lúc đầu",
+     "example": "You can fix this problem by running water slowly at first."
+    },
+    {
+     "phrase": "at least",
+     "meaning": "ít nhất",
+     "example": "The only requirement for maintaining your membership is to make at least one purchase per year."
+    },
+    {
+     "phrase": "at no additional cost / charge",
+     "meaning": "không tính thêm phí",
+     "example": "Additionally, we are offering you sponsorship of our expo bags at no additional cost."
+    },
+    {
+     "phrase": "at no cost / charge",
+     "meaning": "miễn phí",
+     "example": "Our policy is to replace at no cost any defective parts or products within three months of purchase."
+    },
+    {
+     "phrase": "at the beginning of",
+     "meaning": "vào đầu",
+     "example": "Interviews will be conducted at the beginning of June, and our selection will be made in early July."
+    },
+    {
+     "phrase": "at the end of",
+     "meaning": "vào cuối",
+     "example": "At the end of the summit, you will receive a voucher to cover the parking fee."
+    },
+    {
+     "phrase": "at the moment",
+     "meaning": "lúc này",
+     "example": "At the moment, boots in the size, style, and colour you are requesting are out of stock."
+    },
+    {
+     "phrase": "at the same time",
+     "meaning": "cùng lúc; đồng thời",
+     "example": "At the same time, I am on a limited budget, so I intend to book the least expensive vehicle of this type."
+    },
+    {
+     "phrase": "at work",
+     "meaning": "tại nơi làm việc; đang làm việc",
+     "example": "I'm at work right now."
+    },
+    {
+     "phrase": "at your (earliest) convenience",
+     "meaning": "khi thuận tiện cho bạn (sớm nhất có thể)",
+     "example": "Please call me at your earliest convenience so that we can discuss any concerns you may have."
+    },
+    {
+     "phrase": "because of",
+     "meaning": "bởi vì",
+     "example": "I'd like to ask whether the hold time can be extended because of these unforeseen circumstances."
+    },
+    {
+     "phrase": "behind schedule",
+     "meaning": "chậm tiến độ",
+     "example": "Preparations for an event have fallen behind schedule."
+    },
+    {
+     "phrase": "by e-mail",
+     "meaning": "qua thư điện tử",
+     "example": "She will answer questions that are sent to her by e-mail."
+    },
+    {
+     "phrase": "by hand",
+     "meaning": "bằng tay, thủ công",
+     "example": "All our bicycles are made by hand in our production facility in Kuala Lumpur with parts made by local..."
+    },
+    {
+     "phrase": "by mail",
+     "meaning": "qua đường bưu điện",
+     "example": "They can be returned by mail."
+    },
+    {
+     "phrase": "by phone",
+     "meaning": "qua điện thoại",
+     "example": "If you prefer to register by telephone, contact us at 1-249-555-0177."
+    },
+    {
+     "phrase": "by the end of",
+     "meaning": "trước cuối, muộn nhất vào cuối",
+     "example": "To obtain flights at the most convenient times, we are recommending that tickets be secured by the end of May."
+    },
+    {
+     "phrase": "by the way",
+     "meaning": "nhân tiện",
+     "example": "By the way, you requested that the manuscript be ready within seven days."
+    },
+    {
+     "phrase": "due to",
+     "meaning": "do, vì",
+     "example": "There was a phone service outage across our area this morning due to a tree branch having fallen on a phone line."
+    },
+    {
+     "phrase": "except for",
+     "meaning": "ngoại trừ",
+     "example": "Except for the assistance with tax paperwork, these offerings are provided at no expense to BASA holders."
+    },
+    {
+     "phrase": "for a fee",
+     "meaning": "có tính phí (for a small / flat fee)",
+     "example": "Delivery is available within 60 miles of our store for a flat fee of $50.00."
+    },
+    {
+     "phrase": "for a limited time",
+     "meaning": "trong thời gian có hạn",
+     "example": "Although the exhibit is ongoing, individual pieces are displayed on a rotating basis and are on view for a limited time only."
+    },
+    {
+     "phrase": "for a while",
+     "meaning": "một lúc, một thời gian",
+     "example": "That would be great, since I'm going to be on the other side of the park at the south entrance for a while."
+    },
+    {
+     "phrase": "for approval",
+     "meaning": "để phê duyệt",
+     "example": "In April, we submitted our project budget proposal to the city council for approval."
+    },
+    {
+     "phrase": "for example",
+     "meaning": "ví dụ",
+     "example": "For example, employers may choose to allow only employees with certain job titles to participate."
+    },
+    {
+     "phrase": "for free",
+     "meaning": "miễn phí",
+     "example": "Try Budget Builder for free for 30 days to see if it is right for you."
+    },
+    {
+     "phrase": "for further / more information",
+     "meaning": "để biết thêm thông tin",
+     "example": "And don't forget to look for more information on our classes in the weeks to come!"
+    },
+    {
+     "phrase": "for instance",
+     "meaning": "ví dụ",
+     "example": "You might explain, for instance, how a person you respect had a positive impact on your life."
+    },
+    {
+     "phrase": "for sale",
+     "meaning": "để bán",
+     "example": "Recently I was preparing a client's property for sale, and I needed extensive landscaping work to be done."
+    },
+    {
+     "phrase": "for the first time",
+     "meaning": "lần đầu tiên",
+     "example": "I'm visiting the city for the first time, and I'm not sure which train line I should take."
+    },
+    {
+     "phrase": "free of charge",
+     "meaning": "miễn phí",
+     "example": "We were initially happy with the replacement chairs that you delivered free of charge, but some of those have now broken as well."
+    },
+    {
+     "phrase": "in a row",
+     "meaning": "liên tiếp",
+     "example": "You are now the top salesperson for the third month in a row."
+    },
+    {
+     "phrase": "in a timely manner",
+     "meaning": "kịp thời, đúng hạn",
+     "example": "Please let me know if you have any suggestions for resolving this issue in a timely manner."
+    },
+    {
+     "phrase": "in addition",
+     "meaning": "ngoài ra",
+     "example": "In addition, we create recordings for them that they can post on social media to promote their shows."
+    },
+    {
+     "phrase": "in addition to",
+     "meaning": "ngoài, bên cạnh",
+     "example": "In addition to the tips below, we recommend confirming that all cables are securely connected."
+    },
+    {
+     "phrase": "in advance",
+     "meaning": "trước",
+     "example": "Tickets for all public events must be purchased in advance and are expected to sell out quickly."
+    },
+    {
+     "phrase": "in advance of",
+     "meaning": "trước (sự kiện, thời điểm)",
+     "example": "The remaining balance is due no later than two weeks in advance of the date booked."
+    },
+    {
+     "phrase": "in attendance",
+     "meaning": "có mặt, tham dự",
+     "example": "Actually, a publisher representative with whom I would like to talk regarding my latest manuscript may be in attendance!"
+    },
+    {
+     "phrase": "in business",
+     "meaning": "đang hoạt động kinh doanh",
+     "example": "It has been in business for more than twenty years."
+    },
+    {
+     "phrase": "in case",
+     "meaning": "phòng khi",
+     "example": "We even offer 24-hour support in case any issues arise while we are at your location."
+    },
+    {
+     "phrase": "in case of",
+     "meaning": "trong trường hợp",
+     "example": "Follow directions on posted signs in case of an accident."
+    },
+    {
+     "phrase": "in charge of",
+     "meaning": "phụ trách",
+     "example": "She is pleased to be put in charge of a new project."
+    },
+    {
+     "phrase": "in common",
+     "meaning": "có điểm chung",
+     "example": "What do Leland Skilled Staffing and Huang Services have in common?"
+    },
+    {
+     "phrase": "in demand",
+     "meaning": "có nhu cầu cao, được ưa chuộng",
+     "example": "Its current residential developments, Hillside Manor and Lakeview Oaks, were built five years ago and are much in demand, with long waiting lists."
+    },
+    {
+     "phrase": "in detail",
+     "meaning": "chi tiết",
+     "example": "I would like to schedule a time to revisit your property and discuss your landscaping project in more detail."
+    },
+    {
+     "phrase": "in fact",
+     "meaning": "thực tế là",
+     "example": "In fact, I play in a band myself, and I try to model my style of playing after his."
+    },
+    {
+     "phrase": "in front of",
+     "meaning": "ở phía trước",
+     "example": "Those who make it through this first round will attend an intensive two-day baking audition in front of the TV judges."
+    },
+    {
+     "phrase": "in full",
+     "meaning": "đầy đủ, toàn bộ",
+     "example": "Cancel your order, and we will gladly refund your money in full."
+    },
+    {
+     "phrase": "in good condition / shape",
+     "meaning": "trong tình trạng tốt",
+     "example": "We feel this is a worthwhile investment because the current shelters aren't in good shape."
+    },
+    {
+     "phrase": "in honor of",
+     "meaning": "để vinh danh",
+     "example": "The Staley Foundation was established in honor of Rosaline Staley by her daughter, Emily Barrett."
+    },
+    {
+     "phrase": "in line",
+     "meaning": "xếp hàng",
+     "example": "Alternatively, simply stop by and wait in line."
+    },
+    {
+     "phrase": "in mind",
+     "meaning": "ghi nhớ, lưu tâm (keep/have in mind)",
+     "example": "As you make your preparations, please keep in mind that the talk should be a maximum of 120 minutes."
+    },
+    {
+     "phrase": "in need of",
+     "meaning": "đang cần",
+     "example": "We are especially looking for new clients in need of cleaning between tenants."
+    },
+    {
+     "phrase": "in operation",
+     "meaning": "đang hoạt động",
+     "example": "Our 25 years in operation have revealed one important fact about developing name recognition."
+    },
+    {
+     "phrase": "in order to",
+     "meaning": "để, nhằm",
+     "example": "We will analyze the profitability of each of our current routes in order to reach an informed decision."
+    },
+    {
+     "phrase": "in particular",
+     "meaning": "đặc biệt, cụ thể là",
+     "example": "Marketing professionals in particular rely on accurate data about potential customers to be successful."
+    },
+    {
+     "phrase": "in person",
+     "meaning": "trực tiếp",
+     "example": "Afterward, they visit the shop in person or go online to purchase the items for themselves."
+    },
+    {
+     "phrase": "in place",
+     "meaning": "sẵn sàng, được áp dụng; đúng chỗ",
+     "example": "We will have to put everything in place by June 15 because the grand opening is fast approaching."
+    },
+    {
+     "phrase": "in preparation for",
+     "meaning": "để chuẩn bị cho",
+     "example": "In preparation for the event, please note that we offer several unique branding opportunities."
+    },
+    {
+     "phrase": "in response to",
+     "meaning": "để đáp lại, phản hồi",
+     "example": "In response to our growth, we have added three new workshop presenters with significant customer service experience in their respective industries."
+    },
+    {
+     "phrase": "in spite of",
+     "meaning": "mặc dù",
+     "example": "The outdoor sales event was a great success in spite of the cold and rainy weather."
+    },
+    {
+     "phrase": "in stock",
+     "meaning": "còn hàng",
+     "example": "Unfortunately, some items are currently not in stock."
+    },
+    {
+     "phrase": "in the event of / that",
+     "meaning": "trong trường hợp",
+     "example": "While we will replace any goods that may be damaged in transit, we do not agree to pay an additional penalty fee in the event of such damage."
+    },
+    {
+     "phrase": "in the mail",
+     "meaning": "đang được gửi qua bưu điện",
+     "example": "If you select \"No,\" you will receive monthly paper statements in the mail."
+    },
+    {
+     "phrase": "in the meantime",
+     "meaning": "trong lúc đó",
+     "example": "In the meantime, I'll put up a notice to let everyone know they should not use that sink."
+    },
+    {
+     "phrase": "in the middle of",
+     "meaning": "ở giữa, đang giữa chừng",
+     "example": "We are in the middle of moving to a new warehouse, and it has not gone as smoothly as I had hoped."
+    },
+    {
+     "phrase": "in the process of",
+     "meaning": "đang trong quá trình",
+     "example": "Our wireless Internet has gone down, and we are in the process of getting it restored."
+    },
+    {
+     "phrase": "in time",
+     "meaning": "kịp lúc",
+     "example": "The work should be completed in time to celebrate the building's opening in late May."
+    },
+    {
+     "phrase": "in time for",
+     "meaning": "kịp cho",
+     "example": "It reopened in time for a product launch."
+    },
+    {
+     "phrase": "in touch with",
+     "meaning": "liên lạc với",
+     "example": "She will be in touch with you before the end of the month."
+    },
+    {
+     "phrase": "in transit",
+     "meaning": "đang trên đường vận chuyển",
+     "example": "I can confirm that your shipment is now in transit."
+    },
+    {
+     "phrase": "in use",
+     "meaning": "đang được sử dụng",
+     "example": "The lighting is great, so we can easily see what we're cooking, even with three or more racks in use at once."
+    },
+    {
+     "phrase": "in writing",
+     "meaning": "bằng văn bản",
+     "example": "She failed to submit her request in writing."
+    },
+    {
+     "phrase": "instead of",
+     "meaning": "thay vì",
+     "example": "First, weekly payroll checks will be mailed on Thursday instead of Friday."
+    },
+    {
+     "phrase": "next to",
+     "meaning": "bên cạnh",
+     "example": "Please note that this amount is still far less than what you would pay at the cafe next to our building."
+    },
+    {
+     "phrase": "on a budget",
+     "meaning": "với ngân sách hạn hẹp",
+     "example": "At the same time, I am on a limited budget, so I intend to book the least expensive vehicle of this type."
+    },
+    {
+     "phrase": "on a regular / daily / weekly basis",
+     "meaning": "thường xuyên / hằng ngày / hằng tuần",
+     "example": "She travels by train on a regular basis."
+    },
+    {
+     "phrase": "on behalf of",
+     "meaning": "thay mặt cho",
+     "example": "On behalf of our Billing Department, I would like to apologize for the mistake."
+    },
+    {
+     "phrase": "on board",
+     "meaning": "trên tàu/máy bay; tham gia cùng",
+     "example": "Before bringing large items like these on board, please contact a customer service representative."
+    },
+    {
+     "phrase": "on business",
+     "meaning": "đi công tác",
+     "example": "A lot of people traveling to East Asia on business will be happy to take advantage of this."
+    },
+    {
+     "phrase": "on display",
+     "meaning": "đang được trưng bày",
+     "example": "It will be on display only through the end of June."
+    },
+    {
+     "phrase": "on file",
+     "meaning": "được lưu trong hồ sơ",
+     "example": "Until that time, your credit card on file will be charged for the rental equipment only."
+    },
+    {
+     "phrase": "on hand",
+     "meaning": "có sẵn; có mặt",
+     "example": "Naturally, we will have technology on hand to enable you to show clips from your films, should you choose to do so."
+    },
+    {
+     "phrase": "on sale",
+     "meaning": "đang được bán; đang giảm giá",
+     "example": "She is thankful that the item is still on sale."
+    },
+    {
+     "phrase": "on schedule",
+     "meaning": "đúng tiến độ",
+     "example": "All other aspects of the game are on schedule."
+    },
+    {
+     "phrase": "on site / on-site",
+     "meaning": "tại chỗ, ngay tại địa điểm",
+     "example": "Two teams of workers will be on-site, so more than one room at a time will need to be vacated."
+    },
+    {
+     "phrase": "on staff",
+     "meaning": "thuộc biên chế, trong đội ngũ nhân viên",
+     "example": "Each location has an interior designer on staff, so you can consult with an expert in person while you browse our popular items."
+    },
+    {
+     "phrase": "on the agenda",
+     "meaning": "trong chương trình nghị sự",
+     "example": "First on the agenda is our new restaurant reservation app, Faster Now."
+    },
+    {
+     "phrase": "on the market",
+     "meaning": "trên thị trường",
+     "example": "While nothing can replace an outdoor workout, Forward Path comes closer than any other app currently on the market."
+    },
+    {
+     "phrase": "on the other hand",
+     "meaning": "mặt khác",
+     "example": "On the other hand, these films are showing on very small screens."
+    },
+    {
+     "phrase": "on the phone",
+     "meaning": "đang nghe điện thoại",
+     "example": "It seems that the person to whom I spoke on the phone while placing my order did not copy down the message I requested."
+    },
+    {
+     "phrase": "on the way / on one's way",
+     "meaning": "đang trên đường",
+     "example": "Actually, I'm on my way to a conference for managers, but I can be there in 10 minutes to let you in."
+    },
+    {
+     "phrase": "on time",
+     "meaning": "đúng giờ",
+     "example": "The crew arrived on time and worked hard throughout the afternoon."
+    },
+    {
+     "phrase": "on top of",
+     "meaning": "ở trên; ngoài ra",
+     "example": "Choose the appropriate setting (floor, low carpet, high carpet) by using the dial on top of the machine."
+    },
+    {
+     "phrase": "on vacation",
+     "meaning": "đang đi nghỉ",
+     "example": "That changed when she attended an underwater photography workshop while on vacation in Bali, Indonesia."
+    },
+    {
+     "phrase": "out of business",
+     "meaning": "ngừng kinh doanh",
+     "example": "Bear Industrial was going out of business."
+    },
+    {
+     "phrase": "out of order",
+     "meaning": "bị hỏng",
+     "example": "Some of the information is out of order."
+    },
+    {
+     "phrase": "out of stock",
+     "meaning": "hết hàng",
+     "example": "At the moment, boots in the size, style, and colour you are requesting are out of stock."
+    },
+    {
+     "phrase": "out of the office",
+     "meaning": "vắng mặt ở văn phòng",
+     "example": "Keep in mind that Susan will be out of the office next week for a conference."
+    },
+    {
+     "phrase": "out of town",
+     "meaning": "đi vắng, ra khỏi thành phố",
+     "example": "Please note that we will not be able to meet the next two Mondays, since I will be out of town."
+    },
+    {
+     "phrase": "over the phone",
+     "meaning": "qua điện thoại",
+     "example": "As I mentioned over the phone, I had accidentally uploaded an older version of my logo to the Web site."
+    },
+    {
+     "phrase": "over time",
+     "meaning": "theo thời gian",
+     "example": "Over time, he built the company into a successful, internationally renowned business."
+    },
+    {
+     "phrase": "prior to",
+     "meaning": "trước",
+     "example": "Note that there will be preliminary meetings prior to the inspection itself."
+    },
+    {
+     "phrase": "rather than",
+     "meaning": "thay vì",
+     "example": "They decided to lease computers and printers from another firm rather than purchase new equipment."
+    },
+    {
+     "phrase": "regardless of",
+     "meaning": "bất kể",
+     "example": "Regardless of how you got here, we appreciate your taking the time to complete it."
+    },
+    {
+     "phrase": "such as",
+     "meaning": "chẳng hạn như",
+     "example": "I have included details such as square footage and amenities, as well as interior photos and neighborhood maps."
+    },
+    {
+     "phrase": "thanks to",
+     "meaning": "nhờ có",
+     "example": "Moreover, thanks to the personal income generated by small companies, larger, established businesses benefited too."
+    },
+    {
+     "phrase": "under construction",
+     "meaning": "đang được xây dựng",
+     "example": "I'm at the house that's under construction on Tulane Road."
+    },
+    {
+     "phrase": "under new management",
+     "meaning": "dưới sự quản lý mới",
+     "example": "It is under new management."
+    },
+    {
+     "phrase": "under way",
+     "meaning": "đang được tiến hành",
+     "example": "Construction is underway on the downtown facility, part of a complex that includes the new Natural History Museum."
+    },
+    {
+     "phrase": "up to",
+     "meaning": "lên đến, tối đa",
+     "example": "Custom and personalized orders may take up to five days for processing before they are shipped."
+    },
+    {
+     "phrase": "up to date / up-to-date",
+     "meaning": "cập nhật, mới nhất",
+     "example": "We want to be certain that your biography, career summary, and contact information are up-to-date."
+    },
+    {
+     "phrase": "upon completion (of)",
+     "meaning": "khi hoàn thành",
+     "example": "All users will be notified on the morning of 30 September upon completion of the process."
+    },
+    {
+     "phrase": "upon request",
+     "meaning": "khi có yêu cầu",
+     "example": "And we offer fresh, new designs every season; sample items can be sent to you upon request."
+    },
+    {
+     "phrase": "within budget",
+     "meaning": "trong phạm vi ngân sách",
+     "example": "At $850, including utilities, the monthly rent is just within my budget."
+    },
+    {
+     "phrase": "within walking distance (of / from)",
+     "meaning": "trong khoảng cách đi bộ được (từ)",
+     "example": "While these destinations are all within walking distance from the hotel, the shuttle will allow you to reach them more quickly."
+    }
+   ]
+  }
+ ]
+}

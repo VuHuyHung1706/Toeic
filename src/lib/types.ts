@@ -142,3 +142,16 @@ export interface VocabEntry {
   /** Đề → số câu: r = phần đọc (Part 5–6), l = phần nghe (câu đầu của đoạn Part 1–4) */
   tests: Record<string, { r?: number[]; l?: number[] }>;
 }
+
+/** Cụm từ đi với giới từ (content/phrases.json, nhập bằng scripts/import_phrases.py) */
+export interface Phrase {
+  phrase: string;
+  meaning: string;
+  example: string;
+}
+export interface PhraseGroup {
+  /** noun | verb | adj | prep */
+  key: string;
+  label: string;
+  items: Phrase[];
+}

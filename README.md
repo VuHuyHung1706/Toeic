@@ -79,6 +79,7 @@ scripts/audio_timeline.mjs  tìm mốc thời gian từng nhóm câu nghe trong 
                             (thi thật tự chuyển câu theo audio; chạy lại ETL sau đó)
 scripts/fix_group_audio.mjs cắt lại audio riêng của nhóm câu bị gán nhầm file, từ audio cả đề
                             → Data/<năm>/<testN>/audio/fixed/ (chạy sau audio_timeline, trước ETL; rồi media:upload)
+scripts/import_phrases.py   nhập danh sách cụm từ đi với giới từ (file JSON) → content/phrases.json (mục "Cụm giới từ" ở trang Từ vựng)
 src/components/CbtRoom.tsx  giao diện thi thật mô phỏng máy thi TOEIC trên máy tính (IIG)
 scripts/passage.py          chuẩn hoá bài đọc Part 6/7 (ký hiệu chèn câu [1]–[4], dòng phân cách giữa các văn bản)
 src/lib/passage.ts          tách bài đọc Part 6/7 thành khối: email/memo, tin nhắn, trang web, bảng, biểu mẫu, danh sách
