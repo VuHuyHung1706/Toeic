@@ -3,8 +3,10 @@
 // học bằng thẻ ghi nhớ (dùng chung lịch ôn ngắt quãng với từ vựng) hoặc xem danh sách có tìm kiếm.
 // Dữ liệu: content/phrases.json (nhập bằng scripts/import_phrases.py).
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import FlashcardDeck, { type DeckCard } from "./FlashcardDeck";
+import ListCount from "./ListCount";
+import Pagination from "./Pagination";
 import SearchBox from "./SearchBox";
 import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
@@ -166,6 +168,8 @@ function Tile({ value, label, tone = "" }: { value: number; label: string; tone?
   );
 }
 
+const PAGE = 30;
+
 const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
   { key: "all", label: "Tất cả" },
   { key: "new", label: "Mới" },
@@ -177,8 +181,9 @@ const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
 function PhraseList({ items, cards, showGroup }: { items: Item[]; cards: Record<string, VocabCard>; showGroup: boolean }) {
   const [q, setQ] = useState("");
   const [status, setStatus] = useState<Status | "all" | "starred">("all");
-  const [limit, setLimit] = useState(60);
+  const [page, setPage] = useState(1);
   const stars = useStars();
+  const topRef = useRef<HTMLDivElement>(null);
   const shown = useMemo(() => {
     const s = q.trim().toLowerCase();
     return items.filter(
@@ -187,14 +192,17 @@ function PhraseList({ items, cards, showGroup }: { items: Item[]; cards: Record<
         (!s || it.phrase.toLowerCase().includes(s) || it.meaning.toLowerCase().includes(s)),
     );
   }, [items, q, status, stars, cards]);
+  const pages = Math.max(1, Math.ceil(shown.length / PAGE));
+  const cur = Math.min(page, pages);
+  const pageList = shown.slice((cur - 1) * PAGE, cur * PAGE);
 
   return (
-    <div className="mt-5">
+    <div ref={topRef} className="mt-5 scroll-mt-20">
       <SearchBox
         value={q}
         onChange={(v) => {
           setQ(v);
-          setLimit(60);
+          setPage(1);
         }}
         placeholder="Tìm cụm tiếng Anh hoặc nghĩa tiếng Việt…"
       />
@@ -206,13 +214,13 @@ function PhraseList({ items, cards, showGroup }: { items: Item[]; cards: Record<
           value={status}
           onChange={(v) => {
             setStatus(v);
-            setLimit(60);
+            setPage(1);
           }}
         />
       </div>
-      <div className="mt-4 mb-2 text-sm text-muted">{shown.length.toLocaleString("vi-VN")} cụm</div>
+      <ListCount from={(cur - 1) * PAGE} shown={pageList.length} total={shown.length} unit="cụm" />
       <ul className="grid gap-2">
-        {shown.slice(0, limit).map((it) => (
+        {pageList.map((it) => (
           <TermRow
             key={it.key}
             id={it.key}
@@ -234,11 +242,14 @@ function PhraseList({ items, cards, showGroup }: { items: Item[]; cards: Record<
         ))}
       </ul>
       {!shown.length && <div className="rounded-2xl border border-dashed border-line p-10 text-center text-muted">Không có cụm nào khớp.</div>}
-      {shown.length > limit && (
-        <button onClick={() => setLimit((l) => l + 60)} className="mt-3 w-full rounded-xl border border-line py-2.5 text-sm font-medium hover:bg-surface-2">
-          Xem thêm {Math.min(60, shown.length - limit)} cụm
-        </button>
-      )}
+      <Pagination
+        page={cur}
+        total={pages}
+        onChange={(p) => {
+          setPage(p);
+          topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }}
+      />
     </div>
   );
 }

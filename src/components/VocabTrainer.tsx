@@ -1,11 +1,13 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { VOCAB_INTERVALS, resetVocab, setPref, usePref, useVocabCards, type VocabCard } from "@/lib/storage";
 import { useStars } from "@/lib/stars";
 import type { VocabEntry } from "@/lib/types";
 import FlashcardDeck, { type DeckCard } from "./FlashcardDeck";
+import ListCount from "./ListCount";
+import Pagination from "./Pagination";
 import SearchBox from "./SearchBox";
 import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
@@ -392,7 +394,7 @@ function FlashcardSession({ cards, testId, active, onExit }: { cards: VocabEntry
   return <FlashcardDeck cards={deck} active={active} onExit={onExit} />;
 }
 
-const PAGE = 60;
+const PAGE = 30;
 
 const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
   { key: "all", label: "Tất cả" },
@@ -406,9 +408,10 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
   const [q, setQ] = useState("");
   const [pos, setPos] = useState<string | "all">("all");
   const [status, setStatus] = useState<Status | "all" | "starred">("all");
-  const [limit, setLimit] = useState(PAGE);
+  const [page, setPage] = useState(1);
   const [open, setOpen] = useState<string | null>(null);
   const stars = useStars();
+  const topRef = useRef<HTMLDivElement>(null);
 
   const query = q.trim().toLowerCase();
   const list = vocab.filter(
@@ -422,6 +425,11 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
         v.meanings.some((m) => m.toLowerCase().includes(query))),
   );
 
+  // bộ lọc ngoài (đề / phần) đổi làm danh sách ngắn lại → kẹp về trang cuối còn lại
+  const pages = Math.max(1, Math.ceil(list.length / PAGE));
+  const cur = Math.min(page, pages);
+  const pageList = list.slice((cur - 1) * PAGE, cur * PAGE);
+
   const where = (v: VocabEntry) => {
     if (!testId) return `${v.freq} đề`;
     const s = v.tests[testId] ?? {};
@@ -431,12 +439,12 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
   };
 
   return (
-    <div className="mt-5">
+    <div ref={topRef} className="mt-5 scroll-mt-20">
       <SearchBox
         value={q}
         onChange={(v) => {
           setQ(v);
-          setLimit(PAGE);
+          setPage(1);
         }}
         placeholder="Tìm từ tiếng Anh hoặc nghĩa tiếng Việt…"
       />
@@ -448,7 +456,7 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
           value={status}
           onChange={(v) => {
             setStatus(v);
-            setLimit(PAGE);
+            setPage(1);
           }}
         />
         <SegmentedTabs
@@ -462,14 +470,14 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
           value={pos}
           onChange={(v) => {
             setPos(v);
-            setLimit(PAGE);
+            setPage(1);
           }}
         />
       </div>
-      <div className="mt-4 mb-2 text-sm text-muted">{list.length.toLocaleString("vi-VN")} từ</div>
+      <ListCount from={(cur - 1) * PAGE} shown={pageList.length} total={list.length} unit="từ" />
 
       <ul className="grid gap-2">
-        {list.slice(0, limit).map((v) => {
+        {pageList.map((v) => {
           const expanded = open === v.w;
           return (
             <TermRow
@@ -523,11 +531,15 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
         })}
       </ul>
       {!list.length && <div className="rounded-2xl border border-dashed border-line p-10 text-center text-muted">Không có từ nào khớp.</div>}
-      {list.length > limit && (
-        <button onClick={() => setLimit((l) => l + PAGE)} className="mt-3 w-full rounded-xl border border-line py-2.5 text-sm font-medium hover:bg-surface-2">
-          Xem thêm {Math.min(PAGE, list.length - limit)} từ
-        </button>
-      )}
+      <Pagination
+        page={cur}
+        total={pages}
+        onChange={(p) => {
+          setPage(p);
+          setOpen(null);
+          topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }}
+      />
     </div>
   );
 }
