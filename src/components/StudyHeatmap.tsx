@@ -3,6 +3,13 @@ import { dayKey } from "@/lib/storage";
 
 // Lịch học (heatmap): tuần theo cột, thứ theo hàng, ô càng đậm ngày đó học càng nhiều.
 // Dùng ở trang Tiến độ và khối "Hôm nay" ở trang chủ.
+// "Lượt học" = câu đã trả lời + lần ôn câu sai + đoạn nghe chép + lần chấm thẻ từ vựng (xem buildActivity).
+// Màu theo ngưỡng cố định (không so với ngày nhiều nhất) để một ngày học dồn không làm các ngày khác trông như trống.
+
+/** Ngưỡng dưới của mức 1–4: 1–10, 11–30, 31–60, trên 60 lượt */
+const LEVELS = [1, 11, 31, 61];
+const LEVEL_LABEL = ["Chưa học", "1–10 lượt", "11–30 lượt", "31–60 lượt", "Trên 60 lượt"];
+export const heatLevel = (n: number) => LEVELS.filter((min) => n >= min).length;
 export default function StudyHeatmap({
   activity,
   today,
@@ -20,22 +27,20 @@ export default function StudyHeatmap({
   const dow = (new Date(today).getDay() + 6) % 7;
   const start = today - (dow + (weeks - 1) * 7) * DAY;
   const days = Array.from({ length: weeks * 7 }, (_, i) => start + i * DAY);
-  const max = Math.max(1, ...days.map((d) => activity.get(dayKey(d)) ?? 0));
-  const level = (n: number) => (n <= 0 ? 0 : Math.min(4, Math.ceil((n / max) * 4)));
   const shade = ["var(--surface-2)", "25%", "50%", "75%", "100%"];
   const fill = (l: number) => (l === 0 ? shade[0] : `color-mix(in oklab, var(--primary) ${shade[l]}, var(--surface))`);
   const total = days.reduce((s, d) => s + (activity.get(dayKey(d)) ?? 0), 0);
   const labels = ["T2", "", "T4", "", "T6", "", "CN"];
   const cell = (d: number, className: string) => {
     const n = activity.get(dayKey(d)) ?? 0;
-    const label = `${new Date(d).toLocaleDateString("vi-VN")}: ${n} câu`;
+    const label = `${new Date(d).toLocaleDateString("vi-VN")}: ${n.toLocaleString("vi-VN")} lượt học`;
     return (
       <div
         key={d}
         title={label}
         aria-label={label}
         className={`rounded-[3px] ${className}`}
-        style={{ background: d > today ? "transparent" : fill(level(n)) }}
+        style={{ background: d > today ? "transparent" : fill(heatLevel(n)) }}
       />
     );
   };
@@ -68,10 +73,12 @@ export default function StudyHeatmap({
         </div>
       )}
       <div className="mt-3 flex items-center gap-2 text-xs text-muted">
-        <span>{total.toLocaleString("vi-VN")} câu trong {weeks} tuần</span>
+        <span title="Câu đã trả lời, lần ôn câu sai, đoạn nghe chép và lần ôn thẻ từ vựng">
+          {total.toLocaleString("vi-VN")} lượt học trong {weeks} tuần
+        </span>
         <span className="ml-auto">Ít</span>
         {[0, 1, 2, 3, 4].map((l) => (
-          <span key={l} className="size-3 rounded-[3px]" style={{ background: fill(l) }} />
+          <span key={l} title={LEVEL_LABEL[l]} aria-label={LEVEL_LABEL[l]} className="size-3 rounded-[3px]" style={{ background: fill(l) }} />
         ))}
         <span>Nhiều</span>
       </div>
