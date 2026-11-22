@@ -11,6 +11,8 @@ import { useTests } from "@/lib/useTests";
 import type { Letter, PartNo, QuestionGroup, TestData } from "@/lib/types";
 import { CardsSkeleton } from "./Skeleton";
 import SegmentedTabs from "./SegmentedTabs";
+import BackLink from "./BackLink";
+import UiIcon from "./UiIcon";
 
 type Tab = "todo" | "scheduled" | "mastered";
 
@@ -116,14 +118,14 @@ export default function MistakeBook() {
           </div>
           <button
             onClick={() => setSession(groupsOfMistakes(list, tests))}
-            className="rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary hover:opacity-90"
+            className="rounded-xl bg-primary px-5 py-2 font-semibold text-on-primary hover:opacity-90"
           >
             Bắt đầu
           </button>
         </div>
       )}
 
-      <div className="mt-5 overflow-hidden rounded-xl border border-line bg-surface">
+      <div className="mt-5 overflow-hidden rounded-2xl border border-line bg-surface">
         {list.length ? (
           list.map((i) => <MistakeRow key={i.key} item={i} />)
         ) : (
@@ -137,7 +139,7 @@ export default function MistakeBook() {
 function Tile({ value, label, tone }: { value: number; label: string; tone?: "danger" | "success" | "warn" }) {
   const color = { danger: "text-danger", success: "text-success", warn: "text-warn" }[tone ?? "danger"];
   return (
-    <div className="rounded-xl border border-line bg-surface p-4">
+    <div className="rounded-2xl border border-line bg-surface p-4">
       <div className={`text-3xl font-bold ${tone ? color : ""}`}>{value}</div>
       <div className="text-sm text-muted">{label}</div>
     </div>
@@ -191,7 +193,7 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
           {correct}/{results.length}
         </div>
         <div className="text-muted">câu trả lời đúng</div>
-        <button onClick={onExit} className="mt-6 rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary">
+        <button onClick={onExit} className="mt-6 rounded-xl bg-primary px-5 py-2 font-semibold text-on-primary">
           Về sổ câu sai
         </button>
       </div>
@@ -209,9 +211,7 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
   return (
     <div className="mt-6">
       <div className="mb-4 flex flex-wrap items-center gap-3">
-        <button onClick={onExit} className="text-sm text-muted hover:text-fg">
-          ← Thoát
-        </button>
+        <BackLink onClick={onExit}>Thoát</BackLink>
         <div className="flex-1 text-sm text-muted">
           {test.title} · nhóm {index + 1}/{groups.length}
         </div>
@@ -219,7 +219,7 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
           <div className="h-full bg-primary" style={{ width: `${(index / groups.length) * 100}%` }} />
         </div>
       </div>
-      <StepTransition index={index} className="rounded-xl border border-line bg-surface p-4 sm:p-6">
+      <StepTransition index={index} className="rounded-2xl border border-line bg-surface p-4 sm:p-6">
         <GroupView
           key={group.id}
           group={group}
@@ -243,12 +243,17 @@ function MistakeSession({ groups, onExit }: { groups: { test: TestData; group: Q
         <button
           disabled={index === 0}
           onClick={() => setIndex(index - 1)}
-          className="rounded-lg border border-line bg-surface px-4 py-2 disabled:opacity-40"
+          className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-surface px-4 py-2 font-medium transition hover:bg-surface-2 disabled:opacity-40"
         >
-          ← Trước
+          <UiIcon name="arrowLeft" className="size-4" />
+          Trước
         </button>
-        <button onClick={() => setIndex(index + 1)} className="rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary">
-          {index === groups.length - 1 ? "Kết thúc" : "Tiếp →"}
+        <button
+          onClick={() => setIndex(index + 1)}
+          className="inline-flex items-center gap-1.5 rounded-xl bg-primary px-5 py-2 font-semibold text-on-primary transition hover:opacity-90"
+        >
+          {index === groups.length - 1 ? "Kết thúc" : "Tiếp"}
+          {index < groups.length - 1 && <UiIcon name="arrowRight" className="size-4" />}
         </button>
       </div>
     </div>

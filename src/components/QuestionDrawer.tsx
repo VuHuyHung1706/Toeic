@@ -4,6 +4,7 @@
 // Dùng chung cho phòng luyện tập và trang xem lại đáp án.
 
 import { useEffect, useRef, type ReactNode } from "react";
+import UiIcon from "./UiIcon";
 
 export default function QuestionDrawer({
   open,
@@ -73,13 +74,9 @@ export default function QuestionDrawer({
         className="fixed right-4 bottom-[max(1rem,env(safe-area-inset-bottom))] z-[45] flex items-center gap-2 rounded-full bg-primary px-4 py-3 text-sm font-semibold text-on-primary shadow-lg shadow-primary/30 hover:opacity-90"
       >
         {open ? (
-          <span aria-hidden className="text-base leading-none">
-            ✕
-          </span>
+          <UiIcon name="close" className="size-4" />
         ) : (
-          <svg aria-hidden viewBox="0 0 20 20" className="size-4" fill="currentColor">
-            <path d="M3 3h4v4H3zM8 3h4v4H8zM13 3h4v4h-4zM3 8h4v4H3zM8 8h4v4H8zM13 8h4v4h-4zM3 13h4v4H3zM8 13h4v4H8zM13 13h4v4h-4z" />
-          </svg>
+          <UiIcon name="grid" className="size-4" />
         )}
         {open ? "Đóng" : title}
         {!open && badge && <span className="rounded-full bg-on-primary/20 px-1.5 text-xs tabular-nums">{badge}</span>}

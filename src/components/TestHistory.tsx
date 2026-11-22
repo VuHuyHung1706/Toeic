@@ -33,7 +33,7 @@ export default function TestHistory({ testId }: { testId: string }) {
   return (
     <section className="mt-8">
       <h2 className="text-lg font-semibold">Lịch sử làm đề này</h2>
-      <div className="mt-3 overflow-hidden rounded-xl border border-line bg-surface">
+      <div className="mt-3 overflow-hidden rounded-2xl border border-line bg-surface">
         {attempts.map((a) => (
           <AttemptRow key={a.id} a={a} />
         ))}

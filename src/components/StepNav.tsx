@@ -3,6 +3,7 @@
 // Nút giữa bật/tắt bảng số câu.
 
 import SmoothWidth from "./SmoothWidth";
+import UiIcon from "./UiIcon";
 
 export default function StepNav({
   label,
@@ -30,9 +31,7 @@ export default function StepNav({
     >
       <div className="mx-auto flex max-w-7xl items-center justify-end gap-2 px-4 py-2">
         <button onClick={onPrev} disabled={!canPrev} aria-label="Câu trước" title="Câu trước (phím ←)" className={arrow}>
-          <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>
-            <path d="M15 5l-7 7 7 7" />
-          </svg>
+          <UiIcon name="chevronLeft" className="size-5" />
         </button>
         <button
           onClick={onToggleList}
@@ -41,21 +40,14 @@ export default function StepNav({
           className="flex h-10 items-center gap-2 rounded-lg bg-success px-4 text-sm font-semibold text-white tabular-nums hover:opacity-90"
         >
           {listOpen ? (
-            <span aria-hidden>✕</span>
+            <UiIcon name="close" className="size-4" />
           ) : (
-            <svg aria-hidden viewBox="0 0 20 20" className="size-4" fill="none" stroke="currentColor" strokeWidth="1.8">
-              <rect x="3" y="3" width="5.5" height="5.5" rx="1" />
-              <rect x="11.5" y="3" width="5.5" height="5.5" rx="1" />
-              <rect x="3" y="11.5" width="5.5" height="5.5" rx="1" />
-              <rect x="11.5" y="11.5" width="5.5" height="5.5" rx="1" />
-            </svg>
+            <UiIcon name="grid" className="size-4" />
           )}
           <SmoothWidth>{label}</SmoothWidth>
         </button>
         <button onClick={onNext} disabled={!canNext} aria-label="Câu sau" title="Câu sau (phím →)" className={arrow}>
-          <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>
-            <path d="M9 5l7 7-7 7" />
-          </svg>
+          <UiIcon name="chevronRight" className="size-5" />
         </button>
       </div>
     </nav>

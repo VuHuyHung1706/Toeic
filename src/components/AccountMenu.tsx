@@ -51,7 +51,7 @@ export default function AccountMenu() {
     return (
       <Link
         href={`/login${next}`}
-        className="shrink-0 rounded-lg border border-line px-3 py-1.5 text-sm font-semibold hover:bg-surface-2"
+        className="shrink-0 rounded-xl border border-line px-3 py-1.5 text-sm font-semibold hover:bg-surface-2"
       >
         Đăng nhập
       </Link>
@@ -81,7 +81,7 @@ export default function AccountMenu() {
         <span className={`pointer-events-none absolute right-0 bottom-0 size-2.5 rounded-full ring-2 ring-surface ${STATE_DOT[sync.state]}`} />
       )}
       {open && (
-        <div className="absolute right-0 mt-2 w-64 rounded-xl border border-line bg-surface p-3 text-sm shadow-lg">
+        <div className="absolute right-0 mt-2 w-64 rounded-2xl border border-line bg-surface p-3 text-sm shadow-lg">
           <p className="truncate font-semibold">{user.name}</p>
           <p className="truncate text-muted">{user.email}</p>
           <p className="mt-2 flex items-center gap-2 text-xs text-muted">
@@ -96,7 +96,7 @@ export default function AccountMenu() {
               await forgetAccount();
               await signOut();
             }}
-            className="mt-3 w-full rounded-lg border border-line px-3 py-1.5 text-left hover:bg-surface-2"
+            className="mt-3 w-full rounded-xl border border-line px-3 py-1.5 text-left hover:bg-surface-2"
           >
             Đăng xuất
           </button>
@@ -141,7 +141,7 @@ export function ImportBanner() {
             type="button"
             disabled={busy}
             onClick={() => act(true)}
-            className="rounded-lg bg-primary px-3 py-1.5 font-semibold text-on-primary disabled:opacity-60"
+            className="rounded-xl bg-primary px-3 py-1.5 font-semibold text-on-primary disabled:opacity-60"
           >
             {busy ? "Đang chuyển…" : "Chuyển vào tài khoản"}
           </button>
@@ -149,7 +149,7 @@ export function ImportBanner() {
             type="button"
             disabled={busy}
             onClick={() => act(false)}
-            className="rounded-lg border border-line bg-surface px-3 py-1.5 hover:bg-surface-2 disabled:opacity-60"
+            className="rounded-xl border border-line bg-surface px-3 py-1.5 hover:bg-surface-2 disabled:opacity-60"
           >
             Bỏ qua
           </button>

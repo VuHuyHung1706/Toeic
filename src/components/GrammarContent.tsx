@@ -2,6 +2,7 @@
 import type { ReactNode } from "react";
 import type { Block } from "@/lib/grammar";
 import type { GrammarExample } from "@/lib/grammar-examples";
+import UiIcon from "./UiIcon";
 
 /** **đậm**, *nghiêng*, ~~gạch~~, "____" hoặc "-----" (chỗ trống) */
 export function Inline({ text }: { text: string }) {
@@ -101,14 +102,17 @@ export function GrammarBlock({ block }: { block: Block }) {
 /** Câu thật trong đề: tự chọn trước, bấm để xem đáp án và giải thích */
 export function ExamExample({ ex, index }: { ex: GrammarExample; index: number }) {
   return (
-    <details className="group rounded-xl border border-line bg-surface p-4 open:border-primary/40">
+    <details className="group rounded-2xl border border-line bg-surface p-4 open:border-primary/40">
       <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden">
         <div className="mb-2 flex items-center justify-between gap-3 text-xs text-muted">
           <span>
             Ví dụ {index + 1} · {ex.testTitle} · câu {ex.number}
           </span>
-          <span className="font-semibold text-primary group-open:hidden">Xem đáp án ▾</span>
-          <span className="hidden font-semibold text-primary group-open:inline">Ẩn đáp án ▴</span>
+          <span className="inline-flex items-center gap-1 font-semibold text-primary">
+            <span className="group-open:hidden">Xem đáp án</span>
+            <span className="hidden group-open:inline">Ẩn đáp án</span>
+            <UiIcon name="chevronDown" className="size-4 transition-transform group-open:rotate-180" />
+          </span>
         </div>
         <div className="leading-7 font-medium">
           <Inline text={ex.question} />
@@ -123,7 +127,11 @@ export function ExamExample({ ex, index }: { ex: GrammarExample; index: number }
             >
               <span className="font-bold text-muted">{l}</span>
               <span>{o}</span>
-              {l === ex.answer && <span className="ml-auto hidden font-bold text-success group-open:inline">✓</span>}
+              {l === ex.answer && (
+                <span className="ml-auto hidden text-success group-open:inline">
+                  <UiIcon name="check" className="size-4" />
+                </span>
+              )}
             </div>
           ))}
         </div>

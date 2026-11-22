@@ -15,6 +15,7 @@ import { formatDuration, mediaUrl, optionLetters } from "@/lib/toeic";
 import type { Letter, PartNo, QuestionGroup } from "@/lib/types";
 import Logo from "./Logo";
 import SmoothWidth from "./SmoothWidth";
+import UiIcon from "./UiIcon";
 
 const INSTRUCTIONS: Record<PartNo, string> = {
   1: "Select the one statement that best describes what you see in the picture.",
@@ -384,7 +385,7 @@ function Modal({ title, titleClass, onClose, children }: { title: string; titleC
         onClick={(e) => e.stopPropagation()}
       >
         <button onClick={onClose} aria-label="Đóng" className="absolute top-3 right-3 grid size-8 place-items-center rounded-md text-muted hover:bg-surface-2">
-          ✕
+          <UiIcon name="close" className="size-4" />
         </button>
         <h2 className={`text-center text-2xl font-bold tracking-wide ${titleClass}`}>{title}</h2>
         <div className="mt-4">{children}</div>

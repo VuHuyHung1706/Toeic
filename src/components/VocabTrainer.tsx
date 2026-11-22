@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { VOCAB_INTERVALS, resetVocab, setPref, usePref, useVocabCards, type VocabCard } from "@/lib/storage";
 import { useStars } from "@/lib/stars";
 import type { VocabEntry } from "@/lib/types";
@@ -13,6 +13,8 @@ import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
 import SmoothWidth from "./SmoothWidth";
 import TermRow from "./TermRow";
+import IconLabel from "./IconLabel";
+import UiIcon from "./UiIcon";
 
 const POS_LABEL: Record<string, string> = {
   n: "danh từ",
@@ -185,7 +187,7 @@ function Trainer({ allVocab, tests, active }: { allVocab: VocabEntry[]; tests: T
         )}
       </div>
 
-      <div className="mt-3 rounded-xl border border-line bg-surface p-3 text-sm">
+      <div className="mt-3 rounded-2xl border border-line bg-surface p-3 text-sm">
         <div className="flex flex-wrap items-center gap-x-5 gap-y-3">
           <span className="font-semibold">
             {testLabel(testId)}
@@ -197,8 +199,8 @@ function Trainer({ allVocab, tests, active }: { allVocab: VocabEntry[]; tests: T
               label="Phần"
               items={[
                 { key: "all" as const, label: "Tất cả" },
-                { key: "l" as const, label: "🎧 Nghe" },
-                { key: "r" as const, label: "📖 Đọc" },
+                { key: "l" as const, label: <IconLabel icon="headphones">Nghe</IconLabel> },
+                { key: "r" as const, label: <IconLabel icon="book">Đọc</IconLabel> },
               ]}
               value={source}
               onChange={(k) => setPref("vocabSource", k)}
@@ -231,7 +233,7 @@ function Trainer({ allVocab, tests, active }: { allVocab: VocabEntry[]; tests: T
       </div>
 
       {tab === "learn" && (
-        <div className="mt-5 rounded-xl border border-line bg-surface p-6">
+        <div className="mt-5 rounded-2xl border border-line bg-surface p-6">
           <h2 className="text-lg font-semibold">{testId === "all" ? "Phiên học hôm nay" : `Từ vựng ${testLabel(testId)}`}</h2>
           <p className="mt-1 text-sm text-muted">
             Ôn {due.length} thẻ đến hạn trước, sau đó học từ mới{" "}
@@ -257,7 +259,7 @@ function Trainer({ allVocab, tests, active }: { allVocab: VocabEntry[]; tests: T
           <button
             disabled={!due.length && !fresh.length}
             onClick={() => setSession([...due, ...fresh.slice(0, newCount)])}
-            className="mt-5 rounded-lg bg-primary px-5 py-2.5 font-semibold text-on-primary hover:opacity-90 disabled:opacity-40"
+            className="mt-5 rounded-xl bg-primary px-5 py-2.5 font-semibold text-on-primary hover:opacity-90 disabled:opacity-40"
           >
             <SmoothWidth>
               Bắt đầu ({due.length.toLocaleString("vi-VN")} ôn + {newCount.toLocaleString("vi-VN")} mới)
@@ -274,7 +276,7 @@ function Trainer({ allVocab, tests, active }: { allVocab: VocabEntry[]; tests: T
 
 function Tile({ value, label, tone = "" }: { value: number; label: string; tone?: string }) {
   return (
-    <div className="rounded-xl border border-line bg-surface p-4">
+    <div className="rounded-2xl border border-line bg-surface p-4">
       <div className={`text-3xl font-bold tabular-nums ${tone}`}>{value.toLocaleString("vi-VN")}</div>
       <div className="text-sm text-muted">{label}</div>
     </div>
@@ -373,14 +375,20 @@ function FlashcardSession({ cards, testId, active, onExit }: { cards: VocabEntry
               <OtherForms v={card} />
               {examples.map((ex) => (
                 <div key={`${ex.testId}:${ex.number}`} className="rounded-xl border border-line p-3">
-                  <div className="mb-1 text-xs text-muted">📖 Part 5 · {ex.testId.replace("-test", " · Test ")} · câu {ex.number}</div>
+                  <div className="mb-1 text-xs text-muted">
+                    <IconLabel icon="book" size="size-3.5">
+                      Part 5 · {ex.testId.replace("-test", " · Test ")} · câu {ex.number}
+                    </IconLabel>
+                  </div>
                   <Highlight text={ex.text} words={words} />
                 </div>
               ))}
               {card.listenExample && (
                 <div className="rounded-xl border border-line p-3">
                   <div className="mb-1 text-xs text-muted">
-                    🎧 Part {card.listenExample.part} · {card.listenExample.testId.replace("-test", " · Test ")} · câu {card.listenExample.number}
+                    <IconLabel icon="headphones" size="size-3.5">
+                      Part {card.listenExample.part} · {card.listenExample.testId.replace("-test", " · Test ")} · câu {card.listenExample.number}
+                    </IconLabel>
                   </div>
                   <Highlight text={card.listenExample.text} words={words} />
                 </div>
@@ -396,12 +404,12 @@ function FlashcardSession({ cards, testId, active, onExit }: { cards: VocabEntry
 
 const PAGE = 30;
 
-const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
+const STATUS_TABS: { key: Status | "all" | "starred"; label: ReactNode }[] = [
   { key: "all", label: "Tất cả" },
   { key: "new", label: "Mới" },
   { key: "learning", label: "Đang học" },
   { key: "mastered", label: "Đã thuộc" },
-  { key: "starred", label: "★ Gắn sao" },
+  { key: "starred", label: <IconLabel icon="star">Gắn sao</IconLabel> },
 ];
 
 function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record<string, VocabCard>; testId: string | null }) {
@@ -433,9 +441,20 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
   const where = (v: VocabEntry) => {
     if (!testId) return `${v.freq} đề`;
     const s = v.tests[testId] ?? {};
-    return [s.l?.length ? `🎧 câu ${s.l.join(", ")}` : "", s.r?.length ? `📖 câu ${s.r.join(", ")}` : ""]
-      .filter(Boolean)
-      .join(" · ");
+    return (
+      <>
+        {!!s.l?.length && (
+          <IconLabel icon="headphones" size="size-3.5">
+            câu {s.l.join(", ")}
+          </IconLabel>
+        )}
+        {!!s.r?.length && (
+          <IconLabel icon="book" size="size-3.5">
+            câu {s.r.join(", ")}
+          </IconLabel>
+        )}
+      </>
+    );
   };
 
   return (
@@ -497,7 +516,7 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
                     </span>
                   ))}
                   {v.basic && <span className="rounded-md bg-surface-2 px-1.5 py-0.5">cơ bản</span>}
-                  <span className="ml-0.5">{where(v)}</span>
+                  <span className="ml-0.5 inline-flex flex-wrap items-center gap-x-2.5">{where(v)}</span>
                 </>
               }
               below={
@@ -514,9 +533,7 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
                           {f.w}
                         </span>
                       ))}
-                      <span className={`text-muted transition-transform ${expanded ? "rotate-180" : ""}`} aria-hidden>
-                        ▾
-                      </span>
+                      <UiIcon name="chevronDown" className={`size-3.5 text-muted transition-transform ${expanded ? "rotate-180" : ""}`} />
                     </button>
                     {expanded && (
                       <div className="step-fade mt-2">

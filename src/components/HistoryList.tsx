@@ -19,7 +19,7 @@ export default function HistoryList() {
   }
 
   return (
-    <div className="mt-4 overflow-hidden rounded-xl border border-line bg-surface">
+    <div className="mt-4 overflow-hidden rounded-2xl border border-line bg-surface">
       {attempts.map((a) => (
         <AttemptRow key={a.id} a={a} showTest />
       ))}

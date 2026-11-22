@@ -13,6 +13,8 @@ import { useAttempts } from "@/lib/storage";
 import { formatDuration, groupsForParts, partInfo } from "@/lib/toeic";
 import type { PartNo, TestData } from "@/lib/types";
 import SegmentedTabs from "./SegmentedTabs";
+import BackLink from "./BackLink";
+import UiIcon from "./UiIcon";
 
 type Filter = "all" | "wrong" | "skipped";
 
@@ -66,16 +68,14 @@ export default function ResultView({ test }: { test: TestData }) {
 
   return (
     <main className="mx-auto w-full max-w-7xl px-4 py-8">
-      <Link href={`/tests/${test.id}`} className="text-sm text-muted hover:text-fg">
-        ← {test.title}
-      </Link>
-      <h1 className="mt-2 text-2xl font-bold">Kết quả {attempt.mode === "full" ? "thi thử" : "luyện tập"}</h1>
+      <BackLink href={`/tests/${test.id}`}>{test.title}</BackLink>
+      <h1 className="mt-3 text-2xl font-bold">Kết quả {attempt.mode === "full" ? "thi thử" : "luyện tập"}</h1>
       <p className="text-sm text-muted">
         {new Date(attempt.submittedAt).toLocaleString("vi-VN")} · thời gian làm {formatDuration(attempt.durationSec)}
       </p>
 
       <section className="mt-6 grid gap-4 md:grid-cols-[1.1fr_1fr]">
-        <div className="rounded-xl border border-line bg-surface p-6">
+        <div className="rounded-2xl border border-line bg-surface p-6">
           {attempt.mode === "full" ? (
             <>
               <div className="text-sm text-muted">Điểm ước tính</div>
@@ -107,18 +107,18 @@ export default function ResultView({ test }: { test: TestData }) {
             <span className="rounded-full bg-warn-soft px-3 py-1 text-warn">Bỏ trống {skipped}</span>
           </div>
           <div className="mt-5 flex flex-wrap gap-2">
-            <Link href={retryHref} className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-on-primary">
+            <Link href={retryHref} className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-on-primary">
               Làm lại
             </Link>
             {wrong + skipped > 0 && (
-              <Link href="/mistakes" className="rounded-lg border border-line px-4 py-2 text-sm font-semibold hover:bg-surface-2">
+              <Link href="/mistakes" className="rounded-xl border border-line px-4 py-2 text-sm font-semibold hover:bg-surface-2">
                 Ôn câu sai
               </Link>
             )}
           </div>
         </div>
 
-        <div className="rounded-xl border border-line bg-surface p-6">
+        <div className="rounded-2xl border border-line bg-surface p-6">
           <div className="mb-3 font-semibold">Theo từng part</div>
           <div className="space-y-3">
             {(Object.keys(attempt.byPart) as unknown as PartNo[]).map((p, i) => {
@@ -187,8 +187,9 @@ export default function ResultView({ test }: { test: TestData }) {
                 <>
                   Bấm <b>Câu hỏi</b> ở góc dưới bên phải để chọn câu, hoặc nút <b>›</b> để xem lần lượt.
                   <div>
-                    <button onClick={() => setGroupIndex(visible[0])} className="mt-3 text-primary hover:underline">
-                      Bắt đầu từ câu đầu tiên →
+                    <button onClick={() => setGroupIndex(visible[0])} className="mt-3 inline-flex items-center gap-1 text-primary hover:underline">
+                      Bắt đầu từ câu đầu tiên
+                      <UiIcon name="arrowRight" className="size-4" />
                     </button>
                   </div>
                 </>

@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useSlidingIndicator } from "./SegmentedTabs";
 import { Icon, SECTIONS } from "./SectionIcons";
+import UiIcon from "./UiIcon";
 
 const GAP = 4; // gap-1
 
@@ -29,18 +30,7 @@ function ItemBody({ it, active }: { it: (typeof SECTIONS)[number]; active: boole
 }
 
 const Chevron = ({ open }: { open: boolean }) => (
-  <svg
-    viewBox="0 0 24 24"
-    aria-hidden
-    className={`size-[18px] transition-transform duration-200 motion-reduce:transition-none ${open ? "rotate-180" : ""}`}
-    fill="none"
-    stroke="currentColor"
-    strokeWidth={2.2}
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="m6 9 6 6 6-6" />
-  </svg>
+  <UiIcon name="chevronDown" className={`size-[18px] transition-transform duration-200 motion-reduce:transition-none ${open ? "rotate-180" : ""}`} />
 );
 
 export default function SiteNav() {
@@ -165,7 +155,7 @@ export default function SiteNav() {
           {open && (
             <div
               role="menu"
-              className="step-fade absolute top-full right-0 z-40 mt-2 w-52 rounded-xl border border-line bg-surface p-1.5 text-sm shadow-xl"
+              className="step-fade absolute top-full right-0 z-40 mt-2 w-52 rounded-2xl border border-line bg-surface p-1.5 text-sm shadow-xl"
             >
               {hidden.map((i) => {
                 const it = SECTIONS[i];

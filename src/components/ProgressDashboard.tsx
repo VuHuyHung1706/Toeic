@@ -56,13 +56,13 @@ export default function ProgressDashboard() {
       <PredictionCard prediction={prediction} />
 
       <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
-        <section className="rounded-xl border border-line bg-surface p-5">
+        <section className="rounded-2xl border border-line bg-surface p-5">
           <h2 className="font-semibold">Điểm thi thử theo thời gian</h2>
           <p className="text-xs text-muted">Điểm ước tính thang 990, mỗi điểm là một lần thi thử full đề</p>
           {fulls.length ? <ScoreChart attempts={fulls} /> : <Empty text="Làm một bài thi thử full để thấy biểu đồ điểm." />}
         </section>
 
-        <section className="rounded-xl border border-line bg-surface p-5">
+        <section className="rounded-2xl border border-line bg-surface p-5">
           <h2 className="font-semibold">Tỉ lệ đúng theo part</h2>
           <p className="text-xs text-muted">Gộp mọi lần thi thử và luyện tập</p>
           <div className="mt-4 space-y-3">
@@ -87,7 +87,7 @@ export default function ProgressDashboard() {
         </section>
       </div>
 
-      <section className="rounded-xl border border-line bg-surface p-5">
+      <section className="rounded-2xl border border-line bg-surface p-5">
         <h2 className="font-semibold">Lịch học {WEEKS} tuần gần nhất</h2>
         <p className="text-xs text-muted">Ô càng đậm, ngày đó học càng nhiều (câu hỏi, đoạn nghe chép, thẻ từ vựng)</p>
         <StudyHeatmap activity={stats.activity} today={today} weeks={WEEKS} />
@@ -108,7 +108,7 @@ function PredictionCard({ prediction }: { prediction: ReturnType<typeof predictS
     ["Reading", reading],
   ];
   return (
-    <section className="flex flex-wrap items-center gap-6 rounded-xl border border-line bg-surface p-5">
+    <section className="flex flex-wrap items-center gap-6 rounded-2xl border border-line bg-surface p-5">
       <div>
         <div className="text-sm text-muted">Điểm dự đoán nếu thi hôm nay</div>
         <div className="text-4xl font-bold tabular-nums">
@@ -138,7 +138,7 @@ function PredictionCard({ prediction }: { prediction: ReturnType<typeof predictS
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-xl border border-line bg-surface p-4">
+    <div className="rounded-2xl border border-line bg-surface p-4">
       <div className="text-2xl font-bold tabular-nums">{value}</div>
       <div className="text-xs text-muted">{label}</div>
     </div>

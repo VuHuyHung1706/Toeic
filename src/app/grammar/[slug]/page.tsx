@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { ExamExample, GrammarBlock } from "@/components/GrammarContent";
 import { TOPICS, topicBySlug } from "@/lib/grammar";
 import { grammarExamples, practiceInfo } from "@/lib/grammar-examples";
+import BackLink from "@/components/BackLink";
+import UiIcon from "@/components/UiIcon";
 
 export function generateStaticParams() {
   return TOPICS.map((t) => ({ slug: t.slug }));
@@ -24,9 +26,7 @@ export default async function GrammarTopicPage({ params }: PageProps<"/grammar/[
 
   return (
     <main className="mx-auto w-full max-w-4xl px-4 py-10">
-      <Link href="/grammar" className="text-sm text-muted hover:text-fg">
-        ← Ngữ pháp
-      </Link>
+      <BackLink href="/grammar">Ngữ pháp</BackLink>
       <div className="mt-3 text-xs font-semibold tracking-wide text-muted uppercase">
         Bài {i + 1} · {topic.group}
       </div>
@@ -91,8 +91,9 @@ export default async function GrammarTopicPage({ params }: PageProps<"/grammar/[
         <ul className="mt-2 space-y-1.5">
           {topic.sources.map((s) => (
             <li key={s.url}>
-              <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                {s.label} ↗
+              <a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-primary hover:underline">
+                {s.label}
+                <UiIcon name="external" className="size-3.5" />
               </a>
             </li>
           ))}
@@ -102,16 +103,22 @@ export default async function GrammarTopicPage({ params }: PageProps<"/grammar/[
       {/* bài trước / bài sau */}
       <div className="mt-10 grid gap-3 sm:grid-cols-2">
         {prev ? (
-          <Link href={`/grammar/${prev.slug}`} className="rounded-xl border border-line bg-surface p-4 hover:border-primary/40">
-            <div className="text-xs text-muted">← Bài trước</div>
+          <Link href={`/grammar/${prev.slug}`} className="rounded-2xl border border-line bg-surface p-4 hover:border-primary/40">
+            <div className="flex items-center gap-1 text-xs text-muted">
+              <UiIcon name="arrowLeft" className="size-3.5" />
+              Bài trước
+            </div>
             <div className="font-semibold">{prev.title}</div>
           </Link>
         ) : (
           <span />
         )}
         {next && (
-          <Link href={`/grammar/${next.slug}`} className="rounded-xl border border-line bg-surface p-4 text-right hover:border-primary/40">
-            <div className="text-xs text-muted">Bài sau →</div>
+          <Link href={`/grammar/${next.slug}`} className="rounded-2xl border border-line bg-surface p-4 text-right hover:border-primary/40">
+            <div className="flex items-center justify-end gap-1 text-xs text-muted">
+              Bài sau
+              <UiIcon name="arrowRight" className="size-3.5" />
+            </div>
             <div className="font-semibold">{next.title}</div>
           </Link>
         )}

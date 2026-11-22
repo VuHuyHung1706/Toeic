@@ -17,6 +17,8 @@ import { formatDuration, gradeAttempt, groupsForParts, mediaUrl, parsePartsParam
 import type { ExamMode, Letter, PartNo, TestData } from "@/lib/types";
 import Logo from "./Logo";
 import SmoothWidth from "./SmoothWidth";
+import BackLink from "./BackLink";
+import UiIcon from "./UiIcon";
 
 const ALL_PARTS: PartNo[] = [1, 2, 3, 4, 5, 6, 7];
 
@@ -319,23 +321,21 @@ function ExamSession({
               Bạn có bài làm dở: đã trả lời {answeredCount(saved.answers as Record<number, Letter>, groups)}/{total} câu, đã dùng{" "}
               {formatDuration(saved.elapsedSec)}.
               <div className="mt-3 flex flex-wrap gap-2">
-                <button onClick={() => begin(false)} className="rounded-lg bg-primary px-4 py-2 font-semibold text-on-primary">
+                <button onClick={() => begin(false)} className="rounded-xl bg-primary px-4 py-2 font-semibold text-on-primary">
                   Tiếp tục làm
                 </button>
-                <button onClick={() => begin(true)} className="rounded-lg border border-line bg-surface px-4 py-2 font-semibold">
+                <button onClick={() => begin(true)} className="rounded-xl border border-line bg-surface px-4 py-2 font-semibold">
                   Làm lại từ đầu
                 </button>
               </div>
             </div>
           ) : (
-            <button onClick={() => begin(true)} className="mt-6 rounded-lg bg-primary px-6 py-2.5 font-semibold text-on-primary">
+            <button onClick={() => begin(true)} className="mt-6 rounded-xl bg-primary px-6 py-2.5 font-semibold text-on-primary">
               Bắt đầu làm bài
             </button>
           )}
           <div className="mt-4">
-            <Link href={`/tests/${test.id}`} className="text-sm text-muted hover:text-fg">
-              ← Quay lại
-            </Link>
+            <BackLink href={`/tests/${test.id}`}>Quay lại</BackLink>
           </div>
         </div>
       </main>
@@ -435,7 +435,10 @@ function ExamSession({
         </div>
         {fullAudioUrl && (
           <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 pb-2 text-xs text-muted">
-            <span className="shrink-0">🎧 Listening</span>
+            <span className="flex shrink-0 items-center gap-1">
+              <UiIcon name="headphones" className="size-3.5" />
+              Listening
+            </span>
             <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface-2">
               <div
                 className="h-full bg-primary transition-[width]"

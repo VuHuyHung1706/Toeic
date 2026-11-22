@@ -69,7 +69,7 @@ export default function ConfirmDialog({
         </h2>
         {children && <div className="mt-2 text-sm leading-relaxed text-muted">{children}</div>}
         <div className="mt-6 grid grid-cols-2 gap-2">
-          <button type="button" onClick={onCancel} className="rounded-lg border border-line px-4 py-2.5 font-semibold hover:bg-surface-2">
+          <button type="button" onClick={onCancel} className="rounded-xl border border-line px-4 py-2.5 font-semibold hover:bg-surface-2">
             {cancelLabel}
           </button>
           <button ref={confirmRef} type="button" onClick={onConfirm} className={`rounded-lg px-4 py-2.5 font-semibold ${btn}`}>

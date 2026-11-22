@@ -20,7 +20,7 @@ export default function PracticeSetup({ testId, partCounts }: { testId: string; 
   const href = `/tests/${testId}/exam?mode=practice&parts=${parts.join(",")}&time=${time}&instant=${instant ? 1 : 0}`;
 
   return (
-    <section className="rounded-xl border border-line bg-surface p-6">
+    <section className="rounded-2xl border border-line bg-surface p-6">
       <h2 className="text-lg font-semibold">Luyện tập theo part</h2>
       <p className="mt-1 text-sm text-muted">Chọn một hoặc nhiều part. Audio được nghe lại, chỉnh tốc độ tuỳ ý.</p>
 

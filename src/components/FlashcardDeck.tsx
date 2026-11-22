@@ -7,6 +7,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { toggleStar, useStars } from "@/lib/stars";
 import { reviewVocab, setPref, usePref } from "@/lib/storage";
+import BackLink from "./BackLink";
+import UiIcon from "./UiIcon";
 
 export interface DeckCard {
   /** khoá thẻ trong lịch ôn (vd từ "submit", cụm "cgt:verb:add A to B") */
@@ -47,34 +49,6 @@ function shuffled<T>(a: T[]): T[] {
   }
   return b;
 }
-
-// ---- icon nhỏ (nét giống icon menu) ----
-const s = { fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
-const I = {
-  bulb: <path {...s} d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3z" />,
-  sound: <path {...s} d="M11 5 6 9H3v6h3l5 4V5zm4.5 3.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" />,
-  star: <path {...s} d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z" />,
-  prev: <path {...s} d="M19 12H5m6-6-6 6 6 6" />,
-  next: <path {...s} d="M5 12h14m-6-6 6 6-6 6" />,
-  play: <path d="M8 5v14l11-7z" fill="currentColor" />,
-  pause: <path d="M7 5h4v14H7zm6 0h4v14h-4z" fill="currentColor" />,
-  shuffle: <path {...s} d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />,
-  gear: (
-    <>
-      <circle {...s} cx="12" cy="12" r="3" />
-      <path {...s} d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" />
-    </>
-  ),
-  expand: <path {...s} d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />,
-  shrink: <path {...s} d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" />,
-  check: <path {...s} d="m5 12 5 5L20 7" />,
-  x: <path {...s} d="M6 6l12 12M18 6 6 18" />,
-};
-const Ico = ({ d, className = "size-5" }: { d: ReactNode; className?: string }) => (
-  <svg viewBox="0 0 24 24" aria-hidden className={className}>
-    {d}
-  </svg>
-);
 
 /** active = false khi mục chứa bộ thẻ đang bị ẩn (chuyển sang tab khác): giữ nguyên tiến độ nhưng không nhận phím, không tự chạy */
 export default function FlashcardDeck({ cards: initial, onExit, active = true }: { cards: DeckCard[]; onExit: () => void; active?: boolean }) {
@@ -229,7 +203,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
   if (finished) {
     const again = deck.filter((c) => verdicts[c.id] === "learning");
     return (
-      <div className="mt-6 rounded-3xl border border-line bg-surface p-8 text-center">
+      <div className="mt-6 rounded-2xl border border-line bg-surface p-8 text-center">
         <div className="text-sm text-muted">Hoàn thành bộ thẻ</div>
         <div className="mt-2 text-4xl font-bold">{deck.length} thẻ</div>
         {sortMode && (
@@ -291,13 +265,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
     <div ref={rootRef} className={`mt-6 ${full ? "flex flex-col justify-center bg-bg p-6 sm:p-10" : ""}`}>
       {/* thanh trên: thoát, tiến độ, số đã phân loại */}
       <div className="mb-3 flex items-center gap-3 text-sm text-muted">
-        <button
-          onClick={onExit}
-          className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 font-medium text-muted transition hover:bg-surface-2 hover:text-fg"
-        >
-          <Ico d={I.prev} className="size-4" />
-          Thoát
-        </button>
+        <BackLink onClick={onExit}>Thoát</BackLink>
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface-2">
           <div className="h-full rounded-full bg-primary transition-[width] duration-300" style={{ width: `${(pos / deck.length) * 100}%` }} />
         </div>
@@ -328,7 +296,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
           onPointerMove={onPointerMove}
           onPointerUp={onPointerUp}
           onPointerCancel={onPointerUp}
-          className={`step-fade relative h-[22rem] cursor-pointer touch-pan-y select-none sm:h-[30rem] ${full ? "sm:h-[60vh]" : ""} ${glow} rounded-3xl ${
+          className={`step-fade relative h-[22rem] cursor-pointer touch-pan-y select-none sm:h-[30rem] ${full ? "sm:h-[60vh]" : ""} ${glow} rounded-2xl ${
             dx ? "" : "transition-transform duration-200"
           } motion-reduce:transition-none`}
           style={{
@@ -347,7 +315,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
             style={{ transform: flipped ? "rotateY(180deg)" : "none" }}
           >
             {/* mặt trước */}
-            <div className="absolute inset-0 flex flex-col rounded-3xl border border-line bg-surface p-5 shadow-sm [backface-visibility:hidden] sm:p-7">
+            <div className="absolute inset-0 flex flex-col rounded-2xl border border-line bg-surface p-5 shadow-sm [backface-visibility:hidden] sm:p-7">
               <div className="flex items-center justify-between">
                 {card.hint && termFirst ? (
                   <button
@@ -357,7 +325,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
                     }}
                     className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium text-muted hover:bg-surface-2 hover:text-fg"
                   >
-                    <Ico d={I.bulb} className="size-4" />
+                    <UiIcon name="bulb" className="size-4" />
                     {hint ? "Ẩn gợi ý" : "Hiển thị gợi ý"}
                   </button>
                 ) : (
@@ -379,7 +347,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
               </div>
             </div>
             {/* mặt sau */}
-            <div className="absolute inset-0 flex flex-col rounded-3xl border border-line bg-surface p-5 shadow-sm [backface-visibility:hidden] [transform:rotateY(180deg)] sm:p-7">
+            <div className="absolute inset-0 flex flex-col rounded-2xl border border-line bg-surface p-5 shadow-sm [backface-visibility:hidden] [transform:rotateY(180deg)] sm:p-7">
               <div className="flex items-center justify-between gap-3">
                 <span className="truncate px-1 text-sm font-semibold text-muted">{termFirst ? card.term : card.meaning}</span>
                 <CardIcons card={card} starred={starred.has(card.id)} onStar={() => toggleStar(card.id)} iconBtn={iconBtn} />
@@ -424,7 +392,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
               title="Chưa nhớ (← hoặc 1)"
               className="grid h-12 w-16 place-items-center rounded-full border border-danger/40 bg-danger-soft text-danger transition hover:scale-105 sm:w-20"
             >
-              <Ico d={I.x} className="size-6" />
+              <UiIcon name="close" className="size-6" />
             </button>
             <span className="min-w-16 text-center text-sm font-semibold tabular-nums text-muted">
               {pos + 1} / {deck.length}
@@ -435,19 +403,19 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
               title="Nhớ rồi (→ hoặc 2)"
               className="grid h-12 w-16 place-items-center rounded-full border border-success/40 bg-success-soft text-success transition hover:scale-105 sm:w-20"
             >
-              <Ico d={I.check} className="size-6" />
+              <UiIcon name="check" className="size-6" />
             </button>
           </div>
         ) : (
           <div className="order-first flex w-full items-center justify-center gap-2 sm:order-none sm:w-auto">
             <button onClick={prev} disabled={pos === 0} aria-label="Thẻ trước" className="grid h-12 w-16 place-items-center rounded-full bg-surface-2 transition hover:bg-line disabled:opacity-40 sm:w-20">
-              <Ico d={I.prev} />
+              <UiIcon name="arrowLeft" className="size-5" />
             </button>
             <span className="min-w-16 text-center text-sm font-semibold tabular-nums text-muted">
               {pos + 1} / {deck.length}
             </span>
             <button onClick={next} aria-label="Thẻ sau" className="grid h-12 w-16 place-items-center rounded-full bg-surface-2 transition hover:bg-line sm:w-20">
-              <Ico d={I.next} />
+              <UiIcon name="arrowRight" className="size-5" />
             </button>
           </div>
         )}
@@ -462,7 +430,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
             title="Tự chạy (lật rồi sang thẻ sau)"
             className={`${iconBtn} ${playing ? "bg-primary-soft text-primary" : ""}`}
           >
-            <Ico d={playing ? I.pause : I.play} />
+            <UiIcon name={playing ? "pause" : "play"} className="size-5" />
           </button>
           <button
             onClick={() => {
@@ -473,13 +441,13 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
             title="Trộn các thẻ chưa xem"
             className={iconBtn}
           >
-            <Ico d={I.shuffle} />
+            <UiIcon name="shuffle" className="size-5" />
           </button>
           <button onClick={() => setSettingsOpen((o) => !o)} aria-label="Cài đặt" aria-expanded={settingsOpen} className={`${iconBtn} ${settingsOpen ? "bg-surface-2 text-fg" : ""}`}>
-            <Ico d={I.gear} />
+            <UiIcon name="gear" className="size-5" />
           </button>
           <button onClick={toggleFull} aria-label={full ? "Thoát toàn màn hình" : "Toàn màn hình"} title="Toàn màn hình (F)" className={`${iconBtn} hidden sm:grid`}>
-            <Ico d={full ? I.shrink : I.expand} />
+            <UiIcon name={full ? "shrink" : "expand"} className="size-5" />
           </button>
 
           {settingsOpen && (
@@ -528,7 +496,7 @@ function CardIcons({ card, starred, onStar, iconBtn }: { card: DeckCard; starred
         aria-label="Nghe phát âm"
         className={iconBtn}
       >
-        <Ico d={I.sound} />
+        <UiIcon name="sound" className="size-5" />
       </button>
       <button
         onClick={(e) => {
@@ -539,15 +507,7 @@ function CardIcons({ card, starred, onStar, iconBtn }: { card: DeckCard; starred
         aria-pressed={starred}
         className={`${iconBtn} ${starred ? "text-warn!" : ""}`}
       >
-        <svg viewBox="0 0 24 24" aria-hidden className="size-5">
-          <path
-            d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"
-            fill={starred ? "currentColor" : "none"}
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinejoin="round"
-          />
-        </svg>
+        <UiIcon name={starred ? "starFilled" : "star"} className="size-5" />
       </button>
     </div>
   );

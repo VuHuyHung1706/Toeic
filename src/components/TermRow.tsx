@@ -5,6 +5,7 @@
 import type { ReactNode } from "react";
 import { toggleStar } from "@/lib/stars";
 import { VOCAB_INTERVALS, type VocabCard } from "@/lib/storage";
+import UiIcon from "./UiIcon";
 
 const BOXES = VOCAB_INTERVALS.length;
 
@@ -61,9 +62,7 @@ export default function TermRow({
         <div className="flex shrink-0 flex-col items-end gap-2">
           <div className="flex">
             <button onClick={() => speakEn(speak)} aria-label={`Nghe phát âm ${term}`} className={iconBtn}>
-              <svg viewBox="0 0 24 24" aria-hidden className="size-[18px]" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M11 5 6 9H3v6h3l5 4V5zm4.5 3.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" />
-              </svg>
+              <UiIcon name="sound" />
             </button>
             <button
               onClick={() => toggleStar(id)}
@@ -71,15 +70,7 @@ export default function TermRow({
               aria-pressed={starred}
               className={`${iconBtn} ${starred ? "text-warn!" : ""}`}
             >
-              <svg viewBox="0 0 24 24" aria-hidden className="size-[18px]">
-                <path
-                  d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"
-                  fill={starred ? "currentColor" : "none"}
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <UiIcon name={starred ? "starFilled" : "star"} />
             </button>
           </div>
           <Mastery card={card} onReset={onReset} />
@@ -103,9 +94,9 @@ function Mastery({ card, onReset }: { card: VocabCard | undefined; onReset: () =
         onClick={onReset}
         title="Học lại từ đầu"
         aria-label="Học lại từ đầu"
-        className="text-xs text-muted opacity-0 transition group-hover:opacity-100 hover:text-danger focus-visible:opacity-100 [@media(hover:none)]:opacity-100"
+        className="grid size-5 place-items-center text-muted opacity-0 transition group-hover:opacity-100 hover:text-danger focus-visible:opacity-100 [@media(hover:none)]:opacity-100"
       >
-        ↺
+        <UiIcon name="reset" className="size-3.5" />
       </button>
       <div className="flex gap-0.5" title={title} aria-label={title} role="img">
         {Array.from({ length: BOXES }, (_, i) => (

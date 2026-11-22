@@ -7,6 +7,8 @@ import PracticeSetup from "@/components/PracticeSetup";
 import TestHistory from "@/components/TestHistory";
 import { DetailSkeleton } from "@/components/Skeleton";
 import { ExamIcon } from "@/components/ActionIcons";
+import BackLink from "@/components/BackLink";
+import UiIcon from "@/components/UiIcon";
 
 export async function generateStaticParams() {
   return (await getTestIndex()).map((t) => ({ id: t.id }));
@@ -38,9 +40,7 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
 
   return (
     <main className="mx-auto w-full max-w-6xl px-4 py-10">
-      <Link href="/tests" className="text-sm text-muted hover:text-fg">
-        ← Kho đề
-      </Link>
+      <BackLink href="/tests">Kho đề</BackLink>
       <h1 className="mt-2 text-3xl font-bold">
         ETS {test.year} · Test {test.number}
       </h1>
@@ -49,7 +49,7 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
       </p>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_1.4fr]">
-        <section className="rounded-xl border border-line bg-surface p-6">
+        <section className="rounded-2xl border border-line bg-surface p-6">
           <h2 className="text-lg font-semibold">Thi thử full đề</h2>
           <ul className="mt-3 space-y-1.5 text-sm text-muted">
             <li>• 200 câu, đồng hồ 120 phút, tự nộp khi hết giờ</li>
@@ -79,7 +79,7 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
       {vocabCount > 0 && (
         <Link
           href={`/vocabulary?test=${test.id}`}
-          className="mt-6 flex items-center justify-between gap-4 rounded-xl border border-line bg-surface p-5 transition hover:border-primary"
+          className="mt-6 flex items-center justify-between gap-4 rounded-2xl border border-line bg-surface p-5 transition hover:border-primary"
         >
           <div>
             <div className="font-semibold">Từ vựng của đề này</div>
@@ -87,7 +87,10 @@ async function TestDetail({ params }: { params: Promise<{ id: string }> }) {
               {vocabCount} từ (phần nghe và phần đọc), kèm các dạng khác của từ, học bằng thẻ ghi nhớ
             </div>
           </div>
-          <span className="shrink-0 font-semibold text-primary">Học từ vựng →</span>
+          <span className="flex shrink-0 items-center gap-1 font-semibold text-primary">
+            Học từ vựng
+            <UiIcon name="arrowRight" className="size-4" />
+          </span>
         </Link>
       )}
 

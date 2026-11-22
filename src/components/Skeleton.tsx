@@ -19,7 +19,7 @@ function Wrap({ label = "Đang tải", className = "", children }: { label?: str
 /** Một câu hỏi: số câu + đề + 4 phương án */
 function QuestionBones() {
   return (
-    <div className="rounded-lg border border-line bg-surface p-4">
+    <div className="rounded-2xl border border-line bg-surface p-4">
       <div className="flex items-center gap-3">
         <Bone className="size-8 rounded-full" />
         <Bone className="h-4 w-2/3" />
@@ -80,7 +80,7 @@ export function CardsSkeleton({ label, cards = 6, className = "mt-8" }: { label?
     <Wrap label={label} className={className}>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {[0, 1, 2, 3].map((k) => (
-          <div key={k} className="rounded-xl border border-line bg-surface p-4">
+          <div key={k} className="rounded-2xl border border-line bg-surface p-4">
             <Bone className="h-7 w-14" />
             <Bone className="mt-2 h-3 w-20" />
           </div>
@@ -88,7 +88,7 @@ export function CardsSkeleton({ label, cards = 6, className = "mt-8" }: { label?
       </div>
       <div className="mt-6 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
         {Array.from({ length: cards }, (_, k) => (
-          <div key={k} className="rounded-xl border border-line bg-surface p-4">
+          <div key={k} className="rounded-2xl border border-line bg-surface p-4">
             <Bone className="h-4 w-1/2" />
             <Bone className="mt-3 h-3 w-full" />
             <Bone className="mt-2 h-3 w-4/5" />
@@ -107,7 +107,7 @@ export function DetailSkeleton({ label = "Đang tải" }: { label?: string }) {
       <Bone className="mt-3 h-8 w-64" />
       <Bone className="mt-3 h-4 w-80 max-w-full" />
       <div className="mt-8 grid gap-4 md:grid-cols-[1.1fr_1fr]">
-        <div className="rounded-xl border border-line bg-surface p-6">
+        <div className="rounded-2xl border border-line bg-surface p-6">
           <Bone className="h-5 w-40" />
           <div className="mt-4 space-y-2">
             {[0, 1, 2, 3].map((k) => (
@@ -116,7 +116,7 @@ export function DetailSkeleton({ label = "Đang tải" }: { label?: string }) {
           </div>
           <Bone className="mt-6 h-10 w-36 rounded-lg" />
         </div>
-        <div className="rounded-xl border border-line bg-surface p-6">
+        <div className="rounded-2xl border border-line bg-surface p-6">
           <Bone className="h-5 w-32" />
           <div className="mt-4 grid grid-cols-2 gap-2">
             {[0, 1, 2, 3, 4, 5].map((k) => (
@@ -132,7 +132,7 @@ export function DetailSkeleton({ label = "Đang tải" }: { label?: string }) {
 /** Đoạn văn / bài nghe chép (luyện nghe) */
 export function TextSkeleton({ label = "Đang tải", lines = 8, className = "mt-6" }: { label?: string; lines?: number; className?: string }) {
   return (
-    <Wrap label={label} className={`rounded-xl border border-line bg-surface p-5 ${className}`}>
+    <Wrap label={label} className={`rounded-2xl border border-line bg-surface p-5 ${className}`}>
       <Bone className="h-10 w-full rounded-lg" />
       <div className="mt-5 space-y-3">
         {Array.from({ length: lines }, (_, k) => (

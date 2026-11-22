@@ -39,14 +39,14 @@ export default function LoginForm() {
 
   if (!isPending && session) {
     return (
-      <div className="mt-8 rounded-xl border border-line bg-surface p-5">
+      <div className="mt-8 rounded-2xl border border-line bg-surface p-5">
         <p>
           Bạn đang đăng nhập với <b>{session.user.email}</b>.
         </p>
         <button
           type="button"
           onClick={() => router.push(next)}
-          className="mt-4 rounded-lg bg-primary px-4 py-2 font-semibold text-on-primary"
+          className="mt-4 rounded-xl bg-primary px-4 py-2 font-semibold text-on-primary"
         >
           Tiếp tục
         </button>
@@ -68,7 +68,7 @@ export default function LoginForm() {
   }
 
   return (
-    <form onSubmit={submit} className="mt-8 rounded-xl border border-line bg-surface p-5">
+    <form onSubmit={submit} className="mt-8 rounded-2xl border border-line bg-surface p-5">
       <SegmentedTabs
         label="Đăng nhập hoặc tạo tài khoản"
         stretch
@@ -130,7 +130,7 @@ export default function LoginForm() {
       <button
         type="submit"
         disabled={busy}
-        className="mt-5 w-full rounded-lg bg-primary px-4 py-2.5 font-semibold text-on-primary disabled:opacity-60"
+        className="mt-5 w-full rounded-xl bg-primary px-4 py-2.5 font-semibold text-on-primary disabled:opacity-60"
       >
         {busy ? "Đang xử lý…" : mode === "signin" ? "Đăng nhập" : "Tạo tài khoản"}
       </button>

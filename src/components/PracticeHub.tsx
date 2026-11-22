@@ -48,7 +48,7 @@ export default function PracticeHub({ index }: { index: BankTag[] }) {
                   <Link
                     key={t.tag}
                     href={`/practice/${t.part}/${t.tag}?n=${size}`}
-                    className="group flex flex-col rounded-xl border border-line bg-surface p-4 transition hover:border-primary"
+                    className="group flex flex-col rounded-2xl border border-line bg-surface p-4 transition hover:border-primary"
                   >
                     <div className="flex items-start justify-between gap-2">
                       <div className="font-semibold group-hover:text-primary">{t.label}</div>

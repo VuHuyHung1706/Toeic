@@ -43,7 +43,7 @@ export default function HomeToday() {
         {/* lịch học 16 tuần gần nhất */}
         <Link
           href="/history"
-          className="rounded-xl border border-line bg-surface p-5 transition hover:border-primary sm:col-span-2"
+          className="rounded-2xl border border-line bg-surface p-5 transition hover:border-primary sm:col-span-2"
         >
           <div className="text-sm font-medium text-muted">Lịch học 16 tuần gần nhất</div>
           <StudyHeatmap activity={activity} today={startOfDay(now)} fluid />
@@ -96,7 +96,7 @@ function StatCard({
 }) {
   const s = icon === "streak" ? null : sectionOf(href);
   return (
-    <Link href={href} className="group flex flex-col rounded-xl border border-line bg-surface p-5 transition hover:border-primary">
+    <Link href={href} className="group flex flex-col rounded-2xl border border-line bg-surface p-5 transition hover:border-primary">
       <div className="flex items-center gap-2 text-sm font-medium text-muted">
         <span className={`grid size-7 place-items-center rounded-lg ${tint ?? s?.tint}`}>
           <Icon

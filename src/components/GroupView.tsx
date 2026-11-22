@@ -12,6 +12,7 @@ import { isTextSelectGesture } from "@/lib/textSelection";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
 import SegmentedTabs from "./SegmentedTabs";
+import UiIcon from "./UiIcon";
 
 type View = "en" | "bilingual" | "vi";
 const VIEWS: [View, string][] = [
@@ -243,7 +244,7 @@ function QuestionCard({
       id={`q-${q.number}`}
       // Part 7 đã chấm: viền trái cùng màu với dẫn chứng của câu
       style={hlClass ? { borderLeftColor: `var(--${hlClass})` } : undefined}
-      className={`scroll-mt-24 rounded-xl border border-line bg-surface p-4 ${hlClass ? "border-l-[6px]" : ""}`}
+      className={`scroll-mt-24 rounded-2xl border border-line bg-surface p-4 ${hlClass ? "border-l-[6px]" : ""}`}
     >
       <div className="flex items-start gap-3">
         {hlClass ? (
@@ -280,9 +281,10 @@ function QuestionCard({
             onClick={() => onToggleFlag(q.number)}
             title="Đánh dấu xem lại"
             aria-pressed={flagged}
-            className={`rounded-md px-2 py-1 text-xs font-medium ${flagged ? "bg-warn-soft text-warn" : "text-muted hover:bg-surface-2"}`}
+            className={`inline-flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium ${flagged ? "bg-warn-soft text-warn" : "text-muted hover:bg-surface-2"}`}
           >
-            {flagged ? "★ Đã đánh dấu" : "☆ Đánh dấu"}
+            <UiIcon name={flagged ? "starFilled" : "star"} className="size-3.5" />
+            {flagged ? "Đã đánh dấu" : "Đánh dấu"}
           </button>
         )}
       </div>
@@ -304,7 +306,7 @@ function QuestionCard({
           let anim = "";
           if (fresh && L === picked) anim = isAns ? "answer-pop" : "answer-shake";
           else if (pickedWrong && isAns) anim = "answer-reveal";
-          const mark = revealed && (isAns || isSel) ? (isAns ? "✓" : "✗") : null;
+          const mark = revealed && (isAns || isSel) ? (isAns ? "check" : "close") : null;
           const choose = () => {
             if (locked) return;
             setPicked(L);
@@ -352,11 +354,11 @@ function QuestionCard({
               {mark && (
                 <span
                   aria-hidden
-                  className={`ml-auto shrink-0 pt-0.5 text-sm font-bold ${isAns ? "text-success" : "text-danger"} ${
+                  className={`ml-auto shrink-0 pt-0.5 ${isAns ? "text-success" : "text-danger"} ${
                     fresh && (L === picked || isAns) ? "badge-in" : ""
                   }`}
                 >
-                  {mark}
+                  <UiIcon name={mark} className="size-[18px]" />
                 </span>
               )}
             </div>
@@ -369,10 +371,14 @@ function QuestionCard({
           <div className={`text-sm ${fresh ? "step-fade" : ""}`}>
             {selected ? (
               selected === q.answer ? (
-                <span className="font-semibold text-success">✓ Chính xác</span>
+                <span className="inline-flex items-center gap-1 font-semibold text-success">
+                  <UiIcon name="check" className="size-4" />
+                  Chính xác
+                </span>
               ) : (
-                <span className="font-semibold text-danger">
-                  ✗ Bạn chọn {selected} — đáp án đúng là {q.answer}
+                <span className="inline-flex items-center gap-1 font-semibold text-danger">
+                  <UiIcon name="close" className="size-4" />
+                  Bạn chọn {selected} — đáp án đúng là {q.answer}
                 </span>
               )
             ) : (
@@ -465,7 +471,7 @@ function speak(text: string) {
 /** Từ vựng của đoạn hội thoại / bài nói (Part 3–4), hiện dưới transcript */
 function GroupVocab({ items, auto }: { items: NonNullable<QuestionGroup["vocab"]>; auto: boolean }) {
   return (
-    <div className="rounded-lg border border-line bg-surface p-4">
+    <div className="rounded-xl border border-line bg-surface p-4">
       <div className="mb-2 flex items-baseline justify-between gap-2">
         <h3 className="font-semibold">Từ vựng</h3>
         {auto && <span className="text-xs text-muted">tự động lấy từ lời thoại</span>}

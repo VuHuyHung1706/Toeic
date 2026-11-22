@@ -3,7 +3,7 @@
 // học bằng thẻ ghi nhớ (dùng chung lịch ôn ngắt quãng với từ vựng) hoặc xem danh sách có tìm kiếm.
 // Dữ liệu: content/phrases.json (nhập bằng scripts/import_phrases.py).
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import FlashcardDeck, { type DeckCard } from "./FlashcardDeck";
 import ListCount from "./ListCount";
 import Pagination from "./Pagination";
@@ -16,6 +16,7 @@ import { findPhrase, phraseCardKey } from "@/lib/phrases";
 import { useStars } from "@/lib/stars";
 import { VOCAB_INTERVALS, resetVocab, useVocabCards, type VocabCard } from "@/lib/storage";
 import type { Phrase, PhraseGroup } from "@/lib/types";
+import IconLabel from "./IconLabel";
 
 const MASTER_BOX = VOCAB_INTERVALS.length + 1;
 const NEW_OPTIONS = [5, 10, 20, 30];
@@ -122,7 +123,7 @@ function Trainer({ groups, active }: { groups: PhraseGroup[]; active: boolean })
       </div>
 
       {tab === "learn" ? (
-        <div className="mt-5 rounded-xl border border-line bg-surface p-6">
+        <div className="mt-5 rounded-2xl border border-line bg-surface p-6">
           <h2 className="text-lg font-semibold">Học cụm giới từ</h2>
           <p className="mt-1 text-sm text-muted">
             Ôn {due.length} thẻ đến hạn trước, sau đó học cụm mới. Mặt trước là cụm, mặt sau là nghĩa và câu ví dụ. Nhớ → thẻ lên hộp tiếp
@@ -144,7 +145,7 @@ function Trainer({ groups, active }: { groups: PhraseGroup[]; active: boolean })
           <button
             disabled={!due.length && !fresh.length}
             onClick={() => setSession([...due, ...fresh.slice(0, newCount)])}
-            className="mt-5 rounded-lg bg-primary px-5 py-2.5 font-semibold text-on-primary hover:opacity-90 disabled:opacity-40"
+            className="mt-5 rounded-xl bg-primary px-5 py-2.5 font-semibold text-on-primary hover:opacity-90 disabled:opacity-40"
           >
             <SmoothWidth>
               Bắt đầu ({due.length} ôn + {newCount} mới)
@@ -161,7 +162,7 @@ function Trainer({ groups, active }: { groups: PhraseGroup[]; active: boolean })
 
 function Tile({ value, label, tone = "" }: { value: number; label: string; tone?: string }) {
   return (
-    <div className="rounded-xl border border-line bg-surface p-4">
+    <div className="rounded-2xl border border-line bg-surface p-4">
       <div className={`text-2xl font-bold tabular-nums ${tone}`}>{value.toLocaleString("vi-VN")}</div>
       <div className="text-sm text-muted">{label}</div>
     </div>
@@ -170,12 +171,12 @@ function Tile({ value, label, tone = "" }: { value: number; label: string; tone?
 
 const PAGE = 30;
 
-const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
+const STATUS_TABS: { key: Status | "all" | "starred"; label: ReactNode }[] = [
   { key: "all", label: "Tất cả" },
   { key: "new", label: "Mới" },
   { key: "learning", label: "Đang học" },
   { key: "mastered", label: "Đã thuộc" },
-  { key: "starred", label: "★ Gắn sao" },
+  { key: "starred", label: <IconLabel icon="star">Gắn sao</IconLabel> },
 ];
 
 function PhraseList({ items, cards, showGroup }: { items: Item[]; cards: Record<string, VocabCard>; showGroup: boolean }) {

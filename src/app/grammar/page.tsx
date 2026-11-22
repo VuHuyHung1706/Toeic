@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { GROUPS, TOPICS } from "@/lib/grammar";
 import { getBankIndex } from "@/lib/tests";
+import UiIcon from "@/components/UiIcon";
 
 export const metadata: Metadata = { title: "Ngữ pháp TOEIC" };
 
@@ -31,7 +32,10 @@ export default async function GrammarPage() {
                   <div className="text-xs font-semibold tracking-wide text-muted uppercase">Bài {TOPICS.indexOf(t) + 1}</div>
                   <div className="mt-0.5 text-lg leading-snug font-bold group-hover:text-primary">{t.title}</div>
                   <p className="mt-1.5 text-sm leading-6 text-muted">{t.summary}</p>
-                  {c != null && <div className="mt-auto pt-3 text-xs font-medium text-primary">Luyện {c} câu Part 5 →</div>}
+                  {c != null && <div className="mt-auto flex items-center gap-1 pt-3 text-xs font-medium text-primary">
+                      Luyện {c} câu Part 5
+                      <UiIcon name="arrowRight" className="size-3.5 transition-transform group-hover:translate-x-0.5" />
+                    </div>}
                 </Link>
               );
             })}

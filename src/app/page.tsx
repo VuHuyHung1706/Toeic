@@ -27,7 +27,7 @@ export default function Home() {
             <Link
               key={href}
               href={href}
-              className="group flex gap-4 rounded-xl border border-line bg-surface p-5 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-sm motion-reduce:hover:translate-y-0"
+              className="group flex gap-4 rounded-2xl border border-line bg-surface p-5 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-sm motion-reduce:hover:translate-y-0"
             >
               <span className={`grid size-11 shrink-0 place-items-center rounded-xl ${s.tint}`}>
                 <Icon
@@ -48,7 +48,7 @@ export default function Home() {
         <h2 className="text-xl font-bold">Cấu trúc đề thi</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {PARTS.map((p) => (
-            <div key={p.part} className="rounded-xl border border-line bg-surface p-4">
+            <div key={p.part} className="rounded-2xl border border-line bg-surface p-4">
               <div className="flex items-center justify-between text-xs font-semibold uppercase text-muted">
                 <span>Part {p.part}</span>
                 <span>{p.skill === "listening" ? "Nghe" : "Đọc"}</span>

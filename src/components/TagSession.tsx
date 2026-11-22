@@ -10,6 +10,7 @@ import StepTransition from "./StepTransition";
 import { bankKeyStatus, latestOutcomes } from "@/lib/outcomes";
 import { questionKey, recordReview, useAttempts, useReviews } from "@/lib/storage";
 import type { BankItem, Letter } from "@/lib/types";
+import BackLink from "./BackLink";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -77,9 +78,7 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
 
   const header = (
     <div className="mb-4 flex flex-wrap items-center gap-3">
-      <Link href="/practice" className="text-sm text-muted hover:text-fg">
-        ← Các dạng câu
-      </Link>
+      <BackLink href="/practice">Các dạng câu</BackLink>
       <h1 className="flex-1 text-xl font-bold">
         Part {part} · {label}
       </h1>
@@ -119,11 +118,11 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
                 setIndex(0);
                 setRound((r) => r + 1);
               }}
-              className="rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary"
+              className="rounded-xl bg-primary px-5 py-2 font-semibold text-on-primary"
             >
               Luyện lượt mới
             </button>
-            <Link href="/mistakes" className="rounded-lg border border-line px-5 py-2 font-semibold hover:bg-surface-2">
+            <Link href="/mistakes" className="rounded-xl border border-line px-5 py-2 font-semibold hover:bg-surface-2">
               Xem sổ câu sai
             </Link>
           </div>
@@ -159,7 +158,7 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
         </div>
         <span>{it.testTitle}</span>
       </div>
-      <StepTransition index={index} className="rounded-xl border border-line bg-surface p-4 sm:p-6">
+      <StepTransition index={index} className="rounded-2xl border border-line bg-surface p-4 sm:p-6">
         <GroupView
           key={`${it.testId}:${it.group.id}`}
           group={it.group}
@@ -220,7 +219,7 @@ export default function TagSession({ part, tag, label }: { part: number; tag: st
             setIndex(items.length);
             setNavOpen(false);
           }}
-          className="mt-4 w-full rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-on-primary hover:opacity-90"
+          className="mt-4 w-full rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-on-primary hover:opacity-90"
         >
           Xem kết quả
         </button>

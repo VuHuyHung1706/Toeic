@@ -19,6 +19,7 @@ import {
   type Block,
   type PassageDoc,
 } from "@/lib/passage";
+import UiIcon from "./UiIcon";
 
 type Lang = "en" | "vi";
 export type RenderText = (s: string, lang: Lang, pairEn?: string) => ReactNode;
@@ -171,9 +172,9 @@ function BlockView({ b, doc, ctx }: { b: Block; doc: PassageDoc; ctx: Ctx }) {
               <li key={i} className="flex items-start gap-2">
                 <span
                   aria-label={c.checked ? "đã chọn" : "chưa chọn"}
-                  className={`mt-1 inline-flex size-4 shrink-0 items-center justify-center rounded-sm border text-[11px] leading-none font-bold ${c.checked ? "border-fg bg-fg text-bg" : "border-muted"}`}
+                  className={`mt-1 inline-flex size-4 shrink-0 items-center justify-center rounded-sm border ${c.checked ? "border-fg bg-fg text-bg" : "border-muted"}`}
                 >
-                  {c.checked ? "✓" : ""}
+                  {c.checked && <UiIcon name="check" className="size-3" />}
                 </span>
                 <span>
                   <Bi en={c.text} vi={pv ? (parseCheck(pv.trim())?.text ?? pv) : null} ctx={ctx} />
@@ -257,7 +258,7 @@ function DocCard({ doc, ctx }: { doc: PassageDoc; ctx: Ctx }) {
   return (
     <article
       data-doc-kind={doc.kind}
-      className="overflow-hidden rounded-lg border border-line bg-surface text-[15px] shadow-xs"
+      className="overflow-hidden rounded-xl border border-line bg-surface text-[15px] shadow-xs"
     >
       {url && (
         <div className="flex items-center gap-2 border-b border-line bg-surface-2 px-3 py-1.5 text-xs text-muted">
@@ -270,8 +271,9 @@ function DocCard({ doc, ctx }: { doc: PassageDoc; ctx: Ctx }) {
         </div>
       )}
       {doc.kind === "chat" && (
-        <div className="border-b border-line bg-surface-2 px-4 py-1.5 text-xs font-semibold tracking-wider text-muted uppercase">
-          💬 {KIND_LABEL.chat}
+        <div className="flex items-center gap-1.5 border-b border-line bg-surface-2 px-4 py-1.5 text-xs font-semibold tracking-wider text-muted uppercase">
+          <UiIcon name="chat" className="size-3.5" />
+          {KIND_LABEL.chat}
         </div>
       )}
       <div className="p-4">
@@ -309,7 +311,7 @@ export default function PassageView({
     return (
       <div className="space-y-4">
         {pairs.map(([e, v], k) => (
-          <article key={k} className="rounded-lg border border-line bg-surface p-4">
+          <article key={k} className="rounded-xl border border-line bg-surface p-4">
             <BilingualText en={e.trim()} vi={v.trim()} renderText={(s, lang, pairEn) => renderMarkers(s, lang, pairEn, renderText)} />
           </article>
         ))}

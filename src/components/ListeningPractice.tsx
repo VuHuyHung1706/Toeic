@@ -10,6 +10,7 @@ import { useTests } from "@/lib/useTests";
 import type { PartNo, QuestionGroup } from "@/lib/types";
 import { TextSkeleton } from "./Skeleton";
 import SegmentedTabs from "./SegmentedTabs";
+import UiIcon from "./UiIcon";
 
 type TestRef = { id: string; year: number; number: number };
 const LISTEN_PARTS: PartNo[] = [1, 2, 3, 4];
@@ -37,7 +38,7 @@ export default function ListeningPractice({ tests }: { tests: TestRef[] }) {
 
   return (
     <div className="mt-6">
-      <div className="flex flex-wrap items-end gap-4 rounded-xl border border-line bg-surface p-4">
+      <div className="flex flex-wrap items-end gap-4 rounded-2xl border border-line bg-surface p-4">
         <label className="text-sm">
           <div className="mb-1 text-muted">Đề</div>
           <select
@@ -76,8 +77,12 @@ export default function ListeningPractice({ tests }: { tests: TestRef[] }) {
         {mode === "fill" && (
           <>
             <Segmented label="Độ khó" value={level} options={LEVELS.map((l) => ({ value: l.id, label: l.label }))} onChange={setLevel} />
-            <button onClick={() => setSeed((s) => s + 1)} className="rounded-md border border-line px-3 py-1.5 text-sm hover:bg-surface-2">
-              ↻ Đổi chỗ trống
+            <button
+              onClick={() => setSeed((s) => s + 1)}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-line px-3 py-1.5 text-sm hover:bg-surface-2"
+            >
+              <UiIcon name="refresh" className="size-4" />
+              Đổi chỗ trống
             </button>
           </>
         )}
@@ -93,9 +98,10 @@ export default function ListeningPractice({ tests }: { tests: TestRef[] }) {
             <button
               disabled={groupIndex === 0}
               onClick={() => setGroupIndex(groupIndex - 1)}
-              className="rounded-lg border border-line bg-surface px-3 py-1.5 text-sm disabled:opacity-40"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-surface px-3 py-1.5 text-sm transition hover:bg-surface-2 disabled:opacity-40"
             >
-              ← Trước
+              <UiIcon name="arrowLeft" className="size-4" />
+              Trước
             </button>
             <div className="text-sm text-muted">
               Part {part} · {group.questionNumbers.length > 1 ? `Câu ${group.questionNumbers[0]}–${group.questionNumbers.at(-1)}` : `Câu ${group.questionNumbers[0]}`} ·{" "}
@@ -104,9 +110,10 @@ export default function ListeningPractice({ tests }: { tests: TestRef[] }) {
             <button
               disabled={groupIndex >= groups.length - 1}
               onClick={() => setGroupIndex(groupIndex + 1)}
-              className="rounded-lg border border-line bg-surface px-3 py-1.5 text-sm disabled:opacity-40"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-surface px-3 py-1.5 text-sm transition hover:bg-surface-2 disabled:opacity-40"
             >
-              Tiếp →
+              Tiếp
+              <UiIcon name="arrowRight" className="size-4" />
             </button>
           </div>
           {mode === "fill" ? (
@@ -196,7 +203,7 @@ function DictationCard({
       : group.questions[0]?.explanation ?? "";
 
   return (
-    <div className="mt-4 rounded-xl border border-line bg-surface p-5">
+    <div className="mt-4 rounded-2xl border border-line bg-surface p-5">
       <div className="sticky top-0 z-10 -mx-2 bg-surface/95 px-2 py-1.5 backdrop-blur sm:top-14">
         <AudioPlayer src={group.audio?.src ?? null} />
       </div>
@@ -256,10 +263,10 @@ function DictationCard({
       </div>
 
       <div className="mt-6 flex flex-wrap items-center gap-3">
-        <button onClick={check} className="rounded-lg bg-primary px-4 py-2 font-semibold text-on-primary hover:opacity-90">
+        <button onClick={check} className="rounded-xl bg-primary px-4 py-2 font-semibold text-on-primary hover:opacity-90">
           Kiểm tra
         </button>
-        <button onClick={() => setRevealed((r) => !r)} className="rounded-lg border border-line px-4 py-2 font-medium hover:bg-surface-2">
+        <button onClick={() => setRevealed((r) => !r)} className="rounded-xl border border-line px-4 py-2 font-medium hover:bg-surface-2">
           {revealed ? "Ẩn đáp án" : "Hiện đáp án"}
         </button>
         <button
@@ -269,7 +276,7 @@ function DictationCard({
             setRevealed(false);
             inputs.current[0]?.focus();
           }}
-          className="rounded-lg border border-line px-4 py-2 font-medium hover:bg-surface-2"
+          className="rounded-xl border border-line px-4 py-2 font-medium hover:bg-surface-2"
         >
           Xoá
         </button>
@@ -279,8 +286,9 @@ function DictationCard({
           </span>
         )}
         {onNext && (checked || revealed) && (
-          <button onClick={onNext} className="ml-auto rounded-lg border border-line px-4 py-2 font-medium hover:bg-surface-2">
-            Đoạn tiếp →
+          <button onClick={onNext} className="ml-auto inline-flex items-center gap-1.5 rounded-xl border border-line px-4 py-2 font-medium hover:bg-surface-2">
+            Đoạn tiếp
+            <UiIcon name="arrowRight" className="size-4" />
           </button>
         )}
       </div>
@@ -326,7 +334,7 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
   };
 
   return (
-    <div className="mt-4 rounded-xl border border-line bg-surface p-5">
+    <div className="mt-4 rounded-2xl border border-line bg-surface p-5">
       <div className="sticky top-0 z-10 -mx-2 bg-surface/95 px-2 py-1.5 backdrop-blur sm:top-14">
         <AudioPlayer src={group.audio?.src ?? null} />
       </div>
@@ -364,7 +372,7 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
               spellCheck={false}
               autoCapitalize="off"
               aria-label={`Chép dòng ${i + 1}`}
-              className="w-full resize-y rounded-lg border border-line bg-surface-2 px-3 py-2 text-[15px] outline-none focus:border-primary"
+              className="w-full resize-y rounded-xl border border-line bg-surface-2 px-3 py-2 text-[15px] outline-none focus:border-primary"
             />
             {checked && (
               <div className="mt-1 text-[15px] leading-7">
@@ -389,7 +397,7 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
       </div>
 
       <div className="mt-6 flex flex-wrap items-center gap-3">
-        <button onClick={check} className="rounded-lg bg-primary px-4 py-2 font-semibold text-on-primary hover:opacity-90">
+        <button onClick={check} className="rounded-xl bg-primary px-4 py-2 font-semibold text-on-primary hover:opacity-90">
           Kiểm tra
         </button>
         {checked && (
@@ -404,8 +412,9 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
           </span>
         )}
         {onNext && checked && (
-          <button onClick={onNext} className="ml-auto rounded-lg border border-line px-4 py-2 font-medium hover:bg-surface-2">
-            Đoạn tiếp →
+          <button onClick={onNext} className="ml-auto inline-flex items-center gap-1.5 rounded-xl border border-line px-4 py-2 font-medium hover:bg-surface-2">
+            Đoạn tiếp
+            <UiIcon name="arrowRight" className="size-4" />
           </button>
         )}
       </div>
