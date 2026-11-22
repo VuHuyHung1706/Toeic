@@ -5,11 +5,14 @@
 
 import { useEffect, useMemo, useState } from "react";
 import FlashcardDeck, { type DeckCard } from "./FlashcardDeck";
+import SearchBox from "./SearchBox";
 import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
 import SmoothWidth from "./SmoothWidth";
+import TermRow from "./TermRow";
 import { findPhrase, phraseCardKey } from "@/lib/phrases";
-import { VOCAB_INTERVALS, useVocabCards, type VocabCard } from "@/lib/storage";
+import { useStars } from "@/lib/stars";
+import { VOCAB_INTERVALS, resetVocab, useVocabCards, type VocabCard } from "@/lib/storage";
 import type { Phrase, PhraseGroup } from "@/lib/types";
 
 const MASTER_BOX = VOCAB_INTERVALS.length + 1;
@@ -17,18 +20,6 @@ const NEW_OPTIONS = [5, 10, 20, 30];
 type Item = Phrase & { group: string; groupLabel: string; key: string };
 type Status = "new" | "learning" | "mastered";
 const statusOf = (c: VocabCard | undefined): Status => (!c ? "new" : c.box >= MASTER_BOX ? "mastered" : "learning");
-
-function speak(text: string) {
-  try {
-    const u = new SpeechSynthesisUtterance(text.replace(/\b(A|B)\b/g, "").replace(/\s*\/\s*/g, ", "));
-    u.lang = "en-US";
-    u.rate = 0.9;
-    speechSynthesis.cancel();
-    speechSynthesis.speak(u);
-  } catch {
-    /* trình duyệt không hỗ trợ đọc */
-  }
-}
 
 /** Câu ví dụ, cụm được tô sáng */
 function Example({ item }: { item: Item }) {
@@ -160,7 +151,7 @@ function Trainer({ groups, active }: { groups: PhraseGroup[]; active: boolean })
           {!due.length && !fresh.length && <p className="mt-3 text-sm text-success">Bạn đã học hết các cụm của nhóm này 🎉</p>}
         </div>
       ) : (
-        <PhraseList items={items} cards={cards} />
+        <PhraseList items={items} cards={cards} showGroup={group === "all"} />
       )}
     </>
   );
@@ -175,56 +166,76 @@ function Tile({ value, label, tone = "" }: { value: number; label: string; tone?
   );
 }
 
-const STATUS_BADGE: Record<Status, [string, string]> = {
-  new: ["Mới", "bg-surface-2 text-muted"],
-  learning: ["Đang học", "bg-primary-soft text-primary"],
-  mastered: ["Đã thuộc", "bg-success-soft text-success"],
-};
+const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
+  { key: "all", label: "Tất cả" },
+  { key: "new", label: "Mới" },
+  { key: "learning", label: "Đang học" },
+  { key: "mastered", label: "Đã thuộc" },
+  { key: "starred", label: "★ Gắn sao" },
+];
 
-function PhraseList({ items, cards }: { items: Item[]; cards: Record<string, VocabCard> }) {
+function PhraseList({ items, cards, showGroup }: { items: Item[]; cards: Record<string, VocabCard>; showGroup: boolean }) {
   const [q, setQ] = useState("");
+  const [status, setStatus] = useState<Status | "all" | "starred">("all");
   const [limit, setLimit] = useState(60);
+  const stars = useStars();
   const shown = useMemo(() => {
     const s = q.trim().toLowerCase();
-    return s ? items.filter((it) => it.phrase.toLowerCase().includes(s) || it.meaning.toLowerCase().includes(s)) : items;
-  }, [items, q]);
+    return items.filter(
+      (it) =>
+        (status === "all" || (status === "starred" ? stars.has(it.key) : statusOf(cards[it.key]) === status)) &&
+        (!s || it.phrase.toLowerCase().includes(s) || it.meaning.toLowerCase().includes(s)),
+    );
+  }, [items, q, status, stars, cards]);
 
   return (
     <div className="mt-5">
-      <input
+      <SearchBox
         value={q}
-        onChange={(e) => {
-          setQ(e.target.value);
+        onChange={(v) => {
+          setQ(v);
           setLimit(60);
         }}
         placeholder="Tìm cụm tiếng Anh hoặc nghĩa tiếng Việt…"
-        className="w-full rounded-lg border border-line bg-surface px-3 py-2"
       />
-      <div className="mt-2 text-sm text-muted">{shown.length.toLocaleString("vi-VN")} cụm</div>
-      <div className="mt-3 divide-y divide-line overflow-hidden rounded-xl border border-line bg-surface">
-        {shown.slice(0, limit).map((it) => {
-          const [label, cls] = STATUS_BADGE[statusOf(cards[it.key])];
-          return (
-            <div key={it.key} className="p-4">
-              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <button onClick={() => speak(it.phrase)} aria-label={`Nghe: ${it.phrase}`} className="text-sm opacity-70 hover:opacity-100">
-                  🔊
-                </button>
-                <span className="font-semibold">{it.phrase}</span>
-                <span className="text-sm text-vi">{it.meaning}</span>
-                <span className={`ml-auto rounded-full px-2 py-0.5 text-xs font-semibold ${cls}`}>{label}</span>
-              </div>
-              {it.example && (
-                <div className="mt-1.5 text-sm leading-6 text-muted">
+      <div className="mt-3">
+        <SegmentedTabs
+          label="Lọc theo trạng thái"
+          size="sm"
+          items={STATUS_TABS}
+          value={status}
+          onChange={(v) => {
+            setStatus(v);
+            setLimit(60);
+          }}
+        />
+      </div>
+      <div className="mt-4 mb-2 text-sm text-muted">{shown.length.toLocaleString("vi-VN")} cụm</div>
+      <ul className="grid gap-2">
+        {shown.slice(0, limit).map((it) => (
+          <TermRow
+            key={it.key}
+            id={it.key}
+            term={it.phrase}
+            speak={it.phrase}
+            meaning={it.meaning}
+            card={cards[it.key]}
+            starred={stars.has(it.key)}
+            onReset={() => resetVocab(it.key)}
+            tags={showGroup ? <span className="rounded-md bg-surface-2 px-1.5 py-0.5">{it.groupLabel}</span> : undefined}
+            below={
+              it.example && (
+                <div className="text-sm leading-6 text-muted">
                   <Example item={it} />
                 </div>
-              )}
-            </div>
-          );
-        })}
-      </div>
+              )
+            }
+          />
+        ))}
+      </ul>
+      {!shown.length && <div className="rounded-2xl border border-dashed border-line p-10 text-center text-muted">Không có cụm nào khớp.</div>}
       {shown.length > limit && (
-        <button onClick={() => setLimit((l) => l + 60)} className="mt-3 w-full rounded-lg border border-line py-2 text-sm hover:bg-surface-2">
+        <button onClick={() => setLimit((l) => l + 60)} className="mt-3 w-full rounded-xl border border-line py-2.5 text-sm font-medium hover:bg-surface-2">
           Xem thêm {Math.min(60, shown.length - limit)} cụm
         </button>
       )}

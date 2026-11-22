@@ -4,7 +4,8 @@
 // - chế độ "Phân loại" (mặc định): Chưa nhớ / Nhớ rồi → ghi vào lịch ôn ngắt quãng; vuốt trái/phải trên điện thoại;
 // - chế độ xem lướt: ‹ › chuyển thẻ, tự chạy; trộn thẻ; cài đặt (mặt hiện trước, tự đọc, tốc độ, chỉ thẻ gắn sao); toàn màn hình.
 
-import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { toggleStar, useStars } from "@/lib/stars";
 import { reviewVocab, setPref, usePref } from "@/lib/storage";
 
 export interface DeckCard {
@@ -25,34 +26,6 @@ export interface DeckCard {
 }
 
 type Verdict = "know" | "learning";
-
-// thẻ gắn sao: chỉ lưu trên trình duyệt này (danh sách có thể dài, không gửi lên server)
-const STAR_KEY = "toeic:fc-stars";
-const starListeners = new Set<() => void>();
-function readStars(): string {
-  try {
-    return localStorage.getItem(STAR_KEY) ?? "[]";
-  } catch {
-    return "[]";
-  }
-}
-function writeStars(ids: string[]) {
-  try {
-    localStorage.setItem(STAR_KEY, JSON.stringify(ids));
-  } catch {
-    /* chế độ riêng tư / bị chặn lưu trữ */
-  }
-  starListeners.forEach((f) => f());
-}
-function subscribeStars(f: () => void) {
-  starListeners.add(f);
-  const onStorage = (e: StorageEvent) => e.key === STAR_KEY && f();
-  window.addEventListener("storage", onStorage);
-  return () => {
-    starListeners.delete(f);
-    window.removeEventListener("storage", onStorage);
-  };
-}
 
 function say(text: string) {
   try {
@@ -109,20 +82,7 @@ export default function FlashcardDeck({ cards: initial, onExit, active = true }:
   const frontSide = usePref<"term" | "meaning">("fcFront", "term");
   const autoSpeak = usePref<"0" | "1">("fcSpeak", "0") === "1";
   const speed = Number(usePref<"3" | "5" | "8">("fcSpeed", "5"));
-  const starredRaw = useSyncExternalStore(subscribeStars, readStars, () => "[]");
-  const starred = useMemo(() => {
-    try {
-      return new Set<string>(JSON.parse(starredRaw) as string[]);
-    } catch {
-      return new Set<string>();
-    }
-  }, [starredRaw]);
-  const toggleStar = (id: string) => {
-    const next = new Set(starred);
-    if (next.has(id)) next.delete(id);
-    else next.add(id);
-    writeStars([...next]);
-  };
+  const starred = useStars();
 
   // "chỉ thẻ gắn sao": chụp danh sách lúc bật, để bỏ sao giữa chừng không làm nhảy thẻ
   const [starSnap, setStarSnap] = useState<Set<string> | null>(null);
@@ -577,7 +537,7 @@ function CardIcons({ card, starred, onStar, iconBtn }: { card: DeckCard; starred
         }}
         aria-label={starred ? "Bỏ gắn sao" : "Gắn sao"}
         aria-pressed={starred}
-        className={`${iconBtn} ${starred ? "text-amber-500 hover:text-amber-500" : ""}`}
+        className={`${iconBtn} ${starred ? "text-warn!" : ""}`}
       >
         <svg viewBox="0 0 24 24" aria-hidden className="size-5">
           <path

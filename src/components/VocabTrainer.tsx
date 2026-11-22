@@ -3,11 +3,14 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { VOCAB_INTERVALS, resetVocab, setPref, usePref, useVocabCards, type VocabCard } from "@/lib/storage";
+import { useStars } from "@/lib/stars";
 import type { VocabEntry } from "@/lib/types";
 import FlashcardDeck, { type DeckCard } from "./FlashcardDeck";
+import SearchBox from "./SearchBox";
 import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
 import SmoothWidth from "./SmoothWidth";
+import TermRow from "./TermRow";
 
 const POS_LABEL: Record<string, string> = {
   n: "danh từ",
@@ -391,18 +394,27 @@ function FlashcardSession({ cards, testId, active, onExit }: { cards: VocabEntry
 
 const PAGE = 60;
 
+const STATUS_TABS: { key: Status | "all" | "starred"; label: string }[] = [
+  { key: "all", label: "Tất cả" },
+  { key: "new", label: "Mới" },
+  { key: "learning", label: "Đang học" },
+  { key: "mastered", label: "Đã thuộc" },
+  { key: "starred", label: "★ Gắn sao" },
+];
+
 function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record<string, VocabCard>; testId: string | null }) {
   const [q, setQ] = useState("");
   const [pos, setPos] = useState<string | "all">("all");
-  const [status, setStatus] = useState<Status | "all">("all");
+  const [status, setStatus] = useState<Status | "all" | "starred">("all");
   const [limit, setLimit] = useState(PAGE);
   const [open, setOpen] = useState<string | null>(null);
+  const stars = useStars();
 
   const query = q.trim().toLowerCase();
   const list = vocab.filter(
     (v) =>
       (pos === "all" || v.pos.includes(pos)) &&
-      (status === "all" || statusOf(cards[v.w]) === status) &&
+      (status === "all" || (status === "starred" ? stars.has(v.w) : statusOf(cards[v.w]) === status)) &&
       (!query ||
         v.w.includes(query) ||
         v.inflections.some((f) => f.includes(query)) ||
@@ -420,116 +432,100 @@ function WordList({ vocab, cards, testId }: { vocab: VocabEntry[]; cards: Record
 
   return (
     <div className="mt-5">
-      <div className="flex flex-wrap items-center gap-2">
-        <input
-          value={q}
-          onChange={(e) => {
-            setQ(e.target.value);
+      <SearchBox
+        value={q}
+        onChange={(v) => {
+          setQ(v);
+          setLimit(PAGE);
+        }}
+        placeholder="Tìm từ tiếng Anh hoặc nghĩa tiếng Việt…"
+      />
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
+        <SegmentedTabs
+          label="Lọc theo trạng thái"
+          size="sm"
+          items={STATUS_TABS}
+          value={status}
+          onChange={(v) => {
+            setStatus(v);
             setLimit(PAGE);
           }}
-          placeholder="Tìm từ tiếng Anh hoặc nghĩa tiếng Việt…"
-          className="min-w-0 flex-1 rounded-lg border border-line bg-surface px-3 py-2 text-sm"
         />
-        <select
-          value={status}
-          onChange={(e) => setStatus(e.target.value as Status | "all")}
-          className="rounded-lg border border-line bg-surface px-2 py-2 text-sm"
-          aria-label="Lọc theo trạng thái"
-        >
-          <option value="all">Mọi trạng thái</option>
-          <option value="new">Chưa học</option>
-          <option value="learning">Đang học</option>
-          <option value="mastered">Đã thuộc</option>
-        </select>
-      </div>
-      <div className="mt-3 flex flex-wrap gap-2">
         <SegmentedTabs
           label="Loại từ"
           size="sm"
           items={["all", ...Object.keys(POS_LABEL)].map((p) => ({
             key: p,
-            label: p === "all" ? "Tất cả" : p,
+            label: p === "all" ? "Mọi loại từ" : p,
             title: p === "all" ? undefined : POS_LABEL[p],
           }))}
           value={pos}
-          onChange={setPos}
+          onChange={(v) => {
+            setPos(v);
+            setLimit(PAGE);
+          }}
         />
       </div>
-      <div className="mt-2 text-sm text-muted">{list.length.toLocaleString("vi-VN")} từ · bấm vào từ để xem các dạng khác của từ</div>
+      <div className="mt-4 mb-2 text-sm text-muted">{list.length.toLocaleString("vi-VN")} từ</div>
 
-      <div className="mt-3 overflow-hidden rounded-xl border border-line bg-surface">
+      <ul className="grid gap-2">
         {list.slice(0, limit).map((v) => {
-          const st = statusOf(cards[v.w]);
           const expanded = open === v.w;
-          const extra = v.related.length;
           return (
-            <div key={v.w} className="border-b border-line last:border-0">
-              <div
-                role="button"
-                tabIndex={0}
-                onClick={() => setOpen(expanded ? null : v.w)}
-                onKeyDown={(e) => e.key === "Enter" && setOpen(expanded ? null : v.w)}
-                className="flex cursor-pointer items-start gap-3 px-4 py-2.5 hover:bg-surface-2"
-              >
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    speak(v.w);
-                  }}
-                  aria-label={`Nghe phát âm ${v.w}`}
-                  className="pt-0.5 text-sm opacity-70 hover:opacity-100"
-                >
-                  🔊
-                </button>
-                <div className="min-w-0 flex-1">
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                    <span className="font-semibold">{v.w}</span>
-                    {v.basic && <span className="text-xs text-muted">(cơ bản)</span>}
-                    <PosChips pos={v.pos} />
-                    <span className="text-sm">{v.meanings.join("; ")}</span>
-                  </div>
-                  <div className="mt-0.5 flex flex-wrap gap-x-3 text-xs text-muted">
-                    <span>{where(v)}</span>
-                    {extra > 0 && (
-                      <span className="text-primary">
-                        {expanded ? "▾" : "▸"} {v.related.length} dạng khác: {v.related.map((f) => f.w).join(", ")}
+            <TermRow
+              key={v.w}
+              id={v.w}
+              term={v.w}
+              speak={v.w}
+              meaning={v.meanings.join("; ")}
+              card={cards[v.w]}
+              starred={stars.has(v.w)}
+              onReset={() => resetVocab(v.w)}
+              tags={
+                <>
+                  {v.pos.map((p) => (
+                    <span key={p} title={POS_LABEL[p] ?? p} className="rounded-md bg-surface-2 px-1.5 py-0.5 font-semibold">
+                      {p}
+                    </span>
+                  ))}
+                  {v.basic && <span className="rounded-md bg-surface-2 px-1.5 py-0.5">cơ bản</span>}
+                  <span className="ml-0.5">{where(v)}</span>
+                </>
+              }
+              below={
+                v.related.length > 0 && (
+                  <>
+                    <button
+                      onClick={() => setOpen(expanded ? null : v.w)}
+                      aria-expanded={expanded}
+                      className="flex flex-wrap items-center gap-1.5 text-left text-xs"
+                    >
+                      <span className="text-muted">Dạng khác:</span>
+                      {v.related.map((f) => (
+                        <span key={f.w} className="rounded-full border border-line px-2 py-0.5 font-medium text-primary">
+                          {f.w}
+                        </span>
+                      ))}
+                      <span className={`text-muted transition-transform ${expanded ? "rotate-180" : ""}`} aria-hidden>
+                        ▾
                       </span>
+                    </button>
+                    {expanded && (
+                      <div className="step-fade mt-2">
+                        <OtherForms v={v} />
+                      </div>
                     )}
-                  </div>
-                </div>
-                <span
-                  className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold ${
-                    st === "mastered" ? "bg-success-soft text-success" : st === "learning" ? "bg-primary-soft text-primary" : "bg-surface-2 text-muted"
-                  }`}
-                >
-                  {st === "mastered" ? "Đã thuộc" : st === "learning" ? `Hộp ${cards[v.w].box}` : "Mới"}
-                </span>
-                {st !== "new" && (
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      resetVocab(v.w);
-                    }}
-                    className="text-xs text-muted hover:text-danger"
-                    title="Học lại từ đầu"
-                  >
-                    ↺
-                  </button>
-                )}
-              </div>
-              {expanded && extra > 0 && (
-                <div className="px-4 pb-3 pl-11">
-                  <OtherForms v={v} />
-                </div>
-              )}
-            </div>
+                  </>
+                )
+              }
+            />
           );
         })}
-        {!list.length && <div className="p-8 text-center text-muted">Không có từ nào khớp.</div>}
-      </div>
+      </ul>
+      {!list.length && <div className="rounded-2xl border border-dashed border-line p-10 text-center text-muted">Không có từ nào khớp.</div>}
       {list.length > limit && (
-        <button onClick={() => setLimit((l) => l + PAGE)} className="mt-3 w-full rounded-lg border border-line py-2 text-sm hover:bg-surface-2">
-          Xem thêm ({list.length - limit} từ)
+        <button onClick={() => setLimit((l) => l + PAGE)} className="mt-3 w-full rounded-xl border border-line py-2.5 text-sm font-medium hover:bg-surface-2">
+          Xem thêm {Math.min(PAGE, list.length - limit)} từ
         </button>
       )}
     </div>
