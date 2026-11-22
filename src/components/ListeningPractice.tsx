@@ -44,7 +44,7 @@ export default function ListeningPractice({ tests }: { tests: TestRef[] }) {
           <select
             value={testId}
             onChange={(e) => pick(() => setTestId(e.target.value))}
-            className="rounded-md border border-line bg-surface px-2 py-1.5"
+            className="rounded-xl border border-line bg-surface py-2 pr-8 pl-3 text-sm"
           >
             {years.map((y) => (
               <optgroup key={y} label={`ETS ${y}`}>

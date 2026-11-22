@@ -19,6 +19,7 @@
   --line: #e3e6ee;
   --text: #171a23;
   --muted: #5d6475;
+  --select-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235d6475' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   --primary: #2453d6;
   --primary-soft: #e8eefc;
   --on-primary: #ffffff;
@@ -41,6 +42,7 @@
     --line: #2c3142;
     --text: #e9ebf2;
     --muted: #9aa1b4;
+    --select-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239aa1b4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
     --primary: #7d9bff;
     --primary-soft: #1f2a4a;
     --on-primary: #0e1016;
@@ -60,6 +62,7 @@
     --line: #2c3142;
     --text: #e9ebf2;
     --muted: #9aa1b4;
+    --select-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239aa1b4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
     --primary: #7d9bff;
     --primary-soft: #1f2a4a;
     --on-primary: #0e1016;
@@ -236,4 +239,17 @@ audio {
   .bar-grow {
     animation: none;
   }
+}
+
+/* Ô chọn (select): bỏ mũi tên mặc định của trình duyệt (dính sát mép, mỗi trình duyệt một kiểu),
+   thay bằng mũi tên cùng nét với bộ icon, cách mép phải; màu theo giao diện sáng/tối.
+   Khoảng trống bên phải cho mũi tên đặt bằng class pr-8 trên từng ô (quy tắc này không đặt padding
+   để không tranh với class Tailwind). */
+select {
+  appearance: none;
+  background-image: var(--select-chevron);
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  background-size: 1rem;
+  cursor: pointer;
 }

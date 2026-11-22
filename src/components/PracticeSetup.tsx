@@ -65,7 +65,7 @@ export default function PracticeSetup({ testId, partCounts }: { testId: string; 
           <select
             value={time}
             onChange={(e) => setTime(Number(e.target.value))}
-            className="rounded-md border border-line bg-surface px-2 py-1"
+            className="rounded-xl border border-line bg-surface py-1.5 pr-8 pl-3"
           >
             {TIME_OPTIONS.map((t) => (
               <option key={t} value={t}>

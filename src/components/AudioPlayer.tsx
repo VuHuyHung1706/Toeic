@@ -33,7 +33,8 @@ export default function AudioPlayer({ src, autoPlay = false }: { src: string | n
           setRate(r);
           if (ref.current) ref.current.playbackRate = r;
         }}
-        className="rounded-md border border-line bg-surface px-1.5 py-1 text-sm"
+        className="rounded-lg border border-line bg-surface py-1 pr-6 pl-2 text-sm"
+        style={{ backgroundPosition: "right 0.4rem center" }}
       >
         {RATES.map((r) => (
           <option key={r} value={r}>
