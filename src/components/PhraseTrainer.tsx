@@ -4,11 +4,12 @@
 // Dữ liệu: content/phrases.json (nhập bằng scripts/import_phrases.py).
 
 import { useEffect, useMemo, useState } from "react";
+import FlashcardDeck, { type DeckCard } from "./FlashcardDeck";
 import SegmentedTabs from "./SegmentedTabs";
 import { CardsSkeleton } from "./Skeleton";
 import SmoothWidth from "./SmoothWidth";
 import { findPhrase, phraseCardKey } from "@/lib/phrases";
-import { VOCAB_INTERVALS, reviewVocab, useVocabCards, type VocabCard } from "@/lib/storage";
+import { VOCAB_INTERVALS, useVocabCards, type VocabCard } from "@/lib/storage";
 import type { Phrase, PhraseGroup } from "@/lib/types";
 
 const MASTER_BOX = VOCAB_INTERVALS.length + 1;
@@ -48,7 +49,7 @@ function Example({ item }: { item: Item }) {
   );
 }
 
-export default function PhraseTrainer() {
+export default function PhraseTrainer({ active = true }: { active?: boolean }) {
   const [groups, setGroups] = useState<PhraseGroup[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
@@ -66,10 +67,10 @@ export default function PhraseTrainer() {
   if (error) return <p className="mt-8 text-danger">{error}</p>;
   if (!groups) return <CardsSkeleton label="Đang tải cụm giới từ" cards={6} />;
   if (!groups.length) return <p className="mt-8 text-muted">Chưa có dữ liệu cụm giới từ.</p>;
-  return <Trainer groups={groups} />;
+  return <Trainer groups={groups} active={active} />;
 }
 
-function Trainer({ groups }: { groups: PhraseGroup[] }) {
+function Trainer({ groups, active }: { groups: PhraseGroup[]; active: boolean }) {
   const cards = useVocabCards();
   const [group, setGroup] = useState<string>("all");
   const [tab, setTab] = useState<"learn" | "list">("learn");
@@ -92,7 +93,7 @@ function Trainer({ groups }: { groups: PhraseGroup[] }) {
   const mastered = items.filter((it) => statusOf(cards[it.key]) === "mastered").length;
   const newCount = allNew ? fresh.length : Math.min(newPerSession, fresh.length);
 
-  if (session) return <Session cards={session} onExit={() => setSession(null)} />;
+  if (session) return <Session cards={session} active={active} onExit={() => setSession(null)} />;
 
   return (
     <>
@@ -231,111 +232,36 @@ function PhraseList({ items, cards }: { items: Item[]; cards: Record<string, Voc
   );
 }
 
-function Session({ cards: initial, onExit }: { cards: Item[]; onExit: () => void }) {
-  const [queue, setQueue] = useState(initial);
-  const [flipped, setFlipped] = useState(false);
-  const [stats, setStats] = useState({ remembered: 0, forgot: 0 });
-  const [requeued, setRequeued] = useState<Set<string>>(new Set());
-  const card = queue[0];
-
-  const answer = (remembered: boolean) => {
-    if (!card) return;
-    reviewVocab(card.key, remembered);
-    setStats((s) => ({ remembered: s.remembered + (remembered ? 1 : 0), forgot: s.forgot + (remembered ? 0 : 1) }));
-    setFlipped(false);
-    // quên → đưa thẻ về cuối hàng để gặp lại một lần trong phiên
-    if (!remembered && !requeued.has(card.key)) {
-      setRequeued((r) => new Set(r).add(card.key));
-      setQueue((q) => [...q.slice(1), card]);
-    } else setQueue((q) => q.slice(1));
-  };
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if ((e.target as HTMLElement)?.tagName === "INPUT") return;
-      if (e.key === " ") {
-        e.preventDefault();
-        setFlipped((f) => !f);
-      } else if (flipped && e.key === "1") answer(false);
-      else if (flipped && e.key === "2") answer(true);
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  });
-
-  if (!card) {
-    return (
-      <div className="mt-8 rounded-2xl border border-line bg-surface p-8 text-center">
-        <div className="text-sm text-muted">Hoàn thành phiên học</div>
-        <div className="mt-2 text-4xl font-bold">{initial.length} thẻ</div>
-        <div className="mt-1 text-muted">
-          Nhớ {stats.remembered} lượt · quên {stats.forgot} lượt
-        </div>
-        <button onClick={onExit} className="mt-6 rounded-lg bg-primary px-5 py-2 font-semibold text-on-primary">
-          Xong
-        </button>
-      </div>
-    );
-  }
-
-  const done = initial.length - queue.length;
+/** Gợi ý mặt trước: câu ví dụ với cụm bị che */
+function BlankedExample({ item }: { item: Item }) {
+  const hit = item.example ? findPhrase(item.example, item.phrase) : null;
+  if (!hit) return null;
   return (
-    <div className="mt-6">
-      <div className="mb-3 flex items-center gap-3 text-sm text-muted">
-        <button onClick={onExit} className="hover:text-fg">
-          ← Thoát
-        </button>
-        <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface-2">
-          <div className="h-full bg-primary transition-[width] duration-300" style={{ width: `${(done / initial.length) * 100}%` }} />
-        </div>
-        <span>Còn {queue.length} thẻ</span>
-      </div>
-
-      <div
-        role="button"
-        tabIndex={0}
-        onClick={() => setFlipped((f) => !f)}
-        className="block w-full cursor-pointer rounded-2xl border border-line bg-surface p-8 text-center transition hover:border-primary"
-        aria-label={flipped ? "Úp thẻ" : "Lật thẻ"}
-      >
-        <div className="text-xs font-semibold tracking-wide text-muted uppercase">{card.groupLabel}</div>
-        <div className="mt-2 flex items-center justify-center gap-3">
-          <span className="text-3xl font-bold sm:text-4xl">{card.phrase}</span>
-          <button
-            aria-label="Nghe phát âm"
-            onClick={(e) => {
-              e.stopPropagation();
-              speak(card.phrase);
-            }}
-            className="rounded-full bg-surface-2 px-2.5 py-1.5 text-lg hover:bg-primary-soft"
-          >
-            🔊
-          </button>
-        </div>
-        {flipped ? (
-          <div className="step-fade mt-6 space-y-3 text-left">
-            <div className="text-center text-xl font-semibold text-primary">{card.meaning}</div>
-            {card.example && (
-              <div className="rounded-lg border border-line p-3 text-sm leading-6">
-                <Example item={card} />
-              </div>
-            )}
-          </div>
-        ) : (
-          <div className="mt-6 text-sm text-muted">Nhớ nghĩa của cụm này không? Bấm thẻ hoặc phím Space để lật.</div>
-        )}
-      </div>
-
-      {flipped && (
-        <div className="mt-4 grid grid-cols-2 gap-3">
-          <button onClick={() => answer(false)} className="rounded-xl border border-danger bg-danger-soft py-3 font-semibold text-danger">
-            Chưa nhớ <span className="text-xs opacity-70">(1)</span>
-          </button>
-          <button onClick={() => answer(true)} className="rounded-xl border border-success bg-success-soft py-3 font-semibold text-success">
-            Nhớ rồi <span className="text-xs opacity-70">(2)</span>
-          </button>
-        </div>
-      )}
-    </div>
+    <span>
+      {hit[0]}
+      <span className="mx-0.5 inline-block w-20 border-b-2 border-primary align-baseline" aria-label="cụm bị che" />
+      {hit[2]}
+    </span>
   );
+}
+
+function Session({ cards, active, onExit }: { cards: Item[]; active: boolean; onExit: () => void }) {
+  const deck: DeckCard[] = useMemo(
+    () =>
+      cards.map((c) => ({
+        id: c.key,
+        term: c.phrase,
+        tag: c.groupLabel,
+        meaning: c.meaning,
+        speak: c.phrase,
+        hint: c.example && findPhrase(c.example, c.phrase) ? <BlankedExample item={c} /> : undefined,
+        details: c.example ? (
+          <div className="rounded-xl border border-line p-3">
+            <Example item={c} />
+          </div>
+        ) : undefined,
+      })),
+    [cards],
+  );
+  return <FlashcardDeck cards={deck} active={active} onExit={onExit} />;
 }
