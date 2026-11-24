@@ -1,7 +1,7 @@
 # Báo cáo ETL dữ liệu TOEIC
 
 - Số đề: **48**
-- Lỗi (cần sửa tay): **0**
+- Lỗi (cần sửa tay): **3**
 - Cảnh báo: **0**
 - Đã tự sửa: **913**
 
@@ -11,10 +11,10 @@
 |---|---|---|---|---|---|---|---|
 | 2022-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2022-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2022-test3 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2022-test3 | 200 | ✅ | 0 | 0 | 1 | 0 | 0 |
 | 2022-test4 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2022-test5 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
-| 2022-test6 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2022-test6 | 200 | ✅ | 0 | 0 | 1 | 0 | 0 |
 | 2022-test7 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2022-test8 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2022-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
@@ -28,7 +28,7 @@
 | 2023-test7 | 200 | ✅ | 0 | 0 | 0 | 0 | 25 |
 | 2023-test8 | 200 | ✅ | 0 | 0 | 0 | 0 | 4 |
 | 2023-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 25 |
-| 2023-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 26 |
+| 2023-test10 | 200 | ✅ | 0 | 0 | 1 | 0 | 26 |
 | 2024-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
 | 2024-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 4 |
 | 2024-test3 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
@@ -58,8 +58,23 @@
 | 2026-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 68 |
 | 2026-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 69 |
 
-## Lỗi cần sửa tay (0)
+## Lỗi cần sửa tay (3)
 
+<details><summary><b>2022-test3</b> — 1</summary>
+
+- `test3-part7.csv câu 168–171` Câu 171: không tìm thấy chỗ chèn [3] (passage_markers.json)
+
+</details>
+<details><summary><b>2022-test6</b> — 1</summary>
+
+- `test6-part7.csv câu 158–161` Câu 161: không tìm thấy chỗ chèn [2] (passage_markers.json)
+
+</details>
+<details><summary><b>2023-test10</b> — 1</summary>
+
+- `test10-part7.csv câu 172–175` Câu 175: không tìm thấy chỗ chèn [4] (passage_markers.json)
+
+</details>
 
 ## Cảnh báo (0)
 

@@ -275,7 +275,8 @@ def apply_evidence(group: dict) -> None:
     if not passage:
         return
     for q in group["questions"]:
-        ev = find_evidence(q, passage)
+        # bỏ ký hiệu vị trí chèn câu "[n]" khỏi câu dẫn chứng: giao diện tách ký hiệu ra khỏi chữ trước khi tô sáng
+        ev = [e for e in (re.sub(r"\s*\[[1-4]\]\s*", " ", x).strip() for x in find_evidence(q, passage)) if e]
         if ev:
             q["evidence"] = ev
 

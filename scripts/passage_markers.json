@@ -1,0 +1,195 @@
+{
+ "_doc": "Vị trí chèn câu [1]–[4] bị thiếu trong dữ liệu gốc (CSV) của các câu Part 7 dạng 'In which of the positions marked…'. Mỗi câu: 4 chuỗi là đoạn chữ đứng ngay TRƯỚC dấu [1], [2], [3], [4] (đối chiếu đề cùng bộ ETS). scripts/etl.py chèn dấu còn thiếu sau đoạn chữ đó; dấu đã có sẵn thì giữ nguyên.",
+ "2022-test3": {
+  "171": [
+   "Reginald Carmen to Edmonton Engineering Consultants, LLC.",
+   "n will be a valuable addition to our distinguished staff.",
+   "that position for the remaining nine years of his tenure.",
+   "edesigned the school's electrical engineering curriculum."
+  ],
+  "175": [
+   "re into the big city to see an impressive art collection.",
+   "wn situated next to a forest that is popular with hikers.",
+   "ction, the museum regularly rotates the works on display.",
+   "e to a comprehensive collection of twentieth-century art."
+  ]
+ },
+ "2022-test5": {
+  "161": [
+   "Web page. http://www.coltonhotels.com.au/accommodations",
+   "onstruction of the new Yarra River wing is now completed.",
+   "rtments with a living room, work space, and full kitchen.",
+   "otels.com.au for more information or call 61 3 7010 9921."
+  ]
+ },
+ "2022-test6": {
+  "161": [
+   "early morning’s stormy weather most likely played a part.",
+   "rnative sites, such as Grantwood Park and Holtrop Tower.”",
+   "cause its galleries are closed to the public on Tuesdays.",
+   "ored to most area businesses by late yesterday afternoon."
+  ]
+ },
+ "2022-test8": {
+  "160": [
+   "al Green Solutions Research Institute (IGSRI) Conference.",
+   "to 5. You were recommended by a number of my colleagues.",
+   "the highest ever, around 2,500 delegates and 40 speakers.",
+   "des a large contingent from our newest chapter in Geneva."
+  ]
+ },
+ "2022-test9": {
+  "163": [
+   "o recommend Mr. Renaldo Silva for your nursing programme.",
+   "y appreciate his kind but dedicated approach to wellness.",
+   "the past several years, exclusively at Summer Camp West.",
+   "will be an active and successful programme participant."
+  ],
+  "171": [
+   "ions at town council meetings and in other public forums.",
+   "s drafted and the grand opening was planned for April 28.",
+   "up and floods adjacent parking areas during heavy rains.\"",
+   "correct the issue before the Public Works Building opens."
+  ]
+ },
+ "2023-test1": {
+  "171": [
+   "DEMONSTRATORS NEEDED! Are you outgoing and enthusiastic?",
+   "e? Put your personality and communication skills to work!",
+   "strators to promote our clients’ merchandise to shoppers.",
+   "idates must have a Professional Food Handler certificate."
+  ],
+  "175": [
+   "awide camera lens, and 8K-resolution filming capability.",
+   "esn't believe the price increase will dissuade customers.",
+   "clients spoke, and we listened and adapted accordingly.”",
+   "hy add to the overload of cables already in circulation?”"
+  ]
+ },
+ "2023-test10": {
+  "175": [
+   "total cost for conference events there would be €31,500.",
+   "articipants in the nearby Hotel Milvio at €120 per night.",
+   "y that would be much cheaper in overall conference costs.",
+   "has affordable direct flights from most European cities."
+  ]
+ },
+ "2023-test3": {
+  "163": [
+   "one selling house paint for the last five years in a row.",
+   "— [1] —. But being the best seller is not enough for us.",
+   "nishes: flat, eggshell, satin, semigloss, and high gloss.",
+   "for Jasmine Leaf Paint at a quality paint store near you."
+  ]
+ },
+ "2023-test6": {
+  "164": [
+   "ge as she studied at the Manila School of Fashion Design.",
+   "ten years working as a junior designer for Trendy Today.",
+   "eaving techniques and designs that the area is known for.",
+   "dise is available only in select San Jacinto-area stores."
+  ],
+  "175": [
+   "position reporting directly to the foundation president.",
+   "ght and maintenance of accounting and purchasing systems.",
+   "procedures and ensures compliance with legal obligations.",
+   "ctors. Preference will be given to current employees."
+  ]
+ },
+ "2023-test7": {
+  "175": [
+   "harmaceuticals Staff Subject: News Date: October 10",
+   "ng safe, effective medicines has always been appreciated.",
+   "will be returning to India to be near my extended family.",
+   "will continue the work of making natural pharmaceuticals."
+  ]
+ },
+ "2023-test9": {
+  "164": [
+   "Dear Team, The past several years have been fast-paced.",
+   "ement certainly would not have been possible without you.",
+   "on, I have decided that each of you will receive a bonus.",
+   "our product placed on even more supermarket shelves soon."
+  ],
+  "175": [
+   "e the success of tree and shrub plantings along roadways.",
+   "ch makes it difficult for new growth to establish itself.",
+   "be applied by municipal agencies throughout the country.",
+   "sful plant establishment requires an integrated approach."
+  ]
+ },
+ "2024-test10": {
+  "171": [
+   "Spaces has the perfect treatment design package for you.",
+   "es of fabrics and hardware available in our product line.",
+   "from seven to fourteen days for them to reach our store.",
+   "ontact you to schedule the date and time of installation."
+  ]
+ },
+ "2024-test3": {
+  "167": [
+   "ndly professionals who are responsive to your every need.",
+   "s when it comes to choosing an Internet service provider.",
+   "limited-time referral bonus. The way it works is simple.",
+   "eive $20 for a plan costing $60 per month. The best news?"
+  ]
+ },
+ "2024-test8": {
+  "163": [
+   "3 P.M. Subject: Network issues Good afternoon everyone.",
+   "nce, resulting in a series of issues across the building.",
+   ", difficulty loading e-mail messages, and other problems.",
+   "ttempt first to address them by restarting your computer."
+  ]
+ },
+ "2024-test9": {
+  "175": [
+   "ssenger trains, many of which are more than 40 years old.",
+   "tems are available and on diesel fuel at all other times.",
+   "anoramic windows, improved ventilation, and wider aisles.",
+   "acement parts and provides a long-term service agreement."
+  ]
+ },
+ "2026-test1": {
+  "157": [
+   ". Unfortunately, the item you requested is on back order.",
+   "R-1483 has a 120 mm aperture and a retractable lens hood.",
+   "and ship your new telescope overnight at no extra charge.",
+   "in stock and provide delivery information at that point."
+  ],
+  "171": [
+   "f work needed to be done in the kitchen and dining areas.",
+   "ket, which is located on the opposite side of the street.",
+   "se employees have now returned to work in the restaurant.",
+   "25. Guests will enjoy live music and a new tasting menu."
+  ]
+ },
+ "2026-test2": {
+  "163": [
+   "our recent purchase! We hope you are enjoying your items.",
+   "e opportunity to suggest some other items you might like.",
+   "to see a list of suggestions curated especially for you.",
+   "so offering you a 20 percent discount on your next order."
+  ],
+  "171": [
+   "announce our private music education program for adults.",
+   "le in-person instruction at our office or your residence.",
+   "dence. - [2] -. Students must provide their instruments.",
+   "r of your choice, or we can match you with an instructor."
+  ]
+ },
+ "2026-test3": {
+  "163": [
+   "e: December 2 Subject: Your presentation Dear Dr. Able:",
+   "importance of word choice in international communication.",
+   "er with you or other researchers at the Borman Institute.",
+   "thanks again for sharing your time and thoughts with us."
+  ],
+  "167": [
+   "A.M. to 5:00 P.M. Salary is commensurate with experience.",
+   "uality specifications and comply with industry standards.",
+   "edback patterns with authors at internal weekly meetings.",
+   "to communicate across company departments are essential."
+  ]
+ }
+}

@@ -28,8 +28,38 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from passage import normalize_passage  # noqa: E402
+from passage import copy_markers_to_vi, insert_markers, normalize_passage  # noqa: E402
 from enrich import apply_evidence, apply_group_vocab, apply_option_notes, tag_question, write_extras
+
+# Vị trí chèn câu [1]–[4] bị thiếu trong CSV gốc (Part 7, câu "positions marked"), xem scripts/passage_markers.json
+_MARKERS_FILE = Path(__file__).resolve().parent / "passage_markers.json"
+PASSAGE_MARKERS: dict[str, dict[str, list[str]]] = {
+    k: v for k, v in json.loads(_MARKERS_FILE.read_text(encoding="utf-8")).items() if not k.startswith("_")
+} if _MARKERS_FILE.exists() else {}
+
+
+def apply_passage_markers(group: dict, test_id: str, report: "Report", where: str) -> None:
+    """Chèn dấu [n] còn thiếu vào bài đọc tiếng Anh của nhóm theo passage_markers.json."""
+    for q in group["questions"]:
+        anchors = PASSAGE_MARKERS.get(test_id, {}).get(str(q["number"]))
+        if not anchors:
+            continue
+        for n, anchor in enumerate(anchors, start=1):
+            if any(f"[{n}]" in p["en"] for p in group["passages"]):
+                continue
+            for p in group["passages"]:
+                new, missing = insert_markers(p["en"], [anchor if i == n else "" for i in range(1, 5)])
+                if n not in missing:
+                    p["en"] = new
+                    break
+            else:
+                report.add("error", test_id, where, f"Câu {q['number']}: không tìm thấy chỗ chèn [{n}] (passage_markers.json)")
+    # bản dịch: chép vị trí dấu từ bài tiếng Anh (chỉ nhóm có câu chèn câu)
+    if any(re.search(r"positions? marked", q["question"] or "", re.I) for q in group["questions"]):
+        for p in group["passages"]:
+            if p["en"] and p["vi"] and "[" in p["en"]:
+                p["vi"] = copy_markers_to_vi(p["en"], p["vi"])
+
 
 # ---------------------------------------------------------------------------
 # Hằng số định dạng đề TOEIC
@@ -488,6 +518,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
             if part in (3, 4):
                 apply_group_vocab(group)
             if part == 7:
+                apply_passage_markers(group, test_id, report, gwhere)
                 apply_evidence(group)
             groups.append(group)
 
