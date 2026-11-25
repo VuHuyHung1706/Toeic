@@ -148,6 +148,10 @@ def clean_text(v: str | None) -> str:
         return ""
     v = v.replace("\r\n", "\n").replace("\r", "\n")
     v = v.replace("\\n", "\n")  # CSV lưu xuống dòng dạng literal "\n"
+    # ô bị escape CSV hai lần: '"The word ""just"" in…"', '…unexpected.""', ',"Đáp án A…'
+    if '""' in v:
+        v = re.sub(r'^,?"(.*)"$', r"\1", v.strip(), flags=re.S) if re.match(r'^,?".*"$', v.strip(), re.S) else re.sub(r'^,"', "", v)
+        v = v.replace('""', '"')
     lines = [ln.rstrip() for ln in v.split("\n")]
     return "\n".join(lines).strip()
 

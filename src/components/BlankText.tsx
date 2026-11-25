@@ -82,6 +82,13 @@ export function renderBlanks(text: string, opts: BlankOptions): ReactNode {
       </button>,
     );
     last = (m.index ?? 0) + m[0].length;
+    // chỗ trống điền cả câu (mọi phương án là câu hoàn chỉnh có dấu chấm): dữ liệu vẫn ghi "131 ----- . The…"
+    // → bỏ dấu chấm thừa ngay sau chỗ trống, kẻo hiện ". The nursery…"
+    const sentenceBlank = (["A", "B", "C", "D"] as Letter[]).every((L) => /[.!?]["”]?\s*$/.test(q.options[L] ?? ""));
+    if (sentenceBlank) {
+      const stray = text.slice(last).match(/^\s*\.(?!\.)/);
+      if (stray) last += stray[0].length;
+    }
   }
   out.push(text.slice(last));
   return out;

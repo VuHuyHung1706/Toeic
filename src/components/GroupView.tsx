@@ -431,7 +431,7 @@ function ExplainBox({ q }: { q: Question }) {
           <div className="prose-pre mt-2 leading-relaxed">{q.transcript}</div>
         ) : (
           <div className="mt-3">
-            <Explanation text={q.explanation} />
+            <Explanation text={q.explanation} options={q.options} />
           </div>
         ))}
     </div>

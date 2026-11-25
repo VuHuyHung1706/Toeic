@@ -6,8 +6,10 @@ export type ListItem = {
   /** "1", "A"… (danh sách đánh số / phương án) */
   label?: string;
   text: string;
-  /** "Sai" / "Đúng" khi dòng phương án ghi rõ (SAI vì…, ĐÚNG…) */
+  /** "Sai" / "Đúng" khi dòng phương án ghi rõ ngay đầu dòng (SAI vì…, Đúng - …, là đúng) */
   verdict?: "wrong" | "right";
+  /** phần giải thích sau nhãn Sai/Đúng ("Đáp án A (Kẹo): Sai - Không được nhắc đến" → "Không được nhắc đến") */
+  note?: string;
   children: Block[];
 };
 
@@ -24,14 +26,17 @@ export type Section = { heading?: string; blocks: Block[] };
 
 const BULLET = /^[-•*]\s+(.*)$/;
 const NUMBER = /^(\d{1,2})[.)]\s+(.*)$/;
-// "A. …", "(A) …", "**(A) …**", "Đáp án A: …" — chữ cái phải có ngoặc hoặc dấu chấm/hai chấm (tránh "- A meeting…")
-const OPTION = /^(\*\*)?(?:Đáp án\s+)?(?:\(([A-D])\)|([A-D])[.:)])\s*(?=\S)(.*)$/;
+// "A. …", "(A) …", "**(A) …**", "Đáp án A: …", "Đáp án A (Kẹo): Sai - …" — chữ cái phải có ngoặc / dấu chấm / hai chấm,
+// hoặc đứng sau "Đáp án" (tránh "- A meeting…")
+const OPTION =
+  // nhóm: 1 = "**", 2–5 = chữ cái (theo từng dạng), 6 = phần còn lại
+  /^(\*\*)?(?:Đáp án\s+([A-D])(?=\s*[(:.\-–])[:.\-–]?\s*|\(([A-D])\)\s*|([A-D])[.:)]\s*|([A-D])\s+(?=["“]))(?=\S)(.*)$/;
 const ARROW = /^(?:→|=>|->|⇒)\s*(.*)$/;
-const ANSWER = /^(?:\*\*)?Đáp án (?:đúng )?(?:là|:)/i;
+const ANSWER = /^(?:\*\*)?Đáp án(?: đúng)?\s*(?:là|:)/i;
 const LABEL =
   /^((?:Dịch(?: nghĩa| câu)?|Nghĩa|Lưu ý|Chú ý|Mẹo(?: làm bài)?|Paraphrase|Cấu trúc|Ngữ pháp|Kết luận|Ví dụ|Dẫn chứng|Bằng chứng|Giải thích|Lý do))\s*:\s+(\S.*)$/i;
-const WRONG = /\b(SAI|không đúng|không chính xác)\b/;
-const RIGHT = /\b(ĐÚNG)\b/;
+// nhãn Sai/Đúng (có dấu → không dùng \b, vì \b của JS chỉ hiểu chữ ASCII)
+const VERDICT = /(?<!\p{L})(không đúng|không chính xác|không phù hợp|là sai|là đúng|SAI|Sai|sai|ĐÚNG|Đúng|đúng)(?!\p{L})/u;
 
 /** Dòng là đề mục: "**Phân tích:**", "Các đáp án khác không chính xác:" (ngắn, kết thúc bằng dấu hai chấm) */
 function headingOf(line: string): string | null {
@@ -47,10 +52,33 @@ function stripBold(s: string) {
   return s.replace(/^\*\*(.*)\*\*$/, "$1");
 }
 
-function verdictOf(text: string): ListItem["verdict"] {
-  if (RIGHT.test(text)) return "right";
-  if (WRONG.test(text)) return "wrong";
-  return undefined;
+/** Nhãn Sai/Đúng nằm gần đầu dòng phương án → tách thành (tên phương án, nhãn, phần giải thích). Nằm sâu trong câu thì bỏ qua. */
+function splitVerdict(text: string): Pick<ListItem, "text" | "verdict" | "note"> {
+  const plain = text.replace(/\*\*/g, "");
+  const m = VERDICT.exec(plain);
+  // chỉ tính khi nhãn nằm trong câu đầu của dòng (trước dấu chấm kết thúc câu đầu tiên)
+  const firstStop = plain.search(/[.!?](\s|$)/);
+  if (!m || m.index > 160 || (firstStop >= 0 && firstStop < m.index)) return { text };
+  const word = m[1].toLowerCase();
+  const verdict: ListItem["verdict"] = /không|sai/.test(word) ? "wrong" : "right";
+  // vị trí tương ứng trong chuỗi gốc (còn **)
+  let i = 0;
+  let j = 0;
+  while (j < m.index && i < text.length) {
+    if (text.startsWith("**", i)) i += 2;
+    else {
+      i++;
+      j++;
+    }
+  }
+  const head = text.slice(0, i).replace(/[\s:–\-,]+$/, "").replace(/\s+(là|thì)$/, "");
+  const after = text.slice(i + m[1].length);
+  // "Sai - …", "SAI vì:", "là đúng." → chữ chỉ là nhãn, bỏ đi; "không phù hợp về nghĩa…" → giữ cả cụm làm phần giải thích
+  const isTag = /^(sai|đúng|là sai|là đúng)$/.test(word) && /^\s*(?:vì|bởi vì|do|[:–\-.,]|$)/.test(after);
+  const rest = isTag ? after.replace(/^\s*(vì|bởi vì|do)?\s*[:–\-.,]*\s*/, "") : text.slice(i);
+  const note = rest ? rest[0].toUpperCase() + rest.slice(1) : "";
+  const fixBold = (s: string) => ((s.match(/\*\*/g) ?? []).length % 2 ? s + "**" : s);
+  return { text: fixBold(head), verdict, note: note || undefined };
 }
 
 export function parseExplanation(raw: string): Section[] {
@@ -110,12 +138,19 @@ export function parseExplanation(raw: string): Section[] {
     const opt = (bullet ? bullet[1] : line).match(OPTION);
     if (opt) {
       // "**(A) They will…** (nghĩa): SAI vì:" → giữ cặp ** cho phần chữ của phương án
-      const text = (opt[1] ?? "") + opt[4];
-      pushItem("option", { label: opt[2] ?? opt[3], text, verdict: verdictOf(text), children: [] });
+      const text = (opt[1] ?? "") + opt[6];
+      pushItem("option", { label: opt[2] ?? opt[3] ?? opt[4] ?? opt[5], ...splitVerdict(text), children: [] });
       continue;
     }
     if (bullet) {
-      pushItem("bullet", { text: bullet[1], children: [] });
+      // "- Đáp án đúng: (B) after" → khung đáp án đúng; "- Cấu trúc: …" → nhãn in đậm
+      if (ANSWER.test(bullet[1])) {
+        closeList();
+        blocks.push({ t: "answer", text: bullet[1] });
+        continue;
+      }
+      const lab = bullet[1].match(LABEL);
+      pushItem("bullet", { text: lab ? `**${lab[1]}:** ${lab[2]}` : bullet[1], children: [] });
       continue;
     }
     const num = line.match(NUMBER);
@@ -152,7 +187,9 @@ export function parseExplanation(raw: string): Section[] {
 
   return sections
     .map((s) => ({ ...s, blocks: s.heading && /từ vựng/i.test(s.heading) ? toVocab(s.blocks) : s.blocks }))
-    .filter((s) => s.blocks.length > 0);
+    .filter((s) => s.blocks.length > 0)
+    // đề mục "Giải thích" trùng với tên khung lời giải → bỏ
+    .map((s) => (s.heading && /^giải thích$/i.test(s.heading) ? { blocks: s.blocks } : s));
 }
 
 /** Mục "Từ vựng": danh sách "từ: nghĩa" → bảng hai cột */
@@ -160,7 +197,9 @@ function toVocab(blocks: Block[]): Block[] {
   return blocks.map((b) => {
     if (b.t !== "list" || b.kind !== "bullet") return b;
     const items = b.items.map((it) => {
-      const m = stripBold(it.text).match(/^\**(.+?)\**\s*(?::|–|-|=)\s+(.+)$/);
+      // "từ: nghĩa" / "từ - nghĩa"; dòng "A = B" là cặp diễn đạt lại (paraphrase) → không dựng bảng, giữ gạch đầu dòng
+      if (/\s=\s/.test(it.text)) return null;
+      const m = stripBold(it.text).match(/^\**(.+?)\**\s*(?::|\s–|\s-)\s+(.+)$/);
       return m ? { term: m[1].replace(/\*\*/g, "").trim(), meaning: m[2].trim() } : null;
     });
     return items.every(Boolean) ? { t: "vocab", items: items as { term: string; meaning: string }[] } : b;

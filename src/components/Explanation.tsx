@@ -1,8 +1,31 @@
 // Hiển thị lời giải đã được đọc thành khối (lib/explanation.ts): đáp án đúng nổi bật, đề mục nhỏ, trích dẫn có vạch,
 // phân tích từng phương án (chữ cái + nhãn Sai/Đúng, ý con thụt vào), từ vựng dạng bảng hai cột.
-import { Fragment, useMemo, type ReactNode } from "react";
+import {
+  createContext,
+  Fragment,
+  useContext,
+  useMemo,
+  type ReactNode,
+} from "react";
 import { parseExplanation, type Block, type ListItem } from "@/lib/explanation";
 import UiIcon from "./UiIcon";
+
+/** Chữ của các phương án (A–D) — để dòng "Đáp án A (Kẹo): Sai" hiện kèm chữ tiếng Anh của phương án */
+const OptionsCtx = createContext<Record<string, string> | undefined>(undefined);
+
+/** Dòng phương án chỉ ghi nghĩa "(Kẹo)" / để trống → thêm chữ của phương án ("**Candy** (Kẹo)") */
+function OptionText({ label, text }: { label?: string; text: string }) {
+  const opts = useContext(OptionsCtx);
+  const opt = label ? opts?.[label]?.trim() : undefined;
+  const bare = !text.trim() || /^\(.*\)\.?$/.test(text.trim());
+  return (
+    <Inline
+      text={
+        opt && bare && !text.includes(opt) ? `**${opt}** ${text}`.trim() : text
+      }
+    />
+  );
+}
 
 /** **đậm** → chữ đậm; phần còn lại giữ nguyên */
 function Inline({ text }: { text: string }) {
@@ -36,9 +59,6 @@ function Verdict({ v }: { v: ListItem["verdict"] }) {
     </span>
   );
 }
-
-/** Bỏ đuôi "…: SAI vì:" khi đã có nhãn Sai/Đúng */
-const trimVerdict = (t: string) => t.replace(/\s*[:–-]?\s*(?:SAI|ĐÚNG)(?:\s+vì)?\s*:?\s*$/u, "");
 
 function Blocks({ blocks }: { blocks: Block[] }) {
   return (
@@ -81,7 +101,9 @@ function BlockView({ b }: { b: Block }): ReactNode {
     case "para":
       return (
         <p>
-          {b.label && <span className="mr-1 font-semibold text-muted">{b.label}:</span>}
+          {b.label && (
+            <span className="mr-1 font-semibold text-muted">{b.label}:</span>
+          )}
           <Inline text={b.text} />
         </p>
       );
@@ -101,14 +123,22 @@ function BlockView({ b }: { b: Block }): ReactNode {
         return (
           <ul className="space-y-1.5">
             {b.items.map((it, i) => (
-              <li key={i} className="rounded-xl border border-line bg-surface px-3 py-2">
+              <li
+                key={i}
+                className="rounded-xl border border-line bg-surface px-3 py-2"
+              >
                 <div className="flex items-start gap-2">
                   <span className="mt-px grid size-5 shrink-0 place-items-center rounded-full border border-line text-[11px] font-bold text-muted">
                     {it.label}
                   </span>
                   <div className="min-w-0 flex-1">
-                    <Inline text={it.verdict ? trimVerdict(it.text) : it.text} />
+                    <OptionText label={it.label} text={it.text} />
                     <Verdict v={it.verdict} />
+                    {it.note && (
+                      <div className="mt-0.5 text-muted">
+                        <Inline text={it.note} />
+                      </div>
+                    )}
                   </div>
                 </div>
                 {it.children.length > 0 && (
@@ -130,7 +160,10 @@ function BlockView({ b }: { b: Block }): ReactNode {
                   {it.label}
                 </span>
               ) : (
-                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-muted/60" aria-hidden />
+                <span
+                  className="mt-2 size-1.5 shrink-0 rounded-full bg-muted/60"
+                  aria-hidden
+                />
               )}
               <div className="min-w-0 flex-1">
                 <Inline text={it.text} />
@@ -147,16 +180,28 @@ function BlockView({ b }: { b: Block }): ReactNode {
   }
 }
 
-export default function Explanation({ text }: { text: string }) {
+export default function Explanation({
+  text,
+  options,
+}: {
+  text: string;
+  options?: Record<string, string>;
+}) {
   const sections = useMemo(() => parseExplanation(text), [text]);
   return (
-    <div className="space-y-4 leading-relaxed">
-      {sections.map((s, i) => (
-        <section key={i}>
-          {s.heading && <h4 className="mb-1.5 text-[11px] font-semibold tracking-wide text-muted uppercase">{s.heading}</h4>}
-          <Blocks blocks={s.blocks} />
-        </section>
-      ))}
-    </div>
+    <OptionsCtx.Provider value={options}>
+      <div className="space-y-4 leading-relaxed">
+        {sections.map((s, i) => (
+          <section key={i}>
+            {s.heading && (
+              <h4 className="mb-1.5 text-[11px] font-semibold tracking-wide text-muted uppercase">
+                {s.heading}
+              </h4>
+            )}
+            <Blocks blocks={s.blocks} />
+          </section>
+        ))}
+      </div>
+    </OptionsCtx.Provider>
   );
 }
