@@ -13,6 +13,7 @@ import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
 import type { Letter, Question, QuestionGroup } from "@/lib/types";
 import SegmentedTabs from "./SegmentedTabs";
 import UiIcon from "./UiIcon";
+import Explanation from "./Explanation";
 
 type View = "en" | "bilingual" | "vi";
 const VIEWS: [View, string][] = [
@@ -425,7 +426,14 @@ function ExplainBox({ q }: { q: Question }) {
         )}
         {toggle}
       </div>
-      {open && <div className="prose-pre mt-2 leading-relaxed">{tab === "script" && q.transcript ? q.transcript : q.explanation}</div>}
+      {open &&
+        (tab === "script" && q.transcript ? (
+          <div className="prose-pre mt-2 leading-relaxed">{q.transcript}</div>
+        ) : (
+          <div className="mt-3">
+            <Explanation text={q.explanation} />
+          </div>
+        ))}
     </div>
   );
 }

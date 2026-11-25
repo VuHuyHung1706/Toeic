@@ -11,6 +11,7 @@ import type { PartNo, QuestionGroup } from "@/lib/types";
 import { TextSkeleton } from "./Skeleton";
 import SegmentedTabs from "./SegmentedTabs";
 import UiIcon from "./UiIcon";
+import Explanation from "./Explanation";
 
 type TestRef = { id: string; year: number; number: number };
 const LISTEN_PARTS: PartNo[] = [1, 2, 3, 4];
@@ -431,7 +432,9 @@ function FullDictationCard({ testId, group, onNext }: { testId: string; group: Q
                 ))}
             </div>
           ) : (
-            <div className="prose-pre mt-2">{group.questions[0]?.explanation}</div>
+            <div className="mt-3">
+              <Explanation text={group.questions[0]?.explanation ?? ""} />
+            </div>
           )}
         </details>
       )}
