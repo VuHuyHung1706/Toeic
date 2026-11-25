@@ -30,10 +30,23 @@ export function poolConfig(url: string, max = Number(process.env.DATABASE_POOL_M
   };
 }
 
+/**
+ * Kết nối đang rảnh trong pool bị Postgres ngắt (Aiven khởi động lại dịch vụ, OOM, bảo trì…) → pg phát sự kiện "error".
+ * Không có listener thì Node coi là lỗi chưa xử lý và làm sập cả tiến trình server.
+ * Ở đây chỉ ghi log: pg tự bỏ kết nối hỏng khỏi pool, truy vấn sau sẽ mở kết nối mới.
+ */
+export function handlePoolErrors(pool: { on(event: "error", listener: (err: Error) => void): unknown }) {
+  pool.on("error", (err) => {
+    console.error("[db] kết nối Postgres đang rảnh bị ngắt, sẽ tự kết nối lại:", err.message);
+  });
+}
+
 async function connectPostgres(url: string): Promise<DB> {
   const { Pool } = await import("pg");
   const { drizzle } = await import("drizzle-orm/node-postgres");
-  return drizzle(new Pool(poolConfig(url)), { schema });
+  const pool = new Pool(poolConfig(url));
+  handlePoolErrors(pool);
+  return drizzle(pool, { schema });
 }
 
 /** PGlite: dataDir = undefined → trong bộ nhớ (dùng cho test) */
