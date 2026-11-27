@@ -37,7 +37,7 @@ npm run db:studio        # xem dữ liệu (drizzle-kit studio, cần DATABASE_U
    Bucket Private nên `/media/...` trả 302 tới B2 kèm giấy phép tải 7 ngày (`src/lib/b2.ts`) khi `MEDIA_SOURCE=b2`.
 2. **CSDL:** `npm run db:migrate` với `DATABASE_URL` của Aiven (chạy lại mỗi khi có migration mới trong `drizzle/`).
 3. **Vercel:** Import repo GitHub → Environment Variables: `DATABASE_URL`, `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL=https://<domain>`,
-   `MEDIA_SOURCE=b2`, `B2_KEY_ID`, `B2_APP_KEY`, `B2_BUCKET=TOEICCC` (nên là key **Read Only**). Vùng chạy server đặt trong `vercel.json` (`sin1` — Singapore, gần người dùng Việt Nam và CSDL Aiven ở châu Á).
+   `MEDIA_SOURCE=b2`, `B2_KEY_ID`, `B2_APP_KEY`, `B2_BUCKET=TOEICCC` (nên là key **Read Only**). Quên mật khẩu cần thêm `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `MAIL_FROM` (xem `.env.example`). Vùng chạy server đặt trong `vercel.json` (`sin1` — Singapore, gần người dùng Việt Nam và CSDL Aiven ở châu Á).
 4. GitHub Actions (`.github/workflows/ci.yml`) chạy lint, typecheck, test, kiểm tra dữ liệu và build mỗi lần push.
 
 ## Kiểm thử
@@ -65,6 +65,7 @@ npm run lint && npx tsc --noEmit && npm run build
 | `/history` | Tiến độ: điểm dự đoán, biểu đồ điểm thi thử, tỉ lệ đúng theo part, lịch học 16 tuần, lịch sử làm bài |
 | `/login` | Đăng nhập / tạo tài khoản bằng email + mật khẩu; lần đầu hỏi chuyển dữ liệu khách vào tài khoản |
 | Menu tài khoản | **Trang cá nhân** (bảng nổi): sửa tên + màu ảnh đại diện, xem / đăng xuất thiết bị đang đăng nhập, xoá tài khoản · **Đổi mật khẩu** (bảng nổi) |
+| `/forgot-password`, `/reset-password` | Quên mật khẩu: gửi link đặt lại qua email (SMTP, `src/lib/mail.ts`), link dùng 1 lần, hết hạn sau 30 phút; đặt xong đăng xuất mọi thiết bị |
 | `/api/tests/[id]`, `/api/bank/[part]/[tag]` | JSON đề / ngân hàng câu theo dạng (prerender sẵn) cho các trang phía client |
 | `/api/me/sync` | `GET` toàn bộ dữ liệu học của người đang đăng nhập, `POST {ops}` ghi thay đổi |
 

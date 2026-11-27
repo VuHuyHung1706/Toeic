@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { signIn, signUp, useSession } from "@/lib/auth-client";
@@ -24,7 +25,7 @@ function errorText(e: { code?: string; status?: number; message?: string }) {
   return (e.code && ERRORS[e.code]) || e.message || "Có lỗi xảy ra, vui lòng thử lại.";
 }
 
-const input = "mt-1 w-full rounded-lg border border-line bg-surface px-3 py-2";
+const input = "mt-1 w-full rounded-xl border border-line bg-surface px-3 py-2";
 
 export default function LoginForm() {
   const router = useRouter();
@@ -108,7 +109,17 @@ export default function LoginForm() {
         />
       </label>
       <label className="mt-4 block text-sm">
-        Mật khẩu{mode === "signup" && " (ít nhất 8 ký tự)"}
+        <span className="flex items-baseline justify-between gap-2">
+          <span>Mật khẩu{mode === "signup" && " (ít nhất 8 ký tự)"}</span>
+          {mode === "signin" && (
+            <Link
+              href={email.trim() ? `/forgot-password?email=${encodeURIComponent(email.trim())}` : "/forgot-password"}
+              className="text-xs font-medium text-primary hover:underline"
+            >
+              Quên mật khẩu?
+            </Link>
+          )}
+        </span>
         <input
           type="password"
           required

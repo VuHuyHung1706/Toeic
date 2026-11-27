@@ -1,10 +1,13 @@
 // Cấu hình đăng nhập (better-auth) — chỉ dùng phía server.
 // Đăng ký / đăng nhập bằng email + mật khẩu (băm scrypt), phiên lưu trong bảng session.
-// Chưa có dịch vụ gửi email → chưa có xác minh email / quên mật khẩu.
+// Quên mật khẩu gửi email qua SMTP (lib/mail.ts). Chưa xác minh email khi đăng ký.
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { nextCookies } from "better-auth/next-js";
 import { getDb, schema, type DB } from "@/db";
+import { resetPasswordMail, sendMail } from "./mail";
+
+const RESET_MINUTES = 30;
 
 function secret() {
   const s = process.env.BETTER_AUTH_SECRET;
@@ -30,7 +33,18 @@ function makeAuth(db: DB) {
         rateLimit: schema.rateLimit,
       },
     }),
-    emailAndPassword: { enabled: true, minPasswordLength: 8, maxPasswordLength: 128, autoSignIn: true },
+    emailAndPassword: {
+      enabled: true,
+      minPasswordLength: 8,
+      maxPasswordLength: 128,
+      autoSignIn: true,
+      // Quên mật khẩu: gửi link đặt lại qua email (lib/mail.ts); link hết hạn sau 30 phút, đặt xong đăng xuất mọi thiết bị
+      sendResetPassword: async ({ user, url }) => {
+        await sendMail(resetPasswordMail(user.email, user.name, url, RESET_MINUTES));
+      },
+      resetPasswordTokenExpiresIn: RESET_MINUTES * 60,
+      revokeSessionsOnPasswordReset: true,
+    },
     // trang cá nhân (/account): xoá tài khoản (cần mật khẩu). Không cho đổi email (chưa có dịch vụ gửi email để xác minh).
     user: { deleteUser: { enabled: true } },
     // /change-email không hỏi mật khẩu → chặn hẳn đường gọi trực tiếp (tính năng cũng đang tắt)
@@ -53,6 +67,8 @@ function makeAuth(db: DB) {
         // đổi mật khẩu / xoá tài khoản cũng thử mật khẩu → giới hạn như đăng nhập
         "/change-password": { window: 600, max: 5 },
         "/delete-user": { window: 600, max: 5 },
+        // mỗi lần là một email gửi đi → chặn spam hộp thư người khác
+        "/request-password-reset": { window: 3600, max: 5 },
       },
     },
     telemetry: { enabled: false },
