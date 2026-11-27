@@ -38,6 +38,36 @@ PASSAGE_MARKERS: dict[str, dict[str, list[str]]] = {
 } if _MARKERS_FILE.exists() else {}
 
 
+# Câu hỏi bị lỗi OCR trong CSV gốc (thiếu dấu phẩy/chấm, dính chữ…), đối chiếu với đề gốc — xem scripts/question_fixes.json
+_QFIX_FILE = Path(__file__).resolve().parent / "question_fixes.json"
+QUESTION_FIXES: dict[str, dict[str, dict[str, str]]] = {
+    k: v for k, v in json.loads(_QFIX_FILE.read_text(encoding="utf-8")).items() if not k.startswith("_")
+} if _QFIX_FILE.exists() else {}
+
+
+def apply_question_fix(text: str, test_id: str, n: int, report: "Report", where: str) -> str:
+    fix = QUESTION_FIXES.get(test_id, {}).get(str(n))
+    if not fix:
+        return text
+    if text != fix["from"]:
+        report.add("warn", test_id, where, f"Câu {n}: CSV đã khác 'from' trong question_fixes.json — chưa áp bản sửa")
+        return text
+    report.add("fixed", test_id, where, f"Câu {n}: sửa câu hỏi theo question_fixes.json")
+    return fix["to"]
+
+
+# chỗ trống Part 5 trong CSV viết đủ kiểu ("----", "—---", "- - - -", "——--") → thống nhất "-------"
+_P5_BLANK = re.compile(r"(?<![\w-])[-–—_](?:\s?[-–—_])+(?![\w-])|[-–—_]{3,}")
+
+
+def normalize_p5_blank(text: str) -> str:
+    text = _P5_BLANK.sub("-------", text)
+    text = re.sub(r"-------(?=[A-Za-z])", "------- ", text)  # "-------in the" → "------- in the"
+    text = re.sub(r"(?<=\S)-------", " -------", text)
+    text = re.sub(r"------- ([.,;:?!])", r"-------\1", text)  # "------- ." → "-------."
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+
 def apply_passage_markers(group: dict, test_id: str, report: "Report", where: str) -> None:
     """Chèn dấu [n] còn thiếu vào bài đọc tiếng Anh của nhóm theo passage_markers.json."""
     for q in group["questions"]:
@@ -393,10 +423,14 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
             if not explain:
                 report.add("warn", test_id, where, f"Câu {n}: thiếu giải thích")
 
+            question = apply_question_fix(clean_text(rec.get("question", "")), test_id, n, report, where)
+            if part == 5:
+                question = normalize_p5_blank(question)
+
             rows.append({
                 "number": n,
                 "where": where,
-                "question": clean_text(rec.get("question", "")),
+                "question": question,
                 "options": options,
                 "answer": ans,
                 "explanation": explain,

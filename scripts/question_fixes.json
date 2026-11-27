@@ -1,0 +1,267 @@
+{
+ "_doc": "Sửa câu hỏi bị lỗi OCR trong CSV gốc (thiếu dấu phẩy/chấm, dính chữ…). Dạng {đề: {câu: {from, to}}}; ETL chỉ thay khi câu trong CSV đúng bằng 'from', lệch thì báo cảnh báo.",
+ "2022-test1": {
+  "111": {
+   "from": "Payments made -------- 4:00 p.M. will be processed on the following business day.",
+   "to": "Payments made -------- 4:00 P.M. will be processed on the following business day."
+  },
+  "124": {
+   "from": "An upgrade in software would increase the productivity of our administrative staff ----.",
+   "to": "An upgrade in software would ---- increase the productivity of our administrative staff."
+  }
+ },
+ "2022-test2": {
+  "108": {
+   "from": "Al's Café will now be open on Sundays ----- the hours of 9 A.M. and 5 p.M.",
+   "to": "Al's Café will now be open on Sundays ----- the hours of 9 A.M. and 5 P.M."
+  }
+ },
+ "2022-test3": {
+  "115": {
+   "from": "The city council will discuss certain policies, parinitray those made ---- the previous administration.",
+   "to": "The city council will discuss certain policies, particularly those made ---- the previous administration."
+  },
+  "119": {
+   "from": "The ideal operating temperature for the tablet computer is —--- 10 and 30 degrees Celsius,",
+   "to": "The ideal operating temperature for the tablet computer is —--- 10 and 30 degrees Celsius."
+  },
+  "122": {
+   "from": "The spreadsheet ---- data on retail sales during the fourth quarter is attached",
+   "to": "The spreadsheet ---- data on retail sales during the fourth quarter is attached."
+  },
+  "126": {
+   "from": "Our internship combines lectures with real world projects to provide formal instruction ---- professional experience.",
+   "to": "Our internship combines lectures with real-world projects to provide formal instruction ---- professional experience."
+  }
+ },
+ "2022-test4": {
+  "105": {
+   "from": "Ardentine Realty is ----- seeking newrental properties for its portfolio.",
+   "to": "Ardentine Realty is ----- seeking new rental properties for its portfolio."
+  }
+ },
+ "2022-test5": {
+  "102": {
+   "from": "The Knysya Theater requests that all electronic devices be silenced ----- play begins.",
+   "to": "The Knysya Theater requests that all electronic devices be silenced ----- the play begins."
+  },
+  "111": {
+   "from": "We cannot ----- the flming of our documentary, Morning after Night, without sufficient funding.",
+   "to": "We cannot ----- the filming of our documentary, Morning after Night, without sufficient funding."
+  },
+  "127": {
+   "from": "Adopting advanced billing software would improve Narrin Group's fiscal-management precess -----.",
+   "to": "Adopting advanced billing software would improve Narrin Group's fiscal-management process -----."
+  }
+ },
+ "2023-test4": {
+  "124": {
+   "from": "Though Ms. Daiyu — -- handles customer inquiries, Mr. Mei takes over when she gets a special assignment from her manager.",
+   "to": "Though Ms. Daiyu ------- handles customer inquiries, Mr. Mei takes over when she gets a special assignment from her manager."
+  }
+ },
+ "2023-test6": {
+  "119": {
+   "from": "The proposal submitted by Ferrisa Associates did not budget ----- an itemized",
+   "to": "The proposal submitted by Ferrisa Associates did not ----- an itemized budget."
+  },
+  "120": {
+   "from": "The employee handbook ----- uniforms must be worn by all customer service providers.",
+   "to": "The employee handbook ----- states that uniforms must be worn by all customer service providers."
+  },
+  "122": {
+   "from": "Mr. Zasio will need to reschedule his appointment today as his train was -----.",
+   "to": "Mr. Zasio will need to reschedule his appointment today as his train was unexpectedly -----."
+  }
+ },
+ "2023-test8": {
+  "129": {
+   "from": "Ms. Marcus is scheduled to arrive at City Station at 7:13 P.M ----- her train is on time.",
+   "to": "Ms. Marcus is scheduled to arrive at City Station at 7:13 P.M. ----- her train is on time."
+  }
+ },
+ "2023-test9": {
+  "101": {
+   "from": "Edison Delivery's trucks leave the warehouse promptly ----- 6:00 A.M each morning.",
+   "to": "Edison Delivery's trucks leave the warehouse promptly ----- 6:00 A.M. each morning."
+  }
+ },
+ "2024-test7": {
+  "123": {
+   "from": "----- who arrives at the company parking garage after 10:00 a.M. must contact security for an access code.",
+   "to": "----- who arrives at the company parking garage after 10:00 A.M. must contact security for an access code."
+  }
+ },
+ "2024-test8": {
+  "106": {
+   "from": "Cashiers should call for an ---- Cashier when more than three customers are in line.",
+   "to": "Cashiers should call for an ---- cashier when more than three customers are in line."
+  },
+  "120": {
+   "from": "Yoshimi Fashion customers - - - - a secure online shopping experience.",
+   "to": "Yoshimi Fashion customers ------- a secure online shopping experience."
+  }
+ },
+ "2024-test10": {
+  "106": {
+   "from": "At Gallant's Pet Store, customer --- are accepted between 9:00 A.M. and 6:00 p.м.",
+   "to": "At Gallant's Pet Store, customer --- are accepted between 9:00 A.M. and 6:00 P.M."
+  },
+  "125": {
+   "from": "--- poems written by Mike Hanover are included in the new edition of Mewyn's Anthology.",
+   "to": "--- poems written by Mike Hanover are included in the new edition of Merwyn's Anthology."
+  }
+ },
+ "2026-test1": {
+  "101": {
+   "from": "The lecture will take place at 6:00 P.M ----- which attendees may ask questions.",
+   "to": "The lecture will take place at 6:00 P.M., ----- which attendees may ask questions."
+  },
+  "104": {
+   "from": "As a result of ----- many years leading media organizations Ms. Ayo was selected for the Dowel Journalism Prize.",
+   "to": "As a result of ----- many years leading media organizations, Ms. Ayo was selected for the Dowel Journalism Prize."
+  },
+  "105": {
+   "from": "To stop the —- of computer viruses do not open suspicious e-mails.",
+   "to": "To stop the —- of computer viruses, do not open suspicious e-mails."
+  }
+ },
+ "2026-test2": {
+  "106": {
+   "from": "After reading several reviews Mr. Kim was able to decide which printer ----- for the office.",
+   "to": "After reading several reviews, Mr. Kim was able to decide which printer ----- for the office."
+  }
+ },
+ "2026-test3": {
+  "101": {
+   "from": "Despite ---- youth Ms. Cho is already quite popular on social media.",
+   "to": "Despite ---- youth, Ms. Cho is already quite popular on social media."
+  },
+  "125": {
+   "from": "---- a slight decline in revenue from the previous quarter Blakely Components is moving forward with its expansion plan.",
+   "to": "---- a slight decline in revenue from the previous quarter, Blakely Components is moving forward with its expansion plan."
+  }
+ },
+ "2026-test4": {
+  "114": {
+   "from": "---- weeks of record-setting rain expect only blue skies this weekend.",
+   "to": "---- weeks of record-setting rain, expect only blue skies this weekend."
+  },
+  "123": {
+   "from": "At Beautyvale Cosmetics our representatives answer customers' ---- within 24 hours of receipt.",
+   "to": "At Beautyvale Cosmetics, our representatives answer customers' ---- within 24 hours of receipt."
+  },
+  "125": {
+   "from": "In celebration of Ms. Tseng's promotion tea and cookies will be served ------ the meeting.",
+   "to": "In celebration of Ms. Tseng's promotion, tea and cookies will be served ------ the meeting."
+  },
+  "130": {
+   "from": "During checkout cashiers must be able to scan purchased items accurately ----- field questions from customers.",
+   "to": "During checkout, cashiers must be able to scan purchased items accurately ----- field questions from customers."
+  }
+ },
+ "2026-test5": {
+  "103": {
+   "from": "Operating instructions for the printer will be e-mailed to employees ------",
+   "to": "Operating instructions for the printer will be e-mailed to employees ------."
+  },
+  "113": {
+   "from": "The sudden merger of Alvy Brothers and Craford Enterprises ----- most financial analysts.",
+   "to": "The sudden merger of Alvy Brothers and Crawford Enterprises ----- most financial analysts."
+  },
+  "114": {
+   "from": "Of all the mistakes people make in the office, not proofreading their e-mails is one of the -----",
+   "to": "Of all the mistakes people make in the office, not proofreading their e-mails is one of the -----."
+  },
+  "119": {
+   "from": "------ critical reviews the movie was a great success at the box office.",
+   "to": "------ critical reviews, the movie was a great success at the box office."
+  },
+  "128": {
+   "from": "Belker Auto offers a ten-year warranty for ----- Who want greater peace of mind.",
+   "to": "Belker Auto offers a ten-year warranty for ----- who want greater peace of mind."
+  }
+ },
+ "2026-test6": {
+  "108": {
+   "from": "Mr. Aponte's photograph of the autumn foliage will be featured on the front ---- ofOutward Expansion Magazine.",
+   "to": "Mr. Aponte's photograph of the autumn foliage will be featured on the front ---- of Outward Expansion Magazine."
+  },
+  "117": {
+   "from": "The installation of new benches throughout Haverford Park will cost ------- €5000.",
+   "to": "The installation of new benches throughout Haverford Park will cost ------- €5,000."
+  },
+  "129": {
+   "from": "---- 4000 Urlvac trash removal systems are in use in the eastern region.",
+   "to": "---- 4,000 Urlvac trash removal systems are in use in the eastern region."
+  }
+ },
+ "2026-test7": {
+  "104": {
+   "from": "—--- the new branch office was understaffed more workers were hired.",
+   "to": "—--- the new branch office was understaffed, more workers were hired."
+  },
+  "121": {
+   "from": "Rosemont Department Store employees are said to be very well informed, ------ and responsive.",
+   "to": "Rosemont Department Store employees are said to be very well-informed, ------, and responsive."
+  },
+  "123": {
+   "from": "------ some tickets to the concert are still available all the best seats have already been taken.",
+   "to": "------ some tickets to the concert are still available, all the best seats have already been taken."
+  }
+ },
+ "2026-test8": {
+  "110": {
+   "from": "To provide feedback —-- your recent dental appointment please respond to this brief survey.",
+   "to": "To provide feedback —-- your recent dental appointment, please respond to this brief survey."
+  },
+  "118": {
+   "from": "After extensively —-- our hiring policies the consultant recommended a simpler process.",
+   "to": "After extensively —-- our hiring policies, the consultant recommended a simpler process."
+  },
+  "119": {
+   "from": "Under the -----  of Ms. Kenu the historical society's fund-raiser went very well this year.",
+   "to": "Under the ----- of Ms. Kenu, the historical society's fund-raiser went very well this year."
+  },
+  "121": {
+   "from": "----- access the building enter the code listed on the tenant directory.",
+   "to": "----- access the building, enter the code listed on the tenant directory."
+  },
+  "127": {
+   "from": "Later today we will hold a meeting to discuss changes to protocols ------- they go into effect next month.",
+   "to": "Later today, we will hold a meeting to discuss changes to protocols ------- they go into effect next month."
+  },
+  "128": {
+   "from": "Customer service representatives can be reached —--- calling 800-555-0121 between 8:00 A.M. and 4:00 p.M.",
+   "to": "Customer service representatives can be reached —--- calling 800-555-0121 between 8:00 A.M. and 4:00 P.M."
+  }
+ },
+ "2026-test9": {
+  "118": {
+   "from": "------ a delay Thaintech completed the renovation of its warehouse before the target date of April 7.",
+   "to": "------ a delay, Thaintech completed the renovation of its warehouse before the target date of April 7."
+  },
+  "129": {
+   "from": "------- route they choose it should take the management team approximately four hours to drive to the hotel in Antibes.",
+   "to": "------- route they choose, it should take the management team approximately four hours to drive to the hotel in Antibes."
+  }
+ },
+ "2026-test10": {
+  "128": {
+   "from": "------ the fact that the use of social media is widespread many people still rely on newspapers for fact-checked information.",
+   "to": "------ the fact that the use of social media is widespread, many people still rely on newspapers for fact-checked information."
+  }
+ },
+ "2022-test8": {
+  "124": {
+   "from": "The general manager has implemented a system to fill online orders of costume jewelry lines more -----",
+   "to": "The general manager has implemented a system to fill online orders of costume jewelry lines more -----."
+  }
+ },
+ "2025-test9": {
+  "120": {
+   "from": "Each year, the - of the Barnes Engineering Conference pose for a commemorative group photo.",
+   "to": "Each year, the ------- of the Barnes Engineering Conference pose for a commemorative group photo."
+  }
+ }
+}
