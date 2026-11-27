@@ -3,7 +3,7 @@
 - Số đề: **48**
 - Lỗi (cần sửa tay): **3**
 - Cảnh báo: **0**
-- Đã tự sửa: **967**
+- Đã tự sửa: **968**
 
 ## Tổng quan theo đề
 
@@ -37,7 +37,7 @@
 | 2024-test6 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2024-test7 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
 | 2024-test8 | 200 | ✅ | 0 | 0 | 0 | 0 | 7 |
-| 2024-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
+| 2024-test9 | 200 | ✅ | 0 | 0 | 0 | 0 | 1 |
 | 2024-test10 | 200 | ✅ | 0 | 0 | 0 | 0 | 2 |
 | 2025-test1 | 200 | ✅ | 0 | 0 | 0 | 0 | 0 |
 | 2025-test2 | 200 | ✅ | 0 | 0 | 0 | 0 | 2 |
@@ -79,7 +79,7 @@
 ## Cảnh báo (0)
 
 
-## Đã tự sửa (967)
+## Đã tự sửa (968)
 
 | Loại sửa | Số lần |
 |---|---|
@@ -95,5 +95,6 @@
 | URL image → file local test…-image-….jpg | 6 |
 | Audio riêng cắt lại từ audio cả đề (file gốc sai) | 5 |
 | Header thiếu cột Transcript — gán cột thừa làm Transcript | 4 |
+| Tách bài đọc dính chung: nhóm từ câu … sang nhóm riêng | 1 |
 | URL image → file local im…-… test…-p….png | 1 |
 | URL image → file local im…-… (…) test…-p….png | 1 |

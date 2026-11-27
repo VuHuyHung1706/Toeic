@@ -83,6 +83,10 @@ scripts/fix_group_audio.mjs cắt lại audio riêng của nhóm câu bị gán 
                             → Data/<năm>/<testN>/audio/fixed/ (chạy sau audio_timeline, trước ETL; rồi media:upload)
 scripts/passage_markers.json vị trí chèn câu [1]–[4] bị thiếu trong CSV gốc (Part 7 "positions marked"); ETL tự chèn
                             vào bài tiếng Anh rồi chép sang bản dịch khi khớp từng dòng
+scripts/question_fixes.json câu hỏi sửa tay (lỗi OCR: thiếu dấu phẩy/chấm, dính chữ…) dạng {from, to}; CSV đổi thì ETL cảnh báo
+scripts/p7_directions.json  loại văn bản Part 7 theo dòng hướng dẫn của đề ("refer to the following e-mails and notice"),
+                            OCR từ ảnh scan đề. Ảnh scan: Data/<năm>/<testN>/image/scan/p7-147-148.jpg (-1, -2… khi nhiều
+                            trang) → nút "Bản scan đề" ở Part 7; nhớ chạy media:upload sau khi thêm ảnh
 scripts/import_phrases.py   nhập danh sách cụm từ đi với giới từ (file JSON) → content/phrases.json (mục "Cụm giới từ" ở trang Từ vựng)
 src/components/CbtRoom.tsx  giao diện thi thật mô phỏng máy thi TOEIC trên máy tính (IIG)
 scripts/passage.py          chuẩn hoá bài đọc Part 6/7 (ký hiệu chèn câu [1]–[4], dòng phân cách giữa các văn bản)

@@ -7682,6 +7682,13 @@
         }
        }
       }
+     ],
+     "directions": "invoice",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7768,6 +7775,13 @@
        "evidence": [
         "That's good to know"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-149-150.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7860,6 +7874,13 @@
         "I have needed to use an extension cord pretty much every time I use it, so be prepared to do the same"
        ]
       }
+     ],
+     "directions": "product review",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-151-152.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7949,6 +7970,13 @@
        "evidence": [
         "the director of security"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-153-154.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8075,6 +8103,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-155-157.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8187,6 +8222,13 @@
         "$2,000 due upon signing of contract"
        ]
       }
+     ],
+     "directions": "estimate",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-158-160.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8293,6 +8335,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Mỗi cặp quần jean đi kèm với một nhãn lớn hiển thị hướng dẫn chăm sóc.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-161-163.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8451,6 +8500,13 @@
        "evidence": [
         "additional connection to Highway 35 to be completed in five years"
        ]
+      }
+     ],
+     "directions": "brochure",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-164-167.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8616,6 +8672,13 @@
         "Well, I could really use the overtime hours"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-168-171.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8752,6 +8815,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Tất nhiên, việc thay thế các mẫu hiện có sẽ tốn kém hơn.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "summary of a report",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-172-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8957,6 +9027,17 @@
         "her solar design generates a high surplus of electricity beyond the building's requirements"
        ]
       }
+     ],
+     "directions": "announcement and article",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9156,6 +9237,17 @@
         "I'd like to get a new one"
        ]
       }
+     ],
+     "directions": "instructions and e-mail",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9354,6 +9446,21 @@
         "Guided butterfly sanctuary tour"
        ]
       }
+     ],
+     "directions": "Web page, e-mail, and invoice",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9370,8 +9477,8 @@
      "images": [],
      "passages": [
       {
-       "en": "15th Annual Innovations in Horticulture and Agriculture Conference\nAt the renovated Blane Hotel and Conference Centre, London, UK\n10-12 November\ninnovationsinhorticulture.org.uk\nFeatured Speakers:\n*  Chen Wan, China\n*  Hope O'Brian, United Kingdom\n*  Piet Bax, Netherlands\n*  Emil Savov, Bulgaria\nFor more information and to register, visit the Innovations in Horticulture and Agriculture Web site. Student discounts available with ID. A limited number of hotel rooms are available at the conference site. There is a complimentary bus service for attendees staying at nearby hotels.\n==========\nE-Mail Message\nTo: Piet Bax <pbax@mailcrate.com/v\nFrom: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nSubject: Lighting Information\nDate: mailto: 18 December\nDear Mr. Bax:\nIt was wonderful meeting you in London last month. Thank you for taking the time to talk to me after your speech and for agreeing to the video meeting on 5 January. I'm going to ask my project manager, Ms. Woo-Jin Ko, to join us. Among other things, Ms. Ko has some questions about lighting for my greenhouses. I think she has some questions about the products offered by the Brillante Luxlight company. I understand you helped design some of their products, so perhaps you can offer some advice. I know we'll both have many other questions, so I do appreciate this opportunity. I also hope I will be able to visit sometime in the spring and get an in-person look at your greenhouses.\nSincerely,\nJacob Brewster\n==========\nTo: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nFrom: Juana Galvez <jgalvez@brillanteluxlight.com.mx>\nSubject: Agreement\nDate: 30 January\nDear Mr. Brewster:\nWe received the request and the design specifications from you. Unfortunately, the recent inclement weather has delayed the shipments of some materials we need to begin production. However, once these materials arrive, we will fast-track your order and begin production immediately.\nSincerely,\nJuana Galvez",
-       "vi": "Hội nghị Đổi mới trong Làm vườn và Nông nghiệp lần thứ 15\nTại Khách sạn và Trung tâm Hội nghị Blane đã được cải tạo, London, Vương quốc Anh\n10-12 tháng 11\ninnovationsinhorticulture.org.uk\nDiễn giả nổi bật:\n* Chen Wan, Trung Quốc\n* Hope O'Brian, Vương quốc Anh\n* Piet Bax, Hà Lan\n* Emil Savov, Bulgaria\nĐể biết thêm thông tin và đăng ký, hãy truy cập trang web Innovations in Horticulture and Agriculture. Có giảm giá cho sinh viên khi có ID. Có một số lượng hạn chế phòng khách sạn tại địa điểm hội nghị. Có dịch vụ xe buýt miễn phí cho những người tham dự ở tại các khách sạn gần đó.\n==========\nThư điện tử\nGửi: Piet Bax <pbax@mailcrate.com/v\nTừ: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nChủ đề: Thông tin về Ánh sáng\nNgày: 18 tháng 12\nKính gửi ông Bax:\nThật tuyệt vời khi được gặp ông ở London tháng trước. Cảm ơn ông đã dành thời gian nói chuyện với tôi sau bài phát biểu của ông và đồng ý cuộc họp video vào ngày 5 tháng 1. Tôi sẽ mời quản lý dự án của tôi, cô Woo-Jin Ko, tham gia cùng chúng ta. Trong số những điều khác, cô Ko có một số câu hỏi về hệ thống chiếu sáng cho nhà kính của tôi. Tôi nghĩ cô ấy có một số câu hỏi về các sản phẩm được cung cấp bởi công ty Brillante Luxlight. Tôi hiểu rằng ông đã giúp thiết kế một số sản phẩm của họ, vì vậy có lẽ ông có thể đưa ra một số lời khuyên. Tôi biết cả hai chúng tôi sẽ có nhiều câu hỏi khác, vì vậy tôi rất đánh giá cao cơ hội này. Tôi cũng hy vọng sẽ có thể đến thăm vào mùa xuân và xem trực tiếp nhà kính của ông.\nTrân trọng,\nJacob Brewster\n==========\nGửi: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nTừ: Juana Galvez <jgalvez@brillanteluxlight.com.mx>\nChủ đề: Thỏa thuận\nNgày: 30 tháng 1\nKính gửi ông Brewster:\nChúng tôi đã nhận được yêu cầu và thông số kỹ thuật thiết kế từ ông. Thật không may, thời tiết xấu gần đây đã làm chậm trễ việc vận chuyển một số vật liệu chúng tôi cần để bắt đầu sản xuất. Tuy nhiên, một khi những vật liệu này đến, chúng tôi sẽ ưu tiên đơn hàng của ông và bắt đầu sản xuất ngay lập tức.\nTrân trọng,\nJuana Galvez"
+       "en": "15th Annual Innovations in Horticulture and Agriculture Conference\nAt the renovated Blane Hotel and Conference Centre, London, UK\n10-12 November\ninnovationsinhorticulture.org.uk\nFeatured Speakers:\n*  Chen Wan, China\n*  Hope O'Brian, United Kingdom\n*  Piet Bax, Netherlands\n*  Emil Savov, Bulgaria\nFor more information and to register, visit the Innovations in Horticulture and Agriculture Web site. Student discounts available with ID. A limited number of hotel rooms are available at the conference site. There is a complimentary bus service for attendees staying at nearby hotels.\n==========\nTo: Piet Bax <pbax@mailcrate.com/v\nFrom: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nSubject: Lighting Information\nDate: mailto: 18 December\nDear Mr. Bax:\nIt was wonderful meeting you in London last month. Thank you for taking the time to talk to me after your speech and for agreeing to the video meeting on 5 January. I'm going to ask my project manager, Ms. Woo-Jin Ko, to join us. Among other things, Ms. Ko has some questions about lighting for my greenhouses. I think she has some questions about the products offered by the Brillante Luxlight company. I understand you helped design some of their products, so perhaps you can offer some advice. I know we'll both have many other questions, so I do appreciate this opportunity. I also hope I will be able to visit sometime in the spring and get an in-person look at your greenhouses.\nSincerely,\nJacob Brewster\n==========\nTo: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nFrom: Juana Galvez <jgalvez@brillanteluxlight.com.mx>\nSubject: Agreement\nDate: 30 January\nDear Mr. Brewster:\nWe received the request and the design specifications from you. Unfortunately, the recent inclement weather has delayed the shipments of some materials we need to begin production. However, once these materials arrive, we will fast-track your order and begin production immediately.\nSincerely,\nJuana Galvez",
+       "vi": "Hội nghị Đổi mới trong Làm vườn và Nông nghiệp lần thứ 15\nTại Khách sạn và Trung tâm Hội nghị Blane đã được cải tạo, London, Vương quốc Anh\n10-12 tháng 11\ninnovationsinhorticulture.org.uk\nDiễn giả nổi bật:\n* Chen Wan, Trung Quốc\n* Hope O'Brian, Vương quốc Anh\n* Piet Bax, Hà Lan\n* Emil Savov, Bulgaria\nĐể biết thêm thông tin và đăng ký, hãy truy cập trang web Innovations in Horticulture and Agriculture. Có giảm giá cho sinh viên khi có ID. Có một số lượng hạn chế phòng khách sạn tại địa điểm hội nghị. Có dịch vụ xe buýt miễn phí cho những người tham dự ở tại các khách sạn gần đó.\n==========\nGửi: Piet Bax <pbax@mailcrate.com/v\nTừ: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nChủ đề: Thông tin về Ánh sáng\nNgày: 18 tháng 12\nKính gửi ông Bax:\nThật tuyệt vời khi được gặp ông ở London tháng trước. Cảm ơn ông đã dành thời gian nói chuyện với tôi sau bài phát biểu của ông và đồng ý cuộc họp video vào ngày 5 tháng 1. Tôi sẽ mời quản lý dự án của tôi, cô Woo-Jin Ko, tham gia cùng chúng ta. Trong số những điều khác, cô Ko có một số câu hỏi về hệ thống chiếu sáng cho nhà kính của tôi. Tôi nghĩ cô ấy có một số câu hỏi về các sản phẩm được cung cấp bởi công ty Brillante Luxlight. Tôi hiểu rằng ông đã giúp thiết kế một số sản phẩm của họ, vì vậy có lẽ ông có thể đưa ra một số lời khuyên. Tôi biết cả hai chúng tôi sẽ có nhiều câu hỏi khác, vì vậy tôi rất đánh giá cao cơ hội này. Tôi cũng hy vọng sẽ có thể đến thăm vào mùa xuân và xem trực tiếp nhà kính của ông.\nTrân trọng,\nJacob Brewster\n==========\nGửi: Jacob Brewster <jbrewster@ sootenfarms.co.uk>\nTừ: Juana Galvez <jgalvez@brillanteluxlight.com.mx>\nChủ đề: Thỏa thuận\nNgày: 30 tháng 1\nKính gửi ông Brewster:\nChúng tôi đã nhận được yêu cầu và thông số kỹ thuật thiết kế từ ông. Thật không may, thời tiết xấu gần đây đã làm chậm trễ việc vận chuyển một số vật liệu chúng tôi cần để bắt đầu sản xuất. Tuy nhiên, một khi những vật liệu này đến, chúng tôi sẽ ưu tiên đơn hàng của ông và bắt đầu sản xuất ngay lập tức.\nTrân trọng,\nJuana Galvez"
       }
      ],
      "questions": [
@@ -9550,6 +9657,21 @@
         "lighting for my greenhouses",
         "products offered by the Brillante Luxlight company"
        ]
+      }
+     ],
+     "directions": "advertisement and e-mails",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9752,6 +9874,21 @@
        "evidence": [
         "on nearly half of those occasions, the pool was not available for use"
        ]
+      }
+     ],
+     "directions": "advertisement, review, and e-mail",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test5/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

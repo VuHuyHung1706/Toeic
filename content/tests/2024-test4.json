@@ -7394,6 +7394,13 @@
         }
        }
       }
+     ],
+     "directions": "receipt",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7475,6 +7482,13 @@
          "meaning": "Nó có phòng tiếp thị riêng."
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7558,6 +7572,13 @@
         }
        }
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7639,6 +7660,13 @@
          "meaning": "gia hạn bảo hành sản phẩm"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7760,6 +7788,13 @@
         "the Perth branch meets the first Saturday of every month"
        ]
       }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7880,6 +7915,13 @@
         "If your contractor determines that your roof can handle the extra weight of soil, plants, and irrigation"
        ]
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7997,6 +8039,13 @@
          "meaning": "Họ có bằng cấp về âm nhạc."
         }
        }
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8128,6 +8177,13 @@
        "explanation": "Câu 167: Đáp án đúng là C.\nDịch nghĩa câu được cho: Các nhân viên cấp cao sẽ thay mặt toàn bộ văn phòng trao tặng một tấm bảng kỷ niệm.\nXét những câu trước các chỗ trống, câu trước chỗ trống [3] đề cập về việc nhân viên không cần mang quà theo. Sau câu trích dẫn thể hiện yêu cầu làm một việc là ký thiệp.\nCâu trích dẫn trong câu hỏi thể hiện ý thay vì nhân viên mang quà theo thì cả công ty sẽ có một tấm bảng kỷ niệm để tặng và các nhân viễn sẽ ký thiệp.\nVì vậy, vị trí thứ [3] là phù hợp nhất.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8272,6 +8328,13 @@
         }
        }
       }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8411,6 +8474,13 @@
        "evidence": [
         "Our hotel will offer 80 rooms with two restaurants on-site"
        ]
+      }
+     ],
+     "directions": "post on a Web site",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8599,6 +8669,17 @@
         "I looked for one that I could download from your Web site, but I could not find anything"
        ]
       }
+     ],
+     "directions": "e-mails",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8749,6 +8830,17 @@
        "evidence": [
         "all mystery fans"
        ]
+      }
+     ],
+     "directions": "schedule and review",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8933,6 +9025,21 @@
         "Yuma County now produces as many grapefruit as it does oranges"
        ]
       }
+     ],
+     "directions": "report, letter, and article",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8949,8 +9056,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Unetcon - Message Center\nPending Invitations\nFrom: Don Fitzpatrick\nBranch Manager, Wilsonville Financial\nTo: Audrey Smith\nDear Audrey,\nPlease accept this invitation to connect professionally on Unetcon. I am a fellow Stonerook University graduate and am always looking to expand my network. In this case, I am also reaching out to see if you would be interested in joining the private Stonerook alumni group page to stay current with everything that our fellow graduates are up to. https://www.unetcon.org/private/stonerookugrads.\nKind regards,\nDon Fitzpatrick\nAccept Invitation. Ignore Invitation. Reply to Don\n==========\nStonerook University Graduates\nCheck out the continued success and latest updates from Stonerook graduate Jonah Hilliard.\nCurrent: Director, Albright School of Business\nFounder and Director, Clear Path\nContact\nPhone: 843-555-0139\nE-mail: hilliard@mccleese.edu\nOffice: 403 Cordon Hall\n530 N Kensington St.\nCharleston, SC 29425\nEducation: Master of Business Administration - Tumbull University\nBachelor of Arts in Education Studies - Stonerook University\nProfessional: Mr. Hilliard has led the Albright School of Business since 2017.\nBetween 2007 and 2017, he carried out extensive research on emerging markets in West Africa while teaching business management in Lagos, Nigeria.\nTwo years ago, he founded Clear Path, a business that advises students from around the globe who wish to pursue studies in the United States.\n==========\n*E-mail*\nFrom: Audrey Smith <audrey_smith80@rapidonet.co.uk>\nTo: Jonah Hilliard <jhilliard@mccleese.edu>\nDate: 19 September\nSubject: Referral\nDear Jonah,\nIt has been a long time since we last talked. I recently came across your profile on Unetcon and saw that you are now leading the business school at McCleese! My research in Lagos ended last year, when I accepted a position as lead consultant at Pryor and Martell. I have been based here in Manchester ever since.\nCongratulations to you on your most recent business venture—Clear Path already has quite an impressive reputation! I have a nephew who is interested in pursuing a degree in management information systems in the United States, and I was hoping I could put you both in touch so that he can take advantage of your new company's expertise in this area.\nBest,\nAudrey Smith",
-       "vi": "Unetcon - Trung tâm tin nhắn\nLời mời đang chờ\nTừ: Don Fitzpatrick\nGiám đốc chi nhánh, Wilsonville Financial\nGửi đến: Audrey Smith\nKính gửi Audrey,\nVui lòng chấp nhận lời mời này để kết nối chuyên nghiệp trên Unetcon. Tôi là một cựu sinh viên tốt nghiệp Đại học Stonerook và luôn muốn mở rộng mạng lưới của mình. Trong trường hợp này, tôi cũng đang liên hệ để xem bạn có muốn tham gia trang nhóm cựu sinh viên Stonerook riêng tư để cập nhật mọi thông tin mà các cựu sinh viên khác đang làm không. https://www.unetcon.org/private/stonerookugrads.\nTrân trọng,\nDon Fitzpatrick\nChấp nhận lời mời. Bỏ qua lời mời. Trả lời Don\n==========\nSinh viên tốt nghiệp Đại học Stonerook\nXem thành công liên tục và tin tức mới nhất từ ​​Jonah Hilliard, sinh viên tốt nghiệp Stonerook.\nHiện tại: Giám đốc, Trường Kinh doanh Albright\nNgười sáng lập và Giám đốc, Clear Path\nLiên hệ\nĐiện thoại: 843-555-0139\nEmail: hilliard@mccleese.edu\nVăn phòng: 403 Cordon Hall\n530 N Kensington St.\nCharleston, SC 29425\nHọc vấn: Thạc sĩ Quản trị Kinh doanh - Đại học Tumbull\nCử nhân Nghệ thuật về Nghiên cứu Giáo dục - Đại học Stonerook\nChuyên môn: Ông Hilliard đã lãnh đạo Trường Kinh doanh Albright từ năm 2017.\nTừ năm 2007 đến năm 2017, ông đã tiến hành nghiên cứu sâu rộng về các thị trường mới nổi ở Tây Phi trong khi giảng dạy quản lý kinh doanh tại Lagos, Nigeria.\nHai năm trước, ông đã thành lập Clear Path, một doanh nghiệp tư vấn cho sinh viên trên toàn thế giới muốn theo đuổi việc học tại Hoa Kỳ.\n==========\n*E-mail*\nTừ: Audrey Smith <audrey_smith80@rapidonet.co.uk>\nĐến: Jonah Hilliard <jhilliard@mccleese.edu>\nNgày: 19 tháng 9\nTiêu đề: Giới thiệu\nKính gửi Jonah,\nĐã lâu rồi chúng ta không nói chuyện. Gần đây tôi tình cờ thấy hồ sơ của bạn trên Unetcon và thấy rằng hiện bạn đang lãnh đạo trường kinh doanh tại McCleese! Nghiên cứu của tôi tại Lagos đã kết thúc vào năm ngoái, khi tôi nhận một vị trí là cố vấn chính tại Pryor và Martell. Tôi đã làm việc tại Manchester kể từ đó.\nXin chúc mừng bạn về dự án kinh doanh gần đây nhất của mình—Clear Path đã có một danh tiếng khá ấn tượng! Tôi có một người cháu trai đang muốn theo đuổi bằng cấp về hệ thống thông tin quản lý tại Hoa Kỳ và tôi hy vọng có thể kết nối hai bạn để cháu tôi có thể tận dụng được chuyên môn của công ty mới của hai bạn trong lĩnh vực này.\nTrân trọng,\nAudrey Smith"
+       "en": "Unetcon - Message Center\nPending Invitations\nFrom: Don Fitzpatrick\nBranch Manager, Wilsonville Financial\nTo: Audrey Smith\nDear Audrey,\nPlease accept this invitation to connect professionally on Unetcon. I am a fellow Stonerook University graduate and am always looking to expand my network. In this case, I am also reaching out to see if you would be interested in joining the private Stonerook alumni group page to stay current with everything that our fellow graduates are up to. https://www.unetcon.org/private/stonerookugrads.\nKind regards,\nDon Fitzpatrick\nAccept Invitation. Ignore Invitation. Reply to Don\n==========\nStonerook University Graduates\nCheck out the continued success and latest updates from Stonerook graduate Jonah Hilliard.\nCurrent: Director, Albright School of Business\nFounder and Director, Clear Path\nContact\nPhone: 843-555-0139\nE-mail: hilliard@mccleese.edu\nOffice: 403 Cordon Hall\n530 N Kensington St.\nCharleston, SC 29425\nEducation: Master of Business Administration - Tumbull University\nBachelor of Arts in Education Studies - Stonerook University\nProfessional: Mr. Hilliard has led the Albright School of Business since 2017.\nBetween 2007 and 2017, he carried out extensive research on emerging markets in West Africa while teaching business management in Lagos, Nigeria.\nTwo years ago, he founded Clear Path, a business that advises students from around the globe who wish to pursue studies in the United States.\n==========\nFrom: Audrey Smith <audrey_smith80@rapidonet.co.uk>\nTo: Jonah Hilliard <jhilliard@mccleese.edu>\nDate: 19 September\nSubject: Referral\nDear Jonah,\nIt has been a long time since we last talked. I recently came across your profile on Unetcon and saw that you are now leading the business school at McCleese! My research in Lagos ended last year, when I accepted a position as lead consultant at Pryor and Martell. I have been based here in Manchester ever since.\nCongratulations to you on your most recent business venture—Clear Path already has quite an impressive reputation! I have a nephew who is interested in pursuing a degree in management information systems in the United States, and I was hoping I could put you both in touch so that he can take advantage of your new company's expertise in this area.\nBest,\nAudrey Smith",
+       "vi": "Unetcon - Trung tâm tin nhắn\nLời mời đang chờ\nTừ: Don Fitzpatrick\nGiám đốc chi nhánh, Wilsonville Financial\nGửi đến: Audrey Smith\nKính gửi Audrey,\nVui lòng chấp nhận lời mời này để kết nối chuyên nghiệp trên Unetcon. Tôi là một cựu sinh viên tốt nghiệp Đại học Stonerook và luôn muốn mở rộng mạng lưới của mình. Trong trường hợp này, tôi cũng đang liên hệ để xem bạn có muốn tham gia trang nhóm cựu sinh viên Stonerook riêng tư để cập nhật mọi thông tin mà các cựu sinh viên khác đang làm không. https://www.unetcon.org/private/stonerookugrads.\nTrân trọng,\nDon Fitzpatrick\nChấp nhận lời mời. Bỏ qua lời mời. Trả lời Don\n==========\nSinh viên tốt nghiệp Đại học Stonerook\nXem thành công liên tục và tin tức mới nhất từ ​​Jonah Hilliard, sinh viên tốt nghiệp Stonerook.\nHiện tại: Giám đốc, Trường Kinh doanh Albright\nNgười sáng lập và Giám đốc, Clear Path\nLiên hệ\nĐiện thoại: 843-555-0139\nEmail: hilliard@mccleese.edu\nVăn phòng: 403 Cordon Hall\n530 N Kensington St.\nCharleston, SC 29425\nHọc vấn: Thạc sĩ Quản trị Kinh doanh - Đại học Tumbull\nCử nhân Nghệ thuật về Nghiên cứu Giáo dục - Đại học Stonerook\nChuyên môn: Ông Hilliard đã lãnh đạo Trường Kinh doanh Albright từ năm 2017.\nTừ năm 2007 đến năm 2017, ông đã tiến hành nghiên cứu sâu rộng về các thị trường mới nổi ở Tây Phi trong khi giảng dạy quản lý kinh doanh tại Lagos, Nigeria.\nHai năm trước, ông đã thành lập Clear Path, một doanh nghiệp tư vấn cho sinh viên trên toàn thế giới muốn theo đuổi việc học tại Hoa Kỳ.\n==========\nTừ: Audrey Smith <audrey_smith80@rapidonet.co.uk>\nĐến: Jonah Hilliard <jhilliard@mccleese.edu>\nNgày: 19 tháng 9\nTiêu đề: Giới thiệu\nKính gửi Jonah,\nĐã lâu rồi chúng ta không nói chuyện. Gần đây tôi tình cờ thấy hồ sơ của bạn trên Unetcon và thấy rằng hiện bạn đang lãnh đạo trường kinh doanh tại McCleese! Nghiên cứu của tôi tại Lagos đã kết thúc vào năm ngoái, khi tôi nhận một vị trí là cố vấn chính tại Pryor và Martell. Tôi đã làm việc tại Manchester kể từ đó.\nXin chúc mừng bạn về dự án kinh doanh gần đây nhất của mình—Clear Path đã có một danh tiếng khá ấn tượng! Tôi có một người cháu trai đang muốn theo đuổi bằng cấp về hệ thống thông tin quản lý tại Hoa Kỳ và tôi hy vọng có thể kết nối hai bạn để cháu tôi có thể tận dụng được chuyên môn của công ty mới của hai bạn trong lĩnh vực này.\nTrân trọng,\nAudrey Smith"
       }
      ],
      "questions": [
@@ -9105,6 +9212,21 @@
          "meaning": "Nộp đơn xin việc tại Albright School of Business."
         }
        }
+      }
+     ],
+     "directions": "invitation, Web page, and e-mail",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9292,6 +9414,21 @@
          "meaning": "phỏng vấn một số sinh viên"
         }
        }
+      }
+     ],
+     "directions": "brochure, article, and e-mail",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test4/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

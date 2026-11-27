@@ -7436,7 +7436,7 @@
      "images": [],
      "passages": [
       {
-       "en": "PART 7\nDirections: In this part you will read a selection of texts, such as magazine and newspaper articles, e-mails, and instant messages. Each text or set of texts is followed by several questions. Select the best answer for each question and mark the letter (A), (B), (C), or (D) on your answer sheet.\nQuestions 147-148 refer to the following advertisement.\nOwl and Moon\nBuy one mattress, and choose one of our beautiful rugs for free!\nUse the following coupon code when you check out at owlandmoon.co.uk:\nESSZRS4T.\nOur mattresses are shipped directly to your home and usually arrive within one week.\nTry out a mattress for 90 days, and if you are not happy with it, send it back for a full refund. We also offer low-interest financing for two years on all our furniture.",
+       "en": "Owl and Moon\nBuy one mattress, and choose one of our beautiful rugs for free!\nUse the following coupon code when you check out at owlandmoon.co.uk:\nESSZRS4T.\nOur mattresses are shipped directly to your home and usually arrive within one week.\nTry out a mattress for 90 days, and if you are not happy with it, send it back for a full refund. We also offer low-interest financing for two years on all our furniture.",
        "vi": "Owl and Moon\nMua một tấm nệm và chọn một trong những tấm thảm đẹp của chúng tôi miễn phí!\nSử dụng mã phiếu giảm giá sau khi bạn thanh toán tại owlandmoon.co.uk:\nESSZRS4T.\nNệm của chúng tôi được vận chuyển trực tiếp đến nhà bạn và thường đến trong vòng một tuần.\nHãy thử một tấm nệm trong 90 ngày và nếu bạn không hài lòng với nó, hãy gửi lại để được hoàn tiền đầy đủ. Chúng tôi cũng cung cấp tài trợ lãi suất thấp trong hai năm cho tất cả đồ nội thất của chúng tôi."
       }
      ],
@@ -7513,6 +7513,13 @@
         "if you are not happy with it, send it back for a full refund"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7526,8 +7533,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-mail\nTo: Demarco Hines <d.hines@worldmail.com>\nFrom: Soon Yi Park <customerservice@thebestbags.co.kr>\nSubject: Item F208 (canvas overnight bag)\nDate: 19 June\nDear Mr. Hines,\nThe Best Bags canvas overnight bag you ordered is not currently available in the colour you requested. There are several options available to you.\n1. Cancel your order, and we will gladly refund your money in full.\n2. Select a different colour. That item is currently available in light blue, dark green, and dark gray.\n3. Choose an item of equal value from our Web site or catalogue.\n4. Wait until the item you ordered is back in stock in light gray. Allow three to five weeks.\nPlease let us know which option you prefer. We apologize for any inconvenience.\nThank you,\nSoon Yi Park, Customer Service Agent",
-       "vi": "E-mail\nGửi đến: Demarco Hines <d.hines@worldmail.com>\nTừ: Soon Yi Park <customerservice@thebestbags.co.kr>\nTiêu đề: Mặt hàng F208 (túi vải qua đêm)\nNgày: 19 tháng 6\nKính gửi Ông Hines,\nTúi vải qua đêm Best Bags mà bạn đã đặt hiện không có sẵn màu bạn yêu cầu. Có một số tùy chọn có sẵn cho bạn.\n1. Hủy đơn hàng của bạn và chúng tôi sẽ vui lòng hoàn lại toàn bộ tiền của bạn.\n2. Chọn một màu khác. Mặt hàng đó hiện có màu xanh lam nhạt, xanh lục đậm và xám đậm.\n3. Chọn một mặt hàng có giá trị tương đương từ trang web hoặc danh mục của chúng tôi.\n4. Đợi cho đến khi mặt hàng bạn đã đặt có hàng trở lại màu xám nhạt. Đợi từ ba đến năm tuần.\nVui lòng cho chúng tôi biết tùy chọn nào bạn thích. Chúng tôi xin lỗi vì bất kỳ sự bất tiện nào.\nCảm ơn bạn,\nSoon Yi Park, Nhân viên dịch vụ khách hàng"
+       "en": "To: Demarco Hines <d.hines@worldmail.com>\nFrom: Soon Yi Park <customerservice@thebestbags.co.kr>\nSubject: Item F208 (canvas overnight bag)\nDate: 19 June\nDear Mr. Hines,\nThe Best Bags canvas overnight bag you ordered is not currently available in the colour you requested. There are several options available to you.\n1. Cancel your order, and we will gladly refund your money in full.\n2. Select a different colour. That item is currently available in light blue, dark green, and dark gray.\n3. Choose an item of equal value from our Web site or catalogue.\n4. Wait until the item you ordered is back in stock in light gray. Allow three to five weeks.\nPlease let us know which option you prefer. We apologize for any inconvenience.\nThank you,\nSoon Yi Park, Customer Service Agent",
+       "vi": "Gửi đến: Demarco Hines <d.hines@worldmail.com>\nTừ: Soon Yi Park <customerservice@thebestbags.co.kr>\nTiêu đề: Mặt hàng F208 (túi vải qua đêm)\nNgày: 19 tháng 6\nKính gửi Ông Hines,\nTúi vải qua đêm Best Bags mà bạn đã đặt hiện không có sẵn màu bạn yêu cầu. Có một số tùy chọn có sẵn cho bạn.\n1. Hủy đơn hàng của bạn và chúng tôi sẽ vui lòng hoàn lại toàn bộ tiền của bạn.\n2. Chọn một màu khác. Mặt hàng đó hiện có màu xanh lam nhạt, xanh lục đậm và xám đậm.\n3. Chọn một mặt hàng có giá trị tương đương từ trang web hoặc danh mục của chúng tôi.\n4. Đợi cho đến khi mặt hàng bạn đã đặt có hàng trở lại màu xám nhạt. Đợi từ ba đến năm tuần.\nVui lòng cho chúng tôi biết tùy chọn nào bạn thích. Chúng tôi xin lỗi vì bất kỳ sự bất tiện nào.\nCảm ơn bạn,\nSoon Yi Park, Nhân viên dịch vụ khách hàng"
       }
      ],
      "questions": [
@@ -7603,6 +7610,13 @@
         "Wait until the item you ordered is back in stock in light gray"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7660,6 +7674,13 @@
         "She is really helpful"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7712,6 +7733,13 @@
        "evidence": [
         "you will receive monthly paper statements in the mail"
        ]
+      }
+     ],
+     "directions": "form",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7833,6 +7861,13 @@
         "• Willingness to travel to job sites daily (typically within a 50 km radius)"
        ]
       }
+     ],
+     "directions": "job advertisement",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7943,6 +7978,13 @@
         "Please complete the attached form and bring it to the office with a voided check no later than September 25"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8052,6 +8094,13 @@
         "registration is required",
         "For information and to register online, go to www.aussiecoffeefair.com"
        ]
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8210,6 +8259,13 @@
         "simply let us know how many guests you expect"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8342,6 +8398,13 @@
        "explanation": "Đáp án: C.\nCâu \"The answers will give us a sense of your taste and requirements.\" nên thuộc vị trí [3] vì nó phù hợp với ngữ cảnh sau câu về việc điền bảng câu hỏi.\nGiải thích: Sau khi hoàn thành bảng câu hỏi, công ty sẽ hiểu hơn về sở thích và yêu cầu của khách hàng.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8496,6 +8559,13 @@
         "Especially with that major bicycle race you have ahead of you"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8512,8 +8582,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-Mail Message\nTo: Cassie Raferty < cassie@mailcurrent.ie>\nFrom: Youssef Zimri <zimri@zimrimechanical.ie>\nSubject: Following up\nDate: 12 September\nDear Ms. Raferty, I am very happy with your work so far. Your suggestion to add photos from our archive certainly dressed up the \"Company History\" page. The help-wanted pop-up bubble on the home page also looks good. Hopefully, it will attract applications with mechanical experience.\nI’d like you to add one more project to our \"Portfolio\" page. We have finally finished replacing the plumbing and heating systems at Clary Medical Center's satellite clinic in Cals ald asso thallering ob, what ive droud of our results. The altachment contains photos and a short description of what we did there.\nSincerely,\nYoussef Zimri Owner,\nZimri Mechanical\n==========\nhttps://www.clarymedicalcentre.ie\nAbout. News. Staff. Contact Us\nClinic opening soon\nWe have repurposed 47 High Street, Galway, into a satellite medical clinic and will celebrate with a grand opening party on Friday, 28 October. Remarks by Medical Director Dr. Celia O'Leary and local elected officials will begin promptly at 1:00 P.M., followed by a ribbon-cutting ceremony and tours until 4:30 P.M.\nThirty miles from the Clary Medical Centre's main campus, the Clary Clinic is housed in the historic Brandmore shoe factory, which closed more than two decades ago.\nDuring renovations, care was taken to maintain the exterior's nineteenth-century architectural features. The clinic's interior boasts eighteen examination rooms, a state-of-the-art x-ray facility, private offices for patient consultations, and a lab for processing patient samples.\nClinic staff will begin seeing patients on Tuesday, 1 November. To make an appointment, please call 020 915 1424.",
-       "vi": "Tin nhắn qua email\nGửi đến: Cassie Raferty < cassie@mailcurrent.ie>\nTừ: Youssef Zimri <zimri@zimrimechanical.ie>\nTiêu đề: Theo dõi\nNgày: 12 tháng 9\nKính gửi cô Raferty, Tôi rất hài lòng với công việc của cô cho đến nay. Đề xuất của cô về việc thêm ảnh từ kho lưu trữ của chúng tôi chắc chắn đã tô điểm cho trang \"Lịch sử công ty\". Bong bóng tìm kiếm việc làm trên trang chủ cũng trông đẹp. Hy vọng rằng nó sẽ thu hút các ứng viên có kinh nghiệm về cơ khí.\nTôi muốn cô thêm một dự án nữa vào trang \"Danh mục đầu tư\" của chúng tôi. Cuối cùng chúng tôi đã hoàn thành việc thay thế hệ thống ống nước và hệ thống sưởi ấm tại phòng khám vệ tinh của Trung tâm Y tế Clary ở Cals ald asso thallering ob, tôi đã có được những kết quả như thế nào. Phụ lục có ảnh và mô tả ngắn về những gì chúng tôi đã làm ở đó.\nTrân trọng,\nYoussef Zimri Chủ sở hữu,\nZimri Mechanical\n==========\nhttps://www.clarymedicalcentre.ie\nGiới thiệu. Tin tức. Nhân viên. Liên hệ với chúng tôi\nPhòng khám sẽ sớm mở cửa\nChúng tôi đã cải tạo 47 High Street, Galway, thành một phòng khám vệ tinh và sẽ ăn mừng bằng một bữa tiệc khai trương hoành tráng vào thứ Sáu, ngày 28 tháng 10. Bài phát biểu của Giám đốc Y khoa Tiến sĩ Celia O'Leary và các quan chức địa phương được bầu sẽ bắt đầu đúng 1:00 chiều, sau đó là lễ cắt băng khánh thành và tham quan cho đến 4:30 chiều.\nCách khuôn viên chính của Trung tâm Y tế Clary ba mươi dặm, Phòng khám Clary tọa lạc trong nhà máy giày Brandmore lịch sử, nơi đã đóng cửa hơn hai thập kỷ trước.\nTrong quá trình cải tạo, chúng tôi đã rất cẩn thận để duy trì các đặc điểm kiến ​​trúc thế kỷ 19 ở bên ngoài. Bên trong phòng khám có mười tám phòng khám, một cơ sở chụp X-quang hiện đại, các phòng khám riêng để tư vấn cho bệnh nhân và một phòng xét nghiệm để xử lý mẫu bệnh phẩm.\nNhân viên phòng khám sẽ bắt đầu khám bệnh nhân vào thứ Ba, ngày 1 tháng 11. Để đặt lịch hẹn, vui lòng gọi số 020 915 1424."
+       "en": "To: Cassie Raferty < cassie@mailcurrent.ie>\nFrom: Youssef Zimri <zimri@zimrimechanical.ie>\nSubject: Following up\nDate: 12 September\nDear Ms. Raferty, I am very happy with your work so far. Your suggestion to add photos from our archive certainly dressed up the \"Company History\" page. The help-wanted pop-up bubble on the home page also looks good. Hopefully, it will attract applications with mechanical experience.\nI’d like you to add one more project to our \"Portfolio\" page. We have finally finished replacing the plumbing and heating systems at Clary Medical Center's satellite clinic in Cals ald asso thallering ob, what ive droud of our results. The altachment contains photos and a short description of what we did there.\nSincerely,\nYoussef Zimri Owner,\nZimri Mechanical\n==========\nhttps://www.clarymedicalcentre.ie\nAbout. News. Staff. Contact Us\nClinic opening soon\nWe have repurposed 47 High Street, Galway, into a satellite medical clinic and will celebrate with a grand opening party on Friday, 28 October. Remarks by Medical Director Dr. Celia O'Leary and local elected officials will begin promptly at 1:00 P.M., followed by a ribbon-cutting ceremony and tours until 4:30 P.M.\nThirty miles from the Clary Medical Centre's main campus, the Clary Clinic is housed in the historic Brandmore shoe factory, which closed more than two decades ago.\nDuring renovations, care was taken to maintain the exterior's nineteenth-century architectural features. The clinic's interior boasts eighteen examination rooms, a state-of-the-art x-ray facility, private offices for patient consultations, and a lab for processing patient samples.\nClinic staff will begin seeing patients on Tuesday, 1 November. To make an appointment, please call 020 915 1424.",
+       "vi": "Gửi đến: Cassie Raferty < cassie@mailcurrent.ie>\nTừ: Youssef Zimri <zimri@zimrimechanical.ie>\nTiêu đề: Theo dõi\nNgày: 12 tháng 9\nKính gửi cô Raferty, Tôi rất hài lòng với công việc của cô cho đến nay. Đề xuất của cô về việc thêm ảnh từ kho lưu trữ của chúng tôi chắc chắn đã tô điểm cho trang \"Lịch sử công ty\". Bong bóng tìm kiếm việc làm trên trang chủ cũng trông đẹp. Hy vọng rằng nó sẽ thu hút các ứng viên có kinh nghiệm về cơ khí.\nTôi muốn cô thêm một dự án nữa vào trang \"Danh mục đầu tư\" của chúng tôi. Cuối cùng chúng tôi đã hoàn thành việc thay thế hệ thống ống nước và hệ thống sưởi ấm tại phòng khám vệ tinh của Trung tâm Y tế Clary ở Cals ald asso thallering ob, tôi đã có được những kết quả như thế nào. Phụ lục có ảnh và mô tả ngắn về những gì chúng tôi đã làm ở đó.\nTrân trọng,\nYoussef Zimri Chủ sở hữu,\nZimri Mechanical\n==========\nhttps://www.clarymedicalcentre.ie\nGiới thiệu. Tin tức. Nhân viên. Liên hệ với chúng tôi\nPhòng khám sẽ sớm mở cửa\nChúng tôi đã cải tạo 47 High Street, Galway, thành một phòng khám vệ tinh và sẽ ăn mừng bằng một bữa tiệc khai trương hoành tráng vào thứ Sáu, ngày 28 tháng 10. Bài phát biểu của Giám đốc Y khoa Tiến sĩ Celia O'Leary và các quan chức địa phương được bầu sẽ bắt đầu đúng 1:00 chiều, sau đó là lễ cắt băng khánh thành và tham quan cho đến 4:30 chiều.\nCách khuôn viên chính của Trung tâm Y tế Clary ba mươi dặm, Phòng khám Clary tọa lạc trong nhà máy giày Brandmore lịch sử, nơi đã đóng cửa hơn hai thập kỷ trước.\nTrong quá trình cải tạo, chúng tôi đã rất cẩn thận để duy trì các đặc điểm kiến ​​trúc thế kỷ 19 ở bên ngoài. Bên trong phòng khám có mười tám phòng khám, một cơ sở chụp X-quang hiện đại, các phòng khám riêng để tư vấn cho bệnh nhân và một phòng xét nghiệm để xử lý mẫu bệnh phẩm.\nNhân viên phòng khám sẽ bắt đầu khám bệnh nhân vào thứ Ba, ngày 1 tháng 11. Để đặt lịch hẹn, vui lòng gọi số 020 915 1424."
       }
      ],
      "questions": [
@@ -8679,6 +8749,17 @@
         }
        }
       }
+     ],
+     "directions": "e-mail and Web page",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8695,7 +8776,7 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 181-185 refer to the following form and e-mail.\nPURCHASE ORDER\nPirate's Bounty Seafood\n1l Harbor Street\nCharlottetown, Prince Edward Island, CIA OAS\n2 October\nPurchase Order: 5338\nVENDOR:\nRochette's Commercial Refrigeration\n2175 Lyons Avenue\nGuelph, Ontario, NIC 0A1n\\519-555-0112\nSHIP TO:\nPirate's Bounty Seafood\n11 Harbor Street\nCharlottetown, Prince Edward Island,\nCIA 0A5\nAttn: Lenore Okiya\n782-555-0145\nITEM NUMBER: BF550\nDESCRIPTION: Blizzard walk-in freezer, Features: 1.5m x 2m x 2.5m, adjustable shelves, aluminum flooring, galvanized steel panels\nQUANTITY: 1\nPRICE: $6,400.00\nTOTAL: $6,400.00\nCOMMENTS OR SPECIAL INSTRUCTIONS\nRestaurant expanding. Need unit by 17 November.\nSUBTOTAL: $6,400.00\nTAX: $960.00\nGRAND TOTAL: $7,360.00\n==========\nTo: Lenore Okiya <l.okiya@piratesbounty.ca>\nFrom: Shaliya Umuma <customerservice @rochettesrefrigeration.ca>\nDate: 3 October\nSubject: Purchase Order 5338\nDear Ms. Okiya,\nWe received your purchase order for the Blizzard walk-in freezer. Unfortunately, the model you requested is on back order and will not be available for three months. We regret the inconvenience and would like to offer you some options.\nI can offer you the Blizzard BF600, which measures 2m x 2.5m x 3m, at the discounted price of $6,900 plus tax. It comes with the same features as the item you ordered.\nAlternately, we have a refurbished BF400 in stock. It's the same size as the BF550; however, while the BF550 includes a remote control for setting the temperature, the BF400 has a wall-mounted device for that purpose. The BF400 unit comes with a two-year warranty. It is priced at $5,600 plus tax.\nPlease let me know how you wish to proceed. Just reply to this e-mail.\nShaliya Umuma, Customer Service Manager",
+       "en": "PURCHASE ORDER\nPirate's Bounty Seafood\n1l Harbor Street\nCharlottetown, Prince Edward Island, CIA OAS\n2 October\nPurchase Order: 5338\nVENDOR:\nRochette's Commercial Refrigeration\n2175 Lyons Avenue\nGuelph, Ontario, NIC 0A1n\\519-555-0112\nSHIP TO:\nPirate's Bounty Seafood\n11 Harbor Street\nCharlottetown, Prince Edward Island,\nCIA 0A5\nAttn: Lenore Okiya\n782-555-0145\nITEM NUMBER: BF550\nDESCRIPTION: Blizzard walk-in freezer, Features: 1.5m x 2m x 2.5m, adjustable shelves, aluminum flooring, galvanized steel panels\nQUANTITY: 1\nPRICE: $6,400.00\nTOTAL: $6,400.00\nCOMMENTS OR SPECIAL INSTRUCTIONS\nRestaurant expanding. Need unit by 17 November.\nSUBTOTAL: $6,400.00\nTAX: $960.00\nGRAND TOTAL: $7,360.00\n==========\nTo: Lenore Okiya <l.okiya@piratesbounty.ca>\nFrom: Shaliya Umuma <customerservice @rochettesrefrigeration.ca>\nDate: 3 October\nSubject: Purchase Order 5338\nDear Ms. Okiya,\nWe received your purchase order for the Blizzard walk-in freezer. Unfortunately, the model you requested is on back order and will not be available for three months. We regret the inconvenience and would like to offer you some options.\nI can offer you the Blizzard BF600, which measures 2m x 2.5m x 3m, at the discounted price of $6,900 plus tax. It comes with the same features as the item you ordered.\nAlternately, we have a refurbished BF400 in stock. It's the same size as the BF550; however, while the BF550 includes a remote control for setting the temperature, the BF400 has a wall-mounted device for that purpose. The BF400 unit comes with a two-year warranty. It is priced at $5,600 plus tax.\nPlease let me know how you wish to proceed. Just reply to this e-mail.\nShaliya Umuma, Customer Service Manager",
        "vi": "ĐƠN HÀNG\nPirate's Bounty Seafood\n1l Harbor Street\nCharlottetown, Prince Edward Island, CIA OAS\n2 tháng 10\nĐơnĐơn đặt hàng: 5338\nCUNG CẤP:\nRochette's Commercial Refrigeration\n2175 Lyons Avenue\nGuelph, Ontario, NIC 0A1n\\519-555-0112\nSHIP TO:\nPirate's Bounty Seafood\n11 Harbor Street\nCharlottetown, Prince Edward Island,\nCIA 0A5\nAttnLenore Okiya\n782-555-0145\nSỐ MẶT HÀNG: BF550\nMÔ TẢ: Tủ đông không cửa ngăn Blizzard, Tính năng: 1,5m x 2m x 2,5m, kệ có thể điều chỉnh, sàn nhôm, tấm thép mạ kẽm\nSỐ LƯỢNG: 1\n Cần đơn vị trước ngày 17 tháng 11.\nTỔNG PHỤ: $6,400.00\nTAX: $960.00\nTỔNG GRAND: $7,360.00\n==========\nGửi: Lenore Okiya <l.okiya@piratesbounty.ca>\nTừ: Shaliya Umuma <customerservice @rochettesrefrigeration.ca>\nNgày: 3 tháng 10\nChủ đề: Đơn đặt hàng 5338\nKính gửi cô Okiya,\nChúng tôi đã nhận được đơn đặt hàng của bạn cho tủ đông không cửa ngăn Blizzard. Thật không may, mô hình bạn yêu cầu đang được đặt hàng lại và sẽ không có sẵn trong ba tháng. Chúng tôi xin lỗi vì sự bất tiện này và muốn cung cấp cho bạn một số lựa chọn.\nTôi có thể cung cấp cho bạn Blizzard BF600, có kích thước 2m x 2,5m x 3m, với mức giá chiết khấu là 6.900 đô la cộng thuế. Nó đi kèm với các tính năng tương tự như mặt hàng bạn đã đặt hàng.\nNgoài ra, chúng tôi có một chiếc BF400 tân trang trong kho. Nó có cùng kích thước với BF550; tuy nhiên, trong khi BF550 bao gồm một điều khiển từ xa để cài đặt nhiệt độ, BF400 có một thiết bị gắn trên tường cho mục đích đó. Thiết bị BF400 đi kèm với bảo hành hai năm. Nó có giá 5.600 đô la cộng với thuế.\nVui lòng cho tôi biết bạn muốn tiến hành như thế nào. Chỉ cần trả lời e-mail này.\nShaliya Umuma, Quản lý Dịch vụ Khách hàng"
       }
      ],
@@ -8866,6 +8947,17 @@
         }
        }
       }
+     ],
+     "directions": "form and e-mail",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8882,7 +8974,7 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 186-190 refer to the following schedule, e-mail, and article.\nFifth Annual International Marketing Society Conference\n23-25 October, Grant Hotel and Conference Centre, London\nDay 1:\nTime.                                                              Description.                                                                                    Venue\n7:00 A.M. to 8:00 A.M,                          Morning Social: Complimentary omelets, pastries, coffee, tea.          Mezzanine.\n8:30 A.M. to 10:00 A.M,                        Marcos Secada, founder and CEO, Grindstone Marketing Group.     Room 2\n10:30 A.M. to noon,                              Claire Song, business columnist and best-selling author.                   Room 10\n12:30 P.M. to 2:00 P.M,                         Lunch (ticket purchase required)                                                         Alexander Ballroom\n==========\nTo: Nadir Kalwar «kalwar.n@kdbuildingconcepts.com>\nFrom: Olek Dzik <odzik.k@kdbuildingconcepts.com>\nDate: 12 May\nSubject: Upcoming marketing campaign\nAttachment: Link to video\nNadir,\nThanks for your help with the corporate marketing plan. Attached is a link to the video created for us by Grindstone Marketing Group. It shows our 3-D printing equipment pouring fast-setting concrete, layer by layer. I think it looks great as is, and I believe it will be the most compelling aspect of our 1 June launch, especially if the Sheffield house is sold by then.\nIn case you haven't heard, our next construction project will be a home just a couple of kilometres from your office building!\nOlek\n==========\nHouse Constructed Using\n3-D Technology For Sale\nSHEFFIELD (15 May)—An international construction firm specializing in innovative building technologies has completed one of Britain's first 3-D printed houses. The new structure is located on Morgan Road in Sheffield.\nKD Building Concepts took less than two weeks to execute the first phase of the project, which entailed printing the concrete walls and installing the electrical and plumbing systems, according to company president Olek Dzik. In just two months, the fully landscaped house with two bedrooms and two bathrooms was ready for market.\n”Labour costs were cut in half thanks to 3-D printing technology,\" said Mr. Dzik, whose company has offices in France and Germany, as well as in Sheffield. \"At KD Building Concepts, we are committed to building homes that are both affordable and luxurious.”n\\The house was listed for sale this week by a local real estate broker. The asking price is €150,000.\nNext on the horizon for KD Building Concepts is the construction of a home in Hamburg, Germany.",
+       "en": "Fifth Annual International Marketing Society Conference\n23-25 October, Grant Hotel and Conference Centre, London\nDay 1:\nTime.                                                              Description.                                                                                    Venue\n7:00 A.M. to 8:00 A.M,                          Morning Social: Complimentary omelets, pastries, coffee, tea.          Mezzanine.\n8:30 A.M. to 10:00 A.M,                        Marcos Secada, founder and CEO, Grindstone Marketing Group.     Room 2\n10:30 A.M. to noon,                              Claire Song, business columnist and best-selling author.                   Room 10\n12:30 P.M. to 2:00 P.M,                         Lunch (ticket purchase required)                                                         Alexander Ballroom\n==========\nTo: Nadir Kalwar «kalwar.n@kdbuildingconcepts.com>\nFrom: Olek Dzik <odzik.k@kdbuildingconcepts.com>\nDate: 12 May\nSubject: Upcoming marketing campaign\nAttachment: Link to video\nNadir,\nThanks for your help with the corporate marketing plan. Attached is a link to the video created for us by Grindstone Marketing Group. It shows our 3-D printing equipment pouring fast-setting concrete, layer by layer. I think it looks great as is, and I believe it will be the most compelling aspect of our 1 June launch, especially if the Sheffield house is sold by then.\nIn case you haven't heard, our next construction project will be a home just a couple of kilometres from your office building!\nOlek\n==========\nHouse Constructed Using\n3-D Technology For Sale\nSHEFFIELD (15 May)—An international construction firm specializing in innovative building technologies has completed one of Britain's first 3-D printed houses. The new structure is located on Morgan Road in Sheffield.\nKD Building Concepts took less than two weeks to execute the first phase of the project, which entailed printing the concrete walls and installing the electrical and plumbing systems, according to company president Olek Dzik. In just two months, the fully landscaped house with two bedrooms and two bathrooms was ready for market.\n”Labour costs were cut in half thanks to 3-D printing technology,\" said Mr. Dzik, whose company has offices in France and Germany, as well as in Sheffield. \"At KD Building Concepts, we are committed to building homes that are both affordable and luxurious.”n\\The house was listed for sale this week by a local real estate broker. The asking price is €150,000.\nNext on the horizon for KD Building Concepts is the construction of a home in Hamburg, Germany.",
        "vi": "Hội nghị Hiệp hội Tiếp thị Quốc tế thường niên lần thứ năm\n23-25 tháng 10, Khách sạn Grant và Trung tâm Hội nghị, Luân Đôn\nNgày 1:\nThời gian. Mô tả. Địa điểm\n7:00 sáng đến 8:00 sáng, Buổi sáng xã hội: Trứng tráng, bánh ngọt, cà phê, trà miễn phí. Tầng lửng.\n8:30 sáng đến 10:00 sáng, Marcos Secada, người sáng lập và Giám đốc điều hành, Grindstone Marketing Group. Phòng 2\n10:30 sáng đến trưa, Claire Song, chuyên mục kinh doanh và tác giả bán chạy nhất. Phòng 10\n12:30 chiều đến 2:00 chiều, Bữa trưa (cần mua vé) Alexander Ballroom\n==========\nGửi đến: Nadir Kalwar «kalwar.n@kdbuildingconcepts.com>\nTừ: Olek Dzik <odzik.k@kdbuildingconcepts.com>\nNgày: 12 tháng 5\nChủ đề: Chiến dịch tiếp thị sắp tới\nTệp đính kèm: Liên kết đến video\nNadir,\nCảm ơn sự giúp đỡ của bạn với kế hoạch tiếp thị của công ty. Đính kèm là liên kết đến video được tạo cho chúng tôi bởi Grindstone Marketing Group. Nó cho thấy thiết bị in 3-D của chúng tôi đổ bê tông nhanh, từng lớp một. Tôi nghĩ nó trông rất tuyệt, và tôi tin rằng đó sẽ là khía cạnh hấp dẫn nhất trong buổi ra mắt vào ngày 1 tháng 6 của chúng tôi, đặc biệt là nếu ngôi nhà Sheffield được bán vào lúc đó.\nTrong trường hợp bạn chưa nghe, dự án xây dựng tiếp theo của chúng tôi sẽ là một ngôi nhà chỉ cách tòa nhà văn phòng của bạn vài km!\nOlek\n==========\nNhà được xây dựng bằng\nCông nghệ 3-D để bán\nSHEFFIELD (15 tháng 5)—Một công ty xây dựng quốc tế chuyên về công nghệ xây dựng tiên tiến đã hoàn thành một trong những ngôi nhà in 3-D đầu tiên của Anh. Cấu trúc mới nằm trên đường Morgan ở Sheffield.\nKD Building Concepts mất chưa đầy hai tuần để thực hiện giai đoạn đầu tiên của dự án, bao gồm in các bức tường bê tông và lắp đặt hệ thống điện và hệ thống ống nước, theo chủ tịch công ty Olek Dzik. Chỉ trong hai tháng, ngôi nhà có cảnh quan đầy đủ với hai phòng ngủ và hai phòng tắm đã sẵn sàng cho thị trường.\n\"Chi phí lao động đã giảm một nửa nhờ công nghệ in 3D\", ông Dzik, người có văn phòng ở Pháp và Đức, cũng như ở Sheffield, cho biết. \"Tại KD Building Concepts, chúng tôi cam kết xây dựng những ngôi nhà vừa có giá cả phải chăng vừa sang trọng.\"n gôi nhà đã được một nhà môi giới bất động sản địa phương niêm yết để bán trong tuần này. Giá chào bán là 150.000 Euro.\nTiếp theo trên đường chân trời cho KD Building Concepts là việc xây dựng một ngôi nhà ở Hamburg, Đức."
       }
      ],
@@ -9052,6 +9144,21 @@
         "was ready for market"
        ]
       }
+     ],
+     "directions": "schedule, e-mail, and article",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9068,7 +9175,7 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 191-195 refer to the following job posting, flyer, and article.\nGallery manager at Richard Lahiri Gallery in Cromwood\nApplicants for this full-time position must have experience in retail art with an established history of successfully attracting patrons interested in purchasing original works of art. Experience managing a social media account is also desired. The position will be primarily on-site; however, some remote hours can be scheduled.\nCandidates must be available to start work on or before April 1. Qualified applicants should contact gallery director Richard Lahiri at rlahiri@richardlahirigallery.com.\n==========\nSummer Scene Arts Program\nStarting on May 1, five art galleries in Cromwood will be hosting open houses every Friday from May through August. Come enjoy live music, refreshments, artist talks, and more on the Cromwood boardwalk. Activities start at 4:00 P.M and continue until 9:30 P.M., rain or shine. Participating galleries are listed below.\nRita Blake Art • Siitva Gallery • Richard Lahiri Gallery\nPatricia Dolivo Painting • Ashland Pottery and Crafts\nFunded by the Cromwood City Council and Regents Bank\n==========\nSummer Activities in Middleton County\nCompiled by Lisa Yu-Seaver\nCromwood Art Nights\nResidents of Elmhurst, Melbridge, and Cromwood are invited to explore the local art scene in Cromwood this summer. The five galleries on the boardwalk overlooking the Wye River are holding special events each Friday as part of the Summer Scene Arts Program. This Friday,\nRichard Lahiri and his gallery manager, Geetu Gelang, will use a giant screen to demonstrate software for creating virtual art. The event will also feature craft vendors, food trucks, and live music. See www.cromwood.gov/things-to-do for more information.\nMovies in Brady Park\nThe popular summer movie series in Herrontown returns on June 16! Each Saturday evening, a classic film will be projected on Brady Park's Grand Lawn. Bring your picnic basket and a blanket and get comfortable! The schedule of films is available at www.bradypark.org/activities.",
+       "en": "Gallery manager at Richard Lahiri Gallery in Cromwood\nApplicants for this full-time position must have experience in retail art with an established history of successfully attracting patrons interested in purchasing original works of art. Experience managing a social media account is also desired. The position will be primarily on-site; however, some remote hours can be scheduled.\nCandidates must be available to start work on or before April 1. Qualified applicants should contact gallery director Richard Lahiri at rlahiri@richardlahirigallery.com.\n==========\nSummer Scene Arts Program\nStarting on May 1, five art galleries in Cromwood will be hosting open houses every Friday from May through August. Come enjoy live music, refreshments, artist talks, and more on the Cromwood boardwalk. Activities start at 4:00 P.M and continue until 9:30 P.M., rain or shine. Participating galleries are listed below.\nRita Blake Art • Siitva Gallery • Richard Lahiri Gallery\nPatricia Dolivo Painting • Ashland Pottery and Crafts\nFunded by the Cromwood City Council and Regents Bank\n==========\nSummer Activities in Middleton County\nCompiled by Lisa Yu-Seaver\nCromwood Art Nights\nResidents of Elmhurst, Melbridge, and Cromwood are invited to explore the local art scene in Cromwood this summer. The five galleries on the boardwalk overlooking the Wye River are holding special events each Friday as part of the Summer Scene Arts Program. This Friday,\nRichard Lahiri and his gallery manager, Geetu Gelang, will use a giant screen to demonstrate software for creating virtual art. The event will also feature craft vendors, food trucks, and live music. See www.cromwood.gov/things-to-do for more information.\nMovies in Brady Park\nThe popular summer movie series in Herrontown returns on June 16! Each Saturday evening, a classic film will be projected on Brady Park's Grand Lawn. Bring your picnic basket and a blanket and get comfortable! The schedule of films is available at www.bradypark.org/activities.",
        "vi": "Quản lý phòng trưng bày tại Phòng trưng bày Richard Lahiri ở Cromwood\nỨng viên cho vị trí toàn thời gian này phải có kinh nghiệm trong lĩnh vực nghệ thuật bán lẻ với lịch sử thành công trong việc thu hút thành công khách hàng quen quan tâm đến việc mua các tác phẩm nghệ thuật gốc. Kinh nghiệm quản lý tài khoản mạng xã hội cũng được mong muốn. Vị trí chủ yếu sẽ là tại chỗ; tuy nhiên, một số giờ làm việc từ xa có thể được lên lịch.\nCác ứng viên phải sẵn sàng để bắt đầu làm việc vào hoặc trước ngày 1 tháng 4. Các ứng viên đủ điều kiện nên liên hệ với giám đốc phòng trưng bày Richard Lahiri tại rlahiri@richardlahirigallery.com.\n==========\nChương trình Nghệ thuật Cảnh mùa hè\nBắt đầu từ ngày 1 tháng 5, năm phòng trưng bày nghệ thuật ở Cromwood sẽ tổ chức các nhà mở cửa vào thứ Sáu hàng tuần từ tháng Năm đến tháng Tám. Hãy đến thưởng thức nhạc sống, giải khát, nói chuyện nghệ sĩ và hơn thế nữa trên lối đi lát ván Cromwood. Các hoạt động bắt đầu lúc 4:00 chiều và tiếp tục đến 9:30 tối, dù trời mưa hay nắng. Các phòng trưng bày tham gia được liệt kê bên dưới.\nRita Blake Art • Phòng trưng bày Siitva • Phòng trưng bày Richard Lahiri\nTranh Patricia Dolivo • Đồ gốm và thủ công Ashland\nĐược tài trợ bởi Hội đồng thành phố Cromwood và Ngân hàng Regents\n==========\nCác hoạt động mùa hè ở Hạt Middleton\nĐược biên soạn bởi Lisa Yu-Seaver\nĐêm nghệ thuật Cromwood\nCư dân của Elmhurst, Melbridge và Cromwood được mời khám phá khung cảnh nghệ thuật địa phương ở Cromwood vào mùa hè này. Năm phòng trưng bày trên lối đi lát ván nhìn ra sông Wye đang tổ chức các sự kiện đặc biệt vào thứ Sáu hàng tuần như một phần của Chương trình Nghệ thuật Cảnh mùa hè. Thứ Sáu tuần này,\nRichard Lahiri và người quản lý phòng trưng bày của mình, Geetu Gelang, sẽ sử dụng một màn hình khổng lồ để trình diễn phần mềm tạo ra nghệ thuật ảo. Sự kiện này cũng sẽ có sự góp mặt của các nhà cung cấp hàng thủ công, xe bán đồ ăn và nhạc sống. Xem www.cromwood.gov/things-to-do để biết thêm thông tin.\nPhim ở Công viên Brady\nLoạt phim mùa hè nổi tiếng ở Herrontown trở lại vào ngày 16 tháng 6! Mỗi tối thứ Bảy, một bộ phim kinh điển sẽ được chiếu trên Bãi cỏ lớn của Công viên Brady. Mang theo giỏ dã ngoại và chăn của bạn và cảm thấy thoải mái! Lịch chiếu phim có sẵn tại www.bradypark.org/activities."
       }
      ],
@@ -9244,6 +9351,21 @@
         "The popular summer movie series in Herrontown returns on June 16!"
        ]
       }
+     ],
+     "directions": "job posting, flyer, and article",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9260,7 +9382,7 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 196-200 refer to the following article, memo, and policy.\nSenano Designs Buys Gendalla in $60 Million Deal\nLOS ANGELES (March 20)-Fashion powerhouse Senano Designs announced on Wednesday that it had acquired Gendalla, an up-and-coming luxury brand. The acquisition is part of Senano's plan to supplement its clothing products with a line of designer watches. Over the next two years, the company has further plans to expand its offerings to include fragrances and luggage. Lina Pacheco, Senano's chief executive officer, said that such expansion is necessary to keep up and compete with other international fashion houses. Although based in Los Angeles, in recent years Senano has opened offices in Philadelphia, Chicago, and Miami. Ms. Pacheco says she was unfamiliar with Gendalla products until a year ago, when she saw one of their ads in an automobile magazine. \"The products have a distinctive, modern style,\" Ms. Pacheco said, ”which ing cores well with Senano's trendsetting clothes.”\n==========\nMEMO\nFrom: Oscar Johansen, Accounting department\nTo: All Gendalla employees\nDate: March 22\nSubject: Travel expense policy\nAttachment: Policy\nI have attached a copy of Senano's policy on travel expenses, which will go into effect when we officially become employees of Senano on March 31.\nNote that Senano's policy is more restrictive than Gendalla's policy in several ways. For example, employees will no longer have one month to submit expense reports. However, the new policy will make some processes much easier: specifically, Senano's requirements for submitting expenses under $50 are simpler than those under current Gendalla policy.\nCarlie Dawson, an accounting director who works at Senano's headquarters, will come to our New York office to lead an information session about this and other policy-related changes on Thursday, March 28, at 2:00 P.M. I strongly encourage you to attend.\n==========\nSenano Designs\nTravel Expense Policy\n• To be reimbursed for work-related travel, employees must submit a travel request at least two weeks before a trip, listing the reason for travel and estimating all expenses.\n• Original receipts must be submitted for expenses above $50. Any expenses below that do not require the submission of original receipts.\n• All receipts and expense reports must be submitted within three weeks after a trip is completed. Expenses submitted after this time will require the approval of the department head.\nPage 1",
+       "en": "Senano Designs Buys Gendalla in $60 Million Deal\nLOS ANGELES (March 20)-Fashion powerhouse Senano Designs announced on Wednesday that it had acquired Gendalla, an up-and-coming luxury brand. The acquisition is part of Senano's plan to supplement its clothing products with a line of designer watches. Over the next two years, the company has further plans to expand its offerings to include fragrances and luggage. Lina Pacheco, Senano's chief executive officer, said that such expansion is necessary to keep up and compete with other international fashion houses. Although based in Los Angeles, in recent years Senano has opened offices in Philadelphia, Chicago, and Miami. Ms. Pacheco says she was unfamiliar with Gendalla products until a year ago, when she saw one of their ads in an automobile magazine. \"The products have a distinctive, modern style,\" Ms. Pacheco said, ”which ing cores well with Senano's trendsetting clothes.”\n==========\nMEMO\nFrom: Oscar Johansen, Accounting department\nTo: All Gendalla employees\nDate: March 22\nSubject: Travel expense policy\nAttachment: Policy\nI have attached a copy of Senano's policy on travel expenses, which will go into effect when we officially become employees of Senano on March 31.\nNote that Senano's policy is more restrictive than Gendalla's policy in several ways. For example, employees will no longer have one month to submit expense reports. However, the new policy will make some processes much easier: specifically, Senano's requirements for submitting expenses under $50 are simpler than those under current Gendalla policy.\nCarlie Dawson, an accounting director who works at Senano's headquarters, will come to our New York office to lead an information session about this and other policy-related changes on Thursday, March 28, at 2:00 P.M. I strongly encourage you to attend.\n==========\nSenano Designs\nTravel Expense Policy\n• To be reimbursed for work-related travel, employees must submit a travel request at least two weeks before a trip, listing the reason for travel and estimating all expenses.\n• Original receipts must be submitted for expenses above $50. Any expenses below that do not require the submission of original receipts.\n• All receipts and expense reports must be submitted within three weeks after a trip is completed. Expenses submitted after this time will require the approval of the department head.\nPage 1",
        "vi": "Senano Designs mua lại Gendalla với thỏa thuận trị giá 60 triệu đô la\nLOS ANGELES (20 tháng 3)-Công ty thời trang Senano Designs đã thông báo vào thứ Tư rằng họ đã mua lại Gendalla, một thương hiệu xa xỉ mới nổi. Việc mua lại là một phần trong kế hoạch của Senano nhằm bổ sung các sản phẩm quần áo của mình bằng một dòng đồng hồ thiết kế. Trong hai năm tới, công ty có kế hoạch mở rộng hơn nữa để mở rộng các dịch vụ của mình để bao gồm nước hoa và hành lý. Lina Pacheco, giám đốc điều hành của Senano, nói rằng việc mở rộng như vậy là cần thiết để theo kịp và cạnh tranh với các nhà mốt quốc tế khác. Mặc dù có trụ sở tại Los Angeles, nhưng trong những năm gần đây, Senano đã mở văn phòng tại Philadelphia, Chicago và Miami. Bà Pacheco nói rằng bà không quen với các sản phẩm của Gendalla cho đến một năm trước, khi bà nhìn thấy một trong những quảng cáo của họ trên một tạp chí ô tô. \"Các sản phẩm có phong cách đặc biệt, hiện đại,\" bà Pacheco nói, \"rất phù hợp với quần áo tạo xu hướng của Senano.\"\n==========\nMEMO\nTừ: Oscar Johansen, bộ phận Kế toán\nGửi: Tất cả nhân viên Gendalla\nNgày: 22 tháng 3\nChủ đề: Chính sách chi phí đi lại\nĐính kèm: Chính sách\nTôi đã đính kèm một bản sao chính sách của Senano về chi phí đi lại, sẽ có hiệu lực khi chúng tôi chính thức trở thành nhân viên của Senano vào ngày 31 tháng 3.\nLưu ý rằng chính sách của Senano hạn chế hơn chính sách của Gendalla theo nhiều cách. Ví dụ: nhân viên sẽ không còn một tháng để nộp báo cáo chi phí. Tuy nhiên, chính sách mới sẽ làm cho một số quy trình dễ dàng hơn nhiều: cụ thể, các yêu cầu của Senano đối với việc gửi chi phí dưới 50 đô la đơn giản hơn so với các yêu cầu theo chính sách Gendalla hiện tại.\nCarlie Dawson, giám đốc kế toán làm việc tại trụ sở chính của Senano, sẽ đến văn phòng New York của chúng tôi để dẫn dắt một phiên thông tin về điều này và các thay đổi liên quan đến chính sách khác vào thứ Năm, ngày 28 tháng 3, lúc 2:00 chiều. Tôi thực sự khuyến khích bạn tham dự.\n==========\nSenano Designs\nChính sách Chi phí Du lịch\n• Để được hoàn trả cho chuyến đi liên quan đến công việc, nhân viên phải gửi yêu cầu đi lại ít nhất hai tuần trước chuyến đi, liệt kê lý do đi du lịch và ước tính tất cả các chi phí.\n• Biên lai gốc phải được nộp cho các chi phí trên 50 đô la. Bất kỳ chi phí nào dưới đây không yêu cầu nộp biên lai gốc.\n• Tất cả các biên lai và báo cáo chi phí phải được nộp trong vòng ba tuần sau khi chuyến đi hoàn thành. Các chi phí được gửi sau thời gian này sẽ cần có sự chấp thuận của trưởng bộ phận.\nTrang 1"
       }
      ],
@@ -9424,6 +9546,21 @@
        "evidence": [
         "Senano's requirements for submitting expenses under $50 are simpler than those under current Gendalla policy"
        ]
+      }
+     ],
+     "directions": "article, memo, and policy",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test5/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

@@ -8030,6 +8030,13 @@
         "Box of five customizable seasonal cards or invitations (50% off) £ 11.99"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8119,6 +8126,13 @@
        "evidence": [
         "Toshi Auto Group handles all the service needs for cars leased by employees of Chen Construction"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-149-150.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8249,6 +8263,13 @@
         "We wanted authors from a wide variety of cultural backgrounds, and we think we're off to a great start"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-151-153.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8334,6 +8355,13 @@
        "evidence": [
         "Yes, that works"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-154-155.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8425,6 +8453,13 @@
        "evidence": [
         "I'm supposed to deliver a product demonstration for a client in room 500 next Monday"
        ]
+      }
+     ],
+     "directions": "form",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-156-157.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8583,6 +8618,13 @@
         "That's all I can commit to"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-158-161.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8740,6 +8782,13 @@
         "This seems particularly relevant to mention, as I am comfortable leading geographically and culturally diverse teams"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-162-165.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8868,6 +8917,13 @@
         "There, you can fill out an interest form to contact one of our consultants about your next project"
        ]
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-166-168.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8971,6 +9027,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Nhiều thương hiệu nổi tiếng nhất thế giới dựa vào những người trình diễn sản phẩm của chúng tôi để tạo ấn tượng tích cực về sản phẩm của họ.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "job advertisement",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-169-171.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9113,6 +9176,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Những nâng cấp này đi kèm với một cái giá.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-172-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9309,6 +9379,17 @@
         "If you still feel comfortable with that level of risk, let me know, and I will change the settings so that your password never expires"
        ]
       }
+     ],
+     "directions": "work order and e-mail",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9325,8 +9406,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-mail\nTo: Linda Hanshu\nFrom: Cliff Merson\nSubject: Lighting Issue\nDate: September 4, 10:12 A.M.\nHi, Ms. Hanshu:\nI want to check on the issue we discussed about lighting in the latest chapter of Titan Adventure. In past versions of the game, getting the reflections and lighting in green and blue areas correct has been a particular challenge, and it was a problem that kept arising. As the new release, Neptune's Voyage, is primarily an underwater adventure, addressing this problem is crucial. You said you would take charge of this, and I hope to hear that you have found a solution to the problem. The team was hoping to have one last rendering of the lighting for the game by October 10 for a preliminary run-through.\nWill the final version of the lighting be ready by then?\nAll other aspects of the game are on schedule. Please send me an update about the lighting at your earliest convenience.\nRegards,\nCliff Merson\nProject Manager, Rimerko Games\n\nReview of Titan Adventure: Neptune's Voyage\nBy Leo Weber, April 1\nThis new installment of Titan Adventure will surprise and delight both new players and old aficionados long familiar with the series. Though open-world formats have been widespread in recent years, Neptune's Voyage brings something new to the format. By stripping down instructional guides, the game gives users the opportunity ro discover new areas and devices. In Neptune's Voyage, you wake up as Thetis, a dolphin that is tasked with rescuing Neptune from an underwater cave. Users then\nalso corrects the green and blue image rendering that was sometimes a problem in earlier installments of Titan Adventure.\nNeptune's Voyage launches May 5 on Rimerko Clutch and FS5. It is available in English, Korean, Japanese, French, and Spanish.",
-       "vi": "E-mail\nGửi đến: Linda Hanshu\nTừ: Cliff Merson\nChủ đề: Vấn đề về ánh sáng\nNgày: 4 tháng 9, 10:12 sáng\nXin chào, cô Hanshu:\nTôi muốn kiểm tra vấn đề mà chúng ta đã thảo luận về ánh sáng trong chương mới nhất của Titan Adventure. Trong các phiên bản trước của trò chơi, việc làm cho phản xạ và ánh sáng trong các khu vực màu xanh lá cây và màu xanh lam chính xác là một thách thức đặc biệt và đó là một vấn đề liên tục phát sinh. Vì bản phát hành mới, Neptune's Voyage, chủ yếu là một cuộc phiêu lưu dưới nước, việc giải quyết vấn đề này là rất quan trọng. Bạn nói rằng bạn sẽ chịu trách nhiệm về việc này, và tôi hy vọng sẽ biết rằng bạn đã tìm ra giải pháp cho vấn đề này. Nhóm nghiên cứu đã hy vọng sẽ có một kết xuất ánh sáng cuối cùng cho trò chơi vào ngày 10 tháng 10 để chạy qua sơ bộ.\nPhiên bản cuối cùng của ánh sáng sẽ sẵn sàng vào lúc đó chứ?\nTất cả các khía cạnh khác của trò chơi đều đúng tiến độ. Vui lòng gửi cho tôi thông tin cập nhật về ánh sáng sớm nhất có thể.\nTrân trọng,\nCliff Merson\nQuản lý dự án, Rimerko Games\n\nĐánh giá về Titan Adventure: Neptune's Voyage\nBởi Leo Weber, ngày 1 tháng 4\nPhần mới này của Titan Adventure sẽ gây ngạc nhiên và làm hài lòng cả người chơi mới và những người hâm mộ cũ đã quen thuộc với bộ truyện. Mặc dù các định dạng thế giới mở đã được phổ biến rộng rãi trong những năm gần đây, Neptune's Voyage mang đến một cái gì đó mới cho định dạng này. Bằng cách loại bỏ các hướng dẫn hướng dẫn, trò chơi mang đến cho người dùng cơ hội khám phá các khu vực và thiết bị mới. Trong Neptune's Voyage, bạn thức dậy với tư cách là Thetis, một con cá heo được giao nhiệm vụ giải cứu Neptune khỏi một hang động dưới nước. Người dùng sau đó\ncũng sửa kết xuất hình ảnh màu xanh lá cây và xanh lam đôi khi là một vấn đề trong các phần trước của Titan Adventure.\nNeptune's Voyage ra mắt vào ngày 5 tháng 5 trên Rimerko Clutch và FS5. Nó có sẵn bằng tiếng Anh, tiếng Hàn, tiếng Nhật, tiếng Pháp và tiếng Tây Ban Nha."
+       "en": "To: Linda Hanshu\nFrom: Cliff Merson\nSubject: Lighting Issue\nDate: September 4, 10:12 A.M.\nHi, Ms. Hanshu:\nI want to check on the issue we discussed about lighting in the latest chapter of Titan Adventure. In past versions of the game, getting the reflections and lighting in green and blue areas correct has been a particular challenge, and it was a problem that kept arising. As the new release, Neptune's Voyage, is primarily an underwater adventure, addressing this problem is crucial. You said you would take charge of this, and I hope to hear that you have found a solution to the problem. The team was hoping to have one last rendering of the lighting for the game by October 10 for a preliminary run-through.\nWill the final version of the lighting be ready by then?\nAll other aspects of the game are on schedule. Please send me an update about the lighting at your earliest convenience.\nRegards,\nCliff Merson\nProject Manager, Rimerko Games\n\nReview of Titan Adventure: Neptune's Voyage\nBy Leo Weber, April 1\nThis new installment of Titan Adventure will surprise and delight both new players and old aficionados long familiar with the series. Though open-world formats have been widespread in recent years, Neptune's Voyage brings something new to the format. By stripping down instructional guides, the game gives users the opportunity ro discover new areas and devices. In Neptune's Voyage, you wake up as Thetis, a dolphin that is tasked with rescuing Neptune from an underwater cave. Users then\nalso corrects the green and blue image rendering that was sometimes a problem in earlier installments of Titan Adventure.\nNeptune's Voyage launches May 5 on Rimerko Clutch and FS5. It is available in English, Korean, Japanese, French, and Spanish.",
+       "vi": "Gửi đến: Linda Hanshu\nTừ: Cliff Merson\nChủ đề: Vấn đề về ánh sáng\nNgày: 4 tháng 9, 10:12 sáng\nXin chào, cô Hanshu:\nTôi muốn kiểm tra vấn đề mà chúng ta đã thảo luận về ánh sáng trong chương mới nhất của Titan Adventure. Trong các phiên bản trước của trò chơi, việc làm cho phản xạ và ánh sáng trong các khu vực màu xanh lá cây và màu xanh lam chính xác là một thách thức đặc biệt và đó là một vấn đề liên tục phát sinh. Vì bản phát hành mới, Neptune's Voyage, chủ yếu là một cuộc phiêu lưu dưới nước, việc giải quyết vấn đề này là rất quan trọng. Bạn nói rằng bạn sẽ chịu trách nhiệm về việc này, và tôi hy vọng sẽ biết rằng bạn đã tìm ra giải pháp cho vấn đề này. Nhóm nghiên cứu đã hy vọng sẽ có một kết xuất ánh sáng cuối cùng cho trò chơi vào ngày 10 tháng 10 để chạy qua sơ bộ.\nPhiên bản cuối cùng của ánh sáng sẽ sẵn sàng vào lúc đó chứ?\nTất cả các khía cạnh khác của trò chơi đều đúng tiến độ. Vui lòng gửi cho tôi thông tin cập nhật về ánh sáng sớm nhất có thể.\nTrân trọng,\nCliff Merson\nQuản lý dự án, Rimerko Games\n\nĐánh giá về Titan Adventure: Neptune's Voyage\nBởi Leo Weber, ngày 1 tháng 4\nPhần mới này của Titan Adventure sẽ gây ngạc nhiên và làm hài lòng cả người chơi mới và những người hâm mộ cũ đã quen thuộc với bộ truyện. Mặc dù các định dạng thế giới mở đã được phổ biến rộng rãi trong những năm gần đây, Neptune's Voyage mang đến một cái gì đó mới cho định dạng này. Bằng cách loại bỏ các hướng dẫn hướng dẫn, trò chơi mang đến cho người dùng cơ hội khám phá các khu vực và thiết bị mới. Trong Neptune's Voyage, bạn thức dậy với tư cách là Thetis, một con cá heo được giao nhiệm vụ giải cứu Neptune khỏi một hang động dưới nước. Người dùng sau đó\ncũng sửa kết xuất hình ảnh màu xanh lá cây và xanh lam đôi khi là một vấn đề trong các phần trước của Titan Adventure.\nNeptune's Voyage ra mắt vào ngày 5 tháng 5 trên Rimerko Clutch và FS5. Nó có sẵn bằng tiếng Anh, tiếng Hàn, tiếng Nhật, tiếng Pháp và tiếng Tây Ban Nha."
       }
      ],
      "questions": [
@@ -9510,6 +9591,17 @@
         "Neptune's Voyage launches May 5 on Rimerko Clutch and FS5"
        ]
       }
+     ],
+     "directions": "e-mail and review",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9526,8 +9618,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Wonder Ridge Radio Broadcast Schedule, Monday-Friday\n6 A.M.-Noon, COFFEE BREAK. Local news and interviews with community members. Host: Felice Finney\nNoon-4 P.M, AFTERNOON JAZZ  Music from traditional jazz to jazz fusion. Host: Malachi Mzee\n4 P.M.- 7 P.M, FOLK FRENZY, Folk music from around the world. Host: Penny Ariza\n7 P.M.-10 P.M, JOSIE'S JOINT Modern sounds selected by our station's own music director.  Host: Josie Jones\n==========\nE-mail\nTo: feedback@wonderridgeradio.org\nFrom: pfabre@sendmail.net\nSubject: My new radio station!\nDate: October 22\nTo the folks at Wonder Ridge Radio:\nAs I was driving last weck, I got tired of listening to sports talk and turned the dial. Suddenly, my car was filled with a song that I hadn't heard in many years. It was traditional music from France, where my grandmother was born. She used to play that song when I was a child. I never expected to hear it on the radio here in Wonder Ridge.\nThanks for this experience and for all your great programs.\nYour new fan,\nPierre Fabre\n==========\nWonder Ridge Radio Job Opening: Programming Assistant\nPosted November 2\nJob Description\nThe programming assistant reports to the director of programming and supports the radio station by performing a variety of research and communication functions. This role is an entry-level, part-time position.\nResponsibilities\n*  Conducting background research on interviewees\n*  Keeping up-to-date on news and news makers in order to suggest potential topics and guests for on-air interviews\n*  Updating the station's Web site and program host biography pages\n*  Using scheduling software to update the broadcast schedule\n*  Communicating with listeners, especially via e-mail and social media To apply, e-mail a résumé and cover letter to hiring@wonderridgeradio.org.",
-       "vi": "Lịch phát sóng Wonder Ridge Radio, Thứ Hai-Thứ Sáu\n6 giờ sáng-Trưa, COFFEE BREAK. Tin tức địa phương và phỏng vấn với các thành viên cộng đồng. Người dẫn chương trình: Felice Finney\nTrưa-4 giờ chiều, AFTERNOON JAZZ Nhạc từ jazz truyền thống đến jazz fusion. Người dẫn chương trình: Malachi Mzee\n4 giờ chiều - 7 giờ tối, FOLK FRENZY, Nhạc dân gian từ khắp nơi trên thế giới. Người dẫn chương trình: Penny Ariza\n7 giờ tối-10 giờ tối, JOSIE'S JOINT Âm thanh hiện đại được chọn bởi giám đốc âm nhạc của đài chúng tôi. Người dẫn chương trình: Josie Jones\n==========\nE-mail\nGửi: feedback@wonderridgeradio.org\nTừ: pfabre@sendmail.net\nChủ đề: Đài radio mới của tôi!\nNgày: 22 tháng 10\nGửi các bạn tại Wonder Ridge Radio:\nKhi đang lái xe tuần trước, tôi đã chán nghe nói chuyện về thể thao và chuyển đài. Bất ngờ, chiếc xe của tôi ngập tràn một bài hát mà tôi đã không nghe trong nhiều năm. Đó là nhạc truyền thống từ Pháp, nơi bà tôi sinh ra. Bà thường phát bài hát đó khi tôi còn nhỏ. Tôi không bao giờ ngờ sẽ nghe được nó trên radio ở Wonder Ridge.\nCảm ơn vì trải nghiệm này và tất cả các chương trình tuyệt vời của các bạn.\nNgười hâm mộ mới của bạn,\nPierre Fabre\n==========\nVị trí tuyển dụng Wonder Ridge Radio: Trợ lý Lập trình\nĐăng ngày 2 tháng 11\nMô tả công việc\nTrợ lý lập trình báo cáo cho giám đốc lập trình và hỗ trợ đài phát thanh bằng cách thực hiện nhiều chức năng nghiên cứu và giao tiếp khác nhau. Vai trò này là vị trí bán thời gian, cấp độ mới bắt đầu.\nTrách nhiệm\n*  Tiến hành nghiên cứu nền về người được phỏng vấn\n*  Cập nhật tin tức và người làm tin để đề xuất các chủ đề và khách mời tiềm năng cho các cuộc phỏng vấn trên sóng\n*  Cập nhật trang web của đài và trang tiểu sử người dẫn chương trình\n*  Sử dụng phần mềm lập lịch để cập nhật lịch phát sóng\n*  Giao tiếp với người nghe, đặc biệt qua e-mail và mạng xã hội Để ứng tuyển, gửi email sơ yếu lý lịch và thư xin việc đến hiring@wonderridgeradio.org."
+       "en": "Wonder Ridge Radio Broadcast Schedule, Monday-Friday\n6 A.M.-Noon, COFFEE BREAK. Local news and interviews with community members. Host: Felice Finney\nNoon-4 P.M, AFTERNOON JAZZ  Music from traditional jazz to jazz fusion. Host: Malachi Mzee\n4 P.M.- 7 P.M, FOLK FRENZY, Folk music from around the world. Host: Penny Ariza\n7 P.M.-10 P.M, JOSIE'S JOINT Modern sounds selected by our station's own music director.  Host: Josie Jones\n==========\nTo: feedback@wonderridgeradio.org\nFrom: pfabre@sendmail.net\nSubject: My new radio station!\nDate: October 22\nTo the folks at Wonder Ridge Radio:\nAs I was driving last weck, I got tired of listening to sports talk and turned the dial. Suddenly, my car was filled with a song that I hadn't heard in many years. It was traditional music from France, where my grandmother was born. She used to play that song when I was a child. I never expected to hear it on the radio here in Wonder Ridge.\nThanks for this experience and for all your great programs.\nYour new fan,\nPierre Fabre\n==========\nWonder Ridge Radio Job Opening: Programming Assistant\nPosted November 2\nJob Description\nThe programming assistant reports to the director of programming and supports the radio station by performing a variety of research and communication functions. This role is an entry-level, part-time position.\nResponsibilities\n*  Conducting background research on interviewees\n*  Keeping up-to-date on news and news makers in order to suggest potential topics and guests for on-air interviews\n*  Updating the station's Web site and program host biography pages\n*  Using scheduling software to update the broadcast schedule\n*  Communicating with listeners, especially via e-mail and social media To apply, e-mail a résumé and cover letter to hiring@wonderridgeradio.org.",
+       "vi": "Lịch phát sóng Wonder Ridge Radio, Thứ Hai-Thứ Sáu\n6 giờ sáng-Trưa, COFFEE BREAK. Tin tức địa phương và phỏng vấn với các thành viên cộng đồng. Người dẫn chương trình: Felice Finney\nTrưa-4 giờ chiều, AFTERNOON JAZZ Nhạc từ jazz truyền thống đến jazz fusion. Người dẫn chương trình: Malachi Mzee\n4 giờ chiều - 7 giờ tối, FOLK FRENZY, Nhạc dân gian từ khắp nơi trên thế giới. Người dẫn chương trình: Penny Ariza\n7 giờ tối-10 giờ tối, JOSIE'S JOINT Âm thanh hiện đại được chọn bởi giám đốc âm nhạc của đài chúng tôi. Người dẫn chương trình: Josie Jones\n==========\nGửi: feedback@wonderridgeradio.org\nTừ: pfabre@sendmail.net\nChủ đề: Đài radio mới của tôi!\nNgày: 22 tháng 10\nGửi các bạn tại Wonder Ridge Radio:\nKhi đang lái xe tuần trước, tôi đã chán nghe nói chuyện về thể thao và chuyển đài. Bất ngờ, chiếc xe của tôi ngập tràn một bài hát mà tôi đã không nghe trong nhiều năm. Đó là nhạc truyền thống từ Pháp, nơi bà tôi sinh ra. Bà thường phát bài hát đó khi tôi còn nhỏ. Tôi không bao giờ ngờ sẽ nghe được nó trên radio ở Wonder Ridge.\nCảm ơn vì trải nghiệm này và tất cả các chương trình tuyệt vời của các bạn.\nNgười hâm mộ mới của bạn,\nPierre Fabre\n==========\nVị trí tuyển dụng Wonder Ridge Radio: Trợ lý Lập trình\nĐăng ngày 2 tháng 11\nMô tả công việc\nTrợ lý lập trình báo cáo cho giám đốc lập trình và hỗ trợ đài phát thanh bằng cách thực hiện nhiều chức năng nghiên cứu và giao tiếp khác nhau. Vai trò này là vị trí bán thời gian, cấp độ mới bắt đầu.\nTrách nhiệm\n*  Tiến hành nghiên cứu nền về người được phỏng vấn\n*  Cập nhật tin tức và người làm tin để đề xuất các chủ đề và khách mời tiềm năng cho các cuộc phỏng vấn trên sóng\n*  Cập nhật trang web của đài và trang tiểu sử người dẫn chương trình\n*  Sử dụng phần mềm lập lịch để cập nhật lịch phát sóng\n*  Giao tiếp với người nghe, đặc biệt qua e-mail và mạng xã hội Để ứng tuyển, gửi email sơ yếu lý lịch và thư xin việc đến hiring@wonderridgeradio.org."
       }
      ],
      "questions": [
@@ -9699,6 +9791,21 @@
         "Local news and interviews with community members"
        ]
       }
+     ],
+     "directions": "schedule, e-mail, and job advertisement",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9715,8 +9822,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Instructions for Requesting Records\nThank you for your interest in official records and documents maintained by the City of Abilene. To file a request for public information, please follow these steps.\n1.  Create an account in the Records Center Web portal. Currently, all requests must be made through the portal.\n2.  Use the drop-down menu to locate the department from which you are seeking information and submit your request. You will receive a confirmation e-mail with a reference number.\n3.  The department staff will locate the requested records and contact you when they are available. You can have the records delivered to you, or you can pick them up in person. If you prefer to pick them up in person, you must make an appointment with the department staff.\n4.  If there are any fees associated with your request, you will receive an itemized statement detailing the services provided and the charges for those specific services.\n==========\nE-Mail Message\nTo: Joo-Hee Park < jhpark@coa.net>\nFrom: Keith Brandenberg kbrandenberg@mailcurrent.com\nDate: May 3\nSubject: RE: Reference number W2486\nDear Ms. Park,\nThank you for confirming that my documents are available. I would like to pick them up in person as soon as possible. Do you have any appointments available this week?\nI have a question about the fee. Apparently, I am being charged $300 for my documents. I do not understand why the fee is so high, and there was no explanation included in your e-mail. I have requested records several times in the past in my role with RJ Environmental Engineering and have never paid such a high fee. In this case, I am only requesting two maps of the city's underground pipelines, which will inform our firm's current work advising the city on wastewater management.\nPlease clarify the fee for me, and let me know if I can pick up my documents this week. Thank you.\nBest regards,\nKeith Brandenberg\n==========\nCity of Abilene Administrative Building\nVisitors must sign in prior to entering this facility.\nPlease enter your name and the room you will visit in the logbook.\nFirst-Floor Directory:\nIT Services - Room 100\nParks and Recreation - Room 101\nTransportation - Room 102\nWastewater - Room 103",
-       "vi": "Hướng dẫn Yêu cầu Hồ sơ\nCảm ơn bạn đã quan tâm đến hồ sơ và tài liệu chính thức được lưu giữ bởi Thành phố Abilene. Để nộp yêu cầu thông tin công khai, vui lòng làm theo các bước sau.\n1.  Tạo một tài khoản trong cổng thông tin Trung tâm Hồ sơ. Hiện tại, tất cả các yêu cầu phải được thực hiện thông qua cổng thông tin.\n2.  Sử dụng menu thả xuống để định vị phòng ban mà bạn đang tìm kiếm thông tin và gửi yêu cầu của bạn. Bạn sẽ nhận được email xác nhận với số tham chiếu.\n3.  Nhân viên phòng ban sẽ định vị các hồ sơ được yêu cầu và liên hệ với bạn khi chúng có sẵn. Bạn có thể nhận hồ sơ được giao đến hoặc bạn có thể nhận chúng trực tiếp. Nếu bạn muốn nhận trực tiếp, bạn phải đặt lịch hẹn với nhân viên phòng ban.\n4.  Nếu có bất kỳ khoản phí nào liên quan đến yêu cầu của bạn, bạn sẽ nhận được một bảng kê chi tiết các dịch vụ được cung cấp và các khoản phí cho những dịch vụ cụ thể đó.\n==========\nThư điện tử\nGửi: Joo-Hee Park < jhpark@coa.net>\nTừ: Keith Brandenberg kbrandenberg@mailcurrent.com\nNgày: 3 tháng 5\nChủ đề: Trả lời: Số tham chiếu W2486\nKính gửi bà Park,\nCảm ơn bà đã xác nhận rằng tài liệu của tôi đã có sẵn. Tôi muốn nhận chúng trực tiếp càng sớm càng tốt. Bà có lịch hẹn nào trong tuần này không?\nTôi có một câu hỏi về khoản phí. Có vẻ như tôi đang bị tính phí $300 cho tài liệu của mình. Tôi không hiểu tại sao khoản phí lại cao như vậy, và không có giải thích nào được đưa ra trong email của bà. Tôi đã yêu cầu hồ sơ nhiều lần trong quá khứ trong vai trò của mình tại RJ Environmental Engineering và chưa bao giờ phải trả một khoản phí cao như vậy. Trong trường hợp này, tôi chỉ yêu cầu hai bản đồ đường ống ngầm của thành phố, sẽ cung cấp thông tin cho công việc hiện tại của công ty chúng tôi trong việc tư vấn cho thành phố về quản lý nước thải.\nVui lòng làm rõ khoản phí cho tôi và cho tôi biết liệu tôi có thể nhận tài liệu của mình trong tuần này không. Cảm ơn bà.\nTrân trọng,\nKeith Brandenberg\n==========\nTòa nhà Hành chính Thành phố Abilene\nKhách phải đăng ký trước khi vào cơ sở này.\nVui lòng nhập tên của bạn và phòng bạn sẽ đến thăm vào sổ đăng ký.\nDanh bạ Tầng một:\nDịch vụ IT - Phòng 100\nCông viên và Giải trí - Phòng 101\nGiao thông vận tải - Phòng 102\nNước thải - Phòng 103"
+       "en": "Instructions for Requesting Records\nThank you for your interest in official records and documents maintained by the City of Abilene. To file a request for public information, please follow these steps.\n1.  Create an account in the Records Center Web portal. Currently, all requests must be made through the portal.\n2.  Use the drop-down menu to locate the department from which you are seeking information and submit your request. You will receive a confirmation e-mail with a reference number.\n3.  The department staff will locate the requested records and contact you when they are available. You can have the records delivered to you, or you can pick them up in person. If you prefer to pick them up in person, you must make an appointment with the department staff.\n4.  If there are any fees associated with your request, you will receive an itemized statement detailing the services provided and the charges for those specific services.\n==========\nTo: Joo-Hee Park < jhpark@coa.net>\nFrom: Keith Brandenberg kbrandenberg@mailcurrent.com\nDate: May 3\nSubject: RE: Reference number W2486\nDear Ms. Park,\nThank you for confirming that my documents are available. I would like to pick them up in person as soon as possible. Do you have any appointments available this week?\nI have a question about the fee. Apparently, I am being charged $300 for my documents. I do not understand why the fee is so high, and there was no explanation included in your e-mail. I have requested records several times in the past in my role with RJ Environmental Engineering and have never paid such a high fee. In this case, I am only requesting two maps of the city's underground pipelines, which will inform our firm's current work advising the city on wastewater management.\nPlease clarify the fee for me, and let me know if I can pick up my documents this week. Thank you.\nBest regards,\nKeith Brandenberg\n==========\nCity of Abilene Administrative Building\nVisitors must sign in prior to entering this facility.\nPlease enter your name and the room you will visit in the logbook.\nFirst-Floor Directory:\nIT Services - Room 100\nParks and Recreation - Room 101\nTransportation - Room 102\nWastewater - Room 103",
+       "vi": "Hướng dẫn Yêu cầu Hồ sơ\nCảm ơn bạn đã quan tâm đến hồ sơ và tài liệu chính thức được lưu giữ bởi Thành phố Abilene. Để nộp yêu cầu thông tin công khai, vui lòng làm theo các bước sau.\n1.  Tạo một tài khoản trong cổng thông tin Trung tâm Hồ sơ. Hiện tại, tất cả các yêu cầu phải được thực hiện thông qua cổng thông tin.\n2.  Sử dụng menu thả xuống để định vị phòng ban mà bạn đang tìm kiếm thông tin và gửi yêu cầu của bạn. Bạn sẽ nhận được email xác nhận với số tham chiếu.\n3.  Nhân viên phòng ban sẽ định vị các hồ sơ được yêu cầu và liên hệ với bạn khi chúng có sẵn. Bạn có thể nhận hồ sơ được giao đến hoặc bạn có thể nhận chúng trực tiếp. Nếu bạn muốn nhận trực tiếp, bạn phải đặt lịch hẹn với nhân viên phòng ban.\n4.  Nếu có bất kỳ khoản phí nào liên quan đến yêu cầu của bạn, bạn sẽ nhận được một bảng kê chi tiết các dịch vụ được cung cấp và các khoản phí cho những dịch vụ cụ thể đó.\n==========\nGửi: Joo-Hee Park < jhpark@coa.net>\nTừ: Keith Brandenberg kbrandenberg@mailcurrent.com\nNgày: 3 tháng 5\nChủ đề: Trả lời: Số tham chiếu W2486\nKính gửi bà Park,\nCảm ơn bà đã xác nhận rằng tài liệu của tôi đã có sẵn. Tôi muốn nhận chúng trực tiếp càng sớm càng tốt. Bà có lịch hẹn nào trong tuần này không?\nTôi có một câu hỏi về khoản phí. Có vẻ như tôi đang bị tính phí $300 cho tài liệu của mình. Tôi không hiểu tại sao khoản phí lại cao như vậy, và không có giải thích nào được đưa ra trong email của bà. Tôi đã yêu cầu hồ sơ nhiều lần trong quá khứ trong vai trò của mình tại RJ Environmental Engineering và chưa bao giờ phải trả một khoản phí cao như vậy. Trong trường hợp này, tôi chỉ yêu cầu hai bản đồ đường ống ngầm của thành phố, sẽ cung cấp thông tin cho công việc hiện tại của công ty chúng tôi trong việc tư vấn cho thành phố về quản lý nước thải.\nVui lòng làm rõ khoản phí cho tôi và cho tôi biết liệu tôi có thể nhận tài liệu của mình trong tuần này không. Cảm ơn bà.\nTrân trọng,\nKeith Brandenberg\n==========\nTòa nhà Hành chính Thành phố Abilene\nKhách phải đăng ký trước khi vào cơ sở này.\nVui lòng nhập tên của bạn và phòng bạn sẽ đến thăm vào sổ đăng ký.\nDanh bạ Tầng một:\nDịch vụ IT - Phòng 100\nCông viên và Giải trí - Phòng 101\nGiao thông vận tải - Phòng 102\nNước thải - Phòng 103"
       }
      ],
      "questions": [
@@ -9899,6 +10006,21 @@
         }
        }
       }
+     ],
+     "directions": "instructions, e-mail, and sign",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9915,8 +10037,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Famous Actor, First Book\nLONDON (25 February)-Fans of Simon Eklund will be delighted with his autobiography, The Theatre Lights Dimmed, the first book he has written in his storied career as an actor. It provides wonderful insight into his career, starting with his first roles in cinema in his native Sweden, moving into his work in France and Italy, and finishing with his recent theatre work in the U.K.\nIn his book, Mr. Eklund dedicates a fair amount of text to discussing his mentor, Charles Gunnarsson, who helped him develop his skills early on in Stockholm. He also describes the difficulty of transitioning into different types of roles, especially from comedic to dramatic acting. He includes several funny anecdotes about his first attempts at acting onstage here in London. He describes them as disastrous, but anyone who saw his recent performance in Life and Games would say just the opposite.\nMr. Eklund has long been a captivating actor on stage and screen, and now he is a thoroughly engaging author.\n-Uma Joshi\n==========\nTo: Edith Hocking\nFrom: Uma Joshi\nDate: 2 March\nSubject: RE: Opportunity\nDear Edith,\nThank you for agreeing to arrange an interview with Mr. Eklund for me. I think this will be a great follow-up to my recent piece.\nin a heist coincidence, A mil be visiting his her an ountry neus the th to iddor diversity in journalism. I'm sure we can set up something with Mr. Eklund just before or after my speech.\nBest,\nUma Joshi\nArts and Culture Editor\nTop News U.K.\n==========\nE-mail\nTo: Uma Joshi ujoshi@topnews.co.uk\nFrom: Maria Cazalla mcazalla@zephyrmail.se\nDate: 20 March\nSubject: RE: Information\nDear Ms. Joshi,\nWe are all very excited about your interview next month with Mr. Eklund. He enjoys all your writing for Top News U.K.—the news stories, interviews, and, of course, your recent article about The Theatre Lights Dimmed!\nI just wanted to finalize a few details with you. We have arranged transportation for you from your hotel to Mr. Eklund's house and then back to the hotel. Please let me know how many people there will be in your group, because Mr. Eklund would like you all to stay for lunch.\nSincerely,\nMaria Cazalla",
-       "vi": "Diễn viên nổi tiếng, Cuốn sách đầu tiên\nLUÂN ĐÔN (25 tháng 2) - Người hâm mộ của Simon Eklund sẽ rất vui mừng với cuốn tự truyện của ông, The Theatre Lights Dimmed, cuốn sách đầu tiên ông viết trong sự nghiệp diễn xuất đáng kể của mình. Nó cung cấp cái nhìn sâu sắc tuyệt vời về sự nghiệp của ông, bắt đầu với vai diễn đầu tiên trong điện ảnh ở Thụy Điển quê hương, chuyển sang công việc ở Pháp và Ý, và kết thúc với công việc sân khấu gần đây ở Vương quốc Anh.\nTrong cuốn sách của mình, ông Eklund dành khá nhiều văn bản để thảo luận về người cố vấn của mình, Charles Gunnarsson, người đã giúp ông phát triển kỹ năng từ sớm ở Stockholm. Ông cũng mô tả khó khăn trong việc chuyển đổi giữa các loại vai diễn khác nhau, đặc biệt là từ diễn hài sang diễn kịch. Ông bao gồm một số giai thoại hài hước về những nỗ lực đầu tiên của mình khi diễn trên sân khấu ở London. Ông mô tả chúng là thảm họa, nhưng bất kỳ ai đã xem buổi biểu diễn gần đây của ông trong Life and Games đều sẽ nói ngược lại.\nÔng Eklund từ lâu đã là một diễn viên hấp dẫn trên sân khấu và màn ảnh, và giờ đây ông là một tác giả hoàn toàn cuốn hút.\n-Uma Joshi\n==========\nGửi: Edith Hocking\nTừ: Uma Joshi\nNgày: 2 tháng 3\nChủ đề: Trả lời: Cơ hội\nKính gửi Edith,\nCảm ơn bạn đã đồng ý sắp xếp một cuộc phỏng vấn với ông Eklund cho tôi. Tôi nghĩ đây sẽ là một bài tiếp theo tuyệt vời cho bài viết gần đây của tôi.\nTrong một sự trùng hợp ngẫu nhiên, tôi sẽ đến thăm quê hương của ông ấy vào ngày thứ năm để nói về sự đa dạng trong báo chí. Tôi chắc chắn chúng ta có thể sắp xếp một cuộc gặp với ông Eklund ngay trước hoặc sau bài phát biểu của tôi.\nTrân trọng,\nUma Joshi\nBiên tập viên Nghệ thuật và Văn hóa\nTop News U.K.\n==========\nE-mail\nGửi: Uma Joshi ujoshi@topnews.co.uk\nTừ: Maria Cazalla mcazalla@zephyrmail.se\nNgày: 20 tháng 3\nChủ đề: Trả lời: Thông tin\nKính gửi bà Joshi,\nTất cả chúng tôi đều rất hào hứng về cuộc phỏng vấn của bà với ông Eklund vào tháng tới. Ông ấy thích tất cả các bài viết của bà cho Top News U.K.—các tin tức, phỏng vấn, và tất nhiên, bài viết gần đây của bà về The Theatre Lights Dimmed!\nTôi chỉ muốn hoàn tất một vài chi tiết với bà. Chúng tôi đã sắp xếp phương tiện đi lại cho bà từ khách sạn đến nhà ông Eklund và sau đó trở lại khách sạn. Vui lòng cho tôi biết có bao nhiêu người trong nhóm của bà, vì ông Eklund muốn tất cả các bạn ở lại dùng bữa trưa.\nTrân trọng,\nMaria Cazalla"
+       "en": "Famous Actor, First Book\nLONDON (25 February)-Fans of Simon Eklund will be delighted with his autobiography, The Theatre Lights Dimmed, the first book he has written in his storied career as an actor. It provides wonderful insight into his career, starting with his first roles in cinema in his native Sweden, moving into his work in France and Italy, and finishing with his recent theatre work in the U.K.\nIn his book, Mr. Eklund dedicates a fair amount of text to discussing his mentor, Charles Gunnarsson, who helped him develop his skills early on in Stockholm. He also describes the difficulty of transitioning into different types of roles, especially from comedic to dramatic acting. He includes several funny anecdotes about his first attempts at acting onstage here in London. He describes them as disastrous, but anyone who saw his recent performance in Life and Games would say just the opposite.\nMr. Eklund has long been a captivating actor on stage and screen, and now he is a thoroughly engaging author.\n-Uma Joshi\n==========\nTo: Edith Hocking\nFrom: Uma Joshi\nDate: 2 March\nSubject: RE: Opportunity\nDear Edith,\nThank you for agreeing to arrange an interview with Mr. Eklund for me. I think this will be a great follow-up to my recent piece.\nin a heist coincidence, A mil be visiting his her an ountry neus the th to iddor diversity in journalism. I'm sure we can set up something with Mr. Eklund just before or after my speech.\nBest,\nUma Joshi\nArts and Culture Editor\nTop News U.K.\n==========\nTo: Uma Joshi ujoshi@topnews.co.uk\nFrom: Maria Cazalla mcazalla@zephyrmail.se\nDate: 20 March\nSubject: RE: Information\nDear Ms. Joshi,\nWe are all very excited about your interview next month with Mr. Eklund. He enjoys all your writing for Top News U.K.—the news stories, interviews, and, of course, your recent article about The Theatre Lights Dimmed!\nI just wanted to finalize a few details with you. We have arranged transportation for you from your hotel to Mr. Eklund's house and then back to the hotel. Please let me know how many people there will be in your group, because Mr. Eklund would like you all to stay for lunch.\nSincerely,\nMaria Cazalla",
+       "vi": "Diễn viên nổi tiếng, Cuốn sách đầu tiên\nLUÂN ĐÔN (25 tháng 2) - Người hâm mộ của Simon Eklund sẽ rất vui mừng với cuốn tự truyện của ông, The Theatre Lights Dimmed, cuốn sách đầu tiên ông viết trong sự nghiệp diễn xuất đáng kể của mình. Nó cung cấp cái nhìn sâu sắc tuyệt vời về sự nghiệp của ông, bắt đầu với vai diễn đầu tiên trong điện ảnh ở Thụy Điển quê hương, chuyển sang công việc ở Pháp và Ý, và kết thúc với công việc sân khấu gần đây ở Vương quốc Anh.\nTrong cuốn sách của mình, ông Eklund dành khá nhiều văn bản để thảo luận về người cố vấn của mình, Charles Gunnarsson, người đã giúp ông phát triển kỹ năng từ sớm ở Stockholm. Ông cũng mô tả khó khăn trong việc chuyển đổi giữa các loại vai diễn khác nhau, đặc biệt là từ diễn hài sang diễn kịch. Ông bao gồm một số giai thoại hài hước về những nỗ lực đầu tiên của mình khi diễn trên sân khấu ở London. Ông mô tả chúng là thảm họa, nhưng bất kỳ ai đã xem buổi biểu diễn gần đây của ông trong Life and Games đều sẽ nói ngược lại.\nÔng Eklund từ lâu đã là một diễn viên hấp dẫn trên sân khấu và màn ảnh, và giờ đây ông là một tác giả hoàn toàn cuốn hút.\n-Uma Joshi\n==========\nGửi: Edith Hocking\nTừ: Uma Joshi\nNgày: 2 tháng 3\nChủ đề: Trả lời: Cơ hội\nKính gửi Edith,\nCảm ơn bạn đã đồng ý sắp xếp một cuộc phỏng vấn với ông Eklund cho tôi. Tôi nghĩ đây sẽ là một bài tiếp theo tuyệt vời cho bài viết gần đây của tôi.\nTrong một sự trùng hợp ngẫu nhiên, tôi sẽ đến thăm quê hương của ông ấy vào ngày thứ năm để nói về sự đa dạng trong báo chí. Tôi chắc chắn chúng ta có thể sắp xếp một cuộc gặp với ông Eklund ngay trước hoặc sau bài phát biểu của tôi.\nTrân trọng,\nUma Joshi\nBiên tập viên Nghệ thuật và Văn hóa\nTop News U.K.\n==========\nGửi: Uma Joshi ujoshi@topnews.co.uk\nTừ: Maria Cazalla mcazalla@zephyrmail.se\nNgày: 20 tháng 3\nChủ đề: Trả lời: Thông tin\nKính gửi bà Joshi,\nTất cả chúng tôi đều rất hào hứng về cuộc phỏng vấn của bà với ông Eklund vào tháng tới. Ông ấy thích tất cả các bài viết của bà cho Top News U.K.—các tin tức, phỏng vấn, và tất nhiên, bài viết gần đây của bà về The Theatre Lights Dimmed!\nTôi chỉ muốn hoàn tất một vài chi tiết với bà. Chúng tôi đã sắp xếp phương tiện đi lại cho bà từ khách sạn đến nhà ông Eklund và sau đó trở lại khách sạn. Vui lòng cho tôi biết có bao nhiêu người trong nhóm của bà, vì ông Eklund muốn tất cả các bạn ở lại dùng bữa trưa.\nTrân trọng,\nMaria Cazalla"
       }
      ],
      "questions": [
@@ -10097,6 +10219,21 @@
        "evidence": [
         "He enjoys all your writing for Top News U.K.—the news stories, interviews, and, of course, your recent article about The Theatre Lights Dimmed!"
        ]
+      }
+     ],
+     "directions": "review and e-mails",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test1/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

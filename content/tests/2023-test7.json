@@ -7869,6 +7869,13 @@
         }
        }
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7882,8 +7889,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nTo: Parsons Road Distribution List\nFrom: Alfredo Moreno\nDate: October 12\nSubject: Parsons Road\nDear Parsons Road Businesses:\nBeginning in March, Parsons Road will be widened between Memorial Boulevard and Hallam Road. The project will add a center turn lane, bicycle paths, pedestrian paths, and streetlights. In addition, a side gutter will be added to improve water flow.\nThe Parsons Road project ties into work completed between Hallam Road and Ingraham Avenue earlier this year. This work will improve access to your businesses and increase pedestrian safety on Parsons Road, which can be quite busy. The roadwork is expected to take three months to complete. Please visit www.yorkcity.gov/parsonsroadproject for more information.\nSincerely,\nAlfredo Moreno\nCommunity Relations Manager\nBethany Construction and Engineering",
-       "vi": "*E-mail*\nGửi: Danh sách phân phối Đường Parsons\nTừ: Alfredo Moreno\nNgày: 12 tháng 10\nChủ đề: Đường Parsons\nKính gửi các Doanh nghiệp trên Đường Parsons:\nBắt đầu từ tháng 3, Đường Parsons sẽ được mở rộng giữa Đại lộ Memorial và Đường Hallam. Dự án sẽ thêm một làn đường rẽ ở giữa, đường đi xe đạp, đường đi bộ và đèn đường. Ngoài ra, một rãnh bên sẽ được thêm vào để cải thiện dòng chảy nước.\nDự án Đường Parsons kết nối với công việc đã hoàn thành giữa Đường Hallam và Đại lộ Ingraham vào đầu năm nay. Công việc này sẽ cải thiện việc tiếp cận các doanh nghiệp của bạn và tăng cường an toàn cho người đi bộ trên Đường Parsons, vốn có thể khá đông đúc. Dự kiến công trình đường sẽ mất ba tháng để hoàn thành. Vui lòng truy cập www.yorkcity.gov/parsonsroadproject để biết thêm thông tin.\nTrân trọng,\nAlfredo Moreno\nQuản lý Quan hệ Cộng đồng\nBethany Construction and Engineering"
+       "en": "To: Parsons Road Distribution List\nFrom: Alfredo Moreno\nDate: October 12\nSubject: Parsons Road\nDear Parsons Road Businesses:\nBeginning in March, Parsons Road will be widened between Memorial Boulevard and Hallam Road. The project will add a center turn lane, bicycle paths, pedestrian paths, and streetlights. In addition, a side gutter will be added to improve water flow.\nThe Parsons Road project ties into work completed between Hallam Road and Ingraham Avenue earlier this year. This work will improve access to your businesses and increase pedestrian safety on Parsons Road, which can be quite busy. The roadwork is expected to take three months to complete. Please visit www.yorkcity.gov/parsonsroadproject for more information.\nSincerely,\nAlfredo Moreno\nCommunity Relations Manager\nBethany Construction and Engineering",
+       "vi": "Gửi: Danh sách phân phối Đường Parsons\nTừ: Alfredo Moreno\nNgày: 12 tháng 10\nChủ đề: Đường Parsons\nKính gửi các Doanh nghiệp trên Đường Parsons:\nBắt đầu từ tháng 3, Đường Parsons sẽ được mở rộng giữa Đại lộ Memorial và Đường Hallam. Dự án sẽ thêm một làn đường rẽ ở giữa, đường đi xe đạp, đường đi bộ và đèn đường. Ngoài ra, một rãnh bên sẽ được thêm vào để cải thiện dòng chảy nước.\nDự án Đường Parsons kết nối với công việc đã hoàn thành giữa Đường Hallam và Đại lộ Ingraham vào đầu năm nay. Công việc này sẽ cải thiện việc tiếp cận các doanh nghiệp của bạn và tăng cường an toàn cho người đi bộ trên Đường Parsons, vốn có thể khá đông đúc. Dự kiến công trình đường sẽ mất ba tháng để hoàn thành. Vui lòng truy cập www.yorkcity.gov/parsonsroadproject để biết thêm thông tin.\nTrân trọng,\nAlfredo Moreno\nQuản lý Quan hệ Cộng đồng\nBethany Construction and Engineering"
       }
      ],
      "questions": [
@@ -7955,6 +7962,13 @@
        "evidence": [
         "This work will improve access to your businesses and increase pedestrian safety on Parsons Road, which can be quite busy"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-149-150.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8039,6 +8053,13 @@
          "meaning": "Cô ấy mong đợi sẽ sớm nhận được cập nhật tình trạng."
         }
        }
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-151-152.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8126,6 +8147,13 @@
        "evidence": [
         "Park officials are the only ones who should be stacking rocks, and they do so strategically on trails where the path may be unclear"
        ]
+      }
+     ],
+     "directions": "sign",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-153-154.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8254,6 +8282,13 @@
         "the company also utilizes software that tracks the producer, the processing date, and other pertinent data for each batch of tea leaves"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-155-157.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8362,6 +8397,13 @@
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Người tham gia có thể học và học lại bao nhiêu phần tùy ý.",
        "optionNotes": {}
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-158-160.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8377,8 +8419,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nTo: Kristen Coetzee <kcoetzee@rhyta.co.za>\nFrom: Anita Ngubane <angubane@clubfreshenup.co.za>\nSubject: Welcome to Club Freshen-Up\nDate: 12 January\nDear Ms. Coetzee,\nThank you for joining Club Freshen-Up. We are delighted to be a part of your continuing journey to well-being for the next twelve months.\nYour membership in Club Freshen-Up entitles you to a monthly delivery of six essential health-care and beauty products. Each shipment will contain a variety of individually packaged items in attractive and reusable containers. Accompanying every shipment will be an itemised receipt listing product numbers. Please refer to these numbers when contacting us with questions about a product.\nEverything from vitamins to lotions to cosmetics will be chosen just for you based on the eight answers you provided in the personal-preferences questionnaire. Every item you receive is guaranteed for one full year from the date of shipment. If you wish to return an item, simply send us the unused portion along with a short note describing the reason for your dissatisfaction. Upon receipt, we will send you an alternative of equal value.\nSincerely,\nAnita Ngubane\nMember Services Specialist, Club Freshen-Up",
-       "vi": "*E-mail*\nGửi: Kristen Coetzee <kcoetzee@rhyta.co.za>\nTừ: Anita Ngubane <angubane@clubfreshenup.co.za>\nChủ đề: Chào mừng đến với Club Freshen-Up\nNgày: 12 tháng 1\nKính gửi cô Coetzee,\nCảm ơn cô đã tham gia Club Freshen-Up. Chúng tôi rất vui mừng được là một phần trong hành trình tiếp tục hướng đến sức khỏe của cô trong mười hai tháng tới.\nTư cách thành viên của cô trong Club Freshen-Up cho phép cô nhận được giao hàng hàng tháng gồm sáu sản phẩm chăm sóc sức khỏe và làm đẹp thiết yếu. Mỗi lô hàng sẽ chứa nhiều mặt hàng được đóng gói riêng lẻ trong các hộp đựng đẹp mắt và có thể tái sử dụng. Kèm theo mỗi lô hàng sẽ là một biên lai chi tiết liệt kê số sản phẩm. Vui lòng tham khảo các số này khi liên hệ với chúng tôi về các câu hỏi liên quan đến sản phẩm.\nMọi thứ từ vitamin đến kem dưỡng da đến mỹ phẩm sẽ được chọn riêng cho cô dựa trên tám câu trả lời cô đã cung cấp trong bảng câu hỏi về sở thích cá nhân. Mỗi mặt hàng cô nhận được đều được bảo hành trong một năm đầy đủ kể từ ngày gửi hàng. Nếu cô muốn trả lại một mặt hàng, chỉ cần gửi cho chúng tôi phần chưa sử dụng cùng với một ghi chú ngắn mô tả lý do không hài lòng của cô. Khi nhận được, chúng tôi sẽ gửi cho cô một sản phẩm thay thế có giá trị tương đương.\nTrân trọng,\nAnita Ngubane\nChuyên viên Dịch vụ Thành viên, Club Freshen-Up"
+       "en": "To: Kristen Coetzee <kcoetzee@rhyta.co.za>\nFrom: Anita Ngubane <angubane@clubfreshenup.co.za>\nSubject: Welcome to Club Freshen-Up\nDate: 12 January\nDear Ms. Coetzee,\nThank you for joining Club Freshen-Up. We are delighted to be a part of your continuing journey to well-being for the next twelve months.\nYour membership in Club Freshen-Up entitles you to a monthly delivery of six essential health-care and beauty products. Each shipment will contain a variety of individually packaged items in attractive and reusable containers. Accompanying every shipment will be an itemised receipt listing product numbers. Please refer to these numbers when contacting us with questions about a product.\nEverything from vitamins to lotions to cosmetics will be chosen just for you based on the eight answers you provided in the personal-preferences questionnaire. Every item you receive is guaranteed for one full year from the date of shipment. If you wish to return an item, simply send us the unused portion along with a short note describing the reason for your dissatisfaction. Upon receipt, we will send you an alternative of equal value.\nSincerely,\nAnita Ngubane\nMember Services Specialist, Club Freshen-Up",
+       "vi": "Gửi: Kristen Coetzee <kcoetzee@rhyta.co.za>\nTừ: Anita Ngubane <angubane@clubfreshenup.co.za>\nChủ đề: Chào mừng đến với Club Freshen-Up\nNgày: 12 tháng 1\nKính gửi cô Coetzee,\nCảm ơn cô đã tham gia Club Freshen-Up. Chúng tôi rất vui mừng được là một phần trong hành trình tiếp tục hướng đến sức khỏe của cô trong mười hai tháng tới.\nTư cách thành viên của cô trong Club Freshen-Up cho phép cô nhận được giao hàng hàng tháng gồm sáu sản phẩm chăm sóc sức khỏe và làm đẹp thiết yếu. Mỗi lô hàng sẽ chứa nhiều mặt hàng được đóng gói riêng lẻ trong các hộp đựng đẹp mắt và có thể tái sử dụng. Kèm theo mỗi lô hàng sẽ là một biên lai chi tiết liệt kê số sản phẩm. Vui lòng tham khảo các số này khi liên hệ với chúng tôi về các câu hỏi liên quan đến sản phẩm.\nMọi thứ từ vitamin đến kem dưỡng da đến mỹ phẩm sẽ được chọn riêng cho cô dựa trên tám câu trả lời cô đã cung cấp trong bảng câu hỏi về sở thích cá nhân. Mỗi mặt hàng cô nhận được đều được bảo hành trong một năm đầy đủ kể từ ngày gửi hàng. Nếu cô muốn trả lại một mặt hàng, chỉ cần gửi cho chúng tôi phần chưa sử dụng cùng với một ghi chú ngắn mô tả lý do không hài lòng của cô. Khi nhận được, chúng tôi sẽ gửi cho cô một sản phẩm thay thế có giá trị tương đương.\nTrân trọng,\nAnita Ngubane\nChuyên viên Dịch vụ Thành viên, Club Freshen-Up"
       }
      ],
      "questions": [
@@ -8522,6 +8564,13 @@
         "Upon receipt, we will send you an alternative of equal value"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-161-164.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8645,6 +8694,13 @@
          "meaning": "được bảo vệ"
         }
        }
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-165-167.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8782,6 +8838,13 @@
        "evidence": [
         "I will have someone from our office get in touch with you by phone to schedule a visit"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-168-171.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8923,6 +8986,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Tôi tự hào rằng, cùng nhau, chúng ta đã tạo ra những tiến bộ tích cực trong ngành của mình.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-172-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9122,6 +9192,17 @@
        "evidence": [
         "the people whose views he most wanted to hear were just too busy to speak with me before the publishing deadline"
        ]
+      }
+     ],
+     "directions": "review and e-mail",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9325,6 +9406,17 @@
         "I will bring an updated copy for you when I come over this afternoon"
        ]
       }
+     ],
+     "directions": "e-mail and text message",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9499,6 +9591,21 @@
        "evidence": [
         "your corporate headquarters in Beeman Square is next to apartments owned by Foursquare"
        ]
+      }
+     ],
+     "directions": "Web page and e-mails",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9702,6 +9809,21 @@
         "Finally, the hospital will be purchasing two additional robots in the next few months to work in other areas of the hospital"
        ]
       }
+     ],
+     "directions": "e-mails and Web page",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9718,8 +9840,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-mail\n\nTo: management_team@pfi.co.uk\n\nFrom: schakravarty@pfi.co.uk\n\nSubject: R&D Director Search\n\nDate: 24 July\n\n Attachment: Files.txt\n\nDear Management Team Members,\n\nOn behalf of the hiring committee, I am pleased to report that the search for a new research and development director is nearing completion.\n\nGiven the key selection criteria the suitable candidate must meet—a demonstrated ability to improve product offerings, a keen awareness of consumers' tastes, and in-depth knowledge of nutritional science-we have narrowed the applicant pool to Alex Mooring and Inez Fuentes. While either makes for an excellent choice, I believe that Ms. Fuentes is better suited to the role. Though somewhat less experienced than Mr. Mooring, she has innovative ideas that are in line with our company's needs.\n\nAttached are the résumés and references of the two candidates. The dates, times, and location of their final interviews will be forthcoming in another e-mail when that information is finalized. We look forward to your participation in these meetings as well as your final hiring decision.\n\nSincerely,\n\nSupriya Chakravarty, Chair, Hiring Committee\n\nPrimidian Food Industries\n==========\nUpcoming Events at Primidian Food Industries\n\nOn 7 October at 10 A.M., Ms. Inez Fuentes, director of research and development at\n\nPrimidian Food Industries (PFI), will facilitate a workshop titled Food Innovation for the Future. Among other things, she will explain why PFI recently reformulated its pasta products and demonstrate how they can be prepared in novel, tasty ways.\n\nMs. Fuentes is a certified nutritionist with a degree in food science from Mexico City's Academy of Science and Technology. Upon graduation, she accepted a two-year internship at Italy's prestigious Rome Institute of Culinary Arts. Before joining PFI's executive team, she served for five years as lead product development manager at Zesty Meals, based in Montreal, Canada.\n\nRegister for this free event at www.pfi.co.uk/events/register, specifying whether you will attend online or in person at our corporate headquarters in Birmingham.\n==========\nhttps://www.pfi.co.uk/contact-us\n\nWho We Are.    Our Brands     News and Events      Contact Us\n\nPlease complete the form below so someone from our team can contact you.\n\nName: Chaim Auerbach\n\nE-mail: chaim_auerbach@equisend.net.uk\n\nYour Message:\n\nI thoroughly enjoyed the Food Innovation for the Future workshop led by Ms. Fuentes on\n\n28 October. I almost missed it, though. Apparently, when details about the workshop were updated, including that it would be an online-only event, my registration-and, I learned, that of some other participants-was not transferred over. Luckily, a staffer charged with online registration was able to quickly reregister me. PFI may want to analyse its electronic registration system and make improvements where necessary so that this problem does not reoccur.",
-       "vi": "E-mail\n\nGửi: management_team@pfi.co.uk\n\nTừ: schakravarty@pfi.co.uk\n\nChủ đề: Tìm kiếm Giám đốc R&D\n\nNgày: 24 tháng 7\n\n Đính kèm: Files.txt\n\nKính gửi các Thành viên Ban Quản lý,\n\nThay mặt ủy ban tuyển dụng, tôi vui mừng báo cáo rằng việc tìm kiếm một giám đốc nghiên cứu và phát triển mới đang gần hoàn thành.\n\nDựa trên các tiêu chí lựa chọn chính mà ứng viên phù hợp phải đáp ứng - khả năng cải thiện sản phẩm đã được chứng minh, nhận thức sâu sắc về thị hiếu của người tiêu dùng và kiến thức sâu rộng về khoa học dinh dưỡng - chúng tôi đã thu hẹp nhóm ứng viên xuống còn Alex Mooring và Inez Fuentes. Mặc dù cả hai đều là lựa chọn xuất sắc, tôi tin rằng cô Fuentes phù hợp hơn với vai trò này. Mặc dù có kinh nghiệm ít hơn một chút so với ông Mooring, cô ấy có những ý tưởng sáng tạo phù hợp với nhu cầu của công ty chúng ta.\n\nĐính kèm là sơ yếu lý lịch và thông tin tham khảo của hai ứng viên. Ngày, giờ và địa điểm phỏng vấn cuối cùng của họ sẽ được thông báo trong một email khác khi thông tin đó được hoàn tất. Chúng tôi mong được sự tham gia của bạn trong các cuộc họp này cũng như quyết định tuyển dụng cuối cùng của bạn.\n\nTrân trọng,\n\nSupriya Chakravarty, Chủ tịch, Ủy ban Tuyển dụng\n\nPrimidian Food Industries\n==========\nSự kiện sắp tới tại Primidian Food Industries\n\nVào lúc 10 giờ sáng ngày 7 tháng 10, cô Inez Fuentes, giám đốc nghiên cứu và phát triển tại\n\nPrimidian Food Industries (PFI), sẽ tổ chức một hội thảo có tên Đổi mới Thực phẩm cho Tương lai. Trong số những nội dung khác, cô ấy sẽ giải thích tại sao PFI gần đây đã tái công thức hóa các sản phẩm mì ống của mình và trình bày cách chúng có thể được chế biến theo những cách mới lạ, ngon miệng.\n\nCô Fuentes là một chuyên gia dinh dưỡng được chứng nhận với bằng cấp về khoa học thực phẩm từ Học viện Khoa học và Công nghệ Mexico City. Sau khi tốt nghiệp, cô đã nhận một kỳ thực tập hai năm tại Viện Nghệ thuật Ẩm thực Rome danh tiếng ở Ý. Trước khi gia nhập đội ngũ điều hành của PFI, cô đã làm việc trong năm năm với tư cách là quản lý phát triển sản phẩm chính tại Zesty Meals, có trụ sở tại Montreal, Canada.\n\nĐăng ký cho sự kiện miễn phí này tại www.pfi.co.uk/events/register, ghi rõ liệu bạn sẽ tham dự trực tuyến hay trực tiếp tại trụ sở công ty của chúng tôi ở Birmingham.\n==========\nhttps://www.pfi.co.uk/contact-us\n\nChúng tôi là ai.    Thương hiệu của chúng tôi     Tin tức và Sự kiện      Liên hệ chúng tôi\n\nVui lòng điền vào mẫu dưới đây để ai đó từ đội ngũ của chúng tôi có thể liên hệ với bạn.\n\nTên: Chaim Auerbach\n\nE-mail: chaim_auerbach@equisend.net.uk\n\nTin nhắn của bạn:\n\nTôi rất thích thú với hội thảo Đổi mới Thực phẩm cho Tương lai do cô Fuentes dẫn dắt vào\n\nngày 28 tháng 10. Tuy nhiên, tôi suýt bỏ lỡ nó. Có vẻ như khi chi tiết về hội thảo được cập nhật, bao gồm cả việc nó sẽ là một sự kiện chỉ diễn ra trực tuyến, việc đăng ký của tôi - và tôi biết được, của một số người tham gia khác - đã không được chuyển sang. May mắn thay, một nhân viên phụ trách đăng ký trực tuyến đã có thể nhanh chóng đăng ký lại cho tôi. PFI có thể muốn phân tích hệ thống đăng ký điện tử của mình và cải thiện nơi cần thiết để vấn đề này không tái diễn."
+       "en": "To: management_team@pfi.co.uk\n\nFrom: schakravarty@pfi.co.uk\n\nSubject: R&D Director Search\n\nDate: 24 July\n\n Attachment: Files.txt\n\nDear Management Team Members,\n\nOn behalf of the hiring committee, I am pleased to report that the search for a new research and development director is nearing completion.\n\nGiven the key selection criteria the suitable candidate must meet—a demonstrated ability to improve product offerings, a keen awareness of consumers' tastes, and in-depth knowledge of nutritional science-we have narrowed the applicant pool to Alex Mooring and Inez Fuentes. While either makes for an excellent choice, I believe that Ms. Fuentes is better suited to the role. Though somewhat less experienced than Mr. Mooring, she has innovative ideas that are in line with our company's needs.\n\nAttached are the résumés and references of the two candidates. The dates, times, and location of their final interviews will be forthcoming in another e-mail when that information is finalized. We look forward to your participation in these meetings as well as your final hiring decision.\n\nSincerely,\n\nSupriya Chakravarty, Chair, Hiring Committee\n\nPrimidian Food Industries\n==========\nUpcoming Events at Primidian Food Industries\n\nOn 7 October at 10 A.M., Ms. Inez Fuentes, director of research and development at\n\nPrimidian Food Industries (PFI), will facilitate a workshop titled Food Innovation for the Future. Among other things, she will explain why PFI recently reformulated its pasta products and demonstrate how they can be prepared in novel, tasty ways.\n\nMs. Fuentes is a certified nutritionist with a degree in food science from Mexico City's Academy of Science and Technology. Upon graduation, she accepted a two-year internship at Italy's prestigious Rome Institute of Culinary Arts. Before joining PFI's executive team, she served for five years as lead product development manager at Zesty Meals, based in Montreal, Canada.\n\nRegister for this free event at www.pfi.co.uk/events/register, specifying whether you will attend online or in person at our corporate headquarters in Birmingham.\n==========\nhttps://www.pfi.co.uk/contact-us\n\nWho We Are.    Our Brands     News and Events      Contact Us\n\nPlease complete the form below so someone from our team can contact you.\n\nName: Chaim Auerbach\n\nE-mail: chaim_auerbach@equisend.net.uk\n\nYour Message:\n\nI thoroughly enjoyed the Food Innovation for the Future workshop led by Ms. Fuentes on\n\n28 October. I almost missed it, though. Apparently, when details about the workshop were updated, including that it would be an online-only event, my registration-and, I learned, that of some other participants-was not transferred over. Luckily, a staffer charged with online registration was able to quickly reregister me. PFI may want to analyse its electronic registration system and make improvements where necessary so that this problem does not reoccur.",
+       "vi": "Gửi: management_team@pfi.co.uk\n\nTừ: schakravarty@pfi.co.uk\n\nChủ đề: Tìm kiếm Giám đốc R&D\n\nNgày: 24 tháng 7\n\n Đính kèm: Files.txt\n\nKính gửi các Thành viên Ban Quản lý,\n\nThay mặt ủy ban tuyển dụng, tôi vui mừng báo cáo rằng việc tìm kiếm một giám đốc nghiên cứu và phát triển mới đang gần hoàn thành.\n\nDựa trên các tiêu chí lựa chọn chính mà ứng viên phù hợp phải đáp ứng - khả năng cải thiện sản phẩm đã được chứng minh, nhận thức sâu sắc về thị hiếu của người tiêu dùng và kiến thức sâu rộng về khoa học dinh dưỡng - chúng tôi đã thu hẹp nhóm ứng viên xuống còn Alex Mooring và Inez Fuentes. Mặc dù cả hai đều là lựa chọn xuất sắc, tôi tin rằng cô Fuentes phù hợp hơn với vai trò này. Mặc dù có kinh nghiệm ít hơn một chút so với ông Mooring, cô ấy có những ý tưởng sáng tạo phù hợp với nhu cầu của công ty chúng ta.\n\nĐính kèm là sơ yếu lý lịch và thông tin tham khảo của hai ứng viên. Ngày, giờ và địa điểm phỏng vấn cuối cùng của họ sẽ được thông báo trong một email khác khi thông tin đó được hoàn tất. Chúng tôi mong được sự tham gia của bạn trong các cuộc họp này cũng như quyết định tuyển dụng cuối cùng của bạn.\n\nTrân trọng,\n\nSupriya Chakravarty, Chủ tịch, Ủy ban Tuyển dụng\n\nPrimidian Food Industries\n==========\nSự kiện sắp tới tại Primidian Food Industries\n\nVào lúc 10 giờ sáng ngày 7 tháng 10, cô Inez Fuentes, giám đốc nghiên cứu và phát triển tại\n\nPrimidian Food Industries (PFI), sẽ tổ chức một hội thảo có tên Đổi mới Thực phẩm cho Tương lai. Trong số những nội dung khác, cô ấy sẽ giải thích tại sao PFI gần đây đã tái công thức hóa các sản phẩm mì ống của mình và trình bày cách chúng có thể được chế biến theo những cách mới lạ, ngon miệng.\n\nCô Fuentes là một chuyên gia dinh dưỡng được chứng nhận với bằng cấp về khoa học thực phẩm từ Học viện Khoa học và Công nghệ Mexico City. Sau khi tốt nghiệp, cô đã nhận một kỳ thực tập hai năm tại Viện Nghệ thuật Ẩm thực Rome danh tiếng ở Ý. Trước khi gia nhập đội ngũ điều hành của PFI, cô đã làm việc trong năm năm với tư cách là quản lý phát triển sản phẩm chính tại Zesty Meals, có trụ sở tại Montreal, Canada.\n\nĐăng ký cho sự kiện miễn phí này tại www.pfi.co.uk/events/register, ghi rõ liệu bạn sẽ tham dự trực tuyến hay trực tiếp tại trụ sở công ty của chúng tôi ở Birmingham.\n==========\nhttps://www.pfi.co.uk/contact-us\n\nChúng tôi là ai.    Thương hiệu của chúng tôi     Tin tức và Sự kiện      Liên hệ chúng tôi\n\nVui lòng điền vào mẫu dưới đây để ai đó từ đội ngũ của chúng tôi có thể liên hệ với bạn.\n\nTên: Chaim Auerbach\n\nE-mail: chaim_auerbach@equisend.net.uk\n\nTin nhắn của bạn:\n\nTôi rất thích thú với hội thảo Đổi mới Thực phẩm cho Tương lai do cô Fuentes dẫn dắt vào\n\nngày 28 tháng 10. Tuy nhiên, tôi suýt bỏ lỡ nó. Có vẻ như khi chi tiết về hội thảo được cập nhật, bao gồm cả việc nó sẽ là một sự kiện chỉ diễn ra trực tuyến, việc đăng ký của tôi - và tôi biết được, của một số người tham gia khác - đã không được chuyển sang. May mắn thay, một nhân viên phụ trách đăng ký trực tuyến đã có thể nhanh chóng đăng ký lại cho tôi. PFI có thể muốn phân tích hệ thống đăng ký điện tử của mình và cải thiện nơi cần thiết để vấn đề này không tái diễn."
       }
      ],
      "questions": [
@@ -9897,6 +10019,21 @@
          "meaning": "Nó có nhiều người tham gia hơn dự kiến."
         }
        }
+      }
+     ],
+     "directions": "e-mail, advertisement, and online form",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test7/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

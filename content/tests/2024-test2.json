@@ -7545,6 +7545,13 @@
         }
        }
       }
+     ],
+     "directions": "invitation",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7629,6 +7636,13 @@
          "meaning": "một thức uống"
         }
        }
+      }
+     ],
+     "directions": "announcement",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7717,6 +7731,13 @@
        "evidence": [
         "The office of Rainsy's chief technology officer will remain in Salt Creek, as will the account management team."
        ]
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7808,6 +7829,13 @@
        "evidence": [
         "OK, forget it"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7908,6 +7936,13 @@
        "explanation": "Câu hỏi 157: 'In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?' dịch là 'Câu sau nên nằm ở vị trí nào? 'This is something I would be happy to arrange.' (Đây là điều tôi sẵn sàng sắp xếp).'\nB. '[2]' là đúng, vì câu này phù hợp với ngữ cảnh khi bà ấy đề cập rằng các thành viên SFMA có thể dẫn dắt các khóa học giới thiệu, và bà ấy sẵn sàng sắp xếp điều này.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8034,6 +8069,13 @@
         "by licensed opticians"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8148,6 +8190,13 @@
          "meaning": "Nhân viên công ty bảo vệ"
         }
        }
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8306,6 +8355,13 @@
         "Would you be available to meet before 11:00 A.M. on either Wednesday or Thursday?"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8431,6 +8487,13 @@
        "explanation": "Câu hỏi 171: 'In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?' dịch là 'Câu sau nên được đặt ở vị trí nào?'.\nD. '[4]' là đúng, vì câu này phù hợp với đoạn nói về Fezker đã chuyển sang tập trung vào thị trường trong nước và khu vực, và đoạn này đề cập rằng họ sử dụng vận chuyển bằng xe tải và tàu hỏa.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8582,6 +8645,13 @@
        "evidence": [
         "Keep me posted"
        ]
+      }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8754,6 +8824,17 @@
        "evidence": [
         "I did not care for them at all"
        ]
+      }
+     ],
+     "directions": "e-mail and survey form",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8941,6 +9022,17 @@
         }
        }
       }
+     ],
+     "directions": "Web page and letter",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8957,8 +9049,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-Mail Message\nFrom: Akihito Nakashima <a.nakashima@gilchristshipping.com>\nTo: Fowler Office Supplies <support@fowlerofficesupplies.com>\nSubject: Order B19849\nDate: August 19\nTo Whom It May Concern,\nYesterday, I purchased some office supplies on your Web site. I received an e-mail receipt, but the costs are not itemized on it. To satisfy a new company policy, I must give my supervisor a receipt with the charges for each item listed separately. Could you e-mail me such a receipt? If not, is it possible for me to get this information myself from your Web site? Finally, can confirmations for future orders possibly be sent to more than one e-mail address? It would be ideal for my supervisor to automatically receive one.\nThank you,Akihito Nakashima, Executive Assistant\nGilchrist Shipping\n==========\nE-Mail Message\nFrom: Fowler Office Supplies <support @fowlerofficesupplies.com>\nTo:Akihito Nakashima <a.nakashima@gilchristshipping.com>\nSubject:RE: Order B19849\nDate:August 19\nAttachment: 0 B19849\nDear Mr. Nakashima,\nAttached is the receipt you requested. In apology for the inconvenience, we will provide you with 10 percent off the total price of your next order. To view a full description of any previous order, first log in to your account on our Web site, go to the \"My Orders\" tab, and then click on any order number.\nI noticed that included in each of your last few orders was an identical order for ten of a particular item. You should know that we will reduce the price for that item by 5 percent if you mark this as a recurring order. To do this, simply check the \"Recurring Order\" box on the online order form.n\\As for your final query, this is not possible right now. However, I will share the idea with our technical team.\nAll the best,\nCameron Higgins, Customer Relations Fowler Office Supplies\n==========\nFowler Office Supplies\nReceipt for Order: B19849\nOrder Date: August 18\nItem.                    Price.                      Quantity.  Total\nPrinter paper.     $8.00/500 sheets. 10.           $80.00\nToner (black)      $50.00/cartridge.  1.             $50.00\nGel pens (blue). $5.00/8-pack.        3.            $15.00\nStaples.              $3.50/box.              2.            $7.00\nGRAND TOTAL.                                                $152.00\nReturn Policy: Unopened merchandise may be returned by mail or in one of our stores within 60 days of purchase. For returns by mail, log in to your www.fowlerofficesupplies.com account to print a shipping label. For in-store returns, bring the item and the order number to any Fowler Office Supplies location.",
-       "vi": "Tin nhắn qua email\nTừ: Akihito Nakashima <a.nakashima@gilchristshipping.com>\nĐến: Fowler Office Supplies <support@fowlerofficesupplies.com>\nTiêu đề: Đơn hàng B19849\nNgày: 19 tháng 8\nKính gửi: Kính gửi: Ai quan tâm,\nHôm qua, tôi đã mua một số đồ dùng văn phòng trên trang web của bạn. Tôi đã nhận được biên lai qua email, nhưng chi phí không được liệt kê chi tiết trên đó. Để tuân thủ chính sách mới của công ty, tôi phải đưa cho giám sát viên của mình một biên lai có ghi rõ chi phí cho từng mặt hàng. Bạn có thể gửi cho tôi biên lai như vậy qua email không? Nếu không, tôi có thể tự lấy thông tin này từ trang web của bạn không? Cuối cùng, xác nhận cho các đơn hàng trong tương lai có thể được gửi đến nhiều hơn một địa chỉ email không? Sẽ thật lý tưởng nếu giám sát viên của tôi tự động nhận được một phiếu.\nCảm ơn, Akihito Nakashima, Trợ lý điều hành\nGilchrist Shipping\n==========\nTin nhắn qua E-Mail\nTừ: Fowler Office Supplies <support @fowlerofficesupplies.com>\nGửi: Akihito Nakashima <a.nakashima@gilchristshipping.com>\nTiêu đề: RE: Đơn hàng B19849\nNgày: 19 tháng 8\nĐính kèm: 0 B19849\nKính gửi Ông Nakashima,\nĐính kèm là biên lai mà ông yêu cầu. Để xin lỗi vì sự bất tiện này, chúng tôi sẽ giảm giá 10 phần trăm cho tổng giá của đơn hàng tiếp theo của ông. Để xem mô tả đầy đủ về bất kỳ đơn hàng trước đó nào, trước tiên hãy đăng nhập vào tài khoản của bạn trên trang web của chúng tôi, vào tab \"Đơn hàng của tôi\", sau đó nhấp vào bất kỳ số đơn hàng nào.\nTôi nhận thấy rằng trong mỗi đơn hàng gần đây nhất của ông đều có một đơn hàng giống hệt nhau cho mười mặt hàng cụ thể. Bạn nên biết rằng chúng tôi sẽ giảm giá cho mặt hàng đó 5 phần trăm nếu bạn đánh dấu đây là đơn hàng định kỳ. Để thực hiện việc này, chỉ cần đánh dấu vào ô \"Đơn hàng định kỳ\" trên biểu mẫu đặt hàng trực tuyến.\nĐối với câu hỏi cuối cùng của bạn, hiện tại không thể thực hiện được. Tuy nhiên, tôi sẽ chia sẻ ý tưởng này với nhóm kỹ thuật của chúng tôi.\nChúc bạn mọi điều tốt đẹp nhất,\nCameron Higgins, Bộ phận quan hệ khách hàng Fowler Office Supplies\n==========\nFowler Office Supplies\nBiên lai đơn hàng: B19849\nNgày đặt hàng: 18 tháng 8\nMặt hàng. Giá. Số lượng. Tổng cộng\nGiấy in. 8,00 đô la/500 tờ. 10. 80,00 đô la\nMực in (đen) 50,00 đô la/hộp mực. 1. 50,00 đô la\nBút gel (xanh lam). 5,00 đô la/gói 8 chiếc. 3. 15,00 đô la\nKim bấm. 3,50 đô la/hộp. 2. $7.00\nTỔNG CỘNG. $152.00\nChính sách trả hàng: Hàng hóa chưa mở có thể được trả lại qua đường bưu điện hoặc tại một trong các cửa hàng của chúng tôi trong vòng 60 ngày kể từ ngày mua. Đối với hàng trả lại qua đường bưu điện, hãy đăng nhập vào tài khoản www.fowlerofficesupplies.com của bạn để in nhãn vận chuyển. Đối với hàng trả lại tại cửa hàng, hãy mang mặt hàng và số đơn hàng đến bất kỳ địa điểm nào của Fowler Office Supplies."
+       "en": "From: Akihito Nakashima <a.nakashima@gilchristshipping.com>\nTo: Fowler Office Supplies <support@fowlerofficesupplies.com>\nSubject: Order B19849\nDate: August 19\nTo Whom It May Concern,\nYesterday, I purchased some office supplies on your Web site. I received an e-mail receipt, but the costs are not itemized on it. To satisfy a new company policy, I must give my supervisor a receipt with the charges for each item listed separately. Could you e-mail me such a receipt? If not, is it possible for me to get this information myself from your Web site? Finally, can confirmations for future orders possibly be sent to more than one e-mail address? It would be ideal for my supervisor to automatically receive one.\nThank you,Akihito Nakashima, Executive Assistant\nGilchrist Shipping\n==========\nFrom: Fowler Office Supplies <support @fowlerofficesupplies.com>\nTo:Akihito Nakashima <a.nakashima@gilchristshipping.com>\nSubject:RE: Order B19849\nDate:August 19\nAttachment: 0 B19849\nDear Mr. Nakashima,\nAttached is the receipt you requested. In apology for the inconvenience, we will provide you with 10 percent off the total price of your next order. To view a full description of any previous order, first log in to your account on our Web site, go to the \"My Orders\" tab, and then click on any order number.\nI noticed that included in each of your last few orders was an identical order for ten of a particular item. You should know that we will reduce the price for that item by 5 percent if you mark this as a recurring order. To do this, simply check the \"Recurring Order\" box on the online order form.n\\As for your final query, this is not possible right now. However, I will share the idea with our technical team.\nAll the best,\nCameron Higgins, Customer Relations Fowler Office Supplies\n==========\nFowler Office Supplies\nReceipt for Order: B19849\nOrder Date: August 18\nItem.                    Price.                      Quantity.  Total\nPrinter paper.     $8.00/500 sheets. 10.           $80.00\nToner (black)      $50.00/cartridge.  1.             $50.00\nGel pens (blue). $5.00/8-pack.        3.            $15.00\nStaples.              $3.50/box.              2.            $7.00\nGRAND TOTAL.                                                $152.00\nReturn Policy: Unopened merchandise may be returned by mail or in one of our stores within 60 days of purchase. For returns by mail, log in to your www.fowlerofficesupplies.com account to print a shipping label. For in-store returns, bring the item and the order number to any Fowler Office Supplies location.",
+       "vi": "Từ: Akihito Nakashima <a.nakashima@gilchristshipping.com>\nĐến: Fowler Office Supplies <support@fowlerofficesupplies.com>\nTiêu đề: Đơn hàng B19849\nNgày: 19 tháng 8\nKính gửi: Kính gửi: Ai quan tâm,\nHôm qua, tôi đã mua một số đồ dùng văn phòng trên trang web của bạn. Tôi đã nhận được biên lai qua email, nhưng chi phí không được liệt kê chi tiết trên đó. Để tuân thủ chính sách mới của công ty, tôi phải đưa cho giám sát viên của mình một biên lai có ghi rõ chi phí cho từng mặt hàng. Bạn có thể gửi cho tôi biên lai như vậy qua email không? Nếu không, tôi có thể tự lấy thông tin này từ trang web của bạn không? Cuối cùng, xác nhận cho các đơn hàng trong tương lai có thể được gửi đến nhiều hơn một địa chỉ email không? Sẽ thật lý tưởng nếu giám sát viên của tôi tự động nhận được một phiếu.\nCảm ơn, Akihito Nakashima, Trợ lý điều hành\nGilchrist Shipping\n==========\nTin nhắn qua E-Mail\nTừ: Fowler Office Supplies <support @fowlerofficesupplies.com>\nGửi: Akihito Nakashima <a.nakashima@gilchristshipping.com>\nTiêu đề: RE: Đơn hàng B19849\nNgày: 19 tháng 8\nĐính kèm: 0 B19849\nKính gửi Ông Nakashima,\nĐính kèm là biên lai mà ông yêu cầu. Để xin lỗi vì sự bất tiện này, chúng tôi sẽ giảm giá 10 phần trăm cho tổng giá của đơn hàng tiếp theo của ông. Để xem mô tả đầy đủ về bất kỳ đơn hàng trước đó nào, trước tiên hãy đăng nhập vào tài khoản của bạn trên trang web của chúng tôi, vào tab \"Đơn hàng của tôi\", sau đó nhấp vào bất kỳ số đơn hàng nào.\nTôi nhận thấy rằng trong mỗi đơn hàng gần đây nhất của ông đều có một đơn hàng giống hệt nhau cho mười mặt hàng cụ thể. Bạn nên biết rằng chúng tôi sẽ giảm giá cho mặt hàng đó 5 phần trăm nếu bạn đánh dấu đây là đơn hàng định kỳ. Để thực hiện việc này, chỉ cần đánh dấu vào ô \"Đơn hàng định kỳ\" trên biểu mẫu đặt hàng trực tuyến.\nĐối với câu hỏi cuối cùng của bạn, hiện tại không thể thực hiện được. Tuy nhiên, tôi sẽ chia sẻ ý tưởng này với nhóm kỹ thuật của chúng tôi.\nChúc bạn mọi điều tốt đẹp nhất,\nCameron Higgins, Bộ phận quan hệ khách hàng Fowler Office Supplies\n==========\nFowler Office Supplies\nBiên lai đơn hàng: B19849\nNgày đặt hàng: 18 tháng 8\nMặt hàng. Giá. Số lượng. Tổng cộng\nGiấy in. 8,00 đô la/500 tờ. 10. 80,00 đô la\nMực in (đen) 50,00 đô la/hộp mực. 1. 50,00 đô la\nBút gel (xanh lam). 5,00 đô la/gói 8 chiếc. 3. 15,00 đô la\nKim bấm. 3,50 đô la/hộp. 2. $7.00\nTỔNG CỘNG. $152.00\nChính sách trả hàng: Hàng hóa chưa mở có thể được trả lại qua đường bưu điện hoặc tại một trong các cửa hàng của chúng tôi trong vòng 60 ngày kể từ ngày mua. Đối với hàng trả lại qua đường bưu điện, hãy đăng nhập vào tài khoản www.fowlerofficesupplies.com của bạn để in nhãn vận chuyển. Đối với hàng trả lại tại cửa hàng, hãy mang mặt hàng và số đơn hàng đến bất kỳ địa điểm nào của Fowler Office Supplies."
       }
      ],
      "questions": [
@@ -9126,6 +9218,21 @@
        "evidence": [
         "the order number"
        ]
+      }
+     ],
+     "directions": "e-mails and receipt",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9318,6 +9425,21 @@
         }
        }
       }
+     ],
+     "directions": "article, Web site, and receipt",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9499,6 +9621,21 @@
        "evidence": [
         "They reported that they loved exploring the city, learning about its history, and finding new local attractions, even on a cold and cloudy day."
        ]
+      }
+     ],
+     "directions": "Web pages",
+     "scans": [
+      {
+       "src": "2024/test2/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test2/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

@@ -8026,6 +8026,13 @@
         }
        }
       }
+     ],
+     "directions": "form",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8122,6 +8129,13 @@
         "You do not need to be home for delivery",
         "In the event that this requirement is not met"
        ]
+      }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8220,6 +8234,13 @@
         "later this afternoon"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8308,6 +8329,13 @@
          "meaning": "Loại chỗ ngồi"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8448,6 +8476,13 @@
         "the instructions in some places were confusingly worded"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8574,6 +8609,13 @@
         "Aqua Voyage Cruise Lines will mention your top-rated chain in our brochures and feature it on our Web site",
         "Through our network of suppliers, we can help negotiate exceptionally low rates for recipe ingredients and restaurant equipment, thereby reducing your expenses"
        ]
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8706,6 +8748,13 @@
        "evidence": [
         "This award reflects our commitment to putting patient well-being at the forefront of everything we do"
        ]
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8889,6 +8938,13 @@
         "And thanks, Mr."
        ]
       }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9060,6 +9116,13 @@
         "Specifically, in just two days, we provided the company with all the equipment and connections needed for newly hired customer-service agents to handle calls from home.",
         "We have helped several businesses complete technology projects on tight deadlines in the past few months"
        ]
+      }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9242,6 +9305,13 @@
         "Admission to the art center is free",
         "will be on view"
        ]
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9458,6 +9528,17 @@
         "whose latest project"
        ]
       }
+     ],
+     "directions": "table and article",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test10/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9668,6 +9749,13 @@
         "Every Monday evening"
        ]
       }
+     ],
+     "directions": "notice and review",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-181-185.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9689,7 +9777,7 @@
      ],
      "passages": [
       {
-       "en": "*E-mail*\nTo: Dae-Ho Sohn\nFrom: Paulina Raskin\nSubject: Your presentation\nDate: 22 April\n\nDear Dr. Sohn,\n\nI just wanted to thank you again for speaking at the ICVA conference in Berlin last week. I am sure I am not alone in saying that the highlight of the conference was your keynote address. Your insights into recent advancements in eye-surgery techniques captured the attention of everyone in the room. We were grateful that you could join us and even more appreciative of all the help and guidance you have provided in the past as an active member of the ICVA Board of Directors.\n\nSincerely,\n\nPaulina Raskin\nPresident, International Center for Vision Advancement",
+       "en": "To: Dae-Ho Sohn\nFrom: Paulina Raskin\nSubject: Your presentation\nDate: 22 April\n\nDear Dr. Sohn,\n\nI just wanted to thank you again for speaking at the ICVA conference in Berlin last week. I am sure I am not alone in saying that the highlight of the conference was your keynote address. Your insights into recent advancements in eye-surgery techniques captured the attention of everyone in the room. We were grateful that you could join us and even more appreciative of all the help and guidance you have provided in the past as an active member of the ICVA Board of Directors.\n\nSincerely,\n\nPaulina Raskin\nPresident, International Center for Vision Advancement",
        "vi": "Hiệu trưởng mới được bổ nhiệm tại Viện\nYORK (17 tháng 1)—Viện Mắt Callard đã công bố vào thứ Ba rằng Tiến sĩ Deanna Robbins đã chấp nhận vị trí hiệu trưởng, có hiệu lực ngay lập tức.\nTiến sĩ Robbins, người lớn lên ở York, đã nhận bằng y khoa tại Trường Y Labato và hoàn thành chương trình thực tập sau tiến sĩ tại Trung tâm Y tế Petersen. Trước khi đến viện, Tiến sĩ Robbins là người sáng lập và giám đốc của phòng khám nhãn khoa tại Bệnh viện Morseville. Các đổi mới của bà trong việc điều trị bệnh mắt đã mang lại lợi ích cho hàng nghìn bệnh nhân trên toàn thế giới.\nVào ngày 17 tháng 4, Tiến sĩ Robbins sẽ có mặt tại Berlin để nhận Huân chương Kramer về Xuất sắc Y tế tại hội nghị năm nay của Trung tâm Quốc tế về Tiến bộ Thị giác.\n\nHội nghị Trung tâm Quốc tế về Tiến bộ Thị giác (ICVA)\nHội trường Hội nghị JT Pepper (17–19 tháng 4)\nRosenthaler Strasse 65, Berlin, Đức 25627\n\nLịch trình Ngày 1: Thứ Hai, 17 tháng 4\n8:00–10:00 sáng | Bữa sáng | Phòng chờ Maiwald\n10:00–11:00 sáng | Chào mừng và bài phát biểu chính | Hội trường Hội nghị Jahn\n11:15 sáng–1:15 chiều | Phiên 1: Công nghệ Mới | Các phòng nhỏ, theo phân công\n1:30–3:30 chiều | Hội thảo nhóm ăn trưa | Phòng Edwards\n3:45–5:45 chiều | Phiên 2: Chăm sóc Mắt Chất lượng | Các phòng nhỏ, theo phân công\n6:00–7:30 chiều | Thời gian tự do | ---\n7:30–9:00 chiều | Bữa tối | Phòng khiêu vũ Regal\n9:00–9:30 chiều | Tráng miệng và lễ trao giải | Phòng khiêu vũ Regal\n\n*E-mail*\nĐến: Dae-Ho Sohn\nTừ: Paulina Raskin\nChủ đề: Bài trình bày của bạn\nNgày: 22 tháng 4\n\nKính gửi Tiến sĩ Sohn,\n\nTôi chỉ muốn cảm ơn bạn một lần nữa vì đã phát biểu tại hội nghị ICVA ở Berlin tuần trước. Tôi chắc chắn tôi không phải là người duy nhất nói rằng điểm nhấn của hội nghị là bài phát biểu chính của bạn. Những hiểu biết sâu sắc của bạn về những tiến bộ gần đây trong kỹ thuật phẫu thuật mắt đã thu hút sự chú ý của mọi người trong phòng. Chúng tôi rất biết ơn vì bạn đã có thể tham gia cùng chúng tôi và thậm chí còn đánh giá cao hơn nữa tất cả sự giúp đỡ và hướng dẫn mà bạn đã cung cấp trong quá khứ với tư cách là thành viên tích cực của Hội đồng Giám đốc ICVA.\n\nTrân trọng,\n\nPaulina Raskin\nChủ tịch, Trung tâm Quốc tế về Tiến bộ Thị giác"
       }
      ],
@@ -9868,6 +9956,17 @@
         "the highlight of the conference was your keynote address"
        ]
       }
+     ],
+     "directions": "article, schedule, and e-mail",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test10/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9884,8 +9983,8 @@
      "images": [],
      "passages": [
       {
-       "en": "https://www.freewheeloasis.com/trade-in-and-consignment\nHome | Service and Repair | Trade-in and Consignment | Accessories\n\nFreewheel Oasis offers two programs that make selling your bicycle easier: trade-in and consignment. If you select our trade-in program, you give us your bicycle, and, in exchange, we give you credit toward the purchase of a new one. If you opt for our consignment program, we will sell your bicycle for you.\n\nTo take advantage of either option, e-mail us at programs@freewheeloasis.com to schedule an appointment. In your e-mail, you should also indicate whether you wish to trade in your bicycle or place it on consignment. You will receive a response from our customer service manager. We take appointments during regular business hours, Monday through Saturday from 9:00 A.M. to 5:00 P.M.\n\nWhen you come in for your appointment, a technician will assess the condition of your bicycle, and a sales associate will determine its current value. If the value specified is acceptable to you and you wish to trade in your bicycle, we deduct that amount from the purchase price of your new bicycle. If you prefer a consignment arrangement, we will sell your bicycle for the agreed-upon amount. Note that we will withhold a service fee equal to 15 percent of this amount at the time your bicycle is sold, while the rest of the earnings will be sent to you.\n==========\n*E-mail*\nTo: programs@freewheeloasis.com\nFrom: Nicola Johnson <njohnson92@rapidonet.com>\nDate: November 2\nSubject: Appointment request\n\nHello,\n\nI have a mountain bicycle that is now six years old. However, I only used it for the first three years. I have tried to sell it myself, but I was not successful, so I would like to place it on consignment with you. Therefore, I would like to schedule an appointment.\n\nAlso, I recently accepted a job in Kuwait and will be leaving on November 30. Do you expect that the bicycle will be sold by then? If not, how can I receive my portion of the selling price?\n\nBest regards,\n\nNicola Johnson\n==========\nE-Mail Message\nTo: Nicola Johnson <njohnson92@rapidonet.com>\nFrom: programs@freewheeloasis.com\nDate: November 2\nSubject: RE: Appointment request\n\nHi, Nicola,\n\nThanks for your interest in placing your bicycle on consignment with Freewheel Oasis. Your appointment is scheduled for Friday, November 4, at 3:00 P.M. Let me know if this arrangement works for you.\n\nOur consignment policy stipulates that once the sale of a bicycle has been finalized, the money owed to the customer must be paid into the person's bank account. Please note that Freewheel Oasis cannot guarantee the sale of a bicycle by a date specified by the bicycle owner.\n\nBest of luck with your new endeavor!\n\nSincerely,\n\nPeter Moran",
-       "vi": "https://www.freewheeloasis.com/trade-in-and-consignment\nTrang chủ | Dịch vụ và sửa chữa | Trao đổi và ký gửi | Phụ kiện\n\nFreewheel Oasis cung cấp hai chương trình giúp việc bán xe đạp của bạn dễ dàng hơn: trao đổi và ký gửi. Nếu bạn chọn chương trình trao đổi của chúng tôi, bạn đưa cho chúng tôi chiếc xe đạp của bạn và đổi lại, chúng tôi sẽ cung cấp cho bạn tín dụng để mua một chiếc mới. Nếu bạn chọn chương trình ký gửi của chúng tôi, chúng tôi sẽ bán xe đạp cho bạn.\n\nĐể tận dụng một trong hai lựa chọn, hãy gửi email cho chúng tôi theo địa chỉ programs@freewheeloasis.com để lên lịch hẹn. Trong e-mail của bạn, bạn cũng nên cho biết liệu bạn muốn đổi xe đạp của mình hay đặt nó trên lô hàng ký gửi. Bạn sẽ nhận được phản hồi từ người quản lý dịch vụ khách hàng của chúng tôi. Chúng tôi nhận các cuộc hẹn trong giờ làm việc thông thường, từ thứ Hai đến thứ Bảy, từ 9:00 sáng đến 5:00 chiều.\n\nKhi bạn đến cuộc hẹn, kỹ thuật viên sẽ đánh giá tình trạng xe đạp của bạn và nhân viên bán hàng sẽ xác định giá trị hiện tại của nó. Nếu giá trị được chỉ định có thể chấp nhận được đối với bạn và bạn muốn đổi chiếc xe đạp của mình, chúng tôi sẽ khấu trừ số tiền đó từ giá mua chiếc xe đạp mới của bạn. Nếu bạn thích sắp xếp ký gửi, chúng tôi sẽ bán xe đạp của bạn với số tiền đã thỏa thuận. Lưu ý rằng chúng tôi sẽ giữ lại một khoản phí dịch vụ tương đương 15 phần trăm số tiền này tại thời điểm chiếc xe đạp của bạn được bán, trong khi phần còn lại của thu nhập sẽ được gửi cho bạn.\n==========\n*E-mail*\nGửi đến: programs@freewheeloasis.com\nTừ: Nicola Johnson <njohnson92@rapidonet.com>\nNgày: 2 tháng 11\nChủ đề: Yêu cầu cuộc hẹn\n\nXin chào,\n\nTôi có một chiếc xe đạp leo núi hiện đã sáu năm tuổi. Tuy nhiên, tôi chỉ sử dụng nó trong ba năm đầu tiên. Tôi đã cố gắng tự mình bán nó, nhưng tôi không thành công, vì vậy tôi muốn đặt nó lên ký gửi với bạn. Do đó, tôi muốn sắp xếp một cuộc hẹn.\n\nNgoài ra, gần đây tôi đã nhận một công việc ở Kuwait và sẽ rời đi vào ngày 30 tháng 11. Bạn có mong đợi rằng chiếc xe đạp sẽ được bán vào lúc đó không? Nếu không, làm thế nào tôi có thể nhận được phần giá bán của mình?\n\nTrân trọng,\nNicola Johnson\n==========\nTin nhắn điện tử\nGửi đến: Nicola Johnson <njohnson92@rapidonet.com>\nTừ: programs@freewheeloasis.com\nNgày: 2 tháng 11\nChủ đề: RE: Yêu cầu hẹn\n\nXin chào, Nicola,\n\nCảm ơn bạn đã quan tâm đến việc ký gửi xe đạp của mình với Freewheel Oasis. Cuộc hẹn của bạn được lên lịch vào thứ Sáu, ngày 4 tháng 11, lúc 3:00 chiều. Hãy cho tôi biết nếu sự sắp xếp này phù hợp với bạn.\n\nChính sách ký gửi của chúng tôi quy định rằng một khi việc bán xe đạp đã hoàn tất, số tiền nợ khách hàng phải được thanh toán vào tài khoản ngân hàng của người đó. Xin lưu ý rằng Freewheel Oasis không thể đảm bảo việc bán xe đạp trước ngày được chỉ định bởi chủ sở hữu xe đạp.\n\nChúc may mắn với nỗ lực mới của bạn!\n\nChân thành,\n\nPeter Moran"
+       "en": "https://www.freewheeloasis.com/trade-in-and-consignment\nHome | Service and Repair | Trade-in and Consignment | Accessories\n\nFreewheel Oasis offers two programs that make selling your bicycle easier: trade-in and consignment. If you select our trade-in program, you give us your bicycle, and, in exchange, we give you credit toward the purchase of a new one. If you opt for our consignment program, we will sell your bicycle for you.\n\nTo take advantage of either option, e-mail us at programs@freewheeloasis.com to schedule an appointment. In your e-mail, you should also indicate whether you wish to trade in your bicycle or place it on consignment. You will receive a response from our customer service manager. We take appointments during regular business hours, Monday through Saturday from 9:00 A.M. to 5:00 P.M.\n\nWhen you come in for your appointment, a technician will assess the condition of your bicycle, and a sales associate will determine its current value. If the value specified is acceptable to you and you wish to trade in your bicycle, we deduct that amount from the purchase price of your new bicycle. If you prefer a consignment arrangement, we will sell your bicycle for the agreed-upon amount. Note that we will withhold a service fee equal to 15 percent of this amount at the time your bicycle is sold, while the rest of the earnings will be sent to you.\n==========\nTo: programs@freewheeloasis.com\nFrom: Nicola Johnson <njohnson92@rapidonet.com>\nDate: November 2\nSubject: Appointment request\n\nHello,\n\nI have a mountain bicycle that is now six years old. However, I only used it for the first three years. I have tried to sell it myself, but I was not successful, so I would like to place it on consignment with you. Therefore, I would like to schedule an appointment.\n\nAlso, I recently accepted a job in Kuwait and will be leaving on November 30. Do you expect that the bicycle will be sold by then? If not, how can I receive my portion of the selling price?\n\nBest regards,\n\nNicola Johnson\n==========\nTo: Nicola Johnson <njohnson92@rapidonet.com>\nFrom: programs@freewheeloasis.com\nDate: November 2\nSubject: RE: Appointment request\n\nHi, Nicola,\n\nThanks for your interest in placing your bicycle on consignment with Freewheel Oasis. Your appointment is scheduled for Friday, November 4, at 3:00 P.M. Let me know if this arrangement works for you.\n\nOur consignment policy stipulates that once the sale of a bicycle has been finalized, the money owed to the customer must be paid into the person's bank account. Please note that Freewheel Oasis cannot guarantee the sale of a bicycle by a date specified by the bicycle owner.\n\nBest of luck with your new endeavor!\n\nSincerely,\n\nPeter Moran",
+       "vi": "https://www.freewheeloasis.com/trade-in-and-consignment\nTrang chủ | Dịch vụ và sửa chữa | Trao đổi và ký gửi | Phụ kiện\n\nFreewheel Oasis cung cấp hai chương trình giúp việc bán xe đạp của bạn dễ dàng hơn: trao đổi và ký gửi. Nếu bạn chọn chương trình trao đổi của chúng tôi, bạn đưa cho chúng tôi chiếc xe đạp của bạn và đổi lại, chúng tôi sẽ cung cấp cho bạn tín dụng để mua một chiếc mới. Nếu bạn chọn chương trình ký gửi của chúng tôi, chúng tôi sẽ bán xe đạp cho bạn.\n\nĐể tận dụng một trong hai lựa chọn, hãy gửi email cho chúng tôi theo địa chỉ programs@freewheeloasis.com để lên lịch hẹn. Trong e-mail của bạn, bạn cũng nên cho biết liệu bạn muốn đổi xe đạp của mình hay đặt nó trên lô hàng ký gửi. Bạn sẽ nhận được phản hồi từ người quản lý dịch vụ khách hàng của chúng tôi. Chúng tôi nhận các cuộc hẹn trong giờ làm việc thông thường, từ thứ Hai đến thứ Bảy, từ 9:00 sáng đến 5:00 chiều.\n\nKhi bạn đến cuộc hẹn, kỹ thuật viên sẽ đánh giá tình trạng xe đạp của bạn và nhân viên bán hàng sẽ xác định giá trị hiện tại của nó. Nếu giá trị được chỉ định có thể chấp nhận được đối với bạn và bạn muốn đổi chiếc xe đạp của mình, chúng tôi sẽ khấu trừ số tiền đó từ giá mua chiếc xe đạp mới của bạn. Nếu bạn thích sắp xếp ký gửi, chúng tôi sẽ bán xe đạp của bạn với số tiền đã thỏa thuận. Lưu ý rằng chúng tôi sẽ giữ lại một khoản phí dịch vụ tương đương 15 phần trăm số tiền này tại thời điểm chiếc xe đạp của bạn được bán, trong khi phần còn lại của thu nhập sẽ được gửi cho bạn.\n==========\nGửi đến: programs@freewheeloasis.com\nTừ: Nicola Johnson <njohnson92@rapidonet.com>\nNgày: 2 tháng 11\nChủ đề: Yêu cầu cuộc hẹn\n\nXin chào,\n\nTôi có một chiếc xe đạp leo núi hiện đã sáu năm tuổi. Tuy nhiên, tôi chỉ sử dụng nó trong ba năm đầu tiên. Tôi đã cố gắng tự mình bán nó, nhưng tôi không thành công, vì vậy tôi muốn đặt nó lên ký gửi với bạn. Do đó, tôi muốn sắp xếp một cuộc hẹn.\n\nNgoài ra, gần đây tôi đã nhận một công việc ở Kuwait và sẽ rời đi vào ngày 30 tháng 11. Bạn có mong đợi rằng chiếc xe đạp sẽ được bán vào lúc đó không? Nếu không, làm thế nào tôi có thể nhận được phần giá bán của mình?\n\nTrân trọng,\nNicola Johnson\n==========\nGửi đến: Nicola Johnson <njohnson92@rapidonet.com>\nTừ: programs@freewheeloasis.com\nNgày: 2 tháng 11\nChủ đề: RE: Yêu cầu hẹn\n\nXin chào, Nicola,\n\nCảm ơn bạn đã quan tâm đến việc ký gửi xe đạp của mình với Freewheel Oasis. Cuộc hẹn của bạn được lên lịch vào thứ Sáu, ngày 4 tháng 11, lúc 3:00 chiều. Hãy cho tôi biết nếu sự sắp xếp này phù hợp với bạn.\n\nChính sách ký gửi của chúng tôi quy định rằng một khi việc bán xe đạp đã hoàn tất, số tiền nợ khách hàng phải được thanh toán vào tài khoản ngân hàng của người đó. Xin lưu ý rằng Freewheel Oasis không thể đảm bảo việc bán xe đạp trước ngày được chỉ định bởi chủ sở hữu xe đạp.\n\nChúc may mắn với nỗ lực mới của bạn!\n\nChân thành,\n\nPeter Moran"
       }
      ],
      "questions": [
@@ -10086,6 +10185,17 @@
         "a technician will assess the condition"
        ]
       }
+     ],
+     "directions": "Web page and e-mails",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test10/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10102,8 +10212,8 @@
      "images": [],
      "passages": [
       {
-       "en": "To: y.kuroda@coralmail.com\nFrom: simoncady@techsolve.com\nDate: May 12, 1:30 P.M.\nSubject: Paperwork\nAttachment: Checklist\n\nDear Ms. Kuroda,\n\nWe still need a few things for your personnel file. At the training for new hires this morning, we provided you with a checklist of the documents that we need to have on file. For your reference, I've attached a scanned copy of your checklist to this e-mail.\n\nFirst, our security office requires proof of your identity. Employees usually submit a copy of their driver's license (front and back) or the personal information page from their passport, but any official government identification is acceptable. We also require your banking information to set up the electronic transfer of your salary to your account.\n\nThe final item on the list will only be needed if you join the company softball team. Do you play? Our company team participates in a local league, and it's a great way to build rapport with the people you will be working alongside. The season is just beginning. I can send you details if you're interested.\n\nFinally, I want to encourage you to attend the company picnic, which is always held on the third Friday in May at Briarwood Park. It's an opportunity to interact with your coworkers in an informal, nonworking environment. It's always well attended.\n\nIf you have any questions, contact me and we can schedule a chat.\n\nSimon Cady, Human Resources Division\nTechsolve, Inc.\n==========\nNew Employee Forms Checklist\nName: Yumiko Kuroda\nDepartment: Data entry\nStart Date: May 15\n\n_____ 1. Proof of identity (copy of driver's license, passport, or other official ID)\n__√__ 2. Personal data form\n__√__ 3. Tax withholding form\n_____ 4. Bank account information form\n__√__ 5. Insurance selection form\n_____ 6. Release of liability form (if required)\n==========\nE-Mail Message\nTo: simoncady@techsolve.com\nFrom: y.kuroda@coralmail.com\nDate: May 12, 3:21 P.M.\nSubject: Re: Paperwork\n\nHello Mr. Cady,\n\nThank you for your e-mail. I am excited about starting work. And thanks, too, for sending the copy of the checklist I received in the orientation session. I don't drive, so I don't have a driver's license, but I can provide a copy of the page from my passport. I am about to gather the necessary information for the fourth item on the list. I will bring everything to the office on Monday.\n\nI'll have to think about whether I want to join the company softball team. How much of a time commitment is it? I played softball in college. I wasn't very good, but I did enjoy playing.\n\nThe company picnic sounds like fun. I love Briarwood Park and look forward to the opportunity to get to know my coworkers better. If employees bring dishes for the picnic, I'd be happy to make something. Or is the food being provided by a caterer?\n\nThanks again for your support.\n\nYumiko Kuroda",
-       "vi": "Đến: y.kuroda@coralmail.com\nTừ: simoncady@techsolve.com\nNgày: 12 tháng 5, 1:30 chiều\nChủ đề: Giấy tờ\nTệp đính kèm: Danh sách kiểm tra\n\nKính gửi bà Kuroda,\n\nChúng tôi vẫn cần một số thứ cho hồ sơ nhân sự của bạn. Tại buổi đào tạo cho nhân viên mới sáng nay, chúng tôi đã cung cấp cho bạn danh sách kiểm tra các tài liệu mà chúng tôi cần có trong hồ sơ. Để bạn tham khảo, tôi đã đính kèm bản sao quét danh sách kiểm tra của bạn vào email này.\n\nĐầu tiên, văn phòng an ninh của chúng tôi yêu cầu bằng chứng về danh tính của bạn. Nhân viên thường nộp bản sao giấy phép lái xe của họ (mặt trước và mặt sau) hoặc trang thông tin cá nhân từ hộ chiếu của họ, nhưng bất kỳ giấy tờ tùy thân chính phủ nào cũng được chấp nhận. Chúng tôi cũng yêu cầu thông tin ngân hàng của bạn để thiết lập chuyển khoản điện tử lương của bạn vào tài khoản của bạn.\n\nMục cuối cùng trong danh sách sẽ chỉ cần thiết nếu bạn tham gia đội bóng mềm của công ty. Bạn có chơi không? Đội của công ty chúng tôi tham gia một giải đấu địa phương, và đó là một cách tuyệt vời để xây dựng mối quan hệ với những người bạn sẽ làm việc cùng. Mùa giải vừa mới bắt đầu. Tôi có thể gửi cho bạn chi tiết nếu bạn quan tâm.\n\nCuối cùng, tôi muốn khuyến khích bạn tham dự dã ngoại của công ty, luôn được tổ chức vào thứ Sáu thứ ba trong tháng 5 tại Công viên Briarwood. Đó là cơ hội để tương tác với đồng nghiệp của bạn trong một môi trường thân mật, không làm việc. Nó luôn được tham dự đông đảo.\n\nNếu bạn có bất kỳ câu hỏi nào, hãy liên hệ với tôi và chúng ta có thể sắp xếp một cuộc trò chuyện.\n\nSimon Cady, Bộ phận Nhân sự\nTechsolve, Inc.\n==========\nDanh sách Kiểm tra Mẫu Nhân viên Mới\nTên: Yumiko Kuroda\nBộ phận: Nhập dữ liệu\nNgày Bắt đầu: 15 tháng 5\n\n_____ 1. Bằng chứng về danh tính (bản sao giấy phép lái xe, hộ chiếu hoặc giấy tờ tùy thân chính thức khác)\n__√__ 2. Mẫu dữ liệu cá nhân\n__√__ 3. Mẫu khấu trừ thuế\n_____ 4. Mẫu thông tin tài khoản ngân hàng\n__√__ 5. Mẫu lựa chọn bảo hiểm\n_____ 6. Mẫu miễn trừ trách nhiệm (nếu cần)\n==========\nThư E-Mail\nĐến: simoncady@techsolve.com\nTừ: y.kuroda@coralmail.com\nNgày: 12 tháng 5, 3:21 chiều\nChủ đề: Re: Giấy tờ\n\nXin chào ông Cady,\n\nCảm ơn email của bạn. Tôi rất hào hứng với việc bắt đầu làm việc. Và cảm ơn bạn đã gửi bản sao danh sách kiểm tra mà tôi nhận được trong buổi định hướng. Tôi không lái xe, vì vậy tôi không có giấy phép lái xe, nhưng tôi có thể cung cấp bản sao trang từ hộ chiếu của tôi. Tôi sắp thu thập thông tin cần thiết cho mục thứ tư trong danh sách. Tôi sẽ mang mọi thứ đến văn phòng vào thứ Hai.\n\nTôi sẽ phải suy nghĩ về việc liệu tôi có muốn tham gia đội bóng mềm của công ty không. Cam kết về thời gian là bao nhiêu? Tôi đã chơi bóng mềm ở trường đại học. Tôi không giỏi lắm, nhưng tôi thích chơi.\n\nDã ngoại của công ty nghe có vẻ vui. Tôi yêu Công viên Briarwood và mong đợi cơ hội để hiểu đồng nghiệp của tôi hơn. Nếu nhân viên mang món ăn cho dã ngoại, tôi rất vui được làm gì đó. Hoặc thức ăn được cung cấp bởi một dịch vụ ăn uống?\n\nCảm ơn một lần nữa vì sự hỗ trợ của bạn.\n\nYumiko Kuroda"
+       "en": "To: y.kuroda@coralmail.com\nFrom: simoncady@techsolve.com\nDate: May 12, 1:30 P.M.\nSubject: Paperwork\nAttachment: Checklist\n\nDear Ms. Kuroda,\n\nWe still need a few things for your personnel file. At the training for new hires this morning, we provided you with a checklist of the documents that we need to have on file. For your reference, I've attached a scanned copy of your checklist to this e-mail.\n\nFirst, our security office requires proof of your identity. Employees usually submit a copy of their driver's license (front and back) or the personal information page from their passport, but any official government identification is acceptable. We also require your banking information to set up the electronic transfer of your salary to your account.\n\nThe final item on the list will only be needed if you join the company softball team. Do you play? Our company team participates in a local league, and it's a great way to build rapport with the people you will be working alongside. The season is just beginning. I can send you details if you're interested.\n\nFinally, I want to encourage you to attend the company picnic, which is always held on the third Friday in May at Briarwood Park. It's an opportunity to interact with your coworkers in an informal, nonworking environment. It's always well attended.\n\nIf you have any questions, contact me and we can schedule a chat.\n\nSimon Cady, Human Resources Division\nTechsolve, Inc.\n==========\nNew Employee Forms Checklist\nName: Yumiko Kuroda\nDepartment: Data entry\nStart Date: May 15\n\n_____ 1. Proof of identity (copy of driver's license, passport, or other official ID)\n__√__ 2. Personal data form\n__√__ 3. Tax withholding form\n_____ 4. Bank account information form\n__√__ 5. Insurance selection form\n_____ 6. Release of liability form (if required)\n==========\nTo: simoncady@techsolve.com\nFrom: y.kuroda@coralmail.com\nDate: May 12, 3:21 P.M.\nSubject: Re: Paperwork\n\nHello Mr. Cady,\n\nThank you for your e-mail. I am excited about starting work. And thanks, too, for sending the copy of the checklist I received in the orientation session. I don't drive, so I don't have a driver's license, but I can provide a copy of the page from my passport. I am about to gather the necessary information for the fourth item on the list. I will bring everything to the office on Monday.\n\nI'll have to think about whether I want to join the company softball team. How much of a time commitment is it? I played softball in college. I wasn't very good, but I did enjoy playing.\n\nThe company picnic sounds like fun. I love Briarwood Park and look forward to the opportunity to get to know my coworkers better. If employees bring dishes for the picnic, I'd be happy to make something. Or is the food being provided by a caterer?\n\nThanks again for your support.\n\nYumiko Kuroda",
+       "vi": "Đến: y.kuroda@coralmail.com\nTừ: simoncady@techsolve.com\nNgày: 12 tháng 5, 1:30 chiều\nChủ đề: Giấy tờ\nTệp đính kèm: Danh sách kiểm tra\n\nKính gửi bà Kuroda,\n\nChúng tôi vẫn cần một số thứ cho hồ sơ nhân sự của bạn. Tại buổi đào tạo cho nhân viên mới sáng nay, chúng tôi đã cung cấp cho bạn danh sách kiểm tra các tài liệu mà chúng tôi cần có trong hồ sơ. Để bạn tham khảo, tôi đã đính kèm bản sao quét danh sách kiểm tra của bạn vào email này.\n\nĐầu tiên, văn phòng an ninh của chúng tôi yêu cầu bằng chứng về danh tính của bạn. Nhân viên thường nộp bản sao giấy phép lái xe của họ (mặt trước và mặt sau) hoặc trang thông tin cá nhân từ hộ chiếu của họ, nhưng bất kỳ giấy tờ tùy thân chính phủ nào cũng được chấp nhận. Chúng tôi cũng yêu cầu thông tin ngân hàng của bạn để thiết lập chuyển khoản điện tử lương của bạn vào tài khoản của bạn.\n\nMục cuối cùng trong danh sách sẽ chỉ cần thiết nếu bạn tham gia đội bóng mềm của công ty. Bạn có chơi không? Đội của công ty chúng tôi tham gia một giải đấu địa phương, và đó là một cách tuyệt vời để xây dựng mối quan hệ với những người bạn sẽ làm việc cùng. Mùa giải vừa mới bắt đầu. Tôi có thể gửi cho bạn chi tiết nếu bạn quan tâm.\n\nCuối cùng, tôi muốn khuyến khích bạn tham dự dã ngoại của công ty, luôn được tổ chức vào thứ Sáu thứ ba trong tháng 5 tại Công viên Briarwood. Đó là cơ hội để tương tác với đồng nghiệp của bạn trong một môi trường thân mật, không làm việc. Nó luôn được tham dự đông đảo.\n\nNếu bạn có bất kỳ câu hỏi nào, hãy liên hệ với tôi và chúng ta có thể sắp xếp một cuộc trò chuyện.\n\nSimon Cady, Bộ phận Nhân sự\nTechsolve, Inc.\n==========\nDanh sách Kiểm tra Mẫu Nhân viên Mới\nTên: Yumiko Kuroda\nBộ phận: Nhập dữ liệu\nNgày Bắt đầu: 15 tháng 5\n\n_____ 1. Bằng chứng về danh tính (bản sao giấy phép lái xe, hộ chiếu hoặc giấy tờ tùy thân chính thức khác)\n__√__ 2. Mẫu dữ liệu cá nhân\n__√__ 3. Mẫu khấu trừ thuế\n_____ 4. Mẫu thông tin tài khoản ngân hàng\n__√__ 5. Mẫu lựa chọn bảo hiểm\n_____ 6. Mẫu miễn trừ trách nhiệm (nếu cần)\n==========\nĐến: simoncady@techsolve.com\nTừ: y.kuroda@coralmail.com\nNgày: 12 tháng 5, 3:21 chiều\nChủ đề: Re: Giấy tờ\n\nXin chào ông Cady,\n\nCảm ơn email của bạn. Tôi rất hào hứng với việc bắt đầu làm việc. Và cảm ơn bạn đã gửi bản sao danh sách kiểm tra mà tôi nhận được trong buổi định hướng. Tôi không lái xe, vì vậy tôi không có giấy phép lái xe, nhưng tôi có thể cung cấp bản sao trang từ hộ chiếu của tôi. Tôi sắp thu thập thông tin cần thiết cho mục thứ tư trong danh sách. Tôi sẽ mang mọi thứ đến văn phòng vào thứ Hai.\n\nTôi sẽ phải suy nghĩ về việc liệu tôi có muốn tham gia đội bóng mềm của công ty không. Cam kết về thời gian là bao nhiêu? Tôi đã chơi bóng mềm ở trường đại học. Tôi không giỏi lắm, nhưng tôi thích chơi.\n\nDã ngoại của công ty nghe có vẻ vui. Tôi yêu Công viên Briarwood và mong đợi cơ hội để hiểu đồng nghiệp của tôi hơn. Nếu nhân viên mang món ăn cho dã ngoại, tôi rất vui được làm gì đó. Hoặc thức ăn được cung cấp bởi một dịch vụ ăn uống?\n\nCảm ơn một lần nữa vì sự hỗ trợ của bạn.\n\nYumiko Kuroda"
       }
      ],
      "questions": [
@@ -10309,6 +10419,17 @@
         "the fourth item",
         "I can provide a copy of the page from my passport"
        ]
+      }
+     ],
+     "directions": "e-mails and checklist",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test10/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
       }
      ]
     }

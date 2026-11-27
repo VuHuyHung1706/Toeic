@@ -19,6 +19,7 @@ import {
   type Block,
   type PassageDoc,
 } from "@/lib/passage";
+import { docIcon, docTitle } from "@/lib/docTypes";
 import UiIcon from "./UiIcon";
 
 type Lang = "en" | "vi";
@@ -250,9 +251,20 @@ function BlockView({ b, doc, ctx }: { b: Block; doc: PassageDoc; ctx: Ctx }) {
   }
 }
 
-const KIND_LABEL: Record<PassageDoc["kind"], string> = { email: "Email", chat: "Tin nhắn", web: "Trang web", doc: "" };
+/** Thanh tên loại văn bản trên đầu khung: "Notice · Thông báo" (theo dòng hướng dẫn của đề) */
+function DocLabel({ type, fallback }: { type?: string; fallback?: string }) {
+  if (!type && !fallback) return null;
+  const t = type ? docTitle(type) : null;
+  return (
+    <div className="flex items-center gap-1.5 border-b border-line bg-surface-2 px-4 py-1.5 text-xs font-semibold tracking-wider text-muted uppercase">
+      <UiIcon name={type ? docIcon(type) : "chat"} className="size-3.5" />
+      {t ? t.en : fallback}
+      {t?.vi && <span className="font-normal tracking-normal normal-case opacity-80">· {t.vi}</span>}
+    </div>
+  );
+}
 
-function DocCard({ doc, ctx }: { doc: PassageDoc; ctx: Ctx }) {
+function DocCard({ doc, ctx, type }: { doc: PassageDoc; ctx: Ctx; type?: string }) {
   const url = doc.blocks[0]?.kind === "url" ? doc.lines[(doc.blocks[0] as { i: number }).i].trim() : null;
   const blocks = doc.blocks.filter((b) => b.kind !== "url");
   return (
@@ -260,6 +272,7 @@ function DocCard({ doc, ctx }: { doc: PassageDoc; ctx: Ctx }) {
       data-doc-kind={doc.kind}
       className="overflow-hidden rounded-xl border border-line bg-surface text-[15px] shadow-xs"
     >
+      <DocLabel type={type} fallback={doc.kind === "chat" ? "Tin nhắn" : undefined} />
       {url && (
         <div className="flex items-center gap-2 border-b border-line bg-surface-2 px-3 py-1.5 text-xs text-muted">
           <span className="flex gap-1" aria-hidden>
@@ -268,12 +281,6 @@ function DocCard({ doc, ctx }: { doc: PassageDoc; ctx: Ctx }) {
             <i className="size-2 rounded-full bg-success/60" />
           </span>
           <span className="min-w-0 flex-1 truncate rounded-md bg-surface px-2 py-0.5 font-mono">{url}</span>
-        </div>
-      )}
-      {doc.kind === "chat" && (
-        <div className="flex items-center gap-1.5 border-b border-line bg-surface-2 px-4 py-1.5 text-xs font-semibold tracking-wider text-muted uppercase">
-          <UiIcon name="chat" className="size-3.5" />
-          {KIND_LABEL.chat}
         </div>
       )}
       <div className="p-4">
@@ -292,9 +299,12 @@ export default function PassageView({
   vi,
   view,
   renderText,
+  types,
 }: {
   en: string;
   vi: string;
+  /** Loại của từng văn bản (theo thứ tự), vd ["e-mail", "notice"] — hiện trên đầu mỗi khung */
+  types?: string[];
   /** "en": chỉ bản gốc · "vi": chỉ bản dịch · "bilingual": song ngữ */
   view: "en" | "vi" | "bilingual";
   renderText: RenderText;
@@ -311,8 +321,11 @@ export default function PassageView({
     return (
       <div className="space-y-4">
         {pairs.map(([e, v], k) => (
-          <article key={k} className="rounded-xl border border-line bg-surface p-4">
-            <BilingualText en={e.trim()} vi={v.trim()} renderText={(s, lang, pairEn) => renderMarkers(s, lang, pairEn, renderText)} />
+          <article key={k} className="overflow-hidden rounded-xl border border-line bg-surface">
+            <DocLabel type={pairs.length === types?.length ? types[k] : undefined} />
+            <div className="p-4">
+              <BilingualText en={e.trim()} vi={v.trim()} renderText={(s, lang, pairEn) => renderMarkers(s, lang, pairEn, renderText)} />
+            </div>
           </article>
         ))}
       </div>
@@ -323,7 +336,12 @@ export default function PassageView({
   return (
     <div className="space-y-4">
       {docs.map((doc, k) => (
-        <DocCard key={k} doc={doc} ctx={{ render: renderText, pair: viDocs?.[k] ?? null, lang }} />
+        <DocCard
+          key={k}
+          doc={doc}
+          type={docs.length === types?.length ? types[k] : undefined}
+          ctx={{ render: renderText, pair: viDocs?.[k] ?? null, lang }}
+        />
       ))}
     </div>
   );

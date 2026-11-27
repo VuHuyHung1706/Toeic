@@ -7675,6 +7675,13 @@
         "Workers will begin the pavement work once construction of the bridge on Cardinal Street has been completed"
        ]
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7763,6 +7770,13 @@
         "Stop by our market to purchase jams, pies, and sauces made from farm-fresh fruit"
        ]
       }
+     ],
+     "directions": "sign",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-149-150.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7835,6 +7849,13 @@
        "evidence": [
         "The Extreme2 model includes a perforated sticky tape for ease of use and comes with two refills"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-151-152.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7920,6 +7941,13 @@
        "evidence": [
         "I can't see that happening"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-153-154.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8039,6 +8067,13 @@
         "Once approved, save $50 on the purchase of any BSS device that connects to your phone or tablet"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-155-157.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8053,8 +8088,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nTo: cbrandt@prebleevents.com\nFrom: chsiao@yanvillefestival.com\nDate: May 15\nSubject: Festival support\nDear Mr. Brandt,\nThank you for contacting us regarding the Yanville Festival. [1] We have already contracted with Breemer's Staging to provide lighting equipment for our main stages.\n[2] Do you provide catering services? [3] We do not have anyone yet to manage the food for our actors and stage crews. Would you be interested in this work?\nPlease let me know. [4]\nBest regards,\nCecily Hsiao\nVice-Chair, Yanville Festival",
-       "vi": "*E-mail*\nGửi đến: cbrandt@prebleevents.com\nTừ: chsiao@yanvillefestival.com\nNgày: 15 tháng 5\nChủ đề: Hỗ trợ lễ hội\nThưa ông Brandt,\nCảm ơn bạn đã liên hệ với chúng tôi về Lễ hội Yanville. [1] Chúng tôi đã ký hợp đồng với Breemer's Staging để cung cấp thiết bị chiếu sáng cho các sân khấu chính của chúng tôi.\n[2] Bạn có cung cấp dịch vụ ăn uống không? [3] Chúng tôi chưa có ai quản lý thức ăn cho các diễn viên và đoàn làm phim sân khấu của chúng tôi. Bạn có hứng thú với công việc này không?\nXin vui lòng cho tôi biết. [4]\nTrân trọng,\nCecily Hsiao\nPhó Chủ tịch, Lễ hội Yanville"
+       "en": "To: cbrandt@prebleevents.com\nFrom: chsiao@yanvillefestival.com\nDate: May 15\nSubject: Festival support\nDear Mr. Brandt,\nThank you for contacting us regarding the Yanville Festival. [1] We have already contracted with Breemer's Staging to provide lighting equipment for our main stages.\n[2] Do you provide catering services? [3] We do not have anyone yet to manage the food for our actors and stage crews. Would you be interested in this work?\nPlease let me know. [4]\nBest regards,\nCecily Hsiao\nVice-Chair, Yanville Festival",
+       "vi": "Gửi đến: cbrandt@prebleevents.com\nTừ: chsiao@yanvillefestival.com\nNgày: 15 tháng 5\nChủ đề: Hỗ trợ lễ hội\nThưa ông Brandt,\nCảm ơn bạn đã liên hệ với chúng tôi về Lễ hội Yanville. [1] Chúng tôi đã ký hợp đồng với Breemer's Staging để cung cấp thiết bị chiếu sáng cho các sân khấu chính của chúng tôi.\n[2] Bạn có cung cấp dịch vụ ăn uống không? [3] Chúng tôi chưa có ai quản lý thức ăn cho các diễn viên và đoàn làm phim sân khấu của chúng tôi. Bạn có hứng thú với công việc này không?\nXin vui lòng cho tôi biết. [4]\nTrân trọng,\nCecily Hsiao\nPhó Chủ tịch, Lễ hội Yanville"
       }
      ],
      "questions": [
@@ -8139,6 +8174,13 @@
        "explanation": "Đáp án đúng là B vì câu này phù hợp nhất ở vị trí [2]. Nó tạo ra một sự chuyển tiếp tốt giữa việc từ chối dịch vụ chiếu sáng và việc hỏi về dịch vụ ăn uống. Nó cũng giải thích tại sao Ms. Hsiao vẫn quan tâm đến việc làm việc với Preble Events mặc dù đã từ chối dịch vụ chiếu sáng của họ.\nA. [1]: Không phù hợp vì nó sẽ ngắt quãng luồng thông tin.\nB. [2]: Đúng, phù hợp nhất với ngữ cảnh của email.\nC. [3]: Không phù hợp vì nó sẽ làm gián đoạn câu hỏi về dịch vụ ăn uống.\nD. [4]: Quá muộn trong email để đưa ra thông tin này.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-158-160.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8261,6 +8303,13 @@
        "evidence": [
         "Delivery is available within 60 miles of our store for a flat fee of $50.00"
        ]
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-161-163.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8399,6 +8448,13 @@
        "evidence": [
         "Please work with Yua Suzuki, head of human resources, to provide her with the information she should include in her all-staff communication about this important change in employee benefits"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-164-167.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8552,6 +8608,13 @@
         "When were you thinking of going?"
        ]
       }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-168-171.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8685,6 +8748,13 @@
        "explanation": "Đáp án đúng là C vì câu này phù hợp nhất ở vị trí [3], ngay sau khi đề cập đến việc tìm kiếm khách sạn ở Genoa và Florence. Nó cung cấp thông tin về sự chênh lệch chi phí giữa các thành phố này và Rome.\nA. [1]: Không phù hợp vì nó sẽ ngắt quãng thông tin về Hotel al Ponte.\nB. [2]: Không phù hợp vì nó sẽ ngắt quãng thông tin về Hotel Milvio.\nC. [3]: Đúng, phù hợp nhất với ngữ cảnh của email.\nD. [4]: Quá muộn trong email để đưa ra thông tin này.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-172-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8871,6 +8941,17 @@
        "evidence": [
         "My sole complaint is that the newsletter is only twelve pages long!"
        ]
+      }
+     ],
+     "directions": "Web page and online review",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9061,6 +9142,17 @@
         "I have initiated the transfer of £750 into your Stashcash account.",
         "The funds should appear in your account by tomorrow morning"
        ]
+      }
+     ],
+     "directions": "invoice and e-mail",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9258,6 +9350,21 @@
         "I am excited to start exploring everything here that this great city offers"
        ]
       }
+     ],
+     "directions": "e-mails and instructions",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9441,6 +9548,21 @@
         "The administrator of the hospital that made the purchase, Mr."
        ]
       }
+     ],
+     "directions": "e-mail, invoice, and memo",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9457,8 +9579,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Packing Slip\nFrom: Reina Olive Oil Company    To: Best Products Supermarket\nCalle Tablas 820                    241 Yeonhae-ro, Jung-gu\n18002 Granada, Spain               Incheon 22382, Republic of Korea\nOrder Date: 28 November\nOrder Number: SK6224\nItem Number,Description,Quantity\nEVO160,750-millilitre extra-virgin olive oil standard size glass cruet with handle,15 cases\nEVO161,1-litre extra-virgin olive oil family size glass bottle,20 cases\nEVO162,1.5-litre extra-virgin olive oil chef size glass bottle,10 cases\nEVO163,3-litre extra-virgin olive oil bulk size Reina logo tin,5 cases\nEVO001,50-millilitre extra-virgin olive oil December sample size,2 cases\nCelebrate the season with us! Place your next order by 31 January to receive 10 percent off.\n==========\n*E-mail*\nTo: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nFrom: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nDate: 12 December\nSubject: Order number SK6224\n\nDear Mr. Nadal:\nWe appreciate your fulfilling our recent order of extra-virgin olive oil so quickly. Unfortunately, there is a small issue with the shipment, and we need your assistance. While nothing was damaged or missing, the 3-litre bulk size containers were delivered in error.\nWe would like to arrange to send these products back. Please inform us how to proceed.\nThank you,\nMin Hae Seong\nReceiving and Distribution, Best Products Supermarket\n\nTo: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nFrom: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nDate: 14 December\nSubject: RE: Order number SK6224\n==========\nDear Ms. Seong,\nI apologise for the error in order number SK6224. We have determined that your order was accidentally combined with another in our electronic database. Unfortunately, we are unable to restock any items that have left our warehouse. Therefore, you may keep the additional olive oil and sell it in your stores. Also, you will receive a refund for the extra charge within the next five to ten business days because of our mistake.\nWe are currently celebrating peak olive season by offering 10 percent off of your next order. Also, during our Olive Harvest Festival in December, every shipment includes samples of our company's classic olive oil that we encourage you to give to your shoppers with our compliments.\nWe hope to continue providing Best Products Supermarket with the finest olive oils.\nSincerely yours,\nPablo Nadal\nExport Division Manager, Reina Olive Oil Company",
-       "vi": "Phiếu đóng gói\nTừ: Công ty Dầu Ô liu Reina    Đến: Siêu thị Best Products\nCalle Tablas 820                    241 Yeonhae-ro, Jung-gu\n18002 Granada, Tây Ban Nha        Incheon 22382, Hàn Quốc\nNgày đặt hàng: 28 tháng 11\nSố đơn hàng: SK6224\nMã sản phẩm,Mô tả,Số lượng\nEVO160,Bình thủy tinh dầu ô liu nguyên chất extra-virgin 750ml cỡ tiêu chuẩn có tay cầm,15 thùng\nEVO161,Chai thủy tinh dầu ô liu nguyên chất extra-virgin 1 lít cỡ gia đình,20 thùng\nEVO162,Chai thủy tinh dầu ô liu nguyên chất extra-virgin 1.5 lít cỡ đầu bếp,10 thùng\nEVO163,Lon thiếc dầu ô liu nguyên chất extra-virgin 3 lít cỡ lớn có logo Reina,5 thùng\nEVO001,Dầu ô liu nguyên chất extra-virgin 50ml cỡ mẫu tháng 12,2 thùng\nHãy cùng chúng tôi chào đón mùa lễ hội! Đặt đơn hàng tiếp theo trước ngày 31 tháng 1 để nhận giảm giá 10%.\n==========\n*E-mail*\nGửi: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nTừ: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nNgày: 12 tháng 12\nChủ đề: Đơn hàng số SK6224\n\nKính gửi ông Nadal:\nChúng tôi đánh giá cao việc quý công ty đã thực hiện đơn hàng dầu ô liu nguyên chất extra-virgin gần đây của chúng tôi một cách nhanh chóng. Tuy nhiên, có một vấn đề nhỏ với lô hàng và chúng tôi cần sự hỗ trợ của ông. Mặc dù không có gì bị hư hỏng hoặc thiếu, nhưng các thùng chứa cỡ lớn 3 lít đã được giao nhầm.\nChúng tôi muốn sắp xếp để gửi trả lại những sản phẩm này. Xin vui lòng cho chúng tôi biết cách tiến hành.\nXin cảm ơn,\nMin Hae Seong\nBộ phận Nhận hàng và Phân phối, Siêu thị Best Products\n==========\nGửi: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nTừ: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nNgày: 14 tháng 12\nChủ đề: Trả lời: Đơn hàng số SK6224\n\nKính gửi cô Seong,\nTôi xin lỗi về lỗi trong đơn hàng số SK6224. Chúng tôi đã xác định rằng đơn hàng của bạn đã vô tình bị kết hợp với một đơn hàng khác trong cơ sở dữ liệu điện tử của chúng tôi. Tiếc rằng chúng tôi không thể nhập lại kho bất kỳ mặt hàng nào đã rời khỏi kho của chúng tôi. Do đó, bạn có thể giữ lại số dầu ô liu bổ sung và bán trong cửa hàng của bạn. Ngoài ra, bạn sẽ nhận được khoản hoàn tiền cho phần phí phụ trội trong vòng năm đến mười ngày làm việc tới do lỗi của chúng tôi.\nHiện tại chúng tôi đang kỷ niệm mùa ô liu cao điểm bằng cách giảm giá 10% cho đơn hàng tiếp theo của bạn. Ngoài ra, trong Lễ hội Thu hoạch Ô liu vào tháng 12, mỗi lô hàng đều bao gồm các mẫu dầu ô liu cổ điển của công ty chúng tôi mà chúng tôi khuyến khích bạn tặng cho khách hàng của mình với lời chúc mừng từ chúng tôi.\nChúng tôi hy vọng sẽ tiếp tục cung cấp cho Siêu thị Best Products những loại dầu ô liu tốt nhất.\nTrân trọng,\nPablo Nadal\nGiám đốc Bộ phận Xuất khẩu, Công ty Dầu Ô liu Reina"
+       "en": "Packing Slip\nFrom: Reina Olive Oil Company    To: Best Products Supermarket\nCalle Tablas 820                    241 Yeonhae-ro, Jung-gu\n18002 Granada, Spain               Incheon 22382, Republic of Korea\nOrder Date: 28 November\nOrder Number: SK6224\nItem Number,Description,Quantity\nEVO160,750-millilitre extra-virgin olive oil standard size glass cruet with handle,15 cases\nEVO161,1-litre extra-virgin olive oil family size glass bottle,20 cases\nEVO162,1.5-litre extra-virgin olive oil chef size glass bottle,10 cases\nEVO163,3-litre extra-virgin olive oil bulk size Reina logo tin,5 cases\nEVO001,50-millilitre extra-virgin olive oil December sample size,2 cases\nCelebrate the season with us! Place your next order by 31 January to receive 10 percent off.\n==========\nTo: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nFrom: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nDate: 12 December\nSubject: Order number SK6224\n\nDear Mr. Nadal:\nWe appreciate your fulfilling our recent order of extra-virgin olive oil so quickly. Unfortunately, there is a small issue with the shipment, and we need your assistance. While nothing was damaged or missing, the 3-litre bulk size containers were delivered in error.\nWe would like to arrange to send these products back. Please inform us how to proceed.\nThank you,\nMin Hae Seong\nReceiving and Distribution, Best Products Supermarket\n\nTo: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nFrom: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nDate: 14 December\nSubject: RE: Order number SK6224\n==========\nDear Ms. Seong,\nI apologise for the error in order number SK6224. We have determined that your order was accidentally combined with another in our electronic database. Unfortunately, we are unable to restock any items that have left our warehouse. Therefore, you may keep the additional olive oil and sell it in your stores. Also, you will receive a refund for the extra charge within the next five to ten business days because of our mistake.\nWe are currently celebrating peak olive season by offering 10 percent off of your next order. Also, during our Olive Harvest Festival in December, every shipment includes samples of our company's classic olive oil that we encourage you to give to your shoppers with our compliments.\nWe hope to continue providing Best Products Supermarket with the finest olive oils.\nSincerely yours,\nPablo Nadal\nExport Division Manager, Reina Olive Oil Company",
+       "vi": "Phiếu đóng gói\nTừ: Công ty Dầu Ô liu Reina    Đến: Siêu thị Best Products\nCalle Tablas 820                    241 Yeonhae-ro, Jung-gu\n18002 Granada, Tây Ban Nha        Incheon 22382, Hàn Quốc\nNgày đặt hàng: 28 tháng 11\nSố đơn hàng: SK6224\nMã sản phẩm,Mô tả,Số lượng\nEVO160,Bình thủy tinh dầu ô liu nguyên chất extra-virgin 750ml cỡ tiêu chuẩn có tay cầm,15 thùng\nEVO161,Chai thủy tinh dầu ô liu nguyên chất extra-virgin 1 lít cỡ gia đình,20 thùng\nEVO162,Chai thủy tinh dầu ô liu nguyên chất extra-virgin 1.5 lít cỡ đầu bếp,10 thùng\nEVO163,Lon thiếc dầu ô liu nguyên chất extra-virgin 3 lít cỡ lớn có logo Reina,5 thùng\nEVO001,Dầu ô liu nguyên chất extra-virgin 50ml cỡ mẫu tháng 12,2 thùng\nHãy cùng chúng tôi chào đón mùa lễ hội! Đặt đơn hàng tiếp theo trước ngày 31 tháng 1 để nhận giảm giá 10%.\n==========\nGửi: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nTừ: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nNgày: 12 tháng 12\nChủ đề: Đơn hàng số SK6224\n\nKính gửi ông Nadal:\nChúng tôi đánh giá cao việc quý công ty đã thực hiện đơn hàng dầu ô liu nguyên chất extra-virgin gần đây của chúng tôi một cách nhanh chóng. Tuy nhiên, có một vấn đề nhỏ với lô hàng và chúng tôi cần sự hỗ trợ của ông. Mặc dù không có gì bị hư hỏng hoặc thiếu, nhưng các thùng chứa cỡ lớn 3 lít đã được giao nhầm.\nChúng tôi muốn sắp xếp để gửi trả lại những sản phẩm này. Xin vui lòng cho chúng tôi biết cách tiến hành.\nXin cảm ơn,\nMin Hae Seong\nBộ phận Nhận hàng và Phân phối, Siêu thị Best Products\n==========\nGửi: Min Hae Seong <seongmh@bestproductssupermarket.co.kr>\nTừ: Pablo Nadal <pnadal@reinaoliveoilcompany.es>\nNgày: 14 tháng 12\nChủ đề: Trả lời: Đơn hàng số SK6224\n\nKính gửi cô Seong,\nTôi xin lỗi về lỗi trong đơn hàng số SK6224. Chúng tôi đã xác định rằng đơn hàng của bạn đã vô tình bị kết hợp với một đơn hàng khác trong cơ sở dữ liệu điện tử của chúng tôi. Tiếc rằng chúng tôi không thể nhập lại kho bất kỳ mặt hàng nào đã rời khỏi kho của chúng tôi. Do đó, bạn có thể giữ lại số dầu ô liu bổ sung và bán trong cửa hàng của bạn. Ngoài ra, bạn sẽ nhận được khoản hoàn tiền cho phần phí phụ trội trong vòng năm đến mười ngày làm việc tới do lỗi của chúng tôi.\nHiện tại chúng tôi đang kỷ niệm mùa ô liu cao điểm bằng cách giảm giá 10% cho đơn hàng tiếp theo của bạn. Ngoài ra, trong Lễ hội Thu hoạch Ô liu vào tháng 12, mỗi lô hàng đều bao gồm các mẫu dầu ô liu cổ điển của công ty chúng tôi mà chúng tôi khuyến khích bạn tặng cho khách hàng của mình với lời chúc mừng từ chúng tôi.\nChúng tôi hy vọng sẽ tiếp tục cung cấp cho Siêu thị Best Products những loại dầu ô liu tốt nhất.\nTrân trọng,\nPablo Nadal\nGiám đốc Bộ phận Xuất khẩu, Công ty Dầu Ô liu Reina"
       }
      ],
      "questions": [
@@ -9621,6 +9743,21 @@
         "during our Olive Harvest Festival in December, every shipment includes samples of our company's classic olive oil that we encourage you to give to your shoppers with our compliments",
         "50-millilitre extra-virgin olive oil December sample size"
        ]
+      }
+     ],
+     "directions": "packing slip and e-mails",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test10/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

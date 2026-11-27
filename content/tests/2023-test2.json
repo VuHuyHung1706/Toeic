@@ -8076,6 +8076,13 @@
         "our adaptation of the well-known ballet Moose Lake"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8167,6 +8174,13 @@
         "Save 15%\non your first year of home cleanings!"
        ]
       }
+     ],
+     "directions": "coupon",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-149-150.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8257,6 +8271,13 @@
         "We are happy to announce that we now offer teeth whitening and invisible braces to improve your smile"
        ]
       }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-151-152.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8344,6 +8365,13 @@
         "I'll arrange them on the round table in the corner.",
         "I'll do that straightaway"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-153-154.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8466,6 +8494,13 @@
          "meaning": "salad của đầu bếp"
         }
        }
+      }
+     ],
+     "directions": "menu",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-155-157.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8593,6 +8628,13 @@
        "evidence": [
         "Hannen plans to complete store visits within the next two months and conduct repeat visits annually"
        ]
+      }
+     ],
+     "directions": "company newsletter article",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-158-160.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8750,6 +8792,13 @@
         "Its grocery store, located on the farm property, is stocked year-round with fresh, seasonal, organically grown produce"
        ]
       }
+     ],
+     "directions": "online article",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-161-164.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8856,6 +8905,13 @@
        "explanation": "Đáp án đúng là D. Câu \"Ask any of our service technicians if you are unsure of the best one for your car\" phù hợp nhất ở vị trí [4]. Vị trí này nằm ngay sau khi liệt kê các tùy chọn dầu khác nhau, và câu này giúp khách hàng nếu họ không chắc chắn về lựa chọn tốt nhất cho xe của mình.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-165-167.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9000,6 +9056,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3] và [4]?",
        "optionNotes": {}
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-168-171.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9162,6 +9225,13 @@
        "evidence": [
         "Hopefully the changes are minor, because we're already over the allocated budget"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-172-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9361,6 +9431,17 @@
         "It was a pleasure meeting you and your colleagues"
        ]
       }
+     ],
+     "directions": "job advertisement and e-mail",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9549,6 +9630,17 @@
         }
        }
       }
+     ],
+     "directions": "memo and notice",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9565,8 +9657,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-mail\nTo: jsantos@coloniamenor.com\nFrom: markash@amtrcorp.com\nDate: September 4\nSubject: Job tip\nHello, Juan,\nIt was nice to see you again at the Tech Writers' Conference in Mexico City. You mentioned that your cousin Carlos Cruz wants to find a product design job here in Dallas. Well, the company I work for, AMTR Corporation, is about to post a job for a junior industrial designer, which might interest him. So far, the company has announced the opening only to current employees, but next week it will appear on the company Web site. The salary is good, and there may not be any qualified candidates in-house.\nPlease let him know about this opportunity.\nHeide Markas\n==========\nhttps://www.amtrcorp.com\nAMTR Corporation.   HOME.    ABOUT     CAREERS    CONTACT     BLOG\nCurrent Opportunities\nJunior Industrial Designer: This is a full-time position developing and improving the full range of products manufactured by AMTR Corporation in Dallas, Texas.\nSample Job Duties:\n*  Design consumer and office supply products, including personal computers, tablets, copiers, and printers\n*  Collaborate with design team and colleagues from engineering, marketing, and manufacturing departments to develop new products\n*  Improve sustainability efforts by promoting the use of recycled, recyclable, and reusable materials\nQualifications:\n*  Understanding of design principles, theories, and concepts\n*  Ability to analyze and apply customer feedback\n*  Proven analytical and problem-solving skills\n*  Experience in creating sketches, storyboards, models, and prototypes\n*  Bachelor's or master's degree in industrial design\n==========\nE-mail\nTo: Carlos Cruz ccruz@bmail.com\nFrom: Pamela Wang wangp@amtrcorp.com\nDate: November 11\nSubject: Job Application\nDear Mr. Cruz,\nThank you for submitting your application for junior industrial designer to AMTR Corporation. Our hiring committee has reviewed your application and determined that you meet the qualifications for the position. We will contact you shortly to schedule an initial interview. Interviews will be held on-site at our Dallas headquarters during the first two weeks of December. In the meantime, you will receive a request for professional references via e-mail. Please respond to the request as soon as you receive it.\nCordially,\nPamela Wang\nHuman Resources Specialist\nAMTR Corporation",
-       "vi": "E-mail\nGửi: jsantos@coloniamenor.com\nTừ: markash@amtrcorp.com\nNgày: 4 tháng 9\nChủ đề: Lời khuyên về công việc\nChào Juan,\nRất vui được gặp lại bạn tại Hội nghị Nhà văn Kỹ thuật ở Mexico City. Bạn đã đề cập rằng anh họ Carlos Cruz của bạn muốn tìm một công việc thiết kế sản phẩm ở Dallas. Vâng, công ty tôi đang làm việc, AMTR Corporation, sắp đăng tuyển một vị trí nhà thiết kế công nghiệp junior, điều này có thể khiến anh ấy quan tâm. Cho đến nay, công ty chỉ mới thông báo vị trí này cho nhân viên hiện tại, nhưng tuần tới nó sẽ xuất hiện trên trang web của công ty. Mức lương tốt, và có thể không có ứng viên đủ điều kiện nội bộ nào.\nHãy cho anh ấy biết về cơ hội này.\nHeide Markas\n==========\nhttps://www.amtrcorp.com\nAMTR Corporation.   TRANG CHỦ.    GIỚI THIỆU     NGHỀ NGHIỆP    LIÊN HỆ     BLOG\nCơ hội hiện tại\nNhà Thiết kế Công nghiệp Junior: Đây là vị trí toàn thời gian phát triển và cải thiện toàn bộ phạm vi sản phẩm được sản xuất bởi AMTR Corporation tại Dallas, Texas.\nMẫu Nhiệm vụ Công việc:\n*  Thiết kế sản phẩm tiêu dùng và văn phòng phẩm, bao gồm máy tính cá nhân, máy tính bảng, máy photocopy và máy in\n*  Hợp tác với nhóm thiết kế và đồng nghiệp từ các bộ phận kỹ thuật, tiếp thị và sản xuất để phát triển sản phẩm mới\n*  Cải thiện nỗ lực bền vững bằng cách thúc đẩy việc sử dụng vật liệu tái chế, có thể tái chế và tái sử dụng\nYêu cầu:\n*  Hiểu biết về nguyên tắc, lý thuyết và khái niệm thiết kế\n*  Khả năng phân tích và áp dụng phản hồi của khách hàng\n*  Kỹ năng phân tích và giải quyết vấn đề đã được chứng minh\n*  Kinh nghiệm trong việc tạo ra phác thảo, storyboard, mô hình và nguyên mẫu\n*  Bằng cử nhân hoặc thạc sĩ về thiết kế công nghiệp\n==========\nE-mail\nGửi: Carlos Cruz ccruz@bmail.com\nTừ: Pamela Wang wangp@amtrcorp.com\nNgày: 11 tháng 11\nChủ đề: Đơn xin việc\nKính gửi ông Cruz,\nCảm ơn ông đã nộp đơn xin vị trí nhà thiết kế công nghiệp junior cho AMTR Corporation. Ủy ban tuyển dụng của chúng tôi đã xem xét đơn của ông và xác định rằng ông đáp ứng các yêu cầu cho vị trí này. Chúng tôi sẽ liên hệ với ông sớm để sắp xếp một cuộc phỏng vấn ban đầu. Các cuộc phỏng vấn sẽ được tổ chức tại trụ sở Dallas của chúng tôi trong hai tuần đầu tiên của tháng 12. Trong thời gian chờ đợi, ông sẽ nhận được yêu cầu cung cấp các tham khảo nghề nghiệp qua e-mail. Vui lòng phản hồi yêu cầu ngay khi ông nhận được nó.\nTrân trọng,\nPamela Wang\nChuyên viên Nhân sự\nAMTR Corporation"
+       "en": "To: jsantos@coloniamenor.com\nFrom: markash@amtrcorp.com\nDate: September 4\nSubject: Job tip\nHello, Juan,\nIt was nice to see you again at the Tech Writers' Conference in Mexico City. You mentioned that your cousin Carlos Cruz wants to find a product design job here in Dallas. Well, the company I work for, AMTR Corporation, is about to post a job for a junior industrial designer, which might interest him. So far, the company has announced the opening only to current employees, but next week it will appear on the company Web site. The salary is good, and there may not be any qualified candidates in-house.\nPlease let him know about this opportunity.\nHeide Markas\n==========\nhttps://www.amtrcorp.com\nAMTR Corporation.   HOME.    ABOUT     CAREERS    CONTACT     BLOG\nCurrent Opportunities\nJunior Industrial Designer: This is a full-time position developing and improving the full range of products manufactured by AMTR Corporation in Dallas, Texas.\nSample Job Duties:\n*  Design consumer and office supply products, including personal computers, tablets, copiers, and printers\n*  Collaborate with design team and colleagues from engineering, marketing, and manufacturing departments to develop new products\n*  Improve sustainability efforts by promoting the use of recycled, recyclable, and reusable materials\nQualifications:\n*  Understanding of design principles, theories, and concepts\n*  Ability to analyze and apply customer feedback\n*  Proven analytical and problem-solving skills\n*  Experience in creating sketches, storyboards, models, and prototypes\n*  Bachelor's or master's degree in industrial design\n==========\nTo: Carlos Cruz ccruz@bmail.com\nFrom: Pamela Wang wangp@amtrcorp.com\nDate: November 11\nSubject: Job Application\nDear Mr. Cruz,\nThank you for submitting your application for junior industrial designer to AMTR Corporation. Our hiring committee has reviewed your application and determined that you meet the qualifications for the position. We will contact you shortly to schedule an initial interview. Interviews will be held on-site at our Dallas headquarters during the first two weeks of December. In the meantime, you will receive a request for professional references via e-mail. Please respond to the request as soon as you receive it.\nCordially,\nPamela Wang\nHuman Resources Specialist\nAMTR Corporation",
+       "vi": "Gửi: jsantos@coloniamenor.com\nTừ: markash@amtrcorp.com\nNgày: 4 tháng 9\nChủ đề: Lời khuyên về công việc\nChào Juan,\nRất vui được gặp lại bạn tại Hội nghị Nhà văn Kỹ thuật ở Mexico City. Bạn đã đề cập rằng anh họ Carlos Cruz của bạn muốn tìm một công việc thiết kế sản phẩm ở Dallas. Vâng, công ty tôi đang làm việc, AMTR Corporation, sắp đăng tuyển một vị trí nhà thiết kế công nghiệp junior, điều này có thể khiến anh ấy quan tâm. Cho đến nay, công ty chỉ mới thông báo vị trí này cho nhân viên hiện tại, nhưng tuần tới nó sẽ xuất hiện trên trang web của công ty. Mức lương tốt, và có thể không có ứng viên đủ điều kiện nội bộ nào.\nHãy cho anh ấy biết về cơ hội này.\nHeide Markas\n==========\nhttps://www.amtrcorp.com\nAMTR Corporation.   TRANG CHỦ.    GIỚI THIỆU     NGHỀ NGHIỆP    LIÊN HỆ     BLOG\nCơ hội hiện tại\nNhà Thiết kế Công nghiệp Junior: Đây là vị trí toàn thời gian phát triển và cải thiện toàn bộ phạm vi sản phẩm được sản xuất bởi AMTR Corporation tại Dallas, Texas.\nMẫu Nhiệm vụ Công việc:\n*  Thiết kế sản phẩm tiêu dùng và văn phòng phẩm, bao gồm máy tính cá nhân, máy tính bảng, máy photocopy và máy in\n*  Hợp tác với nhóm thiết kế và đồng nghiệp từ các bộ phận kỹ thuật, tiếp thị và sản xuất để phát triển sản phẩm mới\n*  Cải thiện nỗ lực bền vững bằng cách thúc đẩy việc sử dụng vật liệu tái chế, có thể tái chế và tái sử dụng\nYêu cầu:\n*  Hiểu biết về nguyên tắc, lý thuyết và khái niệm thiết kế\n*  Khả năng phân tích và áp dụng phản hồi của khách hàng\n*  Kỹ năng phân tích và giải quyết vấn đề đã được chứng minh\n*  Kinh nghiệm trong việc tạo ra phác thảo, storyboard, mô hình và nguyên mẫu\n*  Bằng cử nhân hoặc thạc sĩ về thiết kế công nghiệp\n==========\nGửi: Carlos Cruz ccruz@bmail.com\nTừ: Pamela Wang wangp@amtrcorp.com\nNgày: 11 tháng 11\nChủ đề: Đơn xin việc\nKính gửi ông Cruz,\nCảm ơn ông đã nộp đơn xin vị trí nhà thiết kế công nghiệp junior cho AMTR Corporation. Ủy ban tuyển dụng của chúng tôi đã xem xét đơn của ông và xác định rằng ông đáp ứng các yêu cầu cho vị trí này. Chúng tôi sẽ liên hệ với ông sớm để sắp xếp một cuộc phỏng vấn ban đầu. Các cuộc phỏng vấn sẽ được tổ chức tại trụ sở Dallas của chúng tôi trong hai tuần đầu tiên của tháng 12. Trong thời gian chờ đợi, ông sẽ nhận được yêu cầu cung cấp các tham khảo nghề nghiệp qua e-mail. Vui lòng phản hồi yêu cầu ngay khi ông nhận được nó.\nTrân trọng,\nPamela Wang\nChuyên viên Nhân sự\nAMTR Corporation"
       }
      ],
      "questions": [
@@ -9738,6 +9830,21 @@
        "evidence": [
         "Bachelor's or master's degree in industrial design"
        ]
+      }
+     ],
+     "directions": "e-mails and job posting",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9916,6 +10023,21 @@
        "evidence": [
         "This is to confirm our agreement to replace your roof in Herndon, Virginia, on August 4"
        ]
+      }
+     ],
+     "directions": "list, letter, and schedule",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -10114,6 +10236,21 @@
        "evidence": [
         "Additionally, you should know that one of the differences between the trial version and the Premier version is that the interfaces are the same across all devices"
        ]
+      }
+     ],
+     "directions": "Web page, customer review, and company response",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test2/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

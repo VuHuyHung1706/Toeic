@@ -7327,6 +7327,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7397,6 +7404,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7466,6 +7480,13 @@
          "meaning": "(Cải thiện chất lượng dịch vụ)"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7562,6 +7583,13 @@
         }
        }
       }
+     ],
+     "directions": "receipt",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-153-155.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7627,6 +7655,13 @@
          "meaning": "(Chỉnh sửa đề xuất thiết kế) không chính xác trong ngữ cảnh này"
         }
        }
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-156-157.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7713,6 +7748,13 @@
        "explanation": "Đáp án đúng là A ([1]).\nCâu này mô tả các chi tiết tài chính hàng ngày làm phân tán sự chú ý, phù hợp nhất khi đứng sau câu mô tả các khó khăn mà chủ doanh nghiệp đối mặt,\n’A business owner's days are filled with juggling the wants, needs, and demands of customers, staff, and suppliers.’\nB, C, và D không phù hợp vì không nhấn mạnh đúng ngữ cảnh của chi tiết tài chính hàng ngày. Dịch: 'Các chi tiết tài chính hàng ngày chỉ thêm vào sự phân tâm.'",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7817,6 +7859,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7915,6 +7964,13 @@
        "tags": [],
        "optionNotes": {}
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8007,6 +8063,13 @@
         "What people are saying"
        ]
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8086,6 +8149,13 @@
        "explanation": "Đáp án đúng là D (Sắp xếp lại cuộc họp qua video).\nBà Rajan đề xuất việc liên hệ với bà Benoit để thay đổi lịch họp:\n’I'll contact Ms. Benoit to find out if she can meet later in the day.' (Tôi sẽ liên hệ với bà Benoit để tìm hiểu xem liệu bà ấy có thể họp sau đó trong ngày không).\nA, B, và C không chính xác.\nDịch: 'Sắp xếp lại cuộc họp qua video.'",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8185,6 +8255,17 @@
        "explanation": "Đáp án đúng là B (Vào lúc 8:00 P.M. thứ Sáu).\nTin nhắn nêu rõ rằng ban nhạc Kirschau sẽ biểu diễn vào thời gian ban đầu dự kiến,\n’local band Kirschau will perform during the original time slot instead.' (Ban nhạc địa phương Kirschau sẽ biểu diễn vào khung giờ gốc thay thế).\nA, C, và D không đúng.\nDịch: 'Vào lúc 8:00 P.M. thứ Sáu.'",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "schedule and text message",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8287,6 +8368,17 @@
        "explanation": "Đáp án đúng là D (Ưu tiên cải thiện trải nghiệm khách hàng).\nBài viết cho thấy rằng Ogden Bank đã thực hiện các cải tiến lớn đối với ứng dụng di động để giúp khách hàng dễ sử dụng hơn và hỗ trợ họ,\n’Ogden Bank has rolled out major improvements to its mobile banking application...to support our customers.’\nA, B, và C không được đề cập hoặc không đúng ngữ cảnh.\nDịch: 'Ưu tiên cải thiện trải nghiệm khách hàng.'",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail and article",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8392,6 +8484,21 @@
        "evidence": [
         "it revived my childhood interest in traveling to Alaska"
        ]
+      }
+     ],
+     "directions": "notice, Web page, and e-mail",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8505,6 +8612,21 @@
        "tags": [],
        "optionNotes": {}
       }
+     ],
+     "directions": "e-mails and receipt",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8603,6 +8725,21 @@
        "explanation": "Đáp án đúng là D (Khuyến nghị số 4).\nKhuyến nghị thứ tư từ báo cáo của Miyoko Consulting đề cập rằng có thể tái sử dụng một số thiết bị bảo hộ cá nhân, phù hợp với đề xuất của bà Mair về việc giới hạn sử dụng găng tay trong một ngày,\n’some basic personal protective equipment could be used more than once.' (một số thiết bị bảo hộ cá nhân cơ bản có thể được sử dụng nhiều hơn một lần).\n A, B, và C không phù hợp.\nDịch: 'Khuyến nghị số 4.'",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail, survey, and report",
+     "scans": [
+      {
+       "src": "2024/test3/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test3/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

@@ -7,6 +7,7 @@ import ScriptLines from "./ScriptLines";
 import PassageView from "./PassageView";
 import { renderBlanks } from "./BlankText";
 import { HL_COLORS, highlightEvidence, highlightPair, jumpToEvidence, type EvidenceItem } from "./Evidence";
+import { passageDocTypes, questionRange } from "@/lib/docTypes";
 import { setPref, usePref } from "@/lib/storage";
 import { isTextSelectGesture } from "@/lib/textSelection";
 import { mediaUrl, optionLetters, partInfo } from "@/lib/toeic";
@@ -16,6 +17,7 @@ import UiIcon from "./UiIcon";
 import Explanation from "./Explanation";
 
 type View = "en" | "bilingual" | "vi";
+type Source = "text" | "scan";
 const VIEWS: [View, string][] = [
   ["en", "Tiếng Anh"],
   ["bilingual", "Song ngữ"],
@@ -64,7 +66,13 @@ export default function GroupView({
   const passages = group.passages.filter((p) => p.en || p.vi);
   const showPassages = passages.length > 0 && (!listening || showScript);
   const images = group.images.filter((i) => i.src);
-  const hasLeft = images.length > 0 || showPassages;
+  // Part 7: bản scan trang đề gốc (nếu có) thay cho bản chữ — chọn ở thanh trên bài đọc, nhớ cho lần sau
+  const scans = (group.scans ?? []).filter((i) => i.src);
+  const sourcePref = usePref<Source>("p7Source", "text");
+  const source: Source = scans.length ? sourcePref : "text";
+  const hasLeft = images.length > 0 || showPassages || scans.length > 0;
+  // loại của từng văn bản theo dòng hướng dẫn ("e-mails and notice"), chia theo đoạn
+  const docTypesByPassage = passageDocTypes(group.directions, passages.map((p) => p.en || p.vi));
   const allRevealed = group.questions.every((q) => isRevealed(q.number));
   const hasVi = passages.some((p) => p.vi);
   // Part 6: chỗ trống hiện thành nhãn số câu; đã chọn thì điền luôn đáp án, bấm để nhảy tới câu
@@ -121,7 +129,42 @@ export default function GroupView({
         />
       )}
       {vocabTab && leftTab === "vocab" && <GroupVocab items={group.vocab!} auto={!!group.vocabAuto} />}
-      {showPassages && !(vocabTab && leftTab === "vocab") && (
+      {part === 7 && (scans.length > 0 || group.directions) && (
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+          {group.directions && source === "text" && (
+            <p className="min-w-0 flex-1 text-[15px]">
+              <b>Questions {questionRange(group.questionNumbers)}</b> refer to the following {group.directions}.
+            </p>
+          )}
+          {scans.length > 0 && (
+            <SegmentedTabs
+              label="Nguồn bài đọc"
+              size="sm"
+              className="ml-auto"
+              items={[
+                { key: "text", label: "Bản chữ" },
+                { key: "scan", label: "Bản scan đề" },
+              ]}
+              value={source}
+              onChange={(k) => setPref("p7Source", k)}
+            />
+          )}
+        </div>
+      )}
+      {source === "scan" &&
+        scans.map((img, i) => (
+          // bấm ảnh → mở ảnh gốc ở tab mới (điện thoại: phóng to cho dễ đọc)
+          <a key={img.src} href={mediaUrl(img.src)!} target="_blank" rel="noopener" className="block cursor-zoom-in">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={mediaUrl(img.src)!}
+              alt={`Đề gốc câu ${questionRange(group.questionNumbers)}${scans.length > 1 ? ` (trang ${i + 1})` : ""}`}
+              loading="lazy"
+              className="mx-auto w-full max-w-[760px] rounded-lg border border-line bg-white"
+            />
+          </a>
+        ))}
+      {showPassages && source === "text" && !(vocabTab && leftTab === "vocab") && (
         <div className={part >= 6 ? "" : "rounded-lg border border-line bg-surface p-4"}>
           {allRevealed && hasVi && (
             <SegmentedTabs
@@ -140,6 +183,7 @@ export default function GroupView({
                   en={p.en || p.vi}
                   vi={p.en ? p.vi : ""}
                   view={allRevealed && p.vi ? view : "en"}
+                  types={docTypesByPassage[i]}
                   renderText={(s, lang, pairEn) => blanks(s, lang, pairEn)}
                 />
               </div>

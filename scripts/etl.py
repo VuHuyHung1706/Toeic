@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
-from passage import copy_markers_to_vi, insert_markers, normalize_passage  # noqa: E402
+from passage import SEPARATOR, copy_markers_to_vi, insert_markers, normalize_passage  # noqa: E402
 from enrich import apply_evidence, apply_group_vocab, apply_option_notes, tag_question, write_extras
 
 # Vị trí chèn câu [1]–[4] bị thiếu trong CSV gốc (Part 7, câu "positions marked"), xem scripts/passage_markers.json
@@ -54,6 +54,83 @@ def apply_question_fix(text: str, test_id: str, n: int, report: "Report", where:
         return text
     report.add("fixed", test_id, where, f"Câu {n}: sửa câu hỏi theo question_fixes.json")
     return fix["to"]
+
+
+# Part 7: loại văn bản theo dòng hướng dẫn của đề ("refer to the following e-mail and schedule"),
+# {đề: {"147-148": "notice"}} — đọc (OCR) từ ảnh scan đề, xem scripts/p7_directions.json
+_P7DIR_FILE = Path(__file__).resolve().parent / "p7_directions.json"
+P7_DIRECTIONS: dict[str, dict[str, str]] = {
+    k: v for k, v in json.loads(_P7DIR_FILE.read_text(encoding="utf-8")).items() if not k.startswith("_")
+} if _P7DIR_FILE.exists() else {}
+
+
+# Một số CSV chép luôn dòng hướng dẫn vào bài đọc ("Questions 149-150 refer to the following advertisement." /
+# "Câu hỏi 149-150 tham chiếu đến quảng cáo sau.") — có khi hai nhóm dính chung một ô.
+_DIR_EN = re.compile(r"^\s*Questions?\s+(\d+)\s*[-–]\s*(\d+)\s+refers?\s+to\s+the\s+following\s+(.+?)\s*\.?\s*$", re.I | re.M)
+_DIR_VI = re.compile(r"^\s*(?:Các\s+)?câu\s+hỏi\s+(\d+)\s*[-–]\s*(\d+)\b.*$", re.I | re.M)
+
+
+def _split_by(text: str, pat: re.Pattern) -> list[tuple[int | None, str]]:
+    """Tách văn bản tại các dòng hướng dẫn → [(số câu đầu hoặc None, phần chữ)], bỏ dòng hướng dẫn."""
+    out: list[tuple[int | None, str]] = []
+    last, start = 0, None
+    for m in pat.finditer(text):
+        if text[last:m.start()].strip() or start is not None:
+            out.append((start, text[last:m.start()].strip()))
+        start, last = int(m.group(1)), m.end()
+    out.append((start, text[last:].strip()))
+    return [(s, t) for s, t in out if t or s is not None]
+
+
+def split_direction_lines(rows: list[dict], dirs: dict[str, str], report: "Report", test_id: str) -> None:
+    """Part 7: bỏ dòng hướng dẫn khỏi bài đọc (ghi lại loại văn bản vào dirs), và nếu một ô chứa bài của
+    nhiều nhóm thì chuyển phần sau sang câu đầu của nhóm đó (để gom nhóm đúng)."""
+    by_n = {r["number"]: r for r in rows}
+    for r in rows:
+        if not _DIR_EN.search(r["text"] or ""):
+            continue
+        for m in _DIR_EN.finditer(r["text"]):
+            dirs[f"{m.group(1)}-{m.group(2)}"] = m.group(3)
+        en_by_start = dict(_split_by(r["text"], _DIR_EN))
+        vi_by_start = dict(_split_by(r["transcript"] or "", _DIR_VI))
+        # phần của chính nhóm này; chữ đứng trước dòng hướng dẫn đầu tiên ("PART 7 / Directions: …") thì bỏ
+        own = r["number"] if r["number"] in en_by_start else None
+        r["text"] = en_by_start.get(own, "")
+        r["transcript"] = vi_by_start.get(own, vi_by_start.get(None, ""))
+        for start, text in en_by_start.items():
+            if start in (None, r["number"]):
+                continue
+            target = by_n.get(start)
+            if target is None or target["text"]:
+                report.add("error", test_id, r["where"], f"Không tách được bài đọc của nhóm bắt đầu ở câu {start}")
+                continue
+            target["text"], target["transcript"] = text, vi_by_start.get(start, "")
+            report.add("fixed", test_id, r["where"], f"Tách bài đọc dính chung: nhóm từ câu {start} sang nhóm riêng")
+
+
+# Dòng nhãn kiểu "*E-mail*", "[Web page]" ở đầu văn bản (OCR chép từ tab "E-mail" của đề) — khung đã có nhãn loại văn bản.
+# Giữ tiêu đề thật như "MEMO", "NOTICE", "INVOICE".
+_LABEL_LINE = re.compile(r"^\s*[\[*\"]?\s*(?:e-?mail(?:\s+message)?|web page|chat)\s*[\]*\"]?\s*:?\s*$", re.I)
+_DOC_SEP = re.compile(r"^\s*={3,}\s*$", re.M)
+
+
+def drop_label_lines(en: str, vi: str) -> tuple[str, str]:
+    """Bỏ dòng nhãn ở đầu từng văn bản; bản dịch bỏ cùng dòng đó (nếu cũng là nhãn) để hai bản vẫn khớp dòng."""
+    en_docs, vi_docs = _DOC_SEP.split(en), _DOC_SEP.split(vi) if vi else []
+    if not any(_LABEL_LINE.match(d.strip("\n").split("\n")[0]) for d in en_docs):
+        return en, vi
+    for k, doc in enumerate(en_docs):
+        lines = doc.strip("\n").split("\n")
+        if not lines or not _LABEL_LINE.match(lines[0]):
+            continue
+        en_docs[k] = "\n".join(lines[1:])
+        if k < len(vi_docs):
+            vl = vi_docs[k].strip("\n").split("\n")
+            # bản dịch cùng số dòng → dòng đầu là bản dịch của nhãn (hoặc chép nguyên nhãn) → bỏ theo
+            if vl and (_LABEL_LINE.match(vl[0]) or len(vl) == len(lines)):
+                vi_docs[k] = "\n".join(vl[1:])
+    join = lambda docs: f"\n{SEPARATOR}\n".join(d.strip("\n") for d in docs)
+    return join(en_docs), (join(vi_docs) if vi else vi)
 
 
 # chỗ trống Part 5 trong CSV viết đủ kiểu ("----", "—---", "- - - -", "——--") → thống nhất "-------"
@@ -366,6 +443,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
     num = int(re.sub(r"\D", "", slug) or 0)
     test_id = f"{year}-{slug}"
     media = MediaResolver(data_root, test_dir, slug, test_id, report)
+    embedded_dirs: dict[str, dict[str, str]] = {}  # dòng hướng dẫn Part 7 chép sẵn trong bài đọc (CSV)
 
     full_audio = media._find_local("audio", f"{year}-{slug}.mp3")
     if full_audio:
@@ -440,6 +518,8 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 "image": (rec.get("image") or "").strip(),
             })
         rows.sort(key=lambda r: r["number"])
+        if part == 7:
+            split_direction_lines(rows, embedded_dirs.setdefault(test_id, {}), report, test_id)
 
         # --- gom nhóm
         # Part 3/4/6 và Part 7 (176–200) có ranh giới nhóm cố định theo format đề;
@@ -526,6 +606,20 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 "passages": [],
                 "questions": [],
             }
+            if part == 7:
+                rng = f"{numbers[0]}-{numbers[-1]}"
+                # dòng hướng dẫn "Questions 147-148 refer to the following notice." (scripts/p7_directions.json)
+                directions = P7_DIRECTIONS.get(test_id, {}).get(rng) or embedded_dirs.get(test_id, {}).get(rng)
+                if directions:
+                    group["directions"] = directions
+                # ảnh scan trang đề: Data/<năm>/<đề>/image/scan/p7-147-148.jpg, p7-176-180-1.jpg, -2…
+                scan_dir = test_dir / "image" / "scan"
+                scans = sorted(
+                    (p for p in scan_dir.glob(f"p7-{rng}*") if re.fullmatch(rf"p7-{rng}(?:-\d+)?\.(?:jpe?g|png)", p.name)),
+                    key=lambda p: int(p.stem[len(f"p7-{rng}-"):] or 0),
+                ) if scan_dir.is_dir() else []
+                if scans:
+                    group["scans"] = [{"src": media._rel(p), "remoteUrl": None} for p in scans]
             if part in GROUPED_PARTS:
                 # Đoạn văn kép/ba (Part 7) có thể nằm rải ở nhiều dòng trong nhóm
                 for r in g:
@@ -535,6 +629,8 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                         vi = ""  # bản dịch bị chép lặp ở nhiều câu
                     if part in (6, 7):
                         en, vi = normalize_passage(en), normalize_passage(vi)
+                    if part == 7:
+                        en, vi = drop_label_lines(en, vi)
                     if en or vi:
                         group["passages"].append({"en": en, "vi": vi})
                 if not any(p["en"] for p in group["passages"]) and not images:

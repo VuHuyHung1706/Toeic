@@ -7752,6 +7752,13 @@
         }
        }
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7839,6 +7846,13 @@
         "Novak in our recreation office"
        ]
       }
+     ],
+     "directions": "form",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-149-150.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7922,6 +7936,13 @@
          "meaning": "nguồn điện của nó"
         }
        }
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-151-152.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8014,6 +8035,13 @@
        "evidence": [
         "The students are on school holiday"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-153-154.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8139,6 +8167,13 @@
        "evidence": [
         "Limit 2 sale items per customer"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-155-157.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8298,6 +8333,13 @@
         }
        }
       }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-158-161.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8432,6 +8474,13 @@
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Con số đó bây giờ có khả năng sẽ bao gồm nhiều nhà sản xuất kẹo cao su, vì Bibb Bubblegum sẽ đăng cai sự kiện năm nay.",
        "optionNotes": {}
       }
+     ],
+     "directions": "press release",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-162-165.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8555,6 +8604,13 @@
        "evidence": [
         "When activating, you will be prompted to choose a PIN (personal identification number)"
        ]
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-166-168.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8716,6 +8772,13 @@
         "Would it be okay if I submit the weekly progress report on Monday instead of Friday?"
        ]
       }
+     ],
+     "directions": "online chat",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-169-172.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8822,6 +8885,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]?",
        "optionNotes": {}
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-173-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9018,6 +9088,17 @@
         "I'm delighted to be a subscribing member of the theatre this season"
        ]
       }
+     ],
+     "directions": "article and survey",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9213,6 +9294,17 @@
         "Molinelli was adept at using his hands, and he kept a smile on his face"
        ]
       }
+     ],
+     "directions": "instructions and form",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9229,8 +9321,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Dialed-In: The Web Site for Professional Connections\nPosition wanted:\nDirector of Commercial Lending\nQuentin Rines\nDialed In Code number: 04404782\nExperience:\nAssistin Manager, Commercial Lending\nFirst Bank of Barbados\nThree years, three months (present position)\nLoan Officer\nFirst Bank of Barbados\nThree years, eight months.\nTeller\nFirst Bank of Barbados\n1 year, two months\n==========\nTo: Quentin Rines qrines@islandlink.bb\nFrom: Rozella Huy rozella.huy@ventana.com\nDate: 14 November\nSubject: Job offer\nDear Mr. Rines:\nOn behalf of all staff here at Ventana Bank, I want to say how pleased we were to meet you last week. We appreciate that you were able to spend so much time with us discussing your background and plans for the future. We are pleased to offer you the position of director of commercial lending. The position will be based in our George Town location on the Cayman Islands. Should you accept the position, you will receive the pay and benefits described during the interview process, as well as a relocation reimbursement of\nUSD $1,000.\nPlease let us know whether you accept the offer by 29 November and inform us of your preferred start date. We hope to have the position filled by mid-December.\nCongratulations on being selected. We look forward to welcoming you to our team.\nSincerely,\nRozella Huy\nPresident, Ventana Bank\n==========\nE-mail\"\nTo: Tomas Melville tmelville@homenetwork.bb\nFrom: Quentin Rines grines@islandlink.bb\nDate: 14 November\nSubject: New position\nMr. Melville,\nI just received the job offer from Ventana Bank that we discussed on Monday. They are meeting my salary request and offering me money for relocating too.\nThis has been my goal ever since you hired me as a teller, right out of college. But now that I have been offered my dream job, I am having doubts. The new location seems so far away. I would rarely get to see my parents and my siblings.\nI would welcome your help in this matter. Could we get together in the next few days for lunch or coffee? As you know, I have always valued your input, and I have missed our lunchtime conversations since you retired.\nQuentin",
-       "vi": "Dialed-In: Trang web cho các Kết nối Chuyên nghiệp\nVị trí mong muốn:\nGiám đốc Cho vay Thương mại\nQuentin Rines\nMã số Dialed In: 04404782\nKinh nghiệm:\nTrợ lý Quản lý, Cho vay Thương mại\nNgân hàng Đầu tiên của Barbados\nBa năm, ba tháng (vị trí hiện tại)\nNhân viên Cho vay\nNgân hàng Đầu tiên của Barbados\nBa năm, tám tháng.\nNhân viên Giao dịch\nNgân hàng Đầu tiên của Barbados\n1 năm, hai tháng\n==========\nGửi: Quentin Rines qrines@islandlink.bb\nTừ: Rozella Huy rozella.huy@ventana.com\nNgày: 14 tháng 11\nChủ đề: Đề nghị công việc\nKính gửi ông Rines:\nThay mặt cho tất cả nhân viên tại Ngân hàng Ventana, tôi muốn nói rằng chúng tôi rất vui được gặp ông tuần trước. Chúng tôi đánh giá cao việc ông đã có thể dành nhiều thời gian với chúng tôi để thảo luận về nền tảng và kế hoạch tương lai của ông. Chúng tôi vui mừng đề nghị ông vị trí giám đốc cho vay thương mại. Vị trí này sẽ được đặt tại địa điểm George Town của chúng tôi ở Quần đảo Cayman. Nếu ông chấp nhận vị trí này, ông sẽ nhận được mức lương và phúc lợi đã được mô tả trong quá trình phỏng vấn, cũng như khoản bồi hoàn di chuyển\n1.000 USD.\nVui lòng cho chúng tôi biết liệu ông có chấp nhận đề nghị này trước ngày 29 tháng 11 và thông báo cho chúng tôi ngày bắt đầu ưu tiên của ông. Chúng tôi hy vọng sẽ bổ nhiệm vị trí này vào giữa tháng 12.\nXin chúc mừng ông đã được lựa chọn. Chúng tôi mong được chào đón ông vào đội ngũ của chúng tôi.\nTrân trọng,\nRozella Huy\nChủ tịch, Ngân hàng Ventana\n==========\nE-mail\"\nGửi: Tomas Melville tmelville@homenetwork.bb\nTừ: Quentin Rines grines@islandlink.bb\nNgày: 14 tháng 11\nChủ đề: Vị trí mới\nÔng Melville,\nTôi vừa nhận được đề nghị công việc từ Ngân hàng Ventana mà chúng ta đã thảo luận vào thứ Hai. Họ đáp ứng yêu cầu lương của tôi và cũng đề nghị tiền cho việc di chuyển.\nĐây đã là mục tiêu của tôi kể từ khi ông tuyển tôi làm nhân viên giao dịch, ngay sau khi tốt nghiệp đại học. Nhưng giờ đây khi tôi đã được đề nghị công việc trong mơ, tôi lại có những nghi ngờ. Địa điểm mới có vẻ quá xa. Tôi sẽ hiếm khi được gặp bố mẹ và anh chị em của mình.\nTôi rất mong nhận được sự giúp đỡ của ông trong vấn đề này. Chúng ta có thể gặp nhau trong vài ngày tới để ăn trưa hoặc uống cà phê không? Như ông biết, tôi luôn đánh giá cao ý kiến của ông, và tôi đã nhớ những cuộc trò chuyện giờ ăn trưa của chúng ta kể từ khi ông nghỉ hưu.\nQuentin"
+       "en": "Dialed-In: The Web Site for Professional Connections\nPosition wanted:\nDirector of Commercial Lending\nQuentin Rines\nDialed In Code number: 04404782\nExperience:\nAssistin Manager, Commercial Lending\nFirst Bank of Barbados\nThree years, three months (present position)\nLoan Officer\nFirst Bank of Barbados\nThree years, eight months.\nTeller\nFirst Bank of Barbados\n1 year, two months\n==========\nTo: Quentin Rines qrines@islandlink.bb\nFrom: Rozella Huy rozella.huy@ventana.com\nDate: 14 November\nSubject: Job offer\nDear Mr. Rines:\nOn behalf of all staff here at Ventana Bank, I want to say how pleased we were to meet you last week. We appreciate that you were able to spend so much time with us discussing your background and plans for the future. We are pleased to offer you the position of director of commercial lending. The position will be based in our George Town location on the Cayman Islands. Should you accept the position, you will receive the pay and benefits described during the interview process, as well as a relocation reimbursement of\nUSD $1,000.\nPlease let us know whether you accept the offer by 29 November and inform us of your preferred start date. We hope to have the position filled by mid-December.\nCongratulations on being selected. We look forward to welcoming you to our team.\nSincerely,\nRozella Huy\nPresident, Ventana Bank\n==========\nTo: Tomas Melville tmelville@homenetwork.bb\nFrom: Quentin Rines grines@islandlink.bb\nDate: 14 November\nSubject: New position\nMr. Melville,\nI just received the job offer from Ventana Bank that we discussed on Monday. They are meeting my salary request and offering me money for relocating too.\nThis has been my goal ever since you hired me as a teller, right out of college. But now that I have been offered my dream job, I am having doubts. The new location seems so far away. I would rarely get to see my parents and my siblings.\nI would welcome your help in this matter. Could we get together in the next few days for lunch or coffee? As you know, I have always valued your input, and I have missed our lunchtime conversations since you retired.\nQuentin",
+       "vi": "Dialed-In: Trang web cho các Kết nối Chuyên nghiệp\nVị trí mong muốn:\nGiám đốc Cho vay Thương mại\nQuentin Rines\nMã số Dialed In: 04404782\nKinh nghiệm:\nTrợ lý Quản lý, Cho vay Thương mại\nNgân hàng Đầu tiên của Barbados\nBa năm, ba tháng (vị trí hiện tại)\nNhân viên Cho vay\nNgân hàng Đầu tiên của Barbados\nBa năm, tám tháng.\nNhân viên Giao dịch\nNgân hàng Đầu tiên của Barbados\n1 năm, hai tháng\n==========\nGửi: Quentin Rines qrines@islandlink.bb\nTừ: Rozella Huy rozella.huy@ventana.com\nNgày: 14 tháng 11\nChủ đề: Đề nghị công việc\nKính gửi ông Rines:\nThay mặt cho tất cả nhân viên tại Ngân hàng Ventana, tôi muốn nói rằng chúng tôi rất vui được gặp ông tuần trước. Chúng tôi đánh giá cao việc ông đã có thể dành nhiều thời gian với chúng tôi để thảo luận về nền tảng và kế hoạch tương lai của ông. Chúng tôi vui mừng đề nghị ông vị trí giám đốc cho vay thương mại. Vị trí này sẽ được đặt tại địa điểm George Town của chúng tôi ở Quần đảo Cayman. Nếu ông chấp nhận vị trí này, ông sẽ nhận được mức lương và phúc lợi đã được mô tả trong quá trình phỏng vấn, cũng như khoản bồi hoàn di chuyển\n1.000 USD.\nVui lòng cho chúng tôi biết liệu ông có chấp nhận đề nghị này trước ngày 29 tháng 11 và thông báo cho chúng tôi ngày bắt đầu ưu tiên của ông. Chúng tôi hy vọng sẽ bổ nhiệm vị trí này vào giữa tháng 12.\nXin chúc mừng ông đã được lựa chọn. Chúng tôi mong được chào đón ông vào đội ngũ của chúng tôi.\nTrân trọng,\nRozella Huy\nChủ tịch, Ngân hàng Ventana\n==========\nGửi: Tomas Melville tmelville@homenetwork.bb\nTừ: Quentin Rines grines@islandlink.bb\nNgày: 14 tháng 11\nChủ đề: Vị trí mới\nÔng Melville,\nTôi vừa nhận được đề nghị công việc từ Ngân hàng Ventana mà chúng ta đã thảo luận vào thứ Hai. Họ đáp ứng yêu cầu lương của tôi và cũng đề nghị tiền cho việc di chuyển.\nĐây đã là mục tiêu của tôi kể từ khi ông tuyển tôi làm nhân viên giao dịch, ngay sau khi tốt nghiệp đại học. Nhưng giờ đây khi tôi đã được đề nghị công việc trong mơ, tôi lại có những nghi ngờ. Địa điểm mới có vẻ quá xa. Tôi sẽ hiếm khi được gặp bố mẹ và anh chị em của mình.\nTôi rất mong nhận được sự giúp đỡ của ông trong vấn đề này. Chúng ta có thể gặp nhau trong vài ngày tới để ăn trưa hoặc uống cà phê không? Như ông biết, tôi luôn đánh giá cao ý kiến của ông, và tôi đã nhớ những cuộc trò chuyện giờ ăn trưa của chúng ta kể từ khi ông nghỉ hưu.\nQuentin"
       }
      ],
      "questions": [
@@ -9418,6 +9510,21 @@
         "This has been my goal ever since you hired me as a teller, right out of college"
        ]
       }
+     ],
+     "directions": "online profile and e-mails",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9604,6 +9711,21 @@
         "Please send me information and pricing.",
         "I would prefer to purchase a one-pound block of pure, unsweetened Yucatan cocoa"
        ]
+      }
+     ],
+     "directions": "process chart, letter, and product chart",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9808,6 +9930,21 @@
         "As a reward for your support, get 20% off your next online purchase from May 1 to 31!",
         "Enter the code REWARD20 at checkout"
        ]
+      }
+     ],
+     "directions": "report, coupon, and receipt",
+     "scans": [
+      {
+       "src": "2023/test4/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2023/test4/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

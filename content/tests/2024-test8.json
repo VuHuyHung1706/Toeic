@@ -8119,6 +8119,13 @@
         "Please allow up to three days for delivery"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8210,6 +8217,13 @@
         "Our facility has spacious meeting rooms overlooking the sea and the picturesque beach"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8300,6 +8314,13 @@
        "evidence": [
         "Average number of individuals who viewed each post                 87,122"
        ]
+      }
+     ],
+     "directions": "report",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8393,6 +8414,13 @@
         "Actually, we have an entire bin of them.",
         "Check the supply closet"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8502,6 +8530,13 @@
         "Water main work on Huron Street: progress update-Mr.",
         "Carter, Department of Public Works, City of Tielersburg"
        ]
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8634,6 +8669,13 @@
         "Report any unsate conditions, accidents, or spills immediately to your supervisor"
        ]
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8743,6 +8785,13 @@
        "evidence": [
         "We have now stabilized the situation, but if you should still encounter these or similar issues, please attempt first to address them by restarting your computer"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8906,6 +8955,13 @@
         "I'll reach out to IT and take care of that now"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8921,8 +8977,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nTo: Lindsey Galloway < Igalloway@sportsupplies.com>\nFrom: Samuel Bains <samuelbains@exertreks.com>\nDate: August 16\nSubject: Exertreks boots for winter activities\nHello Ms. Galloway,\nI am sorry I missed your call this morning. The answers to your questions are given below.\nWe here at Exertreks have recently completed the development of our Winter Hikers.\nLike our other models, they are waterproof, but the Winter Hikers are most appropriate for use in extreme cold. The boots are lined with a proprietary material that is highly effective at retaining body heat. They are also durable, light, and comfortable. For orders of 50 pairs or more of the Winter Hikers, the wholesale price per pair is $65. The recommended retail price is $89. We can deliver your order in two weeks.\nPresale reviews of the boots by experts in outdoor sports have been enthusiastic. You can expect the Winter Hikers to be a big hit with your customers this year. I look forward to hearing from you soon to answer any other questions and to help you with your first order.\nSincerely,\nSamuel Bains",
-       "vi": "*E-mail*\nGửi: Lindsey Galloway < Igalloway@sportsupplies.com>\nTừ: Samuel Bains <samuelbains@exertreks.com>\nNgày: 16 tháng 8\nChủ đề: Giày Exertreks cho các hoạt động mùa đông\nChào cô Galloway,\nTôi xin lỗi vì đã bỏ lỡ cuộc gọi của bạn sáng nay. Câu trả lời cho các câu hỏi của bạn được đưa ra dưới đây.\nChúng tôi ở Exertreks vừa mới hoàn thành việc phát triển Winter Hikers của chúng tôi.\nGiống như các mẫu khác của chúng tôi, chúng không thấm nước, nhưng Winter Hikers phù hợp nhất để sử dụng trong điều kiện lạnh cực độ. Đôi giày được lót bằng một vật liệu độc quyền có hiệu quả cao trong việc giữ nhiệt cơ thể. Chúng cũng bền, nhẹ và thoải mái. Đối với đơn đặt hàng từ 50 đôi trở lên của Winter Hikers, giá bán buôn mỗi đôi là 65$. Giá bán lẻ được đề xuất là 89$. Chúng tôi có thể giao hàng cho bạn trong vòng hai tuần.\nCác đánh giá trước khi bán của các chuyên gia trong lĩnh vực thể thao ngoài trời đã rất nhiệt tình. Bạn có thể mong đợi Winter Hikers sẽ là một hit lớn với khách hàng của bạn năm nay. Tôi mong được nghe từ bạn sớm để trả lời bất kỳ câu hỏi nào khác và để giúp bạn với đơn hàng đầu tiên của bạn.\nTrân trọng,\nSamuel Bains"
+       "en": "To: Lindsey Galloway < Igalloway@sportsupplies.com>\nFrom: Samuel Bains <samuelbains@exertreks.com>\nDate: August 16\nSubject: Exertreks boots for winter activities\nHello Ms. Galloway,\nI am sorry I missed your call this morning. The answers to your questions are given below.\nWe here at Exertreks have recently completed the development of our Winter Hikers.\nLike our other models, they are waterproof, but the Winter Hikers are most appropriate for use in extreme cold. The boots are lined with a proprietary material that is highly effective at retaining body heat. They are also durable, light, and comfortable. For orders of 50 pairs or more of the Winter Hikers, the wholesale price per pair is $65. The recommended retail price is $89. We can deliver your order in two weeks.\nPresale reviews of the boots by experts in outdoor sports have been enthusiastic. You can expect the Winter Hikers to be a big hit with your customers this year. I look forward to hearing from you soon to answer any other questions and to help you with your first order.\nSincerely,\nSamuel Bains",
+       "vi": "Gửi: Lindsey Galloway < Igalloway@sportsupplies.com>\nTừ: Samuel Bains <samuelbains@exertreks.com>\nNgày: 16 tháng 8\nChủ đề: Giày Exertreks cho các hoạt động mùa đông\nChào cô Galloway,\nTôi xin lỗi vì đã bỏ lỡ cuộc gọi của bạn sáng nay. Câu trả lời cho các câu hỏi của bạn được đưa ra dưới đây.\nChúng tôi ở Exertreks vừa mới hoàn thành việc phát triển Winter Hikers của chúng tôi.\nGiống như các mẫu khác của chúng tôi, chúng không thấm nước, nhưng Winter Hikers phù hợp nhất để sử dụng trong điều kiện lạnh cực độ. Đôi giày được lót bằng một vật liệu độc quyền có hiệu quả cao trong việc giữ nhiệt cơ thể. Chúng cũng bền, nhẹ và thoải mái. Đối với đơn đặt hàng từ 50 đôi trở lên của Winter Hikers, giá bán buôn mỗi đôi là 65$. Giá bán lẻ được đề xuất là 89$. Chúng tôi có thể giao hàng cho bạn trong vòng hai tuần.\nCác đánh giá trước khi bán của các chuyên gia trong lĩnh vực thể thao ngoài trời đã rất nhiệt tình. Bạn có thể mong đợi Winter Hikers sẽ là một hit lớn với khách hàng của bạn năm nay. Tôi mong được nghe từ bạn sớm để trả lời bất kỳ câu hỏi nào khác và để giúp bạn với đơn hàng đầu tiên của bạn.\nTrân trọng,\nSamuel Bains"
       }
      ],
      "questions": [
@@ -9073,6 +9129,13 @@
         "I look forward to hearing from you soon to answer any other questions and to help you with your first order"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9219,6 +9282,13 @@
        "evidence": [
         "Each guest speaker will focus on objects from the museum's permanent collection"
        ]
+      }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9422,6 +9492,17 @@
         "Surprisingly little new information or insight is offered on its pages, and the writing style is rather flat"
        ]
       }
+     ],
+     "directions": "table of contents and book review",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9623,6 +9704,17 @@
         "All committee members should bring their trays to the conference room on the third floor right beside the cafeteria, where we will continue our meeting from 12:45 P.M. until 4:00 P.M"
        ]
       }
+     ],
+     "directions": "policy and e-mail",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9639,8 +9731,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Hiking Permits to Be Required for\nUpton Parks\nUPTON (January 8)-Starting on May 25, hikers will be required to obtain a permit for each day they hike on certain trails in Upton parks. The designated trails include some of the most popular hiking spots in the area.\nThe permits are free of charge and require only that hikers register online at www.uptonparks.org or at any Upton Parks Department office. Upon registering, hikers will receive a permit that they can print out or display on a mobile device.\nThe move is part of an effort to reduce foot traffic on the most used trails, but some hikers are concerned. \"I might not be able to get a permit for my favorite trails if none are left when I want to go,\" says Regina Faroni, an Upton parks hiker. \"In addition, I often check the weather in the morning and then decide if it's a good day to hike,\" she says.\nHaving to apply for a permit could prevent her from taking spontaneous hikes. \"On the other hand, it would reduce the number of hikers on certain trails,\" Faroni admits.\n-EJ Harjo, Upton Digest\n==========\n*E-mail*\nFrom: Arlo Gomes <arlog@uptonhikingclub.org>\nTo: Upton Parks Department <info@uptonparks.org>\nSubject: Hiking permits\nDate: January 22\nTo Whom It May Concern,\nI read in the Upton Digest that hikers soon will be required to register for permits to hike on certain trails. As the organizer of the Upton Hiking Club, I would like more details on how this will affect our club. For example, is there a list of hiking trails that will require permits? I checked your Web site and could not find one.\nIs it also the case that the number of permits issued will vary from trail to trail? About seventeen to twenty club members participate in our group hikes. I'm concerned that we may not get enough permits to hike together. Are there special considerations for large groups?\nFinally, I am concerned that the permit requirement will not allow our club members to get together for a hike on the spur of the moment. We often will take an unplanned hike if we find that several members have a free day.\nI hope you are able to respond soon, as we are already planning our spring and summer hikes.\nRegards,\nArlo Gomes\nOrganizer, Upton Hiking Club\n==========\n*E-mail*\nFrom: Upton Parks Department <info@uptonparks.org>\nTo: Arlo Gomes <arlog@uptonhikingclub.org>\nSubject: RE: Hiking permits\nDate: January 23\nAttachment:  Permit_Information_DRAFT\nHello, Mr. Gomes,\nThank you for your e-mail. I apologize that our Web site has not yet been updated with the information you were searching for and that the article in the Upton Digest was not clear: I have attached a proposed list of the twelve trails that will require permits and the number of permits that will be issued per day for each trail. The list will be finalized next month.\nPermits can be reserved up to two weeks in advance, and the number of permits available for most trails is substantially higher than the number of Upton Hiking Club members who join your group hikes. Same-day permits can be obtained.\nIf you have not already done so, you can sign up on our Web site for our weekly newsletter. Doing so will ensure that you get advance notice of any updates to our policies.\nJenny Grieb, Public Relations, Upton Parks Department",
-       "vi": "Giấy phép Đi bộ Đường mòn sẽ Được Yêu cầu cho\nCác Công viên Upton\nUPTON (Ngày 8 tháng 1) - Bắt đầu từ ngày 25 tháng 5, người đi bộ đường mòn sẽ được yêu cầu có giấy phép cho mỗi ngày họ đi bộ trên một số đường mòn nhất định trong các công viên Upton. Các đường mòn được chỉ định bao gồm một số địa điểm đi bộ phổ biến nhất trong khu vực.\nGiấy phép được cấp miễn phí và chỉ yêu cầu người đi bộ đăng ký trực tuyến tại www.uptonparks.org hoặc tại bất kỳ văn phòng nào của Sở Công viên Upton. Sau khi đăng ký, người đi bộ sẽ nhận được giấy phép mà họ có thể in ra hoặc hiển thị trên thiết bị di động.\nĐộng thái này là một phần của nỗ lực giảm lưu lượng người đi bộ trên các đường mòn được sử dụng nhiều nhất, nhưng một số người đi bộ lo ngại. \"Tôi có thể không có giấy phép cho những đường mòn yêu thích của mình nếu không còn giấy phép khi tôi muốn đi,\" Regina Faroni, một người đi bộ trong công viên Upton nói. \"Ngoài ra, tôi thường kiểm tra thời tiết vào buổi sáng và sau đó quyết định xem đó có phải là một ngày tốt để đi bộ hay không,\" cô nói.\nViệc phải xin giấy phép có thể ngăn cản cô ấy thực hiện những chuyến đi bộ tự phát. \"Mặt khác, nó sẽ giảm số lượng người đi bộ trên một số đường mòn nhất định,\" Faroni thừa nhận.\n-EJ Harjo, Upton Digest\n==========\n*E-mail*\nTừ: Arlo Gomes <arlog@uptonhikingclub.org>\nGửi: Sở Công viên Upton <info@uptonparks.org>\nChủ đề: Giấy phép đi bộ đường mòn\nNgày: 22 tháng 1\nKính gửi Quý vị,\nTôi đọc trên Upton Digest rằng người đi bộ đường mòn sẽ sớm được yêu cầu đăng ký giấy phép để đi bộ trên một số đường mòn nhất định. Với tư cách là người tổ chức Câu lạc bộ Đi bộ Upton, tôi muốn biết thêm chi tiết về cách điều này sẽ ảnh hưởng đến câu lạc bộ của chúng tôi. Ví dụ, có danh sách các đường mòn đi bộ sẽ yêu cầu giấy phép không? Tôi đã kiểm tra trang web của bạn và không thể tìm thấy.\nCó phải số lượng giấy phép được cấp sẽ khác nhau từ đường mòn này sang đường mòn khác không? Khoảng mười bảy đến hai mươi thành viên câu lạc bộ tham gia vào các chuyến đi bộ theo nhóm của chúng tôi. Tôi lo ngại rằng chúng tôi có thể không có đủ giấy phép để đi bộ cùng nhau. Có những xem xét đặc biệt nào cho các nhóm lớn không?\nCuối cùng, tôi lo ngại rằng yêu cầu về giấy phép sẽ không cho phép các thành viên câu lạc bộ của chúng tôi tụ tập đi bộ một cách tự phát. Chúng tôi thường đi bộ không theo kế hoạch nếu chúng tôi thấy rằng một số thành viên có ngày rảnh.\nTôi hy vọng bạn có thể trả lời sớm, vì chúng tôi đang lên kế hoạch cho các chuyến đi bộ mùa xuân và mùa hè.\nTrân trọng,\nArlo Gomes\nNgười tổ chức, Câu lạc bộ Đi bộ Upton\n==========\n*E-mail*\nTừ: Sở Công viên Upton <info@uptonparks.org>\nGửi: Arlo Gomes <arlog@uptonhikingclub.org>\nChủ đề: Trả lời: Giấy phép đi bộ đường mòn\nNgày: 23 tháng 1\nĐính kèm: Permit_Information_DRAFT\nXin chào ông Gomes,\nCảm ơn email của ông. Tôi xin lỗi vì trang web của chúng tôi chưa được cập nhật với thông tin ông đang tìm kiếm và bài báo trên Upton Digest không rõ ràng: Tôi đã đính kèm một danh sách đề xuất gồm mười hai đường mòn sẽ yêu cầu giấy phép và số lượng giấy phép sẽ được cấp mỗi ngày cho mỗi đường mòn. Danh sách sẽ được hoàn thiện vào tháng tới.\nGiấy phép có thể được đặt trước tối đa hai tuần, và số lượng giấy phép có sẵn cho hầu hết các đường mòn cao hơn đáng kể so với số lượng thành viên Câu lạc bộ Đi bộ Upton tham gia vào các chuyến đi bộ theo nhóm của bạn. Giấy phép cùng ngày có thể được cấp.\nNếu bạn chưa làm như vậy, bạn có thể đăng ký trên trang web của chúng tôi để nhận bản tin hàng tuần. Làm như vậy sẽ đảm bảo rằng bạn nhận được thông báo trước về bất kỳ cập nhật nào đối với các chính sách của chúng tôi.\nJenny Grieb, Quan hệ Công chúng, Sở Công viên Upton"
+       "en": "Hiking Permits to Be Required for\nUpton Parks\nUPTON (January 8)-Starting on May 25, hikers will be required to obtain a permit for each day they hike on certain trails in Upton parks. The designated trails include some of the most popular hiking spots in the area.\nThe permits are free of charge and require only that hikers register online at www.uptonparks.org or at any Upton Parks Department office. Upon registering, hikers will receive a permit that they can print out or display on a mobile device.\nThe move is part of an effort to reduce foot traffic on the most used trails, but some hikers are concerned. \"I might not be able to get a permit for my favorite trails if none are left when I want to go,\" says Regina Faroni, an Upton parks hiker. \"In addition, I often check the weather in the morning and then decide if it's a good day to hike,\" she says.\nHaving to apply for a permit could prevent her from taking spontaneous hikes. \"On the other hand, it would reduce the number of hikers on certain trails,\" Faroni admits.\n-EJ Harjo, Upton Digest\n==========\nFrom: Arlo Gomes <arlog@uptonhikingclub.org>\nTo: Upton Parks Department <info@uptonparks.org>\nSubject: Hiking permits\nDate: January 22\nTo Whom It May Concern,\nI read in the Upton Digest that hikers soon will be required to register for permits to hike on certain trails. As the organizer of the Upton Hiking Club, I would like more details on how this will affect our club. For example, is there a list of hiking trails that will require permits? I checked your Web site and could not find one.\nIs it also the case that the number of permits issued will vary from trail to trail? About seventeen to twenty club members participate in our group hikes. I'm concerned that we may not get enough permits to hike together. Are there special considerations for large groups?\nFinally, I am concerned that the permit requirement will not allow our club members to get together for a hike on the spur of the moment. We often will take an unplanned hike if we find that several members have a free day.\nI hope you are able to respond soon, as we are already planning our spring and summer hikes.\nRegards,\nArlo Gomes\nOrganizer, Upton Hiking Club\n==========\nFrom: Upton Parks Department <info@uptonparks.org>\nTo: Arlo Gomes <arlog@uptonhikingclub.org>\nSubject: RE: Hiking permits\nDate: January 23\nAttachment:  Permit_Information_DRAFT\nHello, Mr. Gomes,\nThank you for your e-mail. I apologize that our Web site has not yet been updated with the information you were searching for and that the article in the Upton Digest was not clear: I have attached a proposed list of the twelve trails that will require permits and the number of permits that will be issued per day for each trail. The list will be finalized next month.\nPermits can be reserved up to two weeks in advance, and the number of permits available for most trails is substantially higher than the number of Upton Hiking Club members who join your group hikes. Same-day permits can be obtained.\nIf you have not already done so, you can sign up on our Web site for our weekly newsletter. Doing so will ensure that you get advance notice of any updates to our policies.\nJenny Grieb, Public Relations, Upton Parks Department",
+       "vi": "Giấy phép Đi bộ Đường mòn sẽ Được Yêu cầu cho\nCác Công viên Upton\nUPTON (Ngày 8 tháng 1) - Bắt đầu từ ngày 25 tháng 5, người đi bộ đường mòn sẽ được yêu cầu có giấy phép cho mỗi ngày họ đi bộ trên một số đường mòn nhất định trong các công viên Upton. Các đường mòn được chỉ định bao gồm một số địa điểm đi bộ phổ biến nhất trong khu vực.\nGiấy phép được cấp miễn phí và chỉ yêu cầu người đi bộ đăng ký trực tuyến tại www.uptonparks.org hoặc tại bất kỳ văn phòng nào của Sở Công viên Upton. Sau khi đăng ký, người đi bộ sẽ nhận được giấy phép mà họ có thể in ra hoặc hiển thị trên thiết bị di động.\nĐộng thái này là một phần của nỗ lực giảm lưu lượng người đi bộ trên các đường mòn được sử dụng nhiều nhất, nhưng một số người đi bộ lo ngại. \"Tôi có thể không có giấy phép cho những đường mòn yêu thích của mình nếu không còn giấy phép khi tôi muốn đi,\" Regina Faroni, một người đi bộ trong công viên Upton nói. \"Ngoài ra, tôi thường kiểm tra thời tiết vào buổi sáng và sau đó quyết định xem đó có phải là một ngày tốt để đi bộ hay không,\" cô nói.\nViệc phải xin giấy phép có thể ngăn cản cô ấy thực hiện những chuyến đi bộ tự phát. \"Mặt khác, nó sẽ giảm số lượng người đi bộ trên một số đường mòn nhất định,\" Faroni thừa nhận.\n-EJ Harjo, Upton Digest\n==========\nTừ: Arlo Gomes <arlog@uptonhikingclub.org>\nGửi: Sở Công viên Upton <info@uptonparks.org>\nChủ đề: Giấy phép đi bộ đường mòn\nNgày: 22 tháng 1\nKính gửi Quý vị,\nTôi đọc trên Upton Digest rằng người đi bộ đường mòn sẽ sớm được yêu cầu đăng ký giấy phép để đi bộ trên một số đường mòn nhất định. Với tư cách là người tổ chức Câu lạc bộ Đi bộ Upton, tôi muốn biết thêm chi tiết về cách điều này sẽ ảnh hưởng đến câu lạc bộ của chúng tôi. Ví dụ, có danh sách các đường mòn đi bộ sẽ yêu cầu giấy phép không? Tôi đã kiểm tra trang web của bạn và không thể tìm thấy.\nCó phải số lượng giấy phép được cấp sẽ khác nhau từ đường mòn này sang đường mòn khác không? Khoảng mười bảy đến hai mươi thành viên câu lạc bộ tham gia vào các chuyến đi bộ theo nhóm của chúng tôi. Tôi lo ngại rằng chúng tôi có thể không có đủ giấy phép để đi bộ cùng nhau. Có những xem xét đặc biệt nào cho các nhóm lớn không?\nCuối cùng, tôi lo ngại rằng yêu cầu về giấy phép sẽ không cho phép các thành viên câu lạc bộ của chúng tôi tụ tập đi bộ một cách tự phát. Chúng tôi thường đi bộ không theo kế hoạch nếu chúng tôi thấy rằng một số thành viên có ngày rảnh.\nTôi hy vọng bạn có thể trả lời sớm, vì chúng tôi đang lên kế hoạch cho các chuyến đi bộ mùa xuân và mùa hè.\nTrân trọng,\nArlo Gomes\nNgười tổ chức, Câu lạc bộ Đi bộ Upton\n==========\nTừ: Sở Công viên Upton <info@uptonparks.org>\nGửi: Arlo Gomes <arlog@uptonhikingclub.org>\nChủ đề: Trả lời: Giấy phép đi bộ đường mòn\nNgày: 23 tháng 1\nĐính kèm: Permit_Information_DRAFT\nXin chào ông Gomes,\nCảm ơn email của ông. Tôi xin lỗi vì trang web của chúng tôi chưa được cập nhật với thông tin ông đang tìm kiếm và bài báo trên Upton Digest không rõ ràng: Tôi đã đính kèm một danh sách đề xuất gồm mười hai đường mòn sẽ yêu cầu giấy phép và số lượng giấy phép sẽ được cấp mỗi ngày cho mỗi đường mòn. Danh sách sẽ được hoàn thiện vào tháng tới.\nGiấy phép có thể được đặt trước tối đa hai tuần, và số lượng giấy phép có sẵn cho hầu hết các đường mòn cao hơn đáng kể so với số lượng thành viên Câu lạc bộ Đi bộ Upton tham gia vào các chuyến đi bộ theo nhóm của bạn. Giấy phép cùng ngày có thể được cấp.\nNếu bạn chưa làm như vậy, bạn có thể đăng ký trên trang web của chúng tôi để nhận bản tin hàng tuần. Làm như vậy sẽ đảm bảo rằng bạn nhận được thông báo trước về bất kỳ cập nhật nào đối với các chính sách của chúng tôi.\nJenny Grieb, Quan hệ Công chúng, Sở Công viên Upton"
       }
      ],
      "questions": [
@@ -9828,6 +9920,21 @@
         "Doing so will ensure that you get advance notice of any updates to our policies"
        ]
       }
+     ],
+     "directions": "article and e-mails",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9844,8 +9951,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Your Move Vehicle Rental Company\nReservation Number: 15288242\nPickup Location: 2833 Centennial Rd., Muncie, IN 47303\nDate and Time: October 31, 10:00 A.M.\nDrop-off Location: Same as pickup\nDate and Time: October 31, 6:30 P.M.\nVehicle Description: 5-meter moving van\nIf you need to change your reservation, you can do so via your online account until three days before your scheduled pickup. After that point, contact customer support at reservations@yourmove.com. Please include your reservation number in the e-mail subject.\n==========\nTo: reservations@yourmove.com\nFrom: selina_os@chestnutmail.com\nDate: October 29\nSubject: Reservation 15288242\nHello,\nI reserved a moving van online and was given an estimated price of $150. However, I mistakenly listed the same location for both pickup and drop-off. I'd like to know if there is a drop-off location closer to my destination in Cumberland. If so, can you please help me update the reservation?\nSincerely,\nSelina Osman\n==========\nE-Mail Message\nTo: selina_os@chestnutmail.com\nFrom: reservations@yourmove.com\nDate: October 30\nSubject: RE: Reservation 15288242\nDear Ms. Osman,\nWe have a rental office just outside Indianapolis, about a ten-minute drive from Cumberland. If that is the drop-off location, you would have about 90 kilometers of driving from the starting point in Muncie. Based on this, we have updated your price estimate as follows.\nRental: 5-meter moving van for 1 day = $39.99\nRental: wheeled furniture cart = $6.99\nRental: furniture pads (set of 12) = $9.99\nDistance: $1.05 per kilometer = $94.50 (90 kilometers estimated)\nVehicle damage insurance = $19.99\nTotal = $171.46\nPlease note that this total does not include taxes. The final price may vary based on the actual distance driven and will be calculated once the vehicle is returned to the drop-off location. Until that time, your credit card on file will be charged for the rental equipment only.\nSincerely,\nAlistair Muhn\nYour Move Vehicle Rental Company",
-       "vi": "Your Move Vehicle Rental Company (Công ty Cho thuê Xe Your Move)\nSố Đặt xe: 15288242\nĐịa điểm Lấy xe: 2833 Centennial Rd., Muncie, IN 47303\nNgày và Giờ: 31 tháng 10, 10:00 sáng\nĐịa điểm Trả xe: Giống như địa điểm lấy xe\nNgày và Giờ: 31 tháng 10, 6:30 chiều\nMô tả Xe: Xe tải chuyển nhà 5 mét\nNếu bạn cần thay đổi đặt xe, bạn có thể làm điều đó qua tài khoản trực tuyến của mình cho đến ba ngày trước ngày lấy xe theo lịch. Sau thời điểm đó, hãy liên hệ với bộ phận hỗ trợ khách hàng tại reservations@yourmove.com. Vui lòng ghi số đặt xe của bạn vào tiêu đề email.\n==========\nGửi: reservations@yourmove.com\nTừ: selina_os@chestnutmail.com\nNgày: 29 tháng 10\nChủ đề: Đặt xe 15288242\nXin chào,\nTôi đã đặt một xe tải chuyển nhà trực tuyến và được báo giá ước tính là 150$. Tuy nhiên, tôi đã lỡ liệt kê cùng một địa điểm cho cả lấy xe và trả xe. Tôi muốn biết liệu có địa điểm trả xe nào gần điểm đến của tôi ở Cumberland hơn không. Nếu có, bạn có thể giúp tôi cập nhật đặt xe được không?\nTrân trọng,\nSelina Osman\n==========\nThư điện tử\nGửi: selina_os@chestnutmail.com\nTừ: reservations@yourmove.com\nNgày: 30 tháng 10\nChủ đề: Trả lời: Đặt xe 15288242\nKính gửi cô Osman,\nChúng tôi có một văn phòng cho thuê ngay ngoài Indianapolis, cách Cumberland khoảng 10 phút lái xe. Nếu đó là địa điểm trả xe, bạn sẽ có khoảng 90 km lái xe từ điểm xuất phát ở Muncie. Dựa trên điều này, chúng tôi đã cập nhật ước tính giá của bạn như sau.\nThuê: xe tải chuyển nhà 5 mét trong 1 ngày = 39,99$\nThuê: xe đẩy đồ nội thất có bánh xe = 6,99$\nThuê: tấm đệm đồ nội thất (bộ 12 cái) = 9,99$\nKhoảng cách: 1,05$ mỗi km = 94,50$ (ước tính 90 km)\nBảo hiểm hư hỏng xe = 19,99$\nTổng cộng = 171,46$\nXin lưu ý rằng tổng số này không bao gồm thuế. Giá cuối cùng có thể thay đổi dựa trên khoảng cách thực tế đã lái và sẽ được tính toán khi xe được trả tại địa điểm trả xe. Cho đến thời điểm đó, thẻ tín dụng của bạn trong hồ sơ sẽ chỉ bị tính phí cho thiết bị thuê.\nTrân trọng,\nAlistair Muhn\nCông ty Cho thuê Xe Your Move"
+       "en": "Your Move Vehicle Rental Company\nReservation Number: 15288242\nPickup Location: 2833 Centennial Rd., Muncie, IN 47303\nDate and Time: October 31, 10:00 A.M.\nDrop-off Location: Same as pickup\nDate and Time: October 31, 6:30 P.M.\nVehicle Description: 5-meter moving van\nIf you need to change your reservation, you can do so via your online account until three days before your scheduled pickup. After that point, contact customer support at reservations@yourmove.com. Please include your reservation number in the e-mail subject.\n==========\nTo: reservations@yourmove.com\nFrom: selina_os@chestnutmail.com\nDate: October 29\nSubject: Reservation 15288242\nHello,\nI reserved a moving van online and was given an estimated price of $150. However, I mistakenly listed the same location for both pickup and drop-off. I'd like to know if there is a drop-off location closer to my destination in Cumberland. If so, can you please help me update the reservation?\nSincerely,\nSelina Osman\n==========\nTo: selina_os@chestnutmail.com\nFrom: reservations@yourmove.com\nDate: October 30\nSubject: RE: Reservation 15288242\nDear Ms. Osman,\nWe have a rental office just outside Indianapolis, about a ten-minute drive from Cumberland. If that is the drop-off location, you would have about 90 kilometers of driving from the starting point in Muncie. Based on this, we have updated your price estimate as follows.\nRental: 5-meter moving van for 1 day = $39.99\nRental: wheeled furniture cart = $6.99\nRental: furniture pads (set of 12) = $9.99\nDistance: $1.05 per kilometer = $94.50 (90 kilometers estimated)\nVehicle damage insurance = $19.99\nTotal = $171.46\nPlease note that this total does not include taxes. The final price may vary based on the actual distance driven and will be calculated once the vehicle is returned to the drop-off location. Until that time, your credit card on file will be charged for the rental equipment only.\nSincerely,\nAlistair Muhn\nYour Move Vehicle Rental Company",
+       "vi": "Your Move Vehicle Rental Company (Công ty Cho thuê Xe Your Move)\nSố Đặt xe: 15288242\nĐịa điểm Lấy xe: 2833 Centennial Rd., Muncie, IN 47303\nNgày và Giờ: 31 tháng 10, 10:00 sáng\nĐịa điểm Trả xe: Giống như địa điểm lấy xe\nNgày và Giờ: 31 tháng 10, 6:30 chiều\nMô tả Xe: Xe tải chuyển nhà 5 mét\nNếu bạn cần thay đổi đặt xe, bạn có thể làm điều đó qua tài khoản trực tuyến của mình cho đến ba ngày trước ngày lấy xe theo lịch. Sau thời điểm đó, hãy liên hệ với bộ phận hỗ trợ khách hàng tại reservations@yourmove.com. Vui lòng ghi số đặt xe của bạn vào tiêu đề email.\n==========\nGửi: reservations@yourmove.com\nTừ: selina_os@chestnutmail.com\nNgày: 29 tháng 10\nChủ đề: Đặt xe 15288242\nXin chào,\nTôi đã đặt một xe tải chuyển nhà trực tuyến và được báo giá ước tính là 150$. Tuy nhiên, tôi đã lỡ liệt kê cùng một địa điểm cho cả lấy xe và trả xe. Tôi muốn biết liệu có địa điểm trả xe nào gần điểm đến của tôi ở Cumberland hơn không. Nếu có, bạn có thể giúp tôi cập nhật đặt xe được không?\nTrân trọng,\nSelina Osman\n==========\nGửi: selina_os@chestnutmail.com\nTừ: reservations@yourmove.com\nNgày: 30 tháng 10\nChủ đề: Trả lời: Đặt xe 15288242\nKính gửi cô Osman,\nChúng tôi có một văn phòng cho thuê ngay ngoài Indianapolis, cách Cumberland khoảng 10 phút lái xe. Nếu đó là địa điểm trả xe, bạn sẽ có khoảng 90 km lái xe từ điểm xuất phát ở Muncie. Dựa trên điều này, chúng tôi đã cập nhật ước tính giá của bạn như sau.\nThuê: xe tải chuyển nhà 5 mét trong 1 ngày = 39,99$\nThuê: xe đẩy đồ nội thất có bánh xe = 6,99$\nThuê: tấm đệm đồ nội thất (bộ 12 cái) = 9,99$\nKhoảng cách: 1,05$ mỗi km = 94,50$ (ước tính 90 km)\nBảo hiểm hư hỏng xe = 19,99$\nTổng cộng = 171,46$\nXin lưu ý rằng tổng số này không bao gồm thuế. Giá cuối cùng có thể thay đổi dựa trên khoảng cách thực tế đã lái và sẽ được tính toán khi xe được trả tại địa điểm trả xe. Cho đến thời điểm đó, thẻ tín dụng của bạn trong hồ sơ sẽ chỉ bị tính phí cho thiết bị thuê.\nTrân trọng,\nAlistair Muhn\nCông ty Cho thuê Xe Your Move"
       }
      ],
      "questions": [
@@ -10026,6 +10133,21 @@
         "I reserved a moving van online and was given an estimated price of $150"
        ]
       }
+     ],
+     "directions": "reservation and e-mails",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10042,8 +10164,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nTo: Soon-Yee Kim\nFrom: Frank Zubiri\nDate: February 12\nSubject: Welcome\nDear Ms. Kim,\nWelcome to Jacobi Technologies' sales team! Your first day is Monday, February 28.\nPlease arrive at the Green Building, I Jacobi Circle, Naperville, at 9 A.M. Your team supervisor, Sophia Holland, will lead you through your first day. Here is an outline of what to expect.\n1. Sign your employment contract and receive an ID badge.\n2. Visit your assigned cubicle on the fourth floor of the Yellow Building.\n3. Attend a luncheon with members of your team in the Yellow Building conference room.\n4. Join other new hires for a guided tour of the campus. Look for an e-mail about this within a few days.\nBest regards,\nFrank Zubiri\nSenior Director, Human Resources\n==========\n*E-mail*\nTo: New Hires Distribution List\nFrom: Toru Hada\nDate: February 15\nSubject: Campus Tour Dates\nThe next tour dates are February 21 and 28 and March 7 and 14. To sign up, simply reply to this e-mail with your full name and the date corresponding to your start day.\nTours begin at 3:00 P.M. and last about an hour. Please meet me in the Blue Building lobby a few minutes before 3:00 P.M. Note that the Blue Building is on Jacobi Circle between the Green and Yellow Buildings. The tour will include stops at the labs, our sustainable power plant, and all employee amenities.\nShould you have any questions about your start day, the tour, or any of the employee onboarding materials, please do not hesitate to contact me.\n==========\nhttps://www.jacobitechnologies.com/about\nJacobi Technologies develops, manufactures, and sells advanced microprocessors that power smart TVs, laptop computers, and other electronic devices. The company has more than 8,000 employees in Naperville, Illinois, and another 4,000 in Providence, Rhode Island\nJacobi Technologies acquired its 900-acre Naperville property in 1950. Since then, the company has invested more than $3 billion in constructing ten Earth-friendly buildings and a sustainable infrastructure, including a waste-to-energy power plant.\nIn addition to state-of-the-art research labs and production facilities, the campus boasts special amenities for workers, including two cafés, a gym, outdoor basketball and tennis courts, and a childcare center.",
-       "vi": "*E-mail*\nGửi: Soon-Yee Kim\nTừ: Frank Zubiri\nNgày: 12 tháng 2\nChủ đề: Chào mừng\nKính gửi cô Kim,\nChào mừng đến với đội ngũ bán hàng của Jacobi Technologies! Ngày đầu tiên của bạn là thứ Hai, ngày 28 tháng 2.\nVui lòng đến Tòa nhà Xanh, I Jacobi Circle, Naperville, lúc 9 giờ sáng. Người giám sát đội của bạn, Sophia Holland, sẽ hướng dẫn bạn trong ngày đầu tiên. Dưới đây là một phác thảo về những gì bạn có thể mong đợi.\n1. Ký hợp đồng lao động và nhận thẻ ID.\n2. Thăm khu làm việc được chỉ định của bạn ở tầng 4 của Tòa nhà Vàng.\n3. Tham dự một bữa trưa với các thành viên trong đội của bạn tại phòng hội nghị Tòa nhà Vàng.\n4. Tham gia cùng các nhân viên mới khác trong một chuyến tham quan có hướng dẫn quanh khuôn viên. Hãy đợi một email về việc này trong vài ngày tới.\nTrân trọng,\nFrank Zubiri\nGiám đốc Cao cấp, Nhân sự\n==========\n*E-mail*\nGửi: Danh sách Phân phối Nhân viên Mới\nTừ: Toru Hada\nNgày: 15 tháng 2\nChủ đề: Ngày Tham quan Khuôn viên\nCác ngày tham quan tiếp theo là ngày 21 và 28 tháng 2 và ngày 7 và 14 tháng 3. Để đăng ký, chỉ cần trả lời email này với họ tên đầy đủ của bạn và ngày tương ứng với ngày bắt đầu của bạn.\nCác chuyến tham quan bắt đầu lúc 3:00 chiều và kéo dài khoảng một giờ. Vui lòng gặp tôi ở sảnh Tòa nhà Xanh vài phút trước 3:00 chiều. Lưu ý rằng Tòa nhà Xanh nằm trên Jacobi Circle giữa Tòa nhà Xanh và Tòa nhà Vàng. Chuyến tham quan sẽ bao gồm các điểm dừng tại các phòng thí nghiệm, nhà máy điện bền vững của chúng tôi, và tất cả các tiện ích cho nhân viên.\nNếu bạn có bất kỳ câu hỏi nào về ngày bắt đầu, chuyến tham quan, hoặc bất kỳ tài liệu nhập môn nào cho nhân viên, xin đừng ngần ngại liên hệ với tôi.\n==========\nhttps://www.jacobitechnologies.com/about\nJacobi Technologies phát triển, sản xuất và bán các bộ vi xử lý tiên tiến cung cấp năng lượng cho TV thông minh, máy tính xách tay và các thiết bị điện tử khác. Công ty có hơn 8.000 nhân viên ở Naperville, Illinois, và 4.000 nhân viên khác ở Providence, Rhode Island\nJacobi Technologies đã mua lại khu đất 900 mẫu ở Naperville vào năm 1950. Kể từ đó, công ty đã đầu tư hơn 3 tỷ đô la để xây dựng mười tòa nhà thân thiện với Trái đất và một cơ sở hạ tầng bền vững, bao gồm cả nhà máy điện chuyển đổi từ chất thải sang năng lượng.\nNgoài các phòng thí nghiệm nghiên cứu và cơ sở sản xuất hiện đại, khuôn viên còn có các tiện ích đặc biệt cho công nhân, bao gồm hai quán cà phê, một phòng tập thể dục, sân bóng rổ và tennis ngoài trời, và một trung tâm chăm sóc trẻ em."
+       "en": "To: Soon-Yee Kim\nFrom: Frank Zubiri\nDate: February 12\nSubject: Welcome\nDear Ms. Kim,\nWelcome to Jacobi Technologies' sales team! Your first day is Monday, February 28.\nPlease arrive at the Green Building, I Jacobi Circle, Naperville, at 9 A.M. Your team supervisor, Sophia Holland, will lead you through your first day. Here is an outline of what to expect.\n1. Sign your employment contract and receive an ID badge.\n2. Visit your assigned cubicle on the fourth floor of the Yellow Building.\n3. Attend a luncheon with members of your team in the Yellow Building conference room.\n4. Join other new hires for a guided tour of the campus. Look for an e-mail about this within a few days.\nBest regards,\nFrank Zubiri\nSenior Director, Human Resources\n==========\nTo: New Hires Distribution List\nFrom: Toru Hada\nDate: February 15\nSubject: Campus Tour Dates\nThe next tour dates are February 21 and 28 and March 7 and 14. To sign up, simply reply to this e-mail with your full name and the date corresponding to your start day.\nTours begin at 3:00 P.M. and last about an hour. Please meet me in the Blue Building lobby a few minutes before 3:00 P.M. Note that the Blue Building is on Jacobi Circle between the Green and Yellow Buildings. The tour will include stops at the labs, our sustainable power plant, and all employee amenities.\nShould you have any questions about your start day, the tour, or any of the employee onboarding materials, please do not hesitate to contact me.\n==========\nhttps://www.jacobitechnologies.com/about\nJacobi Technologies develops, manufactures, and sells advanced microprocessors that power smart TVs, laptop computers, and other electronic devices. The company has more than 8,000 employees in Naperville, Illinois, and another 4,000 in Providence, Rhode Island\nJacobi Technologies acquired its 900-acre Naperville property in 1950. Since then, the company has invested more than $3 billion in constructing ten Earth-friendly buildings and a sustainable infrastructure, including a waste-to-energy power plant.\nIn addition to state-of-the-art research labs and production facilities, the campus boasts special amenities for workers, including two cafés, a gym, outdoor basketball and tennis courts, and a childcare center.",
+       "vi": "Gửi: Soon-Yee Kim\nTừ: Frank Zubiri\nNgày: 12 tháng 2\nChủ đề: Chào mừng\nKính gửi cô Kim,\nChào mừng đến với đội ngũ bán hàng của Jacobi Technologies! Ngày đầu tiên của bạn là thứ Hai, ngày 28 tháng 2.\nVui lòng đến Tòa nhà Xanh, I Jacobi Circle, Naperville, lúc 9 giờ sáng. Người giám sát đội của bạn, Sophia Holland, sẽ hướng dẫn bạn trong ngày đầu tiên. Dưới đây là một phác thảo về những gì bạn có thể mong đợi.\n1. Ký hợp đồng lao động và nhận thẻ ID.\n2. Thăm khu làm việc được chỉ định của bạn ở tầng 4 của Tòa nhà Vàng.\n3. Tham dự một bữa trưa với các thành viên trong đội của bạn tại phòng hội nghị Tòa nhà Vàng.\n4. Tham gia cùng các nhân viên mới khác trong một chuyến tham quan có hướng dẫn quanh khuôn viên. Hãy đợi một email về việc này trong vài ngày tới.\nTrân trọng,\nFrank Zubiri\nGiám đốc Cao cấp, Nhân sự\n==========\nGửi: Danh sách Phân phối Nhân viên Mới\nTừ: Toru Hada\nNgày: 15 tháng 2\nChủ đề: Ngày Tham quan Khuôn viên\nCác ngày tham quan tiếp theo là ngày 21 và 28 tháng 2 và ngày 7 và 14 tháng 3. Để đăng ký, chỉ cần trả lời email này với họ tên đầy đủ của bạn và ngày tương ứng với ngày bắt đầu của bạn.\nCác chuyến tham quan bắt đầu lúc 3:00 chiều và kéo dài khoảng một giờ. Vui lòng gặp tôi ở sảnh Tòa nhà Xanh vài phút trước 3:00 chiều. Lưu ý rằng Tòa nhà Xanh nằm trên Jacobi Circle giữa Tòa nhà Xanh và Tòa nhà Vàng. Chuyến tham quan sẽ bao gồm các điểm dừng tại các phòng thí nghiệm, nhà máy điện bền vững của chúng tôi, và tất cả các tiện ích cho nhân viên.\nNếu bạn có bất kỳ câu hỏi nào về ngày bắt đầu, chuyến tham quan, hoặc bất kỳ tài liệu nhập môn nào cho nhân viên, xin đừng ngần ngại liên hệ với tôi.\n==========\nhttps://www.jacobitechnologies.com/about\nJacobi Technologies phát triển, sản xuất và bán các bộ vi xử lý tiên tiến cung cấp năng lượng cho TV thông minh, máy tính xách tay và các thiết bị điện tử khác. Công ty có hơn 8.000 nhân viên ở Naperville, Illinois, và 4.000 nhân viên khác ở Providence, Rhode Island\nJacobi Technologies đã mua lại khu đất 900 mẫu ở Naperville vào năm 1950. Kể từ đó, công ty đã đầu tư hơn 3 tỷ đô la để xây dựng mười tòa nhà thân thiện với Trái đất và một cơ sở hạ tầng bền vững, bao gồm cả nhà máy điện chuyển đổi từ chất thải sang năng lượng.\nNgoài các phòng thí nghiệm nghiên cứu và cơ sở sản xuất hiện đại, khuôn viên còn có các tiện ích đặc biệt cho công nhân, bao gồm hai quán cà phê, một phòng tập thể dục, sân bóng rổ và tennis ngoài trời, và một trung tâm chăm sóc trẻ em."
       }
      ],
      "questions": [
@@ -10224,6 +10346,21 @@
        "evidence": [
         "The company has more than 8,000 employees in Naperville, Illinois, and another 4,000 in Providence, Rhode Island"
        ]
+      }
+     ],
+     "directions": "e-mails and Web page",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test8/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

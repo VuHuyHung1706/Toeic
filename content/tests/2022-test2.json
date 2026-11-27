@@ -8009,6 +8009,13 @@
         "All work permits are on file with the Department of Planning"
        ]
       }
+     ],
+     "directions": "sign",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8118,6 +8125,13 @@
         "The event will conclude with the orchestra performing works by some of today's well-known musicians and song writers"
        ]
       }
+     ],
+     "directions": "information",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-149-151.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8197,6 +8211,17 @@
        "evidence": [
         "Your account number is X58292], right?"
        ]
+      }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-152-153-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-152-153-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8279,6 +8304,13 @@
         "Interested in selling your car?",
         "Call us now!"
        ]
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-154-155.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8376,6 +8408,13 @@
         "Bring any unneeded bank statements, tax documents, and bills"
        ]
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-156-158.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8455,6 +8494,13 @@
        "evidence": [
         "To thank you for participating, we will enter your name in our monthly raffle to win a complimentary two-night stay at one of our hotels"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-159-160.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8569,6 +8615,13 @@
        "evidence": [
         "And now, get 20 percent off with a twelve-month rental of our largest type of unit!"
        ]
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-161-163.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8715,6 +8768,13 @@
         "A month after assuming the role of president, he brought virtual reality games to Gamer Arcades"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-164-167.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8847,6 +8907,17 @@
        "evidence": [
         "The two lead roles are played by Winston Halsey and Virgil Golding, figures that are familiar to international audiences"
        ]
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-168-171-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-168-171-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8995,6 +9066,13 @@
         "They re still on my desk"
        ]
       }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-172-175.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9011,8 +9089,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Our Company       Our Products       Our Partners    Contact Us\nDrymotic is pleased to announce that our revolutionary vacuum-microwave dehydration process is now being used by more than 30 companies in the food and pharmaceutical industries.\nHeres how it works: Batches of raw organic materials, prepared in small pieces, are loaded into the machines rotating drum. As the drum turns, moisture is removed from the pieces by microwave energy. The final moisture level can be preset by the operator. The dried pieces retain their color, taste, and nutrition, and are then ready for packaging. Drymotic machines produce better results in less time (and at lower cost) than freeze-drying and air-drying\nDrymotic machines are available in the following sizes:\nModel Number        Power                    Suggested use\nG4200                   10 kw               Testing new products\nG4260                   50 kw                Small-scale manufacturers\nH4500                   100 kw  Large-scale, high-volume manufacturers\n==========\n*E-mail*\nTo: customerservice@drymotic.com\nFrom: ovolterra@yambrett.com.au\nDate: 6 May\nSubject: Malfunctioning unit\nDear Customer Service,\nWe purchased a Drymotic unit (product number: G4260, serial number: 01938207) last year for use with our line of instant stew mixes. We had no issues with the unit until the beginning of this month, when we began to notice an increase in processing time. We have followed the recommended cleaning schedule, so this problem cannot be caused by excess residue.\nPlease let me know if you have any suggestions for resolving this issue in a timely manner. I always prefer to handle minor repairs on my own, but if this issue persists, we may need to schedule a maintenance visit in the near future.\nBest regards,\nOlivia Volterra\nYambrett Corporation",
-       "vi": "Công ty của chúng tôi Sản phẩm của chúng tôi Đối tác của chúng tôi Liên hệ với chúng tôi\nDrymotic vui mừng thông báo rằng quy trình khử nước bằng lò vi sóng chân không mang tính cách mạng của chúng tôi hiện đang được sử dụng bởi hơn 30 công ty trong ngành công nghiệp thực phẩm và dược phẩm.\nĐây là cách thức hoạt động: Các lô nguyên liệu hữu cơ thô, được chuẩn bị thành từng miếng nhỏ, được nạp vào máy quay trống. Khi trống quay, hơi ẩm được loại bỏ khỏi các mảnh bằng năng lượng vi sóng. Mức độ ẩm cuối cùng có thể được đặt trước bởi người vận hành. Các miếng khô vẫn giữ được màu sắc, hương vị và dinh dưỡng của chúng, và sau đó đã sẵn sàng để đóng gói. Máy sấy khô tạo ra kết quả tốt hơn trong thời gian ngắn hơn (và với chi phí thấp hơn) so với đông khô và sấy khô không khí\nMáy sấy khô có sẵn trong các kích thước sau:\nSố mô hình Công suất Đề xuất sử dụng\nG4200 10 kw Thử nghiệm sản phẩm mới\nG4260 50 kw Các nhà sản xuất quy mô nhỏ\nH4500 100 kw Các nhà sản xuất quy mô lớn, khối lượng lớn\n==========\n*E-mail*\nGửi: customerservice@drymotic.com\nTừ: ovolterra@yambrett.com.au\nNgày: 6 tháng 5\nChủ đề: Đơn vị trục trặc\nDịch vụ khách hàng thân mến,\nChúng tôi đã mua một đơn vị Drymotic (số sản phẩm: G4260, số sê-ri: 01938207) vào năm ngoái để sử dụng với dòng hỗn hợp hầm ăn liền của chúng tôi. Chúng tôi không gặp vấn đề gì với thiết bị cho đến đầu tháng này, khi chúng tôi bắt đầu nhận thấy thời gian xử lý tăng lên. Chúng tôi đã tuân theo lịch làm sạch được đề xuất, vì vậy vấn đề này không thể do dư lượng dư.\nVui lòng cho tôi biết nếu bạn có bất kỳ đề xuất nào để giải quyết vấn đề này một cách kịp thời. Tôi luôn muốn tự mình xử lý các sửa chữa nhỏ, nhưng nếu sự cố này vẫn tiếp diễn, chúng tôi có thể cần lên lịch bảo trì trong tương lai gần.\nTrân trọng,\nOlivia Volterra\nTập đoàn Yambrett"
+       "en": "Our Company       Our Products       Our Partners    Contact Us\nDrymotic is pleased to announce that our revolutionary vacuum-microwave dehydration process is now being used by more than 30 companies in the food and pharmaceutical industries.\nHeres how it works: Batches of raw organic materials, prepared in small pieces, are loaded into the machines rotating drum. As the drum turns, moisture is removed from the pieces by microwave energy. The final moisture level can be preset by the operator. The dried pieces retain their color, taste, and nutrition, and are then ready for packaging. Drymotic machines produce better results in less time (and at lower cost) than freeze-drying and air-drying\nDrymotic machines are available in the following sizes:\nModel Number        Power                    Suggested use\nG4200                   10 kw               Testing new products\nG4260                   50 kw                Small-scale manufacturers\nH4500                   100 kw  Large-scale, high-volume manufacturers\n==========\nTo: customerservice@drymotic.com\nFrom: ovolterra@yambrett.com.au\nDate: 6 May\nSubject: Malfunctioning unit\nDear Customer Service,\nWe purchased a Drymotic unit (product number: G4260, serial number: 01938207) last year for use with our line of instant stew mixes. We had no issues with the unit until the beginning of this month, when we began to notice an increase in processing time. We have followed the recommended cleaning schedule, so this problem cannot be caused by excess residue.\nPlease let me know if you have any suggestions for resolving this issue in a timely manner. I always prefer to handle minor repairs on my own, but if this issue persists, we may need to schedule a maintenance visit in the near future.\nBest regards,\nOlivia Volterra\nYambrett Corporation",
+       "vi": "Công ty của chúng tôi Sản phẩm của chúng tôi Đối tác của chúng tôi Liên hệ với chúng tôi\nDrymotic vui mừng thông báo rằng quy trình khử nước bằng lò vi sóng chân không mang tính cách mạng của chúng tôi hiện đang được sử dụng bởi hơn 30 công ty trong ngành công nghiệp thực phẩm và dược phẩm.\nĐây là cách thức hoạt động: Các lô nguyên liệu hữu cơ thô, được chuẩn bị thành từng miếng nhỏ, được nạp vào máy quay trống. Khi trống quay, hơi ẩm được loại bỏ khỏi các mảnh bằng năng lượng vi sóng. Mức độ ẩm cuối cùng có thể được đặt trước bởi người vận hành. Các miếng khô vẫn giữ được màu sắc, hương vị và dinh dưỡng của chúng, và sau đó đã sẵn sàng để đóng gói. Máy sấy khô tạo ra kết quả tốt hơn trong thời gian ngắn hơn (và với chi phí thấp hơn) so với đông khô và sấy khô không khí\nMáy sấy khô có sẵn trong các kích thước sau:\nSố mô hình Công suất Đề xuất sử dụng\nG4200 10 kw Thử nghiệm sản phẩm mới\nG4260 50 kw Các nhà sản xuất quy mô nhỏ\nH4500 100 kw Các nhà sản xuất quy mô lớn, khối lượng lớn\n==========\nGửi: customerservice@drymotic.com\nTừ: ovolterra@yambrett.com.au\nNgày: 6 tháng 5\nChủ đề: Đơn vị trục trặc\nDịch vụ khách hàng thân mến,\nChúng tôi đã mua một đơn vị Drymotic (số sản phẩm: G4260, số sê-ri: 01938207) vào năm ngoái để sử dụng với dòng hỗn hợp hầm ăn liền của chúng tôi. Chúng tôi không gặp vấn đề gì với thiết bị cho đến đầu tháng này, khi chúng tôi bắt đầu nhận thấy thời gian xử lý tăng lên. Chúng tôi đã tuân theo lịch làm sạch được đề xuất, vì vậy vấn đề này không thể do dư lượng dư.\nVui lòng cho tôi biết nếu bạn có bất kỳ đề xuất nào để giải quyết vấn đề này một cách kịp thời. Tôi luôn muốn tự mình xử lý các sửa chữa nhỏ, nhưng nếu sự cố này vẫn tiếp diễn, chúng tôi có thể cần lên lịch bảo trì trong tương lai gần.\nTrân trọng,\nOlivia Volterra\nTập đoàn Yambrett"
       }
      ],
      "questions": [
@@ -9172,6 +9250,17 @@
        "evidence": [
         "we began to notice an increase in processing time"
        ]
+      }
+     ],
+     "directions": "Web page and e-mail",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9353,6 +9442,17 @@
         "I would like to start as early as next month"
        ]
       }
+     ],
+     "directions": "article and e-mail",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9528,6 +9628,21 @@
         "The job description covers everything we discussed"
        ]
       }
+     ],
+     "directions": "e-mails and agenda",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9667,6 +9782,21 @@
        "explanation": "Đáp án đúng là C (20). Giải thích:\n1. Chuck Trigg đề xuất thêm điều hòa không khí vào khu vực chờ ở Western Borelvia do điều kiện sa mạc ở đó.\n2. Theo bảng trong bài báo, Western Borelvia sẽ có 20 trạm.\nDo đó, 20 trạm ở Western Borelvia sẽ cần có khu vực chờ có điều hòa không khí.\nCác đáp án khác không chính xác:\nA. 10: Đây là số trạm ở North Shore, không phải Western Borelvia.\nB. 14: Đây là số trạm ở Southern Borelvia, không phải Western Borelvia.\nD. 26: Đây là số trạm ở Elondell, không phải Western Borelvia.",
        "tags": [],
        "optionNotes": {}
+      }
+     ],
+     "directions": "article, chart, and e-mail",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9843,6 +9973,21 @@
         "you have mixed up the location of our corporate office and the café.",
         "The café is actually on the corner of Avenue C and Maple Street"
        ]
+      }
+     ],
+     "directions": "e-mails and press release",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test2/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

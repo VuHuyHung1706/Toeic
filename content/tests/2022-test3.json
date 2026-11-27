@@ -8167,6 +8167,13 @@
         "It would be nice for him to get a quick tour of the lab and meet some members of the team before our welcome dinner"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8180,8 +8187,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-Mail Message\nFrom: jenkins@ourmarketfocus.au\nTo: hardesty @gallusmail.au\nDate: 11 August\nSubject: Workshop Notice\nDear Ms. Hardesty,\nThis is to share an important change concerning the 18 August, 4 P.M. Marketing Skills Workshop. Because many more attendees have signed up, we have changed the location of our event to\nThe Rill Inn  PERTH\nPlease acknowledge you are aware of the update. I would appreciate it if you could treat this request as urgent and reply as soon as convenient. Should you have any questions about participation, you can e-mail me.\nThank you,\nAndrew Jenkins\nWorkshop Organizer",
-       "vi": "Tin nhắn E-Mail\nTừ: jenkins@ourmarketfocus.au\nGửi: hardesty @gallusmail.au\nNgày: 11 tháng 8\nChủ đề: Thông báo hội thảo\nThưa cô. Hardesty,\nĐây là để chia sẻ một thay đổi quan trọng liên quan đến ngày 18 tháng 8, 4 giờ chiều. Hội thảo Kỹ năng Tiếp thị. Vì nhiều người tham dự đã đăng ký, chúng tôi đã thay đổi địa điểm tổ chức sự kiện của mình thành\nThe Rill Inn PERTH\nVui lòng xác nhận rằng bạn đã biết về bản cập nhật. Tôi sẽ đánh giá cao nếu bạn có thể coi yêu cầu này là khẩn cấp và trả lời ngay khi thuận tiện. Nếu bạn có bất kỳ câu hỏi nào về việc tham gia, bạn có thể gửi email cho tôi.\nCảm ơn bạn,\nAndrew Jenkins\nNhà tổ chức hội thảo"
+       "en": "From: jenkins@ourmarketfocus.au\nTo: hardesty @gallusmail.au\nDate: 11 August\nSubject: Workshop Notice\nDear Ms. Hardesty,\nThis is to share an important change concerning the 18 August, 4 P.M. Marketing Skills Workshop. Because many more attendees have signed up, we have changed the location of our event to\nThe Rill Inn  PERTH\nPlease acknowledge you are aware of the update. I would appreciate it if you could treat this request as urgent and reply as soon as convenient. Should you have any questions about participation, you can e-mail me.\nThank you,\nAndrew Jenkins\nWorkshop Organizer",
+       "vi": "Từ: jenkins@ourmarketfocus.au\nGửi: hardesty @gallusmail.au\nNgày: 11 tháng 8\nChủ đề: Thông báo hội thảo\nThưa cô. Hardesty,\nĐây là để chia sẻ một thay đổi quan trọng liên quan đến ngày 18 tháng 8, 4 giờ chiều. Hội thảo Kỹ năng Tiếp thị. Vì nhiều người tham dự đã đăng ký, chúng tôi đã thay đổi địa điểm tổ chức sự kiện của mình thành\nThe Rill Inn PERTH\nVui lòng xác nhận rằng bạn đã biết về bản cập nhật. Tôi sẽ đánh giá cao nếu bạn có thể coi yêu cầu này là khẩn cấp và trả lời ngay khi thuận tiện. Nếu bạn có bất kỳ câu hỏi nào về việc tham gia, bạn có thể gửi email cho tôi.\nCảm ơn bạn,\nAndrew Jenkins\nNhà tổ chức hội thảo"
       }
      ],
      "questions": [
@@ -8257,6 +8264,13 @@
         "Please acknowledge you are aware of the update.",
         "I would appreciate it if you could treat this request as urgent and reply as soon as convenient"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-149-150.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8348,6 +8362,13 @@
         "Grand Opening Celebration\nfeaturing comedian and DJ Declan Gibb from radio station KYX 93.8"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-151-152.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8438,6 +8459,13 @@
         "Office Nature delivers a box filled with delicious food right to your break room",
         "nuts, granola, and dried fruit"
        ]
+      }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-153-154.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8545,6 +8573,13 @@
        "evidence": [
         "currently in discussions"
        ]
+      }
+     ],
+     "directions": "magazine article",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-155-157.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8670,6 +8705,13 @@
         "During the eighteen-month pilot programme, store managers consistently gave the robots high marks"
        ]
       }
+     ],
+     "directions": "press release",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-158-160.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8793,6 +8835,13 @@
          "meaning": "sản xuất"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-161-163.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8956,6 +9005,13 @@
         "You'll need to look up the model number"
        ]
       }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-164-167.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9096,6 +9152,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Vì vậy, ông ấy là lựa chọn hoàn hảo để thiết kế lại các mô-đun đào tạo khách hàng của chúng tôi.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-168-171.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9244,6 +9307,17 @@
        "evidence": [
         "No need to venture into the big city to see an impressive art collection"
        ]
+      }
+     ],
+     "directions": "review",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-172-175-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-172-175-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9440,6 +9514,17 @@
         "I am a longtime customer of Ready Barn, and I am usually very satisfied with your products and services"
        ]
       }
+     ],
+     "directions": "order form and e-mail",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9456,8 +9541,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\n\nYong-Sun Che <ysche@buztech.com>\n\nGinny Redman <gredman@ silvervaleair.com>\n\nRE: Seat problem\n\nFebruary 12\n\nU Voucher\n\nTo:\nFrom:\nSubject:\nDate:\nAttachment:\nDear Mr. Che:\nThank you for contacting us regarding your recent flight. We apologize for the discomfort you experienced during your flight because of the nonfunctioning air-conditioning vent above your seat.\nWe value you as a customer and want to make sure your experience with Silvervale Air is positive, so we have attached Voucher 789798 in the amount of $200. This may be applied to a future domestic flight with us. The voucher expires after twelve months.\nThank you for choosing Silvervale Air:\nSincerely,\nGinny Redman\nSilvervale Air Customer Service\n==========\nPassenger: Mr. Yong-Sun Che\nTicket number: 0272125899649\nConfirmation code: CMOAAB\nFlight: Silvervale Air 29\nDeparts: Atlanta, GA (ATL), Mon. , May 6,  11:43 A.M.\nArrives:  Los Angeles, CA (LAX), Mon. , May 6, 1:35 P.M.\nSeat: 36D\nSummary of airfare charges\nBase fare                 $259.54\nTaxes and fees       $33.76\nVoucher 789798.  -$200.00\nTotal                           $93.30\nAll passengers are entitled to travel with one complimentary carry-on and one checked bag.",
-       "vi": "*E-mail*\n\nYong-Sun Che <ysche@buztech.com>\n\nGinny Redman <gredman@ silvervaleair.com>\n\nRE: Vấn đề về chỗ ngồi\n\nNgày 12 tháng 2\n\nBiếu U\n\nĐến:\nTừ:\nChủ đề:\nNgày:\nĐính kèm:\nThư gửi ông Che:\nCảm ơn bạn đã liên hệ với chúng tôi về chuyến bay gần đây của bạn. Chúng tôi xin lỗi vì sự khó chịu mà bạn gặp phải trong suốt chuyến bay do lỗ thông hơi điều hòa không hoạt động phía trên ghế của bạn.\nChúng tôi đánh giá cao bạn với tư cách là khách hàng và muốn đảm bảo trải nghiệm của bạn với Silvervale Air là tích cực, vì vậy chúng tôi đã đính kèm Phiếu mua hàng 789798 với số tiền 200 đô la. Điều này có thể được áp dụng cho một chuyến bay nội địa trong tương lai với chúng tôi. Phiếu giảm giá hết hạn sau mười hai tháng.\nCảm ơn bạn đã chọn Silvervale Air:\nTrân trọng,\nGinny Redman\nDịch vụ khách hàng của Silvervale Air\n==========\nHành khách: Ông Yong-Sun Che\nSố vé: 0272125899649\nMã xác nhận: CMOAAB\nChuyến bay: Silvervale Air 29\nKhởi hành: Atlanta, GA (ATL), Thứ Hai, ngày 6 tháng 5, 11:43 sáng.\nĐếnĐế: Los Angeles, CA (LAX), Thứ Hai, ngày 6 tháng 5, 1:35 chiều\nChỗ ngồi: 36D\nTổng hợp phí vé máy bay\nGiá vé cơ bản $259,54\nThuế và phí 33,76 đô la\nPhiếu mua hàng 789798. -$200.00\nTổng $93.30\nTất cả hành khách được phép đi du lịch với một hành lý xách tay miễn phí và một hành lý ký gửi."
+       "en": "Yong-Sun Che <ysche@buztech.com>\n\nGinny Redman <gredman@ silvervaleair.com>\n\nRE: Seat problem\n\nFebruary 12\n\nU Voucher\n\nTo:\nFrom:\nSubject:\nDate:\nAttachment:\nDear Mr. Che:\nThank you for contacting us regarding your recent flight. We apologize for the discomfort you experienced during your flight because of the nonfunctioning air-conditioning vent above your seat.\nWe value you as a customer and want to make sure your experience with Silvervale Air is positive, so we have attached Voucher 789798 in the amount of $200. This may be applied to a future domestic flight with us. The voucher expires after twelve months.\nThank you for choosing Silvervale Air:\nSincerely,\nGinny Redman\nSilvervale Air Customer Service\n==========\nPassenger: Mr. Yong-Sun Che\nTicket number: 0272125899649\nConfirmation code: CMOAAB\nFlight: Silvervale Air 29\nDeparts: Atlanta, GA (ATL), Mon. , May 6,  11:43 A.M.\nArrives:  Los Angeles, CA (LAX), Mon. , May 6, 1:35 P.M.\nSeat: 36D\nSummary of airfare charges\nBase fare                 $259.54\nTaxes and fees       $33.76\nVoucher 789798.  -$200.00\nTotal                           $93.30\nAll passengers are entitled to travel with one complimentary carry-on and one checked bag.",
+       "vi": "Yong-Sun Che <ysche@buztech.com>\n\nGinny Redman <gredman@ silvervaleair.com>\n\nRE: Vấn đề về chỗ ngồi\n\nNgày 12 tháng 2\n\nBiếu U\n\nĐến:\nTừ:\nChủ đề:\nNgày:\nĐính kèm:\nThư gửi ông Che:\nCảm ơn bạn đã liên hệ với chúng tôi về chuyến bay gần đây của bạn. Chúng tôi xin lỗi vì sự khó chịu mà bạn gặp phải trong suốt chuyến bay do lỗ thông hơi điều hòa không hoạt động phía trên ghế của bạn.\nChúng tôi đánh giá cao bạn với tư cách là khách hàng và muốn đảm bảo trải nghiệm của bạn với Silvervale Air là tích cực, vì vậy chúng tôi đã đính kèm Phiếu mua hàng 789798 với số tiền 200 đô la. Điều này có thể được áp dụng cho một chuyến bay nội địa trong tương lai với chúng tôi. Phiếu giảm giá hết hạn sau mười hai tháng.\nCảm ơn bạn đã chọn Silvervale Air:\nTrân trọng,\nGinny Redman\nDịch vụ khách hàng của Silvervale Air\n==========\nHành khách: Ông Yong-Sun Che\nSố vé: 0272125899649\nMã xác nhận: CMOAAB\nChuyến bay: Silvervale Air 29\nKhởi hành: Atlanta, GA (ATL), Thứ Hai, ngày 6 tháng 5, 11:43 sáng.\nĐếnĐế: Los Angeles, CA (LAX), Thứ Hai, ngày 6 tháng 5, 1:35 chiều\nChỗ ngồi: 36D\nTổng hợp phí vé máy bay\nGiá vé cơ bản $259,54\nThuế và phí 33,76 đô la\nPhiếu mua hàng 789798. -$200.00\nTổng $93.30\nTất cả hành khách được phép đi du lịch với một hành lý xách tay miễn phí và một hành lý ký gửi."
       }
      ],
      "questions": [
@@ -9635,6 +9720,17 @@
          "meaning": "Hành khách của nó được phép mang theo hai hành lý ký gửi miễn phí."
         }
        }
+      }
+     ],
+     "directions": "e-mail and boarding pass",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9838,6 +9934,21 @@
         "If the Re-pitch pilot is successful, a large dollar investment will be needed to design and run an extensive marketing campaign"
        ]
       }
+     ],
+     "directions": "meeting minutes, e-mail, and article",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10014,6 +10125,21 @@
         "They a hory pleased mito Eive you a Brothers products"
        ]
       }
+     ],
+     "directions": "article, e-mail, and sign",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10189,6 +10315,21 @@
        "evidence": [
         "A sales representative will contact you by phone within 48 hours"
        ]
+      }
+     ],
+     "directions": "brochure, form, and e-mail",
+     "scans": [
+      {
+       "src": "2022/test3/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test3/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

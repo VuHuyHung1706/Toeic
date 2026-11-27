@@ -7882,6 +7882,13 @@
         }
        }
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7974,6 +7981,13 @@
         "all our locations"
        ]
       }
+     ],
+     "directions": "coupon",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8064,6 +8078,13 @@
         "receiving the delivery by 4:00 P.M"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8077,8 +8098,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 153-154 refer to the following online chat discussion.\nAe-Cha Kim (9:16 A.M.)\nGood morning. I have an issue with an order I placed on the Winter Wear Web site.\nKelvin Long (9:18 A.M.)\nGood morning. How can I help you?\nAe-Cha Kim (9:20 A.M.)\nWell, I ordered some gloves two weeks ago, and they still haven't arrived.\nKelvin Long (9:21 A.M.)\nI'm sorry to hear that. Did you get an order number?\nAe-Cha Kim (9:22 A.M.)\nIt's ADF193.\nKelvin Long (9:23 A.M.)\nThanks.\nKelvin Long (9:26 A.M.)\nThis is very unusual. The system is showing that the order was fulfilled. I'm not sure why it hasn't left the warehouse yet. I can have another pair of gloves sent to you with rush shipping, at no extra charge.\nAe-Cha Kim (9:27 A.M.)\nThat would be great! Thanks!",
-       "vi": "Câu hỏi 153-154 tham chiếu đến cuộc trò chuyện trực tuyến sau đây.\nAe-Cha Kim (9:16 sáng)\nChào buổi sáng. Tôi có vấn đề với một đơn hàng tôi đã đặt trên trang web Winter Wear.\nKelvin Long (9:18 sáng)\nChào buổi sáng. Tôi có thể giúp gì cho bạn?\nAe-Cha Kim (9:20 sáng)\nVâng, tôi đã đặt một số đôi găng tay cách đây hai tuần, và chúng vẫn chưa đến.\nKelvin Long (9:21 sáng)\nTôi rất tiếc khi nghe điều đó. Bạn có số đơn hàng không?\nAe-Cha Kim (9:22 sáng)\nĐó là ADF193.\nKelvin Long (9:23 sáng)\nCảm ơn bạn.\nKelvin Long (9:26 sáng)\nĐiều này rất không bình thường. Hệ thống đang hiển thị rằng đơn hàng đã được thực hiện. Tôi không chắc tại sao nó vẫn chưa rời khỏi kho. Tôi có thể gửi cho bạn một đôi găng tay khác với dịch vụ giao hàng nhanh, không tính thêm phí.\nAe-Cha Kim (9:27 sáng)\nTuyệt vời! Cảm ơn bạn!"
+       "en": "Ae-Cha Kim (9:16 A.M.)\nGood morning. I have an issue with an order I placed on the Winter Wear Web site.\nKelvin Long (9:18 A.M.)\nGood morning. How can I help you?\nAe-Cha Kim (9:20 A.M.)\nWell, I ordered some gloves two weeks ago, and they still haven't arrived.\nKelvin Long (9:21 A.M.)\nI'm sorry to hear that. Did you get an order number?\nAe-Cha Kim (9:22 A.M.)\nIt's ADF193.\nKelvin Long (9:23 A.M.)\nThanks.\nKelvin Long (9:26 A.M.)\nThis is very unusual. The system is showing that the order was fulfilled. I'm not sure why it hasn't left the warehouse yet. I can have another pair of gloves sent to you with rush shipping, at no extra charge.\nAe-Cha Kim (9:27 A.M.)\nThat would be great! Thanks!",
+       "vi": "Ae-Cha Kim (9:16 sáng)\nChào buổi sáng. Tôi có vấn đề với một đơn hàng tôi đã đặt trên trang web Winter Wear.\nKelvin Long (9:18 sáng)\nChào buổi sáng. Tôi có thể giúp gì cho bạn?\nAe-Cha Kim (9:20 sáng)\nVâng, tôi đã đặt một số đôi găng tay cách đây hai tuần, và chúng vẫn chưa đến.\nKelvin Long (9:21 sáng)\nTôi rất tiếc khi nghe điều đó. Bạn có số đơn hàng không?\nAe-Cha Kim (9:22 sáng)\nĐó là ADF193.\nKelvin Long (9:23 sáng)\nCảm ơn bạn.\nKelvin Long (9:26 sáng)\nĐiều này rất không bình thường. Hệ thống đang hiển thị rằng đơn hàng đã được thực hiện. Tôi không chắc tại sao nó vẫn chưa rời khỏi kho. Tôi có thể gửi cho bạn một đôi găng tay khác với dịch vụ giao hàng nhanh, không tính thêm phí.\nAe-Cha Kim (9:27 sáng)\nTuyệt vời! Cảm ơn bạn!"
       }
      ],
      "questions": [
@@ -8151,6 +8172,13 @@
         "The system is showing that the order was fulfilled.",
         "I'm not sure why it hasn't left the warehouse yet"
        ]
+      }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8261,6 +8289,13 @@
        "evidence": [
         "You may check your information on our Web site at www.velascobank.com, or you can do so on the Velasco Bank mobile app"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8391,6 +8426,13 @@
         "last for generations"
        ]
       }
+     ],
+     "directions": "brochure",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8405,8 +8447,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 161-163 refer to the following article.\nCOLLINSVALE (28 March)-Over the last decade, instability in the pricing of raw materials has become the biggest concern for manufacturers. The issue now surpasses recruitment and technology, which had previously been ranked by businesses as the top two concerns respectively.\nThe reasons are not difficult to understand. For electronics manufacturers, materials typically represent 20 percent of all expenses, while makers of processed food can spend anywhere between 40 and 60 percent on materials. Thus, even a 10 percent rise in the cost of sugar can dramatically affect a factory's bottom line. Companies that can predict rising costs may be able to temper the effects of market volatility, but even the best forecasting cannot anticipate every change in the marketplace.",
-       "vi": "Câu hỏi 161-163 tham chiếu đến bài báo sau.\nCOLLINSVALE (28 tháng 3) - Trong thập kỷ qua, sự không ổn định trong giá cả nguyên liệu thô đã trở thành mối quan tâm lớn nhất đối với các nhà sản xuất. Vấn đề này hiện đã vượt qua tuyển dụng và công nghệ, vốn trước đây đã được các doanh nghiệp xếp hạng lần lượt là hai mối quan tâm hàng đầu.\nLý do không khó hiểu. Đối với các nhà sản xuất điện tử, nguyên liệu thường chiếm 20 phần trăm tổng chi phí, trong khi các nhà sản xuất thực phẩm chế biến có thể chi từ 40 đến 60 phần trăm cho nguyên liệu. Do đó, ngay cả khi giá đường tăng 10 phần trăm cũng có thể ảnh hưởng đáng kể đến lợi nhuận của nhà máy. Các công ty có thể dự đoán chi phí tăng có thể giảm bớt tác động của sự biến động thị trường, nhưng ngay cả dự báo tốt nhất cũng không thể dự đoán được mọi thay đổi trên thị trường."
+       "en": "COLLINSVALE (28 March)-Over the last decade, instability in the pricing of raw materials has become the biggest concern for manufacturers. The issue now surpasses recruitment and technology, which had previously been ranked by businesses as the top two concerns respectively.\nThe reasons are not difficult to understand. For electronics manufacturers, materials typically represent 20 percent of all expenses, while makers of processed food can spend anywhere between 40 and 60 percent on materials. Thus, even a 10 percent rise in the cost of sugar can dramatically affect a factory's bottom line. Companies that can predict rising costs may be able to temper the effects of market volatility, but even the best forecasting cannot anticipate every change in the marketplace.",
+       "vi": "COLLINSVALE (28 tháng 3) - Trong thập kỷ qua, sự không ổn định trong giá cả nguyên liệu thô đã trở thành mối quan tâm lớn nhất đối với các nhà sản xuất. Vấn đề này hiện đã vượt qua tuyển dụng và công nghệ, vốn trước đây đã được các doanh nghiệp xếp hạng lần lượt là hai mối quan tâm hàng đầu.\nLý do không khó hiểu. Đối với các nhà sản xuất điện tử, nguyên liệu thường chiếm 20 phần trăm tổng chi phí, trong khi các nhà sản xuất thực phẩm chế biến có thể chi từ 40 đến 60 phần trăm cho nguyên liệu. Do đó, ngay cả khi giá đường tăng 10 phần trăm cũng có thể ảnh hưởng đáng kể đến lợi nhuận của nhà máy. Các công ty có thể dự đoán chi phí tăng có thể giảm bớt tác động của sự biến động thị trường, nhưng ngay cả dự báo tốt nhất cũng không thể dự đoán được mọi thay đổi trên thị trường."
       }
      ],
      "questions": [
@@ -8515,6 +8557,13 @@
         "Companies that can predict rising costs may be able to temper the effects of market volatility"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8530,8 +8579,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Questions 164-167 refer to the following announcement.\nThe Lowenstein Bookstore in Mission Bay invites you to this month's book discussion featuring author Hilda Flores. The event will be held on Thursday, April 10, from 7:00 P.M. to 8:30 P.M. Ms. Flores will talk about her new novel, Grinding the Gears. [1] The latest adventure in the popular Inspector Svensson series, Grinding the Gears finds the beloved inspector investigating strange equipment malfunctions at a national physics research laboratory. [2]\nMs. Flores will discuss the background research she performed while writing the book. [3] A question and answer session will follow the presentation. The event is free for all to attend. [4] The bookstore requires that attendees register at least one day in advance.",
-       "vi": "Các câu hỏi 164-167 đề cập đến thông báo sau.\nNhà sách Lowenstein ở Mission Bay mời bạn tham gia cuộc thảo luận sách tháng này với sự tham gia của tác giả Hilda Flores. Sự kiện sẽ được tổ chức vào thứ Năm, ngày 10 tháng 4, từ 7:00 tối đến 8:30 tối. Cô Flores sẽ nói về cuốn tiểu thuyết mới của mình, Grinding the Gears. [1] Cuộc phiêu lưu mới nhất trong loạt Inspector Svensson nổi tiếng, Grinding the Gears tìm thấy thanh tra được yêu thích điều tra các trục trặc thiết bị kỳ lạ tại một phòng thí nghiệm nghiên cứu vật lý quốc gia. [2]\nCô Flores sẽ thảo luận về nghiên cứu nền tảng mà cô đã thực hiện trong khi viết cuốn sách. [3] Một phiên hỏi đáp sẽ diễn ra sau bài thuyết trình. Sự kiện này miễn phí cho tất cả mọi người tham dự. [4] Hiệu sách yêu cầu người tham dự phải đăng ký trước ít nhất một ngày."
+       "en": "The Lowenstein Bookstore in Mission Bay invites you to this month's book discussion featuring author Hilda Flores. The event will be held on Thursday, April 10, from 7:00 P.M. to 8:30 P.M. Ms. Flores will talk about her new novel, Grinding the Gears. [1] The latest adventure in the popular Inspector Svensson series, Grinding the Gears finds the beloved inspector investigating strange equipment malfunctions at a national physics research laboratory. [2]\nMs. Flores will discuss the background research she performed while writing the book. [3] A question and answer session will follow the presentation. The event is free for all to attend. [4] The bookstore requires that attendees register at least one day in advance.",
+       "vi": "Nhà sách Lowenstein ở Mission Bay mời bạn tham gia cuộc thảo luận sách tháng này với sự tham gia của tác giả Hilda Flores. Sự kiện sẽ được tổ chức vào thứ Năm, ngày 10 tháng 4, từ 7:00 tối đến 8:30 tối. Cô Flores sẽ nói về cuốn tiểu thuyết mới của mình, Grinding the Gears. [1] Cuộc phiêu lưu mới nhất trong loạt Inspector Svensson nổi tiếng, Grinding the Gears tìm thấy thanh tra được yêu thích điều tra các trục trặc thiết bị kỳ lạ tại một phòng thí nghiệm nghiên cứu vật lý quốc gia. [2]\nCô Flores sẽ thảo luận về nghiên cứu nền tảng mà cô đã thực hiện trong khi viết cuốn sách. [3] Một phiên hỏi đáp sẽ diễn ra sau bài thuyết trình. Sự kiện này miễn phí cho tất cả mọi người tham dự. [4] Hiệu sách yêu cầu người tham dự phải đăng ký trước ít nhất một ngày."
       }
      ],
      "questions": [
@@ -8660,6 +8709,13 @@
        "tags": [],
        "optionNotes": {}
       }
+     ],
+     "directions": "announcement",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8675,8 +8731,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nTo: Customer Service <customerservice@kishintech.com>\nFrom: Dmytro Petrov <d.petrov@silkmail.com>\nDate: November 5\nSubject: Assistance with Kishin XT20 digital recorder\nTo Whom It May Concern:\nI purchased the Kishin XT20 digital recorder to record several days' worth of conference presentations. Now, after my first day at the event, I am trying to transfer the audio files to my laptop, but I am not having any luck. I have followed all the instructions in the user manual as well as the tips found in the FAQ section of the product's Web page. I have even tried alternative cords and the laptops in the hotel's business center, so I do not believe computer hardware to be the issue.\nI am supposed to cover the remaining two days of this conference for work. My business partners expect me to return with as much information as I can. The Kishin XT20 digital recorder is of no use to me if I cannot properly share the files. Can you please help?\nBest regards,\nDmytro Petrov",
-       "vi": "*E-mail*\nGửi: Dịch vụ Khách hàng <customerservice@kishintech.com>\nTừ: Dmytro Petrov <d.petrov@silkmail.com>\nNgày: 5 tháng 11\nChủ đề: Hỗ trợ với máy ghi âm kỹ thuật số Kishin XT20\nKính gửi Quý công ty:\nTôi đã mua máy ghi âm kỹ thuật số Kishin XT20 để ghi lại các bài thuyết trình hội nghị trong vài ngày. Bây giờ, sau ngày đầu tiên tại sự kiện, tôi đang cố gắng chuyển các file âm thanh vào laptop của mình, nhưng không thành công. Tôi đã làm theo tất cả các hướng dẫn trong sách hướng dẫn sử dụng cũng như các mẹo được tìm thấy trong phần FAQ của trang web sản phẩm. Tôi thậm chí đã thử các dây cáp thay thế và các laptop trong trung tâm kinh doanh của khách sạn, vì vậy tôi không tin rằng phần cứng máy tính là vấn đề.\nTôi được giao nhiệm vụ theo dõi hai ngày còn lại của hội nghị này cho công việc. Các đối tác kinh doanh của tôi mong đợi tôi trở về với càng nhiều thông tin càng tốt. Máy ghi âm kỹ thuật số Kishin XT20 không có ích gì cho tôi nếu tôi không thể chia sẻ các file một cách đúng đắn. Bạn có thể giúp tôi được không?\nTrân trọng,\nDmytro Petrov"
+       "en": "To: Customer Service <customerservice@kishintech.com>\nFrom: Dmytro Petrov <d.petrov@silkmail.com>\nDate: November 5\nSubject: Assistance with Kishin XT20 digital recorder\nTo Whom It May Concern:\nI purchased the Kishin XT20 digital recorder to record several days' worth of conference presentations. Now, after my first day at the event, I am trying to transfer the audio files to my laptop, but I am not having any luck. I have followed all the instructions in the user manual as well as the tips found in the FAQ section of the product's Web page. I have even tried alternative cords and the laptops in the hotel's business center, so I do not believe computer hardware to be the issue.\nI am supposed to cover the remaining two days of this conference for work. My business partners expect me to return with as much information as I can. The Kishin XT20 digital recorder is of no use to me if I cannot properly share the files. Can you please help?\nBest regards,\nDmytro Petrov",
+       "vi": "Gửi: Dịch vụ Khách hàng <customerservice@kishintech.com>\nTừ: Dmytro Petrov <d.petrov@silkmail.com>\nNgày: 5 tháng 11\nChủ đề: Hỗ trợ với máy ghi âm kỹ thuật số Kishin XT20\nKính gửi Quý công ty:\nTôi đã mua máy ghi âm kỹ thuật số Kishin XT20 để ghi lại các bài thuyết trình hội nghị trong vài ngày. Bây giờ, sau ngày đầu tiên tại sự kiện, tôi đang cố gắng chuyển các file âm thanh vào laptop của mình, nhưng không thành công. Tôi đã làm theo tất cả các hướng dẫn trong sách hướng dẫn sử dụng cũng như các mẹo được tìm thấy trong phần FAQ của trang web sản phẩm. Tôi thậm chí đã thử các dây cáp thay thế và các laptop trong trung tâm kinh doanh của khách sạn, vì vậy tôi không tin rằng phần cứng máy tính là vấn đề.\nTôi được giao nhiệm vụ theo dõi hai ngày còn lại của hội nghị này cho công việc. Các đối tác kinh doanh của tôi mong đợi tôi trở về với càng nhiều thông tin càng tốt. Máy ghi âm kỹ thuật số Kishin XT20 không có ích gì cho tôi nếu tôi không thể chia sẻ các file một cách đúng đắn. Bạn có thể giúp tôi được không?\nTrân trọng,\nDmytro Petrov"
       }
      ],
      "questions": [
@@ -8820,6 +8876,13 @@
        "evidence": [
         "My business partners expect me to return with as much information as I can"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8980,6 +9043,13 @@
        "evidence": [
         "I've spoken with three people already"
        ]
+      }
+     ],
+     "directions": "online chat discussion",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9185,6 +9255,17 @@
         "I would appreciate having the money credited to my account"
        ]
       }
+     ],
+     "directions": "Web page and e-mail",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9201,8 +9282,8 @@
      "images": [],
      "passages": [
       {
-       "en": "E-Mail Message\nFrom: Dexter Abbott\nTo: Nina Sosa\nDate: 20 August\nSubject: Next steps\nDear Ms. Sosa,\nI have good news. The plans for the layout of the new Fountain Road office building have just been approved by Lantei Chan at our corporate office. We now need to start thinking about the artwork for the main open-plan office area on the third floor of the building. This is one of our last tasks before the office opens in October.\nI have heard that Red Starling Art has a good reputation for helping with office interiors. Could you look at the company's Web site today and find out if any of its services might be suitable for us? I am wondering whether photography or paintings would look best in the space. What do you think? I am still waiting to hear back from Maxwell Willis in Finance about the budget for art, so please do not agree to anything with Red Starling Art until we know more.\nThank you,\nDexter Abbott, Facilities Manager\nKLX Accountancy\n==========\nhttps://www.redstarlingart.co.uk/offices/\nHome.           About Us.           Services.             Contact Us\nRed Starling Art offers a range of consultancy services for office buildings:\n* Remake: For clients who want a complete redesign of the interior of their office, we work with you to create a layout and decoration scheme that meets your needs.\n* Align: For clients looking to incorporate artwork into a new office, we help you find the right pieces (paintings, photographs, prints, or sculptures) for your space.\n* Connect: For clients who want to add a local touch to their offices, we collaborate with area artists and photographers to bring their unique perspective to you.\n* Reframe: For clients who want to update but keep their existing artwork, we suggest new framing, new lighting, or new arrangements for a fresh look. Our work is always tailored to the specific needs of our clients, so we cannot provide fixed prices. Please e-mail Birgit Lowenbruck at blowenbruck@redstarlingart.co.uk to book a free consultation. After the consultation, she will provide you with an estimate for the agreed-upon services.",
-       "vi": "Tin nhắn E-Mail\nTừ: Dexter Abbott\nGửi: Nina Sosa\nNgày: 20 tháng 8\nChủ đề: Các bước tiếp theo\nKính gửi cô Sosa,\nTôi có tin tốt. Kế hoạch bố trí của tòa nhà văn phòng mới trên đường Fountain vừa được Lantei Chan tại văn phòng công ty của chúng ta phê duyệt. Bây giờ chúng ta cần bắt đầu suy nghĩ về tác phẩm nghệ thuật cho khu vực văn phòng mở chính trên tầng 3 của tòa nhà. Đây là một trong những nhiệm vụ cuối cùng của chúng ta trước khi văn phòng mở cửa vào tháng 10.\nTôi nghe nói Red Starling Art có tiếng tốt trong việc giúp đỡ với nội thất văn phòng. Bạn có thể xem trang web của công ty hôm nay và tìm hiểu xem có dịch vụ nào của họ phù hợp với chúng ta không? Tôi đang tự hỏi liệu ảnh hay tranh vẽ sẽ trông đẹp nhất trong không gian đó. Bạn nghĩ sao? Tôi vẫn đang chờ phản hồi từ Maxwell Willis ở Bộ phận Tài chính về ngân sách cho nghệ thuật, vì vậy xin đừng đồng ý bất cứ điều gì với Red Starling Art cho đến khi chúng ta biết thêm.\nCảm ơn bạn,\nDexter Abbott, Quản lý Cơ sở vật chất\nKLX Accountancy\n==========\nhttps://www.redstarlingart.co.uk/offices/\nTrang chủ.           Về chúng tôi.           Dịch vụ.             Liên hệ\nRed Starling Art cung cấp một loạt các dịch vụ tư vấn cho các tòa nhà văn phòng:\n* Remake: Đối với khách hàng muốn thiết kế lại hoàn toàn nội thất văn phòng của họ, chúng tôi làm việc với bạn để tạo ra một bố cục và sơ đồ trang trí đáp ứng nhu cầu của bạn.\n* Align: Đối với khách hàng muốn đưa tác phẩm nghệ thuật vào văn phòng mới, chúng tôi giúp bạn tìm những tác phẩm phù hợp (tranh vẽ, ảnh, bản in hoặc tượng) cho không gian của bạn.\n* Connect: Đối với khách hàng muốn thêm nét địa phương vào văn phòng của họ, chúng tôi hợp tác với các nghệ sĩ và nhiếp ảnh gia trong khu vực để mang góc nhìn độc đáo của họ đến cho bạn.\n* Reframe: Đối với khách hàng muốn cập nhật nhưng giữ lại tác phẩm nghệ thuật hiện có, chúng tôi đề xuất khung mới, ánh sáng mới hoặc sắp xếp mới để có một diện mạo mới. Công việc của chúng tôi luôn được điều chỉnh theo nhu cầu cụ thể của khách hàng, vì vậy chúng tôi không thể cung cấp giá cố định. Vui lòng gửi email cho Birgit Lowenbruck tại blowenbruck@redstarlingart.co.uk để đặt lịch tư vấn miễn phí. Sau buổi tư vấn, cô ấy sẽ cung cấp cho bạn một ước tính cho các dịch vụ đã thỏa thuận."
+       "en": "From: Dexter Abbott\nTo: Nina Sosa\nDate: 20 August\nSubject: Next steps\nDear Ms. Sosa,\nI have good news. The plans for the layout of the new Fountain Road office building have just been approved by Lantei Chan at our corporate office. We now need to start thinking about the artwork for the main open-plan office area on the third floor of the building. This is one of our last tasks before the office opens in October.\nI have heard that Red Starling Art has a good reputation for helping with office interiors. Could you look at the company's Web site today and find out if any of its services might be suitable for us? I am wondering whether photography or paintings would look best in the space. What do you think? I am still waiting to hear back from Maxwell Willis in Finance about the budget for art, so please do not agree to anything with Red Starling Art until we know more.\nThank you,\nDexter Abbott, Facilities Manager\nKLX Accountancy\n==========\nhttps://www.redstarlingart.co.uk/offices/\nHome.           About Us.           Services.             Contact Us\nRed Starling Art offers a range of consultancy services for office buildings:\n* Remake: For clients who want a complete redesign of the interior of their office, we work with you to create a layout and decoration scheme that meets your needs.\n* Align: For clients looking to incorporate artwork into a new office, we help you find the right pieces (paintings, photographs, prints, or sculptures) for your space.\n* Connect: For clients who want to add a local touch to their offices, we collaborate with area artists and photographers to bring their unique perspective to you.\n* Reframe: For clients who want to update but keep their existing artwork, we suggest new framing, new lighting, or new arrangements for a fresh look. Our work is always tailored to the specific needs of our clients, so we cannot provide fixed prices. Please e-mail Birgit Lowenbruck at blowenbruck@redstarlingart.co.uk to book a free consultation. After the consultation, she will provide you with an estimate for the agreed-upon services.",
+       "vi": "Từ: Dexter Abbott\nGửi: Nina Sosa\nNgày: 20 tháng 8\nChủ đề: Các bước tiếp theo\nKính gửi cô Sosa,\nTôi có tin tốt. Kế hoạch bố trí của tòa nhà văn phòng mới trên đường Fountain vừa được Lantei Chan tại văn phòng công ty của chúng ta phê duyệt. Bây giờ chúng ta cần bắt đầu suy nghĩ về tác phẩm nghệ thuật cho khu vực văn phòng mở chính trên tầng 3 của tòa nhà. Đây là một trong những nhiệm vụ cuối cùng của chúng ta trước khi văn phòng mở cửa vào tháng 10.\nTôi nghe nói Red Starling Art có tiếng tốt trong việc giúp đỡ với nội thất văn phòng. Bạn có thể xem trang web của công ty hôm nay và tìm hiểu xem có dịch vụ nào của họ phù hợp với chúng ta không? Tôi đang tự hỏi liệu ảnh hay tranh vẽ sẽ trông đẹp nhất trong không gian đó. Bạn nghĩ sao? Tôi vẫn đang chờ phản hồi từ Maxwell Willis ở Bộ phận Tài chính về ngân sách cho nghệ thuật, vì vậy xin đừng đồng ý bất cứ điều gì với Red Starling Art cho đến khi chúng ta biết thêm.\nCảm ơn bạn,\nDexter Abbott, Quản lý Cơ sở vật chất\nKLX Accountancy\n==========\nhttps://www.redstarlingart.co.uk/offices/\nTrang chủ.           Về chúng tôi.           Dịch vụ.             Liên hệ\nRed Starling Art cung cấp một loạt các dịch vụ tư vấn cho các tòa nhà văn phòng:\n* Remake: Đối với khách hàng muốn thiết kế lại hoàn toàn nội thất văn phòng của họ, chúng tôi làm việc với bạn để tạo ra một bố cục và sơ đồ trang trí đáp ứng nhu cầu của bạn.\n* Align: Đối với khách hàng muốn đưa tác phẩm nghệ thuật vào văn phòng mới, chúng tôi giúp bạn tìm những tác phẩm phù hợp (tranh vẽ, ảnh, bản in hoặc tượng) cho không gian của bạn.\n* Connect: Đối với khách hàng muốn thêm nét địa phương vào văn phòng của họ, chúng tôi hợp tác với các nghệ sĩ và nhiếp ảnh gia trong khu vực để mang góc nhìn độc đáo của họ đến cho bạn.\n* Reframe: Đối với khách hàng muốn cập nhật nhưng giữ lại tác phẩm nghệ thuật hiện có, chúng tôi đề xuất khung mới, ánh sáng mới hoặc sắp xếp mới để có một diện mạo mới. Công việc của chúng tôi luôn được điều chỉnh theo nhu cầu cụ thể của khách hàng, vì vậy chúng tôi không thể cung cấp giá cố định. Vui lòng gửi email cho Birgit Lowenbruck tại blowenbruck@redstarlingart.co.uk để đặt lịch tư vấn miễn phí. Sau buổi tư vấn, cô ấy sẽ cung cấp cho bạn một ước tính cho các dịch vụ đã thỏa thuận."
       }
      ],
      "questions": [
@@ -9350,6 +9431,17 @@
         "After the consultation, she will provide you with an estimate for the agreed-upon services",
         "Our work is always tailored to the specific needs of our clients, so we cannot provide fixed prices"
        ]
+      }
+     ],
+     "directions": "e-mail and Web page",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9554,6 +9646,21 @@
         "Those will be up tomorrow"
        ]
       }
+     ],
+     "directions": "e-mail and memos",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9753,6 +9860,21 @@
         "During the month of August, enjoy 50% off the second pair of eyeglasses"
        ]
       }
+     ],
+     "directions": "job advertisement, Web page, and review",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9769,8 +9891,8 @@
      "images": [],
      "passages": [
       {
-       "en": "htts://www.hellosnackvending.com/services\nOur Services\nHello Snack Vending offers a variety of vending and coffee services for company break rooms and vending machines.\nService 1 (Micromarket)-We set up a small market in your break room, with customized products available on open shelves. Micromarkets are self-service and feature electronic payments. Shelving and fixtures are provided.\nService 2 (Pantry)-We stock your break room cabinets with a variety of products that you select.\nPantry service is paid for in advance, freeing users from paying per item.\nService 3 (Coffee)-We keep your break room stocked with coffee, tea, and all related essentials.\nWe supply you with group-sized coffee makers, coffee, and individually sized creamer and sugar varieties.\nService 4 (Traditional Vending)-We regularly stock your vending machine with a customized selection of carbonated beverages, juice, and water.\nService 5 (Healthy Vending) -We regularly stock your vending machine with a wide selection of healthy snacks.\n==========\nE-Mail Message\nTo: customercare@hellosnackvending.com\nFrom: dlewis@kivowitzcompany.com\nDate: November 14\nSubject: Vending service\nHello,\nMy company recently bought a gently used nonrefrigerated vending machine, which has been placed in our employee break room. I am looking for a stocking service to fill it so that the staff can start using it.\nDoes your company only stock vending machines that you own, or do you also offer a stocking service for other machines? If you can service ours, I would like to know more about the snacks you have available to fill the machine. Could you please send me a list of the products you offer?\nThank you for your assistance.\nBest regards,\nDenikia Lewis\nKivowitz Company\n==========\nTo: Denikia Lewis <dlewis@kivowitzcompany.com>\nFrom: Customer Care <customercare@hellosnackvending.com>\nDate: November 15\nSubject: Re: Vending service\nAttachment: ® List\nDear Ms. Lewis,\nThank you for your e-mail. We would be happy to stock your machine even if it is not owned by our company. However, if your machine is old, it can be difficult to obtain parts for it, and older machines break more often. The cost of repairs can get high, making it more cost-effective for you to use one of our vending machines. Can you provide me with the model number?\nI have attached the list you requested. We can accommodate special requests if you have any. I also recommend renting a drink machine from us, because we find that employees usually enjoy having a cold drink with their snacks.\nPlease contact me if you have additional questions.\nSincerely,\nDominik Scheibler\nCustomer Care Representative",
-       "vi": "htts://www.hellosnackvending.com/services\nDịch vụ của chúng tôi\nHello Snack Vending cung cấp nhiều dịch vụ bán hàng tự động và cà phê cho phòng nghỉ và máy bán hàng tự động của công ty.\nDịch vụ 1 (Chợ nhỏ)-Chúng tôi thiết lập một chợ nhỏ trong phòng nghỉ của bạn, với các sản phẩm tùy chỉnh có sẵn trên các kệ mở. Các chợ nhỏ là tự phục vụ và có tính năng thanh toán điện tử. Kệ và đồ đạc được cung cấp.\nDịch vụ 2 (Tủ đựng đồ ăn)-Chúng tôi cung cấp cho tủ phòng nghỉ của bạn nhiều sản phẩm mà bạn chọn.\nDịch vụ tủ đựng đồ ăn được thanh toán trước, giúp người dùng không phải trả tiền cho từng món.\nDịch vụ 3 (Cà phê)-Chúng tôi giữ cho phòng nghỉ của bạn luôn có đủ cà phê, trà và tất cả các vật dụng cần thiết liên quan.\nChúng tôi cung cấp cho bạn máy pha cà phê cỡ lớn, cà phê và các loại kem và đường đóng gói riêng lẻ.\nDịch vụ 4 (Bán hàng tự động truyền thống)-Chúng tôi thường xuyên cung cấp cho máy bán hàng tự động của bạn một lựa chọn tùy chỉnh các loại đồ uống có ga, nước ép và nước lọc.\nDịch vụ 5 (Bán hàng tự động lành mạnh) -Chúng tôi thường xuyên cung cấp cho máy bán hàng tự động của bạn một lựa chọn đa dạng các loại đồ ăn nhẹ lành mạnh.\n==========\nThư điện tử\nGửi: customercare@hellosnackvending.com\nTừ: dlewis@kivowitzcompany.com\nNgày: 14 tháng 11\nChủ đề: Dịch vụ bán hàng tự động\nXin chào,\nCông ty của tôi gần đây đã mua một máy bán hàng tự động không làm lạnh đã qua sử dụng nhẹ, được đặt trong phòng nghỉ của nhân viên. Tôi đang tìm kiếm một dịch vụ cung cấp hàng để lấp đầy nó để nhân viên có thể bắt đầu sử dụng.\nCông ty của bạn chỉ cung cấp hàng cho máy bán hàng tự động mà bạn sở hữu, hay bạn cũng cung cấp dịch vụ cung cấp hàng cho các máy khác? Nếu bạn có thể phục vụ máy của chúng tôi, tôi muốn biết thêm về các đồ ăn nhẹ bạn có sẵn để lấp đầy máy. Bạn có thể gửi cho tôi danh sách các sản phẩm bạn cung cấp được không?\nCảm ơn sự hỗ trợ của bạn.\nTrân trọng,\nDenikia Lewis\nCông ty Kivowitz\n==========\nGửi: Denikia Lewis <dlewis@kivowitzcompany.com>\nTừ: Chăm sóc Khách hàng <customercare@hellosnackvending.com>\nNgày: 15 tháng 11\nChủ đề: Trả lời: Dịch vụ bán hàng tự động\nĐính kèm: ® Danh sách\nKính gửi cô Lewis,\nCảm ơn email của bạn. Chúng tôi sẽ rất vui lòng cung cấp hàng cho máy của bạn ngay cả khi nó không thuộc sở hữu của công ty chúng tôi. Tuy nhiên, nếu máy của bạn cũ, có thể khó để có được các bộ phận cho nó, và các máy cũ thường hay hỏng hơn. Chi phí sửa chữa có thể cao, khiến việc sử dụng một trong những máy bán hàng tự động của chúng tôi sẽ hiệu quả về mặt chi phí hơn. Bạn có thể cung cấp cho tôi số model không?\nTôi đã đính kèm danh sách bạn yêu cầu. Chúng tôi có thể đáp ứng các yêu cầu đặc biệt nếu bạn có. Tôi cũng khuyên bạn nên thuê một máy bán đồ uống từ chúng tôi, vì chúng tôi thấy rằng nhân viên thường thích uống đồ uống lạnh cùng với đồ ăn nhẹ của họ.\nVui lòng liên hệ với tôi nếu bạn có thêm câu hỏi.\nTrân trọng,\nDominik Scheibler\nĐại diện Chăm sóc Khách hàng"
+       "en": "htts://www.hellosnackvending.com/services\nOur Services\nHello Snack Vending offers a variety of vending and coffee services for company break rooms and vending machines.\nService 1 (Micromarket)-We set up a small market in your break room, with customized products available on open shelves. Micromarkets are self-service and feature electronic payments. Shelving and fixtures are provided.\nService 2 (Pantry)-We stock your break room cabinets with a variety of products that you select.\nPantry service is paid for in advance, freeing users from paying per item.\nService 3 (Coffee)-We keep your break room stocked with coffee, tea, and all related essentials.\nWe supply you with group-sized coffee makers, coffee, and individually sized creamer and sugar varieties.\nService 4 (Traditional Vending)-We regularly stock your vending machine with a customized selection of carbonated beverages, juice, and water.\nService 5 (Healthy Vending) -We regularly stock your vending machine with a wide selection of healthy snacks.\n==========\nTo: customercare@hellosnackvending.com\nFrom: dlewis@kivowitzcompany.com\nDate: November 14\nSubject: Vending service\nHello,\nMy company recently bought a gently used nonrefrigerated vending machine, which has been placed in our employee break room. I am looking for a stocking service to fill it so that the staff can start using it.\nDoes your company only stock vending machines that you own, or do you also offer a stocking service for other machines? If you can service ours, I would like to know more about the snacks you have available to fill the machine. Could you please send me a list of the products you offer?\nThank you for your assistance.\nBest regards,\nDenikia Lewis\nKivowitz Company\n==========\nTo: Denikia Lewis <dlewis@kivowitzcompany.com>\nFrom: Customer Care <customercare@hellosnackvending.com>\nDate: November 15\nSubject: Re: Vending service\nAttachment: ® List\nDear Ms. Lewis,\nThank you for your e-mail. We would be happy to stock your machine even if it is not owned by our company. However, if your machine is old, it can be difficult to obtain parts for it, and older machines break more often. The cost of repairs can get high, making it more cost-effective for you to use one of our vending machines. Can you provide me with the model number?\nI have attached the list you requested. We can accommodate special requests if you have any. I also recommend renting a drink machine from us, because we find that employees usually enjoy having a cold drink with their snacks.\nPlease contact me if you have additional questions.\nSincerely,\nDominik Scheibler\nCustomer Care Representative",
+       "vi": "htts://www.hellosnackvending.com/services\nDịch vụ của chúng tôi\nHello Snack Vending cung cấp nhiều dịch vụ bán hàng tự động và cà phê cho phòng nghỉ và máy bán hàng tự động của công ty.\nDịch vụ 1 (Chợ nhỏ)-Chúng tôi thiết lập một chợ nhỏ trong phòng nghỉ của bạn, với các sản phẩm tùy chỉnh có sẵn trên các kệ mở. Các chợ nhỏ là tự phục vụ và có tính năng thanh toán điện tử. Kệ và đồ đạc được cung cấp.\nDịch vụ 2 (Tủ đựng đồ ăn)-Chúng tôi cung cấp cho tủ phòng nghỉ của bạn nhiều sản phẩm mà bạn chọn.\nDịch vụ tủ đựng đồ ăn được thanh toán trước, giúp người dùng không phải trả tiền cho từng món.\nDịch vụ 3 (Cà phê)-Chúng tôi giữ cho phòng nghỉ của bạn luôn có đủ cà phê, trà và tất cả các vật dụng cần thiết liên quan.\nChúng tôi cung cấp cho bạn máy pha cà phê cỡ lớn, cà phê và các loại kem và đường đóng gói riêng lẻ.\nDịch vụ 4 (Bán hàng tự động truyền thống)-Chúng tôi thường xuyên cung cấp cho máy bán hàng tự động của bạn một lựa chọn tùy chỉnh các loại đồ uống có ga, nước ép và nước lọc.\nDịch vụ 5 (Bán hàng tự động lành mạnh) -Chúng tôi thường xuyên cung cấp cho máy bán hàng tự động của bạn một lựa chọn đa dạng các loại đồ ăn nhẹ lành mạnh.\n==========\nGửi: customercare@hellosnackvending.com\nTừ: dlewis@kivowitzcompany.com\nNgày: 14 tháng 11\nChủ đề: Dịch vụ bán hàng tự động\nXin chào,\nCông ty của tôi gần đây đã mua một máy bán hàng tự động không làm lạnh đã qua sử dụng nhẹ, được đặt trong phòng nghỉ của nhân viên. Tôi đang tìm kiếm một dịch vụ cung cấp hàng để lấp đầy nó để nhân viên có thể bắt đầu sử dụng.\nCông ty của bạn chỉ cung cấp hàng cho máy bán hàng tự động mà bạn sở hữu, hay bạn cũng cung cấp dịch vụ cung cấp hàng cho các máy khác? Nếu bạn có thể phục vụ máy của chúng tôi, tôi muốn biết thêm về các đồ ăn nhẹ bạn có sẵn để lấp đầy máy. Bạn có thể gửi cho tôi danh sách các sản phẩm bạn cung cấp được không?\nCảm ơn sự hỗ trợ của bạn.\nTrân trọng,\nDenikia Lewis\nCông ty Kivowitz\n==========\nGửi: Denikia Lewis <dlewis@kivowitzcompany.com>\nTừ: Chăm sóc Khách hàng <customercare@hellosnackvending.com>\nNgày: 15 tháng 11\nChủ đề: Trả lời: Dịch vụ bán hàng tự động\nĐính kèm: ® Danh sách\nKính gửi cô Lewis,\nCảm ơn email của bạn. Chúng tôi sẽ rất vui lòng cung cấp hàng cho máy của bạn ngay cả khi nó không thuộc sở hữu của công ty chúng tôi. Tuy nhiên, nếu máy của bạn cũ, có thể khó để có được các bộ phận cho nó, và các máy cũ thường hay hỏng hơn. Chi phí sửa chữa có thể cao, khiến việc sử dụng một trong những máy bán hàng tự động của chúng tôi sẽ hiệu quả về mặt chi phí hơn. Bạn có thể cung cấp cho tôi số model không?\nTôi đã đính kèm danh sách bạn yêu cầu. Chúng tôi có thể đáp ứng các yêu cầu đặc biệt nếu bạn có. Tôi cũng khuyên bạn nên thuê một máy bán đồ uống từ chúng tôi, vì chúng tôi thấy rằng nhân viên thường thích uống đồ uống lạnh cùng với đồ ăn nhẹ của họ.\nVui lòng liên hệ với tôi nếu bạn có thêm câu hỏi.\nTrân trọng,\nDominik Scheibler\nĐại diện Chăm sóc Khách hàng"
       }
      ],
      "questions": [
@@ -9955,6 +10077,21 @@
         "I also recommend renting a drink machine from us, because we find that employees usually enjoy having a cold drink with their snacks",
         "Service 4 (Traditional Vending)-We regularly stock your vending machine with a customized selection of carbonated beverages, juice, and water."
        ]
+      }
+     ],
+     "directions": "Web page and e-mails",
+     "scans": [
+      {
+       "src": "2024/test7/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test7/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

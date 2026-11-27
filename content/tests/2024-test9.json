@@ -8003,6 +8003,13 @@
         "our secret recipe"
        ]
       }
+     ],
+     "directions": "menu",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8010,16 +8017,14 @@
      "part": 7,
      "questionNumbers": [
       149,
-      150,
-      151,
-      152
+      150
      ],
      "audio": null,
      "images": [],
      "passages": [
       {
-       "en": "Questions 149-150 refer to the following advertisement.\nCertified Aqua Instructor Workshop\nThis workshop helps fitness professionals become certified aqua instructors by demonstrating how to design challenging and effective aquatic classes. Join instructor Deshonte Smith for a full-day course to learn a sequence of pool-based workouts that will motivate your students. Mr. Smith started his journey to instructor certification by taking classes at Valley Floor Fitness. He is also a professor at Wilkinson University.\nThe workshop costs $99 and will be held at Valley Floor Fitness in Missoula on August 27 from 9 a.m. to 5 p.m. For more information and to register, e-mail Maya Cramer at certification@valleyfloorfitness.com.\n\nQuestions 151-152 refer to the following text-message chain.\nHyun-Jun Cho (3:27 P.M.)\nI'm scheduled to work the front desk on Saturday from 7 A.M.\nto 3 P.M. A friend of mine is coming to town then, and he's only going to be here for one day. I was wondering if I could switch shifts with you. I can work on Sunday.\nStephanie Duchemin (3:29 P.M.)\nSaturday is good for me. I hope you don't have a Sunday like last week. It was so busy. All the doctors attending the medical conference were checking in at the front desk.\nHyun-Jun Cho (3:31 P.M.)\nAnd I heard that all the accountants from the other conference were also at the front desk reviewing their room charges at the same time!\nStephanie Duchemin (3:32 P.M.)\nThe lobby was certainly bustling.\nHyun-Jun Cho (3:34 P.M.)\nThank you for helping me out. I haven't seen my friend Kai since we graduated from university.",
-       "vi": "Câu hỏi 149-150 tham chiếu đến quảng cáo sau.\nHội thảo Huấn luyện viên Thủy sinh Có chứng chỉ\nHội thảo này giúp các chuyên gia thể dục trở thành huấn luyện viên thủy sinh có chứng chỉ bằng cách chứng minh cách thiết kế các lớp học dưới nước đầy thách thức và hiệu quả. Tham gia cùng huấn luyện viên Deshonte Smith trong khóa học kéo dài cả ngày để học một chuỗi các bài tập dựa trên hồ bơi sẽ tạo động lực cho học viên của bạn. Ông Smith bắt đầu hành trình đến chứng chỉ huấn luyện viên bằng cách tham gia các lớp học tại Valley Floor Fitness. Ông cũng là giáo sư tại Đại học Wilkinson.\nHội thảo có giá $99 và sẽ được tổ chức tại Valley Floor Fitness ở Missoula vào ngày 27 tháng 8 từ 9 giờ sáng đến 5 giờ chiều. Để biết thêm thông tin và đăng ký, hãy gửi email cho Maya Cramer tại certification@valleyfloorfitness.com.\n\nCâu hỏi 151-152 tham chiếu đến chuỗi tin nhắn văn bản sau.\nHyun-Jun Cho (3:27 chiều)\nTôi được lên lịch làm việc ở quầy lễ tân vào thứ Bảy từ 7 giờ sáng\nđến 3 giờ chiều. Một người bạn của tôi đang đến thăm thành phố lúc đó, và anh ấy chỉ ở đây một ngày. Tôi tự hỏi liệu tôi có thể đổi ca với bạn được không. Tôi có thể làm việc vào Chủ nhật.\nStephanie Duchemin (3:29 chiều)\nThứ Bảy tốt cho tôi. Tôi hy vọng bạn không có một ngày Chủ nhật như tuần trước. Nó quá bận rộn. Tất cả các bác sĩ tham dự hội nghị y tế đều đang làm thủ tục nhận phòng tại quầy lễ tân.\nHyun-Jun Cho (3:31 chiều)\nVà tôi nghe nói rằng tất cả các kế toán viên từ hội nghị khác cũng đang ở quầy lễ tân xem xét chi phí phòng của họ cùng lúc!\nStephanie Duchemin (3:32 chiều)\nSảnh chắc chắn là rất nhộn nhịp.\nHyun-Jun Cho (3:34 chiều)\nCảm ơn bạn đã giúp đỡ tôi. Tôi chưa gặp bạn Kai của tôi kể từ khi chúng tôi tốt nghiệp đại học."
+       "en": "Certified Aqua Instructor Workshop\nThis workshop helps fitness professionals become certified aqua instructors by demonstrating how to design challenging and effective aquatic classes. Join instructor Deshonte Smith for a full-day course to learn a sequence of pool-based workouts that will motivate your students. Mr. Smith started his journey to instructor certification by taking classes at Valley Floor Fitness. He is also a professor at Wilkinson University.\nThe workshop costs $99 and will be held at Valley Floor Fitness in Missoula on August 27 from 9 a.m. to 5 p.m. For more information and to register, e-mail Maya Cramer at certification@valleyfloorfitness.com.",
+       "vi": "Hội thảo Huấn luyện viên Thủy sinh Có chứng chỉ\nHội thảo này giúp các chuyên gia thể dục trở thành huấn luyện viên thủy sinh có chứng chỉ bằng cách chứng minh cách thiết kế các lớp học dưới nước đầy thách thức và hiệu quả. Tham gia cùng huấn luyện viên Deshonte Smith trong khóa học kéo dài cả ngày để học một chuỗi các bài tập dựa trên hồ bơi sẽ tạo động lực cho học viên của bạn. Ông Smith bắt đầu hành trình đến chứng chỉ huấn luyện viên bằng cách tham gia các lớp học tại Valley Floor Fitness. Ông cũng là giáo sư tại Đại học Wilkinson.\nHội thảo có giá $99 và sẽ được tổ chức tại Valley Floor Fitness ở Missoula vào ngày 27 tháng 8 từ 9 giờ sáng đến 5 giờ chiều. Để biết thêm thông tin và đăng ký, hãy gửi email cho Maya Cramer tại certification@valleyfloorfitness.com."
       }
      ],
      "questions": [
@@ -8094,7 +8099,32 @@
        "evidence": [
         "Smith started his journey to instructor certification by taking classes at Valley Floor Fitness"
        ]
-      },
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
+      }
+     ]
+    },
+    {
+     "id": "2024-test9-p7-g3",
+     "part": 7,
+     "questionNumbers": [
+      151,
+      152
+     ],
+     "audio": null,
+     "images": [],
+     "passages": [
+      {
+       "en": "Hyun-Jun Cho (3:27 P.M.)\nI'm scheduled to work the front desk on Saturday from 7 A.M.\nto 3 P.M. A friend of mine is coming to town then, and he's only going to be here for one day. I was wondering if I could switch shifts with you. I can work on Sunday.\nStephanie Duchemin (3:29 P.M.)\nSaturday is good for me. I hope you don't have a Sunday like last week. It was so busy. All the doctors attending the medical conference were checking in at the front desk.\nHyun-Jun Cho (3:31 P.M.)\nAnd I heard that all the accountants from the other conference were also at the front desk reviewing their room charges at the same time!\nStephanie Duchemin (3:32 P.M.)\nThe lobby was certainly bustling.\nHyun-Jun Cho (3:34 P.M.)\nThank you for helping me out. I haven't seen my friend Kai since we graduated from university.",
+       "vi": "Hyun-Jun Cho (3:27 chiều)\nTôi được lên lịch làm việc ở quầy lễ tân vào thứ Bảy từ 7 giờ sáng\nđến 3 giờ chiều. Một người bạn của tôi đang đến thăm thành phố lúc đó, và anh ấy chỉ ở đây một ngày. Tôi tự hỏi liệu tôi có thể đổi ca với bạn được không. Tôi có thể làm việc vào Chủ nhật.\nStephanie Duchemin (3:29 chiều)\nThứ Bảy tốt cho tôi. Tôi hy vọng bạn không có một ngày Chủ nhật như tuần trước. Nó quá bận rộn. Tất cả các bác sĩ tham dự hội nghị y tế đều đang làm thủ tục nhận phòng tại quầy lễ tân.\nHyun-Jun Cho (3:31 chiều)\nVà tôi nghe nói rằng tất cả các kế toán viên từ hội nghị khác cũng đang ở quầy lễ tân xem xét chi phí phòng của họ cùng lúc!\nStephanie Duchemin (3:32 chiều)\nSảnh chắc chắn là rất nhộn nhịp.\nHyun-Jun Cho (3:34 chiều)\nCảm ơn bạn đã giúp đỡ tôi. Tôi chưa gặp bạn Kai của tôi kể từ khi chúng tôi tốt nghiệp đại học."
+      }
+     ],
+     "questions": [
       {
        "number": 151,
        "part": 7,
@@ -8170,10 +8200,17 @@
         "reviewing their room charges"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g3",
+     "id": "2024-test9-p7-g4",
      "part": 7,
      "questionNumbers": [
       153,
@@ -8260,10 +8297,17 @@
         "if it is at all possible for you to update me on the status of my application before the end of the week, that would be very helpful"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g4",
+     "id": "2024-test9-p7-g5",
      "part": 7,
      "questionNumbers": [
       155,
@@ -8371,10 +8415,17 @@
         "To avoid potential shipping problems, Hibiscus Supply has decided to operate its own container ship to export products overseas"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g5",
+     "id": "2024-test9-p7-g6",
      "part": 7,
      "questionNumbers": [
       158,
@@ -8498,10 +8549,17 @@
         "Allende, a part-time clerk in our mail room, completed a certificate program in computer support at Lander Vocational Institute last month"
        ]
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g6",
+     "id": "2024-test9-p7-g7",
      "part": 7,
      "questionNumbers": [
       161,
@@ -8625,10 +8683,17 @@
         "Ability to work both independently and as part of a team"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-161-163.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g7",
+     "id": "2024-test9-p7-g8",
      "part": 7,
      "questionNumbers": [
       164,
@@ -8790,10 +8855,17 @@
         "Can you put it with the others behind the welcome table in the main tent?"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-164-167.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g8",
+     "id": "2024-test9-p7-g9",
      "part": 7,
      "questionNumbers": [
       168,
@@ -8950,10 +9022,17 @@
         "Zealandia Airlines is participating in discussions with airport management about comprehensive renovations to its passenger lounge and café"
        ]
       }
+     ],
+     "directions": "fact sheet",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g9",
+     "id": "2024-test9-p7-g10",
      "part": 7,
      "questionNumbers": [
       172,
@@ -9095,10 +9174,17 @@
         "The train cars will have panoramic windows, improved ventilation, and wider aisles"
        ]
       }
+     ],
+     "directions": "press release",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g10",
+     "id": "2024-test9-p7-g11",
      "part": 7,
      "questionNumbers": [
       176,
@@ -9290,10 +9376,21 @@
         }
        }
       }
+     ],
+     "directions": "e-mail and form",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g11",
+     "id": "2024-test9-p7-g12",
      "part": 7,
      "questionNumbers": [
       181,
@@ -9495,10 +9592,21 @@
         "I would have recommended Nathan Zarate, but he will be traveling on May 21"
        ]
       }
+     ],
+     "directions": "article and e-mail",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g12",
+     "id": "2024-test9-p7-g13",
      "part": 7,
      "questionNumbers": [
       186,
@@ -9676,10 +9784,25 @@
         "Even though there was a long line of customers on an extremely hot and uncomfortable day, the server was able to get everyone's food ready quickly"
        ]
       }
+     ],
+     "directions": "Web page, schedule, and testimonial",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g13",
+     "id": "2024-test9-p7-g14",
      "part": 7,
      "questionNumbers": [
       191,
@@ -9878,10 +10001,25 @@
         "The conference executive planning committee is putting it on, and it could be an excellent occasion to socialize with other conference goers"
        ]
       }
+     ],
+     "directions": "e-mails and list",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
-     "id": "2024-test9-p7-g14",
+     "id": "2024-test9-p7-g15",
      "part": 7,
      "questionNumbers": [
       196,
@@ -9894,8 +10032,8 @@
      "images": [],
      "passages": [
       {
-       "en": "Dover Water Supply\n7400 Rodney Boulevard, Dover, DE 19904\nMarch 12\nMs. Na-Ri Cam\n361 Farming Avenue\nDover, DE 19902\nDear Ms. Cam,\nThis letter is to confirm that Dover Water Supply will begin service at your address on Wednesday, April 6. Your customer account number, which is the same as your water meter number, is DWS4289.\nBilling is monthly, and payment is due on the fifteenth of each month. Bills can be paid by mailing a check to our main address or by entering your account number and payment information on our secure page at www.doverwatersupply.com/billing.\nWe will be performing a system flush of the pipes in your area on Monday, April 4.\nCustomers may temporarily see discoloration or sediment in their water around that time. Please visit our Web site for more information. You can also contact Customer Support at questions@doverwatersupply.com or call us at (302) 555-0135.\nSincerely,\nMatthew Ensign\nMatthew Ensign\nAccount Representative, Dover Water Supply\n==========\n*E-mail*\nTo: questions@doverwatersupply.com\nFrom: Na-Ri Cam <n.cam@mailcurrent.com>\nDate: March 17\nSubject: Account number DWS4289\nHello,\nI am in the process of moving to my new home in Dover. I received a letter stating that my water service will start on April 6. It also said something about pipes being flushed on April 4. Should I expect to see discoloration when I start using my water? Are there any steps I should take?\nAlso, I tried to use your secure page, but it gave me an error message saying that my account number was not valid. I will need your help in getting online access by the May 15 due date.\nThank you for any information you can provide.\nNa-Ri Cam\n==========\nE-Mail Message\nTo: Na-Ri Cam <n.cam@mailcurrent.com>\nFrom: Customer Support <questions@doverwatersupply.com>\nDate: March 18\nSubject: RE: Account number DWS4289\nDear Ms. Cam,\nThank you for your message. Your water might look cloudy on April 6 when you first turn on your faucets. We recommend that you keep the water running until it is clear before you use it. I assure you that the water is not harmful in any way. The minerals that cause the discoloration occur naturally, and our latest water analysis showed very high quality.\nI apologize for the problem you described. I have fixed it, so you should not have any further trouble.\nIf you have any other questions, please don't hesitate to reach out to us again.\nBest regards,\nRamona Hizon\nCustomer Support, Dover Water Supply",
-       "vi": "Dover Water Supply\n7400 Rodney Boulevard, Dover, DE 19904\nNgày 12 tháng 3\nBà Na-Ri Cam\n361 Farming Avenue\nDover, DE 19902\nKính gửi bà Cam,\nThư này là để xác nhận rằng Dover Water Supply sẽ bắt đầu dịch vụ tại địa chỉ của bà vào thứ Tư, ngày 6 tháng 4. Số tài khoản khách hàng của bà, cũng là số đồng hồ nước, là DWS4289.\nHóa đơn được tính hàng tháng, và thanh toán đến hạn vào ngày 15 mỗi tháng. Hóa đơn có thể được thanh toán bằng cách gửi séc đến địa chỉ chính của chúng tôi hoặc bằng cách nhập số tài khoản và thông tin thanh toán của bà trên trang bảo mật của chúng tôi tại www.doverwatersupply.com/billing.\nChúng tôi sẽ thực hiện xả hệ thống đường ống trong khu vực của bà vào thứ Hai, ngày 4 tháng 4.\nKhách hàng có thể tạm thời thấy sự đổi màu hoặc cặn trong nước của họ vào thời điểm đó. Vui lòng truy cập trang web của chúng tôi để biết thêm thông tin. Bà cũng có thể liên hệ với Hỗ trợ Khách hàng tại questions@doverwatersupply.com hoặc gọi cho chúng tôi theo số (302) 555-0135.\nTrân trọng,\nMatthew Ensign\nMatthew Ensign\nĐại diện Tài khoản, Dover Water Supply\n==========\n*E-mail*\nGửi: questions@doverwatersupply.com\nTừ: Na-Ri Cam <n.cam@mailcurrent.com>\nNgày: 17 tháng 3\nChủ đề: Số tài khoản DWS4289\nXin chào,\nTôi đang trong quá trình chuyển đến nhà mới ở Dover. Tôi đã nhận được thư nói rằng dịch vụ nước của tôi sẽ bắt đầu vào ngày 6 tháng 4. Nó cũng nói gì đó về việc xả đường ống vào ngày 4 tháng 4. Tôi có nên mong đợi thấy sự đổi màu khi bắt đầu sử dụng nước không? Có bước nào tôi nên thực hiện không?\nNgoài ra, tôi đã cố gắng sử dụng trang bảo mật của bạn, nhưng nó đưa ra thông báo lỗi nói rằng số tài khoản của tôi không hợp lệ. Tôi sẽ cần sự giúp đỡ của bạn để truy cập trực tuyến trước ngày đến hạn 15 tháng 5.\nCảm ơn bạn vì bất kỳ thông tin nào bạn có thể cung cấp.\nNa-Ri Cam\n==========\nTin nhắn E-mail\nGửi: Na-Ri Cam <n.cam@mailcurrent.com>\nTừ: Hỗ trợ Khách hàng <questions@doverwatersupply.com>\nNgày: 18 tháng 3\nChủ đề: RE: Số tài khoản DWS4289\nKính gửi bà Cam,\nCảm ơn bà đã gửi tin nhắn. Nước của bà có thể trông đục vào ngày 6 tháng 4 khi bà lần đầu mở vòi nước. Chúng tôi khuyên bà nên để nước chảy cho đến khi nó trong trước khi sử dụng. Tôi đảm bảo với bà rằng nước không có hại theo bất kỳ cách nào. Các khoáng chất gây ra sự đổi màu xảy ra tự nhiên, và phân tích nước mới nhất của chúng tôi cho thấy chất lượng rất cao.\nTôi xin lỗi vì vấn đề bà đã mô tả. Tôi đã khắc phục nó, vì vậy bà không nên gặp thêm bất kỳ rắc rối nào nữa.\nNếu bà có bất kỳ câu hỏi nào khác, xin đừng ngần ngại liên hệ lại với chúng tôi.\nTrân trọng,\nRamona Hizon\nHỗ trợ Khách hàng, Dover Water Supply"
+       "en": "Dover Water Supply\n7400 Rodney Boulevard, Dover, DE 19904\nMarch 12\nMs. Na-Ri Cam\n361 Farming Avenue\nDover, DE 19902\nDear Ms. Cam,\nThis letter is to confirm that Dover Water Supply will begin service at your address on Wednesday, April 6. Your customer account number, which is the same as your water meter number, is DWS4289.\nBilling is monthly, and payment is due on the fifteenth of each month. Bills can be paid by mailing a check to our main address or by entering your account number and payment information on our secure page at www.doverwatersupply.com/billing.\nWe will be performing a system flush of the pipes in your area on Monday, April 4.\nCustomers may temporarily see discoloration or sediment in their water around that time. Please visit our Web site for more information. You can also contact Customer Support at questions@doverwatersupply.com or call us at (302) 555-0135.\nSincerely,\nMatthew Ensign\nMatthew Ensign\nAccount Representative, Dover Water Supply\n==========\nTo: questions@doverwatersupply.com\nFrom: Na-Ri Cam <n.cam@mailcurrent.com>\nDate: March 17\nSubject: Account number DWS4289\nHello,\nI am in the process of moving to my new home in Dover. I received a letter stating that my water service will start on April 6. It also said something about pipes being flushed on April 4. Should I expect to see discoloration when I start using my water? Are there any steps I should take?\nAlso, I tried to use your secure page, but it gave me an error message saying that my account number was not valid. I will need your help in getting online access by the May 15 due date.\nThank you for any information you can provide.\nNa-Ri Cam\n==========\nTo: Na-Ri Cam <n.cam@mailcurrent.com>\nFrom: Customer Support <questions@doverwatersupply.com>\nDate: March 18\nSubject: RE: Account number DWS4289\nDear Ms. Cam,\nThank you for your message. Your water might look cloudy on April 6 when you first turn on your faucets. We recommend that you keep the water running until it is clear before you use it. I assure you that the water is not harmful in any way. The minerals that cause the discoloration occur naturally, and our latest water analysis showed very high quality.\nI apologize for the problem you described. I have fixed it, so you should not have any further trouble.\nIf you have any other questions, please don't hesitate to reach out to us again.\nBest regards,\nRamona Hizon\nCustomer Support, Dover Water Supply",
+       "vi": "Dover Water Supply\n7400 Rodney Boulevard, Dover, DE 19904\nNgày 12 tháng 3\nBà Na-Ri Cam\n361 Farming Avenue\nDover, DE 19902\nKính gửi bà Cam,\nThư này là để xác nhận rằng Dover Water Supply sẽ bắt đầu dịch vụ tại địa chỉ của bà vào thứ Tư, ngày 6 tháng 4. Số tài khoản khách hàng của bà, cũng là số đồng hồ nước, là DWS4289.\nHóa đơn được tính hàng tháng, và thanh toán đến hạn vào ngày 15 mỗi tháng. Hóa đơn có thể được thanh toán bằng cách gửi séc đến địa chỉ chính của chúng tôi hoặc bằng cách nhập số tài khoản và thông tin thanh toán của bà trên trang bảo mật của chúng tôi tại www.doverwatersupply.com/billing.\nChúng tôi sẽ thực hiện xả hệ thống đường ống trong khu vực của bà vào thứ Hai, ngày 4 tháng 4.\nKhách hàng có thể tạm thời thấy sự đổi màu hoặc cặn trong nước của họ vào thời điểm đó. Vui lòng truy cập trang web của chúng tôi để biết thêm thông tin. Bà cũng có thể liên hệ với Hỗ trợ Khách hàng tại questions@doverwatersupply.com hoặc gọi cho chúng tôi theo số (302) 555-0135.\nTrân trọng,\nMatthew Ensign\nMatthew Ensign\nĐại diện Tài khoản, Dover Water Supply\n==========\nGửi: questions@doverwatersupply.com\nTừ: Na-Ri Cam <n.cam@mailcurrent.com>\nNgày: 17 tháng 3\nChủ đề: Số tài khoản DWS4289\nXin chào,\nTôi đang trong quá trình chuyển đến nhà mới ở Dover. Tôi đã nhận được thư nói rằng dịch vụ nước của tôi sẽ bắt đầu vào ngày 6 tháng 4. Nó cũng nói gì đó về việc xả đường ống vào ngày 4 tháng 4. Tôi có nên mong đợi thấy sự đổi màu khi bắt đầu sử dụng nước không? Có bước nào tôi nên thực hiện không?\nNgoài ra, tôi đã cố gắng sử dụng trang bảo mật của bạn, nhưng nó đưa ra thông báo lỗi nói rằng số tài khoản của tôi không hợp lệ. Tôi sẽ cần sự giúp đỡ của bạn để truy cập trực tuyến trước ngày đến hạn 15 tháng 5.\nCảm ơn bạn vì bất kỳ thông tin nào bạn có thể cung cấp.\nNa-Ri Cam\n==========\nGửi: Na-Ri Cam <n.cam@mailcurrent.com>\nTừ: Hỗ trợ Khách hàng <questions@doverwatersupply.com>\nNgày: 18 tháng 3\nChủ đề: RE: Số tài khoản DWS4289\nKính gửi bà Cam,\nCảm ơn bà đã gửi tin nhắn. Nước của bà có thể trông đục vào ngày 6 tháng 4 khi bà lần đầu mở vòi nước. Chúng tôi khuyên bà nên để nước chảy cho đến khi nó trong trước khi sử dụng. Tôi đảm bảo với bà rằng nước không có hại theo bất kỳ cách nào. Các khoáng chất gây ra sự đổi màu xảy ra tự nhiên, và phân tích nước mới nhất của chúng tôi cho thấy chất lượng rất cao.\nTôi xin lỗi vì vấn đề bà đã mô tả. Tôi đã khắc phục nó, vì vậy bà không nên gặp thêm bất kỳ rắc rối nào nữa.\nNếu bà có bất kỳ câu hỏi nào khác, xin đừng ngần ngại liên hệ lại với chúng tôi.\nTrân trọng,\nRamona Hizon\nHỗ trợ Khách hàng, Dover Water Supply"
       }
      ],
      "questions": [
@@ -10081,6 +10219,21 @@
         "I apologize for the problem you described.",
         "I have fixed it, so you should not have any further trouble"
        ]
+      }
+     ],
+     "directions": "letter and e-mails",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2024/test9/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }

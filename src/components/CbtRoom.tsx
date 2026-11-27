@@ -10,6 +10,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { renderBlanks } from "./BlankText";
 import ConfirmDialog, { ExitIcon } from "./ConfirmDialog";
 import PassageView from "./PassageView";
+import { passageDocTypes, questionRange } from "@/lib/docTypes";
 import { isTextSelectGesture } from "@/lib/textSelection";
 import { formatDuration, mediaUrl, optionLetters } from "@/lib/toeic";
 import type { Letter, PartNo, QuestionGroup } from "@/lib/types";
@@ -332,12 +333,19 @@ export default function CbtRoom(p: CbtProps) {
 function LeftPanel({ group }: { group: QuestionGroup }) {
   const images = group.images.filter((i) => i.src);
   const passages = group.passages.filter((x) => x.en);
+  // loại của từng văn bản theo dòng hướng dẫn ("e-mails and notice"), chia theo đoạn
+  const docTypesByPassage = passageDocTypes(group.directions, passages.map((x) => x.en));
   // Part 6: chỗ trống chỉ hiện số câu (như đề thật), không điền đáp án
   const render = (s: string): ReactNode =>
     group.part === 6 ? renderBlanks(s, { questions: group.questions, answers: {}, isRevealed: () => false, lang: "en" }) : s;
   return (
     <>
       <p className="text-lg font-semibold text-[#1b4f8a] dark:text-primary">{INSTRUCTIONS[group.part]}</p>
+      {group.part === 7 && group.directions && (
+        <p className="mt-3">
+          <b>Questions {questionRange(group.questionNumbers)}</b> refer to the following {group.directions}.
+        </p>
+      )}
       {images.length > 0 && (
         <div className="mt-6 space-y-4">
           {images.map((img) => (
@@ -354,7 +362,7 @@ function LeftPanel({ group }: { group: QuestionGroup }) {
       {group.part >= 6 && passages.length > 0 && (
         <div className="mt-5 space-y-4">
           {passages.map((x, i) => (
-            <PassageView key={i} en={x.en} vi="" view="en" renderText={render} />
+            <PassageView key={i} en={x.en} vi="" view="en" types={docTypesByPassage[i]} renderText={render} />
           ))}
         </div>
       )}

@@ -8014,6 +8014,13 @@
         "welcoming our new business to the South Waterfront neighborhood one year ago"
        ]
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-147-148.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8107,6 +8114,13 @@
         "Ask the candidate to include your name on the application in the space labeled \"referred by."
        ]
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-149-150.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8198,6 +8212,13 @@
         "you may send your payment to Bob Robsen at 595 Shelton Drive"
        ]
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-151-152.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8284,6 +8305,17 @@
         "You can call me if the client has any questions that you are unable to answer"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-153-154-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-153-154-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8298,8 +8330,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nFrom: noreply@vacationsiteseer.com\nTo: vneuman@gzetmail.com\nDate: July 16, 2:52 p.M.\nSubject: Your upcoming trip\nMr. Neuman:\nYour trip to Milan is only a week away. [1] Your room at the Classico Hotel has been confirmed. Check-in is on July 23 at 2 P.M., and checkout is on July 28 at 11 A.M.\nThere is no need to pay now, as payment is not required until you have checked out. [2] We urge you to plan ahead regarding car rentals. As a Vacation Siteseer customer, you are entitled to a discount of 20% if you book your car now. Our car rental partners are offering this special deal only until July 20, so do not wait. [3] Thank you for choosing Vacation Siteseer to book your stay in Milan. [4] Enjoy your journey!\nVacation Siteseer Team",
-       "vi": "*E-mail*\nTừ: noreply@vacationsiteseer.com\nGửi: vneuman@gzetmail.com\nNgày: 16 tháng 7, 2:52 chiều\nChủ đề: Chuyến đi sắp tới của bạn\nMr. Neuman:\nCòn một tuần nữa là chuyến đi của bạn đến Milan. [1] Phòng của bạn tại khách sạn Classico đã được xác nhận. Nhận phòng vào ngày 23 tháng 7 lúc 2 giờ chiều và trả phòng vào ngày 28 tháng 7 lúc 11 giờ sáng.\nKhông cần phải thanh toán ngay bây giờ, vì không bắt buộc phải thanh toán cho đến khi bạn trả phòng. [2] Chúng tôi khuyến khích bạn lên kế hoạch trước cho thuê xe. Là khách hàng của Vacation Siteseer, bạn được giảm giá 20% nếu bạn đặt xe ngay bây giờ. Các đối tác cho thuê xe của chúng tôi chỉ cung cấp ưu đãi đặc biệt này cho đến ngày 20 tháng 7, vì vậy đừng chờ đợi. [3] Cảm ơn bạn đã chọn Vacation Siteseer để đặt chỗ ở Milan. [4] Hãy tận hưởng hành trình của bạn!\nNnhói vị trí kỳ nghỉ"
+       "en": "From: noreply@vacationsiteseer.com\nTo: vneuman@gzetmail.com\nDate: July 16, 2:52 p.M.\nSubject: Your upcoming trip\nMr. Neuman:\nYour trip to Milan is only a week away. [1] Your room at the Classico Hotel has been confirmed. Check-in is on July 23 at 2 P.M., and checkout is on July 28 at 11 A.M.\nThere is no need to pay now, as payment is not required until you have checked out. [2] We urge you to plan ahead regarding car rentals. As a Vacation Siteseer customer, you are entitled to a discount of 20% if you book your car now. Our car rental partners are offering this special deal only until July 20, so do not wait. [3] Thank you for choosing Vacation Siteseer to book your stay in Milan. [4] Enjoy your journey!\nVacation Siteseer Team",
+       "vi": "Từ: noreply@vacationsiteseer.com\nGửi: vneuman@gzetmail.com\nNgày: 16 tháng 7, 2:52 chiều\nChủ đề: Chuyến đi sắp tới của bạn\nMr. Neuman:\nCòn một tuần nữa là chuyến đi của bạn đến Milan. [1] Phòng của bạn tại khách sạn Classico đã được xác nhận. Nhận phòng vào ngày 23 tháng 7 lúc 2 giờ chiều và trả phòng vào ngày 28 tháng 7 lúc 11 giờ sáng.\nKhông cần phải thanh toán ngay bây giờ, vì không bắt buộc phải thanh toán cho đến khi bạn trả phòng. [2] Chúng tôi khuyến khích bạn lên kế hoạch trước cho thuê xe. Là khách hàng của Vacation Siteseer, bạn được giảm giá 20% nếu bạn đặt xe ngay bây giờ. Các đối tác cho thuê xe của chúng tôi chỉ cung cấp ưu đãi đặc biệt này cho đến ngày 20 tháng 7, vì vậy đừng chờ đợi. [3] Cảm ơn bạn đã chọn Vacation Siteseer để đặt chỗ ở Milan. [4] Hãy tận hưởng hành trình của bạn!\nNnhói vị trí kỳ nghỉ"
       }
      ],
      "questions": [
@@ -8390,6 +8422,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Khám phá các lựa chọn của bạn trên trang web của chúng tôi và đặt chỗ ngay hôm nay.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-155-157.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8527,6 +8566,13 @@
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào trong số các vị trí được đánh dấu [1], [2], [3], và [4]? \"Tuy nhiên, các nhân viên được nghỉ một ngày.",
        "optionNotes": {}
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-158-161.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8692,6 +8738,13 @@
         "I'd appreciate it if you could meet with your team by Thursday and organize additional tasks for Mila for next week"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-162-165.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8706,8 +8759,8 @@
      "images": [],
      "passages": [
       {
-       "en": "*E-mail*\nFrom: Vera Fernandez\nTo: Carla Rosa\nSent: June 07, 12:47 P.M.\nSubject: Initiatives for distance learning\nDear Ms. Rosa,\nI am contacting you on behalf of the Dolina Foundation. Our mission is to promote the use of distance-learning platforms in rural areas and communities that are isolated geographically. We do so through a network of partners in the technology industry. We would be honored to have your company join our network.\nAt 2:00 P.M. on June 25, Dolina is sponsoring a presentation entitled \"Distance Learning in Rural Libraries.\" The presentation will be given online as a webinar, using some of the technologies our partners have developed. Jay Ralston, the foundation's director of systems integration, will describe technologies being used to support academic and vocational education programs. In addition, five librarians will discuss how they offer a variety of education programs in their regions using technologies developed and delivered by our business partners. To register for the webinar, and to learn more about our foundation's projects, visit our Web site at www.dolinafoundation.org.\nFeel free to contact me if you have any questions. We hope that you will consider our invitation.\nWith kind regards,\nVera Fernandez, Outreach Coordinator",
-       "vi": "*E-mail*\nTừ: Vera Fernandez\nGửi: Carla Rosa\nGửi: ngày 07 tháng 6, 12:47 chiều\nChủ đề: Các sáng kiến cho việc học từ xa\nKính gửi cô Rosa,\nTôi đang liên hệ với bạn thay mặt cho Quỹ Dolina. Nhiệm vụ của chúng tôi là thúc đẩy việc sử dụng các nền tảng học từ xa ở các vùng nông thôn và các cộng đồng bị cô lập về mặt địa lý. Chúng tôi làm như vậy thông qua một mạng lưới các đối tác trong ngành công nghệ. Chúng tôi rất vinh dự khi có công ty của bạn tham gia mạng lưới của chúng tôi.\nVào lúc 2:00 chiều ngày 25 tháng 6, Dolina đang tài trợ cho một bài thuyết trình mang tên \"Học từ xa trong các thư viện nông thôn\". Bài thuyết trình sẽ được tổ chức trực tuyến dưới dạng hội thảo trên web, sử dụng một số công nghệ mà các đối tác của chúng tôi đã phát triển. Jay Ralston, giám đốc tích hợp hệ thống của quỹ, sẽ mô tả các công nghệ đang được sử dụng để hỗ trợ các chương trình giáo dục học thuật và dạy nghề. Ngoài ra, năm thủ thư sẽ thảo luận về cách họ cung cấp nhiều chương trình giáo dục trong khu vực của họ bằng cách sử dụng các công nghệ được phát triển và cung cấp bởi các đối tác kinh doanh của chúng tôi. Để đăng ký hội thảo trên web và tìm hiểu thêm về các dự án của quỹ của chúng tôi, hãy truy cập trang web của chúng tôi tại www.dolinafoundation.org.\nHãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi nào. Chúng tôi hy vọng rằng bạn sẽ xem xét lời mời của chúng tôi.\nVới sự trân trọng,\nVera Fernandez, Điều phối viên Tiếp cận cộng đồng"
+       "en": "From: Vera Fernandez\nTo: Carla Rosa\nSent: June 07, 12:47 P.M.\nSubject: Initiatives for distance learning\nDear Ms. Rosa,\nI am contacting you on behalf of the Dolina Foundation. Our mission is to promote the use of distance-learning platforms in rural areas and communities that are isolated geographically. We do so through a network of partners in the technology industry. We would be honored to have your company join our network.\nAt 2:00 P.M. on June 25, Dolina is sponsoring a presentation entitled \"Distance Learning in Rural Libraries.\" The presentation will be given online as a webinar, using some of the technologies our partners have developed. Jay Ralston, the foundation's director of systems integration, will describe technologies being used to support academic and vocational education programs. In addition, five librarians will discuss how they offer a variety of education programs in their regions using technologies developed and delivered by our business partners. To register for the webinar, and to learn more about our foundation's projects, visit our Web site at www.dolinafoundation.org.\nFeel free to contact me if you have any questions. We hope that you will consider our invitation.\nWith kind regards,\nVera Fernandez, Outreach Coordinator",
+       "vi": "Từ: Vera Fernandez\nGửi: Carla Rosa\nGửi: ngày 07 tháng 6, 12:47 chiều\nChủ đề: Các sáng kiến cho việc học từ xa\nKính gửi cô Rosa,\nTôi đang liên hệ với bạn thay mặt cho Quỹ Dolina. Nhiệm vụ của chúng tôi là thúc đẩy việc sử dụng các nền tảng học từ xa ở các vùng nông thôn và các cộng đồng bị cô lập về mặt địa lý. Chúng tôi làm như vậy thông qua một mạng lưới các đối tác trong ngành công nghệ. Chúng tôi rất vinh dự khi có công ty của bạn tham gia mạng lưới của chúng tôi.\nVào lúc 2:00 chiều ngày 25 tháng 6, Dolina đang tài trợ cho một bài thuyết trình mang tên \"Học từ xa trong các thư viện nông thôn\". Bài thuyết trình sẽ được tổ chức trực tuyến dưới dạng hội thảo trên web, sử dụng một số công nghệ mà các đối tác của chúng tôi đã phát triển. Jay Ralston, giám đốc tích hợp hệ thống của quỹ, sẽ mô tả các công nghệ đang được sử dụng để hỗ trợ các chương trình giáo dục học thuật và dạy nghề. Ngoài ra, năm thủ thư sẽ thảo luận về cách họ cung cấp nhiều chương trình giáo dục trong khu vực của họ bằng cách sử dụng các công nghệ được phát triển và cung cấp bởi các đối tác kinh doanh của chúng tôi. Để đăng ký hội thảo trên web và tìm hiểu thêm về các dự án của quỹ của chúng tôi, hãy truy cập trang web của chúng tôi tại www.dolinafoundation.org.\nHãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi nào. Chúng tôi hy vọng rằng bạn sẽ xem xét lời mời của chúng tôi.\nVới sự trân trọng,\nVera Fernandez, Điều phối viên Tiếp cận cộng đồng"
       }
      ],
      "questions": [
@@ -8816,6 +8869,13 @@
          "meaning": "Một nhân viên của quỹ"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-166-168.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -8932,6 +8992,13 @@
        "evidence": [
         "your mountain home"
        ]
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-169-171.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9093,6 +9160,13 @@
        "evidence": [
         "I will stop by your office later in the day to make sure you know where all the office equipment is"
        ]
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-172-175.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9293,6 +9367,17 @@
         "on your next visit to Calbo Cuts, we would like to offer you a complimentary bottle of our all-natural shampoo, one of our best-selling products"
        ]
       }
+     ],
+     "directions": "review and letter",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-176-180-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-176-180-2.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9484,6 +9569,17 @@
         "I will gather further details about Ms.",
         "Bishara's background and availability and send that to you shortly"
        ]
+      }
+     ],
+     "directions": "article and e-mail",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-181-185-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-181-185-2.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -9688,6 +9784,21 @@
         "located within walking distance of the conference site"
        ]
       }
+     ],
+     "directions": "e-mails and Web page",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-186-190-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-186-190-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-186-190-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9889,6 +10000,21 @@
         "Ergonomic Task Chair, Item 490GN"
        ]
       }
+     ],
+     "directions": "e-mail, product information, and invoice",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-191-195-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-191-195-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-191-195-3.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10078,6 +10204,21 @@
        "evidence": [
         "since I have just arrived in South Africa, the culture surrounding a braai picnic is quite new to me"
        ]
+      }
+     ],
+     "directions": "notice, chart, and e-mail",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p7-196-200-1.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-196-200-2.png",
+       "remoteUrl": null
+      },
+      {
+       "src": "2022/test6/image/scan/p7-196-200-3.png",
+       "remoteUrl": null
       }
      ]
     }

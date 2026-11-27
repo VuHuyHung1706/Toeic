@@ -8392,6 +8392,13 @@
         "The Clearpoint Times reaches thousands of your neighbors each week"
        ]
       }
+     ],
+     "directions": "information",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-147-148.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8491,6 +8498,13 @@
         "I would like to schedule a time"
        ]
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-149-150.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8583,6 +8597,13 @@
         "Room Types: single room, two-room suite with balcony, two-room suite with kitchen",
         "two-room suite with kitchen"
        ]
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-151-152.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8681,6 +8702,13 @@
         "I was talking to the director of Yadav Digital Marketing",
         "I wouldn't bother"
        ]
+      }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-153-154.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8820,6 +8848,13 @@
         "complete all quality testing by November"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-155-157.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8931,6 +8966,13 @@
        "tags": [],
        "questionVi": "Ở vị trí nào đánh dấu [1], [2], [3] và [4] câu sau phù hợp nhất?",
        "optionNotes": {}
+      }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-158-160.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9094,6 +9136,13 @@
         "business is doing well"
        ]
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-161-164.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9209,6 +9258,13 @@
         "any employee who",
         "would like to propose additional measures should contact the safety coordinator directly"
        ]
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-165-167.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9363,6 +9419,13 @@
         "The supervisor informs the division director of major personnel problems",
         "Significant concerns raised by employees"
        ]
+      }
+     ],
+     "directions": "job description",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-168-171.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -9541,6 +9604,13 @@
         "You got it"
        ]
       }
+     ],
+     "directions": "text-message chain",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-172-175.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9704,6 +9774,17 @@
         "at your same price"
        ]
       }
+     ],
+     "directions": "Web page and e-mail",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-176-180-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-176-180-2.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -9720,8 +9801,8 @@
      "images": [],
      "passages": [
       {
-       "en": "https://www.collingswoodglobal.com/about\n\nHome | About | Services | Contact Us\n\nThe international trade business can be complicated, especially if you are unfamiliar with the steps and documentation involved. Guidelines vary from country to country, and special licenses and permits may be needed.\n\nLet the experienced consultants at Collingswood Global help! First, you will complete our short questionnaire about your business. Once we assess your needs, we will match you with one of our team members, listed below.\n\n• Margaret Giordano: agricultural products\n• Jonah Woodrow: household appliances\n• Felicity Wong: precious stones\n• Malik Fadel: automotive parts\n\nWe offer a single introductory session for $329 per hour. Your consultant will determine the rates for any subsequent sessions based on your needs. If you would like to receive guidance regularly, you would pay a monthly retainer at a cost to be negotiated during the introductory session.\n==========\nE-Mail Message\n\nTo: contact@collingswoodglobal.com\nFrom: Sanjeev Yadav <sanjeev.yadav@isvaraniltd.com>\nDate: December 12\nSubject: Preconsultation questionnaire follow-up\n\nTo Whom It May Concern:\n\nI filled out the questionnaire on your Web page, but I am not sure that my form went through. I never got a confirmation e-mail. As I mentioned in the form, we are a five-year-old company specializing in high-end washers and dryers. We sell our machines to stores all along the East Coast of the United States and are well-informed about domestic cargo procedures. However, we want to venture into international trade, particularly throughout Europe, and we would like ongoing support in this endeavor. Please contact me to discuss Isvarani Ltd.'s needs in more detail.\n\nMany thanks,\n\nSanjeev Yadav, Owner, Isvarani Ltd.",
-       "vi": "https://www.collingswoodglobal.com/about\n\nTrang chủ | Giới thiệu | Dịch vụ | Liên hệ với chúng tôi\n\nKinh doanh thương mại quốc tế có thể phức tạp, đặc biệt nếu bạn không quen thuộc với các bước và tài liệu liên quan. Các hướng dẫn khác nhau giữa các quốc gia và có thể cần giấy phép và giấy phép đặc biệt.\n\nHãy để các chuyên gia tư vấn giàu kinh nghiệm tại Collingswood Global giúp đỡ! Đầu tiên, bạn sẽ hoàn thành bảng câu hỏi ngắn của chúng tôi về doanh nghiệp của bạn. Sau khi chúng tôi đánh giá nhu cầu của bạn, chúng tôi sẽ kết nối bạn với một trong những thành viên trong nhóm của chúng tôi, được liệt kê bên dưới.\n\n• Margaret Giordano: nông sản\n• Jonah Woodrow: thiết bị gia dụng\n• Felicity Wong: đá quý\n• Malik Fadel: phụ tùng ô tô\n\nChúng tôi cung cấp một buổi giới thiệu duy nhất với giá 329 đô la mỗi giờ. Chuyên gia tư vấn của bạn sẽ xác định mức giá cho bất kỳ phiên tiếp theo nào dựa trên nhu cầu của bạn. Nếu bạn muốn nhận được hướng dẫn thường xuyên, bạn sẽ trả một khoản phí lưu giữ hàng tháng với chi phí được thương lượng trong phiên giới thiệu.\n==========\nTin nhắn E-Mail\n\nGửi: contact@collingswoodglobal.com\nTừ: Sanjeev Yadav <sanjeev.yadav@isvaraniltd.com>\nNgày: 12 tháng 12\nChủ đề: Theo dõi bảng câu hỏi trước khi tham vấn\n\nGửi đến những người có thể quan tâm:\n\nTôi đã điền vào bảng câu hỏi trên trang web của bạn, nhưng tôi không chắc rằng biểu mẫu của tôi đã được thông qua. Tôi chưa bao giờ nhận được e-mail xác nhận. Như tôi đã đề cập trong biểu mẫu, chúng tôi là một công ty năm tuổi chuyên về máy giặt và máy sấy cao cấp. Chúng tôi bán máy móc của mình cho các cửa hàng dọc theo Bờ Đông Hoa Kỳ và được thông báo đầy đủ về các quy trình vận chuyển hàng hóa trong nước. Tuy nhiên, chúng tôi muốn mạo hiểm vào thương mại quốc tế, đặc biệt là trên khắp châu Âu, và chúng tôi muốn được hỗ trợ liên tục trong nỗ lực này. Vui lòng liên hệ với tôi để thảo luận chi tiết hơn về nhu cầu của Isvarani Ltd.\n\nCảm ơn rất nhiều,\n\nSanjeev Yadav, Chủ sở hữu, Isvarani Ltd."
+       "en": "https://www.collingswoodglobal.com/about\n\nHome | About | Services | Contact Us\n\nThe international trade business can be complicated, especially if you are unfamiliar with the steps and documentation involved. Guidelines vary from country to country, and special licenses and permits may be needed.\n\nLet the experienced consultants at Collingswood Global help! First, you will complete our short questionnaire about your business. Once we assess your needs, we will match you with one of our team members, listed below.\n\n• Margaret Giordano: agricultural products\n• Jonah Woodrow: household appliances\n• Felicity Wong: precious stones\n• Malik Fadel: automotive parts\n\nWe offer a single introductory session for $329 per hour. Your consultant will determine the rates for any subsequent sessions based on your needs. If you would like to receive guidance regularly, you would pay a monthly retainer at a cost to be negotiated during the introductory session.\n==========\nTo: contact@collingswoodglobal.com\nFrom: Sanjeev Yadav <sanjeev.yadav@isvaraniltd.com>\nDate: December 12\nSubject: Preconsultation questionnaire follow-up\n\nTo Whom It May Concern:\n\nI filled out the questionnaire on your Web page, but I am not sure that my form went through. I never got a confirmation e-mail. As I mentioned in the form, we are a five-year-old company specializing in high-end washers and dryers. We sell our machines to stores all along the East Coast of the United States and are well-informed about domestic cargo procedures. However, we want to venture into international trade, particularly throughout Europe, and we would like ongoing support in this endeavor. Please contact me to discuss Isvarani Ltd.'s needs in more detail.\n\nMany thanks,\n\nSanjeev Yadav, Owner, Isvarani Ltd.",
+       "vi": "https://www.collingswoodglobal.com/about\n\nTrang chủ | Giới thiệu | Dịch vụ | Liên hệ với chúng tôi\n\nKinh doanh thương mại quốc tế có thể phức tạp, đặc biệt nếu bạn không quen thuộc với các bước và tài liệu liên quan. Các hướng dẫn khác nhau giữa các quốc gia và có thể cần giấy phép và giấy phép đặc biệt.\n\nHãy để các chuyên gia tư vấn giàu kinh nghiệm tại Collingswood Global giúp đỡ! Đầu tiên, bạn sẽ hoàn thành bảng câu hỏi ngắn của chúng tôi về doanh nghiệp của bạn. Sau khi chúng tôi đánh giá nhu cầu của bạn, chúng tôi sẽ kết nối bạn với một trong những thành viên trong nhóm của chúng tôi, được liệt kê bên dưới.\n\n• Margaret Giordano: nông sản\n• Jonah Woodrow: thiết bị gia dụng\n• Felicity Wong: đá quý\n• Malik Fadel: phụ tùng ô tô\n\nChúng tôi cung cấp một buổi giới thiệu duy nhất với giá 329 đô la mỗi giờ. Chuyên gia tư vấn của bạn sẽ xác định mức giá cho bất kỳ phiên tiếp theo nào dựa trên nhu cầu của bạn. Nếu bạn muốn nhận được hướng dẫn thường xuyên, bạn sẽ trả một khoản phí lưu giữ hàng tháng với chi phí được thương lượng trong phiên giới thiệu.\n==========\nGửi: contact@collingswoodglobal.com\nTừ: Sanjeev Yadav <sanjeev.yadav@isvaraniltd.com>\nNgày: 12 tháng 12\nChủ đề: Theo dõi bảng câu hỏi trước khi tham vấn\n\nGửi đến những người có thể quan tâm:\n\nTôi đã điền vào bảng câu hỏi trên trang web của bạn, nhưng tôi không chắc rằng biểu mẫu của tôi đã được thông qua. Tôi chưa bao giờ nhận được e-mail xác nhận. Như tôi đã đề cập trong biểu mẫu, chúng tôi là một công ty năm tuổi chuyên về máy giặt và máy sấy cao cấp. Chúng tôi bán máy móc của mình cho các cửa hàng dọc theo Bờ Đông Hoa Kỳ và được thông báo đầy đủ về các quy trình vận chuyển hàng hóa trong nước. Tuy nhiên, chúng tôi muốn mạo hiểm vào thương mại quốc tế, đặc biệt là trên khắp châu Âu, và chúng tôi muốn được hỗ trợ liên tục trong nỗ lực này. Vui lòng liên hệ với tôi để thảo luận chi tiết hơn về nhu cầu của Isvarani Ltd.\n\nCảm ơn rất nhiều,\n\nSanjeev Yadav, Chủ sở hữu, Isvarani Ltd."
       }
      ],
      "questions": [
@@ -9914,6 +9995,17 @@
         "we want to venture into international trade, particularly throughout Europe",
         "are well-informed about domestic cargo procedures"
        ]
+      }
+     ],
+     "directions": "Web page and e-mail",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-181-185-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-181-185-2.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -10121,6 +10213,21 @@
         "Contact our Wealth Management Department"
        ]
       }
+     ],
+     "directions": "article, e-mail, and letter",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-186-190-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-186-190-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-186-190-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10325,6 +10432,21 @@
         "on Saturday morning, April 11, for my conference at the Ivor Hotel and Conference Center."
        ]
       }
+     ],
+     "directions": "e-mail, form, and receipt",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-191-195-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-191-195-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-191-195-3.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -10527,6 +10649,21 @@
         "The technician cleaned the machinery",
         "should be replaced soon"
        ]
+      }
+     ],
+     "directions": "e-mails and report",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p7-196-200-1.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-196-200-2.jpg",
+       "remoteUrl": null
+      },
+      {
+       "src": "2026/test5/image/scan/p7-196-200-3.jpg",
+       "remoteUrl": null
       }
      ]
     }
