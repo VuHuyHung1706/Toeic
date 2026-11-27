@@ -56,12 +56,12 @@ def apply_question_fix(text: str, test_id: str, n: int, report: "Report", where:
     return fix["to"]
 
 
-# Part 7: loại văn bản theo dòng hướng dẫn của đề ("refer to the following e-mail and schedule"),
-# {đề: {"147-148": "notice"}} — đọc (OCR) từ ảnh scan đề, xem scripts/p7_directions.json
-_P7DIR_FILE = Path(__file__).resolve().parent / "p7_directions.json"
-P7_DIRECTIONS: dict[str, dict[str, str]] = {
-    k: v for k, v in json.loads(_P7DIR_FILE.read_text(encoding="utf-8")).items() if not k.startswith("_")
-} if _P7DIR_FILE.exists() else {}
+# Part 6/7: loại văn bản theo dòng hướng dẫn của đề ("refer to the following e-mail and schedule"),
+# {đề: {"131-134": "e-mail", "147-148": "notice"}} — đọc (OCR) từ ảnh scan đề, xem scripts/directions.json
+_DIRECTIONS_FILE = Path(__file__).resolve().parent / "directions.json"
+DIRECTIONS: dict[str, dict[str, str]] = {
+    k: v for k, v in json.loads(_DIRECTIONS_FILE.read_text(encoding="utf-8")).items() if not k.startswith("_")
+} if _DIRECTIONS_FILE.exists() else {}
 
 
 # Một số CSV chép luôn dòng hướng dẫn vào bài đọc ("Questions 149-150 refer to the following advertisement." /
@@ -83,7 +83,7 @@ def _split_by(text: str, pat: re.Pattern) -> list[tuple[int | None, str]]:
 
 
 def split_direction_lines(rows: list[dict], dirs: dict[str, str], report: "Report", test_id: str) -> None:
-    """Part 7: bỏ dòng hướng dẫn khỏi bài đọc (ghi lại loại văn bản vào dirs), và nếu một ô chứa bài của
+    """Part 6/7: bỏ dòng hướng dẫn khỏi bài đọc (ghi lại loại văn bản vào dirs), và nếu một ô chứa bài của
     nhiều nhóm thì chuyển phần sau sang câu đầu của nhóm đó (để gom nhóm đúng)."""
     by_n = {r["number"]: r for r in rows}
     for r in rows:
@@ -518,7 +518,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 "image": (rec.get("image") or "").strip(),
             })
         rows.sort(key=lambda r: r["number"])
-        if part == 7:
+        if part in (6, 7):
             split_direction_lines(rows, embedded_dirs.setdefault(test_id, {}), report, test_id)
 
         # --- gom nhóm
@@ -606,17 +606,18 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 "passages": [],
                 "questions": [],
             }
-            if part == 7:
+            if part in (6, 7):
                 rng = f"{numbers[0]}-{numbers[-1]}"
-                # dòng hướng dẫn "Questions 147-148 refer to the following notice." (scripts/p7_directions.json)
-                directions = P7_DIRECTIONS.get(test_id, {}).get(rng) or embedded_dirs.get(test_id, {}).get(rng)
+                # dòng hướng dẫn "Questions 147-148 refer to the following notice." (scripts/directions.json)
+                directions = DIRECTIONS.get(test_id, {}).get(rng) or embedded_dirs.get(test_id, {}).get(rng)
                 if directions:
                     group["directions"] = directions
-                # ảnh scan trang đề: Data/<năm>/<đề>/image/scan/p7-147-148.jpg, p7-176-180-1.jpg, -2…
+                # ảnh scan trang đề: Data/<năm>/<đề>/image/scan/p6-131-134.jpg, p7-147-148.jpg, p7-176-180-1.jpg, -2…
                 scan_dir = test_dir / "image" / "scan"
+                base = f"p{part}-{rng}"
                 scans = sorted(
-                    (p for p in scan_dir.glob(f"p7-{rng}*") if re.fullmatch(rf"p7-{rng}(?:-\d+)?\.(?:jpe?g|png)", p.name)),
-                    key=lambda p: int(p.stem[len(f"p7-{rng}-"):] or 0),
+                    (p for p in scan_dir.glob(f"{base}*") if re.fullmatch(rf"{base}(?:-\d+)?\.(?:jpe?g|png)", p.name)),
+                    key=lambda p: int(p.stem[len(f"{base}-"):] or 0),
                 ) if scan_dir.is_dir() else []
                 if scans:
                     group["scans"] = [{"src": media._rel(p), "remoteUrl": None} for p in scans]
@@ -629,7 +630,7 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                         vi = ""  # bản dịch bị chép lặp ở nhiều câu
                     if part in (6, 7):
                         en, vi = normalize_passage(en), normalize_passage(vi)
-                    if part == 7:
+                    if part in (6, 7):
                         en, vi = drop_label_lines(en, vi)
                     if en or vi:
                         group["passages"].append({"en": en, "vi": vi})

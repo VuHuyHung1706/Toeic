@@ -7451,6 +7451,13 @@
         }
        }
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7603,6 +7610,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7750,6 +7764,13 @@
          "meaning": "Chúng tôi là nhà bán lẻ địa phương duy nhất cung cấp dịch vụ tùy chỉnh."
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7906,6 +7927,13 @@
          "meaning": "đạt được"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test9/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

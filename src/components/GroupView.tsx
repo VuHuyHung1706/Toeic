@@ -66,9 +66,9 @@ export default function GroupView({
   const passages = group.passages.filter((p) => p.en || p.vi);
   const showPassages = passages.length > 0 && (!listening || showScript);
   const images = group.images.filter((i) => i.src);
-  // Part 7: bản scan trang đề gốc (nếu có) thay cho bản chữ — chọn ở thanh trên bài đọc, nhớ cho lần sau
+  // Part 6/7: bản scan trang đề gốc (nếu có) thay cho bản chữ — chọn ở thanh trên bài đọc, nhớ cho lần sau
   const scans = (group.scans ?? []).filter((i) => i.src);
-  const sourcePref = usePref<Source>("p7Source", "text");
+  const sourcePref = usePref<Source>("passageSource", "text");
   const source: Source = scans.length ? sourcePref : "text";
   const hasLeft = images.length > 0 || showPassages || scans.length > 0;
   // loại của từng văn bản theo dòng hướng dẫn ("e-mails and notice"), chia theo đoạn
@@ -129,7 +129,7 @@ export default function GroupView({
         />
       )}
       {vocabTab && leftTab === "vocab" && <GroupVocab items={group.vocab!} auto={!!group.vocabAuto} />}
-      {part === 7 && (scans.length > 0 || group.directions) && (
+      {part >= 6 && (scans.length > 0 || group.directions) && (
         <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
           {group.directions && source === "text" && (
             <p className="min-w-0 flex-1 text-[15px]">
@@ -146,7 +146,7 @@ export default function GroupView({
                 { key: "scan", label: "Bản scan đề" },
               ]}
               value={source}
-              onChange={(k) => setPref("p7Source", k)}
+              onChange={(k) => setPref("passageSource", k)}
             />
           )}
         </div>

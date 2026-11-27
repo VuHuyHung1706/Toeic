@@ -1,6 +1,10 @@
 {
- "_doc": "Loại văn bản Part 7 theo dòng hướng dẫn của đề (\"Questions 147-148 refer to the following notice.\") — OCR từ ảnh scan đề, rồi soát tay. {đề: {\"147-148\": \"notice\"}}",
+ "_doc": "Loại văn bản Part 6/7 theo dòng hướng dẫn của đề (\"Questions 147-148 refer to the following notice.\") — OCR từ ảnh scan đề, rồi soát tay. {đề: {\"147-148\": \"notice\"}}",
  "2022-test1": {
+  "131-134": "notice",
+  "135-138": "customer review",
+  "139-142": "letter",
+  "143-146": "e-mail",
   "147-148": "Web page",
   "149-150": "job advertisement",
   "151-152": "report",
@@ -18,6 +22,10 @@
   "196-200": "e-mails and price list"
  },
  "2022-test2": {
+  "131-134": "memo",
+  "135-138": "e-mail",
+  "139-142": "Web page",
+  "143-146": "e-mail",
   "147-148": "sign",
   "149-151": "information",
   "152-153": "online chat discussion",
@@ -35,6 +43,10 @@
   "196-200": "e-mails and press release"
  },
  "2022-test3": {
+  "131-134": "information",
+  "135-138": "notice",
+  "139-142": "e-mail",
+  "143-146": "flyer",
   "147-148": "text-message chain",
   "149-150": "e-mail",
   "151-152": "advertisement",
@@ -52,6 +64,10 @@
   "196-200": "brochure, form, and e-mail"
  },
  "2022-test4": {
+  "131-134": "e-mail",
+  "135-138": "information",
+  "139-142": "notice",
+  "143-146": "article",
   "147-148": "advertisement",
   "149-150": "note",
   "151-152": "notice",
@@ -69,6 +85,10 @@
   "196-200": "e-mails and schedule"
  },
  "2022-test5": {
+  "131-134": "article",
+  "135-138": "memo",
+  "139-142": "article",
+  "143-146": "article",
   "147-148": "online advertisement",
   "149-150": "e-mail",
   "151-152": "page from a handbook",
@@ -86,6 +106,10 @@
   "196-200": "e-mails and receipt"
  },
  "2022-test6": {
+  "131-134": "letter",
+  "135-138": "e-mail",
+  "139-142": "article",
+  "143-146": "notice",
   "147-148": "advertisement",
   "149-150": "memo",
   "151-152": "notice",
@@ -103,6 +127,10 @@
   "196-200": "notice, chart, and e-mail"
  },
  "2023-test1": {
+  "131-134": "article",
+  "135-138": "instructions",
+  "139-142": "e-mail",
+  "143-146": "notice",
   "147-148": "advertisement",
   "149-150": "e-mail",
   "151-153": "article",
@@ -120,6 +148,10 @@
   "196-200": "review and e-mails"
  },
  "2023-test10": {
+  "131-134": "advertisement",
+  "135-138": "memo",
+  "139-142": "product information",
+  "143-146": "e-mail",
   "147-148": "notice",
   "149-150": "sign",
   "151-152": "e-mail",
@@ -137,6 +169,10 @@
   "196-200": "packing slip and e-mails"
  },
  "2023-test2": {
+  "131-134": "product description",
+  "135-138": "e-mail",
+  "139-142": "article",
+  "143-146": "advertisement",
   "147-148": "advertisement",
   "149-150": "coupon",
   "151-152": "letter",
@@ -154,6 +190,10 @@
   "196-200": "Web page, customer review, and company response"
  },
  "2023-test3": {
+  "131-134": "notice",
+  "135-138": "e-mail",
+  "139-142": "e-mail",
+  "143-146": "article",
   "147-148": "notice",
   "149-150": "gift certificate",
   "151-152": "checklist",
@@ -171,6 +211,10 @@
   "196-200": "e-mail, meeting agenda, and policy"
  },
  "2023-test4": {
+  "131-134": "Web page",
+  "135-138": "e-mail",
+  "139-142": "advertisement",
+  "143-146": "e-mail",
   "147-148": "memo",
   "149-150": "form",
   "151-152": "advertisement",
@@ -188,6 +232,10 @@
   "196-200": "report, coupon, and receipt"
  },
  "2023-test5": {
+  "131-134": "article",
+  "135-138": "e-mail",
+  "139-142": "letter",
+  "143-146": "memo",
   "147-148": "invoice",
   "149-150": "text-message chain",
   "151-152": "product review",
@@ -205,6 +253,10 @@
   "196-200": "advertisement, review, and e-mail"
  },
  "2023-test6": {
+  "131-134": "article",
+  "135-138": "advertisement",
+  "139-142": "e-mail",
+  "143-146": "notice",
   "147-148": "article",
   "149-150": "invitation",
   "151-152": "Web page",
@@ -222,6 +274,10 @@
   "196-200": "blog post and online forms"
  },
  "2023-test7": {
+  "131-134": "Web page",
+  "135-138": "e-mail",
+  "139-142": "brochure",
+  "143-146": "Web page",
   "147-148": "Web page",
   "149-150": "e-mail",
   "151-152": "text-message chain",
@@ -239,6 +295,10 @@
   "196-200": "e-mail, advertisement, and online form"
  },
  "2023-test8": {
+  "131-134": "information",
+  "135-138": "article",
+  "139-142": "Web page",
+  "143-146": "information",
   "147-148": "advertisement",
   "149-151": "information",
   "152-153": "text-message chain",
@@ -256,6 +316,10 @@
   "196-200": "Web page, text-message chain, and online review"
  },
  "2023-test9": {
+  "131-134": "e-mail",
+  "135-138": "memo",
+  "139-142": "e-mail",
+  "143-146": "newspaper article",
   "147-148": "e-mail",
   "149-150": "receipt",
   "151-152": "text-message chain",
@@ -273,6 +337,10 @@
   "196-200": "policy and e-mails"
  },
  "2024-test1": {
+  "131-134": "announcement",
+  "135-138": "letter",
+  "139-142": "e-mail",
+  "143-146": "letter",
   "147-148": "information",
   "149-150": "meeting schedule",
   "151-152": "brochure",
@@ -290,6 +358,10 @@
   "196-200": "invoice, notice, and e-mail"
  },
  "2024-test10": {
+  "131-134": "article",
+  "135-138": "e-mail",
+  "139-142": "notice",
+  "143-146": "e-mail",
   "147-148": "sign",
   "149-150": "text-message chain",
   "151-152": "e-mail",
@@ -307,6 +379,10 @@
   "196-200": "article, invitation, and e-mail"
  },
  "2024-test2": {
+  "131-134": "e-mail",
+  "135-138": "advertisement",
+  "139-142": "e-mail",
+  "143-146": "e-mail",
   "147-148": "invitation",
   "149-150": "announcement",
   "151-152": "article",
@@ -324,6 +400,10 @@
   "196-200": "Web pages"
  },
  "2024-test3": {
+  "131-134": "e-mail",
+  "135-138": "advertisement",
+  "139-142": "introduction",
+  "143-146": "e-mail",
   "147-148": "advertisement",
   "149-150": "e-mail",
   "151-152": "notice",
@@ -341,6 +421,10 @@
   "196-200": "e-mail, survey, and report"
  },
  "2024-test4": {
+  "131-134": "notice",
+  "135-138": "advertisement",
+  "139-142": "press release",
+  "143-146": "Web page information",
   "147-148": "receipt",
   "149-150": "notice",
   "151-152": "text-message chain",
@@ -358,6 +442,10 @@
   "196-200": "brochure, article, and e-mail"
  },
  "2024-test5": {
+  "131-134": "article",
+  "135-138": "instructions",
+  "139-142": "policy",
+  "143-146": "memo",
   "147-148": "advertisement",
   "149-150": "e-mail",
   "151-152": "text-message chain",
@@ -375,6 +463,10 @@
   "196-200": "article, memo, and policy"
  },
  "2024-test6": {
+  "131-134": "advertisement",
+  "135-138": "policy",
+  "139-142": "e-mail",
+  "143-146": "information",
   "147-148": "e-mail",
   "149-150": "e-mail",
   "151-152": "online chat discussion",
@@ -392,6 +484,10 @@
   "196-200": "e-mails and invoice"
  },
  "2024-test7": {
+  "131-134": "e-mail",
+  "135-138": "notice",
+  "139-142": "letter",
+  "143-146": "article",
   "147-148": "notice",
   "149-150": "coupon",
   "151-152": "e-mail",
@@ -409,6 +505,10 @@
   "196-200": "Web page and e-mails"
  },
  "2024-test8": {
+  "131-134": "e-mail",
+  "135-138": "notice",
+  "139-142": "memo",
+  "143-146": "article",
   "147-148": "advertisement",
   "149-150": "advertisement",
   "151-152": "report",
@@ -426,6 +526,10 @@
   "196-200": "e-mails and Web page"
  },
  "2024-test9": {
+  "131-134": "notice",
+  "135-138": "article",
+  "139-142": "e-mail",
+  "143-146": "article",
   "147-148": "menu",
   "149-150": "advertisement",
   "151-152": "text-message chain",
@@ -443,6 +547,10 @@
   "196-200": "letter and e-mails"
  },
  "2026-test1": {
+  "131-134": "flyer",
+  "135-138": "letter",
+  "139-142": "e-mail",
+  "143-146": "e-mail",
   "147-148": "notice",
   "149-150": "text-message chain",
   "151-152": "e-mail",
@@ -460,6 +568,10 @@
   "196-200": "e-mail, review, and notice"
  },
  "2026-test10": {
+  "131-134": "memo",
+  "135-138": "article",
+  "139-142": "e-mail",
+  "143-146": "brochure",
   "147-148": "form",
   "149-150": "Web page",
   "151-152": "text-message chain",
@@ -477,6 +589,10 @@
   "196-200": "e-mails and checklist"
  },
  "2026-test2": {
+  "131-134": "advertisement",
+  "135-138": "product description",
+  "139-142": "article",
+  "143-146": "e-mail",
   "147-148": "information",
   "149-150": "memo",
   "151-152": "online chat discussion",
@@ -494,6 +610,10 @@
   "196-200": "e-mail, schedule, and review"
  },
  "2026-test3": {
+  "131-134": "bank advertisement",
+  "135-138": "e-mail",
+  "139-142": "blog post",
+  "143-146": "e-mail",
   "147-148": "advertisement",
   "149-150": "article",
   "151-152": "e-mail",
@@ -511,6 +631,10 @@
   "196-200": "Web pages and e-mail"
  },
  "2026-test4": {
+  "131-134": "article",
+  "135-138": "notice",
+  "139-142": "announcement",
+  "143-146": "e-mail",
   "147-148": "job posting",
   "149-151": "article",
   "152-153": "receipt",
@@ -528,6 +652,10 @@
   "196-200": "e-mails and sign"
  },
  "2026-test5": {
+  "131-134": "e-mail",
+  "135-138": "booklet",
+  "139-142": "e-mail",
+  "143-146": "information",
   "147-148": "information",
   "149-150": "e-mail",
   "151-152": "advertisement",
@@ -545,6 +673,10 @@
   "196-200": "e-mails and report"
  },
  "2026-test6": {
+  "131-134": "notice",
+  "135-138": "article",
+  "139-142": "e-mail",
+  "143-146": "notice",
   "147-148": "advertisement",
   "149-151": "news article",
   "152-153": "letter",
@@ -562,6 +694,10 @@
   "196-200": "e-mails and schedule"
  },
  "2026-test7": {
+  "131-134": "advertisement",
+  "135-138": "e-mail",
+  "139-142": "brochure",
+  "143-146": "notice",
   "147-148": "coupon",
   "149-150": "text message",
   "151-152": "e-mail",
@@ -579,6 +715,10 @@
   "196-200": "Web page and e-mails"
  },
  "2026-test8": {
+  "131-134": "directions",
+  "135-138": "notice",
+  "139-142": "e-mail",
+  "143-146": "product review",
   "147-148": "e-mail",
   "149-150": "flyer",
   "151-152": "text-message chain",
@@ -596,6 +736,10 @@
   "196-200": "e-mails and chart"
  },
  "2026-test9": {
+  "131-134": "advertisement",
+  "135-138": "instructions",
+  "139-142": "e-mail",
+  "143-146": "article",
   "147-148": "invitation",
   "149-150": "e-mail",
   "151-152": "online chat discussion",

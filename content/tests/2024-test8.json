@@ -7580,6 +7580,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7727,6 +7734,13 @@
          "meaning": "lớn nhất"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7876,6 +7890,13 @@
         }
        }
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8023,6 +8044,13 @@
          "meaning": "sẽ tiếp tục"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test8/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

@@ -7272,6 +7272,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test6/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7443,6 +7450,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test6/image/scan/p6-135-138.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7606,6 +7620,13 @@
          "meaning": "Vui lòng trả lời tin nhắn này nếu bạn muốn nâng cấp menu của mình."
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test6/image/scan/p6-139-142.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7776,6 +7797,13 @@
          "meaning": "xác minh"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2023/test6/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

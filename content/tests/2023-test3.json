@@ -7637,6 +7637,13 @@
         }
        }
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2023/test3/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7807,6 +7814,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test3/image/scan/p6-135-138.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7975,6 +7989,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test3/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8142,6 +8163,13 @@
          "meaning": "chính nó"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test3/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

@@ -7859,6 +7859,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test4/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8007,6 +8014,13 @@
         }
        }
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2026/test4/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8150,6 +8164,13 @@
          "meaning": "Chang lớn lên ở Nam California và học đại học ở Minnesota"
         }
        }
+      }
+     ],
+     "directions": "announcement",
+     "scans": [
+      {
+       "src": "2026/test4/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8298,6 +8319,13 @@
          "meaning": "Tôi tin rằng thỏa thuận này có thể có lợi cho cả hai chúng ta"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test4/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

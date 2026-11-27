@@ -7509,6 +7509,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2026/test9/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7649,6 +7656,13 @@
         }
        }
       }
+     ],
+     "directions": "instructions",
+     "scans": [
+      {
+       "src": "2026/test9/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7788,6 +7802,13 @@
          "meaning": "hoàn thiện"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test9/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7936,6 +7957,13 @@
          "meaning": "sẽ đã bổ sung"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test9/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

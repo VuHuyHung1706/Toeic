@@ -6978,6 +6978,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7125,6 +7132,13 @@
          "meaning": "có thể giảm"
         }
        }
+      }
+     ],
+     "directions": "instructions",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7274,6 +7288,13 @@
         }
        }
       }
+     ],
+     "directions": "policy",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7417,6 +7438,13 @@
          "meaning": "Chương trình năm ngoái đã bị hủy"
         }
        }
+      }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2024/test5/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

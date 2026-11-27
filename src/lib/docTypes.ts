@@ -1,4 +1,4 @@
-// Part 7: dòng hướng dẫn "Questions 147-148 refer to the following notice." như đề thật,
+// Part 6/7: dòng hướng dẫn "Questions 147-148 refer to the following notice." như đề thật,
 // và nhãn loại văn bản cho từng khung (Notice · Thông báo, E-mail, Article…).
 import type { UiIconName } from "@/components/UiIcon";
 import { parsePassage, type DocKind } from "./passage";
@@ -11,7 +11,14 @@ const VI: Record<string, string> = {
   agenda: "Chương trình họp",
   announcement: "Thông báo",
   article: "Bài báo",
+  "bank advertisement": "Quảng cáo ngân hàng",
   "blog post": "Bài blog",
+  booklet: "Cuốn sách nhỏ",
+  directions: "Chỉ dẫn",
+  introduction: "Lời giới thiệu",
+  "newspaper article": "Bài báo",
+  "product description": "Mô tả sản phẩm",
+  "web page information": "Thông tin trang web",
   "boarding pass": "Thẻ lên máy bay",
   "book review": "Bài điểm sách",
   biography: "Tiểu sử",

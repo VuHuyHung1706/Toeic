@@ -7415,6 +7415,13 @@
         }
        }
       }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7581,6 +7588,13 @@
          "meaning": "nhanh chóng"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7749,6 +7763,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7916,6 +7937,13 @@
          "meaning": "với"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2022/test6/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

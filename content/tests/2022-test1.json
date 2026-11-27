@@ -7313,6 +7313,13 @@
         }
        }
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2022/test1/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7478,6 +7485,13 @@
          "meaning": "tốt nhất"
         }
        }
+      }
+     ],
+     "directions": "customer review",
+     "scans": [
+      {
+       "src": "2022/test1/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7651,6 +7665,13 @@
         }
        }
       }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2022/test1/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7822,6 +7843,13 @@
          "meaning": "người thuê nhà"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test1/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

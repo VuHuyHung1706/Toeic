@@ -7094,6 +7094,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7263,6 +7270,13 @@
         }
        }
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p6-135-138.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7426,6 +7440,13 @@
          "meaning": "ngược lại"
         }
        }
+      }
+     ],
+     "directions": "product information",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p6-139-142.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7592,6 +7613,13 @@
          "meaning": "số lượng"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test10/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

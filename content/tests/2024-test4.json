@@ -6867,6 +6867,13 @@
         }
        }
       }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7015,6 +7022,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7158,6 +7172,13 @@
          "meaning": "đăng ký"
         }
        }
+      }
+     ],
+     "directions": "press release",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7306,6 +7327,13 @@
          "meaning": "Chi phí sản xuất của Tropick Textiles đã tăng gần đây"
         }
        }
+      }
+     ],
+     "directions": "Web page information",
+     "scans": [
+      {
+       "src": "2024/test4/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

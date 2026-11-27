@@ -7122,6 +7122,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test9/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7283,6 +7290,13 @@
          "meaning": "Như chúng ta đều biết, rau tươi tốt cho sức khỏe."
         }
        }
+      }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2023/test9/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7456,6 +7470,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test9/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7627,6 +7648,13 @@
          "meaning": "chấp nhận"
         }
        }
+      }
+     ],
+     "directions": "newspaper article",
+     "scans": [
+      {
+       "src": "2023/test9/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

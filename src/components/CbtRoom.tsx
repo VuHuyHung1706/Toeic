@@ -341,7 +341,7 @@ function LeftPanel({ group }: { group: QuestionGroup }) {
   return (
     <>
       <p className="text-lg font-semibold text-[#1b4f8a] dark:text-primary">{INSTRUCTIONS[group.part]}</p>
-      {group.part === 7 && group.directions && (
+      {group.part >= 6 && group.directions && (
         <p className="mt-3">
           <b>Questions {questionRange(group.questionNumbers)}</b> refer to the following {group.directions}.
         </p>

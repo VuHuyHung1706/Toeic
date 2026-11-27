@@ -8001,6 +8001,13 @@
         }
        }
       }
+     ],
+     "directions": "flyer",
+     "scans": [
+      {
+       "src": "2026/test1/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8148,6 +8155,13 @@
          "meaning": "sự hiểu biết"
         }
        }
+      }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2026/test1/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8297,6 +8311,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test1/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8444,6 +8465,13 @@
          "meaning": "Chúng tôi xin lỗi về bất kỳ nhầm lẫn nào về thời gian hẹn của bạn"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test1/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

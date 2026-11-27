@@ -7850,6 +7850,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7997,6 +8004,13 @@
          "meaning": "người đăng ký"
         }
        }
+      }
+     ],
+     "directions": "booklet",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8146,6 +8160,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8293,6 +8314,13 @@
          "meaning": "lịch trình"
         }
        }
+      }
+     ],
+     "directions": "information",
+     "scans": [
+      {
+       "src": "2026/test5/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

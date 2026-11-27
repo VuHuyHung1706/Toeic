@@ -7059,6 +7059,13 @@
         }
        }
       }
+     ],
+     "directions": "information",
+     "scans": [
+      {
+       "src": "2023/test8/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7230,6 +7237,13 @@
          "meaning": "liên tục"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test8/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7403,6 +7417,13 @@
         }
        }
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2023/test8/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7564,6 +7585,13 @@
          "meaning": "Việc xây dựng dự kiến sẽ hoàn thành vào đầu tháng 10."
         }
        }
+      }
+     ],
+     "directions": "information",
+     "scans": [
+      {
+       "src": "2023/test8/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

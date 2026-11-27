@@ -7432,6 +7432,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7605,6 +7612,13 @@
         }
        }
       }
+     ],
+     "directions": "instructions",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p6-135-138.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7762,6 +7776,13 @@
          "meaning": "(Nếu bạn không thể tìm thấy những gì bạn cần trực tuyến, chỉ cần gọi số hỗ trợ của chúng tôi.)"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p6-139-142.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7934,6 +7955,13 @@
          "meaning": "Đã có một sự tăng giá nhỏ vào tháng trước."
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2023/test1/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

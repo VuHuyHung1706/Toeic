@@ -7658,6 +7658,13 @@
         }
        }
       }
+     ],
+     "directions": "bank advertisement",
+     "scans": [
+      {
+       "src": "2026/test3/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7801,6 +7808,13 @@
          "meaning": "Phòng nghỉ hiện đang đóng cửa để bảo trì"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test3/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7950,6 +7964,13 @@
         }
        }
       }
+     ],
+     "directions": "blog post",
+     "scans": [
+      {
+       "src": "2026/test3/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8097,6 +8118,13 @@
          "meaning": "về phía, hướng tới"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test3/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

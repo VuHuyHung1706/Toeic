@@ -7988,6 +7988,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2026/test2/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8134,6 +8141,13 @@
         }
        }
       }
+     ],
+     "directions": "product description",
+     "scans": [
+      {
+       "src": "2026/test2/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8278,6 +8292,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test2/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8421,6 +8442,13 @@
          "meaning": "bên cạnh đó, ngoài ra"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test2/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

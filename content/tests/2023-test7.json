@@ -7265,6 +7265,13 @@
         }
        }
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7437,6 +7444,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p6-135-138.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7606,6 +7620,13 @@
          "meaning": "Ngược lại, doanh nghiệp của chúng tôi đã phát triển đáng kể trong mười năm qua."
         }
        }
+      }
+     ],
+     "directions": "brochure",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p6-139-142.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7779,6 +7800,13 @@
          "meaning": "phí"
         }
        }
+      }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2023/test7/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

@@ -7077,6 +7077,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7248,6 +7255,13 @@
          "meaning": "Khách đôi khi có thể nhận phòng sớm mà không mất thêm phí."
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7421,6 +7435,13 @@
         }
        }
       }
+     ],
+     "directions": "letter",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7592,6 +7613,13 @@
          "meaning": "đóng cửa"
         }
        }
+      }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2023/test5/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

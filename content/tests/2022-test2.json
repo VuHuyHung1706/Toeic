@@ -7426,6 +7426,13 @@
         }
        }
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7585,6 +7592,13 @@
          "meaning": "sự khôi phục"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7754,6 +7768,13 @@
         }
        }
       }
+     ],
+     "directions": "Web page",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p6-139-142.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7921,6 +7942,13 @@
          "meaning": "Để biết bảng giá, vui lòng liên hệ với tôi theo số 347-555-0101."
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test2/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

@@ -7484,6 +7484,13 @@
         }
        }
       }
+     ],
+     "directions": "memo",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7632,6 +7639,13 @@
         }
        }
       }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7779,6 +7793,13 @@
          "meaning": "sớm, trong thời gian ngắn"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7931,6 +7952,13 @@
          "meaning": "vào"
         }
        }
+      }
+     ],
+     "directions": "brochure",
+     "scans": [
+      {
+       "src": "2026/test10/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

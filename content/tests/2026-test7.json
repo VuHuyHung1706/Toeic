@@ -7749,6 +7749,13 @@
         }
        }
       }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2026/test7/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7896,6 +7903,13 @@
          "meaning": "Căn hộ của bạn có ba phòng ngủ và hai phòng tắm"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test7/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -8045,6 +8059,13 @@
         }
        }
       }
+     ],
+     "directions": "brochure",
+     "scans": [
+      {
+       "src": "2026/test7/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -8186,6 +8207,13 @@
          "meaning": "giả sử"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2026/test7/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }

@@ -7394,6 +7394,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2022/test4/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7567,6 +7574,13 @@
         }
        }
       }
+     ],
+     "directions": "information",
+     "scans": [
+      {
+       "src": "2022/test4/image/scan/p6-135-138.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7732,6 +7746,13 @@
          "meaning": "Một buổi lễ kỷ niệm đặc biệt sẽ diễn ra vào ngày 12 tháng 8. (câu)"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2022/test4/image/scan/p6-139-142.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7904,6 +7925,13 @@
          "meaning": "họ"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2022/test4/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

@@ -7480,6 +7480,13 @@
         }
        }
       }
+     ],
+     "directions": "product description",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p6-131-134.png",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7638,6 +7645,13 @@
          "meaning": "nhẹ"
         }
        }
+      }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p6-135-138.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7808,6 +7822,13 @@
          "meaning": "du lịch"
         }
        }
+      }
+     ],
+     "directions": "article",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p6-139-142.png",
+       "remoteUrl": null
       }
      ]
     },
@@ -7980,6 +8001,13 @@
          "meaning": "đã cạnh tranh"
         }
        }
+      }
+     ],
+     "directions": "advertisement",
+     "scans": [
+      {
+       "src": "2023/test2/image/scan/p6-143-146.png",
+       "remoteUrl": null
       }
      ]
     }

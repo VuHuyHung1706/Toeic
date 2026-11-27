@@ -41,9 +41,9 @@ export interface QuestionGroup {
   images: MediaRef[];
   passages: Passage[];
   questions: Question[];
-  /** Part 7: loại văn bản theo dòng hướng dẫn của đề, vd "e-mails and notice" (… refer to the following e-mails and notice.) */
+  /** Part 6/7: loại văn bản theo dòng hướng dẫn của đề, vd "e-mails and notice" (… refer to the following e-mails and notice.) */
   directions?: string;
-  /** Part 7: ảnh scan trang đề gốc của nhóm (nếu có) — xem "Bản scan" */
+  /** Part 6/7: ảnh scan trang đề gốc của nhóm (nếu có) — xem "Bản scan" */
   scans?: MediaRef[];
   /** Part 3/4: từ vựng của đoạn (từ mục "Từ vựng" trong giải thích, hoặc tự lấy từ từ điển nếu vocabAuto) */
   vocab?: { term: string; pos: string[]; meaning: string }[];

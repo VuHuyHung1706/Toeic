@@ -7516,6 +7516,13 @@
         }
        }
       }
+     ],
+     "directions": "directions",
+     "scans": [
+      {
+       "src": "2026/test8/image/scan/p6-131-134.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7663,6 +7670,13 @@
          "meaning": "Số lượng kỷ lục sinh viên tiềm năng đã nộp đơn"
         }
        }
+      }
+     ],
+     "directions": "notice",
+     "scans": [
+      {
+       "src": "2026/test8/image/scan/p6-135-138.jpg",
+       "remoteUrl": null
       }
      ]
     },
@@ -7812,6 +7826,13 @@
         }
        }
       }
+     ],
+     "directions": "e-mail",
+     "scans": [
+      {
+       "src": "2026/test8/image/scan/p6-139-142.jpg",
+       "remoteUrl": null
+      }
      ]
     },
     {
@@ -7959,6 +7980,13 @@
          "meaning": "để làm dễ"
         }
        }
+      }
+     ],
+     "directions": "product review",
+     "scans": [
+      {
+       "src": "2026/test8/image/scan/p6-143-146.jpg",
+       "remoteUrl": null
       }
      ]
     }
