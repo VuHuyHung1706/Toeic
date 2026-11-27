@@ -7909,18 +7909,30 @@
        "part": 6,
        "question": "",
        "options": {
-        "A": "With many savory options muffins are not just for breakfast anymore.",
-        "B": "Every week she baked a new variety to deliver to eager takers.",
+        "A": "With many savory options, muffins are not just for breakfast anymore.",
+        "B": "Every week, she baked a new variety to deliver to eager takers.",
         "C": "She would take daily walks with her friends.",
-        "D": "Unfortunately it took nearly three hours to prepare a batch."
+        "D": "Unfortunately, it took nearly three hours to prepare a batch."
        },
        "answer": "B",
        "explanation": "Đáp án đúng là B \"Every week, she baked a new variety to deliver to eager takers\" (Mỗi tuần, bà nướng một loại mới để giao cho những người háo hức) vì câu này tiếp nối mạch câu chuyện về việc bà Sweeney bắt đầu chia sẻ bánh và dẫn đến danh tiếng \"Muffin Lady\".\n\nPhân tích từng đáp án:\n- A \"With many savory options, muffins are not just for breakfast anymore\" (Với nhiều lựa chọn mặn, bánh muffin không chỉ dành cho bữa sáng nữa) - sai vì đây là thông tin chung về bánh muffin hiện đại, không liên quan đến câu chuyện lịch sử về bà Sweeney.\n- B \"Every week, she baked a new variety to deliver to eager takers\" (Mỗi tuần, bà nướng một loại mới để giao cho những người háo hức) - ĐÚNG vì giải thích quá trình dẫn đến việc bà được biết đến là \"Muffin Lady\".\n- C \"She would take daily walks with her friends\" (Bà thường đi dạo hàng ngày với bạn bè) - sai vì không liên quan đến việc chia sẻ bánh muffin.\n- D \"Unfortunately, it took nearly three hours to prepare a batch\" (Thật không may, phải mất gần ba giờ để chuẩn bị một mẻ) - sai vì từ \"unfortunately\" (không may) không phù hợp với tông tích cực của câu chuyện.\n\nNgữ pháp: Câu hoàn chỉnh với cấu trúc thì quá khứ đơn \"baked\", cụm \"to deliver\" (để giao) là to-infinitive chỉ mục đích.\n\nTừ vựng: \"variety\" (loại, chủng loại), \"deliver\" (giao, phân phát), \"eager takers\" (những người háo hức nhận).\n\nMẹo: Tìm câu có liên kết logic với câu trước (chia sẻ với mọi người) và câu sau (trở nên nổi tiếng). Câu B giải thích quá trình này.",
        "tags": [],
        "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Với nhiều lựa chọn mặn, bánh muffin không chỉ dành cho bữa sáng nữa"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Mỗi tuần, bà nướng một loại mới để giao cho những người háo hức"
+        },
         "C": {
          "pos": [],
          "meaning": "Bà thường đi dạo hàng ngày với bạn bè"
+        },
+        "D": {
+         "pos": [],
+         "meaning": "Thật không may, phải mất gần ba giờ để chuẩn bị một mẻ"
         }
        }
       },
@@ -8238,7 +8250,7 @@
        "question": "",
        "options": {
         "A": "I update the menu quarterly based on diners' feedback.",
-        "B": "Even so business has not been good lately.",
+        "B": "Even so, business has not been good lately.",
         "C": "My parents managed the bistro before I was born.",
         "D": "But the time has come for something new."
        },
@@ -8249,6 +8261,10 @@
         "A": {
          "pos": [],
          "meaning": "Tôi cập nhật thực đơn hàng quý dựa trên phản hồi của thực khách"
+        },
+        "B": {
+         "pos": [],
+         "meaning": "Dù vậy, kinh doanh gần đây không tốt"
         },
         "C": {
          "pos": [],
@@ -9238,33 +9254,16 @@
        "part": 7,
        "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"This will be automatically applied to your shopping cart when you check out.\"",
        "options": {
-        "A": "(A) [1]",
-        "B": "(B) [2]",
-        "C": "(C) [3]",
-        "D": "(D) [4]"
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
        },
        "answer": "D",
-       "explanation": "Đáp án đúng là D - vị trí [4].\nDẫn chứng: Câu cần chèn \"This will be automatically applied to your shopping cart when you check out\" (Điều này sẽ được tự động áp dụng vào giỏ hàng của bạn khi bạn thanh toán) nói về discount.\nVị trí [4] nằm sau: \"we are also offering you a 20 percent discount on your next order. Simply place an order within one month to receive the discount.\"\nLogic: Giới thiệu discount → Hướng dẫn cách nhận (đặt hàng trong 1 tháng) → [4] Giải thích discount sẽ tự động áp dụng khi checkout.\nTừ vựng:\n- \"This\" ám chỉ \"20 percent discount\" vừa được nhắc đến\n- \"automatically applied\" (tự động áp dụng)\n- \"shopping cart\" (giỏ hàng)\n- \"check out\" (thanh toán)\nCấu trúc:\n- \"This\" cần có danh từ cụ thể ở câu trước → \"20 percent discount\"\nMẹo: \"This\" thường ám chỉ thông tin vừa được nhắc đến ở câu trước. Vị trí [4] sau câu về discount là hợp lý nhất.",
+       "explanation": "Đáp án đúng là D - vị trí [4].\nDẫn chứng: Câu cần chèn \"This will be automatically applied to your shopping cart when you check out\" (Điều này sẽ được tự động áp dụng vào giỏ hàng của bạn khi bạn thanh toán) nói về discount.\nVị trí [4] nằm sau: \"we are also offering you a 20 percent discount on your next order. Simply place an order within one month to receive the discount.\"\nLogic: Giới thiệu discount → Hướng dẫn cách nhận (đặt hàng trong 1 tháng) → [4] Giải thích discount sẽ tự động áp dụng khi checkout.\nTừ vựng:\n- \"This\" ám chỉ \"20 percent discount\" vừa được nhắc đến\n- \"automatically applied\" (tự động áp dụng)\n- \"shopping cart\" (giỏ hàng)\n- \"check out\" (thanh toán)\nCấu trúc:\n- \"This\" cần có danh từ cụ thể ở câu trước → \"20 percent discount\"\nMẹo: \"This\" thường ám chỉ thông tin vừa được nhắc đến ở câu trước. Vị trí [4] sau câu về discount là hợp lý nhất.\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào được đánh dấu [1], [2], [3] và [4]? \"Điều này sẽ được tự động áp dụng vào giỏ hàng của bạn khi bạn thanh toán.",
-       "optionNotes": {
-        "A": {
-         "pos": [],
-         "meaning": "[1]"
-        },
-        "B": {
-         "pos": [],
-         "meaning": "[2]"
-        },
-        "C": {
-         "pos": [],
-         "meaning": "[3]"
-        },
-        "D": {
-         "pos": [],
-         "meaning": "[4]"
-        }
-       }
+       "optionNotes": {}
       }
      ],
      "directions": "e-mail",
@@ -9595,33 +9594,16 @@
        "part": 7,
        "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"Alternatively, we can provide online lessons to accommodate your schedule.\"",
        "options": {
-        "A": "(A) [1]",
-        "B": "(B) [2]",
-        "C": "(C) [3]",
-        "D": "(D) [4]"
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B - vị trí [2].\nDẫn chứng: Câu cần chèn \"Alternatively, we can provide online lessons to accommodate your schedule\" (Ngoài ra, chúng tôi có thể cung cấp bài học trực tuyến để phù hợp với lịch trình của bạn) nói về hình thức học.\nVị trí [2] nằm sau: \"Instruction is available in several formats. We can schedule in-person instruction at our office or your residence.\"\nLogic: Instruction có nhiều formats → In-person tại văn phòng hoặc nhà bạn → [2] Alternatively (Ngoài ra) = online lessons.\nTừ vựng:\n- \"Alternatively\" (ngoài ra, thay vào đó) - từ nối chỉ lựa chọn khác\n- \"in several formats\" - nhiều hình thức\n- \"in-person\" vs \"online\" - hai hình thức đối lập\nCấu trúc:\n- \"Alternatively\" cần có lựa chọn khác được nhắc đến trước đó\n- Vị trí [2] sau \"in-person instruction\" → \"online lessons\" là lựa chọn thay thế\nMẹo: \"Alternatively\" = lựa chọn khác. Cần đặt sau khi đã nói về một lựa chọn (in-person).",
+       "explanation": "Đáp án đúng là B - vị trí [2].\nDẫn chứng: Câu cần chèn \"Alternatively, we can provide online lessons to accommodate your schedule\" (Ngoài ra, chúng tôi có thể cung cấp bài học trực tuyến để phù hợp với lịch trình của bạn) nói về hình thức học.\nVị trí [2] nằm sau: \"Instruction is available in several formats. We can schedule in-person instruction at our office or your residence.\"\nLogic: Instruction có nhiều formats → In-person tại văn phòng hoặc nhà bạn → [2] Alternatively (Ngoài ra) = online lessons.\nTừ vựng:\n- \"Alternatively\" (ngoài ra, thay vào đó) - từ nối chỉ lựa chọn khác\n- \"in several formats\" - nhiều hình thức\n- \"in-person\" vs \"online\" - hai hình thức đối lập\nCấu trúc:\n- \"Alternatively\" cần có lựa chọn khác được nhắc đến trước đó\n- Vị trí [2] sau \"in-person instruction\" → \"online lessons\" là lựa chọn thay thế\nMẹo: \"Alternatively\" = lựa chọn khác. Cần đặt sau khi đã nói về một lựa chọn (in-person).\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào được đánh dấu [1], [2], [3] và [4]? \"Ngoài ra, chúng tôi có thể cung cấp bài học trực tuyến để phù hợp với lịch trình của bạn.",
-       "optionNotes": {
-        "A": {
-         "pos": [],
-         "meaning": "[1]"
-        },
-        "B": {
-         "pos": [],
-         "meaning": "[2]"
-        },
-        "C": {
-         "pos": [],
-         "meaning": "[3]"
-        },
-        "D": {
-         "pos": [],
-         "meaning": "[4]"
-        }
-       },
+       "optionNotes": {},
        "evidence": [
         "Instruction is available in several formats.",
         "We can schedule in-person instruction at our office or your residence",

@@ -1,0 +1,537 @@
+{
+ "_doc": "Sửa chữ hỏng (OCR) trong bài đọc Part 6/7, đối chiếu ảnh scan đề. {đề: {\"147-148\": [{from, to}]}} — thay trong bài tiếng Anh; ETL báo cảnh báo nếu không còn thấy \"from\".",
+ "2022-test1": {
+  "168-171": [
+   {
+    "from": "There aning ce, the twent the introductio off the ney lion, i the place will be",
+    "to": "The renaming ceremony and the introduction of the new logo will take place at 11 A.M. on 1 June, the twentieth anniversary of the institution. We hope you will be"
+   }
+  ],
+  "191-195": [
+   {
+    "from": "by Jantum Property",
+    "to": "by Jantuni Property"
+   }
+  ],
+  "143-146": [
+   {
+    "from": "(145) ----",
+    "to": "145----"
+   }
+  ]
+ },
+ "2022-test5": {
+  "186-190": [
+   {
+    "from": "added upholders berween the",
+    "to": "added cupholders between the"
+   }
+  ],
+  "172-175": [
+   {
+    "from": "Lynda NcCann",
+    "to": "Lynda McCann"
+   }
+  ],
+  "181-185": [
+   {
+    "from": "Services (VES)",
+    "to": "Services (VFS)"
+   },
+   {
+    "from": "Lo apply:",
+    "to": "To apply:"
+   },
+   {
+    "from": "zomorodi.c@fs.com",
+    "to": "zomorodi.c@vfs.com"
+   }
+  ]
+ },
+ "2022-test6": {
+  "169-171": [
+   {
+    "from": "large-sereen television",
+    "to": "large-screen television"
+   }
+  ],
+  "172-175": [
+   {
+    "from": "near the otlice.",
+    "to": "near the office."
+   },
+   {
+    "from": "Theresa Gritin",
+    "to": "Theresa Griffin"
+   }
+  ],
+  "186-190": [
+   {
+    "from": "Bonbay Palace: Concenporay Indian crisinc Lage men wih seve",
+    "to": "Bombay Palace: Contemporary Indian cuisine. Large menu with several"
+   }
+  ],
+  "158-161": [
+   {
+    "from": "as Usuall",
+    "to": "as Usual"
+   },
+   {
+    "from": "and Pae ended it op ieet part of the city to discover alternative sites, such as For the Craverton",
+    "to": "and we headed to a different part of the city to discover alternative sites, such as Grantwood Park and Holtrop Tower.” For the Craverton"
+   }
+  ]
+ },
+ "2023-test1": {
+  "186-190": [
+   {
+    "from": "last weck,",
+    "to": "last week,"
+   }
+  ],
+  "181-185": [
+   {
+    "from": "opportunity ro discover",
+    "to": "opportunity to discover"
+   }
+  ]
+ },
+ "2023-test3": {
+  "143-146": [
+   {
+    "from": "these flims are showing on very smell screens",
+    "to": "these films are showing on very small screens"
+   }
+  ],
+  "164-167": [
+   {
+    "from": "savs Executive",
+    "to": "says Executive"
+   }
+  ],
+  "153-154": [
+   {
+    "from": "Luey O'Malley (1:50",
+    "to": "Lucy O'Malley (1:50"
+   }
+  ],
+  "168-171": [
+   {
+    "from": "meeting atrendees",
+    "to": "meeting attendees"
+   }
+  ],
+  "186-190": [
+   {
+    "from": "Restaurant Showease",
+    "to": "Restaurant Showcase"
+   }
+  ],
+  "139-142": [
+   {
+    "from": "goal of  139. .....",
+    "to": "goal of 139......"
+   }
+  ]
+ },
+ "2023-test6": {
+  "181-185": [
+   {
+    "from": "As a litelong resident",
+    "to": "As a lifelong resident"
+   }
+  ],
+  "172-175": [
+   {
+    "from": "@pallizoundation.org",
+    "to": "@pallizfoundation.org"
+   }
+  ],
+  "196-200": [
+   {
+    "from": "code NPBURSI",
+    "to": "code NPBURST"
+   }
+  ]
+ },
+ "2023-test8": {
+  "149-151": [
+   {
+    "from": "convenience with Simple ip. King one ded by leading companime the travel",
+    "to": "Does your travel plan include taking one or more flights? Save time and avoid inconvenience with Simple Trip. Recommended by leading companies in the travel"
+   },
+   {
+    "from": "Simple Irip is",
+    "to": "Simple Trip is"
+   }
+  ]
+ },
+ "2024-test1": {
+  "191-195": [
+   {
+    "from": "which si what led to hte last-minute",
+    "to": "which is what led to the last-minute"
+   },
+   {
+    "from": "but we wil probably",
+    "to": "but we will probably"
+   },
+   {
+    "from": "stop ni on any Friday night between 7and 1 P.M.",
+    "to": "stop in on any Friday night between 7 and 11 P.M."
+   },
+   {
+    "from": "restaurant si an aromatic",
+    "to": "restaurant is an aromatic"
+   },
+   {
+    "from": "eateries ni Wester",
+    "to": "eateries in Wester"
+   },
+   {
+    "from": "restaurant si most famous",
+    "to": "restaurant is most famous"
+   },
+   {
+    "from": "uses ni the stewed",
+    "to": "uses in the stewed"
+   }
+  ],
+  "196-200": [
+   {
+    "from": "do not want ot lose",
+    "to": "do not want to lose"
+   },
+   {
+    "from": "appreciate ti if",
+    "to": "appreciate it if"
+   }
+  ],
+  "139-142": [
+   {
+    "from": "account, on action is",
+    "to": "account, no action is"
+   }
+  ],
+  "143-146": [
+   {
+    "from": "photo shoot si over",
+    "to": "photo shoot is over"
+   }
+  ],
+  "155-157": [
+   {
+    "from": "donate surplus products",
+    "to": "donate surplus produce"
+   }
+  ],
+  "158-160": [
+   {
+    "from": "that al attendees",
+    "to": "that all attendees"
+   },
+   {
+    "from": "performance.\nBag and other",
+    "to": "performance.\nBags and other"
+   }
+  ],
+  "172-175": [
+   {
+    "from": "And fi you're",
+    "to": "And if you're"
+   }
+  ],
+  "181-185": [
+   {
+    "from": "Dear Mrs Savard",
+    "to": "Dear Ms. Savard"
+   }
+  ],
+  "186-190": [
+   {
+    "from": "Natalie Kaliru",
+    "to": "Natalie Kabiru"
+   }
+  ]
+ },
+ "2024-test10": {
+  "196-200": [
+   {
+    "from": "the parking fec.",
+    "to": "the parking fee."
+   },
+   {
+    "from": "from Shelbum and",
+    "to": "from Shelburn and"
+   },
+   {
+    "from": "Prefer Physicall\nStores",
+    "to": "Prefer Physical\nStores"
+   }
+  ],
+  "191-195": [
+   {
+    "from": "conversation carlier today",
+    "to": "conversation earlier today"
+   }
+  ]
+ },
+ "2024-test2": {
+  "161-163": [
+   {
+    "from": "by 5pM. . on 30 April",
+    "to": "by 5 P.M. on 30 April"
+   }
+  ]
+ },
+ "2024-test5": {
+  "176-180": [
+   {
+    "from": "The altachment contains",
+    "to": "The attachment contains"
+   }
+  ]
+ },
+ "2024-test7": {
+  "135-138": [
+   {
+    "from": "demonstrations138",
+    "to": "demonstrations 138"
+   }
+  ],
+  "191-195": [
+   {
+    "from": "Rating:5stars",
+    "to": "Rating: 5 stars"
+   },
+   {
+    "from": "This tull-time position",
+    "to": "This full-time position"
+   },
+   {
+    "from": "manager lanisha Mosley",
+    "to": "manager Tanisha Mosley"
+   }
+  ],
+  "149-150": [
+   {
+    "from": "at Jin-Hia Grill",
+    "to": "at Jin-Hwa Grill"
+   }
+  ],
+  "151-152": [
+   {
+    "from": "Neela Balay sn_balay@",
+    "to": "Neela Balay <n_balay@"
+   }
+  ],
+  "181-185": [
+   {
+    "from": "approved by Lantei Chan",
+    "to": "approved by Lanfei Chan"
+   }
+  ],
+  "186-190": [
+   {
+    "from": "To: All Stafl",
+    "to": "To: All Staff"
+   }
+  ]
+ },
+ "2024-test8": {
+  "158-160": [
+   {
+    "from": "Report any unsate conditions",
+    "to": "Report any unsafe conditions"
+   }
+  ],
+  "143-146": [
+   {
+    "from": "Solutions (TS) announced",
+    "to": "Solutions (ZTS) announced"
+   },
+   {
+    "from": "reflects TS's ongoing",
+    "to": "reflects ZTS's ongoing"
+   }
+  ],
+  "168-171": [
+   {
+    "from": "< Igalloway@",
+    "to": "<lgalloway@"
+   }
+  ]
+ },
+ "2022-test2": {
+  "176-180": [
+   {
+    "from": "Heres how",
+    "to": "Here's how"
+   }
+  ],
+  "191-195": [
+   {
+    "from": "To: 1hsiao@",
+    "to": "To: lhsiao@"
+   }
+  ],
+  "143-146": [
+   {
+    "from": "I would be ---- to display",
+    "to": "I would be 144---- to display"
+   }
+  ]
+ },
+ "2022-test3": {
+  "164-167": [
+   {
+    "from": "Jeftrey Carden",
+    "to": "Jeffrey Carden"
+   }
+  ],
+  "176-180": [
+   {
+    "from": "Subject: Örder",
+    "to": "Subject: Order"
+   }
+  ],
+  "168-171": [
+   {
+    "from": "teaching advanced mathematics and various in chal pouties in the nein. e ys ther op inted president of the scholard serve\nled the team",
+    "to": "teaching advanced mathematics and various special courses in engineering. He was then appointed president of the school and served in that position for the remaining nine years of his tenure. During that time, he\nled the team"
+   },
+   {
+    "from": "Dr, Carmen's first day",
+    "to": "Dr. Carmen's first day"
+   }
+  ]
+ },
+ "2022-test4": {
+  "181-185": [
+   {
+    "from": "those who quality.",
+    "to": "those who qualify."
+   }
+  ],
+  "186-190": [
+   {
+    "from": "<jmenally@",
+    "to": "<jmcnally@"
+   },
+   {
+    "from": "Yoko Nara synara@",
+    "to": "Yoko Nara <ynara@"
+   }
+  ],
+  "149-150": [
+   {
+    "lang": "vi",
+    "from": "Quà khách thân mến,",
+    "to": "Quý khách thân mến,"
+   },
+   {
+    "lang": "vi",
+    "from": "Mы вы вы вы вы đã chọn Westerly Hotel.",
+    "to": "Chúng tôi rất vui vì quý khách đã chọn Khách sạn Westerly."
+   }
+  ],
+  "135-138": [
+   {
+    "from": "136.--- .",
+    "to": "136--- ."
+   }
+  ]
+ },
+ "2023-test5": {
+  "158-160": [
+   {
+    "from": "credit card, chick, or",
+    "to": "credit card, check, or"
+   }
+  ]
+ },
+ "2023-test9": {
+  "181-185": [
+   {
+    "from": "and PC1-90022",
+    "to": "and PCI-90022"
+   }
+  ]
+ },
+ "2024-test3": {
+  "135-138": [
+   {
+    "from": "and Dauphi areas",
+    "to": "and Dauphin areas"
+   }
+  ],
+  "196-200": [
+   {
+    "from": "operations. lou will",
+    "to": "operations. You will"
+   }
+  ]
+ },
+ "2024-test6": {
+  "176-180": [
+   {
+    "from": "Dorothy Lu, du@",
+    "to": "Dorothy Lu, dlu@"
+   },
+   {
+    "from": "To: du@",
+    "to": "To: dlu@"
+   }
+  ],
+  "186-190": [
+   {
+    "from": "contacting Blektroproof",
+    "to": "contacting Elektroproof"
+   }
+  ]
+ },
+ "2024-test9": {
+  "131-134": [
+   {
+    "from": "Ask your fight attendant",
+    "to": "Ask your flight attendant"
+   }
+  ],
+  "164-167": [
+   {
+    "from": "Ive got it",
+    "to": "I've got it"
+   }
+  ],
+  "186-190": [
+   {
+    "from": "Etrin Begg",
+    "to": "Erin Begg"
+   }
+  ]
+ },
+ "2026-test7": {
+  "196-200": [
+   {
+    "from": "office and onsite positions",
+    "to": "office and jobsite positions"
+   }
+  ]
+ },
+ "2023-test10": {
+  "172-175": [
+   {
+    "from": "would be t31,500.",
+    "to": "would be €31,500."
+   },
+   {
+    "from": "would cost to per night",
+    "to": "would cost €80 per night"
+   },
+   {
+    "from": "I am concerned othe greate cot ha dishts a trage dilet cities from distrare some attendees -\nIt will also",
+    "to": "I am concerned that the greater cost of flights to those smaller cities could discourage some attendees. Rome, on the other hand, has affordable direct flights from most European cities.\nIt will also"
+   }
+  ]
+ }
+}

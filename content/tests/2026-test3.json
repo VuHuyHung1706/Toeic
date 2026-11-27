@@ -3351,7 +3351,7 @@
      "images": [],
      "passages": [
       {
-       "en": "W1 Oliver, have you finished the maintenance check on the small airplane that came in this morning? The owner's hoping to fly it this weekend.\nM I finished checking it earlier this morning. It needs a new fuel injection pump, so l've asked Camille to order one. Oh, here she comes. ﻿﻿﻿Camille, will the new pump arrive today?\nW2 Unfortunately, no. The manufacturer said there'll be a delay, and it won't arrive until Monday.\nW1 I better let the customer know. She was planning to fly the plane to Toronto this weekend for a friend's wedding. She'll need to find another way to get there.",
+       "en": "W1 Oliver, have you finished the maintenance check on the small airplane that came in this morning? The owner's hoping to fly it this weekend.\nM I finished checking it earlier this morning. It needs a new fuel injection pump, so l've asked Camille to order one. Oh, here she comes. Camille, will the new pump arrive today?\nW2 Unfortunately, no. The manufacturer said there'll be a delay, and it won't arrive until Monday.\nW1 I better let the customer know. She was planning to fly the plane to Toronto this weekend for a friend's wedding. She'll need to find another way to get there.",
        "vi": "W1 Oliver, anh đã hoàn thành kiểm tra bảo trì trên chiếc máy bay nhỏ đến sáng nay chưa? Chủ sở hữu hy vọng bay nó vào cuối tuần này.\nM Tôi đã hoàn thành kiểm tra nó sáng sớm nay. Nó cần một bơm phun nhiên liệu mới, vì vậy tôi đã yêu cầu Camille đặt hàng một cái. Ồ, cô ấy đến đây rồi. Camille, bơm mới sẽ đến hôm nay chứ?\nW2 Thật không may, không. Nhà sản xuất nói sẽ có sự chậm trễ, và nó sẽ không đến cho đến thứ Hai.\nW1 Tôi nên cho khách hàng biết. Cô ấy đang lên kế hoạch bay máy bay đến Toronto vào cuối tuần này cho đám cưới của một người bạn. Cô ấy sẽ cần tìm cách khác để đến đó."
       }
      ],
@@ -4935,7 +4935,7 @@
      "images": [],
      "passages": [
       {
-       "en": "W-Br Hi, Mr. Flores. This is Susana, the supervisor of the construction crew working on your renovation project. I'm calling because we've run into an issue with the front window replacements. ﻿﻿﻿Your house was built a long time ago and has settled over the years. Unfortunately, this has caused some frame alignment issues. We will not be able to install the new bay window you requested for the front room without more extensive work than the budget will cover. Our work is done for today, but we'll need to know how to proceed by tomorrow. I'll be available for the next couple of hours.",
+       "en": "W-Br Hi, Mr. Flores. This is Susana, the supervisor of the construction crew working on your renovation project. I'm calling because we've run into an issue with the front window replacements. Your house was built a long time ago and has settled over the years. Unfortunately, this has caused some frame alignment issues. We will not be able to install the new bay window you requested for the front room without more extensive work than the budget will cover. Our work is done for today, but we'll need to know how to proceed by tomorrow. I'll be available for the next couple of hours.",
        "vi": "W-Br Xin chào, ông Flores. Đây là Susana, giám sát viên của đội xây dựng đang làm việc trên dự án cải tạo của ông. Tôi gọi vì chúng tôi đã gặp vấn đề với việc thay thế cửa sổ phía trước. Ngôi nhà của ông được xây từ lâu và đã lún theo thời gian. Thật không may, điều này đã gây ra một số vấn đề về căn chỉnh khung. Chúng tôi sẽ không thể lắp đặt cửa sổ bay mới mà ông yêu cầu cho phòng phía trước mà không có công việc rộng hơn ngân sách sẽ chi trả. Công việc của chúng tôi đã xong cho hôm nay, nhưng chúng tôi cần biết cách tiến hành vào ngày mai. Tôi sẽ có mặt trong vài giờ tới."
       }
      ],
@@ -7786,7 +7786,7 @@
        "part": 6,
        "question": "",
        "options": {
-        "A": "Our day will start at 8:00 A.M. as usual.",
+        "A": "Our day will start at 8:00 A.M., as usual.",
         "B": "She was the best candidate for the job.",
         "C": "Please join us for coffee and cake.",
         "D": "The break room is currently closed for maintenance."
@@ -7795,6 +7795,10 @@
        "explanation": "Đáp án đúng là C \"Please join us for coffee and cake\" (Vui lòng tham gia với chúng tôi để uống cà phê và bánh) vì đây là lời mời cụ thể cho buổi tiệc được nhắc đến ở câu trước.\n\nPhân tích từng đáp án:\n- A \"Our day will start at 8:00 A.M., as usual\" (Ngày của chúng ta sẽ bắt đầu lúc 8:00 sáng, như thường lệ) - sai vì không liên quan đến buổi tiệc lúc 3:00 chiều.\n- B \"She was the best candidate for the job\" (Cô ấy là ứng viên tốt nhất cho công việc) - sai vì không phù hợp với ngữ cảnh mời tham gia tiệc.\n- C \"Please join us for coffee and cake\" (Vui lòng tham gia với chúng tôi để uống cà phê và bánh) - ĐÚNG vì mời mọi người đến buổi tiệc và bổ sung chi tiết về đồ ăn thức uống.\n- D \"The break room is currently closed for maintenance\" (Phòng nghỉ hiện đang đóng cửa để bảo trì) - sai vì mâu thuẫn với việc tổ chức tiệc ở phòng nghỉ.\n\nNgữ pháp: Câu mệnh lệnh lịch sự \"Please join us for...\" (Vui lòng tham gia với chúng tôi để...) là cấu trúc phổ biến trong lời mời.\n\nMẹo: Câu sau \"We look forward to seeing you there\" (Chúng tôi mong được gặp bạn ở đó) xác nhận đây là lời mời, nên câu trước phải là chi tiết về buổi tiệc.",
        "tags": [],
        "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Ngày của chúng ta sẽ bắt đầu lúc 8:00 sáng, như thường lệ"
+        },
         "B": {
          "pos": [],
          "meaning": "Cô ấy là ứng viên tốt nhất cho công việc"
@@ -8914,33 +8918,16 @@
        "part": 7,
        "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"We would love to read your complete research report.\"",
        "options": {
-        "A": "(A) [1]",
-        "B": "(B) [2]",
-        "C": "(C) [3]",
-        "D": "(D) [4]"
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B - vị trí [2].\nDẫn chứng: Câu cần chèn \"We would love to read your complete research report\" (Chúng tôi rất muốn đọc báo cáo nghiên cứu đầy đủ của bạn) nói về nghiên cứu.\nVị trí [2] nằm sau: \"We were particularly intrigued by your study on the importance of word choice in international communication. Would you mind providing us with a copy of the article you referenced?\"\nLogic: Bị hấp dẫn bởi nghiên cứu → Yêu cầu bài báo đã tham chiếu → [2] Muốn đọc báo cáo nghiên cứu đầy đủ → [3] DGA muốn hợp tác thêm.\nTừ vựng:\n- \"complete research report\" (báo cáo nghiên cứu đầy đủ) liên quan đến \"your study\" và \"the article\"\n- Câu này mở rộng yêu cầu từ \"article\" → \"complete report\"\nCấu trúc:\n- Vị trí [2] sau khi đã yêu cầu article, trước khi nói về partnership\nMẹo: Câu về \"research report\" nên đặt sau khi đã đề cập đến \"study\" và \"article\".",
+       "explanation": "Đáp án đúng là B - vị trí [2].\nDẫn chứng: Câu cần chèn \"We would love to read your complete research report\" (Chúng tôi rất muốn đọc báo cáo nghiên cứu đầy đủ của bạn) nói về nghiên cứu.\nVị trí [2] nằm sau: \"We were particularly intrigued by your study on the importance of word choice in international communication. Would you mind providing us with a copy of the article you referenced?\"\nLogic: Bị hấp dẫn bởi nghiên cứu → Yêu cầu bài báo đã tham chiếu → [2] Muốn đọc báo cáo nghiên cứu đầy đủ → [3] DGA muốn hợp tác thêm.\nTừ vựng:\n- \"complete research report\" (báo cáo nghiên cứu đầy đủ) liên quan đến \"your study\" và \"the article\"\n- Câu này mở rộng yêu cầu từ \"article\" → \"complete report\"\nCấu trúc:\n- Vị trí [2] sau khi đã yêu cầu article, trước khi nói về partnership\nMẹo: Câu về \"research report\" nên đặt sau khi đã đề cập đến \"study\" và \"article\".\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào được đánh dấu [1], [2], [3] và [4]? \"Chúng tôi rất muốn đọc báo cáo nghiên cứu đầy đủ của bạn.",
-       "optionNotes": {
-        "A": {
-         "pos": [],
-         "meaning": "[1]"
-        },
-        "B": {
-         "pos": [],
-         "meaning": "[2]"
-        },
-        "C": {
-         "pos": [],
-         "meaning": "[3]"
-        },
-        "D": {
-         "pos": [],
-         "meaning": "[4]"
-        }
-       }
+       "optionNotes": {}
       }
      ],
      "directions": "e-mail",
@@ -9088,33 +9075,16 @@
        "part": 7,
        "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\n\"Health insurance and retirement benefits are included.\"",
        "options": {
-        "A": "(A) [1]",
-        "B": "(B) [2]",
-        "C": "(C) [3]",
-        "D": "(D) [4]"
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A - vị trí [1].\nDẫn chứng: Câu cần chèn \"Health insurance and retirement benefits are included\" (Bảo hiểm y tế và phúc lợi hưu trí được bao gồm) nói về benefits/compensation.\nVị trí [1] nằm sau: \"The regular work hours for this full-time position are Monday through Friday, 9:00 A.M. to 5:00 P.M. Salary is commensurate with experience.\"\nLogic: Thông tin về position → Work hours → Salary → [1] Benefits → Job responsibilities.\nTừ vựng:\n- \"Health insurance and retirement benefits\" - phúc lợi bổ sung cho salary\n- Câu này về compensation package\nCấu trúc:\n- Vị trí [1] sau salary, trước job description là phù hợp\n- Thông tin về benefits thường đi cùng với salary\nMẹo: Benefits information thường đặt cùng phần compensation, sau work hours và salary.",
+       "explanation": "Đáp án đúng là A - vị trí [1].\nDẫn chứng: Câu cần chèn \"Health insurance and retirement benefits are included\" (Bảo hiểm y tế và phúc lợi hưu trí được bao gồm) nói về benefits/compensation.\nVị trí [1] nằm sau: \"The regular work hours for this full-time position are Monday through Friday, 9:00 A.M. to 5:00 P.M. Salary is commensurate with experience.\"\nLogic: Thông tin về position → Work hours → Salary → [1] Benefits → Job responsibilities.\nTừ vựng:\n- \"Health insurance and retirement benefits\" - phúc lợi bổ sung cho salary\n- Câu này về compensation package\nCấu trúc:\n- Vị trí [1] sau salary, trước job description là phù hợp\n- Thông tin về benefits thường đi cùng với salary\nMẹo: Benefits information thường đặt cùng phần compensation, sau work hours và salary.\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào được đánh dấu [1], [2], [3] và [4]? \"Bảo hiểm y tế và phúc lợi hưu trí được bao gồm.",
-       "optionNotes": {
-        "A": {
-         "pos": [],
-         "meaning": "[1]"
-        },
-        "B": {
-         "pos": [],
-         "meaning": "[2]"
-        },
-        "C": {
-         "pos": [],
-         "meaning": "[3]"
-        },
-        "D": {
-         "pos": [],
-         "meaning": "[4]"
-        }
-       },
+       "optionNotes": {},
        "evidence": [
         "The regular work hours for this full-time position are Monday through Friday, 9:00 A.M. to 5:00 P.M.",
         "Salary is commensurate with experience"

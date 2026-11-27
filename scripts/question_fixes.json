@@ -1,21 +1,12 @@
 {
  "_doc": "Sửa câu hỏi bị lỗi OCR trong CSV gốc (thiếu dấu phẩy/chấm, dính chữ…). Dạng {đề: {câu: {from, to}}}; ETL chỉ thay khi câu trong CSV đúng bằng 'from', lệch thì báo cảnh báo.",
  "2022-test1": {
-  "111": {
-   "from": "Payments made -------- 4:00 p.M. will be processed on the following business day.",
-   "to": "Payments made -------- 4:00 P.M. will be processed on the following business day."
-  },
   "124": {
    "from": "An upgrade in software would increase the productivity of our administrative staff ----.",
    "to": "An upgrade in software would ---- increase the productivity of our administrative staff."
   }
  },
- "2022-test2": {
-  "108": {
-   "from": "Al's Café will now be open on Sundays ----- the hours of 9 A.M. and 5 p.M.",
-   "to": "Al's Café will now be open on Sundays ----- the hours of 9 A.M. and 5 P.M."
-  }
- },
+ "2022-test2": {},
  "2022-test3": {
   "115": {
    "from": "The city council will discuss certain policies, parinitray those made ---- the previous administration.",
@@ -32,6 +23,22 @@
   "126": {
    "from": "Our internship combines lectures with real world projects to provide formal instruction ---- professional experience.",
    "to": "Our internship combines lectures with real-world projects to provide formal instruction ---- professional experience."
+  },
+  "165": {
+   "options": {
+    "A": {
+     "from": "Some presentations are too long:",
+     "to": "Some presentations are too long."
+    }
+   }
+  },
+  "185": {
+   "options": {
+    "A": {
+     "from": "It departs from Los Angeles,",
+     "to": "It departs from Los Angeles."
+    }
+   }
   }
  },
  "2022-test4": {
@@ -52,6 +59,28 @@
   "127": {
    "from": "Adopting advanced billing software would improve Narrin Group's fiscal-management precess -----.",
    "to": "Adopting advanced billing software would improve Narrin Group's fiscal-management process -----."
+  },
+  "150": {
+   "options": {
+    "D": {
+     "from": "It includes participants from Thompson lowers.",
+     "to": "It includes participants from Thompson Towers."
+    }
+   }
+  },
+  "178": {
+   "options": {
+    "B": {
+     "from": "Itis a new company.",
+     "to": "It is a new company."
+    }
+   }
+  },
+  "184": {
+   "question": {
+    "from": "In the e-mail, the word \"it\" in paragraph 1, line 2, is closest in meaning to",
+    "to": "In the e-mail, the word \"fit\" in paragraph 1, line 2, is closest in meaning to"
+   }
   }
  },
  "2023-test4": {
@@ -72,6 +101,12 @@
   "122": {
    "from": "Mr. Zasio will need to reschedule his appointment today as his train was -----.",
    "to": "Mr. Zasio will need to reschedule his appointment today as his train was unexpectedly -----."
+  },
+  "198": {
+   "answer": {
+    "from": "B",
+    "to": "A"
+   }
   }
  },
  "2023-test8": {
@@ -86,12 +121,7 @@
    "to": "Edison Delivery's trucks leave the warehouse promptly ----- 6:00 A.M. each morning."
   }
  },
- "2024-test7": {
-  "123": {
-   "from": "----- who arrives at the company parking garage after 10:00 a.M. must contact security for an access code.",
-   "to": "----- who arrives at the company parking garage after 10:00 A.M. must contact security for an access code."
-  }
- },
+ "2024-test7": {},
  "2024-test8": {
   "106": {
    "from": "Cashiers should call for an ---- Cashier when more than three customers are in line.",
@@ -103,10 +133,6 @@
   }
  },
  "2024-test10": {
-  "106": {
-   "from": "At Gallant's Pet Store, customer --- are accepted between 9:00 A.M. and 6:00 p.м.",
-   "to": "At Gallant's Pet Store, customer --- are accepted between 9:00 A.M. and 6:00 P.M."
-  },
   "125": {
    "from": "--- poems written by Mike Hanover are included in the new edition of Mewyn's Anthology.",
    "to": "--- poems written by Mike Hanover are included in the new edition of Merwyn's Anthology."
@@ -124,12 +150,74 @@
   "105": {
    "from": "To stop the —- of computer viruses do not open suspicious e-mails.",
    "to": "To stop the —- of computer viruses, do not open suspicious e-mails."
+  },
+  "118": {
+   "options": {
+    "C": {
+     "from": "so that",
+     "to": "cautiously"
+    },
+    "D": {
+     "from": "cautiously",
+     "to": "so that"
+    }
+   },
+   "answer": {
+    "from": "C",
+    "to": "D"
+   },
+   "explanation": [
+    {
+     "from": "Đáp án đúng: (C) so that",
+     "to": "Đáp án đúng: (D) so that"
+    }
+   ]
+  },
+  "83": {
+   "explanation": [
+    {
+     "from": "Đáp án D (Trзaдepжka chuyến đi)",
+     "to": "Đáp án D (Chuyến đi bị trì hoãn)"
+    }
+   ]
+  },
+  "145": {
+   "explanation": [
+    {
+     "from": "có dấu phзaпятaя phía sau",
+     "to": "có dấu phẩy phía sau"
+    }
+   ]
   }
  },
  "2026-test2": {
   "106": {
    "from": "After reading several reviews Mr. Kim was able to decide which printer ----- for the office.",
    "to": "After reading several reviews, Mr. Kim was able to decide which printer ----- for the office."
+  },
+  "132": {
+   "options": {
+    "A": {
+     "from": "With many savory options muffins are not just for breakfast anymore.",
+     "to": "With many savory options, muffins are not just for breakfast anymore."
+    },
+    "B": {
+     "from": "Every week she baked a new variety to deliver to eager takers.",
+     "to": "Every week, she baked a new variety to deliver to eager takers."
+    },
+    "D": {
+     "from": "Unfortunately it took nearly three hours to prepare a batch.",
+     "to": "Unfortunately, it took nearly three hours to prepare a batch."
+    }
+   }
+  },
+  "141": {
+   "options": {
+    "B": {
+     "from": "Even so business has not been good lately.",
+     "to": "Even so, business has not been good lately."
+    }
+   }
   }
  },
  "2026-test3": {
@@ -140,6 +228,14 @@
   "125": {
    "from": "---- a slight decline in revenue from the previous quarter Blakely Components is moving forward with its expansion plan.",
    "to": "---- a slight decline in revenue from the previous quarter, Blakely Components is moving forward with its expansion plan."
+  },
+  "138": {
+   "options": {
+    "A": {
+     "from": "Our day will start at 8:00 A.M. as usual.",
+     "to": "Our day will start at 8:00 A.M., as usual."
+    }
+   }
   }
  },
  "2026-test4": {
@@ -158,6 +254,14 @@
   "130": {
    "from": "During checkout cashiers must be able to scan purchased items accurately ----- field questions from customers.",
    "to": "During checkout, cashiers must be able to scan purchased items accurately ----- field questions from customers."
+  },
+  "170": {
+   "options": {
+    "B": {
+     "from": "It is located in an older refurbished space.",
+     "to": "It is located in an older, refurbished space."
+    }
+   }
   }
  },
  "2026-test5": {
@@ -208,6 +312,14 @@
   "123": {
    "from": "------ some tickets to the concert are still available all the best seats have already been taken.",
    "to": "------ some tickets to the concert are still available, all the best seats have already been taken."
+  },
+  "145": {
+   "options": {
+    "A": {
+     "from": "For those who need to create an account simply visit our Web site.",
+     "to": "For those who need to create an account, simply visit our Web site."
+    }
+   }
   }
  },
  "2026-test8": {
@@ -231,9 +343,25 @@
    "from": "Later today we will hold a meeting to discuss changes to protocols ------- they go into effect next month.",
    "to": "Later today, we will hold a meeting to discuss changes to protocols ------- they go into effect next month."
   },
-  "128": {
-   "from": "Customer service representatives can be reached —--- calling 800-555-0121 between 8:00 A.M. and 4:00 p.M.",
-   "to": "Customer service representatives can be reached —--- calling 800-555-0121 between 8:00 A.M. and 4:00 P.M."
+  "184": {
+   "options": {
+    "A": {
+     "from": "25.0",
+     "to": "£25"
+    },
+    "B": {
+     "from": "30.0",
+     "to": "£30"
+    },
+    "C": {
+     "from": "40.0",
+     "to": "£40"
+    },
+    "D": {
+     "from": "50.0",
+     "to": "£50"
+    }
+   }
   }
  },
  "2026-test9": {
@@ -244,12 +372,52 @@
   "129": {
    "from": "------- route they choose it should take the management team approximately four hours to drive to the hotel in Antibes.",
    "to": "------- route they choose, it should take the management team approximately four hours to drive to the hotel in Antibes."
+  },
+  "137": {
+   "options": {
+    "A": {
+     "from": "Then use a soft brush or sponge to finish cleaning.",
+     "to": "Then, use a soft brush or sponge to finish cleaning."
+    },
+    "C": {
+     "from": "Finally place the cooker back in its box.",
+     "to": "Finally, place the cooker back in its box."
+    }
+   }
+  },
+  "141": {
+   "options": {
+    "A": {
+     "from": "Nonetheless they all give an impression of trustworthiness and precision.",
+     "to": "Nonetheless, they all give an impression of trustworthiness and precision."
+    },
+    "C": {
+     "from": "Even so designing a logo can be a costly process.",
+     "to": "Even so, designing a logo can be a costly process."
+    }
+   }
   }
  },
  "2026-test10": {
   "128": {
    "from": "------ the fact that the use of social media is widespread many people still rely on newspapers for fact-checked information.",
    "to": "------ the fact that the use of social media is widespread, many people still rely on newspapers for fact-checked information."
+  },
+  "148": {
+   "options": {
+    "D": {
+     "from": "The staffs punctuality",
+     "to": "The staff's punctuality"
+    }
+   }
+  },
+  "132": {
+   "options": {
+    "C": {
+     "from": "Accordingly more of them can be loaded onto trucks when empty.",
+     "to": "Accordingly, more of them can be loaded onto trucks when empty."
+    }
+   }
   }
  },
  "2022-test8": {
@@ -262,6 +430,168 @@
   "120": {
    "from": "Each year, the - of the Barnes Engineering Conference pose for a commemorative group photo.",
    "to": "Each year, the ------- of the Barnes Engineering Conference pose for a commemorative group photo."
+  }
+ },
+ "2022-test6": {
+  "194": {
+   "options": {
+    "B": {
+     "from": "It did not agree lo Ms. Martin's request.",
+     "to": "It did not agree to Ms. Martin's request."
+    }
+   }
+  }
+ },
+ "2023-test2": {
+  "167": {
+   "question": {
+    "from": "In which of the positions marked [11, [2], [3] and [4] does the following sentence best belong?\n\" Ask any of our service technicians if you are unsuer of the best on for your car\"",
+    "to": "In which of the positions marked [11, [2], [3] and [4] does the following sentence best belong?\n\"Ask any of our service technicians if you are unsure of the best one for your car.\""
+   },
+   "options": {
+    "D": {
+     "from": "[41]",
+     "to": "[4]"
+    }
+   }
+  },
+  "174": {
+   "question": {
+    "from": "At 8:24 AN v what does Ms. Kyle most likely mean when she writes, \"Really\"?",
+    "to": "At 8:24 A.M., what does Ms. Kyle most likely mean when she writes, \"Really\"?"
+   }
+  }
+ },
+ "2023-test5": {
+  "159": {
+   "options": {
+    "D": {
+     "from": "Dirt and debris were removed from a",
+     "to": "Dirt and debris were removed from a yard."
+    }
+   }
+  }
+ },
+ "2024-test1": {
+  "138": {
+   "options": {
+    "A": {
+     "from": "wil benefit",
+     "to": "will benefit"
+    }
+   }
+  },
+  "148": {
+   "options": {
+    "B": {
+     "from": "A piece of furnitur",
+     "to": "A piece of furniture"
+    }
+   }
+  },
+  "154": {
+   "options": {
+    "C": {
+     "from": "Ms. Evers wil share a recipe.",
+     "to": "Ms. Evers will share a recipe."
+    }
+   }
+  },
+  "159": {
+   "options": {
+    "A": {
+     "from": "They can be put ni a locked box for a fee",
+     "to": "They can be put in a locked box for a fee"
+    }
+   }
+  },
+  "160": {
+   "question": {
+    "from": "In which of the positions marked [1], [2], [3]. and [4] does the folowing sentence best belong?\n”Please refrain from making phone cals or texting at al times.\"",
+    "to": "In which of the positions marked [1], [2], [3]. and [4] does the following sentence best belong?\n”Please refrain from making phone calls or texting at all times.\""
+   }
+  },
+  "163": {
+   "question": {
+    "from": "What si indicated about the multilayer cake?",
+    "to": "What is indicated about the multilayer cake?"
+   }
+  },
+  "169": {
+   "question": {
+    "from": "What is NOT mentioned as being offered to employees?",
+    "to": "In the information, what is NOT mentioned as being offered to employees?"
+   }
+  },
+  "182": {
+   "options": {
+    "C": {
+     "from": "To drop of a rental car",
+     "to": "To drop off a rental car"
+    }
+   }
+  },
+  "183": {
+   "options": {
+    "A": {
+     "from": "M.r Boyle's sister is a cofounder of Ceoleire Classics.",
+     "to": "Mr. Boyle's sister is a cofounder of Ceoleire Classics."
+    },
+    "B": {
+     "from": "M.r Boyle has been disappointed by air- and train-freight companies.",
+     "to": "Mr. Boyle has been disappointed by air- and train-freight companies."
+    },
+    "C": {
+     "from": "Ms. Savard has purchased items from Mr. Boyle ni the past.",
+     "to": "Ms. Savard has purchased items from Mr. Boyle in the past."
+    }
+   }
+  },
+  "184": {
+   "options": {
+    "B": {
+     "from": "She paid extra ot have items hand delivered.",
+     "to": "She paid extra to have items hand delivered."
+    }
+   }
+  },
+  "171": {
+   "question": {
+    "from": "Our openings cover a broad range of skill sets.",
+    "to": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Our openings cover a broad range of skill sets.\""
+   }
+  }
+ },
+ "2024-test2": {
+  "171": {
+   "question": {
+    "from": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?",
+    "to": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"These markets are supplied using more readily available truck and train transportation.\""
+   }
+  }
+ },
+ "2023-test1": {
+  "133": {
+   "options": {
+    "B": {
+     "from": "They",
+     "to": "We"
+    },
+    "C": {
+     "from": "We",
+     "to": "They"
+    }
+   },
+   "answer": {
+    "from": "B",
+    "to": "C"
+   },
+   "explanation": [
+    {
+     "from": "Đáp án đúng là B (They)",
+     "to": "Đáp án đúng là C (They)"
+    }
+   ]
   }
  }
 }

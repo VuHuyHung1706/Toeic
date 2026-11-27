@@ -45,15 +45,105 @@ QUESTION_FIXES: dict[str, dict[str, dict[str, str]]] = {
 } if _QFIX_FILE.exists() else {}
 
 
-def apply_question_fix(text: str, test_id: str, n: int, report: "Report", where: str) -> str:
+def apply_row_fixes(row: dict, test_id: str, report: "Report") -> None:
+    """Sửa tay theo question_fixes.json. Mỗi câu: {"from", "to"} (câu hỏi) và/hoặc
+    "question": {from, to}, "options": {"C": {from, to}}, "answer": {from, to},
+    "explanation": [{from, to}] (thay chuỗi con). Chỉ áp khi dữ liệu CSV còn đúng bằng "from"."""
+    n, where = row["number"], row["where"]
     fix = QUESTION_FIXES.get(test_id, {}).get(str(n))
     if not fix:
-        return text
-    if text != fix["from"]:
-        report.add("warn", test_id, where, f"Câu {n}: CSV đã khác 'from' trong question_fixes.json — chưa áp bản sửa")
-        return text
-    report.add("fixed", test_id, where, f"Câu {n}: sửa câu hỏi theo question_fixes.json")
-    return fix["to"]
+        return
+
+    def swap(cur: str, f: dict, what: str) -> str:
+        if cur != f["from"]:
+            report.add("warn", test_id, where, f"Câu {n}: {what} trong CSV đã khác 'from' (question_fixes.json) — chưa sửa")
+            return cur
+        return f["to"]
+
+    q = fix.get("question") or ({"from": fix["from"], "to": fix["to"]} if "from" in fix else None)
+    if q:
+        row["question"] = swap(row["question"], q, "câu hỏi")
+    for L, f in fix.get("options", {}).items():
+        row["options"][L] = swap(row["options"].get(L, ""), f, f"phương án {L}")
+    if "answer" in fix:
+        row["answer"] = swap(row["answer"] or "", fix["answer"], "đáp án")
+    for f in fix.get("explanation", []):
+        if f["from"] in row["explanation"]:
+            row["explanation"] = row["explanation"].replace(f["from"], f["to"])
+        else:
+            report.add("warn", test_id, where, f"Câu {n}: không thấy '{f['from'][:40]}' trong giải thích (question_fixes.json)")
+    report.add("fixed", test_id, where, f"Câu {n}: sửa theo question_fixes.json")
+
+
+# Chuẩn hoá chung câu hỏi / phương án Part 5–7 (lỗi OCR lặp lại nhiều đề)
+_TIME = re.compile(r"(\d)\s?([AaPpΑΡ])\s?\.\s?[MmМмΜ]\b\.?")
+_MARKED = re.compile(r"(positions?\s+marked)\s+.*?\s+(does\s+the\s+following)", re.I)
+
+
+def normalize_question(part: int, s: str) -> str:
+    if not s:
+        return s
+    s = _TIME.sub(lambda m: f"{m.group(1)} {'A' if m.group(2) in 'AaΑ' else 'P'}.M.", s)
+    if part == 7:
+        s = s.replace(";", ",")  # 2026 đề 6–10: dấu phẩy bị OCR thành chấm phẩy
+        s = _MARKED.sub(r"\1 [1], [2], [3], and [4] \2", s)
+        # ngoặc đơn → ngoặc kép như đề: the word 'x' / writes, 'x'? / best belong? 'x.'
+        s = re.sub(r"((?:word|phrase)\s+)'([^']+)'", r'\1"\2"', s)
+        s = re.sub(r"(writes,\s+)'(.+)'(\??)$", r'\1"\2"\3', s)
+        s = re.sub(r"(belong\?\s+)'(.+)'$", r'\1"\2"', s)
+        s = re.sub(r"(closest in meaning to)\s*[:?]\s*$", r"\1", s)
+        s = re.sub(r"\s+\?$", "?", s)
+    return s
+
+
+_ABBR_END = re.compile(r"(?:[AP]\.M|Inc|Co|Ltd|Corp|Mr|Ms|Mrs|Dr|St|Ave|etc)\.$")
+
+
+def complete_periods(options: dict[str, str]) -> dict[str, str]:
+    """Phương án dạng câu: phần lớn có dấu chấm cuối mà vài cái thiếu (OCR rơi mất) → thêm cho đều."""
+    full = [o for o in options.values() if o.endswith(".") and not _ABBR_END.search(o)]
+    if len(full) < 2:
+        return options
+    return {L: (o + "." if o and re.search(r"[A-Za-z0-9)]$", o) else o) for L, o in options.items()}
+
+
+def normalize_option(part: int, letter: str, s: str) -> str:
+    if not s:
+        return s
+    s = re.sub(rf"^\({letter}\)\s*", "", s)  # "(A) [1]" → "[1]"
+    s = re.sub(r"^(\d+)\.0$", r"\1", s)  # Excel: 102 → "102.0"
+    s = re.sub(r"^£(\d+),00$", r"£\1", s)  # "£39,00" → "£39"
+    s = _TIME.sub(lambda m: f"{m.group(1)} {'A' if m.group(2) in 'AaΑ' else 'P'}.M.", s)
+    if part == 7:
+        s = s.replace(";", ",")
+    return s
+
+
+# Bài đọc Part 6/7 sửa tay (chữ hỏng do OCR), đối chiếu ảnh scan đề — xem scripts/passage_fixes.json
+_PFIX_FILE = Path(__file__).resolve().parent / "passage_fixes.json"
+PASSAGE_FIXES: dict[str, dict[str, list[dict[str, str]]]] = {
+    k: v for k, v in json.loads(_PFIX_FILE.read_text(encoding="utf-8")).items() if not k.startswith("_")
+} if _PFIX_FILE.exists() else {}
+
+
+def unescape_newlines(t: str) -> str:
+    """CSV ghi nhầm ký tự xuống dòng thành chữ: "please?n\\Jing", "Junen\\Subject", "Renaldo,/nThank", "Town\\Đã"."""
+    t = re.sub(r"n\\(?=\S)", "\n", t)
+    t = re.sub(r"/n(?=[A-Z=Đ])", "\n", t)
+    return re.sub(r"\\(?=[A-ZĐ])", "\n", t)
+
+
+def apply_passage_fixes(group: dict, test_id: str, report: "Report", where: str) -> None:
+    n = group["questionNumbers"]
+    for f in PASSAGE_FIXES.get(test_id, {}).get(f"{n[0]}-{n[-1]}", []):
+        lang = f.get("lang", "en")  # "vi": sửa bản dịch
+        for p in group["passages"]:
+            if f["from"] in p[lang]:
+                p[lang] = p[lang].replace(f["from"], f["to"], 1)
+                report.add("fixed", test_id, where, f"Sửa bài đọc: '{f['from'][:40]}' (passage_fixes.json)")
+                break
+        else:
+            report.add("warn", test_id, where, f"Không thấy '{f['from'][:40]}' trong bài đọc (passage_fixes.json)")
 
 
 # Part 6/7: loại văn bản theo dòng hướng dẫn của đề ("refer to the following e-mail and schedule"),
@@ -250,9 +340,22 @@ class Report:
 # ---------------------------------------------------------------------------
 # Tiện ích chuẩn hoá
 # ---------------------------------------------------------------------------
+# OCR lẫn chữ Cyrillic / Hy Lạp trông giống chữ Latin ("То:", "Туре:", "P.м.", "10 А.М.-6 Р.м.") — đề và bản dịch
+# đều không dùng hai bảng chữ này nên đổi hết về chữ Latin; "л.М." là chữ A bị đọc nhầm.
+_HOMOGLYPHS = str.maketrans({
+    "А": "A", "В": "B", "Е": "E", "К": "K", "М": "M", "Н": "H", "О": "O", "Р": "P", "С": "C", "Т": "T", "Х": "X",
+    "а": "a", "е": "e", "о": "o", "р": "p", "с": "c", "у": "y", "х": "x", "м": "M", "к": "k",
+    "Α": "A", "Β": "B", "Ε": "E", "Κ": "K", "Μ": "M", "Ν": "N", "Ο": "O", "Ρ": "P", "Τ": "T", "Χ": "X",
+    "і": "i", "І": "I",
+    "\ufeff": None,
+})
+
+
 def clean_text(v: str | None) -> str:
     if not v:
         return ""
+    v = v.replace("л.М.", "A.M.").translate(_HOMOGLYPHS)
+    v = re.sub(r"\b([AaPp])\.M\.", lambda m: m.group(1).upper() + ".M.", v)  # "p.M." → "P.M."
     v = v.replace("\r\n", "\n").replace("\r", "\n")
     v = v.replace("\\n", "\n")  # CSV lưu xuống dòng dạng literal "\n"
     # ô bị escape CSV hai lần: '"The word ""just"" in…"', '…unexpected.""', ',"Đáp án A…'
@@ -501,14 +604,10 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
             if not explain:
                 report.add("warn", test_id, where, f"Câu {n}: thiếu giải thích")
 
-            question = apply_question_fix(clean_text(rec.get("question", "")), test_id, n, report, where)
-            if part == 5:
-                question = normalize_p5_blank(question)
-
-            rows.append({
+            row = {
                 "number": n,
                 "where": where,
-                "question": question,
+                "question": clean_text(rec.get("question", "")),
                 "options": options,
                 "answer": ans,
                 "explanation": explain,
@@ -516,7 +615,16 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                 "transcript": drop_dash(clean_text(rec.get("transcript", ""))),
                 "audio": (rec.get("audio") or "").strip(),
                 "image": (rec.get("image") or "").strip(),
-            })
+            }
+            apply_row_fixes(row, test_id, report)
+            if part >= 5:
+                row["question"] = normalize_question(part, row["question"])
+                row["options"] = {L: normalize_option(part, L, t) for L, t in row["options"].items()}
+                if part >= 6:
+                    row["options"] = complete_periods(row["options"])
+            if part == 5:
+                row["question"] = normalize_p5_blank(row["question"])
+            rows.append(row)
         rows.sort(key=lambda r: r["number"])
         if part in (6, 7):
             split_direction_lines(rows, embedded_dirs.setdefault(test_id, {}), report, test_id)
@@ -629,11 +737,12 @@ def build_test(data_root: Path, test_dir: Path, report: Report) -> dict:
                     if vi and any(p["vi"] == vi for p in group["passages"]):
                         vi = ""  # bản dịch bị chép lặp ở nhiều câu
                     if part in (6, 7):
-                        en, vi = normalize_passage(en), normalize_passage(vi)
-                    if part in (6, 7):
+                        en, vi = normalize_passage(unescape_newlines(en)), normalize_passage(unescape_newlines(vi))
                         en, vi = drop_label_lines(en, vi)
                     if en or vi:
                         group["passages"].append({"en": en, "vi": vi})
+                if part in (6, 7):
+                    apply_passage_fixes(group, test_id, report, gwhere)
                 if not any(p["en"] for p in group["passages"]) and not images:
                     report.add("warn", test_id, gwhere, "Nhóm không có đoạn văn/script và cũng không có ảnh")
             for r in g:

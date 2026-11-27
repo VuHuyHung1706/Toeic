@@ -8153,7 +8153,7 @@
        "part": 6,
        "question": "",
        "options": {
-        "A": "For those who need to create an account simply visit our Web site.",
+        "A": "For those who need to create an account, simply visit our Web site.",
         "B": "The contract's effective date appears at the top of the document.",
         "C": "The privacy terms are attached to the contract.",
         "D": "Our company is located in Utah."
@@ -8162,6 +8162,10 @@
        "explanation": "Đáp án đúng là A \"For those who need to create an account, simply visit our Web site\" (Đối với những người cần tạo tài khoản, chỉ cần truy cập trang web của chúng tôi) vì câu trước đề cập đến việc có tài khoản Nelsign.\n\nPhân tích từng đáp án:\n- A \"For those who need to create an account, simply visit our Web site\" (Đối với những người cần tạo tài khoản, chỉ cần truy cập trang web của chúng tôi) - ĐÚNG vì bổ sung hướng dẫn cho người chưa có tài khoản.\n- B \"The contract's effective date appears at the top of the document\" (Ngày có hiệu lực của hợp đồng xuất hiện ở đầu tài liệu) - sai vì không liên quan đến việc tạo tài khoản.\n- C \"The privacy terms are attached to the contract\" (Điều khoản bảo mật được đính kèm với hợp đồng) - sai vì không liên quan trực tiếp.\n- D \"Our company is located in Utah\" (Công ty chúng tôi tọa lạc tại Utah) - sai vì thông tin địa điểm không cần thiết ở đây.\n\nNgữ pháp: \"For those who...\" (Đối với những người...) giới thiệu nhóm đối tượng cụ thể.\n\nMẹo: Câu trước nói \"If you have a Nelsign account\" (nếu bạn có tài khoản), nên câu sau cung cấp thông tin cho người chưa có tài khoản.",
        "tags": [],
        "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Đối với những người cần tạo tài khoản, chỉ cần truy cập trang web của chúng tôi"
+        },
         "B": {
          "pos": [],
          "meaning": "Ngày có hiệu lực của hợp đồng xuất hiện ở đầu tài liệu"
@@ -8550,7 +8554,7 @@
       {
        "number": 153,
        "part": 7,
-       "question": "At 5:48 p.M., what does Mr. Lorck imply when he writes, \"I was just packing up\"?",
+       "question": "At 5:48 P.M., what does Mr. Lorck imply when he writes, \"I was just packing up\"?",
        "options": {
         "A": "He is preparing for a trip.",
         "B": "He has not yet left the office.",
@@ -9500,7 +9504,7 @@
       {
        "number": 174,
        "part": 7,
-       "question": "At 7:41 p.m., what does Ms. Leven imply when she writes, \"That one is the best\"?",
+       "question": "At 7:41 P.M., what does Ms. Leven imply when she writes, \"That one is the best\"?",
        "options": {
         "A": "She appreciated a prior online chat discussion.",
         "B": "She has been eager to try a new product.",
@@ -9825,7 +9829,7 @@
       {
        "number": 181,
        "part": 7,
-       "question": "According to the e-mail; what will happen over the next twelve months?",
+       "question": "According to the e-mail, what will happen over the next twelve months?",
        "options": {
         "A": "Travel to smaller cities will decrease.",
         "B": "Landing fees at airports will increase.",
@@ -10215,7 +10219,7 @@
       {
        "number": 190,
        "part": 7,
-       "question": "According to the schedule; when will a company give a presentation about its merchandise?",
+       "question": "According to the schedule, when will a company give a presentation about its merchandise?",
        "options": {
         "A": "At 9:45 A.M.",
         "B": "At 10:30 A.M.",
@@ -10510,7 +10514,7 @@
      "images": [],
      "passages": [
       {
-       "en": "https://www.croydonconstruction.co.nz/news\n\nHome | News | Jobs | Contact Us\n\nIn December, Croydon Construction will mark 25 years in business on the South Island of New Zealand. We take great pride in the many buildings we have built here in Christchurch, where our headquarters are located, and in other locations along the South Island's east coast.\n\nWe have been busy recently with some exciting projects. In Christchurch, we are building the Willoughby Medical Clinic on Grove Road, with a grand opening date of 1 November, and we are expanding the Blakefield Community Centre on Springdale Avenue. In Ashburton, we have nearly finished a 107-unit apartment complex on Passerine Way and have just broken ground on the new wing of the Dismus School on Sixth Street. Steve Kogler is our new chief site engineer.\n\nAre you interested in employment with Croydon Construction? We're hiring for both office and onsite positions. Go to our Jobs page to view open positions and to apply.\n==========\nTo: Sanaa Rahija <srahija@wilmawindows.co.nz>\nFrom: Zack Makoare <zmakoare@croydonconstruction.co.nz>\nDate: 15 August\nSubject: Shipment overdue\n\nDear Ms. Rahija:\n\nI am writing to check on the status of order 47992, which should have arrived here by 31 July and is now two weeks overdue. We are extremely concerned. The building's completion date cannot be postponed. Please let me know when we can expect our windows to arrive. We shall withhold the balance of payment until the items have been received. Wilma Windows has been our supplier for many years, and this is the first time a problem like this has occurred.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n\nZack Makoare\nConstruction Manager, Croydon Construction\n==========\nTo: Zack Makoare <zmakoare@croydonconstruction.co.nz>\nFrom: Sanaa Rahija <srahija@wilmawindows.co.nz>\nDate: 16 August\nSubject: RE: Shipment overdue\n\nDear Mr. Makoare:\n\nPlease accept my apologies for the lateness of order 47992. A machine in our factory malfunctioned, creating flaws in the window glass. The machine has been repaired, and the factory is back to its usual production schedule. We are expediting your order and will ship it tomorrow. It will arrive at your medical clinic construction site on 20 August. As a goodwill gesture, we will refund your entire shipping fee.\n\nSincerely,\n\nSanaa Rahija",
+       "en": "https://www.croydonconstruction.co.nz/news\n\nHome | News | Jobs | Contact Us\n\nIn December, Croydon Construction will mark 25 years in business on the South Island of New Zealand. We take great pride in the many buildings we have built here in Christchurch, where our headquarters are located, and in other locations along the South Island's east coast.\n\nWe have been busy recently with some exciting projects. In Christchurch, we are building the Willoughby Medical Clinic on Grove Road, with a grand opening date of 1 November, and we are expanding the Blakefield Community Centre on Springdale Avenue. In Ashburton, we have nearly finished a 107-unit apartment complex on Passerine Way and have just broken ground on the new wing of the Dismus School on Sixth Street. Steve Kogler is our new chief site engineer.\n\nAre you interested in employment with Croydon Construction? We're hiring for both office and jobsite positions. Go to our Jobs page to view open positions and to apply.\n==========\nTo: Sanaa Rahija <srahija@wilmawindows.co.nz>\nFrom: Zack Makoare <zmakoare@croydonconstruction.co.nz>\nDate: 15 August\nSubject: Shipment overdue\n\nDear Ms. Rahija:\n\nI am writing to check on the status of order 47992, which should have arrived here by 31 July and is now two weeks overdue. We are extremely concerned. The building's completion date cannot be postponed. Please let me know when we can expect our windows to arrive. We shall withhold the balance of payment until the items have been received. Wilma Windows has been our supplier for many years, and this is the first time a problem like this has occurred.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\n\nZack Makoare\nConstruction Manager, Croydon Construction\n==========\nTo: Zack Makoare <zmakoare@croydonconstruction.co.nz>\nFrom: Sanaa Rahija <srahija@wilmawindows.co.nz>\nDate: 16 August\nSubject: RE: Shipment overdue\n\nDear Mr. Makoare:\n\nPlease accept my apologies for the lateness of order 47992. A machine in our factory malfunctioned, creating flaws in the window glass. The machine has been repaired, and the factory is back to its usual production schedule. We are expediting your order and will ship it tomorrow. It will arrive at your medical clinic construction site on 20 August. As a goodwill gesture, we will refund your entire shipping fee.\n\nSincerely,\n\nSanaa Rahija",
        "vi": "https://www.croydonconstruction.co.nz/news\n\nTrang chủ |Tin tức | Việc làm | Liên hệ với chúng tôi\n\nVào tháng 12, Croydon Construction sẽ đánh dấu 25 năm hoạt động tại Đảo Nam của New Zealand. Chúng tôi rất tự hào về nhiều tòa nhà mà chúng tôi đã xây dựng ở Christchurch, nơi đặt trụ sở chính của chúng tôi và ở các địa điểm khác dọc theo bờ biển phía đông của Đảo Nam.\n\nChúng tôi đã bận rộn gần đây với một số dự án thú vị. Tại Christchurch, chúng tôi đang xây dựng Phòng khám Y tế Willoughby trên đường Grove, với ngày khai trương là ngày 1 tháng 11, và chúng tôi đang mở rộng Trung tâm Cộng đồng Blakefield trên Đại lộ Springdale. Ở Ashburton, chúng tôi gần như đã hoàn thành một khu chung cư 107 căn hộ trên Đường Passerine và vừa khởi công trên cánh mới của Trường Dismus trên Phố Sáu. Steve Kogler là kỹ sư trưởng công trường mới của chúng tôi.\n\nBạn có muốn làm việc tại Croydon Construction không? Chúng tôi đang tuyển dụng cho cả vị trí văn phòng và tại chỗ. Truy cập trang Việc làm của chúng tôi để xem các vị trí đang tuyển dụng và nộp đơn.\n==========\nGửi đến: Sanaa Rahija <srahija@wilmawindows.co.nz>\nTừ: Zack Makoare <zmakoare@croydonconstruction.co.nz>\nNgày: 15 tháng 8\nChủ đề: Lô hàng quá hạn\n\nKính gửi cô Rahija:\n\nTôi viết thư này để kiểm tra tình trạng của đơn hàng 47992, đáng lẽ phải đến đây vào ngày 31 tháng 7 và hiện đã quá hạn hai tuần. Chúng tôi vô cùng quan tâm. Ngày hoàn thành của tòa nhà không thể hoãn lại. Vui lòng cho tôi biết khi nào chúng tôi có thể mong đợi cửa sổ của chúng tôi đến. Chúng tôi sẽ giữ lại số dư thanh toán cho đến khi nhận được các mặt hàng. Wilma Windows đã là nhà cung cấp của chúng tôi trong nhiều năm và đây là lần đầu tiên một vấn đề như thế này xảy ra.\n\nCảm ơn bạn đã quan tâm nhanh chóng đến vấn đề này.\n\nTrân trọng,\nZack Makoare\nGiám đốc xây dựng, Croydon Construction\n==========\nGửi đến: Zack Makoare <zmakoare@croydonconstruction.co.nz>\nTừ: Sanaa Rahija <srahija@wilmawindows.co.nz>\nNgày: 16 tháng 8\nChủ đề: RE: Lô hàng quá hạn\n\nKính gửi ông Makoare:\n\nXin chấp nhận lời xin lỗi của tôi vì đơn hàng trễ của đơn hàng992 47. Một chiếc máy trong nhà máy của chúng tôi bị trục trặc, tạo ra khuyết tật trên kính cửa sổ. Máy đã được sửa chữa và nhà máy đã trở lại lịch trình sản xuất thông thường. Chúng tôi đang đẩy nhanh đơn đặt hàng của bạn và sẽ giao hàng vào ngày mai. Nó sẽ đến công trường xây dựng phòng khám y tế của bạn vào ngày 20 tháng 8. Như một cử chỉ thiện chí, chúng tôi sẽ hoàn lại toàn bộ phí vận chuyển của bạn.\n\nChân thành,\n\nSanaa Rahija"
       }
      ],
@@ -10558,7 +10562,7 @@
       {
        "number": 197,
        "part": 7,
-       "question": "According to the Web page; what should job applicants do?",
+       "question": "According to the Web page, what should job applicants do?",
        "options": {
         "A": "Visit the company headquarters in person",
         "B": "Attend a career fair",
@@ -10588,9 +10592,6 @@
         }
        },
        "evidence": [
-        "Are you interested in employment with Croydon Construction?",
-        "We're hiring for both office and onsite positions.",
-        "Go to our Jobs page to view open positions and to apply",
         "Go to our Jobs page",
         "to view open positions and to apply"
        ]

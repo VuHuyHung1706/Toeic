@@ -5357,10 +5357,10 @@
        "part": 4,
        "question": "According to the speaker, what will happen this Friday?",
        "options": {
-        "A": "﻿﻿A delivery will arrive.",
-        "B": "﻿﻿A holiday sale will begin.",
-        "C": "﻿﻿An employee will retire.",
-        "D": "﻿﻿An author will visit."
+        "A": "A delivery will arrive.",
+        "B": "A holiday sale will begin.",
+        "C": "An employee will retire.",
+        "D": "An author will visit."
        },
        "answer": "D",
        "explanation": "Đáp án đúng là D. An author will visit (Một tác giả sẽ đến thăm). Giải thích:\nTrong đoạn văn có câu \"Join us this Friday when renowned author Karima Samir will visit the store\" (Hãy tham gia cùng chúng tôi vào thứ Sáu này khi tác giả nổi tiếng Karima Samir sẽ đến thăm cửa hàng). Điều này trực tiếp xác nhận rằng một tác giả sẽ đến thăm vào thứ Sáu.\nDịch các đáp án:\nA. A delivery will arrive (Một lô hàng sẽ đến) - danh từ\nB. A holiday sale will begin (Một đợt bán hàng dịp lễ sẽ bắt đầu) - danh từ\nC. An employee will retire (Một nhân viên sẽ nghỉ hưu) - danh từ\nD. An author will visit (Một tác giả sẽ đến thăm) - danh từ",
@@ -5389,10 +5389,10 @@
        "part": 4,
        "question": "Look at the graphic. Which aisle does the speaker direct the listeners to?",
        "options": {
-        "A": "﻿﻿Aisle 1",
-        "B": "﻿﻿Aisle 2",
-        "C": "﻿﻿Aisle 3",
-        "D": "﻿﻿Aisle 4"
+        "A": "Aisle 1",
+        "B": "Aisle 2",
+        "C": "Aisle 3",
+        "D": "Aisle 4"
        },
        "answer": "C",
        "explanation": "Đáp án đúng là C. Aisle 3 (Lối đi số 3). Giải thích:\nTrong đoạn văn có câu \"Stop by our history aisle to find her latest book about fascinating North Africa\" (Ghé qua khu vực sách lịch sử của chúng tôi để tìm cuốn sách mới nhất của cô ấy về Bắc Phi thú vị). Theo hình ảnh 1, khu vực sách lịch sử (History) nằm ở lối đi số 3.\nDịch các đáp án:\nA. Aisle 1 (Lối đi số 1) - danh từ\nB. Aisle 2 (Lối đi số 2) - danh từ\nC. Aisle 3 (Lối đi số 3) - danh từ\nD. Aisle 4 (Lối đi số 4) - danh từ",
@@ -5400,19 +5400,19 @@
        "optionNotes": {
         "A": {
          "pos": [],
-         "meaning": "aisle 1"
+         "meaning": "lối đi số 1"
         },
         "B": {
          "pos": [],
-         "meaning": "aisle 2"
+         "meaning": "lối đi số 2"
         },
         "C": {
          "pos": [],
-         "meaning": "aisle 3"
+         "meaning": "lối đi số 3"
         },
         "D": {
          "pos": [],
-         "meaning": "aisle 4"
+         "meaning": "lối đi số 4"
         }
        }
       },
@@ -5421,10 +5421,10 @@
        "part": 4,
        "question": "What can the listeners win?",
        "options": {
-        "A": "﻿﻿A gift card",
-        "B": "﻿﻿A book",
-        "C": "﻿﻿A free membership",
-        "D": "﻿﻿A calendar"
+        "A": "A gift card",
+        "B": "A book",
+        "C": "A free membership",
+        "D": "A calendar"
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A. A gift card (Một thẻ quà tặng). Giải thích:\nTrong đoạn văn có câu \"And make sure you enter our annual drawing while you're here to win a five-dollar gift card for our café!\" (Và đừng quên tham gia vào cuộc rút thăm hàng năm của chúng tôi khi bạn ở đây để có cơ hội trúng thưởng một thẻ quà tặng trị giá năm đô la cho quán cà phê của chúng tôi!). Điều này trực tiếp xác nhận rằng người nghe có thể trúng một thẻ quà tặng.\nDịch các đáp án:\nA. A gift card (Một thẻ quà tặng) - danh từ\nB. A book (Một cuốn sách) - danh từ\nC. A free membership (Một tư cách thành viên miễn phí) - danh từ\nD. A calendar (Một cuốn lịch) - danh từ",
@@ -5432,19 +5432,19 @@
        "optionNotes": {
         "A": {
          "pos": [],
-         "meaning": "a gift card"
+         "meaning": "một thẻ quà tặng"
         },
         "B": {
          "pos": [],
-         "meaning": "a book"
+         "meaning": "một cuốn sách"
         },
         "C": {
          "pos": [],
-         "meaning": "a free membership"
+         "meaning": "một tư cách thành viên miễn phí"
         },
         "D": {
          "pos": [],
-         "meaning": "a calendar"
+         "meaning": "một cuốn lịch"
         }
        }
       }
@@ -8122,8 +8122,8 @@
      "images": [],
      "passages": [
       {
-       "en": "То: All Residents\nFrom: Dan Madsen\nDate: 20 September\nSubject: Georgetown Marathon\nTo all Thompson Towers residents:\nThe 25th annual Georgetown Marathon will be held next Saturday. This year, for the first time, the race will turn off of River Street and proceed onto Elmont Avenue, So on Saturday, there will be nearly 5,000 registered contestants running along the stretch of road that provides the only access to our Thompson Towers parking garage entrance.\nUnsurprisingly, Elmont Avenue will be closed to all vehicle traffic between 7:00 A.M. and\n10:45 A.M. This means that residents' cars will not be able to enter or exit our parking garage during this event. If you know that you will need to use your car during this period, we recommend that you make arrangements ahead of time for either leaving early or parking elsewhere.\nFor more information about the race, including maps, registration guidelines, and alternative parking locations, please go to www.georgetownmarathon.co.uk.\nSincerely yours,\nDan Madsen\nProperty Manager, Thompson Towers",
-       "vi": "То: Tất cả cư dân\nTừ: Dan Madsen\nNgày: 20 tháng 9\nChủ đề: Georgetown Marathon\nGửi đến tất cả cư dân Thompson Towers:\nCuộc thi Georgetown Marathon thường niên lần thứ 25 sẽ được tổ chức vào thứ Bảy tới. Năm nay, lần đầu tiên, cuộc đua sẽ rẽ khỏi Phố River và tiến vào Đại lộ Elmont, Vì vậy vào thứ Bảy, sẽ có gần 5.000 thí sinh đã đăng ký chạy dọc theo đoạn đường cung cấp lối vào duy nhất vào nhà để xe Thompson Towers của chúng tôi.\nKhông có gì đáng ngạc nhiên, Đại lộ Elmont sẽ bị đóng cửa đối với tất cả các phương tiện giao thông trong khoảng thời gian từ 7:00 sáng đến\n10:45 sáng. Điều này có nghĩa là ô tô của cư dân sẽ không thể vào hoặc ra khỏi nhà để xe của chúng tôi trong sự kiện này. Nếu bạn biết rằng bạn sẽ cần sử dụng xe của mình trong thời gian này, chúng tôi khuyên bạn nên sắp xếp trước để rời đi sớm hoặc đỗ xe ở nơi khác.\nĐể biết thêm thông tin về cuộc đua, bao gồm bản đồ, hướng dẫn đăng ký và địa điểm đỗ xe thay thế, vui lòng truy cập www.georgetownmarathon.co.uk.\nTrân trọng,\nDan Madsen\nQuản lý bất động sản, Thompson Towers"
+       "en": "To: All Residents\nFrom: Dan Madsen\nDate: 20 September\nSubject: Georgetown Marathon\nTo all Thompson Towers residents:\nThe 25th annual Georgetown Marathon will be held next Saturday. This year, for the first time, the race will turn off of River Street and proceed onto Elmont Avenue, So on Saturday, there will be nearly 5,000 registered contestants running along the stretch of road that provides the only access to our Thompson Towers parking garage entrance.\nUnsurprisingly, Elmont Avenue will be closed to all vehicle traffic between 7:00 A.M. and\n10:45 A.M. This means that residents' cars will not be able to enter or exit our parking garage during this event. If you know that you will need to use your car during this period, we recommend that you make arrangements ahead of time for either leaving early or parking elsewhere.\nFor more information about the race, including maps, registration guidelines, and alternative parking locations, please go to www.georgetownmarathon.co.uk.\nSincerely yours,\nDan Madsen\nProperty Manager, Thompson Towers",
+       "vi": "To: Tất cả cư dân\nTừ: Dan Madsen\nNgày: 20 tháng 9\nChủ đề: Georgetown Marathon\nGửi đến tất cả cư dân Thompson Towers:\nCuộc thi Georgetown Marathon thường niên lần thứ 25 sẽ được tổ chức vào thứ Bảy tới. Năm nay, lần đầu tiên, cuộc đua sẽ rẽ khỏi Phố River và tiến vào Đại lộ Elmont, Vì vậy vào thứ Bảy, sẽ có gần 5.000 thí sinh đã đăng ký chạy dọc theo đoạn đường cung cấp lối vào duy nhất vào nhà để xe Thompson Towers của chúng tôi.\nKhông có gì đáng ngạc nhiên, Đại lộ Elmont sẽ bị đóng cửa đối với tất cả các phương tiện giao thông trong khoảng thời gian từ 7:00 sáng đến\n10:45 sáng. Điều này có nghĩa là ô tô của cư dân sẽ không thể vào hoặc ra khỏi nhà để xe của chúng tôi trong sự kiện này. Nếu bạn biết rằng bạn sẽ cần sử dụng xe của mình trong thời gian này, chúng tôi khuyên bạn nên sắp xếp trước để rời đi sớm hoặc đỗ xe ở nơi khác.\nĐể biết thêm thông tin về cuộc đua, bao gồm bản đồ, hướng dẫn đăng ký và địa điểm đỗ xe thay thế, vui lòng truy cập www.georgetownmarathon.co.uk.\nTrân trọng,\nDan Madsen\nQuản lý bất động sản, Thompson Towers"
       }
      ],
      "questions": [
@@ -8172,7 +8172,7 @@
         "A": "It has close to 5,000 participants.",
         "B": "It is being held for the first time.",
         "C": "It starts on Elmont Avenue.",
-        "D": "It includes participants from Thompson lowers."
+        "D": "It includes participants from Thompson Towers."
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A vì email nêu rõ: \"there will be nearly 5,000 registered contestants running along the stretch of road\" (sẽ có gần 5.000 thí sinh đăng ký chạy dọc theo đoạn đường).\nEmail không cho biết đây là lần đầu tiên cuộc đua được tổ chức (thực tế, đây là lần thứ 25), không nói rằng nó bắt đầu trên Đại lộ Elmont, và không đề cập đến việc có người tham gia từ Thompson Towers.",
@@ -8693,7 +8693,7 @@
      "passages": [
       {
        "en": "[2:11 P.M.] Frank Stern:\nHi, Petra. A customer wants 1,000 glossy color posters, double-sided. Any chance we can do this today? If not, they might take the job elsewhere.\n[2:12 P.M.] Petra Kitzos:\nProbably not. We're backed up with a big job for Noble Architects. How about first thing tomorrow?\n[2:12 P.M.] Frank Stern:\nI'll ask.\n[2:13 P.M.] Frank Stern:\nThey want to know if it can be done by 10 A.M.\n[2:13 P.M.] Petra Kitzos:\nSure.\n[2:14 P.M.] Frank Stern:\nThat's a relief. Thanks.",
-       "vi": "[2:11 chiều] Frank Stern:\nXin chào, Petra. Một khách hàng muốn 1.000 áp phích màu bóng, hai mặt. Có cơ hội nào chúng ta có thể làm điều này hôm nay không? Nếu không, họ có thể nhận công việc ở nơi khác.\n[2:12 chiều] Petra Kitzos:\nCó lẽ là không. Chúng tôi được hỗ trợ bởi một công việc lớn cho Noble Architects. Làm thế nào về việc đầu tiên vào ngày mai?  [2:12 chiều] Frank Stern:\nTôi sẽ hỏi.\n[2:13 chiều] Frank Stern:\nHọ muốn biết liệu nó có thể được hoàn thành trước 10 giờ sáng hay không.\n[2:13 P.M.] Petra Kitzos:\nChắc Chắn.\n[2:14 Chiều] Frank Stern:\nThật nhẹ nhõm. Cảm ơn."
+       "vi": "[2:11 chiều] Frank Stern:\nXin chào, Petra. Một khách hàng muốn 1.000 áp phích màu bóng, hai mặt. Có cơ hội nào chúng ta có thể làm điều này hôm nay không? Nếu không, họ có thể nhận công việc ở nơi khác.\n[2:12 chiều] Petra Kitzos:\nCó lẽ là không. Chúng tôi được hỗ trợ bởi một công việc lớn cho Noble Architects. Làm thế nào về việc đầu tiên vào ngày mai?\nN[2:12 chiều] Frank Stern:\nTôi sẽ hỏi.\n[2:13 chiều] Frank Stern:\nHọ muốn biết liệu nó có thể được hoàn thành trước 10 giờ sáng hay không.\n[2:13 P.M.] Petra Kitzos:\nChắc Chắn.\n[2:14 Chiều] Frank Stern:\nThật nhẹ nhõm. Cảm ơn."
       }
      ],
      "questions": [
@@ -8733,7 +8733,7 @@
       {
        "number": 163,
        "part": 7,
-       "question": "At 2:14 p.M., what does Mr. Stern most likely mean when he writes, \"That's a relief\"?",
+       "question": "At 2:14 P.M., what does Mr. Stern most likely mean when he writes, \"That's a relief\"?",
        "options": {
         "A": "He is grateful to Ms. Kitzos for working overtime.",
         "B": "He is no longer worried that his company might lose a client.",
@@ -8906,7 +8906,7 @@
        "part": 7,
        "question": "According to the article, what is likely to happen soon?",
        "options": {
-        "A": "Construction will begin on a new building",
+        "A": "Construction will begin on a new building.",
         "B": "All Behr Square residences will be purchased.",
         "C": "Houkcomm will negotiate new supply contracts.",
         "D": "Manufacturing jobs will increase in Roseville."
@@ -8959,7 +8959,7 @@
      "images": [],
      "passages": [
       {
-       "en": "From: Takeshi Ishiguro\nTo: All Sevastya employees\nSubject: Update\nDate: December 13\nDear Sevastya employees,\nI am writing to give you an update on this year's sales so far. [1] Lam happy to report that currently our sales volume is up 20% from last year. This is due in part to the fact that we have been very successful in expanding our international reach.\n [2] In Brazil, sales increased 57%, which can be attributed to the Rio de Janeiro Fashion Show where our evening wear was featured. A similar trend emerged in Russia, where sales were up by 32%. [3] There we anticipate sustained growth for the rest of the year, especially in our winter apparel line. We also saw sales growth in the United Arab Emirates (UAE), but growth was a modest 10% due to fierce competition. That said, in this market, sign-ups for our credit card were strong. Finally, in Korea, where we have had our most successful international market launch thus far, favorable news articles about our products drove very strong sales.\n [4] Thus, overall, it's been an excellent year so far. I am confident that our new program, which offers discounts to customers who invite others to shop with us, will begin to boost sales growth at all locations.\nSincerely,\nTakeshi Ishiguro\nVice President of Sales",
+       "en": "From: Takeshi Ishiguro\nTo: All Sevastya employees\nSubject: Update\nDate: December 13\nDear Sevastya employees,\nI am writing to give you an update on this year's sales so far. [1] Lam happy to report that currently our sales volume is up 20% from last year. This is due in part to the fact that we have been very successful in expanding our international reach.\n [2] In Brazil, sales increased 57%, which can be attributed to the Rio de Janeiro Fashion Show where our evening wear was featured. A similar trend emerged in Russia, where sales were up by 32%. [3] There we anticipate sustained growth for the rest of the year, especially in our winter apparel line. We also saw sales growth in the United Arab Emirates (UAE), but growth was a modest 10% due to fierce competition. That said, in this market, sign-ups for our credit card were strong. Finally, in Korea, where we have had our most successful international market launch thus far, favorable news articles about our products drove very strong sales.\n[4] Thus, overall, it's been an excellent year so far. I am confident that our new program, which offers discounts to customers who invite others to shop with us, will begin to boost sales growth at all locations.\nSincerely,\nTakeshi Ishiguro\nVice President of Sales",
        "vi": "Từ: Takeshi Ishiguro\nGửi đến: Tất cả nhân viên Sevastya\nChủ đề: Cập nhật\nNgày: 13 tháng 12\nNhân viên Sevastya thân mến,\nTôi viết thư này để cập nhật cho bạn về doanh số bán hàng của năm nay cho đến nay. [1] Lam vui mừng thông báo rằng hiện tại khối lượng bán hàng của chúng tôi đã tăng 20% so với năm ngoái. Điều này một phần là do thực tế là chúng tôi đã rất thành công trong việc mở rộng phạm vi tiếp cận quốc tế của mình.\n [2] Tại Brazil, doanh số bán hàng tăng 57%, có thể được quy cho buổi trình diễn thời trang Rio de Janeiro, nơi trang phục dạ hội của chúng tôi được giới thiệu. Một xu hướng tương tự cũng xuất hiện ở Nga, nơi doanh số bán hàng tăng 32%. [3] Ở đó, chúng tôi dự đoán tăng trưởng bền vững trong thời gian còn lại của năm, đặc biệt là trong dòng quần áo mùa đông của chúng tôi. Chúng tôi cũng chứng kiến sự tăng trưởng doanh số bán hàng ở Các Tiểu vương quốc Ả Rập Thống nhất (UAE), nhưng mức tăng trưởng ở mức khiêm tốn 10% do sự cạnh tranh khốc liệt. Điều đó nói rằng, trong thị trường này, số người đăng ký thẻ tín dụng của chúng tôi rất mạnh. Cuối cùng, tại Hàn Quốc, nơi chúng tôi đã ra mắt thị trường quốc tế thành công nhất cho đến nay, các bài báo thuận lợi về sản phẩm của chúng tôi đã thúc đẩy doanh số bán hàng rất mạnh.\n [4] Do đó, nhìn chung, đây là một năm tuyệt vời cho đến nay. Tôi tin rằng chương trình mới của chúng tôi, cung cấp giảm giá cho những khách hàng mời người khác đến mua sắm với chúng tôi, sẽ bắt đầu thúc đẩy tăng trưởng doanh số bán hàng tại tất cả các địa điểm.\nTrân trọng,\nTakeshi Ishiguro\nPhó Chủ tịch Bán hàng"
       }
      ],
@@ -9110,7 +9110,7 @@
      "images": [],
      "passages": [
       {
-       "en": "Lynda McCann (1:08 P.M.) Hello, Bernadette and Harrison. We urgently need to schedule a team meeting, so we can get working on our project.\nBernadette Ecco (1:10 P.M.) Sure. Are you wanting an all-marketing-staff meeting? Let me know if I can assist.\nLynda McCann (1:12 P.M.) No, I was thinking of the O'Neil project, so only the three of us who are on that team need to meet.\nBernadette Ecco (1:14 P.M.) Okay. I'm free either this Wednesday or Friday during the early afternoon.\nHarrison Miller (1:15 P.M.) I thought I had been reassigned to the McMillan project instead.\nBernadette Ecco (1:17 P.M.) No, the final slot on that team was filled by Jacob Aikens, since he's worked on similar projects in the past, like the Greller project and the Allford project.\nHarrison Miller (1:18 P.M.) Okay, I see.\nLynda NcCann (1:19 P.M.) I'm available on Wednesday and Friday as well, but only before\n3 P.M. I'll be meeting with the sales team on Wednesday at 3 P.M. and the research team on Friday at 3:30 P.M.\nHarrison Miller (1:21 P.M.) Wednesday won't work for me, but I could do Friday at 1 P.M.\nLynda McCann (1:23 P.M.) Sounds good! Bernadette?\nBernadette Ecco (1:23 P.M.) Perfect! I'll reserve the small conference room for us.",
+       "en": "Lynda McCann (1:08 P.M.) Hello, Bernadette and Harrison. We urgently need to schedule a team meeting, so we can get working on our project.\nBernadette Ecco (1:10 P.M.) Sure. Are you wanting an all-marketing-staff meeting? Let me know if I can assist.\nLynda McCann (1:12 P.M.) No, I was thinking of the O'Neil project, so only the three of us who are on that team need to meet.\nBernadette Ecco (1:14 P.M.) Okay. I'm free either this Wednesday or Friday during the early afternoon.\nHarrison Miller (1:15 P.M.) I thought I had been reassigned to the McMillan project instead.\nBernadette Ecco (1:17 P.M.) No, the final slot on that team was filled by Jacob Aikens, since he's worked on similar projects in the past, like the Greller project and the Allford project.\nHarrison Miller (1:18 P.M.) Okay, I see.\nLynda McCann (1:19 P.M.) I'm available on Wednesday and Friday as well, but only before\n3 P.M. I'll be meeting with the sales team on Wednesday at 3 P.M. and the research team on Friday at 3:30 P.M.\nHarrison Miller (1:21 P.M.) Wednesday won't work for me, but I could do Friday at 1 P.M.\nLynda McCann (1:23 P.M.) Sounds good! Bernadette?\nBernadette Ecco (1:23 P.M.) Perfect! I'll reserve the small conference room for us.",
        "vi": "Lynda McCann (1:08 Chiều) Xin chào, Bernadette và Harrison. Chúng tôi cần khẩn trương lên lịch một cuộc họp nhóm, để chúng tôi có thể thực hiện dự án của mình.\nBernadette Ecco (1:10 chiều) Chắc chắn rồi. Bạn có muốn một cuộc họp toàn bộ nhân viên tiếp thị không? Hãy cho tôi biết nếu tôi có thể hỗ trợ.\nLynda McCann (1:12 chiều) Không, tôi đang nghĩ đến dự án O'Neil, vì vậy chỉ có ba người chúng tôi trong nhóm đó cần gặp nhau.\nBernadette Ecco (1:14 chiều) Được rồi. Tôi rảnh vào thứ Tư hoặc thứ Sáu tuần này vào đầu giờ chiều.\nHarrison Miller (1:15 chiều) Thay vào đó, tôi nghĩ rằng tôi đã được giao lại cho dự án McMillan.\nBernadette Ecco (1:17 chiều) Không, vị trí cuối cùng trong đội đó đã được lấp đầy bởi Jacob Aikens, vì anh ấy đã làm việc trong các dự án tương tự trong quá khứ, như dự án Greller và dự án Allford.\nHarrison Miller (1:18 chiều) Được rồi, tôi hiểu rồi.\nLynda NcCann (1:19 chiều) Tôi cũng rảnh vào thứ Tư và thứ Sáu, nhưng chỉ trước\n3 giờ chiều. Tôi sẽ gặp nhóm bán hàng vào thứ Tư lúc 3 giờ chiều và nhóm nghiên cứu vào thứ Sáu lúc 3:30 chiều\nHarrison Miller (1:21 chiều) Thứ Tư sẽ không phù hợp với tôi, nhưng tôi có thể làm vào thứ Sáu lúc 1 giờ chiều\nLynda McCann (1:23 chiều) Nghe hay đấy! Bernadette?\nBernadette Ecco (1:23 Chiều) Hoàn hảo! Tôi sẽ đặt phòng hội nghị nhỏ cho chúng ta."
       }
      ],
@@ -9361,7 +9361,7 @@
        "question": "What does Ms. Gurmani suggest about Greer's Coffee?",
        "options": {
         "A": "It has had a coffee club before.",
-        "B": "Itis a new company.",
+        "B": "It is a new company.",
         "C": "It hired a marketing consultant.",
         "D": "It is launching a new coffee flavor."
        },
@@ -9489,7 +9489,7 @@
      "images": [],
      "passages": [
       {
-       "en": "Job Posted: April 10\nSeeking: Highly Experienced Finance Director\nEmployer: Vimaxo Financial Services (VES)\nDuties include:\n* Setting annual financial targets\n* Managing the duties of accounting staff\n* Overseeing investments and cash flow\n* Developing sound financial strategies\nPrerequisites:\n* 5 years of experience as a finance director\n* A university degree in economics or similar field\n* Excellent communication skills\n* Outstanding analytical skills\nLo apply: Send application and supporting documents to our director of Human Resources, Celeste Zomorodi, at zomorodi.c@fs.com by May 15. We aim to hire the ideal applicant by June 21 and have him/her begin work on July 1.\n==========\nFrom: Noritaka Hosokawa\nTo: Celeste Zomorodi\nDate: April 11\nSubject: Finance director\nDear Celeste,\nI wanted to ask you about the finance director job posting released by our department just yesterday. I have a friend named Michaela Shabiby who I think may be a good fit for this position. May I encourage her to apply?\nMichaela graduated with a Master's degree in Finance from the University of Grenada three years ago and has worked since then as finance director at Southside Investment Bank. She is an experienced trainer, and her analytical skills are unparalleled. Please let me know.\nThanks,\nNoritaka Hosokawa",
+       "en": "Job Posted: April 10\nSeeking: Highly Experienced Finance Director\nEmployer: Vimaxo Financial Services (VFS)\nDuties include:\n* Setting annual financial targets\n* Managing the duties of accounting staff\n* Overseeing investments and cash flow\n* Developing sound financial strategies\nPrerequisites:\n* 5 years of experience as a finance director\n* A university degree in economics or similar field\n* Excellent communication skills\n* Outstanding analytical skills\nTo apply: Send application and supporting documents to our director of Human Resources, Celeste Zomorodi, at zomorodi.c@vfs.com by May 15. We aim to hire the ideal applicant by June 21 and have him/her begin work on July 1.\n==========\nFrom: Noritaka Hosokawa\nTo: Celeste Zomorodi\nDate: April 11\nSubject: Finance director\nDear Celeste,\nI wanted to ask you about the finance director job posting released by our department just yesterday. I have a friend named Michaela Shabiby who I think may be a good fit for this position. May I encourage her to apply?\nMichaela graduated with a Master's degree in Finance from the University of Grenada three years ago and has worked since then as finance director at Southside Investment Bank. She is an experienced trainer, and her analytical skills are unparalleled. Please let me know.\nThanks,\nNoritaka Hosokawa",
        "vi": "Công việc được đăng: ngày 10 tháng 4\nTìm kiếm: Giám đốc tài chính giàu kinh nghiệm\nNhà tuyển dụng: Dịch vụ tài chính Vimaxo (VES)\nNhiệm vụ bao gồm:\n* Thiết lập các mục tiêu tài chính hàng năm\n* Quản lý nhiệm vụ của nhân viên kế toán\n* Giám sát các khoản đầu tư và dòng tiền\n* Phát triển các chiến lược tài chính hợp lý\nĐiều kiện tiên quyết:\n* 5 năm kinh nghiệm làm giám đốc tài chính\n* Bằng đại học về kinh tế hoặc lĩnh vực tương tự\n* Kỹ năng giao tiếp xuất sắc\n* Kỹ năng phân tích vượt trội\nNộp đơn: Gửi đơn đăng ký và tài liệu hỗ trợ cho giám đốc Nhân sự của chúng tôi, Celeste Zomorodi, tại zomorodi.c@fs.com trước ngày 15 tháng 5. Chúng tôi đặt mục tiêu thuê ứng viên lý tưởng trước ngày 21 tháng 6 và để anh ấy/cô ấy bắt đầu làm việc vào ngày 1 tháng 7.\n==========\nTừ: Noritaka Hosokawa\nGửi đến: Celeste Zomorodi\nNgày: 11 tháng 4\nChủ đề: Giám đốc tài chính\nCeleste thân mến,\nTôi muốn hỏi bạn về thông báo tuyển dụng giám đốc tài chính do bộ phận của chúng tôi phát hành vừa mới hôm qua. Tôi có một người bạn tên là Michaela Shabiby, người mà tôi nghĩ có thể rất phù hợp với vị trí này. Tôi có thể khuyến khích cô ấy nộp đơn không?\nMichaela tốt nghiệp Thạc sĩ Tài chính tại Đại học Grenada ba năm trước và kể từ đó đã làm giám đốc tài chính tại Ngân hàng Đầu tư Southside. Cô ấy là một huấn luyện viên giàu kinh nghiệm, và kỹ năng phân tích của cô ấy là vô song. Vui lòng cho tôi biết.\nCảm ơn,\nNoritaka Hosokawa"
       }
      ],
@@ -9564,7 +9564,7 @@
         }
        },
        "evidence": [
-        "Send application and supporting documents to our director of Human Resources, Celeste Zomorodi, at zomorodi.c@fs.com by May 15"
+        "To apply: Send application and supporting documents to our director of Human Resources, Celeste Zomorodi, at zomorodi."
        ]
       },
       {
@@ -9606,7 +9606,7 @@
       {
        "number": 184,
        "part": 7,
-       "question": "In the e-mail, the word \"it\" in paragraph 1, line 2, is closest in meaning to",
+       "question": "In the e-mail, the word \"fit\" in paragraph 1, line 2, is closest in meaning to",
        "options": {
         "A": "agreement",
         "B": "success",
@@ -9700,7 +9700,7 @@
      "images": [],
      "passages": [
       {
-       "en": "http://www.nozawamotors.ca/newsroom\nAbout Nozawa         Newsroom        Forums       Driver Stories\nThe new Nozawa 10 is finally here! We have made our dashboard navigation system fully voice enabled. With our Nozawa Navigation Interface (NNI), drivers can stay focused on the road. We have also added upholders berween the front seats, enhanced the back-seat speakers, and expanded the cargo area by 29 liters. Check out our new model at your Nozawa Motors dealer, and let us know what you think!\n==========\nDo you have any comments, questions, or concerns?\nI've been a Nozawa customer for more than a decade, and I recently got a new Nozawa 10. Overall, I am happy with my purchase, but I am not pleased with the new position of the cupholders. Some air vents could have been placed there instead, and it would have made the heating and cooling system more efficient.\nLike other drivers, I too have had some problems with the NNI system. I do, however, really like being able to fit more in the trunk, and this model's acceleration power seems to have improved compared with previous models.\nIf you would like to receive a personal reply to your survey response, please enter your contact information.\nName: Michelle Herrera\nE-mail address: mherrera@notezip.com\n==========\nMEMO\nFrom: Tabitha Marks\nTo: Nozawa Service Center Managers\nSubject: New release\nWe received negative customer feedback about the new Nozawa 10 model's\nNNI system. In response we have just released a new NNI software update that fixes the bugs. Please begin installing this update immediately to all current year Nozawa 10s that are brought to your shops for servicing. You can expect an increase in Nozawa 10s being brought in for service as we will be notifying all owners that this update is available.",
+       "en": "http://www.nozawamotors.ca/newsroom\nAbout Nozawa         Newsroom        Forums       Driver Stories\nThe new Nozawa 10 is finally here! We have made our dashboard navigation system fully voice enabled. With our Nozawa Navigation Interface (NNI), drivers can stay focused on the road. We have also added cupholders between the front seats, enhanced the back-seat speakers, and expanded the cargo area by 29 liters. Check out our new model at your Nozawa Motors dealer, and let us know what you think!\n==========\nDo you have any comments, questions, or concerns?\nI've been a Nozawa customer for more than a decade, and I recently got a new Nozawa 10. Overall, I am happy with my purchase, but I am not pleased with the new position of the cupholders. Some air vents could have been placed there instead, and it would have made the heating and cooling system more efficient.\nLike other drivers, I too have had some problems with the NNI system. I do, however, really like being able to fit more in the trunk, and this model's acceleration power seems to have improved compared with previous models.\nIf you would like to receive a personal reply to your survey response, please enter your contact information.\nName: Michelle Herrera\nE-mail address: mherrera@notezip.com\n==========\nMEMO\nFrom: Tabitha Marks\nTo: Nozawa Service Center Managers\nSubject: New release\nWe received negative customer feedback about the new Nozawa 10 model's\nNNI system. In response we have just released a new NNI software update that fixes the bugs. Please begin installing this update immediately to all current year Nozawa 10s that are brought to your shops for servicing. You can expect an increase in Nozawa 10s being brought in for service as we will be notifying all owners that this update is available.",
        "vi": "http://www.nozawamotors.ca/newsroom\nGiới thiệu về Nozawa Newsroom Diễn đàn Câu chuyện tài xế\nNozawa 10 mới cuối cùng cũng đã có mặt! Chúng tôi đã làm cho hệ thống điều hướng bảng điều khiển của mình hoàn toàn được kích hoạt bằng giọng nói. Với Giao diện điều hướng Nozawa (NNI) của chúng tôi, những người lái xe có thể tập trung vào con đường. Chúng tôi cũng đã thêm các giá đỡ giữa ghế trước, tăng cường loa ở ghế sau và mở rộng diện tích hàng hóa thêm 29 lít. Hãy xem mô hình mới của chúng tôi tại đại lý Nozawa Motors của bạn và cho chúng tôi biết suy nghĩ của bạn!\n==========\nBạn có nhận xét, câu hỏi hoặc mối quan tâm nào không?\nTôi đã là khách hàng của Nozawa được hơn một thập kỷ và gần đây tôi đã có một chiếc Nozawa 10 mới. Nhìn chung, tôi hài lòng với việc mua hàng của mình, nhưng tôi không hài lòng với vị trí mới của giá đỡ cốc. Thay vào đó, một số lỗ thông hơi có thể được đặt ở đó và nó sẽ giúp hệ thống sưởi ấm và làm mát hiệu quả hơn.\nGiống như các trình điều khiển khác, tôi cũng đã gặp một số vấn đề với hệ thống NNI. Tuy nhiên, tôi thực sự muốn có thể lắp nhiều hơn vào cốp xe và khả năng tăng tốc của mẫu xe này dường như đã được cải thiện so với các mẫu trước đó.\nNếu bạn muốn nhận phản hồi cá nhân cho câu trả lời khảo sát của mình, vui lòng nhập thông tin liên hệ của bạn.\nTên: Michelle Herrera\nĐịa chỉ email: mherrera@notezip.com\n==========\nMEMO\nTừ: Tabitha Marks\nGửi: Quản lý Trung tâm Dịch vụ Nozawa\nChủ đề: Bản phát hành mới\nChúng tôi đã nhận được phản hồi tiêu cực của khách hàng về mô hình Nozawa 10 mới\nHệ thống NNI. Đáp lại, chúng tôi vừa phát hành bản cập nhật phần mềm NNI mới để sửa các lỗi. Vui lòng bắt đầu cài đặt bản cập nhật này ngay lập tức cho tất cả các Nozawa 10s năm hiện tại được mang đến các cửa hàng của bạn để bảo dưỡng. Bạn có thể mong đợi sự gia tăng của Nozawa 10s được đưa vào sử dụng vì chúng tôi sẽ thông báo cho tất cả chủ sở hữu rằng bản cập nhật này đã có sẵn."
       }
      ],
@@ -9737,7 +9737,7 @@
       {
        "number": 187,
        "part": 7,
-       "question": "According to the Web page, what is bigger in the new Nozawa 10 ?",
+       "question": "According to the Web page, what is bigger in the new Nozawa 10?",
        "options": {
         "A": "The storage space",
         "B": "The steering wheel",
@@ -9908,7 +9908,7 @@
      "passages": [
       {
        "en": "http://www.pinkbegoniafarms.com\nPink Begonia Farms\nPink Begonia Farms is your one-stop shop for all your plant-related needs. Whether you are a landscape professional, a backyard gardener, or a houseplant enthusiast, we have just about everything you need! Some seeds, fertilizer, and equipment can be ordered online, but please come visit our nursery in person for a much larger selection.\nOur sizable facility is divided into four distinct sections as follows:\n* North Gate\n* indoor houseplants, tropical plants, exotics\n* South Gate\n* plants and landscaping products sold in bulk quantities at wholesale prices\n* East Gate\n* local landscape plants that grow well in our area and require little maintenance\n* West Gate\n* herbs, vegetable plants, fruit and nut trees, and other edibles\n==========\nAttention Pink Begonia Farms Customers!\nWe are changing to new ownership on April 1. Several other changes will follow, most notably renovation work that will cause the area where we service our bulk-order customers to be closed from April 1\nthrough May 5.\nAlso, we would kindly request that if you use our baskets or wagons to move your purchased items to your car, please do not leave them in the middle of the parking area. Thanks!\n==========\nhttp://www.retaileropinion.com/reviews/pinkbegoniafarms\nI had a wonderful experience shopping at Pink Begonia Farms. Recently I was preparing a client's property for sale, and I needed extensive landscaping work to be done. The front entryway needed extra color and greenery before I could show the house to potential buyers. Knowing nothing about plants, I asked the store staff to help me pick out an assortment of local favorites that would require very little manual watering or care. When finished, the house looked so much more inviting.\nThanks Pink Begonia Farms for your excellent service!\n— Daphne Weigand\nApril 15",
-       "vi": "http://www.pinkbegoniafarms.com\nPink Begonia Farms\nPink Begonia Farms là cửa hàng duy nhất cho tất cả các nhu cầu liên quan đến thực vật của bạn. Cho dù bạn là một chuyên gia cảnh quan, một người làm vườn ở sân sau hay một người đam mê trồng cây trong nhà, chúng tôi đều có mọi thứ bạn cần! Một số hạt giống, phân bón và thiết bị có thể được đặt hàng trực tuyến, nhưng vui lòng đến thăm vườn ươm của chúng tôi để có nhiều lựa chọn lớn hơn.\nCơ sở vật chất khá lớn của chúng tôi được chia thành bốn phần riêng biệt như sau:\n* North Gate\n* cây trồng trong nhà, cây nhiệt đới, cây kỳ lạ\n* South Gate\n* cây và các sản phẩm cảnh quan được bán với số lượng lớn với giá bán buôn\n* East Gate\n* cây cảnh địa phương phát triển tốt trong khu vực của chúng tôi và ít cần bảo trì\n* West Gate\n* thảo mộc, cây rau, cây ăn quả và các loại hạt, và các loại thực phẩm ăn được khác\n==========\nChú ý Khách hàng của Pink Begonia Farms!\nChúng tôi sẽ chuyển sang quyền sở hữu mới vào ngày 1 tháng 4. Một số thay đổi khác sẽ theo sau, đáng chú ý nhất là công việc cải tạo sẽ khiến khu vực nơi chúng tôi phục vụ khách hàng đặt hàng số lượng lớn của mình bị đóng cửa từ ngày 1 tháng 4\nđến ngày 5 tháng 5.\nNgoài ra, chúng tôi vui lòng yêu cầu rằng nếu bạn sử dụng giỏ hoặc toa xe của chúng tôi để di chuyển các mặt hàng đã mua vào xe của bạn, vui lòng không để chúng ở giữa khu vực đỗ xe. Cảm ơn!\n==========\nhttp://www.retaileropinion.com/reviews/pinkbegoniafarms\nTôi đã có một trải nghiệm tuyệt vời khi mua sắm tại Pink Begonia Farms. Gần đây tôi đang chuẩn bị bán bất động sản của một khách hàng và tôi cần hoàn thành công việc cảnh quan rộng rãi. Lối vào phía trước cần thêm màu sắc và cây xanh trước khi tôi có thể giới thiệu ngôi nhà cho những người mua tiềm năng. Không biết gì về thực vật, tôi đã yêu cầu nhân viên cửa hàng giúp tôi chọn ra một loại yêu thích địa phương mà sẽ cần rất ít tưới nước thủ công hoặc chăm sóc. Khi hoàn thành, ngôi nhà trông hấp dẫn hơn rất nhiều.\nCảm ơn Pink Begonia Farms vì dịch vụ tuyệt vời của bạn!  — Daphne Weigand\nNgày 15 tháng 4"
+       "vi": "http://www.pinkbegoniafarms.com\nPink Begonia Farms\nPink Begonia Farms là cửa hàng duy nhất cho tất cả các nhu cầu liên quan đến thực vật của bạn. Cho dù bạn là một chuyên gia cảnh quan, một người làm vườn ở sân sau hay một người đam mê trồng cây trong nhà, chúng tôi đều có mọi thứ bạn cần! Một số hạt giống, phân bón và thiết bị có thể được đặt hàng trực tuyến, nhưng vui lòng đến thăm vườn ươm của chúng tôi để có nhiều lựa chọn lớn hơn.\nCơ sở vật chất khá lớn của chúng tôi được chia thành bốn phần riêng biệt như sau:\n* North Gate\n* cây trồng trong nhà, cây nhiệt đới, cây kỳ lạ\n* South Gate\n* cây và các sản phẩm cảnh quan được bán với số lượng lớn với giá bán buôn\n* East Gate\n* cây cảnh địa phương phát triển tốt trong khu vực của chúng tôi và ít cần bảo trì\n* West Gate\n* thảo mộc, cây rau, cây ăn quả và các loại hạt, và các loại thực phẩm ăn được khác\n==========\nChú ý Khách hàng của Pink Begonia Farms!\nChúng tôi sẽ chuyển sang quyền sở hữu mới vào ngày 1 tháng 4. Một số thay đổi khác sẽ theo sau, đáng chú ý nhất là công việc cải tạo sẽ khiến khu vực nơi chúng tôi phục vụ khách hàng đặt hàng số lượng lớn của mình bị đóng cửa từ ngày 1 tháng 4\nđến ngày 5 tháng 5.\nNgoài ra, chúng tôi vui lòng yêu cầu rằng nếu bạn sử dụng giỏ hoặc toa xe của chúng tôi để di chuyển các mặt hàng đã mua vào xe của bạn, vui lòng không để chúng ở giữa khu vực đỗ xe. Cảm ơn!\n==========\nhttp://www.retaileropinion.com/reviews/pinkbegoniafarms\nTôi đã có một trải nghiệm tuyệt vời khi mua sắm tại Pink Begonia Farms. Gần đây tôi đang chuẩn bị bán bất động sản của một khách hàng và tôi cần hoàn thành công việc cảnh quan rộng rãi. Lối vào phía trước cần thêm màu sắc và cây xanh trước khi tôi có thể giới thiệu ngôi nhà cho những người mua tiềm năng. Không biết gì về thực vật, tôi đã yêu cầu nhân viên cửa hàng giúp tôi chọn ra một loại yêu thích địa phương mà sẽ cần rất ít tưới nước thủ công hoặc chăm sóc. Khi hoàn thành, ngôi nhà trông hấp dẫn hơn rất nhiều.\nCảm ơn Pink Begonia Farms vì dịch vụ tuyệt vời của bạn!\nN— Daphne Weigand\nNgày 15 tháng 4"
       }
      ],
      "questions": [

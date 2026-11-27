@@ -3470,7 +3470,7 @@
      ],
      "passages": [
       {
-       "en": "W Hi, Suresh. I'm at the airport waiting for my flight. I want to meet with a potential investor while l'm in Chicago. Her name's Marta Gomez. I can send you her contact information.\nм OK. Which day would you prefer to meet with her?\nW How about right after my meeting with the Chicago staff?\nM OK. By the way, did you see that our company won an award for our contributions to the community? It was just announced this morning.",
+       "en": "W Hi, Suresh. I'm at the airport waiting for my flight. I want to meet with a potential investor while l'm in Chicago. Her name's Marta Gomez. I can send you her contact information.\nM OK. Which day would you prefer to meet with her?\nW How about right after my meeting with the Chicago staff?\nM OK. By the way, did you see that our company won an award for our contributions to the community? It was just announced this morning.",
        "vi": "W Xin chào, Suresh. Tôi đang ở sân bay chờ chuyến bay của tôi. Tôi muốn gặp một nhà đầu tư tiềm năng khi tôi ở Chicago. Tên cô ấy là Marta Gomez. Tôi có thể gửi cho anh thông tin liên hệ của cô ấy.\nM Được. Chị muốn gặp cô ấy vào ngày nào?\nW Ngay sau cuộc họp của tôi với nhân viên Chicago thì sao?\nM Được. Nhân tiện, chị có thấy công ty chúng ta đã giành được giải thưởng vì những đóng góp cho cộng đồng không? Nó vừa được công bố sáng nay."
       }
      ],
@@ -4954,7 +4954,7 @@
         "D": "A travel delay"
        },
        "answer": "D",
-       "explanation": "Đáp án A (Một sự kiện khuyến mãi): Sai - Không liên quan đến khuyến mãi.\nĐáp án B (Một gói nghỉ dưỡng): Sai - Không phải về du lịch nghỉ dưỡng.\nĐáp án C (Cải tạo tòa nhà): Sai - Không phải cải tạo tòa nhà.\nĐáp án D (Trзадержка chuyến đi): Đúng - Đây là nội dung chính của thông báo.\n\nGiải thích chi tiết:\nCâu trả lời được tìm thấy ngay trong câu đầu tiên: \"All trains to Midway Station are delayed for track repairs\" (Tất cả các chuyến tàu đến Ga Midway bị trì hoãn để sửa chữa đường ray).\n\nPhân tích nội dung:\n1. Vấn đề chính: \"trains... are delayed\" (tàu bị trì hoãn)\n2. Nguyên nhân: \"for track repairs\" (để sửa đường ray)\n3. Giải pháp thay thế: \"A bus will be departing\" (Xe buýt sẽ khởi hành)\n4. Thông tin bổ sung: Nơi mua đồ ăn trong lúc chờ\n\nCác chi tiết hỗ trợ:\n- \"We apologize for the delay\" (Chúng tôi xin lỗi về sự chậm trễ) - xác nhận có sự trì hoãn\n- Đề xuất xe buýt thay thế - do tàu bị delay\n- Thông tin về quán ăn - để hành khách chờ đợi\n\nMẹo: Với câu hỏi \"What is... mainly about?\", tìm chủ đề chính xuất hiện ngay đầu thông báo. Từ \"delayed\" là từ khóa quan trọng chỉ ra chủ đề là \"travel delay\".",
+       "explanation": "Đáp án A (Một sự kiện khuyến mãi): Sai - Không liên quan đến khuyến mãi.\nĐáp án B (Một gói nghỉ dưỡng): Sai - Không phải về du lịch nghỉ dưỡng.\nĐáp án C (Cải tạo tòa nhà): Sai - Không phải cải tạo tòa nhà.\nĐáp án D (Chuyến đi bị trì hoãn): Đúng - Đây là nội dung chính của thông báo.\n\nGiải thích chi tiết:\nCâu trả lời được tìm thấy ngay trong câu đầu tiên: \"All trains to Midway Station are delayed for track repairs\" (Tất cả các chuyến tàu đến Ga Midway bị trì hoãn để sửa chữa đường ray).\n\nPhân tích nội dung:\n1. Vấn đề chính: \"trains... are delayed\" (tàu bị trì hoãn)\n2. Nguyên nhân: \"for track repairs\" (để sửa đường ray)\n3. Giải pháp thay thế: \"A bus will be departing\" (Xe buýt sẽ khởi hành)\n4. Thông tin bổ sung: Nơi mua đồ ăn trong lúc chờ\n\nCác chi tiết hỗ trợ:\n- \"We apologize for the delay\" (Chúng tôi xin lỗi về sự chậm trễ) - xác nhận có sự trì hoãn\n- Đề xuất xe buýt thay thế - do tàu bị delay\n- Thông tin về quán ăn - để hành khách chờ đợi\n\nMẹo: Với câu hỏi \"What is... mainly about?\", tìm chủ đề chính xuất hiện ngay đầu thông báo. Từ \"delayed\" là từ khóa quan trọng chỉ ra chủ đề là \"travel delay\".",
        "tags": [],
        "questionVi": "Thông báo chủ yếu về điều gì?",
        "optionNotes": {
@@ -4972,7 +4972,7 @@
         },
         "D": {
          "pos": [],
-         "meaning": "Trзадержка chuyến đi"
+         "meaning": "Chuyến đi bị trì hoãn"
         }
        }
       },
@@ -7166,11 +7166,11 @@
        "options": {
         "A": "along",
         "B": "furthermore",
-        "C": "so that",
-        "D": "cautiously"
+        "C": "cautiously",
+        "D": "so that"
        },
-       "answer": "C",
-       "explanation": "Giải thích:\n- Đáp án đúng: (C) so that\n- Cấu trúc: \"so that + clause\" (để mà) chỉ mục đích.\n- Nghĩa: Giám đốc tài chính đã cho phê duyệt để dự án có thể tiến hành.\n- (A) along (dọc theo) - giới từ, không nối mệnh đề\n- (B) furthermore (hơn nữa) - liên từ nối ý bổ sung, không chỉ mục đích\n- (C) cautiously (một cách thận trọng) - trạng từ, không nối mệnh đề\nMẹo: \"So that\" + mệnh đề (S + V) diễn tả mục đích của hành động.\nDịch: Giám đốc tài chính đã phê duyệt để dự án có thể tiến hành.",
+       "answer": "D",
+       "explanation": "Giải thích:\n- Đáp án đúng: (D) so that\n- Cấu trúc: \"so that + clause\" (để mà) chỉ mục đích.\n- Nghĩa: Giám đốc tài chính đã cho phê duyệt để dự án có thể tiến hành.\n- (A) along (dọc theo) - giới từ, không nối mệnh đề\n- (B) furthermore (hơn nữa) - liên từ nối ý bổ sung, không chỉ mục đích\n- (C) cautiously (một cách thận trọng) - trạng từ, không nối mệnh đề\nMẹo: \"So that\" + mệnh đề (S + V) diễn tả mục đích của hành động.\nDịch: Giám đốc tài chính đã phê duyệt để dự án có thể tiến hành.",
        "tags": [
         "prep-conj"
        ],
@@ -7191,7 +7191,7 @@
          "pos": [
           "adv"
          ],
-         "meaning": "cautiously"
+         "meaning": "một cách thận trọng"
         },
         "D": {
          "pos": [
@@ -8413,7 +8413,7 @@
         "D": "Consequently"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B \"For instance\" (Ví dụ) vì câu sau đó liệt kê các hoạt động cụ thể có thể làm trên cổng thông tin.\n\nPhân tích từng đáp án:\n- A \"To repeat\" (Để lặp lại) - sai vì không phải đang lặp lại thông tin đã nói.\n- B \"For instance\" (Ví dụ) - ĐÚNG vì giới thiệu các ví dụ cụ thể về \"various activities\" (nhiều hoạt động khác nhau).\n- C \"Otherwise\" (Nếu không thì) - sai vì không có ý đối lập hoặc lựa chọn thay thế.\n- D \"Consequently\" (Do đó, Kết quả là) - sai vì không có mối quan hệ nhân quả ở đây.\n\nNgữ pháp: \"For instance\" là cụm từ nối (transition phrase) dùng để giới thiệu ví dụ minh họa, thường đứng đầu câu và có dấu phзапятая phía sau.\n\nTừ vựng: \"for instance\" (ví dụ), \"various activities\" (nhiều hoạt động khác nhau).\n\nMẹo: Khi thấy câu tổng quát theo sau là danh sách cụ thể (make appointments, view medical history, etc.), nghĩ đến các từ nối như \"for instance\", \"for example\", \"such as\".",
+       "explanation": "Đáp án đúng là B \"For instance\" (Ví dụ) vì câu sau đó liệt kê các hoạt động cụ thể có thể làm trên cổng thông tin.\n\nPhân tích từng đáp án:\n- A \"To repeat\" (Để lặp lại) - sai vì không phải đang lặp lại thông tin đã nói.\n- B \"For instance\" (Ví dụ) - ĐÚNG vì giới thiệu các ví dụ cụ thể về \"various activities\" (nhiều hoạt động khác nhau).\n- C \"Otherwise\" (Nếu không thì) - sai vì không có ý đối lập hoặc lựa chọn thay thế.\n- D \"Consequently\" (Do đó, Kết quả là) - sai vì không có mối quan hệ nhân quả ở đây.\n\nNgữ pháp: \"For instance\" là cụm từ nối (transition phrase) dùng để giới thiệu ví dụ minh họa, thường đứng đầu câu và có dấu phẩy phía sau.\n\nTừ vựng: \"for instance\" (ví dụ), \"various activities\" (nhiều hoạt động khác nhau).\n\nMẹo: Khi thấy câu tổng quát theo sau là danh sách cụ thể (make appointments, view medical history, etc.), nghĩ đến các từ nối như \"for instance\", \"for example\", \"such as\".",
        "tags": [],
        "optionNotes": {
         "A": {
@@ -8980,33 +8980,16 @@
        "part": 7,
        "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"You can see a full list of specifications on our Web site.\"",
        "options": {
-        "A": "(A) [1]",
-        "B": "(B) [2]",
-        "C": "(C) [3]",
-        "D": "(D) [4]"
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
        },
        "answer": "B",
-       "explanation": "Đáp án đúng là B - vị trí [2].\nDẫn chứng: Câu cần chèn \"You can see a full list of specifications on our Web site\" (Bạn có thể xem danh sách đầy đủ các thông số kỹ thuật trên trang web của chúng tôi) nên đặt sau câu mô tả các tính năng của Belter BTR-1483.\nVị trí [2] nằm sau: \"Like the Makatasi model you ordered, the Belter BTR-1483 has a 120 mm aperture and a retractable lens hood.\" Đây là nơi logic để bổ sung: nếu khách hàng muốn biết thêm thông số kỹ thuật, họ có thể xem trên website.\nCấu trúc:\n- Câu chèn nói về \"specifications\" (thông số kỹ thuật)\n- Vị trí [2] sau khi giới thiệu tính năng cơ bản (aperture, lens hood)\n- Logic: giới thiệu tính năng → mời xem thêm chi tiết\nMẹo: Câu có \"full list of specifications\" nên đặt sau khi đã liệt kê một vài thông số, để người đọc muốn biết thêm có thể vào website.",
+       "explanation": "Đáp án đúng là B - vị trí [2].\nDẫn chứng: Câu cần chèn \"You can see a full list of specifications on our Web site\" (Bạn có thể xem danh sách đầy đủ các thông số kỹ thuật trên trang web của chúng tôi) nên đặt sau câu mô tả các tính năng của Belter BTR-1483.\nVị trí [2] nằm sau: \"Like the Makatasi model you ordered, the Belter BTR-1483 has a 120 mm aperture and a retractable lens hood.\" Đây là nơi logic để bổ sung: nếu khách hàng muốn biết thêm thông số kỹ thuật, họ có thể xem trên website.\nCấu trúc:\n- Câu chèn nói về \"specifications\" (thông số kỹ thuật)\n- Vị trí [2] sau khi giới thiệu tính năng cơ bản (aperture, lens hood)\n- Logic: giới thiệu tính năng → mời xem thêm chi tiết\nMẹo: Câu có \"full list of specifications\" nên đặt sau khi đã liệt kê một vài thông số, để người đọc muốn biết thêm có thể vào website.\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào được đánh dấu [1], [2], [3] và [4]? \"Bạn có thể xem danh sách đầy đủ các thông số kỹ thuật trên trang web của chúng tôi.",
-       "optionNotes": {
-        "A": {
-         "pos": [],
-         "meaning": "[1]"
-        },
-        "B": {
-         "pos": [],
-         "meaning": "[2]"
-        },
-        "C": {
-         "pos": [],
-         "meaning": "[3]"
-        },
-        "D": {
-         "pos": [],
-         "meaning": "[4]"
-        }
-       },
+       "optionNotes": {},
        "evidence": [
         "Like the Makatasi model you ordered, the Belter BTR-1483 has a 120 mm aperture and a retractable lens hood"
        ]
@@ -9604,33 +9587,16 @@
        "part": 7,
        "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"During repairs, some additional dining space was added.\"",
        "options": {
-        "A": "(A) [1]",
-        "B": "(B) [2]",
-        "C": "(C) [3]",
-        "D": "(D) [4]"
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
        },
        "answer": "A",
-       "explanation": "Đáp án đúng là A - vị trí [1].\nDẫn chứng: Câu cần chèn \"During repairs, some additional dining space was added\" (Trong quá trình sửa chữa, một số không gian ăn uống bổ sung đã được thêm vào) nên đặt sau câu \"A significant amount of work needed to be done in the kitchen and dining areas.\"\nVị trí [1] nằm ngay sau câu nói về công việc cần làm ở khu vực nhà bếp và phòng ăn, và trước câu \"The restaurant will accommodate larger parties\" (Nhà hàng sẽ phục vụ các nhóm lớn hơn). Logic: công việc sửa chữa → thêm không gian → có thể phục vụ nhóm lớn hơn.\nCấu trúc:\n- \"During repairs\" (trong quá trình sửa chữa) kết nối với câu trước về công việc cần làm\n- \"additional dining space\" giải thích tại sao \"accommodate larger parties\"\nMẹo: Câu chèn về việc thêm không gian nên nằm giữa câu về sửa chữa và câu về phục vụ nhóm lớn hơn, tạo mạch logic.",
+       "explanation": "Đáp án đúng là A - vị trí [1].\nDẫn chứng: Câu cần chèn \"During repairs, some additional dining space was added\" (Trong quá trình sửa chữa, một số không gian ăn uống bổ sung đã được thêm vào) nên đặt sau câu \"A significant amount of work needed to be done in the kitchen and dining areas.\"\nVị trí [1] nằm ngay sau câu nói về công việc cần làm ở khu vực nhà bếp và phòng ăn, và trước câu \"The restaurant will accommodate larger parties\" (Nhà hàng sẽ phục vụ các nhóm lớn hơn). Logic: công việc sửa chữa → thêm không gian → có thể phục vụ nhóm lớn hơn.\nCấu trúc:\n- \"During repairs\" (trong quá trình sửa chữa) kết nối với câu trước về công việc cần làm\n- \"additional dining space\" giải thích tại sao \"accommodate larger parties\"\nMẹo: Câu chèn về việc thêm không gian nên nằm giữa câu về sửa chữa và câu về phục vụ nhóm lớn hơn, tạo mạch logic.\n(A) [1]\n(B) [2]\n(C) [3]\n(D) [4]",
        "tags": [],
        "questionVi": "Câu sau đây phù hợp nhất ở vị trí nào được đánh dấu [1], [2], [3] và [4]? \"Trong quá trình sửa chữa, một số không gian ăn uống bổ sung đã được thêm vào.",
-       "optionNotes": {
-        "A": {
-         "pos": [],
-         "meaning": "[1]"
-        },
-        "B": {
-         "pos": [],
-         "meaning": "[2]"
-        },
-        "C": {
-         "pos": [],
-         "meaning": "[3]"
-        },
-        "D": {
-         "pos": [],
-         "meaning": "[4]"
-        }
-       },
+       "optionNotes": {},
        "evidence": [
         "A significant amount of work needed to be done in the kitchen and dining areas",
         "The restaurant will accommodate larger parties",
@@ -10512,7 +10478,7 @@
      "passages": [
       {
        "en": "",
-       "vi": "Đến: Omar Balaji <obalaji@darbourycompany.com>\nTừ: Juanita Pereira <jpereira@bunbunbooks.com>\nNgày: 10 tháng 5\nChủ đề: Hỏi về sổ tay\nKính gửi ông Balaji,\nChúng tôi đang mở rộng khu vực văn phòng phẩm của chúng tôi tại Bun Bun Books và muốn cung cấp một lựa chọn các sổ tay trắng với các trang có kẻ dòng. Chúng tôi muốn sự giúp đỡ của bạn trong việc tạo các thiết kế bìa sau.\n\n[Bảng]\nTên Thiết Kế Bìa | Hình Ảnh Trung Tâm | Màu Nền\nSuy Nghĩ Tuyệt Vời | Biểu tượng bóng đèn, tia chớp và ngôi sao | Xanh dương\nVali Thế Giới | Vali với nhãn dán du lịch tên quốc gia | Đen\nBó Hoa Oải Hương | Bó lớn hoa oải hương trên thân cây cao màu xanh lá nhạt | Vàng\nThuyền Buồm Ra Khơi | Mặt trời lặn trên bầu trời phía trên một chiếc thuyền buồm trên hồ | Trắng\n\nChúng tôi cần có sổ tay trong kho kịp thời cho đợt giảm giá hàng năm của chúng tôi bắt đầu vào ngày 1 tháng 8. Sau khi phê duyệt các bìa mẫu, khi nào chúng tôi cần đặt hàng?\nCảm ơn bạn,\nJuanita Pereira/n=====/nĐến: Juanita Pereira <jpereira@bunbunbooks.com>\nTừ: Omar Balaji <obalaji@darbourycompany.com>\nNgày: 25 tháng 5\nChủ đề: Re: Hỏi về sổ tay\nXin chào, Ms. Pereira,\nTôi đã gửi một số bìa sổ tay mẫu để bạn kiểm tra. Thật không may, tôi không thể bao gồm một trong các thiết kế để bạn phê duyệt vì nó cần thay đổi ở giai đoạn cuối đối với màu nền. Nghệ thuật nhãn dán không hiển thị tốt trên nền đen gốc. Chúng tôi đang thử nghiệm màu be nhạt, và tôi sẽ gửi bìa mẫu cập nhật cho bạn sau khi nó được phê duyệt nội bộ.\nTôi sẽ có mẫu cuối cùng cho bạn vào cuối tuần này. Miễn là bạn gửi sự phê duyệt của tất cả các bìa trước ngày 11 tháng 6, chúng tôi sẽ có thể gửi toàn bộ đơn hàng sổ tay đóng bìa của bạn trước ngày 20 tháng 7. Bạn sẽ có mọi thứ trước đợt giảm giá của bạn bắt đầu vào ngày 1 tháng 8. Vui lòng liên hệ với tôi nếu bạn có bất kỳ câu hỏi nào.\nTrân trọng,\nOmar Balaji, Darboury Company/n=====/nBiểu Mẫu Đặt Hàng Darboury Company\n\nKhách hàng: Bun Bun Books\nGửi trước: 15 tháng 7\nPhương thức gửi hàng: Tiêu chuẩn\nNgày giao hàng yêu cầu: 20 tháng 7\n\n[Bảng]\nMã sản phẩm | Mô Tả Sản Phẩm | Thiết Kế Bìa | Số Lượng\nN3-GT | Sổ tay lò xo cỡ tiêu chuẩn | Suy Nghĩ Tuyệt Vời | 200\nN3-WS | Sổ tay lò xo cỡ tiêu chuẩn | Vali Thế Giới | 200\nH3-LB | Sổ tay nhật ký bìa cứng nhỏ | Bó Hoa Oải Hương | 150\nH3-SA | Sổ tay nhật ký bìa cứng nhỏ | Thuyền Buồm Ra Khơi | 150\nD1 | Giá trưng bày kim loại lớn (giữ sổ tay lò xo cỡ tiêu chuẩn) | — | 1"
+       "vi": "Đến: Omar Balaji <obalaji@darbourycompany.com>\nTừ: Juanita Pereira <jpereira@bunbunbooks.com>\nNgày: 10 tháng 5\nChủ đề: Hỏi về sổ tay\nKính gửi ông Balaji,\nChúng tôi đang mở rộng khu vực văn phòng phẩm của chúng tôi tại Bun Bun Books và muốn cung cấp một lựa chọn các sổ tay trắng với các trang có kẻ dòng. Chúng tôi muốn sự giúp đỡ của bạn trong việc tạo các thiết kế bìa sau.\n\n[Bảng]\nTên Thiết Kế Bìa | Hình Ảnh Trung Tâm | Màu Nền\nSuy Nghĩ Tuyệt Vời | Biểu tượng bóng đèn, tia chớp và ngôi sao | Xanh dương\nVali Thế Giới | Vali với nhãn dán du lịch tên quốc gia | Đen\nBó Hoa Oải Hương | Bó lớn hoa oải hương trên thân cây cao màu xanh lá nhạt | Vàng\nThuyền Buồm Ra Khơi | Mặt trời lặn trên bầu trời phía trên một chiếc thuyền buồm trên hồ | Trắng\n\nChúng tôi cần có sổ tay trong kho kịp thời cho đợt giảm giá hàng năm của chúng tôi bắt đầu vào ngày 1 tháng 8. Sau khi phê duyệt các bìa mẫu, khi nào chúng tôi cần đặt hàng?\nCảm ơn bạn,\nJuanita Pereira\n==========\nĐến: Juanita Pereira <jpereira@bunbunbooks.com>\nTừ: Omar Balaji <obalaji@darbourycompany.com>\nNgày: 25 tháng 5\nChủ đề: Re: Hỏi về sổ tay\nXin chào, Ms. Pereira,\nTôi đã gửi một số bìa sổ tay mẫu để bạn kiểm tra. Thật không may, tôi không thể bao gồm một trong các thiết kế để bạn phê duyệt vì nó cần thay đổi ở giai đoạn cuối đối với màu nền. Nghệ thuật nhãn dán không hiển thị tốt trên nền đen gốc. Chúng tôi đang thử nghiệm màu be nhạt, và tôi sẽ gửi bìa mẫu cập nhật cho bạn sau khi nó được phê duyệt nội bộ.\nTôi sẽ có mẫu cuối cùng cho bạn vào cuối tuần này. Miễn là bạn gửi sự phê duyệt của tất cả các bìa trước ngày 11 tháng 6, chúng tôi sẽ có thể gửi toàn bộ đơn hàng sổ tay đóng bìa của bạn trước ngày 20 tháng 7. Bạn sẽ có mọi thứ trước đợt giảm giá của bạn bắt đầu vào ngày 1 tháng 8. Vui lòng liên hệ với tôi nếu bạn có bất kỳ câu hỏi nào.\nTrân trọng,\nOmar Balaji, Darboury Company\n==========\nBiểu Mẫu Đặt Hàng Darboury Company\n\nKhách hàng: Bun Bun Books\nGửi trước: 15 tháng 7\nPhương thức gửi hàng: Tiêu chuẩn\nNgày giao hàng yêu cầu: 20 tháng 7\n\n[Bảng]\nMã sản phẩm | Mô Tả Sản Phẩm | Thiết Kế Bìa | Số Lượng\nN3-GT | Sổ tay lò xo cỡ tiêu chuẩn | Suy Nghĩ Tuyệt Vời | 200\nN3-WS | Sổ tay lò xo cỡ tiêu chuẩn | Vali Thế Giới | 200\nH3-LB | Sổ tay nhật ký bìa cứng nhỏ | Bó Hoa Oải Hương | 150\nH3-SA | Sổ tay nhật ký bìa cứng nhỏ | Thuyền Buồm Ra Khơi | 150\nD1 | Giá trưng bày kim loại lớn (giữ sổ tay lò xo cỡ tiêu chuẩn) | — | 1"
       }
      ],
      "questions": [

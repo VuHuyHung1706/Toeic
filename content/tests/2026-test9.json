@@ -7605,18 +7605,26 @@
        "part": 6,
        "question": "",
        "options": {
-        "A": "Then use a soft brush or sponge to finish cleaning.",
+        "A": "Then, use a soft brush or sponge to finish cleaning.",
         "B": "Cleaning utensils must be purchased separately.",
-        "C": "Finally place the cooker back in its box.",
+        "C": "Finally, place the cooker back in its box.",
         "D": "A light will go on when the rice is cooked."
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A \"Then, use a soft brush or sponge to finish cleaning\" (Sau đó, sử dụng bàn chải mềm hoặc bọt biển để hoàn tất việc vệ sinh) vì tiếp tục hướng dẫn vệ sinh sau bước ngâm nồi.\n\nPhân tích từng đáp án:\n- A \"Then, use a soft brush or sponge to finish cleaning\" (Sau đó, sử dụng bàn chải mềm hoặc bọt biển để hoàn tất việc vệ sinh) - ĐÚNG vì bước tiếp theo sau khi ngâm là chà rửa.\n- B \"Cleaning utensils must be purchased separately\" (Dụng cụ vệ sinh phải được mua riêng) - sai vì không liên quan đến quy trình vệ sinh.\n- C \"Finally, place the cooker back in its box\" (Cuối cùng, đặt nồi cơm trở lại hộp) - sai vì chưa hoàn tất vệ sinh.\n- D \"A light will go on when the rice is cooked\" (Đèn sẽ bật khi cơm chín) - sai vì không liên quan đến vệ sinh.\n\nNgữ pháp: \"Then\" (sau đó) là trạng từ chỉ trình tự, giới thiệu bước tiếp theo.\n\nMẹo: Câu trước nói \"soak... for ten minutes\" (ngâm 10 phút), câu sau phải là bước tiếp theo: chà rửa.",
        "tags": [],
        "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Sau đó, sử dụng bàn chải mềm hoặc bọt biển để hoàn tất việc vệ sinh"
+        },
         "B": {
          "pos": [],
          "meaning": "Dụng cụ vệ sinh phải được mua riêng"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Cuối cùng, đặt nồi cơm trở lại hộp"
         },
         "D": {
          "pos": [],
@@ -7752,18 +7760,26 @@
        "part": 6,
        "question": "",
        "options": {
-        "A": "Nonetheless they all give an impression of trustworthiness and precision.",
+        "A": "Nonetheless, they all give an impression of trustworthiness and precision.",
         "B": "Those companies have logos that are very memorable.",
-        "C": "Even so designing a logo can be a costly process.",
+        "C": "Even so, designing a logo can be a costly process.",
         "D": "I recommend using fewer colors than were initially requested."
        },
        "answer": "A",
        "explanation": "Đáp án đúng là A \"Nonetheless, they all give an impression of trustworthiness and precision\" (Tuy nhiên, tất cả đều tạo ấn tượng đáng tin cậy và chính xác) vì mặc dù khác nhau về phong cách nhưng đều đạt mục tiêu chung.\n\nPhân tích từng đáp án:\n- A \"Nonetheless, they all give an impression of trustworthiness and precision\" (Tuy nhiên, tất cả đều tạo ấn tượng đáng tin cậy và chính xác) - ĐÚNG vì chỉ ra điểm chung của tất cả các thiết kế.\n- B \"Those companies have logos that are very memorable\" (Những công ty đó có logo rất đáng nhớ) - sai vì không có \"công ty đó\" nào được nhắc đến.\n- C \"Even so, designing a logo can be a costly process\" (Dù vậy, thiết kế logo có thể là quá trình tốn kém) - sai vì không liên quan đến các bản phác thảo.\n- D \"I recommend using fewer colors than were initially requested\" (Tôi khuyên dùng ít màu hơn so với yêu cầu ban đầu) - sai vì chưa có đề xuất cụ thể về màu sắc.\n\nNgữ pháp: \"Nonetheless\" (tuy nhiên) là trạng từ liên kết chỉ sự đối lập nhẹ. \"They\" tham chiếu đến \"five sketches\".\n\nMẹo: Câu trước mô tả sự khác biệt (classic vs minimalist), \"nonetheless\" giới thiệu điểm chung của tất cả.",
        "tags": [],
        "optionNotes": {
+        "A": {
+         "pos": [],
+         "meaning": "Tuy nhiên, tất cả đều tạo ấn tượng đáng tin cậy và chính xác"
+        },
         "B": {
          "pos": [],
          "meaning": "Những công ty đó có logo rất đáng nhớ"
+        },
+        "C": {
+         "pos": [],
+         "meaning": "Dù vậy, thiết kế logo có thể là quá trình tốn kém"
         },
         "D": {
          "pos": [],
@@ -8030,7 +8046,7 @@
       {
        "number": 148,
        "part": 7,
-       "question": "According to the invitation; what will happen at the event?",
+       "question": "According to the invitation, what will happen at the event?",
        "options": {
         "A": "Refreshments will be served.",
         "B": "The president will give a speech.",
@@ -8235,7 +8251,7 @@
       {
        "number": 152,
        "part": 7,
-       "question": "At 9:36 A.M.; what does Mr. Dakers most likely mean when he writes; \"But I need to get to the office soon\"?",
+       "question": "At 9:36 A.M., what does Mr. Dakers most likely mean when he writes, \"But I need to get to the office soon\"?",
        "options": {
         "A": "He has a question for his supervisor.",
         "B": "He lives far away from his office.",
@@ -8295,7 +8311,7 @@
       {
        "number": 153,
        "part": 7,
-       "question": "The word \"ordinarily\" in paragraph 1; line 1; is closest in meaning to",
+       "question": "The word \"ordinarily\" in paragraph 1, line 1, is closest in meaning to",
        "options": {
         "A": "dully",
         "B": "typically",
@@ -8812,7 +8828,7 @@
       {
        "number": 164,
        "part": 7,
-       "question": "In which of the positions marked [1]; [2]; [3]; and [4] does the following sentence best belong? \"You might explain; for instance; how a person you respect had a positive impact on your life.\"",
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"You might explain, for instance, how a person you respect had a positive impact on your life.\"",
        "options": {
         "A": "[1]",
         "B": "[2]",
@@ -8979,7 +8995,7 @@
       {
        "number": 168,
        "part": 7,
-       "question": "At 8:18 A.M.; what does Ms. Jeon most likely mean when she writes; \"I'll be there by 12:30\"?",
+       "question": "At 8:18 A.M., what does Ms. Jeon most likely mean when she writes, \"I'll be there by 12:30\"?",
        "options": {
         "A": "She is leaving a site now.",
         "B": "She has to inspect another bridge.",
@@ -9311,7 +9327,7 @@
       {
        "number": 175,
        "part": 7,
-       "question": "In which of the positions marked [1]; [2]; [3]; and [4] does the following sentence best belong? \"Visitors will now be able to choose topics they want to learn more about.\"",
+       "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Visitors will now be able to choose topics they want to learn more about.\"",
        "options": {
         "A": "[1]",
         "B": "[2]",
@@ -9620,7 +9636,7 @@
       {
        "number": 182,
        "part": 7,
-       "question": "According to the Web page; what do the special services have in common?",
+       "question": "According to the Web page, what do the special services have in common?",
        "options": {
         "A": "Supervised work teams",
         "B": "Affordable long-term contracts",
@@ -9741,7 +9757,7 @@
       {
        "number": 185,
        "part": 7,
-       "question": "In the online review; the word \"just\" in paragraph 2; line 2; is closest in meaning to",
+       "question": "In the online review, the word \"just\" in paragraph 2, line 2, is closest in meaning to",
        "options": {
         "A": "directly",
         "B": "exactly",
@@ -10070,9 +10086,9 @@
        "question": "Who most likely is Mr. Aurinen?",
        "options": {
         "A": "A student at Northburg University",
-        "B": "A sales agent from Zelehost; Inc.",
+        "B": "A sales agent from Zelehost, Inc.",
         "C": "A client of Dorfax Industries",
-        "D": "An administrative assistant at Edwil Durables; Inc."
+        "D": "An administrative assistant at Edwil Durables, Inc."
        },
        "answer": "D",
        "explanation": "**Phân tích đáp án:**\n\nĐáp án đúng là **(D) An administrative assistant at Edwil Durables, Inc.** (Trợ lý hành chính tại Edwil Durables, Inc.).\n\n**Dẫn chứng từ văn bản:**\n\n**1. Email gửi đến Mr. Aurinen:**\nTo: Max Aurinen <maurinen@edwildurables.com>\nFrom: Jessica Seung (Human Resources Director)\n\n→ Mr. Aurinen có email @edwildurables.com → Là NHÂN VIÊN của Edwil Durables\n\n**2. Nội dung yêu cầu:**\n\"Please prepare his initial onboarding paperwork and arrange a schedule for his first two weeks...\"\n\nDịch: \"Vui lòng chuẩn bị giấy tờ hội nhập ban đầu và sắp xếp lịch trình cho hai tuần đầu tiên...\"\n\n→ Mr. Aurinen được YÊU CẦU:\n- Chuẩn bị giấy tờ (paperwork)\n- Sắp xếp lịch trình (arrange a schedule)\n\n**3. Lịch trình được tạo:**\nOnboarding Schedule for David Rein được tạo ra sau email này\n\n→ Mr. Aurinen là người THỰC HIỆN công việc hành chính (chuẩn bị giấy tờ, lịch trình) = administrative assistant\n\n**Phân tích các đáp án sai:**\n\n- **(A) A student at Northburg University** (Sinh viên tại Đại học Northburg): SAI vì:\n  - Mr. REIN là sinh viên tốt nghiệp Northburg (\"Mr. Rein is a graduate of Northburg University\")\n  - Mr. Aurinen có email công ty, không phải sinh viên\n\n- **(B) A sales agent from Zelehost, Inc.** (Đại diện bán hàng từ Zelehost, Inc.): SAI vì:\n  - Mr. REIN đã làm việc tại Zelehost (\"has worked at Zelehost, Inc.\")\n  - Mr. Aurinen có email @edwildurables.com\n\n- **(C) A client of Dorfax Industries** (Khách hàng của Dorfax Industries): SAI vì:\n  - Mr. Aurinen là NHÂN VIÊN của Edwil Durables\n  - Dorfax là nơi Mr. Rein đã làm việc trước đây\n\n**Từ vựng quan trọng:**\n- Most likely: Rất có thể\n- Administrative assistant: Trợ lý hành chính\n- Prepare paperwork: Chuẩn bị giấy tờ\n- Arrange a schedule: Sắp xếp lịch trình\n- Onboarding: Hội nhập\n- Student: Sinh viên\n- Sales agent: Đại diện bán hàng\n- Client: Khách hàng\n\n**Ngữ pháp:**\n- \"Who most likely is...\": Câu hỏi suy luận về DANH TÍNH\n\n**Mẹo làm bài:**\nĐể xác định vai trò của người nhận email:\n1. Kiểm tra ĐỊA CHỈ EMAIL (domain)\n2. Xem CÔNG VIỆC được giao\n3. Suy luận VAI TRÒ/CHỨC VỤ\n\nTrong trường hợp này:\n- Email: @edwildurables.com → Nhân viên\n- Công việc: Chuẩn bị giấy tờ, sắp xếp lịch → Hành chính\n→ Administrative assistant\n\n**Dịch câu hỏi và đáp án:**",
@@ -10294,7 +10310,7 @@
       {
        "number": 197,
        "part": 7,
-       "question": "According to the Web page; what is one thing people wishing to become drone pilots must do?",
+       "question": "According to the Web page, what is one thing people wishing to become drone pilots must do?",
        "options": {
         "A": "Call the association's office",
         "B": "Take a test online",
@@ -10334,7 +10350,7 @@
       {
        "number": 198,
        "part": 7,
-       "question": "According to the work order; why did Lunsklip Construction request a video?",
+       "question": "According to the work order, why did Lunsklip Construction request a video?",
        "options": {
         "A": "To show progress on a project",
         "B": "To conduct a safety inspection",
