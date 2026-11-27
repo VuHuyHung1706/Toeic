@@ -443,6 +443,16 @@ export async function forgetAccount() {
   setAccount(null);
 }
 
+/** Tài khoản vừa bị xoá: bỏ luôn bản sao dữ liệu và hàng đợi chưa gửi (không gửi lên server nữa). */
+export function discardAccount() {
+  const acc = account;
+  if (!acc) return;
+  const prefix = prefixFor(acc);
+  for (const k of safeKeys()) if (k.startsWith(prefix)) safeSet(k, null);
+  queue = [];
+  setAccount(null);
+}
+
 if (typeof window !== "undefined") {
   // rời trang / ẩn tab → gửi ngay phần còn lại; quay lại tab → kéo dữ liệu mới (vd vừa học trên điện thoại)
   document.addEventListener("visibilitychange", () => {

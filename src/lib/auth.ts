@@ -31,6 +31,10 @@ function makeAuth(db: DB) {
       },
     }),
     emailAndPassword: { enabled: true, minPasswordLength: 8, maxPasswordLength: 128, autoSignIn: true },
+    // trang cá nhân (/account): xoá tài khoản (cần mật khẩu). Không cho đổi email (chưa có dịch vụ gửi email để xác minh).
+    user: { deleteUser: { enabled: true } },
+    // /change-email không hỏi mật khẩu → chặn hẳn đường gọi trực tiếp (tính năng cũng đang tắt)
+    disabledPaths: ["/change-email"],
     session: {
       expiresIn: 60 * 60 * 24 * 30, // 30 ngày
       // giữ phiên trong cookie đã ký 5 phút → ít truy vấn CSDL (gói free giới hạn kết nối)
@@ -46,6 +50,9 @@ function makeAuth(db: DB) {
       customRules: {
         "/sign-in/email": { window: 60, max: 5 },
         "/sign-up/email": { window: 3600, max: 5 },
+        // đổi mật khẩu / xoá tài khoản cũng thử mật khẩu → giới hạn như đăng nhập
+        "/change-password": { window: 600, max: 5 },
+        "/delete-user": { window: 600, max: 5 },
       },
     },
     telemetry: { enabled: false },

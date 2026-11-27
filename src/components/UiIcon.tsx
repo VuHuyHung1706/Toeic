@@ -55,6 +55,13 @@ const PATHS = {
       />
     </>
   ),
+  lock: (
+    <>
+      <rect {...s} x="5" y="11" width="14" height="10" rx="2" />
+      <path {...s} d="M8 11V7a4 4 0 0 1 8 0v4" />
+    </>
+  ),
+  logout: <path {...s} d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3M10 17l-5-5 5-5M5 12h11" />,
   /** danh sách câu hỏi (lưới ô) */
   grid: <path {...s} d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z" />,
   expand: <path {...s} d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />,

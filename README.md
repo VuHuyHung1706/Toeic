@@ -64,6 +64,7 @@ npm run lint && npx tsc --noEmit && npm run build
 | `/mistakes` | Sổ câu sai: gom câu sai từ mọi nguồn, hẹn ôn lại 1 → 3 → 7 ngày tới khi thuộc |
 | `/history` | Tiến độ: điểm dự đoán, biểu đồ điểm thi thử, tỉ lệ đúng theo part, lịch học 16 tuần, lịch sử làm bài |
 | `/login` | Đăng nhập / tạo tài khoản bằng email + mật khẩu; lần đầu hỏi chuyển dữ liệu khách vào tài khoản |
+| Menu tài khoản | **Trang cá nhân** (bảng nổi): sửa tên + màu ảnh đại diện, xem / đăng xuất thiết bị đang đăng nhập, xoá tài khoản · **Đổi mật khẩu** (bảng nổi) |
 | `/api/tests/[id]`, `/api/bank/[part]/[tag]` | JSON đề / ngân hàng câu theo dạng (prerender sẵn) cho các trang phía client |
 | `/api/me/sync` | `GET` toàn bộ dữ liệu học của người đang đăng nhập, `POST {ops}` ghi thay đổi |
 
